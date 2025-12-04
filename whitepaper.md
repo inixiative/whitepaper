@@ -189,16 +189,35 @@ This is a darker and more fundamental diagnosis than mere institutional failure.
 
 **Application to governance:** A cooperative society must structurally create **low-competition lanes**—domains where cooperation is rewarded more than competition, where status is not purely positional, where prosocial behavior doesn't make you evolutionary unfit. This requires fighting against biological equilibria, not just social ones. Section 3.1 (Make Cooperation Cheap) and the resource allocation mechanisms in Section 4.7 are designed to artificially maintain cooperation-favoring conditions even at scale—essentially hacking around the evolutionary collapse trigger.
 
-### 1.3 Jiang — Death by Meritocracy
+### 1.3 Jiang — Death by Meritocracy & Death by Bureaucracy
 
-- Meritocracy as a wealth pump
-- Institutional signaling arms races
-- Credential inflation → elite bloating → sclerosis
-- Why cooperation incentives collapse under meritocratic competition
-- **Bureaucratic empire-building:** Bureaucrats hire others to increase their power, status, and budget security
-- **Productivity paradox:** More administrators = lower productivity (coordination costs > execution gains)
-- **Ratchet effect:** Bureaucracies never shrink voluntarily; each layer creates demand for more layers
-- **Relevance to ACGP:** Need structural mechanisms to prevent bureaucratic metastasis and enforce thin administration
+In two complementary YouTube lectures on his Predictive History channel—"Death by Meritocracy" (September 2020) and "Death by Bureaucracy" (October 2020)—Professor Jiang presents a unified diagnosis of institutional failure in modern democracies. Teaching high school students in Beijing, he traces how meritocratic systems create the conditions for bureaucratic metastasis, ultimately strangling the societies they claim to serve.
+
+**Meritocracy as institutional power consolidation:** The narrative begins with Harvard. In *The Chosen: The Hidden History of Admission and Exclusion at Harvard, Yale, and Princeton*, Jerome Karabel documents how elite universities function not as merit-neutral selectors but as gatekeepers deliberately consolidating power. Harvard created the modern meritocracy for its own benefit—not to discover talent, but to control who becomes elite. The result: Harvard's endowment has skyrocketed while American democracy, social mobility, and political unity have declined. Elite institutions extract wealth from society while producing a credentialed class that serves the institution's interests rather than public welfare.
+
+The meritocracy isn't about fairness—it's about control. A small number of institutions determine who enters the elite class. They set the criteria. They define what counts as "merit." And conveniently, the criteria they set happen to favor those already connected to elite institutions. Legacy admissions, donor preferences, and "holistic" evaluations ensure that elite reproduction continues under the guise of meritocracy. As William Deresiewicz documents in *Excellent Sheep: The Miseducation of the American Elite*, these institutions have become profoundly anti-intellectual, optimizing for credential production and status signaling rather than genuine education or discovery.
+
+**The signaling arms race and credential inflation:** Once gatekeeping institutions establish control, rational individuals respond by over-investing in credentials. If Harvard determines who becomes elite, then getting into Harvard becomes the goal—not learning, not contribution, just the credential. This creates a signaling arms race: everyone competes to acquire the markers that institutions have deemed valuable. High school students sacrifice childhood to résumé-building. Parents spend hundreds of thousands on SAT tutoring, college consultants, and extracurriculars designed to signal "well-rounded excellence."
+
+The predictable result is credential inflation. When everyone has a bachelor's degree, it loses signaling value, so everyone needs a master's. When everyone has a master's, everyone needs a PhD. Job postings for entry-level positions demand advanced degrees and years of experience. The credentials required for the same role increase over time while the actual work remains unchanged. Society invests exponentially more in credentialing while receiving the same or diminishing returns in productivity.
+
+This is Turchin's elite overproduction mechanism in action: we produce far more credentialed elite aspirants than there are elite positions. The frustrated aspirants—lawyers without clients, PhDs without tenure, MBAs without executive roles—become a destabilizing force. They have the skills to organize and the motivation to challenge existing power structures. Meanwhile, incumbent elites become defensive, using regulatory capture to protect their positions. Institutions ossify as they serve elite interests rather than public welfare.
+
+**Bureaucratic empire-building:** Here's where meritocracy transforms into bureaucracy. Drawing on Hannah Arendt's *The Origins of Totalitarianism*, Kafka's *The Trial*, and James C. Scott's *Seeing Like a State*, Jiang shows how credentialed elites create the structures that justify their existence. If you have hundreds of MBAs and no productive roles for them, what do they do? They create administrative positions. They generate process. They build bureaucracy.
+
+**Bureaucratic empire-building** becomes the dominant strategy: bureaucrats hire subordinates to increase their own power, status, and budget security. A manager with ten direct reports has more prestige and job security than one with three. Each layer of administration creates demand for more layers—someone to coordinate the coordinators, someone to manage the managers, someone to assess the assessors. As Michael Zanini documents on his Substack (Jiang acknowledges relying heavily on Zanini's work), this pattern is visible across institutions: universities, hospitals, government agencies, corporations.
+
+The Swedish higher education case study is illustrative: administrative staff has ballooned while faculty has stayed flat or shrunk. More administrators correlates with declining educational quality, not improving it. Each administrator adds process, compliance requirements, reporting obligations. Faculty spend more time filling out forms than teaching or researching. The nominal work (education, patient care, governance) becomes secondary to administering the administration.
+
+This produces the **productivity paradox**: more administrators means lower organizational productivity. Coordination costs grow faster than execution gains. The more people you have coordinating, the more coordination you need. It's a self-reinforcing cycle that consumes resources while generating no value.
+
+The system exhibits a **ratchet effect**: bureaucracies never shrink voluntarily. Each administrative layer develops its own constituency, its own budget, its own justification for existence. Trying to eliminate redundant positions triggers defensive reactions—the affected bureaucrats can articulate why they're essential (they genuinely believe it) and mobilize to protect their roles. Meanwhile, no one has strong incentive to simplify because losses are concentrated (specific people lose jobs) while gains are diffuse (everyone benefits slightly from reduced overhead). The equilibrium is perpetual growth until crisis forces simplification through collapse rather than reform.
+
+**Why cooperation collapses:** In this environment, cooperative norms disintegrate. Meritocratic competition is zero-sum: your success is my failure. We're competing for the same scarce credentials and positions. Helping you means disadvantaging myself. Information hoarding, sabotage of rivals, and zero-sum thinking become rational strategies. David Brooks, in his Atlantic essay "The Organization Kid," describes elite students as having "no purpose beyond success itself"—perfectly prepared for institutional ladder-climbing, completely unprepared for cooperation or meaning-seeking.
+
+The credential system rewards individual competition over collective contribution. Publishing papers becomes more important than teaching students well. Getting grants matters more than solving problems. Building your résumé outweighs building your community. The prosocial behaviors necessary for functional institutions erode as everyone optimizes individually.
+
+**Integration with Inixiative:** Jiang's dual diagnosis shows why structural mechanisms to prevent bureaucratic metastasis are essential, not optional. Meritocracy produces elite overproduction, which produces bureaucratic empire-building, which produces institutional sclerosis. Section 3.3 (Maintain Thin, Dynamic Elites) and automatic sunset provisions (Section 4.4) directly address the ratchet effect—making simplification the default rather than waiting for collapse. The anti-capture architecture (Section 4.11) prevents gatekeeping institutions from controlling access to leadership. The platform must architecturally prevent the empire-building dynamics Jiang identifies, or it will suffer the same fate as Harvard, Swedish universities, and every other institution captured by credentialed elites serving their own interests rather than the commons.
 
 ### 1.4 Helen Andrews — Feminization of Late-Stage Societies
 
@@ -881,14 +900,52 @@ This is **Part 2** of the whitepaper: a formal requirements document against whi
 
 ### 3.1 Make Cooperation Cheap
 
-- Costless signaling
-- Transparent expectations
-- Easy coalition formation
+The fundamental problem with legacy governance is that cooperation is structurally expensive. Coordinating even small groups requires meetings, travel, calendar alignment, trust-building, information gathering, and overcoming institutional friction. At scale, coordination costs become prohibitive—which is why most people rationally disengage from civic participation.
 
-### 3.2 Make Defection Costly
+**Why this matters:** From Ostrom's commons research, successful cooperation requires low transaction costs. When signaling intent, forming coalitions, or proposing action costs too much time or social capital, cooperation simply doesn't happen. The system defaults to passivity and elite control.
 
-- Reputation penalties
-- Verified identity + privacy-preserving accountability
+**Current failure mode:** To participate meaningfully in local governance, citizens must: attend evening meetings, navigate bureaucratic processes, build social networks with decision-makers, understand opaque procedural rules, and spend significant time monitoring outcomes. The friction is so high that only retirees, ideologues, and paid professionals participate. Everyone else free-rides or disengages.
+
+**Requirements for cheap cooperation:**
+
+**Costless signaling:** Express preferences and intentions without meetings, travel, or social performance. Digital infrastructure enables asynchronous participation—citizens signal support, opposition, or willingness to contribute on their own schedule.
+
+**Transparent expectations:** Clear, legible rules about how decisions are made, what contributions matter, and what outcomes to expect. No insider knowledge required. The system itself teaches users how it works through use.
+
+**Computational kindness:** The system minimizes cognitive load. Leaders spend time here; ordinary citizens check in periodically. Low engagement by satisfied, well-represented citizens is success, not failure.
+
+**The shift in equilibrium:** When cooperation costs drop below a critical threshold, participation becomes viable for ordinary people with jobs and families. The system stops selecting for those with excess time (retirees) or excess motivation (ideologues), and starts representing actual population preferences.
+
+### 3.2 Make Defection Costly (and Cooperation Durable)
+
+Cooperation only persists when defection carries consequences. Both Ostrom's commons research and Axelrod's game theory experiments show that systems without enforcement mechanisms collapse into tragedy of the commons. But the enforcement must be structured correctly—too harsh and cooperation becomes authoritarian control; too weak and defection dominates.
+
+**The Veritaseum/Axelrod framework:** Research on iterated cooperation games identified four essential principles for stable cooperation at scale:
+
+1. **Nice:** Default to cooperation. Systems should make cooperation the path of least resistance, not treat everyone as potential criminals.
+2. **Intelligent (Responsive):** Respond proportionally to others' behavior. Cooperate with cooperators, defect against defectors.
+3. **Clear:** Transparent, legible rules. Everyone understands what counts as cooperation vs. defection.
+4. **Forgiving:** Mistakes don't permanently doom you. Reformed defectors can rebuild trust.
+
+Modern institutions fail at multiple points in this framework. Anonymous systems aren't intelligent (can't track who defected). Bureaucratic systems aren't clear (opaque rules). Punitive systems aren't forgiving (permanent criminal records). The result: cooperation equilibria collapse.
+
+**Current failure mode:** Institutions oscillate between extremes:
+- **Too little accountability:** Anonymous online spaces devolve into toxicity and Sybil attacks. No one faces consequences, so defection dominates.
+- **Too much accountability:** Surveillance states, social credit systems, permanent reputational damage. Mistakes become life sentences, eliminating second chances.
+
+Neither extreme works. The former enables predation; the latter creates authoritarian control and kills adaptation.
+
+**Requirements for durable cooperation:**
+
+**Reputation systems (Intelligent):** Track contributions and violations transparently. The system must distinguish cooperators from defectors and adjust access/influence accordingly. But reputation must decay over time (Forgiving)—reformed actors can rebuild trust, and past mistakes don't create permanent castes.
+
+**Verified identity with privacy preservation (Clear + Nice):** Prevent Sybil attacks without sacrificing privacy. Zero-knowledge proofs enable verification of essential attributes ("this person is unique," "this person lives in this jurisdiction") without revealing sensitive details or treating everyone like criminals.
+
+**Proportional consequences (Intelligent + Forgiving):** Minor violations receive minor penalties; major violations (fraud, abuse of power) trigger stronger responses including expulsion. The system must distinguish between mistakes (recoverable) and predation (not recoverable). Proportionality prevents both under-enforcement and authoritarian excess.
+
+**Default to cooperation (Nice):** The system architecture should make cooperation structurally easy and defection structurally difficult, rather than treating all participants as potential threats requiring constant monitoring.
+
+**The shift in equilibrium:** When the system implements all four principles—nice, intelligent, clear, forgiving—the Nash equilibrium shifts toward durable cooperation. Bad actors face consequences, reformed actors can rebuild trust, and the system doesn't collapse into surveillance authoritarianism or anonymous chaos.
 
 ### 3.3 Maintain Thin, Dynamic Elites
 
@@ -920,25 +977,95 @@ This is **Part 2** of the whitepaper: a formal requirements document against whi
 
 **The tradeoff:** This creates friction for scaling organizations. That's intentional. Growth should be effortful; contraction should be natural. Reverses the current equilibrium where bureaucracies expand automatically and shrink only through crisis.
 
-### 3.4 Enforce Subsidiarity Automatically
+### 3.4 Enforce Subsidiarity Through Approval-Based Jurisdiction
 
-- Problems solved at lowest capable level
-- Algorithmic promotion/demotion of issues
+Subsidiarity—the principle that problems should be solved at the lowest capable level—is widely praised but rarely implemented. The structural problem: without enforcement mechanisms, power naturally centralizes. Bureaucracies expand upward because there's no countervailing force pushing decisions back down to local levels.
+
+**Why this matters:** Scott's *Seeing Like a State* demonstrates how centralized planning destroys local knowledge (metis). When distant bureaucrats make decisions about contexts they don't understand, they optimize for legibility (what they can measure) rather than effectiveness (what actually works). Ashby's Law of Requisite Variety reinforces this: regulatory mechanisms must match system complexity. A single central authority cannot have sufficient variety to govern diverse local conditions.
+
+**Current failure mode:** Modern governance exhibits structural centralization bias. Federal agencies create one-size-fits-all regulations. Local officials punt difficult decisions upward. No mechanism forces re-evaluation of whether centralized decisions should be decentralized. Everything trends toward centralization, destroying local adaptation.
+
+**The mechanism:**
+
+**Pre-defined jurisdictional magisteria:** Different domains of concern (infrastructure, education, environmental policy, etc.) have defined jurisdictional scopes. Communities know which level has authority over which types of decisions.
+
+**Approval-based demotion:** When policies at higher jurisdictional levels fail to maintain approval thresholds, jurisdiction automatically demotes to lower levels. A failing state-level education policy gets pushed down to county or city level. The burden shifts from central authority to local experimentation.
+
+**Voluntary promotion via ballot:** Once a policy succeeds at a lower level (maintains stable approval), it becomes eligible for promotion to broader jurisdiction. But promotion isn't automatic—it requires explicit approval from communities at the higher level. A successful city transit policy can be proposed for county-wide or state-wide adoption, but only if those jurisdictions vote to adopt it.
+
+**Promotion mechanisms:**
+- **Periodic review with exponential backoff:** Successful local policies periodically appear on ballots for voluntary adoption at higher scales. If rejected, review interval increases (same backoff schedule as institutional sunset reviews).
+- **Ad-hoc proposals:** Jurisdiction expansion can be proposed like any other meta-governance change, outside the periodic schedule.
+- **Opt-in by default:** Communities satisfied with local solutions aren't forced to standardize. If something works well at city scale, there's no requirement to expand it to state scale.
+
+**The shift in equilibrium:** Failures naturally decentralize (demotion based on low approval). Successes can scale if desired (voluntary promotion via ballot). This reverses the current bias where centralization is the default and decentralization requires political crisis. Local solutions stay local unless proven valuable enough that other communities actively want to adopt them.
 
 ### 3.5 Lifecycle Management for All Institutions
 
-- Birth → growth → evaluation → renewal → sunset
-- Anti-capture and anti-bloat guardrails
+Olson's research on institutional sclerosis shows that stable societies accumulate rules and organizations until calcified into "institutional arteriosclerosis." The problem: institutions almost never sunset voluntarily. Each rule made sense when created, but rules don't expire when circumstances change. The result is regulatory accumulation until the system becomes impenetrable.
+
+**Why this matters:** Without forced lifecycle management, institutions become immortal. Bureaucracies justify their continued existence by creating work for themselves (Jiang's bureaucratic empire-building). Regulations ossify. Every crisis adds new layers of oversight, but old layers never get removed. Eventually the compliance cost exceeds the productive capacity of the economy.
+
+**Current failure mode:** Institutions only die through:
+- **Collapse:** Complete system failure (Soviet Union, 2008 financial crisis)
+- **War:** External destruction forcing reset
+- **Revolution:** Internal uprising that clears deadwood
+
+All three are catastrophic. Healthy systems need a way to prune institutions without civilizational collapse.
+
+**The mechanism:**
+
+**Mandatory lifecycle stages:** Every policy, role, and institution follows: Birth → Growth → Evaluation → Renewal → Sunset. Nothing is permanent by default.
+
+**Exponential backoff review schedule:** Successful institutions get reviewed less frequently over time (1 year → 2 years → 4 years → 8 years). But review never stops completely. Long-lived institutions with sustained approval earn longer intervals between reviews, but they still must periodically rejustify their existence.
+
+**Burden of proof on continuation:** Unlike current systems where the default is persistence, the default here is sunset. Institutions must demonstrate sustained value (measured by approval/engagement) to continue. Low engagement or declining approval triggers automatic retirement.
+
+**Anti-capture guardrails:** As covered in Section 3.3, bureaucrats cannot create new positions without community approval. This prevents self-perpetuating empire-building where agencies justify expansion by creating problems only they can solve.
+
+**Graceful degradation:** Sunset doesn't mean immediate termination. Transition periods allow for knowledge transfer, alternative solutions, and adjustment. But the institution doesn't get to persist indefinitely just because change is uncomfortable.
+
+**The shift in equilibrium:** When institutions must periodically rejustify their existence, the Olsonian ratchet breaks. Failed experiments sunset. Successful institutions continue with democratic legitimacy. The system can adapt without requiring collapse, war, or revolution.
 
 ### 3.6 Voluntary Association by Design
 
-- No coercive central bureaucracy
-- Citizens "opt-into" initiatives
+The network state model (Srinivasan) proposes cloud-first, land-last governance: voluntary political communities that coordinate digitally before (if ever) acquiring territory. This inverts the traditional monopoly of geographic states where you're assigned governance by birthplace.
+
+**Why this matters:** Exit rights are the ultimate check on power. When people can leave bad governance for better alternatives, institutions must compete on quality rather than relying on captive populations. Tiebout sorting (people moving to jurisdictions that match their preferences) creates competitive pressure that centralized monopolies lack.
+
+**Current failure mode:** Geographic nation-states are effective monopolies. Exit requires emigration—expensive, socially disruptive, often legally difficult. Most people are stuck with whatever governance they're born into. This eliminates competitive pressure and enables persistent low-quality governance.
+
+**The mechanism:**
+
+**Opt-in by default:** Citizens choose which initiatives and institutions to participate in. Participation is voluntary, not coerced by geography. Abstract associations (open source projects, ideological communities, professional networks) are naturally opt-in. Even geographic associations can have voluntary layers for non-territorial concerns.
+
+**Multiple simultaneous memberships:** Unlike nation-states where you typically have one citizenship, people can belong to multiple voluntary communities simultaneously. You might participate in a local housing co-op, a professional governance network, and an ideological community—each handling different domains.
+
+**Low exit costs:** Leaving a community shouldn't require uprooting your life. Digital coordination enables "citizenship" in multiple overlapping communities. If one fails to serve you, exit to alternatives without physical relocation.
+
+**Competition through demonstration:** Communities compete for members by demonstrating value, not through coercion. Successful governance models attract imitators and participants. Failed models lose members and relevance.
+
+**The shift in equilibrium:** When association is voluntary and exit is cheap, governance must earn legitimacy continuously. The system selects for quality through competitive pressure rather than relying on captive populations tolerating bad governance because exit is too expensive.
 
 ### 3.7 Continuous Adaptation
 
-- Rules modify themselves
-- Feedback loops baked into governance
+North's distinction between allocative efficiency (optimizing within existing rules) and adaptive efficiency (evolving better rules) explains why successful institutions often fail. Organizations optimized for allocative efficiency—squeezing maximum performance from current paradigms—become structurally incapable of adapting when paradigms shift. Kodak was allocatively efficient at film; this prevented adapting to digital. Detroit was allocatively efficient at internal combustion; this prevented adapting to electric vehicles.
+
+**Why this matters:** The environment changes. Technology advances. Social preferences evolve. Institutions that cannot adapt to changing conditions ossify and eventually collapse or get disrupted by more adaptive competitors. Survival requires continuous learning and evolution, not just optimization of fixed rules.
+
+**Current failure mode:** Legacy governance systems treat rules as static. Changing laws requires legislative processes designed to be slow and difficult. Constitutional amendments in the US require supermajorities that are nearly impossible to achieve. The result: institutions locked into paradigms from decades or centuries ago, unable to adapt to modern conditions.
+
+**The mechanism:**
+
+**Embedded feedback loops:** The system continuously monitors policy outcomes through approval ratings, engagement metrics, and explicit feedback mechanisms. This data feeds back into governance decisions, creating cybernetic control loops.
+
+**Meta-governance capabilities:** Communities can modify their own governance rules through structured processes (Section 4.3.1). Create new positions, retire obsolete ones, adjust voting mechanisms, change review schedules—all through the same democratic processes used for policy decisions.
+
+**Experimentation at scale:** Multiple communities trying different governance approaches creates a distributed search process. Successful innovations spread through imitation (Section 3.8). Failed experiments get pruned through sunset mechanisms (Section 3.5). The system learns what works through variation and selection.
+
+**Adaptive, not arbitrary:** Changes aren't random or impulsive. The exponential backoff review schedule (Section 3.5) means stable, successful policies get longer periods between reviews. Rapid iteration happens when things aren't working; stability emerges when they are.
+
+**The shift in equilibrium:** When rules can modify themselves through structured feedback, institutions maintain adaptive efficiency alongside allocative efficiency. The system can optimize current approaches while remaining capable of paradigm shifts when circumstances change. This prevents the Kodak failure mode where optimization for the current paradigm prevents adaptation to new ones.
 
 ### 3.8 Cohesion Without Uniformity
 
