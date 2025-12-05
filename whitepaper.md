@@ -1696,14 +1696,59 @@ The platform isn't claiming to solve the wisdom problem—but it's attempting to
 
 ## 3. Design Frameworks & Methodologies
 
-[This section provides meta-frameworks for thinking about governance design—not specific diagnoses or mechanisms, but the conceptual tools for designing solutions. Content to be added: evolutionary dynamics, incentive design, complex systems thinking, engineering mindset, problem space navigation.]
+Section 1 diagnosed what is broken through the lens of various thinkers. Section 2 synthesized these diagnoses into recurring failure patterns. This section provides the meta-frameworks for thinking about solutions—not specific mechanisms (those come in Sections 4-5) but the conceptual tools and mental models that inform how to design governance systems.
 
-**Placeholder:** This section will contain subsections on:
-- 3.1 Evolutionary Dynamics in Governance Systems
-- 3.2 Incentive Design & Mechanism Theory
-- 3.3 Complex Systems & Emergence
-- 3.4 Engineering Mindset: Modularity & Iteration
-- 3.5 Problem Space Navigation & Optimization
+Think of this as the design philosophy layer: the principles and frameworks from evolutionary biology, complex systems theory, information theory, and software engineering that guide our approach to institutional architecture.
+
+### 3.1 Evolutionary Light Cones: What Can Mechanisms See?
+
+Michael Levin's work on developmental biology reveals a profound insight: intelligence and problem-solving exist at every scale of biological organization, not just in brains. Cells make decisions, tissues coordinate, organs adapt—each level has its own form of competency operating within its own informational "light cone." The critical question isn't whether a system is intelligent, but **what information is accessible to its decision-making processes**.
+
+A cell cannot "see" the organism's overall plan. It responds to local chemical gradients, electrical signals from neighbors, mechanical stress. Yet somehow, billions of cells with purely local information collectively build coherent organisms. The magic isn't that cells are stupid and DNA is a blueprint—it's that cells are competent problem-solvers operating within constrained information spaces, and the right architecture channels their local intelligence toward global coherence.
+
+This framework transforms how we think about governance design. The question shifts from "what's the optimal policy?" to "**what can our governance mechanisms see, and what are they blind to?**" Different mechanisms have different perceptual light cones—different domains of information they can access and act upon. When we design voting systems, reputation tracking, resource allocation, or decision procedures, we're not just choosing rules—we're determining what the system can perceive and therefore what it can optimize.
+
+**Evolutionary light cones and the multi-gene problem:** Evolution operates through selection, but selection can only act on what it can measure. This is evolution's light cone—the boundary of what variation it can "see" to select on. When multiple traits are tightly coupled (linked genes, pleiotropic effects, developmental constraints), evolution cannot optimize them independently. It must take them as a package.
+
+Consider the genome. Genes don't evolve in isolation—they evolve as groups, often on the same chromosome, inherited together. If gene A (beneficial) and gene B (harmful) are physically linked, evolution struggles to separate them. It cannot say "keep A, discard B" if they're always inherited together. The selection mechanism's light cone doesn't have sufficient resolution to see and act on individual genes when they're bundled.
+
+This is directly analogous to omnibus legislation. When a bill bundles infrastructure funding, social programs, tax changes, and regulatory reforms into a single 2000-page package, the voting mechanism cannot optimize individual components. Legislators vote yes or no on the entire bundle. If components are valuable but others harmful, the selection mechanism (voting) lacks the resolution to discriminate. Its light cone is coarse—it sees "bill" not "individual policies."
+
+The result is that bad policies hitchhike alongside good ones, just as harmful genes hitchhike with beneficial ones when physically linked. Evolution cannot select them apart, and neither can Congress. The mechanism is blind to the internal structure.
+
+**What can different governance mechanisms see?**
+
+Binary voting (yes/no on a bill) can see aggregate approval but is blind to preference intensity. Someone who slightly prefers option A gets the same voting power as someone whose life depends on it. The mechanism has no way to perceive intensity—it's outside its light cone.
+
+Continuous approval voting (Section 4.10 and 5.3) expands the light cone to include intensity. You can express -10 (strongly oppose) versus -2 (weakly oppose). The mechanism can now "see" a dimension previously invisible, enabling it to distinguish passionate minorities from indifferent majorities.
+
+Point budgets with convex costs (quadratic voting) expand the light cone further. Not only can the system see intensity, it can prevent plutocratic manipulation by making large votes exponentially expensive. The mechanism perceives both preference strength and attempts to dominate.
+
+Reputation systems (Section 5.5) can see contributions, visible cooperation, measurable outputs. But they're blind to wisdom, artistic quality, moral character, unmeasurable forms of value. Scott's metis (Section 1.9)—local, tacit, experiential knowledge—exists outside most reputation systems' light cones. If you design a system that optimizes only on what reputation can measure, you'll destroy everything it cannot see.
+
+Traditional elections can see popularity within a snapshot in time but are blind to long-term consequences. Politicians optimize for what voters can perceive now—visible projects, short-term economic indicators, symbolic gestures. Effects that manifest decades later (infrastructure decay, pension liabilities, environmental degradation, institutional erosion) lie outside the electoral mechanism's temporal light cone.
+
+Long-horizon compensation (Section 5.4.4) expands the temporal light cone. By paying leaders based on how long their policies remain active and approved, the mechanism becomes sensitive to durability. A policy that's popular for two years then fails becomes visible as bad, whereas traditional elections might have rewarded the politician who enacted it and left office before failure manifested.
+
+Subsidiarity mechanisms (Section 4.4 and 5.9) expand the spatial/scalar light cone. Instead of forcing all decisions through central processes that cannot perceive local context, problems get routed to the scale that has informational access. A neighborhood parking dispute involves context (who parks where, what the constraints are, what alternatives exist) that's invisible to city-level bureaucrats but obvious to residents. Routing to the appropriate scale ensures decision-makers are within the relevant light cone.
+
+**The tyranny of legibility:** James C. Scott's *Seeing Like a State* (Section 1.9) is fundamentally about light cones. High-modernist planners demand legibility—everything must be measurable, categorizable, standardized—because that's what central authority can see. Vernacular practices, informal arrangements, tacit knowledge, social trust networks all exist outside the planner's light cone. When planners optimize on what they can measure, they destroy what they cannot.
+
+This is why Section 4.9 (Resist Tyranny of Metrics) is architecturally essential, not merely aspirational. We must preserve unmeasured commons—domains where value exists but measurement would destroy it. The platform must have principled limits on its own perceptual light cone, must acknowledge that some forms of value are invisible to any formal system, and must not optimize those domains to death.
+
+**Mechanism intelligence and problem-solving:** Levin's insight extends beyond perception to competency. Cells solve problems. They navigate chemical gradients, repair damage, coordinate with neighbors, adapt to stress. They're not conscious or self-aware, but they're competent within their domain. Governance mechanisms can be similarly competent—if they're given appropriate sensory access and decision-making authority.
+
+A well-designed voting mechanism "solves" the problem of aggregating preferences without requiring a central authority to understand every individual's values. Reputation systems "solve" the problem of tracking trustworthiness in communities too large for everyone to know everyone personally. Price mechanisms "solve" resource allocation without central planning. Each is a form of distributed intelligence operating within its informational light cone.
+
+The platform's architecture is fundamentally about distributing problem-solving competency to the appropriate scale with appropriate informational access. Not all decisions should go through the same mechanism. Different problem types require different perceptual light cones, different temporal horizons, different spatial scales.
+
+**Designing mechanisms as perceptual organs:** When we specify voting rules, we're designing the system's eyes. When we create reputation tracking, we're designing memory. When we implement subsidiarity routing, we're designing proprioception (knowing which part of the organization is best positioned to handle which problem). The question is always: what does this mechanism need to perceive to function? And what will it be blind to?
+
+This framing prevents naive optimism about any single mechanism. No voting system can see everything relevant to good governance. No reputation system can capture all forms of value. No decision procedure can access all relevant information. Every mechanism has a bounded light cone, sees some things clearly and others not at all, optimizes within its perceptual constraints.
+
+**The solution isn't a perfect mechanism—it's a diverse ecosystem of mechanisms** with different light cones that collectively perceive more than any single system could. Modular, composable governance (Section 5) lets communities combine mechanisms: use reputation for some domains, direct voting for others, delegation for others, markets for others. Different tools for different informational requirements.
+
+This is why the platform must be modular and forkable. We cannot know in advance which mechanisms will have appropriate light cones for which communities' needs. Communities must be able to experiment: try different perceptual systems, see what they can and cannot detect, adjust when important information proves invisible to current mechanisms. Evolutionary search across mechanism-space is search for appropriate light cones—finding systems that can perceive what matters for specific contexts.
 
 ## 4. Principles of a Cooperative Society (System Requirements Spec)
 
