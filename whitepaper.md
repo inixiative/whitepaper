@@ -1038,6 +1038,36 @@ The rediscovery of Roman law was transformative not because Romans were wiser, b
 
 These institutions persist not merely through inertia, but because **they genuinely solved the coordination problems of their era**. Path dependence reflects their success: systems that work get entrenched through education, precedent, and professional training. The problem isn't that our ancestors designed bad systems—it's that they designed systems optimized for problems that no longer exist.
 
+**Chesterton's Fence: Epistemic humility before reform**
+
+G.K. Chesterton articulated this principle elegantly in his 1929 book *The Thing*:
+
+> "In the matter of reforming things, as distinct from deforming them, there is one plain and simple principle; a principle which will probably be called a paradox. There exists in such a case a certain institution or law; let us say, for the sake of simplicity, a fence or gate erected across a road. The more modern type of reformer goes gaily up to it and says, 'I don't see the use of this; let us clear it away.' To which the more intelligent type of reformer will do well to answer: 'If you don't see the use of it, I certainly won't let you clear it away. Go away and think. Then, when you can come back and tell me that you do see the use of it, I may allow you to destroy it.'"
+
+**Chesterton's Fence** is the principle: **don't remove an institutional feature until you understand why it exists**. The fence might be protecting against a forgotten danger, solving a problem that's now invisible because the fence prevented it, or serving multiple functions beyond its obvious purpose.
+
+This is not an argument for conservatism—Chesterton explicitly frames it as guidance for "reforming things, as distinct from deforming them." The principle is epistemic humility: **the burden of proof lies on the reformer to demonstrate understanding before making changes**. Once you understand why the fence was built, you can then make an informed decision about whether it's still necessary.
+
+**Why this matters for governance design:**
+
+1. **Hidden load-bearing structures:** Many institutional features that seem like bureaucratic waste might be preventing catastrophes you've never experienced. The FDA's drug approval process seems slow and expensive—until you remember thalidomide. Electoral college seems arbitrary—until you understand federalism and preventing simple majority tyranny.
+
+2. **Invisible success:** The best institutions are often invisible because they prevent problems rather than solving them. You don't notice good building codes until disasters reveal their absence. You don't appreciate stable property rights until you experience their collapse.
+
+3. **Second-order effects:** Removing a "wasteful" rule often triggers cascading consequences that weren't apparent. Eliminating zoning seems efficient—until incompatible land uses create negative externalities. Removing banking regulations seems pro-growth—until leverage spirals cause systemic collapse.
+
+**Integration with the platform:** The meta-governance mechanisms (Section 4.3) must implement Chesterton's Fence through mandatory justification requirements:
+
+- Before sunsetting an existing rule, proposers must document: (1) Why they believe it was created, (2) What problem it solves, (3) Why that problem no longer exists OR why an alternative solution is superior, (4) What could go wrong if removed
+
+- Automatic sunset provisions (Section 3.5) include built-in review processes that surface institutional knowledge about why rules exist
+
+- Experimentation happens through forking (Section 5.4) rather than wholesale replacement—you can try removing the fence in a branch without destroying it in the main branch
+
+- Communities maintain institutional memory and documentation explaining rationale for every rule (not just "what" but "why")
+
+The principle isn't "never change anything"—it's "understand before changing." Burke shows that institutions are path-dependent accumulated knowledge. Chesterton adds that this knowledge is often **tacit and invisible**—people who built the fence might be long dead, but their reasons might still be valid. Reform requires epistemic humility and systematic investigation of what you're changing and why it exists.
+
 Historically, institutions have been replaced **slowly**—through gradual evolution, occasional revolution, or collapse and rebuilding. Medieval European law gradually incorporated Roman principles over centuries. Common law evolved through precedent accumulation. Constitutional reforms happened incrementally. This slow replacement worked adequately when:
 - The pace of change was measured in generations or centuries
 - New coordination challenges emerged gradually
