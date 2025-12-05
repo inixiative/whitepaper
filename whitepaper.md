@@ -724,7 +724,9 @@ Eric Weinstein's formulation captures this: *"We are now gods, but for the wisdo
 
 **Moloch: Coordination Failures as Systemic Generator**
 
-Drawing on Allen Ginsberg's poem *"Moloch,"* Schmachtenberger uses the term to describe **multipolar traps**—situations where all actors are incentivized to defect even though collective cooperation would benefit everyone. Moloch is the emergent demon of bad game theory: the race to the bottom that no individual can escape because defecting is locally rational even as it's globally catastrophic.
+Drawing on Scott Alexander's 2014 essay "Meditations on Moloch"—which reinterpreted Allen Ginsberg's poem *"Howl"* as a metaphor for coordination failures—Schmachtenberger uses the term to describe **multipolar traps**: situations where all actors are incentivized to defect even though collective cooperation would benefit everyone. Moloch is the emergent demon of bad game theory: the race to the bottom that no individual can escape because defecting is locally rational even as it's globally catastrophic.
+
+Alexander's essay is the canonical modern source for Moloch as coordination failure. Where Ginsberg's 1955 poem depicted Moloch as the dehumanizing force of industrial civilization, Alexander reframed it as the game-theoretic trap where individual rationality produces collective ruin. Schmachtenberger and Liv Boeree then popularized this interpretation, making "Moloch" shorthand for any multipolar trap that civilization must escape to survive.
 
 Classic examples:
 - **Tragedy of the commons:** Each herder benefits from adding one more animal to shared pasture. Collectively, overgrazing destroys the pasture. Individual rationality → collective catastrophe.
