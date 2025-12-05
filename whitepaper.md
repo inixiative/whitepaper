@@ -1137,6 +1137,30 @@ As shown in Section 2.7.7, the measurement trap is a failure mode common to many
 - No permanent underclass created by poor scores
 - People feel free to experiment and fail without permanent reputational damage
 
+### 3.10 Capture Preference Intensity, Not Just Direction
+
+Traditional voting systems suffer from catastrophic information loss. A vote captures only **direction** (for/against, candidate A vs. B) but not **magnitude** (how much you care). This is the difference between a vector and a binary bit: voting should communicate both direction and intensity, but legacy systems discard half the information.
+
+**Why this matters:** In physics, a vector has both magnitude and direction. Knowing something points north is useless without knowing if it's moving 1 mph or 100 mph. Similarly, knowing citizens support a policy is useless without knowing if they're indifferent or passionate. Binary voting treats a passionate minority and an indifferent majority identically—both register as "votes" with equal weight.
+
+**Current failure mode:** Binary voting creates systematic failures:
+
+**Intensity mismatch:** A passionate 40% minority opposing a policy gets outvoted by an indifferent 60% majority who barely care. The policy passes despite generating more total dissatisfaction than satisfaction. The 40% who care intensely suffer, while the 60% who care little gain trivially. Net social welfare declines even though "democracy worked."
+
+**Strategic voting:** Voters can't express true preferences, only binary choices. In a three-candidate race, you might prefer A > B > C, but if A can't win, you vote for B to block C. You vote against your preference because the system can't capture preference ordering. This compounds: candidates position themselves as "lesser evils" rather than positive choices.
+
+**All-or-nothing dynamics:** 51% wins everything, 49% gets nothing, even if the 51% barely care and the 49% are intensely opposed. This creates permanent minorities who are locked out of influence despite substantial numbers and intense preferences. The system provides no mechanism for 49% who care deeply to outweigh 51% who care trivially.
+
+**No preference ordering:** Binary votes can't signal "I support A > B > C" or "I weakly support X but strongly support Y." All policies appear equally important. Leaders can't distinguish where citizens want attention focused vs. where they're satisfied with the status quo.
+
+**From information theory:** Binary voting is extremely low-bandwidth communication. Each citizen communicates 1 bit per issue (yes/no). This is like running a modern organization using morse code—technically functional but throwing away 99% of the signal. High-bandwidth preference signaling (point-voting, quadratic voting, continuous approval) increases information density by orders of magnitude.
+
+**Connection to cybernetics:** Ashby's Law of Requisite Variety states that control systems must match the complexity of what they regulate. Binary voting has insufficient variety to regulate complex policy spaces. It's like trying to control a car with only two pedals: full throttle or full brake. You need the gas pedal's continuous range to navigate effectively.
+
+**The shift in equilibrium:** When systems capture both direction and intensity, minority preferences aren't automatically trampled. Passionate minorities can outweigh indifferent majorities (proportional to intensity, preventing tyranny while enabling strong preferences to prevail). Leaders get clear signals about where to focus attention. Strategic voting diminishes because the system can handle preference ordering. Policy outcomes better reflect actual social welfare rather than just vote counts.
+
+**Implementation in Section 4.3:** Point-voting, quadratic voting, and continuous approval mechanisms operationalize this principle, creating high-bandwidth preference communication while preventing gaming through convex cost curves and other safeguards.
+
 
 ## 4. Novel Mechanisms Now Possible
 
@@ -1265,11 +1289,79 @@ A failure mode: people claiming membership in communities where they have no sta
 
 ### 4.3 Allocation & Voting Mechanisms
 
-- Strength-weighted point voting
-- Plurality thresholds
-- Dynamic scaling of issues to local/regional/global
+As established in Section 3.10, binary voting suffers from catastrophic information loss—capturing only direction (for/against) but not magnitude (how much you care). This section describes mechanisms that capture preference intensity alongside direction, enabling high-bandwidth communication between citizens and governance systems.
 
-#### 4.3.1 Meta-Governance Controls
+#### The Core Problem: Information Loss in Legacy Voting
+
+**Binary voting as single-bit communication:** Traditional elections ask citizens to communicate complex preferences using a single bit: yes/no, candidate A vs. B. This is like asking an engineer to describe a bridge design using morse code—technically possible but absurdly lossy.
+
+**The vector analogy:** Preferences are vectors with magnitude and direction. "I support policy X" could mean "I mildly approve" (+2) or "this is my top priority" (+10). Binary voting collapses this entire range to +1. Similarly, "I oppose policy Y" could mean "I have concerns" (-2) or "this is existentially threatening" (-10). Binary voting collapses all opposition to -1.
+
+The result: **massive information loss that produces systematically bad outcomes.**
+
+#### 4.3.1 Point-Vote System: Continuous Approval with Budget Constraints
+
+The point-vote system operationalizes preference intensity through continuous scoring with budget constraints.
+
+**Mechanism:**
+
+**Continuous approval range:** Instead of binary yes/no, citizens express support on a continuous scale: -X to +X (e.g., -10 to +10). This captures intensity: strong support (+10), mild support (+3), neutral (0), mild opposition (-3), strong opposition (-10).
+
+**Budget constraints:** Citizens receive a fixed budget of points per period (e.g., 100 points per month). They allocate these points across all active proposals and policies. This forces prioritization: you can strongly support everything, but only by spreading your points thin. To signal intense preference, you must concentrate points, revealing where you actually care most.
+
+**Convex cost curves (quadratic voting variant):** Optional enhancement: make intensity expression increasingly expensive. Expressing +5 approval costs 5 points. But expressing +10 approval costs 100 points (quadratic cost). This prevents wealthy actors or passionate minorities from dominating entirely, while still allowing intensity to matter more than in binary voting.
+
+**Continuous feedback, not periodic elections:** Points can be reallocated at any time. If a policy you supported starts failing, withdraw support. If a policy you opposed improves, reduce opposition. This creates continuous accountability (Section 4.4) rather than binary "election day" judgments that are immediately obsolete.
+
+**Aggregation:** Policy approval = sum of all points allocated to it. Policies must maintain positive approval to remain active. If approval drops below threshold, policy sunsets (lifecycle management, Section 3.5). If approval is overwhelmingly positive, policy may be promoted to broader jurisdiction (subsidiarity, Section 3.4).
+
+**Why this works:**
+
+**Captures intensity:** Passionate minorities can outweigh indifferent majorities (proportionally). If 40% care deeply (-10 each) and 60% barely care (+2 each), the passionate opposition wins: (40 × -10) + (60 × +2) = -280. The policy doesn't pass despite having majority "support," because the system correctly weighs intensity.
+
+**Reveals priorities:** Budget constraints force citizens to signal where they actually care. Politicians get clear information about which issues demand attention vs. which are low-priority. This solves the noise problem in direct democracy where every issue is treated identically.
+
+**Reduces strategic voting:** You can support A strongly, B moderately, and C weakly, rather than having to choose one. Preference ordering emerges naturally from point allocation.
+
+**Enables nuance:** Mildly support with reservations (+2), strongly support but not top priority (+6), or all-in commitment (+10). Citizens can communicate shades of gray rather than binary positions.
+
+**Creates skin in the game:** Allocating points is a real choice with opportunity cost. You can't strongly support everything, so each allocation is meaningful.
+
+#### 4.3.2 Plurality Thresholds and Engagement Minimums
+
+Not all mechanisms should use continuous approval. Some decisions require clear binary choices (hire person A or B for a specific role), and some proposals should only advance if they achieve broad consensus.
+
+**Plurality threshold:** Policies require minimum approval to execute or continue. This prevents intensely passionate minorities from imposing costs on indifferent majorities. Even if 10% care deeply (+10 each), if 90% mildly oppose (-2 each), the policy fails: (10 × +10) + (90 × -2) = -80.
+
+**Engagement minimums:** Policies must demonstrate sufficient engagement (total absolute points allocated) to proceed. A policy with +100 approval from only 5% of citizens might not reflect genuine broad support, just passionate advocacy from a small group. Requiring both positive approval AND broad engagement prevents elite capture.
+
+**Supermajority for meta-governance:** Structural changes (creating positions, changing rules, altering point budgets) require higher thresholds than ordinary policy. This creates constitutional-level stability for core governance architecture while allowing ordinary policy to be more dynamic.
+
+#### 4.3.3 Dynamic Scaling: Jurisdiction Follows Engagement
+
+As described in Section 3.4 (Subsidiarity), policies should operate at the lowest capable level. Voting mechanisms enable dynamic jurisdiction through engagement patterns.
+
+**Local by default:** Proposals start at the smallest relevant jurisdiction. A park renovation proposal starts at neighborhood level.
+
+**Promotion via engagement:** If engagement spreads beyond initial jurisdiction—people from adjacent neighborhoods start allocating points—the platform detects cross-boundary interest and escalates: "This proposal has engagement from 3 neighboring communities. Promote to city level?"
+
+**Demotion via approval loss:** If a state-level policy loses approval at state scale but maintains approval in specific counties, automatic demotion: "This policy no longer has state-wide support. Revert to county-level implementation in counties with positive approval?"
+
+**Organic standardization:** Successful local policies naturally accumulate broader interest. People see "City A solved traffic with policy X" and allocate approval points to "Adopt policy X in City B." No top-down mandates required—good ideas spread through demonstrated value and voluntary adoption.
+
+#### 4.3.4 Delegation and Liquid Democracy
+
+Direct voting on every issue creates cognitive overload. The point-vote system supports delegation to maintain low cognitive load while preserving sovereignty.
+
+**Delegate your points:** Assign your point budget to a trusted representative (friend, expert, organization) who allocates on your behalf. You can always override specific allocations or revoke delegation entirely.
+
+**Granular delegation:** Delegate infrastructure issues to an urban planning expert, education issues to a teacher, economic issues to an economist. Specialization without surrendering sovereignty.
+
+**AI agents as delegates:** Future extension: delegate to AI agents that learn your preferences and values, making allocations consistent with your revealed preferences while you focus on living your life.
+
+**Computational kindness:** Most citizens delegate most issues most of the time. Leaders and engaged citizens spend time here; ordinary citizens check in periodically. Low engagement by satisfied, represented citizens is success, not failure.
+
+#### 4.3.5 Meta-Governance Controls
 
 To maintain adaptability while preventing governance bloat, the system should include explicit mechanisms requiring approval for structural changes such as:
 
