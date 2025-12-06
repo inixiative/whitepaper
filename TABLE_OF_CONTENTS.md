@@ -33,24 +33,22 @@ This project consists of three core documents that build a comprehensive case fo
 - 1.2 Dani Sulikowski — Intrasexual Competition & Fertility Suppression (Universe 25)
 - 1.3 The 1971 Inflection Point — When Multiple Crises Converged
 
-**THEME 2: Specific Failure Modes (HOW it manifests)**
+**THEME 2: Specific Failure Modes - Economic Parasitism & Legibility**
 - 1.4 Jiang — Death by Meritocracy & Death by Bureaucracy
 - 1.5 Mancur Olson — Institutional Accretion & Interest Groups
 - 1.6 Joseph Tainter — The Collapse of Complex Societies
 - 1.7 David Graeber — Debt: The First 5000 Years (Jubilee mechanisms)
+- 1.8 Henry George — Progress and Poverty (Rent extraction, land value tax)
+- 1.9 James C. Scott — Seeing Like a State (Metis destruction)
 
-**THEME 3: Why Central Planning Fails (WHAT doesn't work)**
-- 1.8 James C. Scott — Seeing Like a State (Metis destruction)
-- 1.9 Henry George — Progress and Poverty (Rent extraction, land value tax)
-
-**THEME 4: What Works Instead (COOPERATION mechanisms)**
+**THEME 3: What Works Instead (COOPERATION mechanisms)**
 - 1.10 Elinor & Vincent Ostrom — Commons Governance & Polycentric Systems
 
-**THEME 5: The Meta-View (SYNTHESIS)**
+**THEME 4: The Meta-View (SYNTHESIS)**
 - 1.11 Daniel Schmachtenberger — The Metacrisis and Governance as Technology
 - 1.12 James Burke — Law as Technology and Path Dependency
 
-**THEME 6: Alternative Models (WHAT to build instead)**
+**THEME 5: Alternative Models (WHAT to build instead)**
 - 1.13 Douglass North — Adaptive vs. Allocative Efficiency
 - 1.14 Glen Weyl & Eric Posner — Radical Markets
 - 1.15 Balaji Srinivasan — The Network State

@@ -510,9 +510,9 @@ You can't have infinite elites under a gold standard—there's not enough money 
 **Integration with Inixiative:** The 1971 inflection shows monetary architecture shapes institutional outcomes. Unconstrained money creation enables rent extraction, validating exploration of alternative currency models (kWh-backed tokens) that resist arbitrary inflation through structural constraints.
 
 
-## THEME 2: Specific Failure Modes (HOW it manifests)
+## THEME 2: Specific Failure Modes (HOW it manifests) - Economic Parasitism & Legibility
 
-Understanding why societies fail structurally is essential, but we also need to examine the concrete mechanisms through which these failures express. The next four thinkers document specific pathologies: meritocratic gatekeeping, institutional rent-seeking, diminishing returns to complexity, and the role of reciprocity systems in cooperation.
+Understanding why societies fail structurally is essential, but we also need to examine the concrete mechanisms through which these failures express. The next six thinkers document specific pathologies: meritocratic gatekeeping, institutional rent-seeking, diminishing returns to complexity, reciprocity systems and jubilee mechanisms, land rent extraction and financial parasitism, and the tyranny of forced legibility.
 
 ### 1.4 Jiang — Death by Meritocracy & Death by Bureaucracy
 
@@ -634,29 +634,7 @@ Graeber identified five types:
 
 The connection to Jiang's bureaucratic empire-building is direct: credentialed elites with no productive roles create administrative work to justify their existence. The psychological toll compounds institutional sclerosis—workers in bullshit jobs know their labor is wasted but can't escape. Trust in institutions erodes when participants recognize the performative nature of their work. The platform's thin-elite architecture (Section 4.3) and transparent contribution tracking (Section 5.5) aim to prevent bullshit job proliferation by making value creation visible and preventing empire-building.
 
-## THEME 3: Why Central Planning Fails (WHAT doesn't work)
-
-The previous themes established why societies fail (structural crisis) and how failures manifest (specific pathologies). Now we examine what doesn't work as a solution: top-down control, one-size-fits-all rules, and the tyranny of legibility. These three thinkers explain why centralized planning consistently fails to deliver promised outcomes.
-
-### 1.8 James C. Scott — Seeing Like a State
-
-James C. Scott's *Seeing Like a State* dissects why high-modernist schemes—grand centralized plans to reorganize society—consistently fail. His answer: they ignore **metis**, the local, tacit, experiential knowledge that people accumulate through practice. Centralized planners demand legibility: everything must be measurable, categorizable, standardized. But reality is messier than models. Vernacular practices that work—traditional farming techniques, informal property arrangements, social trust networks—can't always be formalized or explained. When planners force legibility, they destroy what they can't measure.
-
-**Examples of high-modernist failure:**
-- Soviet collective farms: destroyed peasant knowledge, caused famines
-- Brasília: planned capital city, beautiful on paper, dysfunctional in practice
-- Tanzanian villagization: forced resettlement destroyed local social structures
-- Scientific forestry: monoculture plantations optimized for timber yield, collapsed ecosystems
-
-Each case followed the same pattern: measure what's convenient, optimize the metric, destroy unmeasured value.
-
-**The tyranny of metrics:** Scott identifies how measurement becomes control. When authorities demand quantification, people game the system. Metrics become targets (Goodhart's Law). What can't be measured gets ignored—wisdom, judgment, social bonds, tacit knowledge. The result is systems optimized for legibility rather than function.
-
-This connects directly to Section 2.7.7 (The Measurement Trap) and the repeated failures of social credit systems, prediction markets, and e-democracy platforms. **Whoever controls the rubric controls the population.** Defining what counts as "good" becomes a tool of power. Second-order effects compound: people become risk-averse, refuse to admit errors, optimize for appearance over substance.
-
-**Integration with Inixiative:** Scott's diagnosis demands governance systems preserve space for illegible, informal coordination. The platform implements this through unmeasured commons, limits on what can be scored, and protection for qualitative domains. Subsidiarity routing keeps decisions at the level where tacit local knowledge exists rather than forcing everything through legibility filters at inappropriate scales.
-
-### 1.10 George's Progress and Poverty
+### 1.8 George's Progress and Poverty
 
 Henry George's *Progress and Poverty* (1879) diagnosed a fundamental paradox: why does poverty persist alongside technological progress and increasing productivity? His answer: **land rent extraction**. As societies become more productive, land values rise. Landowners capture the gains from societal progress without contributing to it. Those who own scarce resources extract rent; those who don't remain poor regardless of how hard they work or how much technology improves. Concentration leads to rent-seeking, rent-seeking leads to stagnation.
 
@@ -688,12 +666,29 @@ George's diagnosis applies to modern structures where control over money creatio
 
 **Integration with Inixiative:** George's framework—tax rents, not productive activity—applies directly to institutional design. Lifecycle management (Section 4.5) functions like a land value tax for institutions: positions that don't produce value get taxed away (sunset). Leader compensation (Section 5.4) rewards durable policy creation (productive activity) rather than empire-building (rent-seeking). Section 5.2.5 explores alternative currency backing mechanisms that resist rent extraction through arbitrary money creation. The goal is to eliminate structural rent extraction, whether from land, money creation, or institutional position-holding, and ensure that value flows to producers rather than extractors.
 
+### 1.9 James C. Scott — Seeing Like a State
 
-## THEME 4: What Works Instead (COOPERATION mechanisms)
+James C. Scott's *Seeing Like a State* dissects why high-modernist schemes—grand centralized plans to reorganize society—consistently fail. His answer: they ignore **metis**, the local, tacit, experiential knowledge that people accumulate through practice. Centralized planners demand legibility: everything must be measurable, categorizable, standardized. But reality is messier than models. Vernacular practices that work—traditional farming techniques, informal property arrangements, social trust networks—can't always be formalized or explained. When planners force legibility, they destroy what they can't measure.
 
-If central planning fails and competitive saturation destroys cooperation, what actually works? The Ostroms—Elinor and Vincent—dedicated their careers to answering this question empirically. Their work demonstrates that durable cooperation is possible at scale, but only through specific structural conditions and polycentric organization.
+**Examples of high-modernist failure:**
+- Soviet collective farms: destroyed peasant knowledge, caused famines
+- Brasília: planned capital city, beautiful on paper, dysfunctional in practice
+- Tanzanian villagization: forced resettlement destroyed local social structures
+- Scientific forestry: monoculture plantations optimized for timber yield, collapsed ecosystems
 
-### 1.11 The Ostroms — Polycentric Governance & Durable Cooperation
+Each case followed the same pattern: measure what's convenient, optimize the metric, destroy unmeasured value.
+
+**The tyranny of metrics:** Scott identifies how measurement becomes control. When authorities demand quantification, people game the system. Metrics become targets (Goodhart's Law). What can't be measured gets ignored—wisdom, judgment, social bonds, tacit knowledge. The result is systems optimized for legibility rather than function.
+
+This connects directly to Section 2.7.7 (The Measurement Trap) and the repeated failures of social credit systems, prediction markets, and e-democracy platforms. **Whoever controls the rubric controls the population.** Defining what counts as "good" becomes a tool of power. Second-order effects compound: people become risk-averse, refuse to admit errors, optimize for appearance over substance.
+
+**Integration with Inixiative:** Scott's diagnosis demands governance systems preserve space for illegible, informal coordination. The platform implements this through unmeasured commons, limits on what can be scored, and protection for qualitative domains. Subsidiarity routing keeps decisions at the level where tacit local knowledge exists rather than forcing everything through legibility filters at inappropriate scales.
+
+## THEME 3: What Works Instead (COOPERATION mechanisms)
+
+The previous themes documented failure modes: structural crisis, economic parasitism, and forced legibility. Now we shift to what actually works. The Ostroms demonstrate that durable cooperation is possible at scale, but only through specific structural conditions and polycentric organization—not through central planning or pure market competition.
+
+### 1.10 The Ostroms — Polycentric Governance & Durable Cooperation
 
 Elinor Ostrom's work on commons governance provides an empirical counterpoint to the "tragedy of the commons" narrative. Through extensive fieldwork, she identified conditions under which communities successfully manage shared resources—forests, fisheries, irrigation systems—without privatization or central authority. Her principles demonstrate that cooperation is possible, but only under specific structural conditions.
 
@@ -765,11 +760,11 @@ Vincent and Elinor Ostrom's collaborative work on polycentric governance address
 **Integration with Inixiative:** The platform re-instantiates the Ostroms' principles digitally using smart contracts for monitoring, reputation systems for accountability, point-voting for participatory decisions, and subsidiarity routing for nested enterprises. Communities choose between markets, commons, and directed management based on domain characteristics. The goal is to enable polycentric governance while managing coordination complexity through algorithmic overlap detection and conflict resolution.
 
 
-## THEME 5: The Meta-View (SYNTHESIS)
+## THEME 4: The Meta-View (SYNTHESIS)
 
 We've examined why societies fail, how failures manifest, what doesn't work, and what mechanisms enable cooperation. Now we step back to the meta-level: understanding governance itself as technology subject to design, obsolescence, and path dependency. These thinkers provide the synthesizing frameworks that unite the previous themes.
 
-### 1.12 Daniel Schmachtenberger — The Metacrisis and Governance as Technology
+### 1.11 Daniel Schmachtenberger — The Metacrisis and Governance as Technology
 
 Daniel Schmachtenberger's work on the metacrisis provides the unifying frame for understanding why civilizational failure is structural, not accidental. His central insight: **governance is technology**—designed systems that coordinate human behavior, not natural law or evolutionary inevitability. And like all technology, governance can be well-designed or poorly-designed, adaptive or obsolete, adequate for its era or catastrophically mismatched to current conditions.
 
@@ -850,7 +845,7 @@ Every mechanism in this platform is a response to Schmachtenberger's metacrisis 
 
 Schmachtenberger shows us **why** civilizational-scale reform is necessary (metacrisis), **what** the fundamental problem is (exponential capability, linear coordination), and **how** to think about solutions (governance as technology, Game B vs. Game A). The platform operationalizes these insights as **cooperation-as-a-service infrastructure**.
 
-### 1.13 James Burke — Law as Technology and Path Dependency
+### 1.12 James Burke — Law as Technology and Path Dependency
 
 James Burke's *Connections* and *The Day the Universe Changed* demonstrate that technology and knowledge systems are path-dependent. Early discoveries lock in trajectories that persist for centuries, making it extraordinarily difficult to switch paths even when superior alternatives emerge.
 
@@ -874,11 +869,11 @@ Institutions that seem like bureaucratic waste might prevent catastrophes you've
 
 **Integration with Inixiative:** The platform must preserve path-dependent wisdom while enabling adaptation through: (1) Forkability—branch and try alternatives without abandoning accumulated knowledge, (2) Mandatory justification before sunsetting rules—document why they were created and what problems they solve (Chesterton's Fence), (3) Interoperability—shared protocols enabling coordination without uniformity. Burke's work reminds us the window for choosing paths is narrow—once systems embed through education and precedent, they persist for centuries even when superior alternatives exist.
 
-## THEME 6: Alternative Models (WHAT to build)
+## THEME 5: Alternative Models (WHAT to build)
 
 With diagnosis complete and frameworks established, we turn to alternatives: what can we build instead? These final three thinkers provide specific mechanisms and visions for better governance systems—from adaptive institutional economics to novel market mechanisms to network states.
 
-### 1.14 Douglass North — Adaptive vs. Allocative Efficiency
+### 1.13 Douglass North — Adaptive vs. Allocative Efficiency
 
 Douglass North, Nobel-winning institutional economist, made a crucial distinction that most governance systems ignore: **allocative efficiency vs. adaptive efficiency**.
 
@@ -918,7 +913,7 @@ Tech giants have become so allocatively efficient at extracting attention and da
 
 The platform optimizes for adaptive efficiency over allocative efficiency: better to have slightly suboptimal resource allocation within flexible institutions than perfect allocation within rigid ones. Continuous adaptation (Section 4.7) and lifecycle management (Section 4.5) are direct implementations of prioritizing adaptive over allocative efficiency. Section 5.11 details anti-capture mechanisms that prevent concentrated wealth from purchasing governance outcomes, enabling the system to regulate harmful market overgrowth despite plutocratic pressures.
 
-### 1.15 Glen Weyl & Eric Posner — Radical Markets
+### 1.14 Glen Weyl & Eric Posner — Radical Markets
 
 Glen Weyl and Eric Posner's *Radical Markets* proposes mechanisms that were theoretically sound but practically impossible before digital infrastructure. Their work demonstrates how technology can unlock governance models that address long-standing institutional pathologies—monopoly capture, preference aggregation failures, data extraction.
 
@@ -944,7 +939,7 @@ Applied to leadership roles: a position holder sets their "buy out" price, pays 
 
 Their work demonstrates that **the constraint on better governance is often not political will but technical feasibility.** Now that the technical barriers have fallen, we can experiment with mechanisms that were previously pure theory. The platform provides infrastructure to deploy these experiments at scale and measure outcomes.
 
-### 1.16 Balaji Srinivasan — The Network State
+### 1.15 Balaji Srinivasan — The Network State
 
 Balaji Srinivasan's *The Network State* (2022) proposes a radical rethinking of how political communities form: **voluntary association**, not geographic accident, as the foundation of legitimate governance. His vision: **cloud-first, land-last**—digital coordination precedes physical territory. Communities form online, develop shared culture and governance, then eventually acquire physical space if desired.
 
