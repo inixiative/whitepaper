@@ -91,7 +91,8 @@ We cannot prescribe the optimal governance system—that would be hubris. Instea
 - 2.9 The Small-Coalition Trap (Selectorate Failure)
 - 2.10 Case Studies: The Vulnerability to Exhaustion and Capture
 - 2.11 The Eternal Return of Rent-Seeking (Techno-Feudalism, Regulatory Capture, Financialization)
-- 2.12 Summary: The Convergent Crisis
+- 2.12 The Accountability Vacuum (Nobody to Jail)
+- 2.13 Summary: The Convergent Crisis
 
 ---
 
