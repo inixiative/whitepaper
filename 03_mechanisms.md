@@ -480,6 +480,96 @@ The structure pushes toward public goods over private goods even in small commun
 
 **This is fundamentally experimental.** We don't know the optimal stake size, payout schedule, or engagement weighting a priori. Different communities will tune these parameters differently. Like OkCupid (Section 5.13), the aggregated data will reveal what configurations work in which contexts.
 
+#### 5.4.13 Compensation Ratio Caps: Aligning Leadership with Organizational Health
+
+**The diagnosis:** Section 2.1 documents runaway wealth concentration—CEO-to-worker pay ratios exploded from 20:1 (1965) to 350:1 (2020), Gini coefficient climbed to 0.48 (danger zone), wealth inequality approaching pre-revolutionary levels. This isn't just unfair—it's structurally misaligned. When executives can capture massive surplus regardless of worker prosperity, their incentives diverge from organizational health.
+
+**The mechanism:** Cap leadership compensation at a fixed multiple of median (or lowest) worker compensation. If a community sets a 20:1 ratio, the highest-paid leader can earn at most 20 times what the median worker earns.
+
+**Why this works—structural alignment through constrained optimization:**
+
+When executive pay is capped as a ratio of worker pay, leaders face a mathematical constraint: they can only increase their own compensation through two paths:
+
+1. **Raise worker wages broadly** → median rises → executive cap rises → everyone benefits
+2. **Extract surplus** → but limited to the ratio cap, dramatically reducing extraction profitability
+
+If CEO pay is capped at 20x median worker, and the CEO wants a raise from $2M to $2.5M, they must increase median worker pay from $100k to $125k. That requires raising compensation for hundreds or thousands of workers. Extraction becomes vastly more expensive than shared prosperity.
+
+**The equilibrium shift:**
+
+**Before (uncapped):** CEO maximizes personal compensation by suppressing worker wages (more surplus to capture), outsourcing to cheaper labor, converting employees to contractors. Optimal strategy is extraction.
+
+**After (ratio-capped):** CEO maximizes personal compensation by increasing organizational productivity that translates to higher worker pay. Optimal strategy is broad-based improvement. The cap creates structural pressure toward shared prosperity over extraction.
+
+**Configurable parameters:**
+
+- **Ratio level:** 20:1 (tight equality), 50:1 (moderate), 100:1 (loose) - communities experiment
+- **Comparison baseline:** Median worker, lowest full-time worker, or percentile-based (25th percentile)
+- **Exemptions:** Performance bonuses tied to measurable KPIs could exceed ratio temporarily if approved by workers
+- **Timeframe:** Calculated annually, quarterly, or rolling average to prevent gaming
+
+**Connection to diagnosis:**
+
+This directly addresses Section 2.1's diagnosis of Pareto distribution acceleration and Gini coefficient danger zone (0.48). It provides a structural bound on inequality within organizations—not eliminating productive inequality (some differential rewards skill and effort), but preventing runaway concentration that destroys social cohesion.
+
+**Historical context:**
+
+The 1965 ratio of 20:1 wasn't enforced by law—it emerged from social norms, strong labor unions, and progressive taxation. As those constraints eroded post-1971 (Section 1.3), ratios exploded to 350:1+. This mechanism restores bounds through transparent, enforced structure rather than relying on social norms.
+
+**Why this belongs in contractual associations:**
+
+This mechanism applies primarily to **Contractual/Ownership Associations** (Section 5.2.1): cooperatives, corporations, DAOs where membership is defined by formal relationships. It's less applicable to voluntary associations or pure geographic communities.
+
+- **Worker co-ops:** Natural fit - members are both workers and owners
+- **Platform co-ops:** Prevents founder/early investor extraction from later contributors
+- **Protocol DAOs:** Caps core team compensation relative to contributor payouts
+- **Traditional corporations:** Could adopt as commitment mechanism to attract talent and signal values
+
+**Failure modes and mitigations:**
+
+**Gaming through classification:** Define "workers" narrowly (exclude contractors, part-time), or use accounting tricks to hide true compensation.
+- Mitigation: Ratio applies to all labor (contractors, part-time prorated), transparent accounting with worker oversight, compensation includes all benefits/equity
+
+**Talent flight:** High performers leave for uncapped organizations.
+- Mitigation: This is a feature, not a bug. Communities self-select. Those who prioritize uncapped individual wealth join traditional firms. Those who value equity and shared prosperity join ratio-capped organizations. Both can coexist.
+
+**Founder equity problem:** Startup founders often hold large equity stakes that vest over time. When company succeeds, their compensation spikes.
+- Mitigation: Equity appreciation excluded from ratio (you can't control market valuation), OR ratio applies only to cash/liquid compensation, OR equity distributed more broadly to workers
+
+**Coordination failure:** If only one company adopts ratios, they're disadvantaged competing for executive talent.
+- Mitigation: Platform makes it easy for entire sectors/networks to adopt simultaneously. Co-ops, B-corps, and mission-driven organizations coordinate on shared standards.
+
+**Interaction with other mechanisms:**
+
+**Persistence payments (Section 5.4.5):** Leader compensation for durable policies can include ratio-capped bonuses. Long-term value creation increases organizational resources → higher worker pay → higher executive cap → aligned incentives at multi-year horizon.
+
+**Proposal betting (Section 5.4.12):** Leaders stake points on initiatives. Successful initiatives that increase organizational health raise revenue → worker wages rise → executive cap rises. Creates compounding alignment.
+
+**Continuous alignment (Section 5.6):** Workers can vote to adjust ratio cap. If leaders are extractive, workers tighten the ratio. If leaders deliver shared prosperity, workers may loosen it as reward.
+
+**The empirical question:**
+
+What ratio produces optimal outcomes? We don't know a priori. Historical data suggests 20:1 worked well in 1965 (high growth, rising wages, social stability). But optimal ratios likely vary by:
+- **Organization size:** Small co-ops might accept 5:1, large corporations might need 100:1
+- **Industry:** Capital-intensive businesses vs knowledge work vs service industries
+- **Culture:** Scandinavian tolerance for equality vs American tolerance for inequality
+- **Growth stage:** Startups might need higher ratios to attract talent; mature firms can tighten
+
+**OkCupid model (Section 5.13):** After thousands of organizations experiment with different ratios, we discover empirically:
+- "Co-ops with 20-50 members thrive at 10:1; larger orgs need 30:1"
+- "Tech startups need 100:1 for first 3 years, then tighten to 50:1"
+- "Service industries with thin margins work better at 15:1; manufacturing at 40:1"
+
+These aren't prescriptions—they're discoveries from experimentation.
+
+**Why this matters:**
+
+This mechanism creates **structural** pressure toward broad-based prosperity rather than relying on leaders' virtue or workers' collective bargaining power. It operationalizes the insight from Section 2.1: inequality isn't inherently bad, but runaway concentration destroys cooperation capacity. By capping inequality within organizations at levels compatible with empirically-tested healthy ranges (Gini 0.25-0.35), we prevent the acceleration that led to current crisis levels (Gini 0.48).
+
+**This is not a silver bullet.** It doesn't solve inequality between organizations (some co-ops will be more productive than others). It doesn't prevent wealth accumulation through ownership of multiple firms or financial assets. But it prevents the most direct form of extraction: leadership capturing organizational surplus while workers stagnate.
+
+**Communities choose their equilibrium.** Some will want tight caps (5:1, radical equality). Some will want loose (200:1, barely constraining). Some will reject ratios entirely. The platform enables experimentation. Data reveals what works where.
+
 ### 5.5 Reputation & Reciprocity Engine
 
 Reputation systems are essential for cooperation at scale—but as shown in Section 2.7.5, they are also the most dangerous governance tool if implemented poorly. This section describes how to operationalize reputation while respecting the constraints from Section 4.9.
