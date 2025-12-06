@@ -1386,7 +1386,7 @@ These aren't isolated failures. They're exemplars of a general vulnerability tha
 
 **What Actually Happened:** Investigations by Ashley Rindsberg reveal systematic capture of controversial articles by small groups of coordinated editors. On politicized topics (climate change, Israeli-Palestinian conflict, COVID-19 origins, controversial public figures), ~40-50 highly active editors effectively control content by **exhausting opposition through sheer volume of engagement**.
 
-**The Mechanism: Proof of Determination or Resources**
+**The Mechanism: Proof of Exhaustion**
 
 Wikipedia's governance assumes all editors are roughly equal participants with similar engagement capacity. This is catastrophically false. Consider the asymmetry:
 
@@ -1436,7 +1436,7 @@ Reddit's governance assumes participants engage at comparable rates. This is fal
 
 The flood strategy doesn't require convincing anyone. It requires **outlasting** organic participation through superior determination—whether that determination comes from passionate commitment or professional employment. Post enough ideologically aligned content, suppress enough dissent, and within months the subreddit's visible culture shifts. Newcomers see only one perspective, assume it represents consensus, and either conform or leave. The community captured not through majority support but through **differential engagement persistence**.
 
-**Proof of Determination:** Reddit's algorithmic governance optimizes for engagement, not truth or quality. High-volume coordinated posting outcompetes low-volume organic participation. The system selects for whoever can sustain engagement longest—whether from ideological passion, obsessive fixation, or organizational funding—not who has better ideas or represents actual community preference.
+**Proof of Exhaustion:** Reddit's algorithmic governance optimizes for engagement, not truth or quality. High-volume coordinated posting outcompetes low-volume organic participation. The system selects for whoever can sustain engagement longest—whether from ideological passion, obsessive fixation, or organizational funding—not who has better ideas or represents actual community preference.
 
 **Result:** Subreddits on politicized topics become ideological monocultures not because users agree, but because dissenters were exhausted out by opponents with superior determination capacity (however sourced).
 
@@ -1472,13 +1472,13 @@ The same mechanism dominates contemporary governance:
 
 The outcome is predictable: **whoever can sustain determination longest wins**, regardless of merit or majority preference.
 
-#### 2.10.4 The Pattern: Proof of Determination
+#### 2.10.4 The Pattern: Proof of Exhaustion
 
 These three cases—Wikipedia (digital commons), Reddit (algorithmic platform), Anslinger (traditional bureaucracy)—span different governance models and different eras. Yet they share a common failure mode:
 
 **Vulnerability to Exhaustion-Based Capture**
 
-When systems lack anti-exhaustion mechanisms, governance defaults to **proof of determination**: whoever can maintain engagement longest wins, regardless of merit, expertise, or majority preference.
+When systems lack anti-exhaustion mechanisms, governance defaults to **Proof of Exhaustion**—a system where the winner is determined not by who has the best ideas, merit, or expertise, but by who has the lowest opportunity cost of time. Whoever can maintain engagement longest wins, regardless of whether they're right.
 
 **This pattern is immediately recognizable from the legal system:** The party with more resources typically wins civil lawsuits not because their legal argument is stronger, but because they can afford sustained litigation. A corporation with unlimited legal budget can:
 - Hire teams of lawyers vs. individual's solo attorney
@@ -1498,7 +1498,7 @@ The same pattern appears in domains we assume are protected by scientific rigor:
 
 **Amyloid Plaques and Alzheimer's (1990s-2020s):** The amyloid hypothesis (plaques cause Alzheimer's) dominated research for 30+ years, attracting billions in funding despite repeated clinical trial failures. Recent evidence suggests amyloid plaques may be a symptom of metabolic dysfunction (insulin resistance in the brain), not the root cause. But the researchers and institutions with determination to sustain the amyloid paradigm—through funding, publications, academic positions, conference control—could outlast alternative hypotheses. Scientists proposing metabolic approaches lacked equivalent institutional backing and couldn't match the sustained engagement of the amyloid establishment. Decades of research down a potentially wrong path because the selection mechanism was determination/resources, not evidence quality.
 
-**California Homelessness Crisis (2000s-present):** Despite spending billions annually, homelessness has worsened. Why? Industries have grown up around the problem—nonprofits, consultants, bureaucracies moving billions of dollars with determination to sustain their operations. Those with resources and engagement capacity to dominate policy discussions are often those who benefit from the problem persisting, not from solving it. Housing-first advocates with institutional funding outlast alternative approaches (mental health treatment, addiction services, enforcement of laws). Homeless people themselves lack voice or resources. Frustrated taxpayers and neighborhood residents lack the determination to fight a well-funded homelessness industrial complex that has captured policymaking through sustained engagement. The system becomes cancerous—consuming resources, growing bureaucracies, but not solving the underlying problem because the selection mechanism rewards proof of determination (often from those benefiting from the status quo), not proof of effectiveness.
+**California Homelessness Crisis (2000s-present):** Despite spending billions annually, homelessness has worsened. Why? Industries have grown up around the problem—nonprofits, consultants, bureaucracies moving billions of dollars with determination to sustain their operations. Those with resources and engagement capacity to dominate policy discussions are often those who benefit from the problem persisting, not from solving it. Housing-first advocates with institutional funding outlast alternative approaches (mental health treatment, addiction services, enforcement of laws). Homeless people themselves lack voice or resources. Frustrated taxpayers and neighborhood residents lack the determination to fight a well-funded homelessness industrial complex that has captured policymaking through sustained engagement. The system becomes cancerous—consuming resources, growing bureaucracies, but not solving the underlying problem because the selection mechanism rewards Proof of Exhaustion (often from those benefiting from the status quo), not proof of effectiveness.
 
 **Sources of Determination:**
 
@@ -1575,7 +1575,7 @@ The system's **light cone** (Section 3.1) couldn't perceive the attack. It saw "
 
 **The Missing Piece: Anti-Exhaustion Mechanisms**
 
-Section 4 (The Specification) will define requirements for mechanisms that defend against exhaustion-based capture. The diagnosis is complete: modern governance systems fail because they lack structural defenses against proof of determination. Solutions follow in the specification and mechanism design sections.
+Section 4 (The Specification) will define requirements for mechanisms that defend against exhaustion-based capture. The diagnosis is complete: modern governance systems fail because they lack structural defenses against Proof of Exhaustion. Solutions follow in the specification and mechanism design sections.
 
 ### 2.11 The Eternal Return of Rent-Seeking
 
@@ -1623,14 +1623,14 @@ The diagnosis is complete. Modern governance systems fail not through moral weak
 
 **Small-Coalition Trap (2.9):** Leaders rationally optimize for narrow winning coalitions rather than broad public good, breaking principal-agent alignment.
 
-**Exhaustion-Based Capture (2.10):** Governance defaults to proof of determination—whoever can sustain engagement longest wins through personal obsession, organizational resources, or institutional position. Ordinary citizens with jobs and families cannot match the engagement capacity of zealots, well-funded lobbying operations, or permanent bureaucracies. Systems designed for cooperative equilibrium fail catastrophically when domains shift to competitive equilibrium without adaptive mechanisms.
+**Exhaustion-Based Capture (2.10):** Governance defaults to Proof of Exhaustion—whoever can sustain engagement longest wins through personal obsession, organizational resources, or institutional position. Ordinary citizens with jobs and families cannot match the engagement capacity of zealots, well-funded lobbying operations, or permanent bureaucracies. Systems designed for cooperative equilibrium fail catastrophically when domains shift to competitive equilibrium without adaptive mechanisms.
 
 **The Eternal Return of Rent-Seeking (2.12):** Techno-feudalism (platform monopolies extracting cloud rent), regulatory capture (revolving door between industry and government), moral hazard (privatized gains, socialized losses), and financialization (rentier extraction over production) are not new problems—they're eternal patterns wearing new masks. Technology changes the substrate, but power concentration, elite capture, and rent-seeking reassert themselves without governance mechanisms that actively prevent them.
 
 **Capture is fractal, not singular.** Across these failure modes, "capture" appears repeatedly but at different scales and substrates. It's not a single event—it's a fractal process operating simultaneously at multiple levels:
 - **Capital capture (2.1):** Wealth concentration through Pareto distributions, CEO pay ratios (20:1 → 350:1), Gini coefficients in danger zone (0.48)
 - **Institutional capture (2.2):** Bureaucratic metastasis, Olson's ratchet, Jiang's hiring trap
-- **Attention capture (2.10):** Exhaustion warfare, proof of determination, asymmetric engagement capacity
+- **Attention capture (2.10):** Exhaustion warfare, Proof of Exhaustion, asymmetric engagement capacity
 - **Regulatory capture (2.12):** Revolving door, industry writing its own rules, captured oversight
 
 The mechanism is always the same: **asymmetric concentration of resources, will, or attention overwhelms diffuse majorities**. Small coordinated groups with superior capacity (wealth, obsession, institutional position, organizational funding) exhaust larger but less-coordinated populations. The equilibrium is capture unless governance mechanisms structurally prevent it.
