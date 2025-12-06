@@ -1155,6 +1155,21 @@ Both failure modes are fatal. A society cannot survive when its institutions eit
 - Declining fertility across developed world
 - "Bowling Alone" social capital decline
 
+**Luxury beliefs as elite status competition:** Rob Henderson identified a specific manifestation of competition saturation among elites: **luxury beliefs**—ideas and policies that confer status on the upper class while inflicting costs on the lower classes.
+
+When elite hierarchies saturate (Section 2.1), status competition shifts from traditional markers (wealth, titles) to costly signaling through beliefs that demonstrate elite position. These beliefs are "luxury" because only elites can afford the consequences:
+
+- **"Defund the police":** Advocated by wealthy urbanites with private security, low crime neighborhoods, or ability to move. Working-class neighborhoods that depend on police protection bear the costs.
+- **"Family structure doesn't matter":** Promoted by upper-class families with two stable parents, tutors, legacy admissions. Lower-class children without stable families lack compensating resources and suffer worse outcomes.
+- **"Borders are artificial/immoral":** Advocated by those insulated from labor market competition. Working-class wages suppressed by immigration while elites benefit from cheaper services.
+- **Educational policy capture:** Dominated by those who can afford private schools, tutors, or advantaged districts. Policies that fail public schools don't affect elite children.
+
+**The mechanism:** Elite overproduction creates intense competition for status within the credentialed class. Traditional markers (wealth, degrees, jobs) become insufficient for differentiation. Luxury beliefs provide costless (to the believer) status signaling—demonstrating elite position by advocating positions ordinary people cannot afford to hold.
+
+**Why ordinary citizens can't fight back:** Working-class people affected by these policies lack the time, resources, or platforms to engage in sustained counter-advocacy (Section 2.10 exhaustion-based capture). Policy debates happen in venues dominated by those with determination or resources: academic journals, think tanks, media, legislative testimony. The people bearing costs are exhausted out of participation by the demands of jobs and families.
+
+**Connection to cooperation breakdown:** Luxury beliefs destroy social trust across class lines. When elites advocate policies that demonstrably harm lower classes while insulating themselves from consequences, it signals defection—the pursuit of status at others' expense. This breaks the reciprocity required for cooperation (Section 2.5 trust mechanisms).
+
 **Schelling point analysis:** When everyone competes, cooperation becomes exploitable. The Nash equilibrium is defection. In a frontier society with abundance, cooperation is positive-sum (we can all win). In a saturated society with scarcity, competition is zero-sum (your gain is my loss). Without mechanisms to make cooperation cheap and defection costly, the system settles on competitive equilibrium.
 
 **Why it matters:** Competition saturation produces:
