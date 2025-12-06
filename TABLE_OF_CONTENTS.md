@@ -15,6 +15,34 @@ This project consists of four core documents that build a comprehensive case for
 
 ---
 
+## Executive Summary
+
+Modern societies experience cyclical breakdown due to elite overproduction, institutional bloat, cooperation decay, and competitive overload. Yet we lack concrete alternatives—not because good governance is impossible, but because we've lacked the technological infrastructure to make cooperation cheap and scalable.
+
+This whitepaper proposes **Inixiative**: a cooperation-as-a-service platform enabling communities to experiment with novel governance mechanisms made possible by smart contracts and web3 infrastructure.
+
+### Structure
+
+This work is organized into four documents:
+
+**Document 1: The Diagnosis (Sections 1-2)** — An exploration of why current governance systems fail, drawing on structural demography, institutional economics, cybernetics, and social cooperation theory. We identify the core failure modes: elite hypertrophy, institutional sclerosis, competition saturation, and the loss of subsidiarity.
+
+**Document 2: The Specification (Sections 3-4)** — A formal schema defining what any functional governance system must accomplish—independent of implementation. This serves as an interface specification, an abstract API for cooperation at scale.
+
+**Document 3: The Mechanisms (Section 5)** — Examples of governance mechanisms that were previously impossible but are now feasible through smart contracts: long-horizon accountability, programmable incentives, trustless execution, and transparent lifecycle management. These are tools, not prescriptions—communities mix and match as needed.
+
+**Document 4: The MVP (Sections 6-9)** — A practical implementation focused on low-friction cooperation at scale. Not a replacement for government, but infrastructure for collective action: resource pooling, decision-making, and project coordination with dramatically reduced transaction costs.
+
+### Core Thesis
+
+We cannot prescribe the optimal governance system—that would be hubris. Instead, we provide tools to search the solution space. Smart contracts enable mechanisms for cooperation that were impossible in previous eras. By offering modular, composable governance primitives, communities can discover what works for them.
+
+**Success metric:** participant satisfaction over time.
+
+**Expected outcomes:** higher civic capacity, reduced coordination friction, evolutionary discovery of better institutional forms through experimentation rather than ideology.
+
+---
+
 ## Document 1: The Diagnosis
 
 **File:** `01_diagnosis.md` (~1,400 lines, ~22,000 words)
@@ -23,11 +51,8 @@ This project consists of four core documents that build a comprehensive case for
 
 ### Contents
 
-#### Section 0: Abstract & Motivation
-- 0. Abstract / Executive Summary
-- 1.0 Origin Story: Where Are the Flying Cars? (Nuclear energy as case study of governance failure)
-
 #### Section 1: Background: Intellectual Lineage
+- 1.0 Origin Story: Where Are the Flying Cars? (Nuclear energy as case study of governance failure)
 
 **THEME 1: The Structural Crisis (WHY societies fail)**
 - 1.1 Peter Turchin — Cliodynamics & Elite Overproduction
@@ -65,8 +90,8 @@ This project consists of four core documents that build a comprehensive case for
 - 2.8 Epistemic Fragmentation (The Sense-Making Crisis)
 - 2.9 The Small-Coalition Trap (Selectorate Failure)
 - 2.10 Case Studies: The Vulnerability to Exhaustion and Capture
-- 2.12 Ancient Patterns, Modern Manifestations (Techno-Feudalism, Regulatory Capture, Moral Hazard)
 - 2.11 Summary: The Convergent Crisis
+- 2.12 The Eternal Return of Rent-Seeking (Techno-Feudalism, Regulatory Capture, Financialization)
 
 ---
 
@@ -176,9 +201,9 @@ This project consists of four core documents that build a comprehensive case for
 
 | Document | Status | Word Count | Last Updated |
 |----------|--------|------------|--------------|
-| 01_diagnosis.md | ✅ Complete | ~22,000 | 2025-12-05 |
+| 01_diagnosis.md | ✅ Complete | ~22,000 | 2025-12-06 |
 | 02_specification.md | ✅ Complete | ~36,000 | 2025-12-05 |
-| 03_mechanisms.md | ✅ Complete | ~25,000 | 2025-12-05 |
+| 03_mechanisms.md | ✅ Complete | ~25,000 | 2025-12-06 |
 | 04_mvp.md | ✅ Complete | ~14,000 | 2025-12-05 |
 | appendix.md | ✅ Exists | ~2,200 | - |
 | glossary.md | ❌ To be created | - | - |
@@ -189,7 +214,7 @@ This project consists of four core documents that build a comprehensive case for
 
 **For General Readers:** Start with Section 1.0 (Origin Story) in the Diagnosis, then read Section 2 (What Fails). This gives you the "why this matters" foundation.
 
-**For Academics/Researchers:** Read the full Diagnosis (Sections 0-2) for theoretical grounding, then jump to the Specification (Sections 3-4) for the formal requirements framework.
+**For Academics/Researchers:** Read the full Diagnosis (Sections 1-2) for theoretical grounding, then jump to the Specification (Sections 3-4) for the formal requirements framework.
 
 **For Builders/Developers:** Read Section 2 (Diagnosis summary), skim Section 4 (Requirements Spec), browse the Mechanisms catalog (Document 3), then focus on the MVP (Document 4) for concrete architecture and implementation plan.
 

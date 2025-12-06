@@ -2,36 +2,7 @@
 
 **[← Full Project Navigation](TABLE_OF_CONTENTS.md)**
 
-## 0. Abstract / Executive Summary
-
-Modern societies experience cyclical breakdown due to elite overproduction, institutional bloat, cooperation decay, and competitive overload. Yet we lack concrete alternatives—not because good governance is impossible, but because we've lacked the technological infrastructure to make cooperation cheap and scalable.
-
-This whitepaper proposes **Inixiative**: a cooperation-as-a-service platform enabling communities to experiment with novel governance mechanisms made possible by smart contracts and web3 infrastructure.
-
-### Structure
-
-This work is organized into four parts:
-
-**Part 1: Diagnosis** (Sections 1-2)
-An exploration of why current governance systems fail, drawing on structural demography, institutional economics, cybernetics, and social cooperation theory. We identify the core failure modes: elite hypertrophy, institutional sclerosis, competition saturation, and the loss of subsidiarity.
-
-**Part 2: Requirements Specification** (Section 3)
-A formal schema defining what any functional governance system must accomplish—independent of implementation. This serves as an interface specification, an abstract API for cooperation at scale.
-
-**Part 3: Novel Mechanisms Now Possible** (Section 4)
-Examples of governance mechanisms that were previously impossible but are now feasible through smart contracts: long-horizon accountability, programmable incentives, trustless execution, and transparent lifecycle management. These are tools, not prescriptions—communities mix and match as needed.
-
-**Part 4: Concrete MVP** (Section 5)
-A practical implementation focused on low-friction cooperation at scale. Not a replacement for government, but infrastructure for collective action: resource pooling, decision-making, and project coordination with dramatically reduced transaction costs.
-
-### Core Thesis
-
-We cannot prescribe the optimal governance system—that would be hubris. Instead, we provide **tools to search the solution space**. Smart contracts enable mechanisms for cooperation that were impossible in previous eras. By offering modular, composable governance primitives, communities can discover what works for them.
-
-**Success metric:** participant satisfaction over time.
-
-**Expected outcomes:** higher civic capacity, reduced coordination friction, evolutionary discovery of better institutional forms through experimentation rather than ideology.
-
+---
 
 ## 1. Background: Intellectual Lineage
 
@@ -1358,6 +1329,8 @@ A pattern emerges across failed reforms: **the tyranny of quantification**.
 
 **Core insight:** Any governance system must preserve space for the unmeasured, the illegible, and the informal. Not everything valuable can or should be quantified.
 
+**Why we keep building metric-obsessed systems (Iain McGilchrist):** In *The Master and His Emissary*, McGilchrist argues that Western civilization has drifted into **left-hemisphere cognitive dominance**. The left hemisphere excels at the explicit, the metric, the abstraction, the map—but cannot understand context, connection, or the whole. The right hemisphere grasps the implicit, lived experience, the territory, relationships, and meaning. We don't just suffer from bad bureaucrats; we suffer from a **civilizational cognitive imbalance** where we systematically value what can be counted over what counts. This is the neurological basis for why high-modernist planners destroy metis (Section 1.9 Scott)—they literally cannot see what they're destroying because their cognitive mode filters for legible abstractions and discards illegible context. The tyranny of metrics isn't a policy failure; it's a **failure mode of consciousness itself** when societies over-rely on left-brain thinking without balancing it with right-brain wisdom. Any governance reform that doesn't account for this cognitive trap will reproduce the same measurement obsession in new forms.
+
 **The temporal mismatch problem:** Current governance structures systematically fail to match decision timeframes to problem horizons. They optimize for:
 - Election cycles (2-4 years)
 - Quarterly earnings reports (3 months)
@@ -1388,6 +1361,18 @@ Climate change requires 50-year thinking but gets 4-year election cycles. Emerge
 **The Mechanism:** Leaders are rational; they optimize for the "Winning Coalition" necessary to gain power. In modern democracies, this coalition has shrunk to a small group of donors, party gatekeepers, and primary voters. It is politically optimal to provide private goods (tax breaks, subsidies, contracts) to this small coalition while ignoring the public goods needed by the wider population.
 
 **Result:** Policies that benefit the narrow coalition create negative value for the commons. Leaders ignore 80% public support for policies because the 80% are not in the Winning Coalition.
+
+**Why small coalitions manipulate crowds so easily (René Girard):** Girard's mimetic theory reveals a deeper mechanism behind coalition capture: **human desire is copied, not individual**. We want things because others want them. In governance, this means preferences aren't stable individual calculations—they're **viral contagion patterns** shaped by charismatic leaders, social proof, and visible commitment signals. A small, coordinated coalition doesn't need to convince the majority through argument; they only need to demonstrate intense visible desire (posting volume, rally attendance, donation levels, passionate rhetoric), and mimetic dynamics will recruit imitators.
+
+**Manufacturing Consent and ideological package deals:** Chomsky's *Manufacturing Consent* is the media-industrial echo of Girard's mimetic mechanism. We don't independently evaluate each policy; we **adopt pre-packaged belief bundles** from our chosen tribe. Chris Williamson captures this perfectly: "If I know one of your views, and from it, I can accurately predict everything else that you believe, then you're not a serious thinker. If you tell me your view on abortion, and from it I know your stance on immigration and healthcare and gun control and vaccines and taxation, it seems likely that you haven't arrived at those beliefs on your own." This is mimetic capture at civilizational scale. People aren't reasoning from first principles—they're **outsourcing their worldview to the crowd**, adopting entire ideological packages to signal tribal membership. For governance systems, this is catastrophic: you're not aggregating genuine preferences on individual policies, you're measuring tribal affiliation signals. Voting becomes identity performance, not evaluation.
+
+**The 10% tipping point:** Network science confirms this isn't theoretical. Research at Rensselaer Polytechnic Institute (2011) found that when just **10-11% of a population holds an unshakable belief**, their belief will always be adopted by the majority—but below that threshold, "it would literally take the amount of time comparable to the age of the universe" for the idea to spread. The selectorate doesn't need to be large; it needs to be **committed and coordinated**. This is why focused minorities (activists, lobbies, ideological movements) punch far above their numerical weight, while diffuse majorities with mild preferences never organize. The 80% majority doesn't coalesce because their preferences lack mimetic intensity—they feel support but don't see others demonstrating passionate commitment, so they assume their position is weak.
+
+**MLK and Balaji's "One Commandment":** This is also why single-issue coalitions are so powerful. Martin Luther King Jr.'s civil rights movement succeeded not by getting everyone to agree on everything, but by **finding one thing everyone could agree on**: equal legal treatment regardless of race. Balaji's "One Commandment" for network states operates on the same principle—diverse people with different values can coordinate around a single shared commitment, creating a coalition far larger than any that requires total ideological alignment. The mimetic power comes from the simplicity: one clear, emotionally resonant principle that people can rally around and demonstrate visible commitment to.
+
+**The mechanism is ideologically neutral:** The NRA demonstrates this perfectly—intense single-issue focus (Second Amendment rights) creates a committed minority that punches far above its numerical weight. The same coordination pattern works for civil rights movements, gun rights advocacy, environmental campaigns, whatever. Understanding the mechanism doesn't mean endorsing any particular use. Governance systems must account for this dynamic regardless of whether we approve or disapprove of specific applications.
+
+**Why this matters for governance design:** Any system relying on preference aggregation must account for the difference between **authentic individual preference and mimetically-induced desire**, or it will systematically empower whoever can engineer viral contagion—whether through genuine passion, professional marketing, or algorithmic manipulation. This is why we need **better tools for translating sentiment intensity** rather than just direction. Point-voting systems (Section 5.7) that capture "how much do you care" help distinguish genuine preference from mimetic cascade—but the interface must make visible the difference between organic distributed support and coordinated minority intensity. Without this, governance becomes a game of who can manufacture the most convincing appearance of consensus.
 
 ### 2.10 Case Studies: The Vulnerability to Exhaustion and Capture
 
@@ -1592,9 +1577,9 @@ The system's **light cone** (Section 3.1) couldn't perceive the attack. It saw "
 
 Section 4 (The Specification) will define requirements for mechanisms that defend against exhaustion-based capture. The diagnosis is complete: modern governance systems fail because they lack structural defenses against proof of determination. Solutions follow in the specification and mechanism design sections.
 
-### 2.12 Ancient Patterns, Modern Manifestations
+### 2.12 The Eternal Return of Rent-Seeking
 
-**What fails:** The previous sections diagnosed specific failure modes as if they were modern problems. They're not. Human societies repeatedly fall into the same structural traps across millennia. Technology changes—clay tablets to smartphones, feudal estates to cloud platforms—but the underlying patterns persist: power concentrates, elites capture systems, rent-seeking replaces value creation, and moral hazard disconnects consequences from decisions. History doesn't repeat, but it rhymes.
+**What fails:** The previous sections diagnosed specific failure modes as if they were modern problems. They're not. Human societies repeatedly fall into the same structural trap: **rent extraction replacing value creation**. The pattern is ancient—feudal lords extracting land rent, kings declaring bankruptcy while peasants starve, merchant guilds controlling market access. Technology changes—clay tablets to smartphones, feudal estates to cloud platforms—but the underlying dynamic persists: those who control access capture value without producing it. Techno-feudalism, regulatory capture, moral hazard, and financialization are not separate problems—they're manifestations of the eternal return to rent-seeking equilibria. History doesn't repeat, but it rhymes.
 
 **Techno-feudalism: the return of fiefdoms.** Yanis Varoufakis argues that capitalism itself has been replaced by a new feudal order. Medieval lords extracted rent by controlling land—scarce, necessary, impossible to replicate. Tech platform owners extract "cloud rent" by controlling digital infrastructure. You cannot compete with Amazon ON Amazon; they own the marketplace, see all transaction data, and undercut any successful competitor. You cannot build a Facebook competitor when the value IS the network (who joins a social network with no users?). Network effects create winner-take-all dynamics that make these monopolies structural, not regulatory failures.
 
@@ -1640,7 +1625,15 @@ The diagnosis is complete. Modern governance systems fail not through moral weak
 
 **Exhaustion-Based Capture (2.10):** Governance defaults to proof of determination—whoever can sustain engagement longest wins through personal obsession, organizational resources, or institutional position. Ordinary citizens with jobs and families cannot match the engagement capacity of zealots, well-funded lobbying operations, or permanent bureaucracies. Systems designed for cooperative equilibrium fail catastrophically when domains shift to competitive equilibrium without adaptive mechanisms.
 
-**Ancient Patterns, Modern Manifestations (2.12):** Techno-feudalism (platform monopolies extracting cloud rent), regulatory capture (revolving door between industry and government), moral hazard (privatized gains, socialized losses), and financialization (rentier extraction over production) are not new problems—they're eternal patterns wearing new masks. Technology changes the substrate, but power concentration, elite capture, and rent-seeking reassert themselves without governance mechanisms that actively prevent them.
+**The Eternal Return of Rent-Seeking (2.12):** Techno-feudalism (platform monopolies extracting cloud rent), regulatory capture (revolving door between industry and government), moral hazard (privatized gains, socialized losses), and financialization (rentier extraction over production) are not new problems—they're eternal patterns wearing new masks. Technology changes the substrate, but power concentration, elite capture, and rent-seeking reassert themselves without governance mechanisms that actively prevent them.
+
+**Capture is fractal, not singular.** Across these failure modes, "capture" appears repeatedly but at different scales and substrates. It's not a single event—it's a fractal process operating simultaneously at multiple levels:
+- **Capital capture (2.1):** Wealth concentration through Pareto distributions, CEO pay ratios (20:1 → 350:1), Gini coefficients in danger zone (0.48)
+- **Institutional capture (2.2):** Bureaucratic metastasis, Olson's ratchet, Jiang's hiring trap
+- **Attention capture (2.10):** Exhaustion warfare, proof of determination, asymmetric engagement capacity
+- **Regulatory capture (2.12):** Revolving door, industry writing its own rules, captured oversight
+
+The mechanism is always the same: **asymmetric concentration of resources, will, or attention overwhelms diffuse majorities**. Small coordinated groups with superior capacity (wealth, obsession, institutional position, organizational funding) exhaust larger but less-coordinated populations. The equilibrium is capture unless governance mechanisms structurally prevent it.
 
 These aren't independent problems—they're **mutually reinforcing dynamics** creating a convergent crisis. Elite overproduction drives institutional bloat. Bloat increases competition saturation. Competition destroys trust. Broken trust prevents subsidiarity. Rigid institutions can't adapt. Failed reforms create cynicism. Epistemic fragmentation prevents diagnosis. Small coalitions capture what remains.
 

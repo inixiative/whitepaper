@@ -317,6 +317,10 @@ The system behaves like an evolutionary ecology: stability at the large scale, e
 
 **The core tradeoff revisited:** Not all proposals are created equal. Some are experimental projects; others are foundational infrastructure. The platform must differentiate between them.
 
+**Pace layering (Stewart Brand):** In *The Clock of the Long Now*, Brand argues that healthy civilizations require components moving at different speeds. Fashion changes rapidly, absorbing shocks and enabling experimentation. Infrastructure changes slowly, providing stability and predictability. Governance needs both—not liquid democracy where everything can change daily (chaos), nor immutable constitutions that never adapt (sclerosis). The key insight: **friction isn't always a bug; sometimes it's a feature**. Fast layers enable search; slow layers provide foundations.
+
+Our implementation: **exponential backoff** creates pace layering organically. Successful policies that repeatedly pass review move from fast cadence (1 year) to slower cadence (3, 7, 15 years), while new or contested policies reset to fast review. Combined with differential thresholds (inixiatives vs infrastructure), this creates a multi-speed governance architecture—rapid iteration for experiments, stability for foundations.
+
 **Inixiatives (discrete projects):**
 - Time-bounded, reversible, low systemic risk
 - Examples: fund a community garden, organize a neighborhood cleanup, trial a new program
@@ -1225,6 +1229,14 @@ The mechanisms described in this section are **examples**, not mandates. We cann
 **We are not proposing THE optimal governance system.**
 
 That would be hubris. Social systems are complex, context-dependent, and culturally varied. What works for a tech co-op in San Francisco may fail miserably for a farming village in India. What works for a gaming DAO may be useless for a municipal government.
+
+**Gall's Law: Why we must start simple (John Gall):** In *Systemantics: How Systems Really Work and How They Fail*, Gall articulates a devastating observation about complex system design: **"A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over with a working simple system."**
+
+This is the ultimate justification for our MVP strategy (Document 4). The mechanisms described in this document—subsidiarity engines, differential thresholds, multi-tier delegation, algorithmic conflict resolution, pace layering, continuous alignment, anti-capture architecture—are *sophisticated*. If we tried to launch with all of them on day one, we would fail. Guaranteed.
+
+Instead, we build the **simplest possible thing that works**: a pooling and voting tool. Groups fund initiatives. Members allocate points to priorities. That's it. If that works, we add continuous alignment. If *that* works, we add delegation. If *that* works, we add subsidiarity routing. Each addition must prove itself before the next layer of complexity.
+
+**The temptation to build the "perfect system" from scratch is almost irresistible**—especially after synthesizing decades of research and identifying sophisticated solutions. Resist it. Gall's Law is empirically verified across every domain from software architecture to biological systems. Complex designed systems don't work. Evolved systems that grew from simple working cores *do* work.
 
 **We are proposing a toolkit for communities to search the solution space.**
 
