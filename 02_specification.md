@@ -12,7 +12,7 @@
 
 **Section 3: Design Frameworks & Methodologies** — The meta-level thinking tools from evolutionary biology, complex systems theory, information theory, and software engineering that inform how to design governance systems. Think of this as the design philosophy layer.
 
-**Section 4: Principles of a Cooperative Society** — The concrete requirements specification, an abstract API for governance. Any system that violates these principles will experience predictable failure modes.
+**Section 4: Principles of a Cooperative Society** — The concrete requirements specification, an abstract interface for governance. Any system that violates these principles will experience predictable failure modes.
 
 This is not an implementation guide—that comes in Documents 3 and 4. This is the requirements document: what we're searching for, independent of how we build it.
 
@@ -40,6 +40,14 @@ This is directly analogous to omnibus legislation. When a bill bundles infrastru
 
 The result is that bad policies hitchhike alongside good ones, just as harmful genes hitchhike with beneficial ones when physically linked. Evolution cannot select them apart, and neither can Congress. The mechanism is blind to the internal structure.
 
+**Network states and governance unbundling:** Balaji's network state model (Section 1.15 in the Diagnosis) enables what he calls governance "unbundling"—the ability to vote on individual policies rather than omnibus packages. Digital coordination makes granular decision-making practical where physical legislatures forced bundling.
+
+**Our platform defaults to atomic proposals** (single-issue, unbundled) to maximize light cone resolution and reduce bad-policy hitchhiking. Each proposal is evaluated independently, preventing the mechanism from being forced to accept harmful components to get beneficial ones.
+
+**However, complex proposals remain available when genuinely needed.** Some coordinated changes are legitimately interdependent: constitutional amendments requiring multiple simultaneous updates, negotiated package deals resolving multi-party tradeoffs ("I support your transit funding if you support my housing policy"). Forcing artificial atomicity can make genuine coordination harder.
+
+**The key difference:** Bundling becomes an explicit choice requiring justification, not the default state of all legislation. The burden shifts—you must explain why components must be voted together, rather than explaining why they should be separated. This inverts the current equilibrium where everything gets bundled and nothing gets unbundled.
+
 **What can different governance mechanisms see?**
 
 Binary voting (yes/no on a bill) can see aggregate approval but is blind to preference intensity. Someone who slightly prefers option A gets the same voting power as someone whose life depends on it. The mechanism has no way to perceive intensity—it's outside its light cone.
@@ -56,13 +64,24 @@ Long-horizon compensation (Section 5.4.4) expands the temporal light cone. By pa
 
 Subsidiarity mechanisms (Section 4.4 and 5.9) expand the spatial/scalar light cone. Instead of forcing all decisions through central processes that cannot perceive local context, problems get routed to the scale that has informational access. A neighborhood parking dispute involves context (who parks where, what the constraints are, what alternatives exist) that's invisible to city-level bureaucrats but obvious to residents. Routing to the appropriate scale ensures decision-makers are within the relevant light cone.
 
+**Sentiment/diagnostic feedback mechanisms** (Section 5) expand the light cone along a second axis - not just *whether* people approve, but *why* they approve or object. Like Fantasy Flight's narrative dice systems that track success/failure AND advantage/threat as separate dimensions, governance can capture:
+- **Approval axis:** Magnitude of support (-10 to +10)
+- **Diagnostic axis:** Nature of the concern (flags/routing information)
+  - "Should be bundled with initiative X"
+  - "Wrong jurisdictional level - escalate/de-escalate"
+  - "Too complex/illegible"
+  - "Needs more detail before deciding"
+  - "Conflicts with existing policy Y"
+
+A citizen might vote +7 (support) while flagging "should be bundled with housing initiative" - expressing approval but providing actionable routing information. The mechanism now sees both magnitude and diagnostic context, enabling appropriate responses (bundle proposals, route to different jurisdiction, simplify language) rather than just binary pass/fail. This multidimensional feedback dramatically expands informational throughput without requiring written essays.
+
 **The tyranny of legibility:** James C. Scott's *Seeing Like a State* (Section 1.9) is fundamentally about light cones. High-modernist planners demand legibility—everything must be measurable, categorizable, standardized—because that's what central authority can see. Vernacular practices, informal arrangements, tacit knowledge, social trust networks all exist outside the planner's light cone. When planners optimize on what they can measure, they destroy what they cannot.
 
 This is why Section 4.9 (Resist Tyranny of Metrics) is architecturally essential, not merely aspirational. We must preserve unmeasured commons—domains where value exists but measurement would destroy it. The platform must have principled limits on its own perceptual light cone, must acknowledge that some forms of value are invisible to any formal system, and must not optimize those domains to death.
 
 **Mechanism intelligence and problem-solving:** Levin's insight extends beyond perception to competency. Cells solve problems. They navigate chemical gradients, repair damage, coordinate with neighbors, adapt to stress. They're not conscious or self-aware, but they're competent within their domain. Governance mechanisms can be similarly competent—if they're given appropriate sensory access and decision-making authority.
 
-A well-designed voting mechanism "solves" the problem of aggregating preferences without requiring a central authority to understand every individual's values. Reputation systems "solve" the problem of tracking trustworthiness in communities too large for everyone to know everyone personally. Price mechanisms "solve" resource allocation without central planning. Each is a form of distributed intelligence operating within its informational light cone.
+A well-designed voting mechanism "solves" the problem of aggregating preferences without requiring a central authority to understand every individual's values. Reputation systems *attempt to solve* the problem of tracking trustworthiness in communities too large for everyone to know everyone personally - though this remains largely unsolved and fraught with risks (see Section 4.9). Price mechanisms "solve" resource allocation without central planning. Each is a form of distributed intelligence operating within its informational light cone.
 
 The platform's architecture is fundamentally about distributing problem-solving competency to the appropriate scale with appropriate informational access. Not all decisions should go through the same mechanism. Different problem types require different perceptual light cones, different temporal horizons, different spatial scales.
 
@@ -198,7 +217,7 @@ Communities observe each other's experiments, adopt what works, avoid what fails
 
 ## 4. Principles of a Cooperative Society (System Requirements Spec)
 
-This section defines an **interface specification** for governance systems—an abstract API describing what any functional cooperative society must accomplish, independent of implementation details.
+This section defines an **interface specification** for governance systems—an abstract interface describing what any functional cooperative society must accomplish, independent of implementation details.
 
 Think of this as analogous to defining the requirements for a database system: ACID properties (Atomicity, Consistency, Isolation, Durability) don't dictate MongoDB vs. PostgreSQL, but any production database must satisfy them. Similarly, these principles don't prescribe specific mechanisms, but any governance system that violates them will experience predictable failure modes.
 
@@ -243,7 +262,7 @@ Neither extreme works. The former enables predation; the latter creates authorit
 
 **Requirements for durable cooperation:**
 
-**Reputation systems (Intelligent):** Track contributions and violations transparently. The system must distinguish cooperators from defectors and adjust access/influence accordingly. But reputation must decay over time (Forgiving)—reformed actors can rebuild trust, and past mistakes don't create permanent castes.
+**Reputation systems (Intelligent):** Track contributions and violations transparently. The system should attempt to distinguish cooperators from defectors and adjust access/influence accordingly - though reputation mechanisms remain largely unsolved and carry significant risks of gaming, permanence bias, and rubric control (see Section 4.9). Critical requirement: reputation must decay over time (Forgiving) so reformed actors can rebuild trust and past mistakes don't create permanent castes.
 
 **Verified identity with privacy preservation (Clear + Nice):** Prevent Sybil attacks without sacrificing privacy. Zero-knowledge proofs enable verification of essential attributes ("this person is unique," "this person lives in this jurisdiction") without revealing sensitive details or treating everyone like criminals.
 
