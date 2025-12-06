@@ -605,7 +605,7 @@ Graeber identified five types:
 
 The connection to Jiang's bureaucratic empire-building is direct: credentialed elites with no productive roles create administrative work to justify their existence. The psychological toll compounds institutional sclerosis—workers in bullshit jobs know their labor is wasted but can't escape. Trust in institutions erodes when participants recognize the performative nature of their work. The platform's thin-elite architecture (Section 4.3) and transparent contribution tracking (Section 5.5) aim to prevent bullshit job proliferation by making value creation visible and preventing empire-building.
 
-### 1.8 George's Progress and Poverty
+### 1.8 Henry George — Progress and Poverty
 
 Henry George's *Progress and Poverty* (1879) diagnosed a fundamental paradox: why does poverty persist alongside technological progress and increasing productivity? His answer: **land rent extraction**. As societies become more productive, land values rise. Landowners capture the gains from societal progress without contributing to it. Those who own scarce resources extract rent; those who don't remain poor regardless of how hard they work or how much technology improves. Concentration leads to rent-seeking, rent-seeking leads to stagnation.
 
@@ -1577,7 +1577,7 @@ The system's **light cone** (Section 3.1) couldn't perceive the attack. It saw "
 
 Section 4 (The Specification) will define requirements for mechanisms that defend against exhaustion-based capture. The diagnosis is complete: modern governance systems fail because they lack structural defenses against proof of determination. Solutions follow in the specification and mechanism design sections.
 
-### 2.12 The Eternal Return of Rent-Seeking
+### 2.11 The Eternal Return of Rent-Seeking
 
 **What fails:** The previous sections diagnosed specific failure modes as if they were modern problems. They're not. Human societies repeatedly fall into the same structural trap: **rent extraction replacing value creation**. The pattern is ancient—feudal lords extracting land rent, kings declaring bankruptcy while peasants starve, merchant guilds controlling market access. Technology changes—clay tablets to smartphones, feudal estates to cloud platforms—but the underlying dynamic persists: those who control access capture value without producing it. Techno-feudalism, regulatory capture, moral hazard, and financialization are not separate problems—they're manifestations of the eternal return to rent-seeking equilibria. History doesn't repeat, but it rhymes.
 
@@ -1601,7 +1601,7 @@ Turchin's secular cycles (Section 1.1) repeat not because humans are stupid, but
 
 **Violates:** Principles 4.3 (Maintain Thin, Dynamic Elites), 4.4 (Enforce Subsidiarity), 4.5 (Lifecycle Management for All Institutions). Modern systems lack structural defenses against the eternal return of concentrated power.
 
-### 2.11 Summary: The Convergent Crisis
+### 2.12 Summary: The Convergent Crisis
 
 The diagnosis is complete. Modern governance systems fail not through moral weakness or lack of intelligence, but through **structural dynamics** that make failure inevitable:
 
