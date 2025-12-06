@@ -202,9 +202,9 @@ We cannot prescribe the optimal governance system—that would be hubris. Instea
 | Document | Status | Word Count | Last Updated |
 |----------|--------|------------|--------------|
 | 01_diagnosis.md | ✅ Complete | ~22,000 | 2025-12-06 |
-| 02_specification.md | ✅ Complete | ~36,000 | 2025-12-05 |
-| 03_mechanisms.md | ✅ Complete | ~25,000 | 2025-12-06 |
-| 04_mvp.md | ✅ Complete | ~14,000 | 2025-12-05 |
+| 02_specification.md | 🚧 WIP | ~36,000 | 2025-12-05 |
+| 03_mechanisms.md | 🚧 WIP | ~25,000 | 2025-12-06 |
+| 04_mvp.md | 🚧 WIP | ~14,000 | 2025-12-05 |
 | appendix.md | ✅ Exists | ~2,200 | - |
 | glossary.md | ❌ To be created | - | - |
 
