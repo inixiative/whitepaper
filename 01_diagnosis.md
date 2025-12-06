@@ -1364,7 +1364,210 @@ The platform isn't claiming to solve the wisdom problem—but it's attempting to
 
 **Result:** Policies that benefit the narrow coalition create negative value for the commons. Leaders ignore 80% public support for policies because the 80% are not in the Winning Coalition.
 
-### 2.10 Summary: The Convergent Crisis
+### 2.10 Case Studies: The Vulnerability to Exhaustion and Capture
+
+The previous sections diagnosed structural failures in abstract terms—elite overproduction, institutional bloat, competition saturation. This section grounds those abstractions in three concrete case studies spanning different governance models: digital commons (Wikipedia), algorithmic platforms (Reddit), and traditional bureaucracy (Harry Anslinger's marijuana criminalization). Despite their different architectures, all three exhibit the same failure pattern: **governance by the most determined or best-resourced**, where sustained engagement capacity—whether from passionate commitment, pathological obsession, or organizational funding—dominates merit and majority preference.
+
+These aren't isolated failures. They're exemplars of a general vulnerability that emerges when systems designed for cooperative equilibrium cross the tipping point into competitive equilibrium (Section 1.2 Sulikowski) without adaptive mechanisms. The failure mode is **exhaustion-based capture**—small, coordinated groups with asymmetric engagement capacity (through determination, resources, or both) exhaust ordinary participants until only those with infinite capacity remain standing.
+
+#### 2.10.1 Wikipedia: The Edit War of Attrition
+
+**The Promise:** Wikipedia was supposed to be the triumph of commons-based peer production—a knowledge commons where anyone could contribute, collectively maintained through distributed effort. The original vision assumed cooperative equilibrium: contributors acting in good faith, seeking truth, self-correcting through consensus.
+
+**What Actually Happened:** Investigations by Ashley Rindsberg reveal systematic capture of controversial articles by small groups of coordinated editors. On politicized topics (climate change, Israeli-Palestinian conflict, COVID-19 origins, controversial public figures), ~40-50 highly active editors effectively control content by **exhausting opposition through sheer volume of engagement**.
+
+**The Mechanism: Proof of Determination or Resources**
+
+Wikipedia's governance assumes all editors are roughly equal participants with similar engagement capacity. This is catastrophically false. Consider the asymmetry:
+
+- **Highly determined activist:** Ideologically motivated individual with unlimited free time, 8+ hours/day monitoring articles, instant reversion of changes, deep knowledge of Wikipedia procedural rules, coordinated with 20-50 similarly motivated editors. Determination sourced from ideological commitment.
+- **Paid advocacy editor:** Employee of PR firm, political campaign, or advocacy organization, editing Wikipedia as job function, professional coordination, institutional backing. Determination sourced from employment and organizational resources.
+- **Domain expert with day job:** Professor, researcher, or professional with actual expertise, checks Wikipedia occasionally, makes corrections when errors are glaring, lacks time to engage in procedural warfare, operates independently, unpaid. Limited determination capacity due to other responsibilities.
+
+The system treats these as equivalent "editors" and resolves disputes through **attrition**. Who wins isn't determined by expertise, evidence, or majority support among Wikipedia's user base. It's determined by **who has more capacity to sustain engagement**—whether that capacity comes from personal obsession, ideological passion, or organizational resources.
+
+**What gets selected for:**
+- Determination (from any source: passion, obsession, or funding)
+- Ideological motivation (provides sustained commitment)
+- Organizational funding (provides professional capacity)
+- Free time or paid employment (provides engagement hours)
+- Procedural knowledge (provides tactical leverage)
+- Coordination networks (multiplies effectiveness)
+
+**What gets selected against:**
+- Expertise (busy professionals have limited engagement capacity)
+- Good faith (treating others as adversaries is exhausting)
+- Casual contributors (cannot match sustained engagement)
+- Unpaid volunteers with other responsibilities (cannot compete with full-time operations)
+
+**Result:** On controversial topics, Wikipedia reflects the views of whichever faction can muster more sustained engagement—whether from passionate volunteers, obsessive zealots, or organizations with editing budgets. The commons was captured not through formal authority but through **asymmetric determination capacity** that ordinary contributors cannot match.
+
+**Connection to Cooperation→Competition Phase Transition:** Wikipedia's governance was designed for cooperative equilibrium—assume good faith, consensus-seeking, truth-oriented contributions. When domains became ideologically contested (climate, politics, COVID), the equilibrium shifted to competition without the governance adapting. Suddenly editors weren't cooperating toward truth; they were competing for narrative control. But the mechanisms (open editing, talk page consensus, administrative review) still assumed cooperation. The vulnerability to exhaustion is what happens when cooperative-equilibrium governance persists into competitive-equilibrium conditions.
+
+#### 2.10.2 Reddit: The Flood Strategy
+
+**The Promise:** Algorithmic content curation through upvotes/downvotes, distributed moderation, community-driven standards. Assume wisdom-of-crowds: good content rises, bad content sinks, determined by aggregate user preference.
+
+**What Actually Happened:** Ashley Rindsberg's investigations documented systematic manipulation by coordinated groups using **flood strategies**—posting massive volumes of ideologically aligned content, upvoting each other, downvoting opposition, until subreddit culture shifts to exclude dissenting views.
+
+**The Mechanism: Weaponizing Volume Through Determination or Budget**
+
+Reddit's governance assumes participants engage at comparable rates. This is false. Coordinated groups—whether passionate volunteer networks or paid operations—can:
+- Post 50-100 submissions per day across targeted subreddits
+- Coordinate upvotes within minutes of posting, triggering algorithmic amplification
+- Downvote opposing content into invisibility before most users see it
+- Report dissenting comments en masse, triggering auto-moderation
+- Exhaust volunteer moderators who lack capacity to review every report
+
+**Asymmetric Engagement Costs:**
+- **Determined activist network:** Distributed across timezones, 24/7 volunteer coverage, dedicated posting schedules, sustained by ideological commitment or community identity
+- **Professional astroturfing operation:** PR firms, political campaigns, foreign state actors, paid staff, coordinated automation, marketing budgets. Determination sourced from organizational resources.
+- **Ordinary user:** Checks Reddit during breaks, upvotes interesting content, comments occasionally, does not monitor constantly, unpaid. Limited determination capacity.
+
+The flood strategy doesn't require convincing anyone. It requires **outlasting** organic participation through superior determination—whether that determination comes from passionate commitment or professional employment. Post enough ideologically aligned content, suppress enough dissent, and within months the subreddit's visible culture shifts. Newcomers see only one perspective, assume it represents consensus, and either conform or leave. The community captured not through majority support but through **differential engagement persistence**.
+
+**Proof of Determination:** Reddit's algorithmic governance optimizes for engagement, not truth or quality. High-volume coordinated posting outcompetes low-volume organic participation. The system selects for whoever can sustain engagement longest—whether from ideological passion, obsessive fixation, or organizational funding—not who has better ideas or represents actual community preference.
+
+**Result:** Subreddits on politicized topics become ideological monocultures not because users agree, but because dissenters were exhausted out by opponents with superior determination capacity (however sourced).
+
+#### 2.10.3 Anslinger: Bureaucracy as Exhaustion
+
+**The Historical Case:** Harry Anslinger, first commissioner of the Federal Bureau of Narcotics (1930-1962), led the campaign to criminalize marijuana despite opposition from the American Medical Association, lack of evidence for harm, and minimal public concern. He succeeded not through democratic mandate or scientific consensus, but through **institutional persistence and resource advantage**.
+
+**The Mechanism: Institutional Resource Asymmetry**
+
+Anslinger's campaign weaponized bureaucratic advantages that opponents lacked. His determination was structurally enabled by institutional position:
+
+**Asymmetric Resources:**
+- **Anslinger:** Full-time federal salary enabling total focus, dedicated staff, operational budget, authority to testify before Congress, media access through official position, 30+ years of institutional continuity. Determination structurally supported by government resources.
+- **Opposition:** Doctors with patients to see, researchers with limited time for advocacy, citizens with jobs and families, no institutional platform, volunteer effort, no budget for sustained campaigns. Determination limited by resource constraints.
+
+**Bureaucratic Procedure as Attrition:**
+- Congressional hearings scheduled at Anslinger's convenience
+- Testimony procedures favoring official government witnesses over external experts
+- Media access favoring sensational claims from officials ("reefer madness") over dry medical evidence from volunteers
+- Institutional inertia: once laws passed, opponents had to fight uphill to repeal without institutional backing
+
+**Proof of Institutional Position:** The selection mechanism was **who can persistently engage with legislative and regulatory processes for decades**. Anslinger had institutional position, salary, staff, and singular focus funded by taxpayers. His determination was infinite because it was his job. Opponents had to volunteer time away from professional duties, lacked coordination, lacked funding, and fatigued over time.
+
+**Result:** Marijuana prohibition became federal law not because it had broad democratic support or scientific backing, but because **one bureaucrat with institutional resources could outlast diffuse, unfunded opposition**. The asymmetry wasn't in arguments; it was in determination capacity derived from positional advantage.
+
+**Connection to Elite Hypertrophy (Section 2.1) and Interest Groups (Section 1.5):** Anslinger exemplifies the problem of permanent bureaucratic elites with resource advantages. His position gave him structurally unlimited determination capacity on his chosen issue, while opposition was distributed across thousands of professionals with finite time and no budget. This is Olson's insight: concentrated interests (Anslinger's bureau) defeat diffuse interests (doctors, patients, citizens) because the concentrated side can afford sustained engagement while the diffuse side cannot.
+
+**Modern Parallel: Corporate Lobbying**
+
+The same mechanism dominates contemporary governance:
+- **Pharmaceutical company opposing drug pricing reform:** 50 registered lobbyists, $20M/year lobbying budget, staff whose full-time job is meeting every legislator repeatedly, fund think tanks producing favorable research, pay for advertising campaigns. Determination structurally unlimited through organizational resources.
+- **Citizens supporting reform:** Volunteer time, scattered advocacy, no coordination budget, cannot afford professional lobbying, must balance activism with jobs and families. Determination limited by personal capacity.
+
+The outcome is predictable: **whoever can sustain determination longest wins**, regardless of merit or majority preference.
+
+#### 2.10.4 The Pattern: Proof of Determination
+
+These three cases—Wikipedia (digital commons), Reddit (algorithmic platform), Anslinger (traditional bureaucracy)—span different governance models and different eras. Yet they share a common failure mode:
+
+**Vulnerability to Exhaustion-Based Capture**
+
+When systems lack anti-exhaustion mechanisms, governance defaults to **proof of determination**: whoever can maintain engagement longest wins, regardless of merit, expertise, or majority preference.
+
+**This pattern is immediately recognizable from the legal system:** The party with more resources typically wins civil lawsuits not because their legal argument is stronger, but because they can afford sustained litigation. A corporation with unlimited legal budget can:
+- Hire teams of lawyers vs. individual's solo attorney
+- Sustain years of litigation while opponent goes bankrupt
+- File endless motions and discovery requests
+- Appeal repeatedly through every level
+- Delay until the other side runs out of money or willpower
+- Force settlement for pennies once opposition is exhausted
+
+Justice ≠ best argument. Justice = sustained determination capacity (usually from resources). Everyone intuitively recognizes this as structural injustice—the outcome is determined by capacity to sustain engagement, not merit. This is **exactly the same mechanism** as Wikipedia edit wars, Reddit floods, and Anslinger's bureaucratic campaign.
+
+**Scientific "Consensus" Through Determination, Not Evidence**
+
+The same pattern appears in domains we assume are protected by scientific rigor:
+
+**Fat vs. Sugar (1960s-present):** Ancel Keys' determination and institutional access, combined with sugar industry funding of anti-fat research, established "dietary fat causes heart disease" as settled science despite weak evidence. This became institutionalized through NIH guidelines, USDA food pyramids, and decades of public health policy. The "consensus" wasn't determined by evidence quality—it was determined by who had more resources to fund studies, more determination to dominate committees, and more institutional positions to sustain engagement over decades. Opposition researchers lacked equivalent resources and fatigued. We're still living with the consequences: obesity epidemic partly driven by "low-fat" processed foods loaded with sugar.
+
+**Amyloid Plaques and Alzheimer's (1990s-2020s):** The amyloid hypothesis (plaques cause Alzheimer's) dominated research for 30+ years, attracting billions in funding despite repeated clinical trial failures. Recent evidence suggests amyloid plaques may be a symptom of metabolic dysfunction (insulin resistance in the brain), not the root cause. But the researchers and institutions with determination to sustain the amyloid paradigm—through funding, publications, academic positions, conference control—could outlast alternative hypotheses. Scientists proposing metabolic approaches lacked equivalent institutional backing and couldn't match the sustained engagement of the amyloid establishment. Decades of research down a potentially wrong path because the selection mechanism was determination/resources, not evidence quality.
+
+**California Homelessness Crisis (2000s-present):** Despite spending billions annually, homelessness has worsened. Why? Industries have grown up around the problem—nonprofits, consultants, bureaucracies moving billions of dollars with determination to sustain their operations. Those with resources and engagement capacity to dominate policy discussions are often those who benefit from the problem persisting, not from solving it. Housing-first advocates with institutional funding outlast alternative approaches (mental health treatment, addiction services, enforcement of laws). Homeless people themselves lack voice or resources. Frustrated taxpayers and neighborhood residents lack the determination to fight a well-funded homelessness industrial complex that has captured policymaking through sustained engagement. The system becomes cancerous—consuming resources, growing bureaucracies, but not solving the underlying problem because the selection mechanism rewards proof of determination (often from those benefiting from the status quo), not proof of effectiveness.
+
+**Sources of Determination:**
+
+Determination to sustain engagement can come from:
+
+**1. Personal Passion or Obsession:**
+- Ideological commitment (provides motivation to persist)
+- Single-issue focus (provides concentration)
+- Psychological tolerance for conflict (can sustain adversarial engagement)
+- Community identity or social reinforcement
+- Can shade into pathological obsession when evidence-resistant
+
+**2. Organizational Resources:**
+- Budget for paid staff (professionals whose job is sustained engagement)
+- Institutional position (government bureaucrats, corporate employees)
+- Coordinated operations (PR firms, lobbying groups, foreign state actors)
+- Infrastructure advantage (legal teams, research departments, media access)
+- Litigation budgets (can sustain years of legal warfare)
+
+**3. Free Time:**
+- Retirement, unemployment, or deprioritizing other life domains
+- Lack of competing responsibilities (no job, family, or other obligations)
+
+**What gets selected for:**
+- Determination from any source (passion, obsession, resources, free time)
+- Coordination networks (multiplies effectiveness)
+- Procedural knowledge (provides tactical advantage)
+- Infinite engagement horizon (no need to stop)
+
+**What gets selected against:**
+- Expertise (busy professionals have limited time)
+- Moderation (reasonable people have lives outside the issue)
+- Good faith (assuming cooperation wastes energy in competitive equilibrium)
+- Casual participation (cannot match sustained engagement)
+- Ordinary citizens (lack both extreme passion AND organizational resources)
+
+**The Cooperation→Competition Tipping Point**
+
+This vulnerability becomes critical when systems cross from cooperative to competitive equilibrium:
+
+**Cooperative Equilibrium (Wikipedia's founding, early Reddit, pre-politicized bureaucracy, small-stakes litigation):**
+- Participants assume good faith
+- Disputes resolved through consensus-seeking
+- Engagement is voluntary and sporadic
+- Exhaustion isn't weaponized because it's not a competition
+
+**Competitive Equilibrium (politicized Wikipedia, captured subreddits, Anslinger's crusade, corporate lobbying, high-stakes litigation):**
+- Participants optimize for winning, not truth
+- Disputes become attrition warfare
+- Engagement becomes professional and coordinated
+- Exhaustion becomes the primary weapon
+
+**The failure:** Governance mechanisms designed for cooperation don't adapt when the domain shifts to competition. Wikipedia's "assume good faith" and consensus procedures make sense when editors cooperatively build an encyclopedia. They fail catastrophically when editors compete for narrative control and weaponize determination capacity—whether from personal obsession or organizational budgets. Legal systems designed for fair dispute resolution fail when one party can afford unlimited litigation and the other cannot.
+
+This mirrors Sulikowski's (Section 1.2) analysis of cooperation breakdown under competition saturation. When hierarchies fill beyond carrying capacity, cooperation collapses into zero-sum status competition. When information commons become ideologically contested or economically valuable, cooperation collapses into narrative or resource competition. The governance must adapt or be captured.
+
+**Asymmetric Determination as Structural Vulnerability**
+
+All cases exploit the same asymmetry:
+- **Attackers:** Coordinated, professionally motivated or employed, funded or obsessive, singular focus, infinite determination horizon
+- **Defenders:** Distributed, voluntarily motivated, unpaid, divided attention across jobs/family/life, finite determination capacity
+
+Defenders must win every battle. Attackers only need to persist until defenders exhaust. This is **asymmetric warfare applied to governance**—small committed or well-funded groups can dominate much larger populations by exploiting differential attrition rates.
+
+**Why Previous Systems Couldn't Detect or Prevent This**
+
+Wikipedia, Reddit, 1930s Congress, and legal systems lacked mechanisms to:
+- **Detect exhaustion patterns:** Systems couldn't see coordinated high-volume engagement or distinguish funded/obsessive operations from organic participation
+- **Limit engagement velocity:** No caps on how many edits, posts, testimonies, or legal motions an actor could produce
+- **Equalize capacity across resource levels:** Ordinary participants had to match superior determination or lose by default
+- **Escalate when asymmetry detected:** No automatic intervention when one side clearly had infinite capacity and the other didn't
+
+The system's **light cone** (Section 3.1) couldn't perceive the attack. It saw "participation" but was blind to "asymmetric exhaustion warfare through determination or resource advantage."
+
+**The Missing Piece: Anti-Exhaustion Mechanisms**
+
+Section 4 (The Specification) will define requirements for mechanisms that defend against exhaustion-based capture. The diagnosis is complete: modern governance systems fail because they lack structural defenses against proof of determination. Solutions follow in the specification and mechanism design sections.
+
+### 2.11 Summary: The Convergent Crisis
 
 The diagnosis is complete. Modern governance systems fail not through moral weakness or lack of intelligence, but through **structural dynamics** that make failure inevitable:
 
@@ -1385,6 +1588,8 @@ The diagnosis is complete. Modern governance systems fail not through moral weak
 **Epistemic Fragmentation (2.8):** Cannot cooperate when groups inhabit incompatible reality tunnels with no shared fact base.
 
 **Small-Coalition Trap (2.9):** Leaders rationally optimize for narrow winning coalitions rather than broad public good, breaking principal-agent alignment.
+
+**Exhaustion-Based Capture (2.10):** Governance defaults to proof of determination—whoever can sustain engagement longest wins through personal obsession, organizational resources, or institutional position. Ordinary citizens with jobs and families cannot match the engagement capacity of zealots, well-funded lobbying operations, or permanent bureaucracies. Systems designed for cooperative equilibrium fail catastrophically when domains shift to competitive equilibrium without adaptive mechanisms.
 
 These aren't independent problems—they're **mutually reinforcing dynamics** creating a convergent crisis. Elite overproduction drives institutional bloat. Bloat increases competition saturation. Competition destroys trust. Broken trust prevents subsidiarity. Rigid institutions can't adapt. Failed reforms create cynicism. Epistemic fragmentation prevents diagnosis. Small coalitions capture what remains.
 
