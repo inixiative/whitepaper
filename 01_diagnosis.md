@@ -1,88 +1,6 @@
 # Project Inixiative: Cooperative Society Infrastructure
 
-## Table of Contents
-
-- [0. Abstract / Executive Summary](#0-abstract--executive-summary)
-- [1. Background: Intellectual Lineage](#1-background-intellectual-lineage)
-  - [1.0 Motivating Case: Where Are the Flying Cars?](#10-motivating-case-where-are-the-flying-cars)
-  - **THEME 1: The Structural Crisis (WHY societies fail)**
-  - [1.1 Turchin — Structural Demography & Elite Overproduction](#11-turchin--structural-demography--elite-overproduction)
-  - [1.2 Dani Sulikowski — Intrasexual Competition & Fertility Suppression](#12-dani-sulikowski--intrasexual-competition--fertility-suppression)
-  - [1.3 The 1971 Inflection Point — When Multiple Crises Converged](#13-the-1971-inflection-point--when-multiple-crises-converged)
-  - **THEME 2: Specific Failure Modes (HOW it manifests)**
-  - [1.4 Jiang — Death by Meritocracy](#14-jiang--death-by-meritocracy)
-  - [1.5 Mancur Olson — Institutional Accretion & Interest Groups](#15-mancur-olson--institutional-accretion--interest-groups)
-  - [1.6 Joseph Tainter — The Collapse of Complex Societies](#16-joseph-tainter--the-collapse-of-complex-societies)
-  - [1.7 David Graeber — Debt: The First 5000 Years](#17-david-graeber--debt-the-first-5000-years)
-  - **THEME 3: Why Central Planning Fails (WHAT doesn't work)**
-  - [1.8 James C. Scott — Seeing Like a State](#18-james-c-scott--seeing-like-a-state)
-  - [1.9 George's Progress and Poverty](#19-georges-progress-and-poverty)
-  - **THEME 4: What Works Instead (COOPERATION mechanisms)**
-  - [1.10 The Ostroms — Polycentric Governance & Durable Cooperation](#110-the-ostroms--polycentric-governance--durable-cooperation)
-  - **THEME 5: The Meta-View (SYNTHESIS)**
-  - [1.11 Daniel Schmachtenberger — The Metacrisis and Governance as Technology](#111-daniel-schmachtenberger--the-metacrisis-and-governance-as-technology)
-  - [1.12 James Burke — Law as Technology and Path Dependency](#112-james-burke--law-as-technology-and-path-dependency)
-  - **THEME 6: Alternative Models (WHAT to build)**
-  - [1.13 Douglass North — Adaptive vs. Allocative Efficiency](#113-douglass-north--adaptive-vs-allocative-efficiency)
-  - [1.14 Glen Weyl & Eric Posner — Radical Markets](#114-glen-weyl--eric-posner--radical-markets)
-  - [1.15 Balaji Srinivasan — The Network State](#115-balaji-srinivasan--the-network-state)
-- [2. Diagnosis: What Fails in Modern Societies](#2-diagnosis-what-fails-in-modern-societies)
-  - [2.1 Elite Class Hypertrophy (Wealth Pump Failure Mode)](#21-elite-class-hypertrophy-wealth-pump-failure-mode)
-  - [2.2 Institutional Bloat / Bureaucratic Cancer](#22-institutional-bloat--bureaucratic-cancer)
-  - [2.3 Competition Saturation & Decline of Cooperation](#23-competition-saturation--decline-of-cooperation)
-  - [2.4 Loss of Subsidiarity (Problems Escalated to Improper Scale)](#24-loss-of-subsidiarity-problems-escalated-to-improper-scale)
-  - [2.5 Breakdown of Trust Mechanisms (Nice, Clear, Forgiving, Punishing)](#25-breakdown-of-trust-mechanisms-nice-clear-forgiving-punishing)
-  - [2.6 Fatigue of Legacy Governance Models (Static Rules in an Adaptive System)](#26-fatigue-of-legacy-governance-models-static-rules-in-an-adaptive-system)
-  - [2.7 Why Previous Reform Attempts Failed](#27-why-previous-reform-attempts-failed)
-- [3. Principles of a Cooperative Society (System Requirements Spec)](#3-principles-of-a-cooperative-society-system-requirements-spec)
-  - [3.1 Make Cooperation Cheap](#31-make-cooperation-cheap)
-  - [3.2 Make Defection Costly](#32-make-defection-costly)
-  - [3.3 Maintain Thin, Dynamic Elites](#33-maintain-thin-dynamic-elites)
-  - [3.4 Enforce Subsidiarity Automatically](#34-enforce-subsidiarity-automatically)
-  - [3.5 Lifecycle Management for All Institutions](#35-lifecycle-management-for-all-institutions)
-  - [3.6 Voluntary Association by Design](#36-voluntary-association-by-design)
-  - [3.7 Continuous Adaptation](#37-continuous-adaptation)
-  - [3.8 Cohesion Without Uniformity](#38-cohesion-without-uniformity)
-  - [3.9 Resist the Tyranny of Metrics](#39-resist-the-tyranny-of-metrics)
-- [4. Novel Mechanisms Now Possible](#4-novel-mechanisms-now-possible)
-  - [4.1 Definitions](#41-definitions)
-  - [4.2 Identity & KYC Layer](#42-identity--kyc-layer)
-  - [4.3 Allocation & Voting Mechanisms](#43-allocation--voting-mechanisms)
-  - [4.4 Solving the Principal–Agent Problem](#44-solving-the-principalagent-problem)
-  - [4.5 Reputation & Reciprocity Engine](#45-reputation--reciprocity-engine)
-  - [4.6 Continuous Alignment Mechanism](#46-continuous-alignment-mechanism)
-  - [4.7 Point Voting as Political Will Translation](#47-point-voting-as-political-will-translation)
-  - [4.8 Delegation & Agentic Participation](#48-delegation--agentic-participation)
-  - [4.9 Jurisdiction & Overlap Resolution](#49-jurisdiction--overlap-resolution)
-  - [4.10 Initiative Creation](#410-initiative-creation)
-  - [4.11 Anti-Capture Architecture](#411-anti-capture-architecture)
-  - [4.12 Why These Mechanisms Are Now Possible](#412-why-these-mechanisms-are-now-possible)
-  - [4.13 Platform Philosophy: Humility and Experimentation](#413-platform-philosophy-humility-and-experimentation)
-- [5. MVP: Low-Friction Cooperation at Scale](#5-mvp-low-friction-cooperation-at-scale)
-  - [5.1 MVP Scope: What We're Building First](#51-mvp-scope-what-were-building-first)
-  - [5.2 Core Features (Minimum Viable)](#52-core-features-minimum-viable)
-  - [5.3 Technical Architecture](#53-technical-architecture)
-  - [5.4 User Flow (Step-by-Step)](#54-user-flow-step-by-step)
-  - [5.5 What's NOT in MVP](#55-whats-not-in-mvp)
-  - [5.6 Success Metrics for MVP](#56-success-metrics-for-mvp)
-- [6. Roadmap](#6-roadmap)
-  - [6.1 Phase 1: Theory + Whitepaper](#61-phase-1-theory--whitepaper)
-  - [6.2 Phase 2: MVP — Cooperation Infrastructure](#62-phase-2-mvp--cooperation-infrastructure)
-  - [6.3 Phase 3: Community Pilots & Iteration](#63-phase-3-community-pilots--iteration)
-  - [6.4 Phase 4: Scaling & Advanced Features](#64-phase-4-scaling--advanced-features)
-  - [6.5 Phase 5: Parallel Civic Ecosystems](#65-phase-5-parallel-civic-ecosystems)
-- [7. Risks, Limitations & Failure Modes](#7-risks-limitations--failure-modes)
-  - [7.1 Capture (Elite or Special Interest Takeover)](#71-capture-elite-or-special-interest-takeover)
-  - [7.2 Gaming (Mechanism Manipulation)](#72-gaming-mechanism-manipulation)
-  - [7.3 Overcomplexity (Illegibility to Ordinary Users)](#73-overcomplexity-illegibility-to-ordinary-users)
-  - [7.4 The Rubric Problem (Measurement Becomes Control)](#74-the-rubric-problem-measurement-becomes-control)
-  - [7.5 Goodhart's Law & Second-Order Effects](#75-goodharts-law--second-order-effects)
-  - [7.6 Cultural Mismatch (One Size Does Not Fit All)](#76-cultural-mismatch-one-size-does-not-fit-all)
-  - [7.7 Legitimacy Crisis (Legacy States Shut It Down)](#77-legitimacy-crisis-legacy-states-shut-it-down)
-  - [7.8 Fragmentation (Balkanization Without Coordination)](#78-fragmentation-balkanization-without-coordination)
-  - [7.9 Lack of Adoption (Nobody Uses It)](#79-lack-of-adoption-nobody-uses-it)
-  - [7.10 Smart Contract Vulnerabilities](#710-smart-contract-vulnerabilities)
-- [8. Conclusion](#8-conclusion)
+**[← Full Project Navigation](TABLE_OF_CONTENTS.md)**
 
 ## 0. Abstract / Executive Summary
 
@@ -290,7 +208,7 @@ John B. Calhoun's rodent experiments (1958-1973), particularly **Universe 25** (
 
 **Distinct behavioral phenotypes emerged:**
 
-1. **The Beautiful Ones (primarily males):** Completely withdrew from social competition. Only ate, drank, slept, and groomed themselves obsessively. Never fought, never courted females, never mated. Physically perfect (no scars from fighting) but reproductively dead. Approximately 25-30% of males became Beautiful Ones.
+1. **The Beautiful Ones (primarily males):** Completely withdrew from social competition. Only ate, drank, slept, and groomed themselves obsessively. Never fought, never courted females, never mated. Physically perfect (no scars from fighting) but reproductively dead. A substantial portion of males became Beautiful Ones.
 
 2. **Hyper-aggressive territorial males:** A small subset monopolized the limited high-status territories (near food/water) and defended them with extreme violence. Normal territorial behavior became pathological—constant fighting, attacking females, destroying nests.
 
@@ -752,7 +670,7 @@ George's ideas weren't merely theoretical—they've been implemented with measur
 
 **Hong Kong:** Virtually all land government-owned with long-term leases and 3% ground rent on rateable value. Land revenue funds the majority of public infrastructure and social services. This enables Hong Kong's famously low income tax (2-17% progressive) while maintaining world-class infrastructure. The model demonstrates George's thesis: capture land value for public benefit, leave productive activity largely untaxed.
 
-**Taiwan:** Sun Yat-sen, founding father of the Republic of China, was directly influenced by George and made "Equalization of Land Rights" foundational to his political platform. Taiwan's 1949-1953 land reforms combined with progressive urban land value taxes (1.5-6.5% on assessed value, plus 30-90% tax on future land value increments) produced dramatic results: agricultural productivity up 100%, industrial productivity up 300%, standard of living up 350% by 1966. The reforms broke land monopolies, forced idle land into production, and captured appreciation for public investment.
+**Taiwan:** Sun Yat-sen, founding father of the Republic of China, was directly influenced by George and made "Equalization of Land Rights" foundational to his political platform. Taiwan's 1949-1953 land reforms combined with progressive urban land value taxes (1.5-6.5% on assessed value, plus 30-90% tax on future land value increments) produced dramatic results: rice yields increased 40-47% (1950-1961), overall agricultural output up 57% (1952-1962), and average farm family earnings doubled by 1965. The reforms broke land monopolies, forced idle land into production, and captured appreciation for public investment.
 
 **Western implementations (Pennsylvania cities, Australia, Denmark, Estonia):** Multiple jurisdictions have implemented two-rate property taxes (land taxed higher than buildings) or pure land taxes. Pittsburgh operated a two-rate system from 1913-2001, taxing land at double the rate of improvements. Fifteen Pennsylvania cities adopted similar approaches. Australian states implemented land value taxes beginning in the 1880s after Henry George's 1890 lecture tour through 34 cities. Denmark maintains grundskyld (ground duty) as key revenue source. Estonia (post-1993) is the only EU country with pure land-only real estate tax, explicitly designed to encourage densification and efficient use.
 
