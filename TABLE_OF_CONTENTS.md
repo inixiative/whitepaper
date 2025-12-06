@@ -45,14 +45,14 @@ We cannot prescribe the optimal governance system—that would be hubris. Instea
 
 ## Document 1: The Diagnosis
 
-**File:** `01_diagnosis.md` (~1,400 lines, ~22,000 words)
+**File:** `01_diagnosis.md` (~1,700 lines, ~27,000 words)
 
 **Purpose:** Establishes why modern governance systems fail through synthesis of structural demography, evolutionary biology, institutional economics, cybernetics, and social cooperation theory.
 
 ### Contents
 
 #### Section 1: Background: Intellectual Lineage
-- 1.0 Origin Story: Where Are the Flying Cars? (Nuclear energy as case study of governance failure)
+- 1.0 Origin Story: Where Are the Flying Cars? (Nuclear energy, Edelson's Law, Bostrom's Urn of Invention, existential stakes)
 
 **THEME 1: The Structural Crisis (WHY societies fail)**
 - 1.1 Peter Turchin — Cliodynamics & Elite Overproduction
@@ -60,7 +60,7 @@ We cannot prescribe the optimal governance system—that would be hubris. Instea
 - 1.3 The 1971 Inflection Point — When Multiple Crises Converged
 
 **THEME 2: Specific Failure Modes - Economic Parasitism & Legibility**
-- 1.4 Jiang — Death by Meritocracy & Death by Bureaucracy
+- 1.4 Jiang — Death by Meritocracy & Death by Bureaucracy (includes: Death of the Generalist, Dunning-Kruger amplification, lawyer monoculture)
 - 1.5 Mancur Olson — Institutional Accretion & Interest Groups
 - 1.6 Joseph Tainter — The Collapse of Complex Societies
 - 1.7 David Graeber — Debt: The First 5000 Years (Jubilee mechanisms)
@@ -90,7 +90,7 @@ We cannot prescribe the optimal governance system—that would be hubris. Instea
 - 2.8 Epistemic Fragmentation (The Sense-Making Crisis)
 - 2.9 The Small-Coalition Trap (Selectorate Failure)
 - 2.10 Case Studies: The Vulnerability to Exhaustion and Capture
-- 2.11 The Eternal Return of Rent-Seeking (Techno-Feudalism, Regulatory Capture, Financialization)
+- 2.11 The Eternal Return of Rent-Seeking (Techno-Feudalism, Regulatory Capture, Financialization, Academic Gatekeeping)
 - 2.12 The Accountability Vacuum (Nobody to Jail)
 - 2.13 Summary: The Convergent Crisis
 
@@ -202,7 +202,7 @@ We cannot prescribe the optimal governance system—that would be hubris. Instea
 
 | Document | Status | Word Count | Last Updated |
 |----------|--------|------------|--------------|
-| 01_diagnosis.md | ✅ Complete | ~22,000 | 2025-12-06 |
+| 01_diagnosis.md | ✅ Complete | ~27,000 | 2025-12-06 |
 | 02_specification.md | 🚧 WIP | ~36,000 | 2025-12-05 |
 | 03_mechanisms.md | 🚧 WIP | ~25,000 | 2025-12-06 |
 | 04_mvp.md | 🚧 WIP | ~14,000 | 2025-12-05 |
