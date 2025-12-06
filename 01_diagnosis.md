@@ -1166,6 +1166,23 @@ When elite hierarchies saturate (Section 2.1), status competition shifts from tr
 
 **The mechanism:** Elite overproduction creates intense competition for status within the credentialed class. Traditional markers (wealth, degrees, jobs) become insufficient for differentiation. Luxury beliefs provide costless (to the believer) status signaling—demonstrating elite position by advocating positions ordinary people cannot afford to hold.
 
+**Performative action and the validation problem:** Thomas Sowell observed that "much of the social history of the Western world over the past three decades has involved replacing what worked with what sounded good." This is the operational manifestation of luxury beliefs. Once a policy becomes a status marker—signaling compassion, progress, or moral superiority—its actual outcomes become secondary to its symbolic value.
+
+This creates a **panic-driven action loop:**
+1. Problem identified (often real)
+2. Moral urgency generated ("How can you just stand there? We must DO SOMETHING NOW!")
+3. Policy enacted that sounds compassionate/progressive
+4. Policy validation skipped (urgency precludes deliberation)
+5. Policy fails or harms intended beneficiaries
+6. Failure ignored or attributed to insufficient commitment
+7. Calls for more of the same policy (doubling down on the signal)
+
+**Why validation fails:** As Slavoj Žižek argues, perhaps "in the twentieth century, we tried to change the world too quickly. The time is to interpret it again, to start thinking." But in a saturated elite hierarchy, thinking is risky—it might reveal that the policy doesn't work, which undermines its value as a status signal. The urgency to act prevents the reflection required to learn from failure.
+
+**Connection to Seeing Like a State (Section 1.9):** Scott's high-modernist ideology operates through the same mechanism—the state must intervene, must make society "legible," must DO SOMETHING to solve social problems. The action is performative (demonstrates state capacity and elite expertise) rather than validated (does it actually work?).
+
+**Why this persists:** Luxury beliefs aren't about solving problems—they're about signaling elite status through moral superiority. Admitting a policy failed would be admitting you were wrong, which costs status. Far easier to blame insufficient resources, opposition, or the recalcitrance of the very people you claimed to help.
+
 **Why ordinary citizens can't fight back:** Working-class people affected by these policies lack the time, resources, or platforms to engage in sustained counter-advocacy (Section 2.10 exhaustion-based capture). Policy debates happen in venues dominated by those with determination or resources: academic journals, think tanks, media, legislative testimony. The people bearing costs are exhausted out of participation by the demands of jobs and families.
 
 **Connection to cooperation breakdown:** Luxury beliefs destroy social trust across class lines. When elites advocate policies that demonstrably harm lower classes while insulating themselves from consequences, it signals defection—the pursuit of status at others' expense. This breaks the reciprocity required for cooperation (Section 2.5 trust mechanisms).
