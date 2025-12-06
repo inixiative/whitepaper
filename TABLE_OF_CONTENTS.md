@@ -62,6 +62,11 @@ This project consists of four core documents that build a comprehensive case for
 - 2.5 Breakdown of Trust Mechanisms
 - 2.6 Fatigue of Legacy Governance Models
 - 2.7 Why Previous Reform Attempts Failed
+- 2.8 Epistemic Fragmentation (The Sense-Making Crisis)
+- 2.9 The Small-Coalition Trap (Selectorate Failure)
+- 2.10 Case Studies: The Vulnerability to Exhaustion and Capture
+- 2.12 Ancient Patterns, Modern Manifestations (Techno-Feudalism, Regulatory Capture, Moral Hazard)
+- 2.11 Summary: The Convergent Crisis
 
 ---
 

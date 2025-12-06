@@ -1346,39 +1346,20 @@ A pattern emerges across failed reforms: **the tyranny of quantification**.
 
 **Core insight:** Any governance system must preserve space for the unmeasured, the illegible, and the informal. Not everything valuable can or should be quantified.
 
-**The challenge: building wisdom technology.** One goal of this platform is to create mechanisms that amplify collective wisdom rather than just aggregating individual preferences.
-
-**Wisdom is essentially the marshmallow test:** the ability to delay gratification for larger long-term rewards. The famous psychology experiment—children who could wait to eat one marshmallow to receive two marshmallows later showed dramatically better life outcomes—captures the essence of wisdom. It's not intelligence or knowledge; it's the capacity to value future consequences appropriately.
-
-But there's a critical nuance: **how long should you delay, and when is it time to cash in?** The marshmallow test isn't about infinite deferral. Wait too short and you're impulsive (eat the marshmallow immediately). Wait too long and you're being foolish (what if the researcher never comes back? What if you're no longer hungry in an hour? What if circumstances change?).
-
-Wisdom requires calibrating the right time horizon for the specific context:
-- Infrastructure investments: 20-50 year payoffs
-- Education policy: 10-20 year payoffs
-- Quarterly earnings: weeks to months
-- Emergency response: hours to days
-
-Current governance systematically gets these horizons wrong. It treats everything with election-cycle or quarterly-earnings time horizons, regardless of the actual temporal structure of the problem. Climate change requires 50-year thinking but gets 4-year election cycles. Emergency response needs hours but gets bureaucratic months.
-
-The platform's mechanisms attempt to match time horizons to problem types: long-horizon leader compensation (Section 5.4) for policies with multi-decade consequences, rapid iteration for experiments, automatic sunset for policies that outlive their usefulness. The goal is structural wisdom: aligning incentives with appropriate temporal scales rather than forcing everything into inappropriate timeframes.
-
-Current governance structures systematically fail the marshmallow test. They optimize for:
+**The temporal mismatch problem:** Current governance structures systematically fail to match decision timeframes to problem horizons. They optimize for:
 - Election cycles (2-4 years)
 - Quarterly earnings reports (3 months)
 - News cycles (24 hours)
 - Social media feedback (minutes)
 
-None of these timeframes encourage long-horizon thinking. Leaders who try to make wise long-term decisions get punished by short-term metrics. The system structurally selects against wisdom.
+But actual problems have vastly different temporal structures:
+- Infrastructure investments: 20-50 year payoffs
+- Education policy: 10-20 year payoffs
+- Emergency response: hours to days
 
-Examples of wisdom-enhancing technologies:
+Climate change requires 50-year thinking but gets 4-year election cycles. Emergency response needs hours but gets bureaucratic months. Leaders who try to make wise long-term decisions get punished by short-term metrics. The system structurally selects against wisdom.
 
-- **Swarm AI:** Systems where groups make decisions through real-time feedback loops, often outperforming individual experts or simple voting. Swarm intelligence leverages collective knowledge while suppressing individual biases.
-- **Deliberation structures:** Creating space for considered judgment rather than instant reaction. Time delays, mandatory cooling-off periods, requirement to engage with counter-arguments.
-- **Multi-perspective synthesis:** Forcing decisions to incorporate diverse viewpoints rather than majority dominance. Ensuring minority concerns get heard even when overruled.
-- **Long-horizon accountability:** Section 5.4's persistence payments create incentives for leaders to consider long-term consequences, not just immediate popularity.
-- **Schelling point detection:** Identifying natural convergence points where communities can coordinate without coercion.
-
-The platform isn't claiming to solve the wisdom problem—but it's attempting to create structures where wisdom has a fighting chance against immediate gratification, tribal signaling, and metric gaming.
+**Lesson:** Reform attempts failed because they either doubled down on quantification (prediction markets, social credit) or provided tools without power (e-democracy, participatory budgeting) or created rigid systems that couldn't adapt (DAOs, liquid democracy). Successful governance must balance measurement with illegibility, delegation with accountability, and adapt decision timeframes to match problem horizons.
 
 ### 2.8 Epistemic Fragmentation (The Sense-Making Crisis)
 
@@ -1599,6 +1580,30 @@ The system's **light cone** (Section 3.1) couldn't perceive the attack. It saw "
 
 Section 4 (The Specification) will define requirements for mechanisms that defend against exhaustion-based capture. The diagnosis is complete: modern governance systems fail because they lack structural defenses against proof of determination. Solutions follow in the specification and mechanism design sections.
 
+### 2.12 Ancient Patterns, Modern Manifestations
+
+**What fails:** The previous sections diagnosed specific failure modes as if they were modern problems. They're not. Human societies repeatedly fall into the same structural traps across millennia. Technology changes—clay tablets to smartphones, feudal estates to cloud platforms—but the underlying patterns persist: power concentrates, elites capture systems, rent-seeking replaces value creation, and moral hazard disconnects consequences from decisions. History doesn't repeat, but it rhymes.
+
+**Techno-feudalism: the return of fiefdoms.** Yanis Varoufakis argues that capitalism itself has been replaced by a new feudal order. Medieval lords extracted rent by controlling land—scarce, necessary, impossible to replicate. Tech platform owners extract "cloud rent" by controlling digital infrastructure. You cannot compete with Amazon ON Amazon; they own the marketplace, see all transaction data, and undercut any successful competitor. You cannot build a Facebook competitor when the value IS the network (who joins a social network with no users?). Network effects create winner-take-all dynamics that make these monopolies structural, not regulatory failures.
+
+Even traditional capital becomes subservient. A business that doesn't appear on Google doesn't exist. Sellers must pay Amazon's fees or disappear. Workers become "cloud serfs"—gig economy contractors with no ownership, no stability, bound to algorithmic lords who control what succeeds and what fails through opaque curation. The platform extracts surplus value from every transaction while contributing no production.
+
+This connects to Henry George's analysis (Section 1.8): land rent was unjust because landlords didn't create the land, yet captured value from those who worked it. Platform owners didn't create the internet's network effects, yet capture value from everyone who uses digital infrastructure. But platforms have powers feudal lords never dreamed of—algorithmic control of information flow, behavioral manipulation at scale, the ability to exile anyone from digital existence.
+
+**Regulatory capture: the revolving door.** Industries capture their regulators with reliable consistency. Pharmaceutical companies capture the FDA. Financial firms capture the SEC. Telecoms capture the FCC. This isn't new—railroads captured the Interstate Commerce Commission in the 1800s—but it's now institutionalized. The "revolving door" sees regulators become industry executives and vice versa, creating alignment of interests that prevents genuine oversight. Regulatory moats allow incumbents to write rules that prevent competition while claiming consumer protection. The pattern is ancient: those being governed eventually govern the governors.
+
+**Moral hazard: privatized gains, socialized losses.** Medieval kings declared bankruptcy; peasants starved. Modern banks take reckless risks, collect bonuses, and when bets fail, taxpayers fund the bailout. "Too big to fail" means consequences are disconnected from decisions at a systemic level. Those who caused the 2008 financial crisis received bonuses while their victims faced foreclosure. Moral hazard creates perverse incentives: if failure doesn't hurt, why not take maximum risk with other people's money? The pattern recurs: elites externalize costs onto commons while capturing benefits for themselves.
+
+**Financialization: the rentier returns.** The economy has shifted from productive activity (making things) to extractive activity (making money from money). This connects directly to 1971 (Section 1.3)—the gold standard's collapse enabled unlimited asset inflation. Wealth now comes from owning and controlling access rather than creating value. Land rent evolved into intellectual property monopolies, then regulatory moats, then cloud rent. Short-term financial engineering replaces long-term productive investment. Asset bubbles inflate while wages stagnate. The rentier class—those who profit from ownership without production—has returned with algorithmic precision.
+
+**The pattern: technology accelerates, governance lags.** Eric Weinstein observed, "We are now gods, but for the wisdom." We can edit genomes, deploy AI systems that outperform humans, create fusion reactions—but we lack governance structures to wield these powers responsibly. Ancient power concentration patterns persist through every technological transition because we solve technical problems while ignoring structural ones. AI will concentrate power just as algorithms did, just as railroads did, just as land ownership did, unless governance mechanisms actively prevent it.
+
+Turchin's secular cycles (Section 1.1) repeat not because humans are stupid, but because the same incentives produce the same equilibria. Feudalism wasn't defeated—it adapted. Debt jubilees (Graeber, Section 1.7) are needed repeatedly because debt is a tool of control that elites will always rediscover. James Burke's observation (Section 1.12) that law is technology with extreme path dependency explains why bad systems persist: we're locked into patterns established centuries ago, now running on digital infrastructure.
+
+**The meta-lesson:** We cannot build new technology and hope it solves old problems. Without governance mechanisms that actively prevent power concentration, elite capture, rent extraction, and moral hazard, these patterns will reassert themselves regardless of the technological substrate. This is why Section 4 focuses on structural requirements—mechanisms that make these failure modes expensive rather than inevitable.
+
+**Violates:** Principles 4.3 (Maintain Thin, Dynamic Elites), 4.4 (Enforce Subsidiarity), 4.5 (Lifecycle Management for All Institutions). Modern systems lack structural defenses against the eternal return of concentrated power.
+
 ### 2.11 Summary: The Convergent Crisis
 
 The diagnosis is complete. Modern governance systems fail not through moral weakness or lack of intelligence, but through **structural dynamics** that make failure inevitable:
@@ -1622,6 +1627,8 @@ The diagnosis is complete. Modern governance systems fail not through moral weak
 **Small-Coalition Trap (2.9):** Leaders rationally optimize for narrow winning coalitions rather than broad public good, breaking principal-agent alignment.
 
 **Exhaustion-Based Capture (2.10):** Governance defaults to proof of determination—whoever can sustain engagement longest wins through personal obsession, organizational resources, or institutional position. Ordinary citizens with jobs and families cannot match the engagement capacity of zealots, well-funded lobbying operations, or permanent bureaucracies. Systems designed for cooperative equilibrium fail catastrophically when domains shift to competitive equilibrium without adaptive mechanisms.
+
+**Ancient Patterns, Modern Manifestations (2.12):** Techno-feudalism (platform monopolies extracting cloud rent), regulatory capture (revolving door between industry and government), moral hazard (privatized gains, socialized losses), and financialization (rentier extraction over production) are not new problems—they're eternal patterns wearing new masks. Technology changes the substrate, but power concentration, elite capture, and rent-seeking reassert themselves without governance mechanisms that actively prevent them.
 
 These aren't independent problems—they're **mutually reinforcing dynamics** creating a convergent crisis. Elite overproduction drives institutional bloat. Bloat increases competition saturation. Competition destroys trust. Broken trust prevents subsidiarity. Rigid institutions can't adapt. Failed reforms create cynicism. Epistemic fragmentation prevents diagnosis. Small coalitions capture what remains.
 
