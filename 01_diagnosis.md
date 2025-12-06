@@ -1348,3 +1348,65 @@ Examples of wisdom-enhancing technologies:
 
 The platform isn't claiming to solve the wisdom problem—but it's attempting to create structures where wisdom has a fighting chance against immediate gratification, tribal signaling, and metric gaming.
 
+### 2.8 Epistemic Fragmentation (The Sense-Making Crisis)
+
+**What fails:** Governance is impossible if participants cannot agree on a shared reality. The mechanisms for establishing shared truth (media, academia, experts) have been captured or fragmented by the attention economy.
+
+**The Mechanism:** Algorithms optimize for engagement (which usually means outrage), not accuracy. This creates "reality tunnels" where cooperation across tribes becomes impossible because they lack a shared language or fact base. When Group A and Group B believe in different physical facts, Ostrom-style commons management breaks down because there is no agreed-upon "commons" to manage.
+
+**Result:** Institutional paralysis. We cannot diagnose problems collectively because we cannot agree they exist.
+
+### 2.9 The Small-Coalition Trap (Selectorate Failure)
+
+**What fails:** The "Principal-Agent" relationship between citizens and leaders is broken due to the incentives described in *The Dictator's Handbook*.
+
+**The Mechanism:** Leaders are rational; they optimize for the "Winning Coalition" necessary to gain power. In modern democracies, this coalition has shrunk to a small group of donors, party gatekeepers, and primary voters. It is politically optimal to provide private goods (tax breaks, subsidies, contracts) to this small coalition while ignoring the public goods needed by the wider population.
+
+**Result:** Policies that benefit the narrow coalition create negative value for the commons. Leaders ignore 80% public support for policies because the 80% are not in the Winning Coalition.
+
+### 2.10 Summary: The Convergent Crisis
+
+The diagnosis is complete. Modern governance systems fail not through moral weakness or lack of intelligence, but through **structural dynamics** that make failure inevitable:
+
+**Elite Hypertrophy (2.1):** Too many credentialed aspirants competing for fixed positions, leading to intra-elite conflict and institutional capture.
+
+**Institutional Bloat (2.2):** Olson's ratchet means rules and bureaucracies accumulate but never sunset, creating impenetrable complexity.
+
+**Competition Saturation (2.3):** When hierarchies fill beyond carrying capacity, cooperation collapses into zero-sum status competition (Sulikowski's insight).
+
+**Loss of Subsidiarity (2.4):** Problems escalate to inappropriate scales where decision-makers lack local context, destroying metis (Scott).
+
+**Trust Breakdown (2.5):** Systems fail to implement NICE principles (Nice, Intelligent, Clear, Forgiving), so cooperation equilibria collapse.
+
+**Static Rules in Adaptive Systems (2.6):** Allocative efficiency (optimizing within paradigms) prevents adaptive efficiency (evolving new paradigms) when circumstances change (North).
+
+**Reform Failure (2.7):** Previous attempts (DAOs, liquid democracy, e-democracy, social credit) failed due to rigidity, capture, illegibility, or measurement tyranny.
+
+**Epistemic Fragmentation (2.8):** Cannot cooperate when groups inhabit incompatible reality tunnels with no shared fact base.
+
+**Small-Coalition Trap (2.9):** Leaders rationally optimize for narrow winning coalitions rather than broad public good, breaking principal-agent alignment.
+
+These aren't independent problems—they're **mutually reinforcing dynamics** creating a convergent crisis. Elite overproduction drives institutional bloat. Bloat increases competition saturation. Competition destroys trust. Broken trust prevents subsidiarity. Rigid institutions can't adapt. Failed reforms create cynicism. Epistemic fragmentation prevents diagnosis. Small coalitions capture what remains.
+
+**The pattern:** Legacy governance operates like biological systems **after the Hayflick limit**—cells that should die but don't, accumulating damage, losing function, eventually causing system-wide failure. Institutions become immortal through path dependency and self-preservation, but immortality without renewal is cancer, not health.
+
+**The missing piece:** We lack mechanisms for **institutional lifecycle management**, for **elite circulation**, for **continuous adaptation**, for **making cooperation cheap and defection costly at scale**. These mechanisms were impossible in previous eras—coordination costs were too high, information asymmetry too severe, enforcement too expensive.
+
+**That has changed.** Smart contracts, cryptographic verification, global digital coordination—these aren't just efficiency improvements. They're **phase transitions** enabling governance mechanisms that were previously impossible.
+
+### What Comes Next
+
+**Document 2 (Specification)** defines what any functional cooperative society must accomplish—the abstract requirements, independent of implementation. It's the "API specification" for governance.
+
+**Document 3 (Mechanisms)** explores the design space of novel mechanisms now possible—the toolbox of governance primitives enabled by modern technology.
+
+**Document 4 (MVP)** presents a concrete implementation—what we're actually building, the minimum viable product for testing these ideas with real communities.
+
+This diagnosis establishes **why we must search for alternatives**. The specification defines **what we're searching for**. The mechanisms show **what's now possible to find**. The MVP demonstrates **how to begin the search**.
+
+The future doesn't require moral transformation or philosophical enlightenment. It requires **better infrastructure for cooperation**. That's what we're building.
+
+---
+
+**Continue to [Document 2: The Specification →](02_specification.md)**
+
