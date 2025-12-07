@@ -792,10 +792,7 @@ Institutions that seem like bureaucratic waste might prevent catastrophes you've
 
 **The acceleration problem:** Historically, institutions were replaced slowly through gradual evolution, occasional revolution, or collapse and rebuilding. This worked when change was generational and environments stable. What changed: technological capability now doubles in years or decades while institutional adaptation still operates on century timescales. We face coordination challenges (AI governance, climate, biotech risk) requiring rapid adaptation, but our infrastructure was designed when "rapid" meant "within a generation." Burke's work reminds us the window for choosing paths is narrow—once systems embed through education and precedent, they persist for centuries even when superior alternatives exist.
 
-## THEME 5: Alternative Models (WHAT to build)
-
-With diagnosis complete and frameworks established, we turn to alternatives: what can we build instead? These final three thinkers provide specific mechanisms and visions for better governance systems—from adaptive institutional economics to novel market mechanisms to network states.
-
+---
 
 ### 1.10 David Graeber — Debt: The First 5000 Years
 
@@ -851,21 +848,23 @@ Each case followed the same pattern: measure what's convenient, optimize the met
 
 This connects directly to Section 2.7.7 (The Measurement Trap) and the repeated failures of social credit systems, prediction markets, and e-democracy platforms. **Whoever controls the rubric controls the population.** Defining what counts as "good" becomes a tool of power. Second-order effects compound: people become risk-averse, refuse to admit errors, optimize for appearance over substance. Scott's diagnosis shows why governance systems must preserve space for illegible, informal coordination—keeping decisions at the level where tacit local knowledge exists rather than forcing everything through legibility filters at inappropriate scales.
 
-## THEME 3: What Works Instead (COOPERATION mechanisms)
+---
 
-The previous themes documented failure modes: structural crisis, economic parasitism, and forced legibility. Now we shift to what actually works. The Ostroms demonstrate that durable cooperation is possible at scale, but only through specific structural conditions and polycentric organization—not through central planning or pure market competition.
-
-
-## THEME 4: The Way Out (Proven Alternatives and Methodological Foundation)
 ## THEME 4: The Way Out (Proven Alternatives and Mechanistic Foundation)
 
-People don't change societies. Policies don't change societies. **Mechanisms change societies.**
+Technology creates the **possibility space** for governance. You cannot moralize about infant mortality before germ theory, antibiotics, and sanitation—the technology must exist first. But technology alone isn't sufficient: someone must connect existing ideas, and good people with good policies must deploy them. Burke showed that progress comes from taking two existing technologies and synthesizing a third—but that synthesis requires human agency.
 
-Burke showed that technological mechanisms (gunpowder, printing press, double-entry bookkeeping) made feudalism obsolete and forced new governance structures. Schmachtenberger showed that governance itself IS mechanism design—coordination technologies like property rights, money, and elections. Better people or better policies working within broken mechanisms still produce broken outcomes. Better mechanisms produce better outcomes regardless of who operates them.
+The pattern: **Technology enables → People synthesize → Policy deploys → Outcomes change.**
 
-This theme documents what happens when we actually deploy mechanism innovations: George's land value tax (mechanism: capture land rent) transformed Singapore, Taiwan, and Hong Kong. Ostrom's commons principles (mechanism: polycentric governance) sustained Swiss meadows and Spanish irrigation for centuries. Balaji's network states (mechanism: exit rights + competitive governance) are emerging today. The lesson: better mechanisms produce better outcomes. This isn't speculation—it's empirical fact.
+Gunpowder and printing didn't automatically end feudalism—they created conditions where feudalism became obsolete, then people built new institutions (Enlightenment governance) to match the new reality. Germ theory didn't automatically save children—public health officials had to synthesize sanitation + vaccination + clean water into policy, then deploy it.
 
-The hierarchy is clear: **People < Policy < Mechanism**. You cannot solve mechanism-level problems with better people or better policies. You need better mechanisms—technologically-enabled coordination possibilities that shift equilibria.
+This theme documents what happens when technological possibility meets good mechanism design:
+
+- **George's land value tax:** Technology (accounting, cadastral surveys) enabled tracking land value separately from improvements. Lee Kuan Yew deployed it in Singapore. Outcomes: <0.1% homelessness, highest GDP/capita.
+- **Ostrom's commons:** Technology (irrigation infrastructure, monitoring systems) enabled polycentric governance. Communities deployed the 8 principles. Outcomes: 1,000+ years of sustainable resource management.
+- **Balaji's network states:** Technology (blockchain, digital identity, global coordination) enables voluntary association beyond geography. Estonia deployed e-Residency. Outcomes: 100k+ digital citizens, competitive governance experiments.
+
+The lesson: **mechanism design matters, but only when technology creates the possibility space and people deploy it wisely.** We're at a Burkean inflection where new technologies (cryptography, digital coordination, algorithmic governance) create possibilities that didn't exist before. The question is whether we'll synthesize them into working systems before catastrophic failure forces change.
 
 ### 1.12 Schmachtenberger Returns — Governance as Technology
 
@@ -1039,10 +1038,7 @@ Vincent and Elinor Ostrom's collaborative work on polycentric governance address
 
 **The synthesis:** The Ostroms' framework combines local commons management (participatory governance, clear boundaries, graduated sanctions) with polycentric coordination (multiple autonomous units, nested enterprises federating as needed). They documented this working across Swiss federalism, Indonesian irrigation, and US metropolitan police cooperation. Their work demonstrates that durable cooperation at scale is possible—not through centralization or pure market competition, but through nested, autonomous units with clear boundaries and participatory governance.
 
-## THEME 4: The Meta-View (SYNTHESIS)
-
-We've examined why societies fail, how failures manifest, what doesn't work, and what mechanisms enable cooperation. Now we step back to the meta-level: understanding governance itself as technology subject to design, obsolescence, and path dependency. These thinkers provide the synthesizing frameworks that unite the previous themes.
-
+---
 
 ### 1.15 Balaji Srinivasan — The Network State
 
