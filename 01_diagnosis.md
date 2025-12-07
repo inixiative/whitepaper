@@ -935,8 +935,19 @@ The Sabbath example is crucial: ancient people solved a complex coordination pro
 
 We can do the same at civilizational scale. Not by imposing top-down solutions (that's Game A thinking that feeds Moloch), but by designing **cooperation infrastructure**—platforms, protocols, and incentive systems that make coordination cheap, defection costly, and wisdom accumulation rapid.
 
-Burke showed that gunpowder and printing forced new governance in the past. We now have technologies that make better coordination possible today. The following sections (George, Ostroms, Balaji, Weyl) document what happens when governance innovation is actually deployed—proof that better design produces better outcomes.
+Burke showed that gunpowder and printing forced new governance in the past. We now have technologies that make better coordination possible today.
 
+**Breaking the Apathy Loop**
+
+Currently, citizens face two bad options: **Ideological Capture** (fighting culture wars within broken systems) or **Rational Apathy** (disengaging because "nothing will work").
+
+Arguments cannot break this loop. Only a working alternative can.
+
+If we can demonstrate a coordination tool that works better than existing institutions—even at small scale—we provide an "existence proof" that dissolves apathy. People don't need another manifesto; they need to see a pothole fixed without a 6-month committee hearing. They need to see resource allocation without lobbying. They need to see decisions made without exhaustion-based capture.
+
+The following sections (George, Ostrom, Balaji, Weyl) are not theoretical. They are historical existence proofs that when technology was ready and people were willing, the mechanisms worked. Document 4 proposes the MVP for our era.
+
+---
 
 ### 1.13 Henry George — Progress and Poverty
 
