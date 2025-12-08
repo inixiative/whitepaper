@@ -858,7 +858,7 @@ This connects directly to Section 2.7.7 (The Measurement Trap) and the repeated 
 
 ---
 
-## THEME 4: The Way Out (Proven Alternatives and Mechanistic Foundation)
+## THEME 4: The Foundational Architectures (What Works and Why)
 
 Technology creates the **possibility space** for governance, but technology alone doesn't determine outcomes. China had gunpowder, printing, and advanced bureaucracy centuries before Europe—yet didn't experience an Enlightenment. Burke's insight requires a crucial addition: **incentive structures and competitive pressure determine which technological possibilities get explored.**
 
@@ -1035,7 +1035,14 @@ Arguments cannot break this loop. Only a working alternative can.
 
 If we can demonstrate a coordination tool that works better than existing institutions—even at small scale—we provide an "existence proof" that dissolves apathy. People don't need another manifesto; they need to see a pothole fixed without a 6-month committee hearing. They need to see resource allocation without lobbying. They need to see decisions made without exhaustion-based capture.
 
-The following sections (George, Ostrom, Balaji, Weyl) are not theoretical. They are historical existence proofs that when technology was ready and people were willing, the mechanisms worked. Document 4 proposes the MVP for our era.
+The following sections (George, Ostrom, Balaji, Weyl) are not theoretical proposals or aspirational case studies. **They are the foundational architectures** upon which Inixiative is built—proven mechanisms and frameworks that inform Document 2's requirements and Document 3's mechanism catalog. Each represents a different dimension of the solution space:
+
+- **George:** Economic foundations (rent extraction and land value capture)
+- **Ostrom:** Cooperation theory (commons governance and polycentric systems)
+- **Balaji:** Organizational structure (voluntary association and network states)
+- **Weyl:** Mechanism design (preference aggregation and market innovations)
+
+These aren't "features we might include"—they're **the theoretical bedrock** that defines what's possible and what works. Document 4 proposes a minimal viable implementation—not a synthesis of all these frameworks, but a focused starting point designed to defeat apathy through working microdemocracy that demonstrates cooperation can actually be made cheap.
 
 ---
 
