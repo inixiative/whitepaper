@@ -749,9 +749,9 @@ Tech giants have become so allocatively efficient at extracting attention and da
 North's crucial insight: **systems must prioritize adaptive efficiency over allocative efficiency**. Better to have slightly suboptimal resource allocation within flexible institutions than perfect allocation within rigid ones. The ability to restructure, sunset obsolete mechanisms, and fundamentally change rules without requiring revolution or collapse determines whether civilizations adapt or collapse.
 
 
-### 1.9 James Burke — Connections, Innovation, and Another Statement of Edelson's Law
+### 1.9 James Burke — Connections, Innovation, and the Mechanism Behind Edelson's Law
 
-James Burke's 1978 *Connections* series and book present a profound insight about how innovation actually happens: **progress comes from unexpected connections between disparate ideas and technologies**, not from linear advancement within single domains. This insight, when examined mathematically, reveals that Burke was effectively stating Edelson's Law four decades before Vinge named it.
+James Burke's 1978 *Connections* series and book present a profound insight about how innovation actually happens: **progress comes from unexpected connections between disparate ideas and technologies**, not from linear advancement within single domains. This insight, when examined mathematically, reveals the mechanism behind Edelson's Law (Section 1.0): Burke showed WHY insights are being missed exponentially—because the search space of cross-domain connections grows faster than our capacity to explore it.
 
 **Burke's central thesis:** Innovation emerges when ideas from separate domains intersect. Examples throughout history demonstrate this pattern:
 - The stirrup + metallurgy → feudalism (military technology transformed social structure)
@@ -772,9 +772,7 @@ The problem: our capacity to explore this growing search space is constrained:
 - **Credentialism (Section 1.6):** Meritocratic tournaments reward depth over breadth. Generalists lose to specialists in credential races.
 - **Inferential distance:** The gap between domains grows as they specialize. A physicist and a sociologist lack shared vocabulary to even communicate potential connections.
 
-**The result relates to Edelson's Law:** "The number of important insights that are not being made is increasing exponentially with time."
-
-Burke identified the mechanism (connections between domains = innovation). The implication is that as domains proliferate and specialize, the search space of potentially valuable connections grows faster than our capacity to explore it. Every year, knowledge expands, domains multiply, but our connection-making infrastructure (human brains constrained by credentialist incentives) remains constant or even shrinks as specialization intensifies. The gap between what could be discovered and what actually gets discovered widens.
+**The result:** Burke identified the mechanism behind Edelson's Law (Section 1.0). As domains proliferate and specialize, the search space of potentially valuable connections grows faster than our capacity to explore it. Every year, knowledge expands, domains multiply, but our connection-making infrastructure (human brains constrained by credentialist incentives) remains constant or even shrinks as specialization intensifies. The gap between what could be discovered and what actually gets discovered widens exponentially.
 
 **Why Burke matters for governance:** If innovation comes from cross-domain connections, then any system that punishes generalists and rewards narrow specialists is systematically destroying our capacity for breakthrough insights. The credentialist arms race (Section 1.6) doesn't just waste resources—it actively prevents the connections that generate progress.
 
