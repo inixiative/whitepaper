@@ -66,45 +66,45 @@ You cannot address economic stagnation without understanding competitive saturat
 ### Contents
 
 #### Section 1: Background: Intellectual Lineage
-- 1.0 Origin Story: Where Are the Flying Cars? (Nuclear energy, Edelson's Law, Bostrom's Urn of Invention, existential stakes)
+- 1.0 The Question That Started Everything (Nuclear energy, Edelson's Law, Bostrom's Urn of Invention, existential stakes)
 
-**THEME 1: The Structural Crisis (WHY societies fail)**
-- 1.1 Peter Turchin — Cliodynamics & Elite Overproduction
-- 1.2 Dani Sulikowski — Intrasexual Competition & Fertility Suppression (Universe 25)
-- 1.3 The 1971 Inflection Point — When Multiple Crises Converged
+**THEME 1: The Meta-Frame (WHY THIS MATTERS NOW)**
+- 1.1 Daniel Schmachtenberger — The Metacrisis and Governance as Technology
+- 1.2a The 1971 Economic Inflection — When Multiple Crises Converged
+- 1.2b Social Infrastructure Collapse — The Human Costs of Economic Inflection
 
-**THEME 2: Specific Failure Modes - Economic Parasitism & Legibility**
-- 1.4 Jiang — Death by Meritocracy & Death by Bureaucracy (includes: Death of the Generalist, Dunning-Kruger amplification, lawyer monoculture)
-- 1.5 Mancur Olson — Institutional Accretion & Interest Groups
-- 1.6 Joseph Tainter — The Collapse of Complex Societies
-- 1.7 David Graeber — Debt: The First 5000 Years (Jubilee mechanisms)
-- 1.8 Henry George — Progress and Poverty (Rent extraction, land value tax)
-- 1.9 James C. Scott — Seeing Like a State (Metis destruction)
+**THEME 2: Structural Collapse Dynamics (HOW it fails)**
+- 1.3 Peter Turchin — Cliodynamics & Structural-Demographic Crisis Theory
+- 1.4 Dani Sulikowski — Intrasexual Competition & Fertility Suppression (Universe 25)
+- 1.5 Joseph Tainter — The Collapse of Complex Societies
+- 1.6 Jiang — Death by Meritocracy & Death by Bureaucracy (Death of the Generalist, Dunning-Kruger amplification, lawyer monoculture)
 
-**THEME 3: What Works Instead (COOPERATION mechanisms)**
-- 1.10 Elinor & Vincent Ostrom — Commons Governance & Polycentric Systems
+**THEME 3: The Trap (WHY we can't fix it)**
+- 1.7 Mancur Olson — Institutional Accretion & Interest Groups
+- 1.8 Douglass North — Adaptive vs. Allocative Efficiency
+- 1.9 James Burke — Connections, Innovation, and the Mechanism Behind Edelson's Law (inferential distance, path dependency)
+- 1.10 David Graeber — Debt: The First 5000 Years (Jubilee mechanisms)
+- 1.11 James C. Scott — Seeing Like a State (Metis destruction)
 
-**THEME 4: The Meta-View (SYNTHESIS)**
-- 1.11 Daniel Schmachtenberger — The Metacrisis and Governance as Technology
-- 1.12 James Burke — Law as Technology and Path Dependency
-
-**THEME 5: Alternative Models (WHAT to build instead)**
-- 1.13 Douglass North — Adaptive vs. Allocative Efficiency
-- 1.14 Glen Weyl & Eric Posner — Radical Markets
-- 1.15 Balaji Srinivasan — The Network State
+**THEME 4: The Foundational Architectures (What Works and Why)**
+- 1.12 Schmachtenberger Returns — Governance as Technology
+- 1.13 Henry George — Proven Mechanism: Land Value Tax
+- 1.14 Elinor Ostrom — Proven Mechanism: Commons Governance
+- 1.15 Balaji Srinivasan — Proven Framework: Network States
+- 1.16 Glen Weyl — Proven-in-Theory: Radical Markets
 
 #### Section 2: Diagnosis: What Fails in Modern Societies
 - 2.1 Elite Class Hypertrophy (Wealth Pump Failure Mode)
 - 2.2 Institutional Bloat / Bureaucratic Cancer
 - 2.3 Competition Saturation & Decline of Cooperation
 - 2.4 Loss of Subsidiarity (Problems Escalated to Improper Scale)
-- 2.5 Breakdown of Trust Mechanisms
-- 2.6 Fatigue of Legacy Governance Models
+- 2.5 Breakdown of Trust Mechanisms (Nice, Clear, Forgiving, Punishing)
+- 2.6 Fatigue of Legacy Governance Models (Static Rules in an Adaptive System)
 - 2.7 Why Previous Reform Attempts Failed
 - 2.8 Epistemic Fragmentation (The Sense-Making Crisis)
 - 2.9 The Small-Coalition Trap (Selectorate Failure)
 - 2.10 Case Studies: The Vulnerability to Exhaustion and Capture
-- 2.11 The Eternal Return of Rent-Seeking (Techno-Feudalism, Regulatory Capture, Financialization, Academic Gatekeeping)
+- 2.11 The Eternal Return of Rent-Seeking
 - 2.12 The Accountability Vacuum (Nobody to Jail)
 - 2.13 Summary: The Convergent Crisis
 
@@ -124,19 +124,23 @@ You cannot address economic stagnation without understanding competitive saturat
 - 3.3 Complex Systems & Emergence: Designing for the Unpredictable
 - 3.4 Engineering Mindset: Build, Measure, Iterate
 - 3.5 Problem Space Navigation: Search, Don't Solve
+- 3.6 Dialectic Design: Optimization Under Constraint
 
 #### Section 4: Principles of a Cooperative Society (System Requirements Spec)
-- 4.1 Make Cooperation Cheap
-- 4.2 Make Defection Costly
-- 4.3 Maintain Thin, Dynamic Elites
-- 4.4 Enforce Subsidiarity Through Approval-Based Jurisdiction
-- 4.5 Lifecycle Management for All Institutions
-- 4.6 Voluntary Association by Design
-- 4.7 Continuous Adaptation
-- 4.8 Cohesion Without Uniformity
-- 4.9 Resist the Tyranny of Metrics
-- 4.10 Capture Preference Intensity, Not Just Direction
-- 4.11 Protect Individual Sovereignty Through Rights Subsidiarity
+- 4.1 What Is Cooperation? The NICE Framework
+- 4.2 Memory and Truth: Requirements for Tracking Without Censorship
+- 4.3 Scale-Free Cooperation Through Low Transaction Costs
+- 4.4 Sensemaking Infrastructure
+- 4.5 Make Defection Costly (and Cooperation Durable)
+- 4.6 Constraining and Aligning Elites (The Principal-Agent Problem)
+- 4.7 Enforce Subsidiarity Through Approval-Based Jurisdiction
+- 4.8 Lifecycle Management for All Institutions
+- 4.9 Voluntary Association by Design
+- 4.10 Continuous Adaptation
+- 4.11 Cohesion Without Uniformity
+- 4.12 Resist the Tyranny of Metrics
+- 4.13 Capture Preference Intensity, Not Just Direction
+- 4.14 Protect Individual Sovereignty Through Rights Subsidiarity
 
 ---
 
@@ -157,16 +161,19 @@ You cannot address economic stagnation without understanding competitive saturat
 
 #### Section 6: Novel Mechanisms Now Possible
 - 6.1 Definitions
-- 6.2 Identity & KYC Layer
+- 6.2 Identity & KYC Layer (Optional but Necessary for Anti-Sybil)
 - 6.3 Allocation & Voting Mechanisms
-- 6.4 Solving the Principal–Agent Problem
+- 6.4 Solving the Principal–Agent Problem: Long-Horizon Alignment Mechanisms
 - 6.5 Reputation & Reciprocity Engine
-- 6.6 Continuous Alignment Mechanism
+- 6.6 Memory and Truth Mechanisms: Implementing Tracking Without Censorship
+- 6.6A Leadership Accountability Mechanisms
+- 6.7 Continuous Alignment Mechanism
 - 6.7 Point Voting as Political Will Translation
 - 6.8 Delegation & Agentic Participation
 - 6.9 Jurisdiction & Overlap Resolution
 - 6.10 Initiative Creation
 - 6.11 Anti-Capture Architecture
+- 6.11A Energy-Backed Currency (kWh Standard) — Experimental Anti-Capture Mechanism
 - 6.12 Why These Mechanisms Are Now Possible
 - 6.13 Platform Philosophy: Humility and Experimentation
 
@@ -181,18 +188,19 @@ You cannot address economic stagnation without understanding competitive saturat
 ### Contents
 
 #### Section 7: MVP: Low-Friction Cooperation at Scale
-- 7.1 MVP Scope: What We're Building First
+- 7.1 What We're Building
 - 7.2 Core Features (Minimum Viable)
 - 7.3 Technical Architecture
-- 7.4 User Flow (Step-by-Step)
-- 7.5 What's NOT in MVP
-- 7.6 Success Metrics for MVP
+- 7.4 User Flow: Initiative Lifecycle
+- 7.5 Success Metrics for MVP
+- 7.6 What's NOT in MVP
+- 7.7 Fast Follow: Institutions (DAO-as-a-Service)
 
 #### Section 8: Roadmap
 - 8.1 Phase 1: Theory + Whitepaper
-- 8.2 Phase 2: MVP — Cooperation Infrastructure
+- 8.2 Phase 2: MVP — Initiatives Platform
 - 8.3 Phase 3: Community Pilots & Iteration
-- 8.4 Phase 4: Scaling & Advanced Features
+- 8.4 Phase 4: Institutional Tier + Advanced Features
 - 8.5 Phase 5: Parallel Civic Ecosystems
 
 #### Section 9: Risks, Limitations & Failure Modes
@@ -214,8 +222,8 @@ You cannot address economic stagnation without understanding competitive saturat
 ## Supporting Materials
 
 - **[Appendix](appendix.md)** - Technical details, pseudocode, diagrams, formal models
-- **[Glossary](glossary.md)** - Key terms and definitions (to be created)
-- **[License](license.md)** - Terms of use and attribution
+- **[Glossary](glossary.md)** - Key terms and definitions
+- **[License](../LICENSE.md)** - Terms of use and attribution
 
 ---
 
@@ -223,12 +231,12 @@ You cannot address economic stagnation without understanding competitive saturat
 
 | Document | Status | Word Count | Last Updated |
 |----------|--------|------------|--------------|
-| 01_diagnosis.md | ✅ Complete | ~27,000 | 2025-12-06 |
+| 01_diagnosis.md | ✅ Complete | ~27,000 | 2025-12-08 |
 | 02_specification.md | 🚧 WIP | ~36,000 | 2025-12-05 |
-| 03_mechanisms.md | 🚧 WIP | ~25,000 | 2025-12-06 |
-| 04_mvp.md | 🚧 WIP | ~14,000 | 2025-12-05 |
+| 03_mechanisms.md | 🚧 WIP | ~30,000 | 2025-12-08 |
+| 04_mvp.md | 🚧 WIP | ~20,000 | 2025-12-08 |
 | appendix.md | ✅ Exists | ~2,200 | - |
-| glossary.md | ❌ To be created | - | - |
+| glossary.md | ✅ Complete | ~2,500 | 2025-12-08 |
 
 ---
 
