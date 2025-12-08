@@ -36,26 +36,28 @@ Persistent entities that spawn and manage multiple inixiatives over time. Existi
 
 ## Documents
 
-This whitepaper consists of four core documents:
+This whitepaper consists of four core documents (located in `/docs`):
 
 | Document | Purpose | Status | Word Count |
 |----------|---------|--------|------------|
-| **[01_diagnosis.md](01_diagnosis.md)** | Why current governance systems fail | ✅ Complete | ~27,000 |
-| **[02_specification.md](02_specification.md)** | Requirements for functional cooperative societies | 🚧 In Progress | ~36,000 |
-| **[03_mechanisms.md](03_mechanisms.md)** | Proven and novel governance mechanisms | 🚧 In Progress | ~30,000 |
-| **[04_mvp.md](04_mvp.md)** | Concrete implementation and roadmap | 🚧 In Progress | ~20,000 |
+| **[01_diagnosis.md](docs/01_diagnosis.md)** | Why current governance systems fail | ✅ Complete | ~27,000 |
+| **[02_specification.md](docs/02_specification.md)** | Requirements for functional cooperative societies | 🚧 In Progress | ~36,000 |
+| **[03_mechanisms.md](docs/03_mechanisms.md)** | Proven and novel governance mechanisms | 🚧 In Progress | ~30,000 |
+| **[04_mvp.md](docs/04_mvp.md)** | Concrete implementation and roadmap | 🚧 In Progress | ~20,000 |
 
-**See [TABLE_OF_CONTENTS.md](TABLE_OF_CONTENTS.md) for detailed navigation.**
+**See [docs/table_of_contents.md](docs/table_of_contents.md) for detailed navigation.**
+
+**See [docs/glossary.md](docs/glossary.md) for definitions of key terms.**
 
 ## Quick Start
 
-**For General Readers:** Start with Section 1.0 (Origin Story) in [01_diagnosis.md](01_diagnosis.md), then read Section 2 (What Fails).
+**For General Readers:** Start with Section 1.0 (Origin Story) in [docs/01_diagnosis.md](docs/01_diagnosis.md), then read Section 2 (What Fails).
 
-**For Builders/Developers:** Read Section 2 (Diagnosis summary), skim Section 4 (Requirements), browse mechanisms ([03_mechanisms.md](03_mechanisms.md)), then focus on [04_mvp.md](04_mvp.md).
+**For Builders/Developers:** Read Section 2 (Diagnosis summary), skim Section 4 (Requirements), browse mechanisms ([docs/03_mechanisms.md](docs/03_mechanisms.md)), then focus on [docs/04_mvp.md](docs/04_mvp.md).
 
-**For Investors/Evaluators:** Read Section 1.0, Section 2, then jump to [04_mvp.md](04_mvp.md) for MVP, Roadmap, and Risks.
+**For Investors/Evaluators:** Read Section 1.0, Section 2, then jump to [docs/04_mvp.md](docs/04_mvp.md) for MVP, Roadmap, and Risks.
 
-**For Academics/Researchers:** Full read of [01_diagnosis.md](01_diagnosis.md) and [02_specification.md](02_specification.md) for theoretical grounding.
+**For Academics/Researchers:** Full read of [docs/01_diagnosis.md](docs/01_diagnosis.md) and [docs/02_specification.md](docs/02_specification.md) for theoretical grounding.
 
 ## Core Thesis
 
@@ -113,7 +115,7 @@ We cannot prescribe the optimal governance system—that would be hubris. Instea
 
 This is an open whitepaper. Feedback, corrections, and improvements welcome.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines (to be created).
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## Citation
 
@@ -127,7 +129,7 @@ for Cooperative Societies. https://github.com/[your-repo]/inixiative
 Individual documents:
 ```
 Greenspan, A. (2025). The Diagnosis: Why Modern Governance Fails.
-In Project Inixiative. https://github.com/[your-repo]/inixiative/01_diagnosis.md
+In Project Inixiative. https://github.com/[your-repo]/inixiative/docs/01_diagnosis.md
 ```
 
 ## License
