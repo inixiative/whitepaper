@@ -1551,6 +1551,122 @@ Delegation is necessary (can't vote on everything) but dangerous (creates small 
 
 **This is not solved—it's managed.** Different communities will find different equilibria between delegation efficiency and coalition-capture risk. The platform provides tools to experiment, not prescriptions.
 
+#### 6.8.3 Cellular Delegation: Hierarchical Representation Through Dunbar-Bounded Groups
+
+**The problem with traditional representation:** Pure liquid democracy (Section 6.8) enables fine-grained delegation but creates three structural problems:
+
+1. **Cognitive overload:** Ordinary citizens still need to choose delegates across multiple domains, research their positions, and monitor performance
+2. **Lack of cohesion:** Everyone choosing their own representatives independently creates fragmented networks with no stable coalitions
+3. **Scale inefficiency:** Direct voting or individual delegation doesn't create natural intermediate organizing structures
+
+**The problem with pure representative democracy:** Fixed geographic districts force citizens into arbitrary groupings that often don't match natural affinities, and representatives serve coalition interests rather than constituent preferences (Dictator's Handbook problem from Section 6.8.2).
+
+**Mechanism: Cellular delegation (hierarchical representation with Dunbar-bounded groups)**
+
+The biological metaphor: Just as cells organize into tissues, tissues into organs, and organs into organisms, citizens organize into cells (50-150 people), cells into tissue layers (meta-cells of representatives), and tissue layers into coordinated decision-making structures. Preference signals bubble up through the hierarchy; accountability flows down.
+
+**How it works:**
+
+**Level 1 - Base Cells (50-150 people):**
+- Citizens organize into "cells" of 50, 100, or 150 people (Dunbar number-based groups small enough for social cohesion)
+- Cells can form organically by: geography (neighborhoods), shared interests (environment activists), professional domains (teachers), identity (cultural communities), or random assignment with opt-out
+- Each cell selects one representative through internal voting (could use point-voting, ranked choice, or cell-specific mechanism)
+- Representatives are instantly recallable if the cell loses confidence
+
+**Level 2 - Tissue Layer (representatives of cells):**
+- The representatives from ~50-150 base cells form a tissue layer (meta-cell)
+- This tissue layer selects one representative to the next level
+- Same recall mechanics apply
+
+**Level 3+ - Recursive Hierarchy (Organ Systems):**
+- Process repeats until reaching community-wide decisions
+- For 10,000 people in cells of 100: Level 1 (100 cells) → Level 2 (1 tissue layer of 100 reps) → Level 3 (1 final rep or direct voting by 100)
+- For 1,000,000 people: Level 1 (10,000 cells) → Level 2 (100 tissue layers) → Level 3 (1 organ system of 100) → community decisions
+
+**Key features:**
+
+**Bounded cognition:** You only need to know ~50-150 people in your cell well enough to judge who should represent you. No need to research hundreds of candidates.
+
+**Social accountability:** Cell representatives know their constituents personally. Harder to defect when you see the people you're representing regularly.
+
+**Configurable cell size:** Communities choose whether to optimize for intimacy (50), balance (100), or maximum Dunbar cohesion (150).
+
+**Voluntary cell formation:** You can join cells that match your values, location, or interests. Not forced into arbitrary geographic districts.
+
+**Instant recall:** If your cell's representative drifts from your values or serves narrow interests, the cell can recall and replace them immediately. This creates continuous accountability pressure.
+
+**Preserved exit rights:** Can leave your cell and join another if you're dissatisfied. Cells compete for members through quality representation.
+
+**The Schelling point shift:**
+
+**Traditional representation:** Forced into districts → choose from limited candidates → stuck with them for fixed terms → they serve party/coalition over constituents
+
+**Cellular delegation:** Choose your ~100-person cohort → cohort selects trusted representative → instant recall if they defect → representatives compete for cells through performance
+
+**Addresses Dictator's Handbook problem:**
+
+From Section 6.8.2: Small coalitions optimize for private goods rather than public goods. Cellular delegation mitigates this through:
+
+**Intra-cell transparency:** Within a 50-150 person group, it's much harder to hide serving narrow interests. Social accountability catches coalition-serving behavior that statistical analysis might miss.
+
+**Competing cells:** If representatives at higher levels form logrolling coalitions, cells can defect by recalling their rep. This creates competitive pressure toward public goods.
+
+**Structured hierarchy vs. ad-hoc coalitions:** Clear organizational layers make it easier to detect when representatives are coordinating across cells to extract rents rather than transmitting constituent preferences.
+
+**Representative embededness:** Unlike traditional politicians who live in capital cities disconnected from constituents, cell representatives remain embedded in their base cell, maintaining direct social accountability.
+
+**Attack surfaces and mitigations:**
+
+**Cell capture:** A wealthy actor could infiltrate a cell, gain trust, get selected as representative, then defect at higher levels.
+- Mitigation: Instant recall (once defection detected, immediate replacement); competing cells (members can exit to different cell); reputation tracking across cell tenures; betting mechanisms (Section 6.4.12) punish defection
+
+**Sybil attacks on cell formation:** Bad actors create fake cells to gain disproportionate representation.
+- Mitigation: KYC requirements (Section 6.2); minimum participation thresholds; audit trails showing genuine deliberation; cells must demonstrate real cohesion to gain voting weight
+
+**Faction entrenchment:** Cells could become ossified factions (political parties, ethnic blocs, etc.) rather than dynamic preference coalitions.
+- Mitigation: Easy exit and cell-switching; periodic re-formation requirements (cells sunset and must re-form); incentives for cross-cell coalition-building
+
+**Representative power concentration:** Tissue-layer representatives gain outsized influence by representing thousands indirectly.
+- Mitigation: Point-voting with quadratic costs still applies (can't just bloc vote cheaply); transparency requirements on all representatives; betting against representatives (Section 6.4.12) punishes elite defection
+
+**Comparison to other delegation mechanisms:**
+
+**vs. Liquid democracy:** More structure (bounded groups), less individual flexibility. Trades fine-grained personal delegation for social cohesion and cognitive simplicity.
+
+**vs. Traditional representation:** Smaller constituencies (50-150 vs. 50,000+), instant recall vs. fixed terms, voluntary association vs. forced districts, hierarchical transparency vs. opaque coalitions.
+
+**vs. Direct democracy:** Massively reduced cognitive load (know 100 people vs. research 1,000 proposals), preserved voice through cell deliberation, scalability through hierarchy.
+
+**When to use cellular delegation:**
+
+**Good fit:**
+- Large communities (1,000+ people) needing hierarchical organization
+- Geographic communities where natural clustering exists (neighborhoods → city → region)
+- Communities valuing social cohesion over individual delegation flexibility
+- Contexts where Dunbar-bounded groups match existing social networks
+
+**Poor fit:**
+- Small communities (<500 people) where direct voting is feasible
+- Highly specialized domains where expert delegation matters more than geographic/social proximity
+- Communities that value maximum individual flexibility over structured hierarchies
+- Contexts where cells would map to toxic factions (ethnic conflicts, rigid ideological divides)
+
+**Schelling point framing:** We're not prescribing cellular delegation as "the solution." We're showing how it creates different equilibria than other delegation mechanisms. Some communities will prefer the structure and social accountability; others will prefer liquid democracy's flexibility or direct democracy's purity. The platform provides options; communities experiment to discover fit.
+
+**Implementation details:**
+
+**Cell formation UI:** Visual map of existing cells with size, focus, location; "create new cell" flow with mission/rules; "request to join" with approval mechanisms (open, vouching, elected admission).
+
+**Representative selection within cells:** Configurable (plurality, ranked choice, point-voting, rotating selection, random sortition).
+
+**Cell size enforcement:** Hard caps (can't exceed Dunbar limit), split mechanisms when cells grow too large, merge mechanisms when cells shrink below viability.
+
+**Cross-cell visibility:** Public directory of all cells (transparency), representatives must publish voting rationale to all constituent cell members, audit trails showing preference aggregation flow from cell → tissue layer → organ system → final decision.
+
+**Biological resilience:** Like biological systems, cellular delegation creates redundancy. If one cell fails or becomes corrupted, the system continues functioning. Representatives can be replaced without disrupting the entire structure.
+
+**This mechanism is speculative.** Unlike liquid democracy (tested in Pirate Party Germany) or traditional representation (millennia of evidence), cellular delegation is a novel structure enabled by digital infrastructure. Communities will need to experiment to discover if Dunbar-bounded hierarchical delegation actually delivers the theoretical benefits while avoiding the failure modes.
+
 ### 6.9 Jurisdiction & Overlap Resolution
 
 **Connection to Section 4.3 (Scale-Free Cooperation):** This section operationalizes requirement #5 (subsidiarity routing) to keep transaction costs bounded as population grows. By routing decisions to the smallest scale with informational access, authority to act, and scope containment, most decisions remain parallelizable. A city of 1 million doesn't have 10,000x the decision complexity of a city of 100—it has 10,000x more instances of the same types of local decisions that can be resolved independently.
