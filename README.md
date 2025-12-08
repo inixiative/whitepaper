@@ -132,7 +132,7 @@ In Project Inixiative. https://github.com/[your-repo]/inixiative/01_diagnosis.md
 
 ## License
 
-See [license.md](license.md) for terms of use and attribution.
+See [LICENSE.md](LICENSE.md) for terms of use and attribution.
 
 ## Contact
 
