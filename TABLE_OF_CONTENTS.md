@@ -29,9 +29,9 @@ This work is organized into four documents:
 
 **Document 2: The Specification (Sections 3-4)** — A formal schema defining what any functional governance system must accomplish—independent of implementation. This serves as an interface specification, an abstract API for cooperation at scale.
 
-**Document 3: The Mechanisms (Section 5)** — Examples of governance mechanisms that were previously impossible but are now feasible through smart contracts: long-horizon accountability, programmable incentives, trustless execution, and transparent lifecycle management. These are tools, not prescriptions—communities mix and match as needed.
+**Document 3: The Mechanisms (Sections 5-6)** — Section 5 catalogs proven mechanisms with empirical evidence (land value tax, commons governance, network states, mandatory service). Section 6 explores novel mechanisms made possible by smart contracts: long-horizon accountability, programmable incentives, trustless execution, and transparent lifecycle management. These are tools, not prescriptions—communities mix and match as needed.
 
-**Document 4: The MVP (Sections 6-9)** — A practical implementation focused on low-friction cooperation at scale. Not a replacement for government, but infrastructure for collective action: resource pooling, decision-making, and project coordination with dramatically reduced transaction costs.
+**Document 4: The MVP (Sections 7-10)** — A practical implementation focused on low-friction cooperation at scale. Not a replacement for government, but infrastructure for collective action: resource pooling, decision-making, and project coordination with dramatically reduced transaction costs.
 
 ### Core Thesis
 
@@ -142,26 +142,33 @@ You cannot address economic stagnation without understanding competitive saturat
 
 ## Document 3: The Mechanisms
 
-**File:** `03_mechanisms.md` (~25,000 words)
+**File:** `03_mechanisms.md` (~30,000 words)
 
-**Purpose:** Explores the design space of novel governance primitives now possible through smart contracts and cryptographic infrastructure. This is the research catalog, not the implementation blueprint.
+**Purpose:** Catalogs both proven governance mechanisms (empirically validated) and novel mechanisms made possible by smart contracts. Maintains clear epistemic boundary between "this works" and "this should work."
 
 ### Contents
 
-#### Section 5: Novel Mechanisms Now Possible
-- 5.1 Definitions
-- 5.2 Identity & KYC Layer
-- 5.3 Allocation & Voting Mechanisms
-- 5.4 Solving the Principal–Agent Problem
-- 5.5 Reputation & Reciprocity Engine
-- 5.6 Continuous Alignment Mechanism
-- 5.7 Point Voting as Political Will Translation
-- 5.8 Delegation & Agentic Participation
-- 5.9 Jurisdiction & Overlap Resolution
-- 5.10 Initiative Creation
-- 5.11 Anti-Capture Architecture
-- 5.12 Why These Mechanisms Are Now Possible
-- 5.13 Platform Philosophy: Humility and Experimentation
+#### Section 5: Proven Mechanisms (Empirically Validated)
+- 5.1 Henry George — Land Value Tax (Singapore, Hong Kong, Taiwan implementations)
+- 5.2 Elinor Ostrom — Commons Governance (8 principles, polycentric systems)
+- 5.3 Glen Weyl — Radical Markets (Quadratic voting, Harberger taxes)
+- 5.4 Balaji Srinivasan — Network States (Próspera, Cabin, Praxis examples)
+- 5.5 Mandatory Service — Maintaining Hardness Despite Prosperity (Switzerland, Israel, Singapore)
+
+#### Section 6: Novel Mechanisms Now Possible
+- 6.1 Definitions
+- 6.2 Identity & KYC Layer
+- 6.3 Allocation & Voting Mechanisms
+- 6.4 Solving the Principal–Agent Problem
+- 6.5 Reputation & Reciprocity Engine
+- 6.6 Continuous Alignment Mechanism
+- 6.7 Point Voting as Political Will Translation
+- 6.8 Delegation & Agentic Participation
+- 6.9 Jurisdiction & Overlap Resolution
+- 6.10 Initiative Creation
+- 6.11 Anti-Capture Architecture
+- 6.12 Why These Mechanisms Are Now Possible
+- 6.13 Platform Philosophy: Humility and Experimentation
 
 ---
 
@@ -173,34 +180,34 @@ You cannot address economic stagnation without understanding competitive saturat
 
 ### Contents
 
-#### Section 6: MVP: Low-Friction Cooperation at Scale
-- 6.1 MVP Scope: What We're Building First
-- 6.2 Core Features (Minimum Viable)
-- 6.3 Technical Architecture
-- 6.4 User Flow (Step-by-Step)
-- 6.5 What's NOT in MVP
-- 6.6 Success Metrics for MVP
+#### Section 7: MVP: Low-Friction Cooperation at Scale
+- 7.1 MVP Scope: What We're Building First
+- 7.2 Core Features (Minimum Viable)
+- 7.3 Technical Architecture
+- 7.4 User Flow (Step-by-Step)
+- 7.5 What's NOT in MVP
+- 7.6 Success Metrics for MVP
 
-#### Section 7: Roadmap
-- 7.1 Phase 1: Theory + Whitepaper
-- 7.2 Phase 2: MVP — Cooperation Infrastructure
-- 7.3 Phase 3: Community Pilots & Iteration
-- 7.4 Phase 4: Scaling & Advanced Features
-- 7.5 Phase 5: Parallel Civic Ecosystems
+#### Section 8: Roadmap
+- 8.1 Phase 1: Theory + Whitepaper
+- 8.2 Phase 2: MVP — Cooperation Infrastructure
+- 8.3 Phase 3: Community Pilots & Iteration
+- 8.4 Phase 4: Scaling & Advanced Features
+- 8.5 Phase 5: Parallel Civic Ecosystems
 
-#### Section 8: Risks, Limitations & Failure Modes
-- 8.1 Capture (Elite or Special Interest Takeover)
-- 8.2 Gaming (Mechanism Manipulation)
-- 8.3 Overcomplexity (Illegibility to Ordinary Users)
-- 8.4 The Rubric Problem (Measurement Becomes Control)
-- 8.5 Goodhart's Law & Second-Order Effects
-- 8.6 Cultural Mismatch (One Size Does Not Fit All)
-- 8.7 Legitimacy Crisis (Legacy States Shut It Down)
-- 8.8 Fragmentation (Balkanization Without Coordination)
-- 8.9 Lack of Adoption (Nobody Uses It)
-- 8.10 Smart Contract Vulnerabilities
+#### Section 9: Risks, Limitations & Failure Modes
+- 9.1 Capture (Elite or Special Interest Takeover)
+- 9.2 Gaming (Mechanism Manipulation)
+- 9.3 Overcomplexity (Illegibility to Ordinary Users)
+- 9.4 The Rubric Problem (Measurement Becomes Control)
+- 9.5 Goodhart's Law & Second-Order Effects
+- 9.6 Cultural Mismatch (One Size Does Not Fit All)
+- 9.7 Legitimacy Crisis (Legacy States Shut It Down)
+- 9.8 Fragmentation (Balkanization Without Coordination)
+- 9.9 Lack of Adoption (Nobody Uses It)
+- 9.10 Smart Contract Vulnerabilities
 
-#### Section 9: Conclusion
+#### Section 10: Conclusion
 
 ---
 

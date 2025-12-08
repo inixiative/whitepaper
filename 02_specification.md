@@ -42,54 +42,55 @@ The result is that bad policies hitchhike alongside good ones, just as harmful g
 
 **Network states and governance unbundling:** Balaji's network state model (Section 1.15 in the Diagnosis) enables what he calls governance "unbundling"—the ability to vote on individual policies rather than omnibus packages. Digital coordination makes granular decision-making practical where physical legislatures forced bundling.
 
-**Our platform defaults to atomic proposals** (single-issue, unbundled) to maximize light cone resolution and reduce bad-policy hitchhiking. Each proposal is evaluated independently, preventing the mechanism from being forced to accept harmful components to get beneficial ones.
+**The design requirement:** Systems should default to atomic proposals (single-issue, unbundled) to maximize light cone resolution and reduce bad-policy hitchhiking. Each proposal should be evaluated independently, preventing the mechanism from being forced to accept harmful components to get beneficial ones.
 
-**However, complex proposals remain available when genuinely needed.** Some coordinated changes are legitimately interdependent: constitutional amendments requiring multiple simultaneous updates, negotiated package deals resolving multi-party tradeoffs ("I support your transit funding if you support my housing policy"). Forcing artificial atomicity can make genuine coordination harder.
+**However, coordinated proposals must remain possible.** Some changes are legitimately interdependent: constitutional amendments requiring multiple simultaneous updates, negotiated package deals resolving multi-party tradeoffs. Forcing artificial atomicity can make genuine coordination harder.
 
-**The key difference:** Bundling becomes an explicit choice requiring justification, not the default state of all legislation. The burden shifts—you must explain why components must be voted together, rather than explaining why they should be separated. This inverts the current equilibrium where everything gets bundled and nothing gets unbundled.
+**The key principle:** Bundling should be an explicit choice requiring justification, not the default state. The burden shifts—you must explain why components must be voted together, rather than explaining why they should be separated.
 
 **What can different governance mechanisms see?**
 
-Binary voting (yes/no on a bill) can see aggregate approval but is blind to preference intensity. Someone who slightly prefers option A gets the same voting power as someone whose life depends on it. The mechanism has no way to perceive intensity—it's outside its light cone.
+**Binary voting** (yes/no on a bill) can see aggregate approval but is blind to preference intensity. Someone who slightly prefers option A gets the same voting power as someone whose life depends on it. The mechanism has no way to perceive intensity—it's outside its light cone.
 
-Continuous approval voting (Section 4.11 and 5.3) expands the light cone to include intensity. You can express -10 (strongly oppose) versus -2 (weakly oppose). The mechanism can now "see" a dimension previously invisible, enabling it to distinguish passionate minorities from indifferent majorities.
+**Intensity-capturing mechanisms** (continuous scales, point budgets) expand the light cone to include magnitude. You can express strong opposition versus weak opposition. The mechanism can now "see" a dimension previously invisible, enabling it to distinguish passionate minorities from indifferent majorities.
 
-Point budgets with convex costs (quadratic voting) expand the light cone further. Not only can the system see intensity, it can prevent plutocratic manipulation by making large votes exponentially expensive. The mechanism perceives both preference strength and attempts to dominate.
+**Cost-weighted voting** (convex costs on influence) expands the light cone further. Not only can the system see intensity, it can prevent plutocratic manipulation by making large votes exponentially expensive. The mechanism perceives both preference strength and attempts to dominate.
 
-Reputation systems (Section 5.5) can see contributions, visible cooperation, measurable outputs. But they're blind to wisdom, artistic quality, moral character, unmeasurable forms of value. Scott's metis (Section 1.9)—local, tacit, experiential knowledge—exists outside most reputation systems' light cones. If you design a system that optimizes only on what reputation can measure, you'll destroy everything it cannot see.
+**Reputation systems** can see contributions, visible cooperation, measurable outputs. But they're blind to wisdom, artistic quality, moral character, unmeasurable forms of value. Scott's metis (Section 1.9)—local, tacit, experiential knowledge—exists outside most reputation systems' light cones. If you design a system that optimizes only on what reputation can measure, you'll destroy everything it cannot see.
 
-Traditional elections can see popularity within a snapshot in time but are blind to long-term consequences. Politicians optimize for what voters can perceive now—visible projects, short-term economic indicators, symbolic gestures. Effects that manifest decades later (infrastructure decay, pension liabilities, environmental degradation, institutional erosion) lie outside the electoral mechanism's temporal light cone.
+**Traditional elections** can see popularity within a snapshot in time but are blind to long-term consequences. Politicians optimize for what voters can perceive now—visible projects, short-term economic indicators, symbolic gestures. Effects that manifest decades later (infrastructure decay, pension liabilities, environmental degradation, institutional erosion) lie outside the electoral mechanism's temporal light cone.
 
-Long-horizon compensation (Section 5.4.4) expands the temporal light cone. By paying leaders based on how long their policies remain active and approved, the mechanism becomes sensitive to durability. A policy that's popular for two years then fails becomes visible as bad, whereas traditional elections might have rewarded the politician who enacted it and left office before failure manifested.
+**Long-horizon accountability** expands the temporal light cone. By tying leader incentives to policy durability and long-term outcomes, the mechanism becomes sensitive to whether policies actually work over time. A policy that's popular for two years then fails becomes visible as bad, whereas snapshot mechanisms might reward the politician who enacted it and left before failure manifested.
 
-Subsidiarity mechanisms (Section 4.5 and 5.9) expand the spatial/scalar light cone. Instead of forcing all decisions through central processes that cannot perceive local context, problems get routed to the scale that has informational access. A neighborhood parking dispute involves context (who parks where, what the constraints are, what alternatives exist) that's invisible to city-level bureaucrats but obvious to residents. Routing to the appropriate scale ensures decision-makers are within the relevant light cone.
+**Subsidiarity routing** expands the spatial/scalar light cone. Instead of forcing all decisions through central processes that cannot perceive local context, problems get routed to the scale that has informational access. A neighborhood parking dispute involves context (who parks where, what the constraints are, what alternatives exist) that's invisible to city-level bureaucrats but obvious to residents. Routing to the appropriate scale ensures decision-makers are within the relevant light cone.
 
-**Sentiment/diagnostic feedback mechanisms** (Section 5) expand the light cone along a second axis - not just *whether* people approve, but *why* they approve or object. Like Fantasy Flight's narrative dice systems that track success/failure AND advantage/threat as separate dimensions, governance can capture:
-- **Approval axis:** Magnitude of support (-10 to +10)
-- **Diagnostic axis:** Nature of the concern (flags/routing information)
-  - "Should be bundled with initiative X"
-  - "Wrong jurisdictional level - escalate/de-escalate"
-  - "Too complex/illegible"
-  - "Needs more detail before deciding"
-  - "Conflicts with existing policy Y"
+**Multidimensional feedback** expands the light cone along multiple axes - not just *whether* people approve, but *why* they approve or object, and *what should be done about it*. Like tracking success/failure AND advantage/threat as separate dimensions, governance can capture:
+- **Magnitude axis:** How much do you care? (intensity)
+- **Direction axis:** Do you support or oppose? (preference)
+- **Diagnostic axis:** Why? What's the nature of the concern?
+  - Should be bundled with related initiatives
+  - Wrong jurisdictional level - needs escalation or demotion
+  - Too complex/illegible
+  - Needs more detail before deciding
+  - Conflicts with existing policy
 
-A citizen might vote +7 (support) while flagging "should be bundled with housing initiative" - expressing approval but providing actionable routing information. The mechanism now sees both magnitude and diagnostic context, enabling appropriate responses (bundle proposals, route to different jurisdiction, simplify language) rather than just binary pass/fail. This multidimensional feedback dramatically expands informational throughput without requiring written essays.
+This multidimensional feedback dramatically expands informational throughput. A citizen can simultaneously express approval magnitude, identify concerns, and provide routing information—enabling appropriate system responses (bundle proposals, route to different jurisdiction, simplify language) rather than just binary pass/fail.
 
 **The tyranny of legibility:** James C. Scott's *Seeing Like a State* (Section 1.9) is fundamentally about light cones. High-modernist planners demand legibility—everything must be measurable, categorizable, standardized—because that's what central authority can see. Vernacular practices, informal arrangements, tacit knowledge, social trust networks all exist outside the planner's light cone. When planners optimize on what they can measure, they destroy what they cannot.
 
-This is why Section 4.10 (Resist Tyranny of Metrics) is architecturally essential, not merely aspirational. We must preserve unmeasured commons—domains where value exists but measurement would destroy it. The platform must have principled limits on its own perceptual light cone, must acknowledge that some forms of value are invisible to any formal system, and must not optimize those domains to death.
+This is why Section 4.10 (Resist Tyranny of Metrics) is architecturally essential, not merely aspirational. We must preserve unmeasured commons—domains where value exists but measurement would destroy it. Governance systems must have principled limits on their own perceptual light cones, must acknowledge that some forms of value are invisible to any formal system, and must not optimize those domains to death.
 
 **Mechanism intelligence and problem-solving:** Levin's insight extends beyond perception to competency. Cells solve problems. They navigate chemical gradients, repair damage, coordinate with neighbors, adapt to stress. They're not conscious or self-aware, but they're competent within their domain. Governance mechanisms can be similarly competent—if they're given appropriate sensory access and decision-making authority.
 
 A well-designed voting mechanism "solves" the problem of aggregating preferences without requiring a central authority to understand every individual's values. Reputation systems *attempt to solve* the problem of tracking trustworthiness in communities too large for everyone to know everyone personally - though this remains largely unsolved and fraught with risks (see Section 4.10). Price mechanisms "solve" resource allocation without central planning. Each is a form of distributed intelligence operating within its informational light cone.
 
-The platform's architecture is fundamentally about distributing problem-solving competency to the appropriate scale with appropriate informational access. Not all decisions should go through the same mechanism. Different problem types require different perceptual light cones, different temporal horizons, different spatial scales.
+Effective governance architecture distributes problem-solving competency to the appropriate scale with appropriate informational access. Not all decisions should go through the same mechanism. Different problem types require different perceptual light cones, different temporal horizons, different spatial scales.
 
 **Designing mechanisms as perceptual organs:** When we specify voting rules, we're designing the system's eyes. When we create reputation tracking, we're designing memory. When we implement subsidiarity routing, we're designing proprioception (knowing which part of the organization is best positioned to handle which problem). The question is always: what does this mechanism need to perceive to function? And what will it be blind to?
 
 This framing prevents naive optimism about any single mechanism. No voting system can see everything relevant to good governance. No reputation system can capture all forms of value. No decision procedure can access all relevant information. Every mechanism has a bounded light cone, sees some things clearly and others not at all, optimizes within its perceptual constraints.
 
-**The solution isn't a perfect mechanism—it's a diverse ecosystem of mechanisms** with different light cones that collectively perceive more than any single system could. Modular, composable governance (Section 5) lets communities combine mechanisms: use reputation for some domains, direct voting for others, delegation for others, markets for others. Different tools for different informational requirements.
+**The solution isn't a perfect mechanism—it's a diverse ecosystem of mechanisms** with different light cones that collectively perceive more than any single system could. Modular, composable governance lets communities combine mechanisms: use reputation for some domains, direct voting for others, delegation for others, markets for others. Different tools for different informational requirements.
 
 **We are already living in evolutionary systems.** Societies evolve. Institutions mutate, face selection pressure, and either adapt or die. Turchin's cycles (Section 1.1) are evolutionary dynamics—elite overproduction creates selection pressure that kills civilizations. The 1971 convergence (Section 1.8) was an environmental shift that changed the fitness landscape. Current institutional failures are ongoing selection events happening in real time.
 
@@ -97,7 +98,7 @@ Francis Fukuyama's "End of History" (1989) was spectacularly wrong. Liberal demo
 
 The question isn't "should we introduce evolution to governance?" Evolution is already operating—we're just experiencing it as crisis rather than progress. The question is: can we make evolutionary search intentional instead of catastrophic? Can we vary, select, and retain through measurement and experimentation rather than war and collapse?
 
-This is why the platform must be modular and forkable. We cannot know in advance which mechanisms will have appropriate light cones for which communities' needs. Communities must be able to experiment: try different perceptual systems, see what they can and cannot detect, adjust when important information proves invisible to current mechanisms. Evolutionary search across mechanism-space is search for appropriate light cones—finding systems that can perceive what matters for specific contexts.
+This is why governance systems must be modular and composable. We cannot know in advance which mechanisms will have appropriate light cones for which communities' needs. Communities must be able to experiment: try different perceptual systems, see what they can and cannot detect, adjust when important information proves invisible to current mechanisms. Evolutionary search across mechanism-space is search for appropriate light cones—finding systems that can perceive what matters for specific contexts.
 
 ### 3.2 Incentive Design: Rules Shape Behavior More Than Leaders Do
 
@@ -115,11 +116,11 @@ Examples of how rules shape outcomes: Elections every 2-4 years create incentive
 
 Moralizing didn't prevent Roman collapse. It didn't prevent the French Revolution. It didn't prevent the 2008 financial crisis despite decades of warnings about financialization and systemic risk. If we want different outcomes, we need different approaches. Not better rhetoric or more virtuous leaders within the same broken structures, but **different structures that make the bad outcomes difficult and the good outcomes natural**.
 
-This is why the platform focuses on mechanisms, not manifestos. Structural solutions to structural problems.
+This is why we focus on mechanisms, not manifestos. Structural solutions to structural problems.
 
 The mechanism design approach focuses on changing the rules—the incentive structure—rather than hoping for better people or better policies within broken structures. This is governance as engineering, not governance as exhortation.
 
-Sections 4 and 5 provide specific mechanisms (point-voting, continuous approval, long-horizon compensation, automatic sunset) designed with this principle: make cooperation rational, make defection costly, align time horizons with problem types, prevent rent-seeking through structural constraints. Not because we expect participants to be virtuous, but because the rules make prosocial behavior the optimal strategy.
+Section 4 specifies requirements designed with this principle: make cooperation rational, make defection costly, align time horizons with problem types, prevent rent-seeking through structural constraints. Not because we expect participants to be virtuous, but because the rules should make prosocial behavior the optimal strategy.
 
 ### 3.3 Complex Systems & Emergence: Designing for the Unpredictable
 
@@ -143,15 +144,15 @@ Instead, the approach must be evolutionary: variation, selection, retention. Try
 
 Current systems often have perverse feedback: electoral success → fundraising capacity → more electoral success (positive feedback concentrating power). Bureaucratic growth → more coordination overhead → justification for more bureaucrats (positive feedback toward complexity). Regulatory capture → rules favoring incumbents → more resources for capture (positive feedback toward sclerosis).
 
-The platform's mechanisms attempt to reverse these loops. Automatic sunset creates negative feedback on complexity accumulation. Long-horizon compensation creates negative feedback on policies that fail over time. Point-voting with quadratic costs creates negative feedback on attempts to dominate through concentrated power. Reputation with decay creates negative feedback on permanent status hierarchies.
+Better governance requires reversing these loops. Policy sunset mechanisms create negative feedback on complexity accumulation. Long-horizon accountability creates negative feedback on policies that fail over time. Cost-weighted voting creates negative feedback on attempts to dominate through concentrated power. Reputation decay creates negative feedback on permanent status hierarchies.
 
-Whether these feedback loops produce intended equilibria is an empirical question. Theory suggests they should, but emergence means certainty is impossible. The modularity and forkability (Section 5) are admissions of this uncertainty—if a mechanism produces bad emergent behaviors, communities must be able to swap it for alternatives without abandoning the entire system.
+Whether these feedback loops produce intended equilibria is an empirical question. Theory suggests they should, but emergence means certainty is impossible. Modularity is an admission of this uncertainty—if a mechanism produces bad emergent behaviors, communities must be able to swap it for alternatives without abandoning the entire system.
 
-**The platform as enabling emergence, not controlling it:** This framing inverts traditional governance design. Instead of "here's the optimal policy for resource allocation," it's "here's a mechanism for communities to discover their own resource allocation equilibria." Instead of "here's the right way to structure leadership," it's "here's tools for experimenting with leadership structures and measuring what works."
+**Enabling emergence, not controlling it:** This framing inverts traditional governance design. Instead of "here's the optimal policy for resource allocation," it's "here's a mechanism for communities to discover their own resource allocation equilibria." Instead of "here's the right way to structure leadership," it's "here's tools for experimenting with leadership structures and measuring what works."
 
 The goal is not to predict and control emergent behavior but to provide an environment where beneficial emergence is likely and harmful emergence is constrained. Create conditions for cooperation, make defection costly, route problems to appropriate scales, prevent permanent power concentration—then let communities find their own equilibria within those boundaries.
 
-This requires accepting that different communities will converge on different solutions. There is no universal optimal governance structure because contexts differ, values differ, and emergence produces path-dependent outcomes. The best the platform can do is provide robust mechanisms that work across a range of contexts and let evolutionary search find local optima.
+This requires accepting that different communities will converge on different solutions. There is no universal optimal governance structure because contexts differ, values differ, and emergence produces path-dependent outcomes. Robust mechanisms must work across a range of contexts and allow evolutionary search to find local optima.
 
 ### 3.4 Engineering Mindset: Build, Measure, Iterate
 
@@ -163,23 +164,23 @@ The answers: modularity, testing, iteration, graceful degradation, fault isolati
 
 Governance systems are typically monolithic. You cannot swap voting mechanisms without rewriting the constitution. You cannot experiment with different resource allocation systems without restructuring the entire government. You cannot A/B test judicial procedures. The system is one giant entangled mess where changing anything requires changing everything.
 
-The platform inverts this. Voting mechanisms, reputation systems, resource allocation, dispute resolution—each is a module with defined inputs and outputs. Communities can swap point-voting for quadratic voting, or continuous approval for periodic elections, without abandoning their entire governance structure. Different modules can coexist: use reputation for some decisions, direct voting for others, delegation for others, markets for others. Composability enables experimentation without catastrophic risk.
+Better governance inverts this. Voting mechanisms, reputation systems, resource allocation, dispute resolution—each should be a module with defined inputs and outputs. Communities should be able to swap one voting method for another, or one approval system for another, without abandoning their entire governance structure. Different modules can coexist: use reputation for some decisions, direct voting for others, delegation for others, markets for others. Composability enables experimentation without catastrophic risk.
 
 **Iteration over grand design:** Software development learned the hard way that waterfall planning fails. You cannot specify all requirements upfront, build the complete system, then deploy and hope it works. Reality is too complex, requirements change, users behave unpredictably, edge cases break assumptions. The projects that succeed iterate: build a minimum viable product, deploy to real users, measure what happens, fix what breaks, add features incrementally.
 
 Governance design still operates in waterfall mode. Constitutions are grand documents written once and calcified through amendment difficulty. Regulatory frameworks are thousands of pages attempting to anticipate all contingencies. The assumption is that smart people can think through all scenarios in advance and write rules that work forever. This has never worked. It will never work. Emergence guarantees surprise.
 
-The platform embraces continuous iteration. Mechanisms are deployed as experiments, not eternal commitments. Communities measure outcomes, identify failures, swap broken components for alternatives, repeat. The system accumulates improvements through many small iterations rather than betting everything on one grand design.
+Governance should embrace continuous iteration. Mechanisms should be deployed as experiments, not eternal commitments. Communities measure outcomes, identify failures, swap broken components for alternatives, repeat. The system accumulates improvements through many small iterations rather than betting everything on one grand design.
 
 **Fail fast and debug:** Software systems are built to fail gracefully and provide diagnostic information. When something breaks, you get stack traces, error logs, state dumps—information to understand what went wrong and where. Systems have circuit breakers that prevent cascade failures. Components are isolated so one module's crash doesn't kill the whole system.
 
 Governance systems fail catastrophically and opaquely. When policies don't work, you often can't tell why—too many confounding variables, no control group, delayed effects, political incentives to hide failure. And when one institution fails, it often takes others with it through contagion (2008 financial crisis, COVID governance failures).
 
-The platform prioritizes diagnostic transparency. When a mechanism produces bad outcomes, communities need to know why. Detailed logs of proposals, votes, resource flows, reputation changes. Isolated failures through modularity—if one mechanism breaks, it doesn't crash the whole governance system. Fast failure detection through continuous measurement rather than waiting for crisis.
+Governance should prioritize diagnostic transparency. When a mechanism produces bad outcomes, communities need to know why. Detailed logs of proposals, votes, resource flows, reputation changes. Isolated failures through modularity—if one mechanism breaks, it doesn't crash the whole governance system. Fast failure detection through continuous measurement rather than waiting for crisis.
 
 **The humility of "working software over comprehensive documentation":** The Agile Manifesto recognized that documentation describing how a system should work is less valuable than software demonstrating how it actually works. You can write beautiful specifications that collapse on contact with reality. Working code is truth; documentation is aspiration.
 
-This whitepaper is documentation. It proposes mechanisms, analyzes incentives, predicts outcomes—but it's all speculation until real communities use real implementations and generate real data. The platform must prioritize working systems over theoretical completeness. Better to have a simple, functioning point-voting mechanism used by actual communities than a perfect, comprehensive governance framework that exists only on paper.
+This whitepaper is documentation. It proposes requirements, analyzes incentives, predicts outcomes—but it's all speculation until real communities use real implementations and generate real data. Working systems matter more than theoretical completeness. Better to have simple, functioning mechanisms used by actual communities than perfect, comprehensive frameworks that exist only on paper.
 
 The engineering mindset is fundamentally empirical. You build, you measure, you learn, you iterate. You accept that your initial designs will be wrong in ways you can't predict. You create systems that can evolve rather than systems that must be perfect from the start. You treat governance as software: modular, testable, debuggable, improvable.
 
@@ -191,29 +192,56 @@ If governance design were a search problem in solution-space, most approaches am
 
 Current governance is trapped on local peaks. Representative democracy with periodic elections is demonstrably better than monarchy or dictatorship—it's a local maximum compared to nearby alternatives. But that doesn't mean it's the best possible system, merely that small perturbations (slightly longer terms, different voting methods, more or fewer representatives) don't obviously improve it. We're stuck because all visible steps lead down.
 
-**What would let us explore the broader landscape?** Not incremental reform from where we are, but the ability to try radically different starting positions. Network states (Balaji, Section 1.12) provide this: cloud-first communities can experiment with governance structures that would be impossible to reach through incremental mutation of nation-states. The platform amplifies this by providing modular mechanisms that can be combined in novel ways.
+**What would let us explore the broader landscape?** Not incremental reform from where we are, but the ability to try radically different starting positions. Network states (Balaji, Section 1.12) provide this: cloud-first communities can experiment with governance structures that would be impossible to reach through incremental mutation of nation-states. Modular mechanisms that can be combined in novel ways amplify this exploration.
 
 Think of it as expanding the search space. Instead of "democracy vs autocracy," the space becomes "continuous approval + point budgets + subsidiarity routing + long-horizon compensation + automatic sunset." Instead of "more regulation vs less regulation," it's "which domains use markets, which use commons management, which use directed provision, and with what switching rules between them?" The dimensionality of the solution space explodes when you decompose governance into composable mechanisms.
 
 **Enabling parallel search:** Evolution works through massive parallelism. Millions of organisms trying millions of variations simultaneously, with selection operating continuously across the whole population. Governance design typically attempts serial search: one nation tries one reform at a time, and we wait decades to see if it worked. The information gain is glacial.
 
-The platform enables parallel search across independent communities. Different network states, DAOs, co-ops, and intentional communities trying different combinations of mechanisms, measuring outcomes, sharing results. When one community discovers that "point-voting + quadratic costs + reputation-weighted proposals" works well for their context, others can observe and adopt. When another finds that configuration creates unexpected problems, everyone learns without having to repeat the failure.
+Parallel search across independent communities becomes possible. Different network states, DAOs, co-ops, and intentional communities trying different combinations of mechanisms, measuring outcomes, sharing results. When one community discovers that a particular configuration works well for their context, others can observe and adopt. When another finds that configuration creates unexpected problems, everyone learns without having to repeat the failure.
 
 This is governance as distributed experimentation. Not "design the optimal system centrally and deploy universally" but "provide tools for decentralized search and let solutions emerge from variation and selection."
 
 **Respecting the ruggedness of the fitness landscape:** Some solution spaces are smooth—move in any promising direction and you make progress. Others are rugged—full of local peaks, valleys, saddle points, and deceptive gradients where promising directions lead nowhere. Governance is almost certainly rugged. Small changes can have non-linear effects (Section 3.3). What works in one context fails in another. Mechanisms that succeed in isolation fail when combined.
 
-Rugged landscapes demand search strategies beyond hill-climbing. The platform's modularity enables communities to make radical jumps in solution space—swapping entire voting systems or resource allocation mechanisms rather than tweaking parameters. Communities can combine mechanisms from different successful examples, can restart from different initial conditions. But critically, they do this as intact communities, not by fragmenting their political capital through splits.
+Rugged landscapes demand search strategies beyond hill-climbing. Modularity enables communities to make radical jumps in solution space—swapping entire voting systems or resource allocation mechanisms rather than tweaking parameters. Communities can combine mechanisms from different successful examples, can restart from different initial conditions. But critically, they do this as intact communities, not by fragmenting their political capital through splits.
 
 **The critique of utopian thinking:** Most governance proposals are either incremental (tweak what exists) or utopian (here's the perfect system). Both are wrong. Incremental reform can't escape local optima. Utopian visions assume smooth landscapes where you can design the peak from first principles—ignoring ruggedness, emergence, and context-dependence.
 
 The alternative: evolutionary search with variation, selection, measurement, and retention. This isn't a middle ground between incremental and utopian—it's a different epistemology. It acknowledges that we don't know what optimal governance looks like, cannot predict emergent dynamics, cannot design perfect systems. But we can create infrastructure for rapid exploration of solution space and let communities discover what works through experimentation.
 
-**Offering a broad toolbox:** The platform provides incentive-based mechanisms agnostically, to empower search rather than prescribe solutions. Point-voting might work brilliantly for some communities and fail for others. Continuous approval might suit certain contexts but create instability elsewhere. Long-horizon compensation might align incentives in one domain and be gamed in another. We cannot know in advance. The platform provides options and measurement infrastructure, not prescriptions.
+**Offering a broad toolbox:** Governance infrastructure should provide incentive-based mechanisms agnostically, to empower search rather than prescribe solutions. Certain voting methods might work brilliantly for some communities and fail for others. Continuous approval might suit certain contexts but create instability elsewhere. Long-horizon accountability might align incentives in one domain and be gamed in another. We cannot know in advance. Systems should provide options and measurement infrastructure, not prescriptions.
 
 Communities observe each other's experiments, adopt what works, avoid what fails. The search happens through independent communities maintaining their cohesion and political capital while learning from parallel experiments. Not through fragmentation, but through coordination and knowledge-sharing across diverse attempts.
 
 **Success is not "we found the answer."** Success is "we've enabled systematic exploration of governance-space, accelerated learning across communities, and created infrastructure that lets solutions emerge and propagate." The goal is better search, not a particular destination.
+
+### 3.6 Dialectic Design: Optimization Under Constraint
+
+**The Insight:**
+
+Complex systems fail when they attempt to maximize a single variable. "Maximum Efficiency" leads to fragility. "Maximum Stability" leads to sclerosis. "Maximum Transparency" leads to the Panopticon.
+
+**The Trap:** Most governance reforms are **linear optimizations**. They identify a deficit (e.g., "Not enough accountability") and maximize it until it becomes a pathology (metric tyranny, Goodhart's Law). They see one failure mode and sprint away from it—straight into the opposite failure mode.
+
+**The Theory:** Thomas Sowell's *Constrained Vision*: **"There are no solutions, only trade-offs."** Sowell distinguished between the Unconstrained Vision (we can solve everything if we design the perfect system) and the Constrained Vision (reality is tragic; we can only manage competing goods). The Unconstrained Vision is "Game A" utopianism. The Constrained Vision is "Game B" engineering.
+
+Governance operates in a space of **bounded dialectics**—dynamic equilibrium between opposing failure modes. This is Aristotle's Golden Mean applied to Control Theory: virtue is not an extreme but a viable range between vices of excess and deficiency.
+
+**The Core Dialectics:**
+
+1. **Cohesion vs. Autonomy:** Too much cohesion → monoculture, fragility. Too much autonomy → Balkanization, coordination failure.
+2. **Stability vs. Agility:** Too much stability → oligarchy, rent-seeking. Too much agility → chaos, inability to plan.
+3. **Legibility vs. Context:** Too much legibility → tyranny of metrics, destruction of metis. Too much context → corruption, nepotism, can't scale.
+4. **Efficiency vs. Resilience:** Too much efficiency → systemic risk, no slack to absorb shocks. Too much resilience → waste, over-engineering prevents action.
+5. **Accountability vs. Measurement Freedom:** Too little → elite capture. Too much → permanent hierarchies, gaming replaces performance.
+6. **Centralization vs. Decentralization:** Too much centralization → destroys local knowledge. Too much decentralization → can't coordinate collective action.
+7. **Bureaucracy vs. Chaos:** Too much bureaucracy → sclerosis, empire-building (Graeber Section 1.6, Jiang Section 1.13). Too little → can't coordinate at scale, institutional amnesia, information doesn't flow (Harari's *Nexus*). The tension: We need institutional memory, standard procedures, information routing—that's what bureaucracy DOES. But bureaucratic classes self-perpetuate and expand beyond their mission. The requirement: mechanisms that provide bureaucratic functions (record-keeping, routing, coordination) without creating permanent bureaucratic elites who capture the system.
+8. **Prosperity vs. Hardness:** Too much prosperity without capability-maintenance mechanisms → population becomes soft, unwilling to sacrifice, vulnerable to conquest by harder rivals (Venice to Napoleon, Rome to barbarians, modern West to mobilized autocracies). Too much hardness/struggle → constant misery prevents enjoying the fruits of good governance. The tension: Systems that succeed in providing comfortable lives reduce their population's willingness to defend those lives violently. The requirement: mechanisms that maintain defensive capability and sacrifice-willingness despite prosperity—mandatory service (Switzerland, Singapore, Israel), civic participation requirements, cultural institutions preserving competitive spirit. Without these, successful governance creates its own vulnerability (Section 1.0 prosperity-vulnerability paradox).
+
+**The Requirement:** Governance infrastructure should not prescribe where to sit in these dialectic spaces. It should provide **tunable mechanisms** that make tradeoffs visible, measurable, and adjustable. Communities navigate to different equilibria based on their contexts, values, and constraints. What works for a 50-person co-op breaks at 50,000-person scale. What works in high-trust cultures fails in low-trust environments.
+
+**Why this matters:** Section 4 principles will often be in tension by design. This isn't a bug—it's recognition that governance has no optimal point, only viable ranges. The goal is not solving tensions but navigating them dynamically as conditions change.
 
 ## 4. Principles of a Cooperative Society (System Requirements Spec)
 
@@ -223,21 +251,255 @@ Think of this as analogous to defining the requirements for a database system: A
 
 This is **Part 2** of the whitepaper: a formal requirements document against which any proposed governance mechanism can be evaluated.
 
-### 4.1 Make Cooperation Cheap
+---
 
-The fundamental problem with legacy governance is that cooperation is structurally expensive. Coordinating even small groups requires meetings, travel, calendar alignment, trust-building, information gathering, and overcoming institutional friction. At scale, coordination costs become prohibitive—which is why most people rationally disengage from civic participation.
+## THEME 1: COOPERATION AT SCALE
 
-**Why this matters:** From Ostrom's commons research, successful cooperation requires low transaction costs. When signaling intent, forming coalitions, or proposing action costs too much time or social capital, cooperation simply doesn't happen. The system defaults to passivity and elite control.
+Cooperation is the foundational requirement for any functional society. Before discussing organizational structure, resource allocation, or governance mechanisms, we must establish what cooperation actually *is*, why it fails at scale, and what properties any cooperation-enabling system must satisfy.
 
-**Current failure mode:** To participate meaningfully in local governance, citizens must: attend evening meetings, navigate bureaucratic processes, build social networks with decision-makers, understand opaque procedural rules, and spend significant time monitoring outcomes. The friction is so high that only retirees, ideologues, and paid professionals participate. Everyone else free-rides or disengages.
+### 4.1 What Is Cooperation? The NICE Framework
 
-**Requirements for cheap cooperation:**
+**The foundational insight:** Cooperation is not a moral aspiration or cultural norm—it's a stable equilibrium in iterated games that emerges when specific structural conditions are met. Robert Axelrod's tournaments on iterated Prisoner's Dilemma identified the structural requirements for stable cooperation. The winning strategy ("Tit for Tat") succeeded because it was **NICE**:
 
-**Costless signaling:** Express preferences and intentions without meetings, travel, or social performance. Digital infrastructure enables asynchronous participation—citizens signal support, opposition, or willingness to contribute on their own schedule.
+**1. Nice: Never First to Defect**
 
-**Transparent expectations:** Clear, legible rules about how decisions are made, what contributions matter, and what outcomes to expect. No insider knowledge required. The system itself teaches users how it works through use.
+Start with cooperation. Default is trust, not suspicion. Don't preemptively defect out of fear. Entry barriers should be low—new participants can take standard actions without extensive vetting.
 
-**Computational kindness:** The system minimizes cognitive load. Leaders spend time here; ordinary citizens check in periodically. Low engagement by satisfied, well-represented citizens is success, not failure.
+**But this doesn't mean naive:** You must verify unique identity to prevent Sybil attacks (zero-knowledge proofs enable this without sacrificing privacy). Trust, but verify. You can enter the system and participate, but you're not given keys to the castle on day one.
+
+**Failure mode:** Surveillance states that treat everyone as suspect from day one create adversarial equilibria where defection becomes rational self-defense. Conversely, systems with no identity verification enable Sybil attacks and free-riding.
+
+**2. Intelligent (Provocable/Retaliating): Punish Defection Immediately**
+
+If someone defects, retaliate. Don't be a doormat. The system must distinguish cooperators from defectors and respond proportionally.
+
+**Requires:** Memory (track who did what) + differentiated response (cooperators get different treatment than defectors).
+
+**Connection to Accountability Vacuum (Section 2.12):** Modern institutions violate this principle systematically. Nobody can be held accountable—corporations shield individuals ("just following policy"), bureaucracies diffuse responsibility ("the system decided"), politicians leave office before consequences manifest. Without accountability, there's no retaliation for defection, so defection dominates. This is why we're in a competitive rather than cooperative phase: the NICE framework has collapsed.
+
+**Failure mode:** Anonymous systems can't retaliate (no memory). Systems that treat everyone identically enable free-riders. Current institutions: accountability vacuum means no punishment for defection, so cooperation collapses into competition.
+
+**3. Clear: Simple Enough to Understand and Reciprocate**
+
+The strategy must be legible. Others must be able to predict your behavior and reciprocate. Rules can't be opaque or require insider knowledge.
+
+**Requires:** Transparent rules, encoded in executable form (smart contracts), not subject to arbitrary interpretation.
+
+**Connection to Wealth Pump (Section 2.9):** Opacity is being actively exploited. Some people understand the system (insiders, professionals, those who can afford lawyers/accountants) and others don't. This information asymmetry drives wealth extraction—those who understand the rules can game them, those who don't get exploited. Tax codes, financial regulations, legal procedures are intentionally complex to create informational rents. Clarity isn't just fair—it prevents exploitation.
+
+**Failure mode:** Bureaucratic opacity creates insider/outsider classes, prevents coordination, enables extraction through information asymmetry.
+
+**4. Forgiving: Return to Cooperation When Defector Reforms**
+
+When a defector reforms and cooperates, reciprocate. Don't hold grudges forever. Enable redemption.
+
+**Why this matters beyond morality:** Death by meritocracy. When every action is permanently scored, people optimize for not-losing rather than winning. This kills experimentation, creates risk-aversion, prevents learning. You need bankruptcy mechanisms, reputation decay, fresh starts—or the system ossifies.
+
+**Failure mode:** Permanent criminal records, credit scores that never reset, social credit systems create permanent castes and eliminate second chances. Nobody takes risks when errors are unrecoverable.
+
+**Plus: Non-Envious (Not Explicitly in NICE, But Critical)**
+
+Focus on absolute gains, not relative position. Don't try to beat your opponent—try to maximize total cooperation. This maps to avoiding zero-sum competition and enabling positive-sum coordination.
+
+---
+
+**Why existing institutions fail NICE:**
+
+Most modern institutions violate multiple NICE principles simultaneously, which is why cooperation has collapsed into competitive warfare:
+
+- **Current democracies:** Violate Intelligent (accountability vacuum—Section 2.12), violate Clear (regulatory complexity enables wealth pump—Section 2.9), somewhat Forgiving (but debt/criminal records create permanent damage)
+- **Anonymous online systems:** Not Intelligent (can't track defectors), not Clear (implicit norms), toxic equilibrium dominates
+- **Bureaucratic systems:** Not Nice (high barriers), not Intelligent (can't respond individually), not Clear (opaque procedures), not Forgiving (permanent records)
+
+**System requirements to enable NICE:**
+
+**Nice:** Must enable low-friction entry while preventing Sybil attacks. Must support spectrum from fully private to fully public identity verification depending on context. Participants can enter and take standard actions without extensive vetting, but system can distinguish unique individuals to prevent gaming.
+
+**Intelligent:** Must enable tracking of behavior patterns over time to distinguish consistent cooperators from defectors, WITHOUT creating permanent status hierarchies or control mechanisms. Must support differentiated response - cooperators receive different treatment than defectors. Must restore accountability where modern institutions have accountability vacuums.
+
+**Clear:** Rules must be executable, auditable, and transparent. No informational rents - system cannot advantage those with insider knowledge over ordinary participants. Processes must be legible enough that participants can predict consequences and reciprocate appropriately.
+
+**Forgiving:** Must enable redemption and fresh starts. Minor violations require proportional consequences with path to redemption. System must include mechanisms for reputation decay, bankruptcy/reset, and preventing permanent exclusion. Cannot create permanent castes from past errors.
+
+**The shift in equilibrium:** When all four NICE principles are satisfied, the Nash equilibrium shifts from defection to cooperation. Cooperation becomes individually rational. The system doesn't require moral transformation—it makes prosocial behavior the optimal strategy for selfish actors.
+
+This is the foundation. Everything else in Section 4 builds on NICE.
+
+### 4.2 Memory and Truth: Requirements for Tracking Without Censorship
+
+**The problem:** NICE cooperation requires "Intelligent" response—distinguish cooperators from defectors, reward good actors, punish bad actors. But this assumes we can determine what actually happened. In adversarial, post-truth environments, establishing ground truth is among the hardest problems in governance design.
+
+**The dialectic:**
+
+This requirement sits at the intersection of multiple opposing constraints:
+
+**Free speech ↔ Accountability:**
+- Must allow free exploration of ideas (including wrong, unpopular, or novel ones)
+- Must track claims to build reputation and enable accountability
+- Cannot let tracking become censorship (value judgments on "good" vs "bad" ideas shift over time)
+
+**Signal ↔ Noise:**
+- Zero-cost opinions create overwhelming noise (Brandolini's Law: refuting bullshit takes far more energy than producing it)
+- Need mechanism to distinguish confident/committed claims from casual speculation
+- **Time-based tracking corrects Dunning-Kruger:** Overconfident novices make bold claims, reality provides feedback, track record builds accuracy over time
+- Cannot require everyone to "put up or shut up" or kill exploration
+
+**Consensus ↔ Innovation:**
+- Expert consensus represents established knowledge, but often lags reality (Planck's Principle: "Science advances one funeral at a time")
+- Innovation requires space for ideas that look wrong initially. Suppressing fringe ideas exacerbates the Insight Gap (Edelson's Law: connection rate between ideas grows super-linearly)
+- Fringe ideas might be crackpot theories OR breakthrough innovations (can't tell in advance)
+- Novel ideas need time to develop before judgment
+- Coordinated disinformation can manufacture fake controversy
+- Must distinguish these without suppressing legitimate dissent or elevating cranks
+
+**Requirements:**
+
+**1. Dual-tier communication:**
+The system must support both informal expression (no tracking, no consequences) and formal claims (tracked, with consequences). Cannot force all speech into one mode.
+
+**2. Time-based adjudication:**
+Claims cannot be judged by authorities deciding "truth." Judgment must come from outcomes over time. If someone claims "Policy X will work," the measure is whether X survives, maintains approval, achieves stated goals. Durability proxies for accuracy.
+
+**3. Controversy detection without censorship:**
+System must detect when a domain has genuine distributed disagreement (not just coordinated attack). Response must be displaying multiple perspectives, not suppressing minority views or forcing premature consensus.
+
+**4. Temporal patience for novel ideas:**
+Must allow "we don't know yet" state. Novel ideas need time to develop, test, gain evidence. Cannot force immediate judgment or route everything to "expert consensus" (which may be defending obsolete paradigms).
+
+**5. Reputation building without permanent hierarchy:**
+Track record of claims/predictions must inform credibility. But past performance cannot create permanent castes (connects to NICE-Forgiving). Must allow redemption, prevent rubric control (Section 4.10).
+
+**6. No Ministry of Truth:**
+No central authority can decide what counts as true, valid, or legitimate. This power would be immediately captured and weaponized.
+
+**Failure modes if violated:**
+
+- **No memory/tracking:** Cannot build reputation, cannot hold anyone accountable, defection dominates, no learning
+- **Track everything:** Chilling effect, self-censorship, only "safe" ideas survive, kills innovation
+- **Authority decides truth:** Becomes Ministry of Truth, suppresses dissent, paradigm lock-in
+- **False balance:** Treat fringe equal to consensus, destroy shared epistemic commons
+- **No controversy mechanism:** Either suppress legitimate debate OR elevate every crank theory to equal status
+- **Permanent scoring:** Death by meritocracy, risk-aversion, no experimentation
+
+**Success criteria:**
+
+- Novel ideas can emerge and gain traction without authority approval
+- Disinformation/bad-faith claims face consequences over time
+- Track record builds reputation without creating permanent hierarchy
+- Genuine controversies get multi-perspective treatment
+- Consensus can form organically without forcing it prematurely
+- No single actor/faction can define what counts as "truth"
+
+**See Document 3 for example mechanisms that satisfy these requirements.**
+
+### 4.3 Scale-Free Cooperation Through Low Transaction Costs
+
+**The Communism Problem: Why Emotional Ideals Aren't Enough**
+
+The communist slogan—"from each according to ability, to each according to need"—captures a deep human ideal: cooperation without ledgers, contribution without scorekeeping, trust without enforcement. This is how families work. This is how close friendships work. This is the emotional foundation of genuine community.
+
+**But it doesn't scale.**
+
+At Dunbar's number (~150), we hit the biological ceiling of cooperation on human cognitive substrate. Beyond that size, we can't track who contributed what, who defected, who's reliable, who's exploiting trust. Personal relationships can't carry the coordination load.
+
+**Traditional responses all fail:**
+
+- **Small Communities:** Keep transaction costs low through personal relationships, but can't grow beyond ~150 people
+- **Communes/Collectives:** Optimize for equality and shared effort, but collapse when free-riders defect or when scale exceeds trust networks
+- **Markets:** Reduce coordination costs through price signals, but can destroy communal values, create wealth concentration, **and artificially distort preferences through manufactured demand (social media engagement optimization, planned obsolescence)**
+- **Bureaucracies:** Formalize processes to enable large-scale coordination, but accumulate rules until transaction costs become prohibitive (Olson's institutional sclerosis, Section 1.7)
+
+**Why Communism Failed: The Hayekian Calculation Problem**
+
+Friedrich Hayek showed that central planning creates infinite transaction costs. Without price signals encoding distributed knowledge, planners can't know what to produce, how much, or for whom. Information that would flow automatically through markets must be manually collected, transmitted, aggregated, decided—each step adding delay and distortion until the system grinds to stagnation.
+
+But the communist failure wasn't just information (Calculation Problem)—it was also **reciprocity and accountability**. Without enforcement mechanisms (NICE-Intelligent from Section 4.1), cooperation collapsed. No one could be held accountable for defection, cooperators were punished while defectors were rewarded, and the entire cooperative equilibrium dissolved.
+
+**The Scale-Free Cooperation Goal**
+
+**Requirement:** Build cooperation infrastructure that maintains low transaction costs regardless of group size.
+
+Think of criticality in physics—the Curie temperature where materials transition from ordered to disordered states. At criticality, systems exhibit power-law behavior, fractal structure, no characteristic scale. They coordinate across all levels simultaneously without centralized control.
+
+We need governance systems that exhibit similar properties: coordination without central planning, coherence without hierarchy, cooperation that scales super-linearly rather than degrades with size.
+
+**The variety argument (why this might be achievable):**
+
+As participants increase, variety of interests increases. This seems to make coordination harder. BUT: the dimensionality of *truly important decisions* probably grows sub-linearly with population. A city of 100,000 doesn't have 1,000x the decision types of a neighborhood of 100—it has maybe 10x. Most additional complexity is parallelizable (more of the same types of problems, not fundamentally new problem types).
+
+If this is true, then keeping transaction costs constant (or growing sub-linearly) with scale could enable genuine scale-free cooperation.
+
+**Requirements for scale-free cooperation:**
+
+**1. Asynchronous by default (with temporal safeguards):**
+
+Synchronous meetings (town halls, committee sessions, Zoom calls) scale linearly with time and cap participation at "how many people can attend simultaneously." This is the primary bottleneck of legacy governance.
+
+**Requirement:** The system must function entirely asynchronously. Proposals, debates, votes must be durable states accessible on participants' schedules, not transient events requiring simultaneous presence.
+
+**But asynchronous doesn't mean instant.** Proposals require minimum visibility periods before action (prevent sneaking things through at 3:00 AM when no one is watching). Participation happens on your schedule *within required visibility windows*, not at mandated meeting times. This balances flexibility with fairness.
+
+**2. Computational kindness (minimize cognitive load):**
+
+Information overload increases with scale. If a user must read 1,000 proposals to be a "good citizen," the system selects for the unemployed or obsessively committed (proof of exhaustion). Transaction cost = time × attention, and attention is the scarcest resource.
+
+**Requirement:** The system must minimize cognitive load through intelligent sorting, filtering, and routing. A user with 10 minutes per week should be able to contribute meaningfully. **Low engagement from satisfied, well-represented citizens is a success metric, not failure.**
+
+**3. Appropriate friction (purposefully matched to stakes):**
+
+The wrong friction kills participation. Too much friction at entry (paperwork, complex registration, proof of commitment) excludes the long tail of contributors. But too little friction everywhere enables gaming, Sybil attacks, and low-quality noise.
+
+**Requirement:** Friction must be purposefully designed and matched to stakes. Low-stakes activities (expressing opinions, signaling interest) should have minimal friction. High-stakes activities (formal claims, resource allocation, governance changes) should have meaningful friction that ensures commitment and prevents abuse.
+
+**Requirement:** The system must enable configurable friction thresholds matched to activity stakes. Low-stakes activities require minimal commitment; high-stakes activities require meaningful commitment that prevents abuse without excluding legitimate participation.
+
+**4. Transparent expectations (no insider knowledge):**
+
+Opaque rules create two-tier systems: insiders who know how to navigate, outsiders who don't. This information asymmetry is a transaction cost—you must invest time learning the system before you can participate. (Connects to NICE-Clear, Section 4.1)
+
+**Requirement:** Clear, legible rules encoded in executable form (smart contracts). The system teaches users how it works through use. No insider knowledge required.
+
+**5. Subsidiarity: Route problems to appropriate scale**
+
+**The scaling insight:** Transaction costs don't have to grow with total population if decisions stay at appropriate scales. A neighborhood parking dispute involves 50 people whether the city has 10,000 or 10,000,000 residents. The transaction cost is constant if the decision stays local.
+
+**Subsidiarity also serves volume control:** If decisions stay at appropriate scales, each participant only sees decisions relevant to their scope. Nation-level citizens don't review every neighborhood parking dispute; this prevents information overload as population grows.
+
+**The requirement:** Problems must be routed to the smallest scale that has:
+- **Informational access** (can perceive the problem—Section 3.1 light cones)
+- **Authority to act** (can implement solutions)
+- **Scope containment** (effects don't spill beyond that scale)
+
+Decisions escalate to higher scales ONLY when they genuinely cross boundaries or require coordination that lower scales cannot provide. Decisions demote to lower scales when centralized approaches fail (approval drops, local variation needed).
+
+**Why this enables scale-free cooperation:**
+
+Most decisions naturally cluster at small scales (local infrastructure, zoning, parks, schools). As population grows, you get MORE instances of these problems, but they remain parallelizable. A city of 1 million has 1000x the neighborhood disputes of a city of 1000, but each dispute still involves ~100 people and can be resolved locally.
+
+Only a small fraction of decisions require city-wide, state-wide, or national coordination. If you can keep these at their appropriate scales and prevent accumulation at the top, transaction costs stay bounded even as total population grows.
+
+**Failure modes if violated:**
+
+- **High synchronous costs:** Scale caps at meeting attendance limit, selects for those with free time
+- **High cognitive load:** Proof of exhaustion, only obsessives or paid professionals participate
+- **Wrong friction:** Too high excludes long tail; too low enables gaming
+- **Opaque rules:** Information asymmetry creates transaction costs, enables extraction
+- **No subsidiarity:** Everything accumulates at top, transaction costs explode, system collapses under coordination burden
+
+**The shift in equilibrium:**
+
+When transaction costs drop below the Coasean floor and stay bounded through subsidiarity, communities can grow along power-law distributions (fractal scaling) rather than hitting bureaucratic walls. This enables the "village dynamic" (high trust, low friction) to operate at "nation scale" (high complexity) without requiring central planning or authoritarian control.
+
+**Success criteria:**
+
+- Cooperation mechanisms work similarly at 100, 10,000, and 1,000,000 participants
+- Transaction costs grow sub-linearly (ideally constant) with population
+- No regime changes required as communities scale
+- Ordinary participants can contribute meaningfully with minimal time investment
+- System remains comprehensible without insider knowledge
+- Decisions naturally route to appropriate scales without manual intervention
+
+**See Document 3 for specific mechanisms that satisfy these requirements.**
 
 **Anti-exhaustion mechanisms: Preventing "proof of determination"**
 
@@ -245,23 +507,25 @@ Making cooperation cheap isn't sufficient if coordinated groups can exhaust ordi
 
 As Section 2.10 documented across Wikipedia, Reddit, Anslinger's bureaucratic campaign, litigation warfare, and scientific paradigm capture: governance without anti-exhaustion mechanisms defaults to **proof of determination**. Whoever can sustain engagement longest wins—whether through personal passion, pathological obsession, or organizational funding.
 
-**Core principle: Governance attention is a scarce resource.** Just as Ethereum treats block space as scarce and charges gas fees, governance must treat participation capacity as finite and impose costs on high-volume engagement.
+**Core principle: Governance attention is a scarce resource.** Just as Ethereum treats block space as scarce and charges gas fees, governance must treat participation capacity as finite and impose costs proportional to potential harm.
 
-**Key mechanisms** (detailed in Section 5):
+**Requirements:**
 
-**Point budgets as social gas fees:** Each participant has finite engagement budget per time period. Prevents infinite engagement regardless of motivation or funding. Equalizes capacity between obsessive activist, corporate lobbyist, and busy professional.
+**Finite engagement budgets:** The system must limit total engagement volume per participant per time period, regardless of motivation or funding source. This equalizes capacity between obsessive activists, organizational lobbyists, and ordinary citizens with limited time.
 
-**Velocity limits and cooling-off periods:** Maximum edits/posts/engagements per timeframe. Prevents edit wars, flood strategies, and procedural warfare.
+**Velocity limits on high-frequency actions:** The system must impose rate limits on actions that can be used for exhaustion warfare (repeated edits, proposal floods, procedural maneuvers). This prevents edit wars, flood strategies, and grinding attrition tactics.
 
-**Engagement diversity weighting:** Value broad distributed support over narrow intense engagement. Proposal supported by 1,000 people spending 1 point each signals differently than 10 people spending 100 points each.
+**Diversity-weighted aggregation:** The system must distinguish between broad distributed support and narrow intense engagement when measuring consensus. A thousand participants each contributing small amounts signals differently than ten participants contributing large amounts.
 
-**State-based vs stream-based governance:** Positions persist without requiring constant re-argument. Cannot exhaust defenders by forcing them to constantly defend; their position remains in system state.
+**State-based persistence:** The system must preserve established positions without requiring constant re-defense. Defenders cannot be exhausted by forcing them to match attacker engagement indefinitely—their position persists in system state.
 
-**Asymmetric defense advantage:** Defending status quo should cost less than attacking it. Inverts current dynamic where defenders must match attacker engagement or lose by default.
+**Asymmetric defense costs:** The system must impose lower costs on defending established positions than on attacking them. This inverts the current dynamic where attackers can win through sheer persistence.
 
-**The shift in equilibrium:** When cooperation costs drop below a critical threshold, participation becomes viable for ordinary people with jobs and families. The system stops selecting for those with excess time (retirees) or excess motivation (ideologues), and starts representing actual population preferences.
+**Friction for bad faith attacks:** The system must impose costs on coordinated attacks, Sybil tactics, flood strategies, and other exhaustion-based capture attempts. Bad faith engagement and coordinated exhaustion tactics must incur friction proportional to potential harm to prevent "last person standing" dynamics.
 
-### 4.2 Sensemaking Infrastructure
+**The shift in equilibrium:** When cooperation costs drop below a critical threshold AND exhaustion tactics are made costly, participation becomes viable for ordinary people with jobs and families. The system stops selecting for those with excess time (retirees) or excess motivation (ideologues), and starts representing actual population preferences.
+
+### 4.4 Sensemaking Infrastructure
 
 **The foundational problem:** Cooperation requires shared reality. When communities fragment into incompatible epistemic bubbles with no shared factual foundation, cooperation becomes impossible. Section 2.8 (Epistemic Fragmentation) and Section 2.10 (Exhaustion-Based Capture) document how information commons fail: Wikipedia gets captured through edit wars, Reddit through flood strategies, scientific consensus through whoever can sustain institutional engagement longest.
 
@@ -298,14 +562,9 @@ These constraints are in tension. Solve one, violate another. For example: contr
 
 **Transparency of mechanism:** Users see why they're seeing multi-view and can examine detection logic. Cannot be black-box curation.
 
-**Connection to anti-exhaustion mechanisms (Section 4.1):**
-- Point budgets limit sustained high-volume engagement
-- Velocity limits cap edit/posting rates
-- Engagement diversity weighting distinguishes broad concern from narrow obsession
-- State-based governance means positions persist without constant re-argument
-- Controversy detection triggers when exhaustion patterns emerge
+**Connection to anti-exhaustion mechanisms (Section 4.3):**
 
-Without anti-exhaustion mechanisms, any sensemaking infrastructure gets captured through determination warfare. With them, playing field equalizes: cannot win by simply outlasting opponents.
+Without anti-exhaustion mechanisms, any sensemaking infrastructure gets captured through determination warfare. The system must integrate controversy detection with engagement limits, diversity weighting, and state persistence to prevent narrative control through sheer volume of effort.
 
 **Humility: This is largely unsolved**
 
@@ -315,7 +574,7 @@ All proposed mechanisms are gameable and require careful design, continuous meas
 
 **Failure mode if violated:** Cannot establish shared reality → cannot cooperate. Narrative control goes to most determined/resourced → exhaustion-based capture. Communities fragment into epistemic bubbles OR heavy-handed "truth arbiters" emerge. Both outcomes destroy functional cooperative society.
 
-### 4.3 Make Defection Costly (and Cooperation Durable)
+### 4.5 Make Defection Costly (and Cooperation Durable)
 
 Cooperation only persists when defection carries consequences. Both Ostrom's commons research and Axelrod's game theory experiments show that systems without enforcement mechanisms collapse into tragedy of the commons. But the enforcement must be structured correctly—too harsh and cooperation becomes authoritarian control; too weak and defection dominates.
 
@@ -338,7 +597,7 @@ Neither extreme works. The former enables predation; the latter creates authorit
 
 **Reputation systems (Intelligent):** Track contributions and violations transparently. The system should attempt to distinguish cooperators from defectors and adjust access/influence accordingly - though reputation mechanisms remain largely unsolved and carry significant risks of gaming, permanence bias, and rubric control (see Section 4.10). Critical requirement: reputation must decay over time (Forgiving) so reformed actors can rebuild trust and past mistakes don't create permanent castes.
 
-**Verified identity with privacy preservation (Clear + Nice):** Prevent Sybil attacks without sacrificing privacy. Zero-knowledge proofs enable verification of essential attributes ("this person is unique," "this person lives in this jurisdiction") without revealing sensitive details or treating everyone like criminals.
+**Verified identity with privacy preservation (Clear + Nice):** Prevent Sybil attacks without sacrificing privacy. The system must enable verification of essential attributes ("this person is unique," "this person lives in this jurisdiction") without revealing sensitive details or treating everyone like criminals.
 
 **Proportional consequences (Intelligent + Forgiving):** Minor violations receive minor penalties; major violations (fraud, abuse of power) trigger stronger responses including expulsion. The system must distinguish between mistakes (recoverable) and predation (not recoverable). Proportionality prevents both under-enforcement and authoritarian excess.
 
@@ -346,37 +605,330 @@ Neither extreme works. The former enables predation; the latter creates authorit
 
 **The shift in equilibrium:** When the system implements all four principles—nice, intelligent, clear, forgiving—the Nash equilibrium shifts toward durable cooperation. Bad actors face consequences, reformed actors can rebuild trust, and the system doesn't collapse into surveillance authoritarianism or anonymous chaos.
 
-### 4.4 Maintain Thin, Dynamic Elites
+### 4.6 Constraining and Aligning Elites (The Principal-Agent Problem)
 
-**Why thin elites:** Elite overproduction (Turchin) and bureaucratic empire-building (Jiang) are existential threats. Fat elites compete for status, capture institutions, and consume resources meant for the commons. Thin elites stay mission-focused.
+**The core problem:** Governance is fundamentally a **Principal-Agent problem**. The Principal (the community/public) delegates authority to Agents (leaders/elites/managers). When agents can act in their own interest rather than the principal's, the system fails.
+
+Managerialism (Section 1.6) is the failure mode: agents capture institutions and become unaccountable to principals. They act like parasitic tumors rather than functional organs—consuming resources meant for the body while serving their own survival and expansion.
+
+**The biological goal:** Eusociality—where the leadership caste (the "brain") is functionally integrated with the social body, not exploiting it. The brain doesn't eat the body; it serves its survival. How do we achieve this structurally?
+
+**The failure modes we're preventing:**
+
+**Elite overproduction (Turchin, Section 1.1):** When elite positions confer dramatically superior quality of life compared to ordinary positions, society produces too many educated, ambitious, credentialed aspirants competing for too few elite slots. The ones who can't get in become **counter-elites**—frustrated individuals with elite training and expectations but blocked from elite status within the existing system. These counter-elites have the skills, credentials, and motivation to challenge the system itself, leading to revolutions, civil wars, and institutional collapse (French Revolution, late Qing Dynasty, Occupy Wall Street). Fixed elite slots don't prevent counter-elite formation (still have excluded aspirants), but they do two things: (1) prevent incumbent elites from expanding positions to absorb loyalists and entrench their power, and (2) force genuine competition for quality, making elite positions harder to capture through nepotism and ensuring some meritocratic churn that provides outlets for talented aspirants.
+
+**Bureaucratic empire-building (Jiang, Section 1.6):** Bureaucrats who can hire subordinates will hire subordinates—not because the mission demands it, but because staff count equals status and power. Agencies justify expansion by creating problems only they can solve. Coordination overhead compounds until the system collapses under its own weight.
+
+**Accountability vacuum (Section 2.12):** Modern institutions make it nearly impossible to hold anyone responsible. Corporations shield individuals ("just following policy"), bureaucracies diffuse blame ("the system decided"), politicians leave office before consequences manifest. Without accountability, defection dominates.
+
+**The Requirements:**
+
+#### 1. Fixed Elite Slots (Anti-Overproduction)
+
+**The Trap:** If the elite class can expand its own numbers, it will. This is the iron law of bureaucracy.
+
+**Requirement:** The number of high-status, decision-making roles must be **constitutionally fixed**. They cannot expand to accommodate aspiring elites.
+
+**The Mechanic:** To enter the elite, someone else must leave (zero-sum slots). This forces competition for *quality of governance* rather than competition for *expansion of bureaucracy*.
+
+**Key constraints:**
+- Leadership positions cannot be elastic or self-expanding
+- Creating new positions requires explicit community approval with high threshold
+- **Bureaucrats cannot hire to increase their own power** — hiring requires community approval
+- Unused positions should automatically sunset
+- All organizational structure changes must be transparent and auditable
+
+**Why this works:** When slots are fixed, aspirants must compete on governance quality to displace incumbents, not on expanding the bureaucracy to create room for themselves. This inverts Turchin's overproduction dynamic.
+
+#### 2. Continuous Accountability (The "Battery" Model)
+
+**The Trap:** Elections are low-bandwidth, delayed feedback. "Who watches the watchmen?" becomes impossible when accountability only happens every 2-4 years.
+
+**Requirement:** Agents must possess **dynamic legitimacy**. Power is not a grant for a fixed time period—it's a "battery" of political capital that drains over time and must be continuously recharged.
+
+**The pattern:** Leaders possess dynamic political capital that depletes through use and must be continuously recharged through successful governance. When political capital drops below threshold, the agent is removed.
+
+**Connection to Section 4.5 (Make Defection Costly):** This operationalizes accountability. Leaders face continuous consequences for their decisions rather than deferred judgment years later when damage is done.
+
+**Key properties the implementation must have:**
+- Leaders start with initial legitimacy that depletes over time (natural drain)
+- Leaders can spend legitimacy to take action (proposal costs)
+- Leaders regain legitimacy through successful governance (approval recharge)
+- Leaders must maintain minimum legitimacy threshold or face automatic removal
+- Leaders should profit from policies that remain successful long-term, suffer when policies fail
+- The system should align leader incentives with policy durability, not just initial popularity
+
+**Why this works:** Defection becomes costly immediately, not years later. Leaders can't externalize failures onto future generations or other institutions. Their fate is coupled to their governance quality.
+
+#### 3. Differentiated Authority (Execution Modes)
+
+**Requirement:** The system must support different modes of authority for different contexts. Not all decisions should require the same process.
+
+**The modes:**
+
+**Propose → Approve (High Consensus):** Agent synthesizes information and proposes solutions, but Principal must ratify before execution. Appropriate for high-stakes, irreversible decisions (infrastructure commitments, constitutional changes).
+
+**Act → Ratify (High Speed):** Agent executes with delegated authority, Principal maintains continuous approval monitoring. If approval drops, execution halts. Appropriate for time-sensitive or iterative decisions (emergency response, operational adjustments).
+
+**Why this matters:** Different problems have different speed/risk tradeoffs. Constitutional decisions need consensus. Operational decisions need speed. The platform enables communities to configure which authorities operate in which mode.
+
+#### 4. Thin Elites (Anti-Empire Building)
+
+**The Trap:** Fat bureaucracies consume resources meant for the commons. Coordination overhead grows quadratically with organizational size while productive output grows sub-linearly.
+
+**Requirement:** Keep leadership castes **structurally small** and **mission-focused**.
+
+**Size discipline:**
+- Fixed slots (covered above) prevent expansion
+- Burden of proof on continuation: roles must demonstrate value or sunset
+- Compensation structured to reward mission accomplishment, not staff count
+
+**Institutional sunset (Section 4.8):**
+- Policies and roles face periodic review (exponential backoff if successful)
+- Low-engagement = automatic sunset
+- Default is discontinuation; continuation requires rejustification
+
+**Anti-accumulation:**
+- Leaders cannot create sub-positions without community approval
+- Budget allocation tied to outcomes, not bureaucratic size
+- Transparency: all organizational structure visible and auditable
+
+**The tradeoff:** This creates friction for scaling organizations. **That's intentional.** Growth should be effortful; contraction should be natural. This reverses the current equilibrium where bureaucracies expand automatically and shrink only through crisis.
+
+#### 5. Rotating and Dynamic Leadership
+
+**The Trap:** Permanent elites coordinate to capture institutions. Entrenchment creates insider castes immune to accountability.
+
+**Requirement:** Leadership must be **temporary by default**, with multiple mechanisms preventing permanent entrenchment.
+
+**Rotation mechanisms:**
+- **Term limits:** Explicit or probabilistic expiration
+- **Reputation caps:** Past leadership doesn't guarantee future leadership (prevents dynasty formation)
+- **Randomized steward selection:** For some roles, randomization dilutes elite coordination and prevents capture
+- **Forced turnover:** Automatic removal when political capital depletes below threshold
+
+**Why this works:** When leadership is temporary and conditional on performance, elites cannot form stable extractive coalitions. The threat of removal disciplines behavior. Fresh perspectives prevent institutional sclerosis.
+
+#### 6. Reciprocity and Defection Punishment
+
+**Requirement:** Elites who defect from community interest must face **proportional consequences**.
 
 **Requirements:**
 
-**Size caps:**
-- Fixed number of leadership positions (not elastic to accommodate aspirants)
-- Cannot create new positions without explicit community approval (meta-governance)
-- Automatic pruning: unused positions sunset after period of non-engagement
+**Transparent track record:** All proposals, votes, resource allocations must be permanently recorded and verifiable. Defection must be visible and provable.
 
-**Rotating leadership:**
-- Term limits (explicit or probabilistic)
-- Randomized steward selection for some roles (dilutes elite coordination)
-- Reputation caps: past leadership doesn't guarantee future leadership
-- Forced turnover prevents entrenchment
+**Reputation consequences:** Failed proposals and sunsetted policies must damage leader reputation, making future leadership positions harder to attain.
 
-**Anti-accumulation mechanisms:**
-- **Bureaucrats cannot hire to increase their own power**
-- Hiring new roles requires community approval via point-vote (Section 5.3.1)
-- Leadership compensation structured to reward mission accomplishment, not empire-building
-- Transparency: all hiring and organizational changes public and auditable
+**Financial consequences:** Leader compensation must be tied to long-horizon policy success. Leaders lose income when their policies fail or get revoked. They profit from durable success, not short-term positioning.
 
-**Institutional sunset rules:**
-- Policies and roles face periodic review (exponential backoff if successful)
-- Low-engagement = automatic sunset
-- Burden of proof on continuation, not creation
+**Removal mechanisms:**
+- Approval battery depletion triggers automatic removal
+- Community can force emergency review with supermajority opposition
+- Expulsion for major violations (fraud, abuse of authority)
 
-**The tradeoff:** This creates friction for scaling organizations. That's intentional. Growth should be effortful; contraction should be natural. Reverses the current equilibrium where bureaucracies expand automatically and shrink only through crisis.
+**Proportionality (connects to NICE-Forgiving, Section 4.1):** Minor mistakes receive minor penalties and allow recovery. Major predation triggers removal. The system distinguishes incompetence from malice.
 
-### 4.5 Enforce Subsidiarity Through Approval-Based Jurisdiction
+#### 7. Public Goods Over Narrow Benefits (Anti-Selectorate Capture)
+
+**The Trap:** In legacy voting systems, elites maintain power by serving narrow winning coalitions—just barely 51%, or even less in multi-party systems. They maximize concentrated benefits to supporters and diffuse costs broadly.
+
+This is the **Selectorate Theory** (Bueno de Mesquita): leaders optimize for their **minimum winning coalition**, not the general welfare. Divisive positioning keeps you in power: keep 51% happy with targeted benefits, ignore or punish the 49%. Result: leaders govern for narrow factions rather than broad public goods.
+
+**Why legacy voting enables this:**
+- Binary votes (Section 4.11) can't distinguish broad support from narrow support
+- 51% majority, even if barely committed, defeats 49% minority, even if intensely opposed
+- No measurement of engagement—leaders can't tell if support is passionate or indifferent
+- Elections are infrequent—leaders optimize for approval on election day, not continuous performance
+
+**Requirement:** The system must create **structural pressure toward broad-based, high-engagement governance** rather than narrow coalition maintenance.
+
+**Requirements that prevent narrow coalition governance:**
+
+**Engagement weighting:** Proposals must demonstrate both approval AND engagement to succeed. The system must distinguish narrow passionate factions from broad support.
+
+**Continuous approval:** Leaders cannot optimize for election-day approval alone. They must maintain support continuously. Policies that serve narrow factions but alienate the broader population must lose approval and sunset, costing the leader reputation and compensation.
+
+**Preference intensity capture (Section 4.13):** The system must capture not just direction but magnitude of preference. An intensely opposed minority must be able to outweigh an indifferent majority, preventing tyranny of the indifferent.
+
+**Long-horizon compensation:** Leaders must profit from policies that remain durably approved, not from policies that pass narrowly and then fail. Serving narrow factions produces unstable policies that sunset quickly, reducing leader returns.
+
+**Proportional stakes:** Leaders must wager their tenure on each initiative. Divisive proposals that barely pass must be risky bets—if approval drifts slightly, the policy sunsets and the leader loses standing. This creates incentive pressure toward broadly popular public goods.
+
+**Why this works—the Nash equilibrium shifts:**
+
+Under legacy voting: **Serve narrow 51% coalition → maintain power → maximize private benefits to supporters.**
+
+Under this system: **Serve broad community → high engagement → durable policies → leader profit and tenure.**
+
+A leader trying the legacy strategy (narrow coalition, divisive positioning) faces:
+- Low engagement metrics reduce proposal success rates
+- Narrow support makes policies vulnerable to approval drift and sunset
+- Staked proposals lose leader points when they fail
+- Reputation damage from low-engagement/short-lived initiatives
+- Continuous accountability means can't wait until next election
+
+The optimal strategy becomes: **Identify issues with broad latent support → propose high-quality solutions → maintain engagement → profit from durable success.**
+
+This structurally pushes leaders toward public goods (broad benefits, widely approved) over private goods (narrow benefits to coalition). Not through moral exhortation—through incentive alignment.
+
+#### 8. Wealth Concentration and Plutocracy (The Fungibility Problem)
+
+**The insight:** Elites are inevitable. Any complex organization needs decision-makers with concentrated authority—a CENTCOM commander controls hundreds of billions in military assets, a central bank governor controls monetary policy affecting millions, a tech CEO controls platform infrastructure billions depend on. Society necessarily empowers certain individuals with massive concentrations of resources and decision-making authority.
+
+**The question isn't whether to have elites—it's how to:**
+1. Select the most competent people for these positions
+2. Reward them well enough to prevent corruption (avoiding the Russian police problem where low pay breeds bribery)
+3. Align them with long-term public good rather than short-term extraction or personal aggrandizement
+
+**The plutocracy problem:** When wealth becomes completely fungible for power—when money can buy not just goods and services but political influence, regulatory capture, media control, and institutional positions—you get plutocracy. Billionaires don't just have more consumption; they have different rules.
+
+**Why this matters:** You want to incentivize people to create wealth through genuine value creation (building companies, solving problems, improving productivity). But unconstrained wealth concentration creates:
+
+**Political capture:** Billionaires fund politicians, think tanks, media organizations, lobbying firms. They don't just participate in democracy—they shape its infrastructure. The system becomes responsive to wealth rather than citizens.
+
+**Institutional capture:** Wealthy donors influence universities, hospitals, cultural institutions through naming rights and conditional grants. Institutions optimize for attracting donations rather than mission fulfillment.
+
+**Market distortion:** Extreme wealth enables rent-seeking. Buy competitors to eliminate them. Lobby for favorable regulations. Use legal resources to extract settlements from those who can't afford prolonged litigation.
+
+**Social fragmentation:** When the quality-of-life gap between elites and ordinary people becomes extreme, it breeds resentment, destroys social cohesion, and creates the conditions for Turchin's counter-elite revolutions.
+
+**The requirement:** Money should confer consumption benefits and market advantages, but it should not be completely fungible for political power, institutional control, or the ability to rewrite rules in your favor.
+
+**Requirements for wealth-power firewalls (communities configure thresholds):**
+
+**Limit financial influence on political processes:** The system must constrain how much wealth can be directly converted into political campaign support, media control, and institutional influence. Full transparency of all political contributions and institutional funding. (Note: Difficult to fully solve—wealthy actors can fund think tanks, media, advocacy groups that shape discourse without technically being "political contributions.")
+
+**Couple elite compensation to broad prosperity:** Elite compensation should be bounded relative to median compensation within organizations. This forces leaders to raise all boats to raise their own compensation, reducing runaway extraction.
+
+**Diminishing returns on wealth-to-influence conversion:** The system should enable wealthy participants to have more influence but at exponentially increasing marginal costs. This bounds plutocratic dominance without eliminating wealth advantages entirely.
+
+**Structural capture detection:** The system must detect and penalize institutional capture. Transparency requirements, conflict-of-interest firewalls, mechanisms for exposing corruption.
+
+**Non-monetary status pathways:** High-status positions must be accessible through non-financial means—randomized selection for some roles, reputation-based appointments, community service. This ensures talented people without wealth can access elite positions.
+
+**Progressive wealth constraints (optional, controversial):** Communities may choose to constrain extreme wealth accumulation to fund public goods. This is contentious and difficult to implement (capital flight, gaming, enforcement challenges). Platform enables communities to experiment with this but does not prescribe it.
+
+**The tradeoff—incentivizing value creation vs. preventing plutocracy:**
+
+**Too little wealth concentration:** No incentive to build great companies, take risks, solve hard problems. Everyone optimizes for safety. Innovation dies. Economy stagnates (see: Soviet Union).
+
+**Too much wealth concentration:** Plutocracy. Billionaires rewrite rules. Democracy becomes theater. Counter-elites revolt (see: French Revolution, Gilded Age, current trajectory).
+
+**The platform enables communities to tune this tradeoff:**
+
+Some communities might allow wide wealth distributions but impose strict firewalls between wealth and political power (you can be a billionaire, but you can't buy elections or regulatory favors).
+
+Other communities might cap wealth accumulation more aggressively but allow higher consumption for high-performers (Scandinavian-style high taxes, strong social safety net, but entrepreneurs still get rich by local standards).
+
+Others might use alternative status systems—reputation, contribution history, community service—to allocate power rather than relying on wealth at all.
+
+**The key constraint: money should not be completely fungible for power.** A billionaire should be able to buy a yacht, a private jet, luxury consumption. They should NOT be able to buy immunity from accountability, regulatory capture, or the ability to rewrite laws in their favor.
+
+**Why this belongs in elite alignment:** Plutocracy is a specific failure mode of the Principal-Agent problem. When agents (leaders) can accumulate unconstrained wealth and use that wealth to entrench their power, buy loyalists, and rewrite rules, the feedback mechanisms that align them with principals (community) break down. Bounded wealth-power fungibility keeps the system accountable.
+
+**This is fundamentally experimental.** Different communities will find different equilibria. Startup-heavy communities might tolerate extreme wealth differentials to incentivize risk-taking. Worker co-ops might implement strict ratio caps. The platform provides tools for experimentation, not universal prescriptions.
+
+#### 9. Credentialism vs. Competence (The Selection Problem)
+
+**The trap:** Elite selection based purely on credentials (degrees, certifications, institutional affiliations) creates two failure modes:
+
+**Credentialism → Elite Disconnect → Populist Backlash**
+
+When credentials become the primary gatekeeping mechanism for elite positions, you get elites selected for their ability to navigate educational institutions rather than their ability to govern effectively. This creates:
+
+**Elite overproduction of the wrong kind:** Too many people with the "right" credentials (Ivy League degrees, McKinsey experience, law degrees) competing for positions, but credentials don't guarantee competence at actual governance. The system selects for test-taking ability and institutional conformity, not wisdom, judgment, or practical problem-solving.
+
+**Elite-public disconnect:** Credentialed elites share similar educational backgrounds, live in similar cities, hold similar cultural values—creating an insular class disconnected from the concerns of ordinary people. They optimize for what impresses other credentialed elites (academic theories, technocratic solutions, cosmopolitan values) rather than what actually works for their communities.
+
+**Populist counter-reaction:** When credentialed elites consistently fail to deliver (policies don't work, promises aren't kept, living standards decline), the public loses faith in credentials as a selection mechanism. Populist counter-elites emerge promising to "drain the swamp" and valorizing the "common sense" of non-credentialed people over the "expertise" of the educated class.
+
+**The populism trap:** Populist movements correctly diagnose elite failure (credentialed insiders aren't delivering) but often swing to the opposite extreme—rejecting all expertise, embracing anti-intellectualism, selecting leaders based purely on charisma or outsider status rather than competence. This doesn't solve the problem; it just replaces incompetent credentialed elites with incompetent non-credentialed elites.
+
+**Historical examples:**
+- **Late Qing Dynasty:** Credentialed mandarins selected via civil service exams became disconnected from practical governance, unable to respond to Western incursions and internal revolts
+- **French Revolution:** Aristocratic credentials (bloodline, court positions) proved disconnected from governance competence; populist backlash led to Terror
+- **Trump/Brexit/European populism (2016-present):** Credentialed technocratic elites (EU bureaucrats, DC establishment, university-educated professionals) lost public trust; populist outsiders gained power by rejecting elite consensus
+
+**The requirement:** Elite selection mechanisms must balance:
+- **Filtering for competence** (not everyone can govern well)
+- **Avoiding credentialism** (paper credentials ≠ real capability)
+- **Maintaining legitimacy** (public must trust the selection process)
+- **Preventing populist backlash** (when elites fail, don't swing to anti-expertise extremes)
+
+**Requirements for competence-based selection:**
+
+**Performance-based selection over credential-based:**
+- The system must track record of successful proposals and policy outcomes
+- Reputation must be built through demonstrated competence, not institutional affiliations alone
+- Leaders must be judged by results (do their policies work?) not by degrees
+
+**Randomized selection for some roles:**
+- The system should support sortition (random selection from qualified pools) for certain positions
+- Prevents credentialed class from monopolizing all elite positions
+- Forces elite institutions to remain responsive to broader public
+- Historical precedent: Athenian democracy, jury selection
+
+**Skin in the game requirements:**
+- Leaders must stake their own resources/reputation on proposals
+- Compensation must be tied to long-horizon policy durability
+- Credentials cannot protect leaders from consequences of failure
+
+**Continuous accountability prevents disconnect:**
+- Elites must maintain ongoing public approval to retain positions
+- Cannot coast on credentials once in power
+- Public must be able to remove leaders who become disconnected from their concerns
+
+**Diverse pathways to elite status:**
+- Credentials (education) as ONE path but not the ONLY path
+- Demonstrated competence through successful projects
+- Community service and reputation-building
+- Randomized selection providing entry regardless of credentials
+- Prevents any single gatekeeping mechanism (universities, corporations, political parties) from monopolizing elite production
+
+**Anti-populist safeguards (preventing swing to anti-expertise):**
+
+**Competence filters remain:**
+- Not everyone can lead. Some filtering is necessary.
+- Randomized selection happens from qualified pools (demonstrated capability), not pure lottery
+- Domain expertise matters (you need to understand economics to set monetary policy)
+
+**Transparent track records:**
+- Public can see why someone is in an elite position (their proposals, their results, their reputation)
+- Reduces conspiracy theories and "rigged system" narratives
+- Builds legitimacy for competent elites
+
+**Graceful failure modes:**
+- When credentialed elites fail, individual leaders face consequences (battery depletes, removed from office)
+- But the SYSTEM doesn't collapse into anti-institutional populism
+- Provides outlet for removing bad elites without destroying elite institutions entirely
+
+**Why this matters for Principal-Agent alignment:**
+
+Credentialism and populism are both symptoms of Principal-Agent failure:
+
+**Credentialism:** Agents (elites) selected based on credentials that impress other elites, not on competence that serves principals (public). Elites become accountable to credential-granting institutions (universities, corporations) rather than to the communities they govern.
+
+**Populism:** When principals lose faith in credentialed agents, they swing to charismatic outsiders who may be even less competent but at least feel responsive. This doesn't solve the alignment problem; it just replaces one failed agent type with another.
+
+**The platform's approach:** Select for demonstrated competence through multiple pathways, maintain continuous accountability through performance tracking, prevent both credentialed insularity and populist anti-expertise through structural mechanisms.
+
+**The Shift in Equilibrium:**
+
+When all nine mechanisms operate together, the Principal-Agent problem becomes structurally manageable:
+
+1. **Fixed slots** prevent elite overproduction (Turchin)
+2. **Continuous accountability** prevents deferred consequences (accountability vacuum)
+3. **Differentiated authority** balances speed and consensus appropriately
+4. **Thin elites** prevent bureaucratic empire-building (Jiang)
+5. **Rotation** prevents permanent entrenchment and capture
+6. **Reciprocity enforcement** makes defection costly rather than profitable
+7. **Public goods bias** prevents narrow coalition governance (Selectorate Theory)
+8. **Wealth-power firewalls** prevent plutocratic capture while preserving innovation incentives
+9. **Performance-based selection** prevents both credentialist insularity and populist anti-expertise
+
+The "brain" (elite) stays aligned with the "body" (community) because defection is structurally difficult and cooperation is structurally rewarded. This isn't achieved through moral exhortation—it's baked into the incentive architecture.
+
+### 4.7 Enforce Subsidiarity Through Approval-Based Jurisdiction
 
 Subsidiarity—the principle that problems should be solved at the lowest capable level—is widely praised but rarely implemented. The structural problem: without enforcement mechanisms, power naturally centralizes. Bureaucracies expand upward because there's no countervailing force pushing decisions back down to local levels.
 
@@ -384,22 +936,103 @@ Subsidiarity—the principle that problems should be solved at the lowest capabl
 
 **Current failure mode:** Modern governance exhibits structural centralization bias. Federal agencies create one-size-fits-all regulations. Local officials punt difficult decisions upward. No mechanism forces re-evaluation of whether centralized decisions should be decentralized. Everything trends toward centralization, destroying local adaptation.
 
-**The mechanism:**
+**Requirements:**
 
-**Pre-defined jurisdictional magisteria:** Different domains of concern (infrastructure, education, environmental policy, etc.) have defined jurisdictional scopes. Communities know which level has authority over which types of decisions.
+**Defined jurisdictional boundaries:** Different domains of concern (infrastructure, education, environmental policy, etc.) must have defined jurisdictional scopes. Communities must know which level has authority over which types of decisions.
 
-**Approval-based demotion:** When policies at higher jurisdictional levels fail to maintain approval thresholds, jurisdiction automatically demotes to lower levels. A failing state-level education policy gets pushed down to county or city level. The burden shifts from central authority to local experimentation.
+**Approval-based demotion:** When policies at higher jurisdictional levels fail to maintain approval thresholds, jurisdiction must automatically demote to lower levels. The burden must shift from central authority to local experimentation when centralized approaches fail.
 
-**Voluntary promotion via ballot:** Once a policy succeeds at a lower level (maintains stable approval), it becomes eligible for promotion to broader jurisdiction. But promotion isn't automatic—it requires explicit approval from communities at the higher level. A successful city transit policy can be proposed for county-wide or state-wide adoption, but only if those jurisdictions vote to adopt it.
+**Voluntary promotion:** Once a policy succeeds at a lower level (maintains stable approval), it becomes eligible for promotion to broader jurisdiction. But promotion cannot be automatic—it must require explicit approval from communities at the higher level.
 
-**Promotion mechanisms:**
-- **Periodic review with exponential backoff:** Successful local policies periodically appear on ballots for voluntary adoption at higher scales. If rejected, review interval increases (same backoff schedule as institutional sunset reviews).
-- **Ad-hoc proposals:** Jurisdiction expansion can be proposed like any other meta-governance change, outside the periodic schedule.
-- **Opt-in by default:** Communities satisfied with local solutions aren't forced to standardize. If something works well at city scale, there's no requirement to expand it to state scale.
+**Promotion requirements:**
+- **Periodic review opportunity:** Successful local policies must periodically be eligible for voluntary adoption at higher scales. If rejected, review interval should increase to avoid spam.
+- **Ad-hoc escalation:** Jurisdiction expansion must be proposable outside periodic schedules when needed.
+- **Opt-in by default:** Communities satisfied with local solutions must not be forced to standardize. No requirement to expand successful policies beyond communities that actively choose to adopt them.
 
 **The shift in equilibrium:** Failures naturally decentralize (demotion based on low approval). Successes can scale if desired (voluntary promotion via ballot). This reverses the current bias where centralization is the default and decentralization requires political crisis. Local solutions stay local unless proven valuable enough that other communities actively want to adopt them.
 
-### 4.6 Lifecycle Management for All Institutions
+**Nested Governance Contexts: Supporting Different Rulesets for Different Domains**
+
+**The requirement:** The system must support nested governance contexts with configurable rule structures tailored to specific functional domains.
+
+**Why this matters:** Not all collective action requires the same governance structure. A military unit facing combat requires hierarchical authority with strict liability—commanders must be able to issue orders instantly and take responsibility for subordinate actions. A research collective benefits from flat consensus decision-making with individual attribution. Emergency response may require temporary dictatorial powers with automatic sunset. Commons management needs Ostrom's graduated sanctions and peer monitoring.
+
+**One-size-fits-all governance creates systematic failures:**
+- Applying consensus to emergencies → paralysis by deliberation
+- Applying hierarchy to research → creativity suppression, loss of individual insight
+- Applying majority voting to specialized technical domains → incompetent decisions by uninformed voters
+- Applying permanent authority to temporary crises → emergency powers never relinquish
+
+**Requirements for nested contexts:**
+
+**1. Instantiable governance templates:**
+The system must allow communities to spawn sub-organizations with distinct rule configurations:
+- **Military/Emergency:** Hierarchical command, chain-of-command liability, rapid execution authority
+- **Research/Creative:** Flat structure, individual attribution, consensus or expertise-weighted decisions
+- **Commons Management:** Peer monitoring, graduated sanctions, Ostrom's principles
+- **Temporary Crisis:** Dictatorial powers with mandatory sunset clauses
+- **Judicial:** Randomized selection (sortition), higher evidence standards, appeal processes
+
+**2. Configurable parameters per context:**
+Each nested context must be able to configure:
+- **Voting mechanisms:** Hierarchy, consensus, quadratic, sortition, expertise-weighted, etc.
+- **Accountability structures:** Individual liability vs collective responsibility vs chain-of-command
+- **Authority models:** Propose→approve, act→ratify, execute-with-discretion, emergency powers
+- **Lifecycle rules:** Permanent positions, rotating terms, temporary emergency grants with automatic sunset
+- **Decision speed vs. consensus tradeoffs:** Some contexts optimize for speed, others for buy-in
+
+**3. Clear boundaries and scope:**
+Each nested context must have explicitly defined:
+- **Domain:** What decisions fall under this context's authority?
+- **Membership:** Who can participate in this context?
+- **Duration:** Is this permanent, term-limited, or temporary?
+- **Escalation rules:** When do decisions need to bubble up to parent context?
+- **Override mechanisms:** Can parent context intervene? Under what conditions?
+
+**4. Inheritance and override:**
+Nested contexts should:
+- **Inherit default rules** from parent context unless explicitly overridden
+- **Cannot violate parent constraints** (e.g., parent's constitutional rights protections)
+- **Can be more restrictive** than parent (e.g., military unit has stricter discipline than civilian community)
+- **Report to parent** on defined metrics or at defined intervals
+
+**Examples:**
+
+**Military unit within voluntary community:**
+- Parent context: Consensus-based commune with flat hierarchy
+- Nested military context: Hierarchical command structure, commander liable for unit actions, rapid execution authority
+- Boundary: Military context applies only during defense operations; reverts to parent rules otherwise
+- Justification: Defense requires speed and coordination that consensus cannot provide
+
+**Research lab within corporate structure:**
+- Parent context: Corporate hierarchy with manager approval required
+- Nested research context: Flat structure, individual publication rights, expertise-weighted technical decisions
+- Boundary: Research context controls technical direction and IP attribution; parent controls budget allocation
+- Justification: Creativity requires autonomy; financial constraints require oversight
+
+**Emergency response within neighborhood association:**
+- Parent context: Slow deliberative decision-making via point-voting
+- Nested emergency context: Single coordinator with dictatorial powers, automatic 72-hour sunset, requires renewal by supermajority
+- Boundary: Emergency context can only direct immediate response; cannot make permanent policy
+- Justification: Fires don't wait for committees; but emergency powers must not become permanent
+
+**Why this is a requirement, not a solution:**
+
+We're not prescribing specific governance templates. We're requiring that the platform support communities in creating context-appropriate governance structures. A system that forces all collective action through identical processes will systematically fail in contexts that require different speed/consensus/authority tradeoffs.
+
+**Connection to other principles:**
+- **Section 4.3 (Make Cooperation Cheap):** Context-appropriate governance reduces friction
+- **Section 4.9 (Voluntary Association):** People join contexts suited to their preferences
+- **Section 4.10 (Continuous Adaptation):** Communities can modify nested contexts as needs evolve
+- **Section 6.6 (Constraining Elites):** Nested hierarchies require clear accountability bounds
+
+**Failure mode if violated:**
+- Emergency situations become disasters (consensus paralysis)
+- Creative work becomes bureaucratized (innovation suppressed)
+- Specialized decisions become incompetent (uninformed majority rules)
+- Temporary powers become permanent (emergency authorities never sunset)
+
+### 4.8 Lifecycle Management for All Institutions
 
 Olson's research on institutional sclerosis shows that stable societies accumulate rules and organizations until calcified into "institutional arteriosclerosis." The problem: institutions almost never sunset voluntarily. Each rule made sense when created, but rules don't expire when circumstances change. The result is regulatory accumulation until the system becomes impenetrable.
 
@@ -412,21 +1045,21 @@ Olson's research on institutional sclerosis shows that stable societies accumula
 
 All three are catastrophic. Healthy systems need a way to prune institutions without civilizational collapse.
 
-**The mechanism:**
+**Requirements:**
 
-**Mandatory lifecycle stages:** Every policy, role, and institution follows: Birth → Growth → Evaluation → Renewal → Sunset. Nothing is permanent by default.
+**Mandatory lifecycle stages:** Every policy, role, and institution must follow defined lifecycle: Birth → Growth → Evaluation → Renewal → Sunset. Nothing should be permanent by default.
 
-**Exponential backoff review schedule:** Successful institutions get reviewed less frequently over time (1 year → 2 years → 4 years → 8 years). But review never stops completely. Long-lived institutions with sustained approval earn longer intervals between reviews, but they still must periodically rejustify their existence.
+**Decreasing review frequency for success:** Successful institutions must be reviewed less frequently over time as they prove their value. But review must never stop completely. Long-lived institutions with sustained approval earn longer intervals between reviews, but they still must periodically rejustify their existence.
 
-**Burden of proof on continuation:** Unlike current systems where the default is persistence, the default here is sunset. Institutions must demonstrate sustained value (measured by approval/engagement) to continue. Low engagement or declining approval triggers automatic retirement.
+**Burden of proof on continuation:** Unlike current systems where the default is persistence, the default must be sunset. Institutions must demonstrate sustained value (measured by approval/engagement) to continue. Low engagement or declining approval must trigger automatic retirement.
 
-**Anti-capture guardrails:** As covered in Section 4.4, bureaucrats cannot create new positions without community approval. This prevents self-perpetuating empire-building where agencies justify expansion by creating problems only they can solve.
+**Anti-expansion guardrails:** As covered in Section 4.6, bureaucrats cannot create new positions without community approval. This prevents self-perpetuating empire-building where agencies justify expansion by creating problems only they can solve.
 
-**Graceful degradation:** Sunset doesn't mean immediate termination. Transition periods allow for knowledge transfer, alternative solutions, and adjustment. But the institution doesn't get to persist indefinitely just because change is uncomfortable.
+**Graceful degradation:** Sunset must not mean immediate termination. Transition periods must allow for knowledge transfer, alternative solutions, and adjustment. But institutions must not persist indefinitely merely because change is uncomfortable.
 
 **The shift in equilibrium:** When institutions must periodically rejustify their existence, the Olsonian ratchet breaks. Failed experiments sunset. Successful institutions continue with democratic legitimacy. The system can adapt without requiring collapse, war, or revolution.
 
-### 4.7 Voluntary Association by Design
+### 4.9 Voluntary Association by Design
 
 The network state model (Srinivasan) proposes cloud-first, land-last governance: voluntary political communities that coordinate digitally before (if ever) acquiring territory. This inverts the traditional monopoly of geographic states where you're assigned governance by birthplace.
 
@@ -434,19 +1067,19 @@ The network state model (Srinivasan) proposes cloud-first, land-last governance:
 
 **Current failure mode:** Geographic nation-states are effective monopolies. Exit requires emigration—expensive, socially disruptive, often legally difficult. Most people are stuck with whatever governance they're born into. This eliminates competitive pressure and enables persistent low-quality governance.
 
-**The mechanism:**
+**Requirements:**
 
-**Opt-in by default:** Citizens choose which initiatives and institutions to participate in. Participation is voluntary, not coerced by geography. Abstract associations (open source projects, ideological communities, professional networks) are naturally opt-in. Even geographic associations can have voluntary layers for non-territorial concerns.
+**Opt-in by default:** Citizens must be able to choose which initiatives and institutions to participate in. Participation must be voluntary, not coerced by geography. Abstract associations (open source projects, ideological communities, professional networks) are naturally opt-in. Even geographic associations should support voluntary layers for non-territorial concerns.
 
-**Multiple simultaneous memberships:** Unlike nation-states where you typically have one citizenship, people can belong to multiple voluntary communities simultaneously. You might participate in a local housing co-op, a professional governance network, and an ideological community—each handling different domains.
+**Multiple simultaneous memberships:** Unlike nation-states where you typically have one citizenship, people must be able to belong to multiple voluntary communities simultaneously. Example: participate in a local housing co-op, a professional governance network, and an ideological community—each handling different domains.
 
-**Low exit costs:** Leaving a community shouldn't require uprooting your life. Digital coordination enables "citizenship" in multiple overlapping communities. If one fails to serve you, exit to alternatives without physical relocation.
+**Low exit costs:** Leaving a community must not require uprooting your life. Digital coordination should enable "citizenship" in multiple overlapping communities. If one fails to serve you, exit to alternatives must not require physical relocation.
 
-**Competition through demonstration:** Communities compete for members by demonstrating value, not through coercion. Successful governance models attract imitators and participants. Failed models lose members and relevance.
+**Competition through demonstration:** Communities must compete for members by demonstrating value, not through coercion. Successful governance models should attract imitators and participants. Failed models must lose members and relevance.
 
 **The shift in equilibrium:** When association is voluntary and exit is cheap, governance must earn legitimacy continuously. The system selects for quality through competitive pressure rather than relying on captive populations tolerating bad governance because exit is too expensive.
 
-### 4.8 Continuous Adaptation
+### 4.10 Continuous Adaptation
 
 North's distinction between allocative efficiency (optimizing within existing rules) and adaptive efficiency (evolving better rules) explains why successful institutions often fail. Organizations optimized for allocative efficiency—squeezing maximum performance from current paradigms—become structurally incapable of adapting when paradigms shift. Kodak was allocatively efficient at film; this prevented adapting to digital. Detroit was allocatively efficient at internal combustion; this prevented adapting to electric vehicles.
 
@@ -454,19 +1087,19 @@ North's distinction between allocative efficiency (optimizing within existing ru
 
 **Current failure mode:** Legacy governance systems treat rules as static. Changing laws requires legislative processes designed to be slow and difficult. Constitutional amendments in the US require supermajorities that are nearly impossible to achieve. The result: institutions locked into paradigms from decades or centuries ago, unable to adapt to modern conditions.
 
-**The mechanism:**
+**Requirements:**
 
-**Embedded feedback loops:** The system continuously monitors policy outcomes through approval ratings, engagement metrics, and explicit feedback mechanisms. This data feeds back into governance decisions, creating cybernetic control loops.
+**Embedded feedback loops:** The system must continuously monitor policy outcomes through approval ratings, engagement metrics, and explicit feedback mechanisms. This data must feed back into governance decisions, creating cybernetic control loops.
 
-**Meta-governance capabilities:** Communities can modify their own governance rules through structured processes (Section 5.3.1). Create new positions, retire obsolete ones, adjust voting mechanisms, change review schedules—all through the same democratic processes used for policy decisions.
+**Meta-governance capabilities:** Communities must be able to modify their own governance rules through structured processes. Create new positions, retire obsolete ones, adjust voting mechanisms, change review schedules—all through the same democratic processes used for policy decisions.
 
-**Experimentation at scale:** Multiple communities trying different governance approaches creates a distributed search process. Successful innovations spread through imitation (Section 4.9). Failed experiments get pruned through sunset mechanisms (Section 4.6). The system learns what works through variation and selection.
+**Experimentation at scale:** Multiple communities trying different governance approaches must create a distributed search process. Successful innovations must be able to spread through imitation (Section 4.9). Failed experiments must be pruned through sunset mechanisms (Section 4.8). The system must learn what works through variation and selection.
 
-**Adaptive, not arbitrary:** Changes aren't random or impulsive. The exponential backoff review schedule (Section 4.6) means stable, successful policies get longer periods between reviews. Rapid iteration happens when things aren't working; stability emerges when they are.
+**Adaptive, not arbitrary:** Changes must not be random or impulsive. Stable, successful policies must earn longer periods between reviews. Rapid iteration should happen when things aren't working; stability should emerge when they are.
 
 **The shift in equilibrium:** When rules can modify themselves through structured feedback, institutions maintain adaptive efficiency alongside allocative efficiency. The system can optimize current approaches while remaining capable of paradigm shifts when circumstances change. This prevents the Kodak failure mode where optimization for the current paradigm prevents adaptation to new ones.
 
-### 4.9 Cohesion Without Uniformity
+### 4.11 Cohesion Without Uniformity
 
 **The standardization tradeoff:** Institutions face a fundamental tension:
 
@@ -486,26 +1119,26 @@ North's distinction between allocative efficiency (optimizing within existing ru
 - **Full uniformity** = institutional monoculture, no adaptation, systemic fragility
 - **Full variation** = coordination chaos, high transaction costs, Balkanization
 
-**How to reconcile:**
+**Requirements for reconciling standardization and variation:**
 
 **Local autonomy with shared protocols:**
-- Communities free to experiment within domains
-- Shared interface standards enable interoperability
-- Successful rules spread via imitation, not coercion
+- Communities must be free to experiment within domains
+- Shared interface standards must enable interoperability
+- Successful rules must be able to spread via imitation, not coercion
 
-**Threshold-based convergence (Section 5.4.2):**
-- Rules that work locally stay local
-- Rules with broad support naturally standardize (rise from city → county → state)
-- No top-down enforcement needed
+**Emergent convergence:**
+- Rules that work locally must stay local
+- Rules with broad support should be able to naturally standardize (rise from city → county → state)
+- No top-down enforcement should be needed for voluntary adoption
 
 **Market-like dynamics:**
-- Communities compete for members through demonstrated quality
-- Exit rights mean bad rules lose adherents
-- Good rules attract imitators
+- Communities must compete for members through demonstrated quality
+- Exit rights mean bad rules should lose adherents
+- Good rules should attract imitators
 
 **Explicit coordination language:**
-- Common vocabulary and protocols
-- But diverse implementations
+- Common vocabulary and protocols should be shared
+- But diverse implementations must be supported
 - Like TCP/IP: shared standard, infinite applications
 
 **Benefit of broadly similar laws:** Reduces cognitive load when moving between communities, enables commerce, creates predictability.
@@ -514,7 +1147,7 @@ North's distinction between allocative efficiency (optimizing within existing ru
 
 **The platform enables both:** Mechanisms for local experimentation AND mechanisms for emergent standardization where beneficial. Communities decide the tradeoff dynamically.
 
-### 4.10 Resist the Tyranny of Metrics
+### 4.12 Resist the Tyranny of Metrics
 
 As shown in Section 2.7.7, the measurement trap is a failure mode common to many governance reforms. Any system must explicitly protect against quantification capture.
 
@@ -536,7 +1169,7 @@ As shown in Section 2.7.7, the measurement trap is a failure mode common to many
 - No permanent underclass created by poor scores
 - People feel free to experiment and fail without permanent reputational damage
 
-### 4.11 Capture Preference Intensity, Not Just Direction
+### 4.13 Capture Preference Intensity, Not Just Direction
 
 Traditional voting systems suffer from catastrophic information loss. A vote captures only **direction** (for/against, candidate A vs. B) but not **magnitude** (how much you care). This is the difference between a vector and a binary bit: voting should communicate both direction and intensity, but legacy systems discard half the information.
 
@@ -552,15 +1185,21 @@ Traditional voting systems suffer from catastrophic information loss. A vote cap
 
 **No preference ordering:** Binary votes can't signal "I support A > B > C" or "I weakly support X but strongly support Y." All policies appear equally important. Leaders can't distinguish where citizens want attention focused vs. where they're satisfied with the status quo.
 
-**From information theory:** Binary voting is extremely low-bandwidth communication. Each citizen communicates 1 bit per issue (yes/no). This is like running a modern organization using morse code—technically functional but throwing away 99% of the signal. High-bandwidth preference signaling (point-voting, quadratic voting, continuous approval) increases information density by orders of magnitude.
+**From information theory:** Binary voting is extremely low-bandwidth communication. Each citizen communicates 1 bit per issue (yes/no). This is like running a modern organization using morse code—technically functional but throwing away 99% of the signal. Higher-bandwidth preference signaling could increase information density by orders of magnitude.
 
 **Connection to cybernetics:** Ashby's Law of Requisite Variety states that control systems must match the complexity of what they regulate. Binary voting has insufficient variety to regulate complex policy spaces. It's like trying to control a car with only two pedals: full throttle or full brake. You need the gas pedal's continuous range to navigate effectively.
 
-**The shift in equilibrium:** When systems capture both direction and intensity, minority preferences aren't automatically trampled. Passionate minorities can outweigh indifferent majorities (proportional to intensity, preventing tyranny while enabling strong preferences to prevail). Leaders get clear signals about where to focus attention. Strategic voting diminishes because the system can handle preference ordering. Policy outcomes better reflect actual social welfare rather than just vote counts.
+**The requirement:** The system must provide higher-bandwidth preference signaling than binary voting. Citizens need ways to communicate not just yes/no but intensity and priority. This may be impossible to solve perfectly (Arrow's impossibility theorem), but the system must attempt to reduce information loss compared to binary voting.
 
-**Implementation in Section 5.3:** Point-voting, quadratic voting, and continuous approval mechanisms operationalize this principle, creating high-bandwidth preference communication while preventing gaming through convex cost curves and other safeguards.
+**What success looks like:**
+- Leaders receive clearer signals about where to focus attention vs where citizens are satisfied
+- Passionate minorities have mechanisms to signal intensity (preventing tyranny of indifferent majority)
+- Citizens can express priority ordering, not just binary approval
+- Gaming is bounded (influence cannot be purely linear with resources)
 
-### 4.12 Protect Individual Sovereignty Through Rights Subsidiarity
+**Note:** Arrow's impossibility theorem proves no voting system can satisfy all desirable properties simultaneously. Different mechanisms make different tradeoffs. Communities must choose which properties they value most. See Document 3 for mechanism options and their tradeoff profiles.
+
+### 4.14 Protect Individual Sovereignty Through Rights Subsidiarity
 
 Just as Section 4.5 establishes that problems should be solved at the lowest capable level, **powers and rights should default to individuals unless there is clear, ongoing justification for collective control.** The principle of subsidiarity applies not only to governance scale (local vs. regional vs. national) but to the fundamental allocation of authority between individuals and collectives.
 
@@ -604,17 +1243,15 @@ The platform must **actively enforce rights subsidiarity** rather than passively
 - Powers sunset automatically if not renewed (Section 4.5 lifecycle management applies to authority grants)
 - Default is individual autonomy; collective power requires continuous justification
 
-**2. Exit rights as ultimate check (Section 4.6):**
-- Voluntary association means individuals can leave communities that violate their rights
-- This creates competitive pressure: communities that abuse power lose members
-- Network states (Section 1.12) enable exit without physical relocation
+**2. Exit rights as ultimate check (Section 4.9):**
+- Voluntary association means individuals must be able to leave communities that violate their rights
+- This creates competitive pressure: communities that abuse power should lose members
 - Multiple overlapping communities mean you're not captive to any single authority
 
 **3. Transparent and auditable use of collective power:**
-- All exercises of collective authority (law enforcement, resource allocation, rule changes) are logged on-chain
-- Cryptohistory (Section 1.18 Burke, Section 1.12 Balaji) creates permanent, verifiable record
-- Abuse of authority is visible and provable, not hidden in bureaucratic opacity
-- Sunlight as disinfectant: transparency constrains power even when formal rules fail
+- All exercises of collective authority (law enforcement, resource allocation, rule changes) must be permanently recorded and verifiable
+- Abuse of authority must be visible and provable, not hidden in bureaucratic opacity
+- Transparency constrains power even when formal rules fail
 
 **4. Distributed enforcement prevents monopoly abuse:**
 - Monopoly on violence at community scale, but multiple communities exist
@@ -622,11 +1259,11 @@ The platform must **actively enforce rights subsidiarity** rather than passively
 - Inter-community agreements provide security cooperation without centralized control
 - Similar to how U.S. federalism distributes power across states, but with real exit options
 
-**5. Individual rights as hard constraints in platform architecture:**
-- Certain actions cannot be taken even by majority vote: seizure of property without compensation, compelled speech, retroactive punishment, etc.
-- These constraints are coded into the platform itself, not merely written in documents
-- Attempting to violate hard constraints triggers warnings, requires extraordinary supermajorities, or is simply impossible to execute
-- Smart contracts can enforce rights mechanically where constitutions rely on interpretation
+**5. Individual rights as hard constraints in system architecture:**
+- Communities should be able to define certain actions that cannot be taken even by majority vote: seizure of property without compensation, compelled speech, retroactive punishment, etc.
+- These constraints should be enforceable through system architecture, not merely written in documents
+- Attempting to violate hard constraints should trigger warnings, require extraordinary supermajorities, or be impossible to execute
+- Technical enforcement of rights can be more reliable than document-based constitutions that rely on interpretation
 
 **What rights are fundamental vs. negotiable?**
 
@@ -653,15 +1290,15 @@ There's genuine tension between collective security (which may require coordinat
 
 **Connection to other principles:**
 
-- **Subsidiarity (Section 4.5):** Rights subsidiarity is subsidiarity applied to power allocation—default to individual, justify collective
-- **Voluntary association (Section 4.7):** Exit rights enforce respect for individual sovereignty through competitive pressure
-- **Lifecycle management (Section 4.6):** Grants of collective authority should sunset and require renewal, not persist indefinitely
-- **Thin elites (Section 4.4):** Concentrated power enables rights violations; distributed authority reduces risk
-- **Continuous adaptation (Section 4.8):** Rights frameworks can evolve as technology and threats change, without requiring constitutional crises
+- **Subsidiarity (Section 4.7):** Rights subsidiarity is subsidiarity applied to power allocation—default to individual, justify collective
+- **Voluntary association (Section 4.9):** Exit rights enforce respect for individual sovereignty through competitive pressure
+- **Lifecycle management (Section 4.8):** Grants of collective authority should sunset and require renewal, not persist indefinitely
+- **Thin elites (Section 4.6):** Concentrated power enables rights violations; distributed authority reduces risk
+- **Continuous adaptation (Section 4.10):** Rights frameworks can evolve as technology and threats change, without requiring constitutional crises
 
 **The shift in equilibrium:** When rights subsidiarity is enforced structurally (not just declared rhetorically), the default equilibrium shifts from "collective power expands until constrained" to "individual sovereignty unless explicitly justified." Collective authority becomes something continuously earned through demonstrated necessity and ongoing consent, not something presumed and permanent. This inverts the Olsonian ratchet: instead of powers migrating inexorably toward central control, they must be periodically rejustified or they revert to individuals.
 
-**Implementation challenges:** Section 5 (in Document 3) will detail mechanisms for enforcement, conflict resolution when rights claims conflict, and how communities handle genuinely collective challenges (public health, defense, infrastructure) while respecting individual sovereignty. The goal is not anarchism (some collective functions are necessary) but **accountable, constrained, reversible collective authority** that defaults to individual freedom rather than presuming collective control.
+**Implementation challenges:** Document 3 will detail mechanisms for enforcement, conflict resolution when rights claims conflict, and how communities handle genuinely collective challenges (public health, defense, infrastructure) while respecting individual sovereignty. The goal is not anarchism (some collective functions are necessary) but **accountable, constrained, reversible collective authority** that defaults to individual freedom rather than presuming collective control.
 
 ---
 

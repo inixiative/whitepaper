@@ -160,30 +160,26 @@ Users fill in blanks. Smart contract handles execution.
 
 **Fiat on-ramps:** Partner with services for credit card → crypto conversion (lowers barriers for non-crypto users)
 
-**Currency backing options:** The platform supports multiple approaches to community currency, allowing experimentation with different backing mechanisms:
+**Currency Agnosticism:** The MVP treasury module is **asset-agnostic**. Communities can pool ETH, USDC, DAI, or custom tokens. We provide the governance wrapper around value, regardless of the form that value takes.
 
-**Energy-backed tokens (kWh standard):** One experimental option is backing tokens with energy rather than fiat or scarce commodities. A kilowatt-hour (kWh) token represents a fixed unit of energy.
+**Why start currency-agnostic:**
+- **Lowers adoption friction** - Communities can use familiar currencies (USD-backed stablecoins) without learning new monetary theory
+- **Separates concerns** - Proves governance mechanisms work independently of currency innovation
+- **Enables experimentation** - Communities choose backing mechanisms that fit their values and constraints
 
-**Why energy backing makes sense:**
-- **Fundamental to all economic activity** - Nothing happens without energy; it's the ultimate input to production
-- **Cannot be arbitrarily created** - Thermodynamics prevents printing energy; you must actually generate it
-- **Naturally inflationary as capacity grows** - Unlike gold (fixed supply vulnerable to space mining) or fiat (arbitrary political supply), energy supply expands with real productive capacity
-- **Resistant to rent extraction** - Can't hoard energy like land; it must be used or stored at cost
-- **Proof-of-work approximation** - Bitcoin already demonstrates this principle: mining requires energy expenditure, tying token creation to physical work
-- **Distributed production** - Energy can be generated anywhere (solar, wind, geothermal, hydro, nuclear), making cartels harder than with geographically concentrated resources like oil
+**The fiat vulnerability caveat:**
 
-**Implementation:** To create new currency units, you must generate energy and commit it to the network. This ties money creation directly to productive capacity. The currency inflates naturally as civilization adds energy production (solar buildout, fusion development), matching real economic growth rather than political expedience.
+While the MVP supports fiat-backed stablecoins for ease of adoption, **governance built on fiat rails inherits a structural weakness**: inflation as wealth extraction.
 
-**Cartel resistance:** Unlike oil, energy production can't easily be restricted by geographic monopolies. Renewable sources (solar, wind) are globally distributed. Restricting energy supply hurts the restrictor's own economy (energy is input to everything), making sustained cartels costlier than with luxury resources.
+As diagnosed in Section 1.2a (The 1971 Inflection) and Section 2.11 (Eternal Return of Rent-Seeking), fiat currency enables elites to extract wealth through the Cantillon Effect—those closest to money creation (central banks, major financial institutions) gain purchasing power at the expense of those furthest away (wage earners, savers).
 
-**Comparison to alternatives:**
-- **Fiat:** Arbitrary creation enables rent extraction through inflation; whoever controls printing press controls economy
-- **Gold:** Historically stable but vulnerable to supply shocks (space mining could flood market overnight); also not consumable (hoarding creates artificial scarcity)
-- **Bitcoin:** Proof-of-work provides similar energy-backing property, but energy is burned rather than utilized; kWh standard would require energy generation that can be used productively
+**Perfect governance + fiat currency = governance with a built-in capture mechanism.**
 
-**Not a store of value:** Energy-backed currency is designed as **money-as-economic-lubricant**, not money-as-store-of-value. Its purpose is to facilitate transactions and coordinate economic activity. Because energy inflates naturally as production capacity grows, it's deliberately not optimized for hoarding. You may still need traditional stores of value (real estate, productive assets, gold, Bitcoin) for long-term wealth preservation. The kWh token solves a different problem: preventing arbitrary money creation while tying currency supply to actual productive capacity.
+Even if you solve elite overproduction, institutional bloat, and coordination failures, monetary debasement remains an avenue for wealth concentration and rent extraction.
 
-This is experimental. Different communities will prefer different backing mechanisms based on values and constraints. The platform enables experimentation rather than imposing a single monetary model.
+**The long-term solution:** Communities that want **immunity from monetary capture** will need currency backing mechanisms resistant to arbitrary creation. Document 3 explores experimental options including energy-backed currencies (kWh standard) and other alternatives to fiat.
+
+**The MVP tradeoff:** Start with fiat compatibility (lower friction, faster adoption) while acknowledging the vulnerability and providing a path toward monetary sovereignty for communities that value it.
 
 #### 5.2.6 Modular Configuration
 

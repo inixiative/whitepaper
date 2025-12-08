@@ -63,22 +63,209 @@ From "Algorithms to Live By": Good systems should minimize cognitive burden on u
 
 Low engagement by ordinary citizens is success, not failure—as long as it reflects satisfied delegation and trust, not apathy and alienation.
 
-### The Following Subsections
+### The Following Sections
 
-Each subsection describes a mechanism, analyzes the Schelling point it creates, and notes that **we're not prescribing it as "the answer"—we're showing how it shifts equilibria and letting communities choose.**
+**Section 5** presents proven mechanisms—governance tools that have been tested in practice with measurable results. These aren't theoretical proposals; they're working systems with empirical evidence.
 
-### 5.1 Definitions
+**Section 6** explores novel mechanisms made possible by smart contracts and digital infrastructure—proposals that are theoretically sound but not yet proven at scale.
+
+---
+
+## 5. Proven Mechanisms: What Works
+
+This section contains **only mechanisms with empirical validation**. The epistemic boundary is crucial: we distinguish between "this works, we have evidence" (Section 5) and "this should work, we have theory" (Section 6).
+
+### 5.1 Henry George — Land Value Tax
+
+Henry George's *Progress and Poverty* (1879) diagnosed a fundamental paradox: why does poverty persist alongside technological progress and increasing productivity? His answer: **land rent extraction**. As societies become more productive, land values rise. Landowners capture the gains from societal progress without contributing to it. Those who own scarce resources extract rent; those who don't remain poor regardless of how hard they work or how much technology improves.
+
+George's proposed solution—the land value tax—was radical: tax land at near-100% of its rental value, eliminate all other taxes. This would capture socially-created value (land value rises because society builds around it) while leaving productive activity untaxed.
+
+**Historical implementations: Theory proven in practice**
+
+George's ideas weren't merely theoretical—they've been implemented with measurable results:
+
+**Singapore:** With 90%+ state land ownership, 99-year leaseholds, and annual land rent based on market value, Singapore implements Georgist principles at scale. Results: Efficient land use, <0.1% homelessness rate, highest GDP per capita among Asian tigers, ability to fund extensive public goods (housing, transport, healthcare) without high income taxes.
+
+**Hong Kong:** Virtually all land government-owned with long-term leases and 3% ground rent on rateable value. Land revenue funds majority of public infrastructure. This enables Hong Kong's famously low income tax (2-17% progressive) while maintaining world-class infrastructure.
+
+**Taiwan:** Sun Yat-sen made "Equalization of Land Rights" foundational to his political platform. Taiwan's 1949-1953 land reforms combined with progressive urban land value taxes produced dramatic results: rice yields increased 40-47% (1950-1961), overall agricultural output up 57% (1952-1962), average farm family earnings doubled by 1965.
+
+**Western implementations:** Pittsburgh operated a two-rate system from 1913-2001, taxing land at double the rate of improvements. Australian states implemented land value taxes beginning in the 1880s. Denmark maintains grundskyld (ground duty) as key revenue source. Estonia (post-1993) is the only EU country with pure land-only real estate tax.
+
+**Pattern across implementations:** Where land value taxation is most comprehensive (Singapore, Hong Kong, Taiwan), economic outcomes are strongest. The theory explains the results: taxing land forces it into productive use, captures socially-created value for public benefit, and eliminates rent-seeking from land monopolies.
+
+**Modern parallel: Financial system rent extraction**
+
+George's diagnosis applies to modern structures where control over money creation has replaced land as the critical scarce resource:
+
+- **Fractional reserve banking as rent extraction:** Banks create money through recursive lending. Central banks manipulate this process, diluting existing holdings and transferring purchasing power to first recipients.
+- **The scale of financialization:** Global derivatives ($600-1,000 trillion) are 6-10x larger than global GDP ($100 trillion). The financial system has become primarily parasitic.
+- **The growth imperative:** Debt-based money, equity markets, and quarterly earnings create perpetual growth expectations, forcing consolidation and infinite expansion—similar to George's landowners optimizing for rent extraction.
+
+### 5.2 Elinor Ostrom — Commons Governance
+
+Elinor Ostrom's work on commons governance provides empirical counterpoint to the "tragedy of the commons" narrative. Through extensive fieldwork, she identified conditions under which communities successfully manage shared resources without privatization or central authority.
+
+**Ostrom's 8 principles for durable cooperation:**
+1. **Clearly defined boundaries** - Who has rights to the resource and who doesn't
+2. **Rules matched to local conditions** - Not one-size-fits-all, adapted to context
+3. **Participatory decision-making** - Those affected by rules help make them
+4. **Monitoring** - Community members or accountable monitors track compliance
+5. **Graduated sanctions** - Violations punished proportionally, not catastrophically
+6. **Conflict resolution mechanisms** - Fast, cheap, local resolution of disputes
+7. **Recognition of rights** - External authorities don't undermine local arrangements
+8. **Nested enterprises** - For larger systems, organization at multiple scales
+
+**Evidence:** Ostrom documented hundreds of successful commons that endured for centuries—Swiss alpine meadows, Spanish irrigation systems, Japanese forests. The cooperation we're seeking is possible.
+
+**Why these conditions break at modern scale:** Ostrom's successes were predominantly small-scale, face-to-face communities. At modern scale (cities, nations, digital communities), several conditions fail: boundaries blur, anonymity breaks reputation mechanisms, monitoring costs explode, local knowledge is lost, conflict resolution overwhelms, exit is costly.
+
+**The crucial insight: No one-size-fits-all solution.** Governance structure must match the characteristics of the resource and community managing it. Ideological commitments to "markets" or "state control" miss the point. The question is: "what incentive structure matches this specific commons problem?"
+
+**Case study: Water management**
+
+- **Privatization failures:** Profit motive creates deadly incentives (Flint water crisis). Companies cut corners, defer maintenance, don't serve unprofitable areas.
+- **"Use it or lose it" failures:** US Southwest water rights create incentives to waste water. Farmers lose rights if they conserve, creating Nash equilibrium of maximum waste.
+- **Ostrom-style solutions:** Tradable water rights with conservation incentives, graduated pricing, community monitoring, transparent usage tracking.
+
+**Polycentric Governance: Scaling Ostrom's Principles**
+
+Vincent and Elinor Ostrom's collaborative work addresses the scaling problem: **multiple centers of decision-making operating semi-autonomously** at different scales, with overlapping jurisdictions creating competitive and cooperative dynamics.
+
+**Key characteristics:**
+- **No single center:** Authority distributed across many nodes
+- **Self-organization:** Units form, adapt, dissolve based on need
+- **Multiple scales simultaneously:** Neighborhood, city, county, region, nation all operate concurrently
+- **Overlap and redundancy:** Multiple institutions may address same problem from different angles
+
+**Why polycentric systems outperform monocentric ones:** Enable local solutions preserving metis, experimentation across units, competitive pressure maintaining quality, cooperation when beneficial, redundancy providing resilience.
+
+**Evidence:** Documented working across Swiss federalism, Indonesian irrigation, US metropolitan police cooperation.
+
+### 5.3 Glen Weyl & Eric Posner — Radical Markets
+
+*Radical Markets* proposes mechanisms that were theoretically sound but practically impossible before digital infrastructure.
+
+**Quadratic voting:** Standard voting treats all preferences as equal intensity. Weyl and Posner's solution: **voters buy votes, but the cost is quadratic.** One vote costs 1 credit. Two votes cost 4 credits. Ten votes cost 100 credits.
+
+**The mechanism's elegance:**
+- Intense minorities can protect themselves (allocate budget to issues that matter)
+- Wealthy interests can't simply buy outcomes (quadratic cost prevents dominance)
+- Reveals true preferences (strategic voting becomes harder)
+- Budget-constrained (everyone gets same credits, preventing plutocracy)
+
+**Harberger taxes on monopoly positions:** Continuous auctions prevent rent extraction. You set a price on your position, pay taxes based on that valuation, must sell if someone meets your price.
+
+Applied to leadership: position holder sets "buy out" price, pays ongoing taxes, must step down if someone matches it. Creates turnover while ensuring competent holders can remain if valuable.
+
+**Data dignity:** Individuals own and control their data, with ability to port between platforms. Breaks platform lock-in, creates competition on service quality.
+
+**Why these were previously impossible:** Quadratic voting requires continuous low-friction voting, budget tracking across issues, Sybil resistance, tamper-proof results with transparent counting without trusted intermediaries. Smart contracts enable all of this.
+
+**Key insight:** The constraint on better governance is often not political will but technical feasibility. Now that technical barriers have fallen, we can experiment with mechanisms that were previously pure theory.
+
+### 5.4 Balaji Srinivasan — Network States
+
+Balaji Srinivasan's *The Network State* (2022) proposes voluntary association, not geographic accident, as the foundation of legitimate governance. His vision: **cloud-first, land-last**—digital coordination precedes physical territory.
+
+**Core definition:** "A highly aligned online community with a capacity for collective action that crowdfunds territory around the world and eventually gains diplomatic recognition from pre-existing states."
+
+**Key components:**
+
+**1. One Commandment:** Every network state needs a moral innovation that differentiates it and provides basis for collective identity. Examples: "Keto-kosher is our food law," "We measure everything," "We optimize for longevity above all else."
+
+Functions: Identity formation, values alignment (self-selection), coordination focal point, legitimacy basis.
+
+**2. On-Chain Census & Cryptohistory:** Verifiable membership and activity tracking that traditional states can't manipulate. Blockchain provides immutable records of who is part of the network state, validated through token holdings, smart contract interactions, contribution tracking, location attestations.
+
+**Cryptohistory:** Timestamped, cryptographically secured record of network state development. Provides unforgeable proof of continuous existence, growth trajectory, institutional development.
+
+**3. Startup Societies Compete for Members:** Like companies compete for customers, governance structures should compete for voluntary members through demonstrated value.
+
+**Exit rights as selection pressure:** If governance degrades, members leave. In traditional nation-states, exit is expensive. In network states, exit is clicking "leave community." Forces continuous legitimacy maintenance.
+
+**4. Crowdfunding Territory:** Network states don't start with land. They start with cloud community, then gradually acquire physical territory—distributed rather than contiguous.
+
+Progression: Pure cloud → Popup cities → Coworking/coliving → Real estate acquisition → Archipelago of owned territories.
+
+**5. Diplomatic Recognition:** The end goal is existing nation-states recognizing the network state as legitimate governing entity.
+
+**Precedents:** Sovereign Military Order of Malta (recognized by 110+ countries despite governing only two buildings), Holy See (0.17 sq mi, ~800 citizens, full diplomatic recognition), Monaco, San Marino, Liechtenstein.
+
+**Real-world proto-network states:**
+- Próspera (Honduras): ZEDE with governance autonomy, ~1,000 residents
+- Culdesac (Arizona): Car-free walkable community, 1,000 planned residents
+- Afropolitan: Pan-African digital diaspora network state project
+- Cabin: Network of coliving properties, ~500 members across multiple cities
+- Praxis: Crypto-funded city-building project, raised $15M+
+
+**Why this matters:** Traditional model is coercive monopoly (born into nation-state, exit expensive). Network states enable **governance pluralism**—multiple models coexisting, individuals choosing based on values and outcomes. Creates competitive dynamics: good governance attracts members and capital, bad governance loses both.
+
+**Relationship to Inixiative:** Balaji provides the vision (voluntary association, governance pluralism, cloud-first coordination, exit rights). Inixiative provides the mechanism layer—elite thinning, lifecycle management, voting mechanisms, anti-capture design, reputation systems, subsidiarity—that makes network states durable rather than experiments that replicate existing pathologies with blockchain aesthetics.
+
+### 5.5 Mandatory Service — Maintaining Hardness Despite Prosperity
+
+The prosperity-vulnerability paradox (Section 1.11, Document 1): successful governance creates comfortable lives, which reduces population's willingness to defend those lives violently. Venice surrendered to Napoleon without fighting. Rome's prosperous citizens relied on mercenaries, making them vulnerable to barbarian conquest. Modern Western democracies provide excellent lives but populations are unwilling to accept casualties.
+
+**The mechanism:** Mandatory military or civic service maintains defensive capability and sacrifice-willingness despite prosperity.
+
+**Empirical evidence:**
+
+**Switzerland (1815-present, 210 years):**
+- All able-bodied male citizens serve (women voluntary since 1991)
+- Initial training: 18-21 weeks depending on role
+- Annual refresher training until age 30-34 (officer/specialist to 50)
+- Keep service rifle at home
+- **Outcomes:** Never invaded despite surrounded by major powers through WWI, WWII, Cold War. Maintains credible deterrence (citizen army of ~140,000 active, 80,000 reserves). Social cohesion across linguistic/cultural divisions. Low crime despite high gun ownership (proper training and accountability).
+
+**Israel (1948-present, 77 years):**
+- Universal conscription: 32 months (men), 24 months (women)
+- Reserve duty until age 40 (men), longer for specialists
+- **Outcomes:** Survived multiple existential wars despite being outnumbered by hostile neighbors. Maintains technological edge through innovation driven by military service networks. High social cohesion (shared sacrifice). Strong civic participation culture. "Start-up nation" effect: military service creates entrepreneurial networks and skills.
+
+**Singapore (1967-present, 58 years):**
+- All male citizens and permanent residents serve 22-24 months
+- Reserve obligations until age 40 (enlisted) or 50 (officers)
+- **Outcomes:** Credible deterrence despite tiny size between Malaysia and Indonesia. Social cohesion across ethnic divisions (Chinese, Malay, Indian). Civic participation culture. Service forms cross-class bonds (Lee Kuan Yew's sons served alongside working-class citizens).
+
+**Pattern across implementations:** Countries with mandatory service maintain:
+- **Defensive capability:** Population trained and ready to mobilize
+- **Sacrifice-willingness:** Shared experience of service creates cultural norm of civic duty
+- **Social cohesion:** Cross-class mixing during service breaks down barriers
+- **Civic participation:** Service creates ongoing engagement with governance
+- **Hardness despite prosperity:** Wealthy citizens still capable of and willing to fight
+
+**Why it works structurally:**
+
+Universal service prevents the prosperity-softness failure mode by institutionalizing hardship and sacrifice even during peacetime. You can't outsource defense entirely to professional military without losing the civic virtue necessary to defend prosperity. The Swiss banker and the Israeli tech CEO both served, both maintain readiness, both have skin in the game.
+
+**Limitations and conditions:**
+- Requires genuine universality (exemptions create class divisions)
+- Must be non-exploitative (not just cheap labor for state)
+- Works best in small-to-medium states (harder to implement at China/India scale)
+- Cultural context matters (easier in societies with strong civic identity)
+
+**Application to cooperative societies:** Digital communities can implement analogous mechanisms—mandatory contribution requirements, rotating civic duties, service obligations that maintain engagement and prevent pure consumption mindset. The principle generalizes: prosperity without obligation breeds softness and vulnerability.
+
+---
+
+## 6. Novel Mechanisms Now Possible
+
+This section explores governance mechanisms that were previously impossible but are now feasible through smart contracts and web3 infrastructure.
+
+### 6.1 Definitions
 
 - **Inixiative:** A discrete, time-bounded collective project
 - **Institutxion:** A recurring, ongoing governance or service module
 - **Cooperation Engine:** The backend algorithmic system enabling decision-making, rewards, and penalties
 - **Point-Vote System:** Continuous −X to +X approval matrix
 
-### 5.2 Identity & KYC Layer (Optional but Necessary for Anti-Sybil)
+### 6.2 Identity & KYC Layer (Optional but Necessary for Anti-Sybil)
 
 Different types of association require different identity and membership models. The platform must support three fundamentally distinct modes:
 
-#### 4.2.1 Three Models of Association
+#### 6.2.1 Three Models of Association
 
 **1. Geographic/Local Association**
 - **Nature:** Inherently location-based. Issues like local parks, bike lanes, neighborhood safety, municipal services.
@@ -101,7 +288,7 @@ Different types of association require different identity and membership models.
 - **Examples:** Corporate governance, housing co-ops, shareholder decisions, protocol DAOs
 - **KYC requirement:** Varies - may need full KYC for securities compliance, or just wallet verification for pure on-chain governance
 
-#### 4.2.2 Hybrid and Overlapping Models
+#### 6.2.2 Hybrid and Overlapping Models
 
 Many real communities combine multiple models:
 - **Housing co-op:** Geographic (residents) + Contractual (shareholders)
@@ -110,7 +297,7 @@ Many real communities combine multiple models:
 
 The platform must allow communities to configure which association models apply and how they interact.
 
-#### 4.2.3 Privacy-Preserving Verification
+#### 6.2.3 Privacy-Preserving Verification
 
 Regardless of association type, verification should preserve maximum privacy:
 
@@ -131,7 +318,7 @@ Regardless of association type, verification should preserve maximum privacy:
 - Abstract associations often work fine with Tier 1-2
 - Contractual associations need proof of ownership (on-chain or legal docs)
 
-#### 4.2.4 Preventing Jurisdiction Shopping
+#### 6.2.4 Preventing Jurisdiction Shopping
 
 A failure mode: people claiming membership in communities where they have no stake to influence decisions that don't affect them.
 
@@ -143,9 +330,11 @@ A failure mode: people claiming membership in communities where they have no sta
 
 **Cross-community coordination:** Section 5.9 handles cases where someone legitimately belongs to multiple overlapping communities and conflicts arise.
 
-### 5.3 Allocation & Voting Mechanisms
+### 6.3 Allocation & Voting Mechanisms
 
-As established in Section 4.10, binary voting suffers from catastrophic information loss—capturing only direction (for/against) but not magnitude (how much you care). This section describes mechanisms that capture preference intensity alongside direction, enabling high-bandwidth communication between citizens and governance systems.
+As established in Section 4.11, binary voting suffers from catastrophic information loss—capturing only direction (for/against) but not magnitude (how much you care). This section describes mechanisms that capture preference intensity alongside direction, enabling high-bandwidth preference communication.
+
+**Connection to Section 4.3 (Scale-Free Cooperation):** The voting mechanisms described here operationalize the five requirements for low transaction costs: (1) asynchronous by default with temporal safeguards, (2) computational kindness to minimize cognitive load, (3) appropriate friction matched to stakes, (4) transparent expectations requiring no insider knowledge, and (5) subsidiarity routing to keep decisions at appropriate scales. Together, these enable cooperation to scale without degrading as population grows.
 
 #### The Core Problem: Information Loss in Legacy Voting
 
@@ -155,7 +344,7 @@ As established in Section 4.10, binary voting suffers from catastrophic informat
 
 The result: **massive information loss that produces systematically bad outcomes.**
 
-#### 4.3.1 Point-Vote System: Continuous Approval with Budget Constraints
+#### 6.3.1 Point-Vote System: Continuous Approval with Budget Constraints
 
 The point-vote system operationalizes preference intensity through continuous scoring with budget constraints.
 
@@ -167,7 +356,11 @@ The point-vote system operationalizes preference intensity through continuous sc
 
 **Convex cost curves (quadratic voting variant):** Optional enhancement: make intensity expression increasingly expensive. Expressing +5 approval costs 5 points. But expressing +10 approval costs 100 points (quadratic cost). This prevents wealthy actors or passionate minorities from dominating entirely, while still allowing intensity to matter more than in binary voting.
 
-**Continuous feedback, not periodic elections:** Points can be reallocated at any time. If a policy you supported starts failing, withdraw support. If a policy you opposed improves, reduce opposition. This creates continuous accountability (Section 5.4) rather than binary "election day" judgments that are immediately obsolete.
+**Asynchronous by design (Section 4.3 requirement #1):** Points can be reallocated at any time within your own schedule—no synchronous meetings required. However, proposals require **minimum visibility periods** before execution (e.g., 7 days for standard proposals, 30 days for infrastructure changes). This prevents sneaking decisions through when no one is watching while maintaining asynchronous flexibility. Participation happens on your schedule *within required visibility windows*.
+
+**Continuous feedback, not periodic elections:** If a policy you supported starts failing, withdraw support. If a policy you opposed improves, reduce opposition. This creates continuous accountability (Section 5.4) rather than binary "election day" judgments that are immediately obsolete.
+
+**Appropriate friction matched to stakes (Section 4.3 requirement #3):** The cost to express opinion scales with the stakes. Informal opinion expression costs minimal points. Formal proposals require staking points (Section 5.4.12). Meta-governance changes require supermajority thresholds. This implements purposeful friction—enough to prevent spam and gaming, but not so much as to exclude legitimate participation.
 
 **Aggregation:** Policy approval = sum of all points allocated to it. Policies must maintain positive approval to remain active. If approval drops below threshold, policy sunsets (lifecycle management, Section 4.5). If approval is overwhelmingly positive, policy may be promoted to broader jurisdiction (subsidiarity, Section 4.4).
 
@@ -183,7 +376,7 @@ The point-vote system operationalizes preference intensity through continuous sc
 
 **Creates skin in the game:** Allocating points is a real choice with opportunity cost. You can't strongly support everything, so each allocation is meaningful.
 
-#### 4.3.2 Plurality Thresholds and Engagement Minimums
+#### 6.3.2 Plurality Thresholds and Engagement Minimums
 
 Not all mechanisms should use continuous approval. Some decisions require clear binary choices (hire person A or B for a specific role), and some proposals should only advance if they achieve broad consensus.
 
@@ -193,7 +386,7 @@ Not all mechanisms should use continuous approval. Some decisions require clear 
 
 **Supermajority for meta-governance:** Structural changes (creating positions, changing rules, altering point budgets) require higher thresholds than ordinary policy. This creates constitutional-level stability for core governance architecture while allowing ordinary policy to be more dynamic.
 
-#### 4.3.3 Dynamic Scaling: Jurisdiction Follows Engagement
+#### 6.3.3 Dynamic Scaling: Jurisdiction Follows Engagement
 
 As described in Section 4.4 (Subsidiarity), policies should operate at the lowest capable level. Voting mechanisms enable dynamic jurisdiction through engagement patterns.
 
@@ -205,7 +398,7 @@ As described in Section 4.4 (Subsidiarity), policies should operate at the lowes
 
 **Organic standardization:** Successful local policies naturally accumulate broader interest. People see "City A solved traffic with policy X" and allocate approval points to "Adopt policy X in City B." No top-down mandates required—good ideas spread through demonstrated value and voluntary adoption.
 
-#### 4.3.4 Delegation and Liquid Democracy
+#### 6.3.4 Delegation and Liquid Democracy
 
 Direct voting on every issue creates cognitive overload. The point-vote system supports delegation to maintain low cognitive load while preserving sovereignty.
 
@@ -215,9 +408,9 @@ Direct voting on every issue creates cognitive overload. The point-vote system s
 
 **AI agents as delegates:** Future extension: delegate to AI agents that learn your preferences and values, making allocations consistent with your revealed preferences while you focus on living your life.
 
-**Computational kindness:** Most citizens delegate most issues most of the time. Leaders and engaged citizens spend time here; ordinary citizens check in periodically. Low engagement by satisfied, represented citizens is success, not failure.
+**Computational kindness (Section 4.3 requirement #2):** This directly implements the requirement that users with only 10 minutes per week can contribute meaningfully. Most citizens delegate most issues most of the time. Leaders and engaged citizens spend time here; ordinary citizens check in periodically. **Low engagement from satisfied, well-represented citizens is a success metric, not failure.** The system minimizes cognitive load through intelligent routing (Section 5.9), filtering based on your delegation choices, and surfacing only decisions that either (1) you care intensely about, (2) your delegates flagged as needing your input, or (3) affect your immediate jurisdiction.
 
-#### 4.3.5 Meta-Governance Controls
+#### 6.3.5 Meta-Governance Controls
 
 To maintain adaptability while preventing governance bloat, the system should include explicit mechanisms requiring approval for structural changes such as:
 
@@ -229,7 +422,7 @@ To maintain adaptability while preventing governance bloat, the system should in
 These meta-governance levers ensure that the architecture of the system itself remains accountable, preventing ossification while also protecting against runaway expansion or capture.
 
 
-### 5.4 Solving the Principal–Agent Problem: Long-Horizon Alignment Mechanisms
+### 6.4 Solving the Principal–Agent Problem: Long-Horizon Alignment Mechanisms
 
 Modern governance systems suffer from a chronic principal–agent problem: the incentives of leaders (agents) do not align with the long-term well-being of the public (principals). Elections are too infrequent, too coarse, too easily influenced by signaling and media dynamics, and too poor at reflecting the persistent, compounding consequences of policies.
 
@@ -237,7 +430,7 @@ In practice, this gives political leaders a very short selection light cone: the
 
 The Inixiative model introduces a structurally different alignment mechanism.
 
-#### 4.4.1 Long-Horizon Incentives: Post-Tenure Accountability
+#### 6.4.1 Long-Horizon Incentives: Post-Tenure Accountability
 
 Instead of judging leaders only on the momentary act of election, the system extends incentives beyond their term:
 
@@ -268,7 +461,7 @@ Rather than:
 - Rhetorical wins
 - Pork-barrel bribes
 
-#### 4.4.2 Stability vs. Adaptation: The Standardization Tradeoff
+#### 6.4.2 Stability vs. Adaptation: The Standardization Tradeoff
 
 A governance system must reconcile two opposing truths:
 
@@ -313,7 +506,7 @@ In effect, the system self-balances:
 
 The system behaves like an evolutionary ecology: stability at the large scale, experimentation at the small scale, and long-term accountability for every decision.
 
-#### 4.4.3 Differential Thresholds: Inixiatives vs. Infrastructure
+#### 6.4.3 Differential Thresholds: Inixiatives vs. Infrastructure
 
 **The core tradeoff revisited:** Not all proposals are created equal. Some are experimental projects; others are foundational infrastructure. The platform must differentiate between them.
 
@@ -360,13 +553,13 @@ Community can challenge classification during deliberation period. If majority d
 **Before:** All proposals treated equally → either everything needs supermajority (stagnation) or everything passes easily (instability)
 **After:** Risk-proportional thresholds → experimentation flourishes while foundation remains stable
 
-#### 4.4.4 Motivation: The Short Light-Cone of Political Selection
+#### 6.4.4 Motivation: The Short Light-Cone of Political Selection
 
 Modern political selection compresses leader incentives into a short temporal window: election cycles, media cycles, and immediate reputational signaling dominate. That short "selection light cone" encourages short-termism, symbolic action, and risk-aversion with respect to multi-decadal consequences. The principal–agent problem thus manifests as durable misalignment: agents (leaders, managers, stewards) capture upside while diffusing downside, leaving principals (citizens, stakeholders, future generations) exposed to long-run harms.
 
 The Inixiative approach reframes leader incentives by creating multi-decadal, contract-like accountability and market signals for durability.
 
-#### 4.4.5 Core Mechanism: Long-Horizon Compensation & Policy-Linked Payoffs
+#### 6.4.5 Core Mechanism: Long-Horizon Compensation & Policy-Linked Payoffs
 
 Design sketch. Leaders (formal stewards or elected proposers) receive:
 
@@ -380,7 +573,7 @@ Design sketch. Leaders (formal stewards or elected proposers) receive:
 
 **Simple numeric example.** Leader L is paid 100k upfront per term. Each passed proposal yields a 20k execution fee and a 5k quarterly persistence payment that continues until revocation. A leader who shepherds two durable policies for five years can out-earn short-term rent-seeking actors while being strongly motivated to preserve policy quality.
 
-#### 4.4.6 Operational Rules & Parameters (Suggested Defaults)
+#### 6.4.6 Operational Rules & Parameters (Suggested Defaults)
 
 - **Proposal cap per term:** 3–5 proposals (tunable).
 - **Execution fee:** fixed amount scaled to community size / budget.
@@ -389,7 +582,7 @@ Design sketch. Leaders (formal stewards or elected proposers) receive:
 - **Revocation threshold:** only strong multi-tier disapproval (e.g., large negative point plurality in both local and regional tiers) can trigger emergency revocation outside normal windows.
 - **Clawback limits:** avoid punitive retroactive clawbacks; instead make future payoffs cease and attach reputational penalties to prevent chilling effect on experimentation.
 
-#### 4.4.7 Interaction with Lifecycle & Standardization Tradeoffs
+#### 6.4.7 Interaction with Lifecycle & Standardization Tradeoffs
 
 The compensation framework interlocks with lifecycle and subsidiarity mechanisms to reconcile stability vs. adaptation:
 
@@ -397,7 +590,7 @@ The compensation framework interlocks with lifecycle and subsidiarity mechanisms
 - **Adaptation:** Local experimentation remains cheap: small-scale inixiatives can be trialed with short persistence windows and minimal leader exposure. Successful local rules can scale upward if they clear threshold criteria, creating natural standardization where warranted.
 - **Parsimony effect:** Proposal caps and point-vote filtering ensure only broadly salient proposals execute at scale; trivial or niche proposals self-extinguish through lack of engagement.
 
-#### 4.4.8 Multiple Layers & Engagement Types
+#### 6.4.8 Multiple Layers & Engagement Types
 
 To prevent overload and encourage useful engagement:
 
@@ -405,24 +598,24 @@ To prevent overload and encourage useful engagement:
 - **Flagging emergency review:** Any citizen can flag a policy for emergency review; a high bar of negative point allocation (or a bundled petition) is required to trigger immediate review — preventing frivolous churn while enabling genuine crisis correction.
 - **Engagement tiers:** Passive acceptance, active moderate engagement, and high-investment review; the system aggregates these signals into composite persistence scores.
 
-#### 4.4.9 Failure Modes & Mitigations
+#### 6.4.9 Failure Modes & Mitigations
 
 - **Capture via stacking payouts:** Rich actors might fund leaders to push capture-friendly policies. Mitigation: transparency requirements for funding, limits on external campaign financing in the platform, and public audit trails.
 - **Short-term gaming of KPI multipliers:** Leaders might game KPIs. Mitigation: diversified metrics, multi-stakeholder audit committees, decentral adjudication (Kleros-style) for disputes.
 - **Elite rigidity / lock-in:** Successful leaders could entrench. Mitigation: rotating steward randomization layers, term limits, and influence caps combined with point-voting dilution of disproportionate influence.
 - **Demotivation of bold policy innovation:** High persistence risk may deter risk-taking. Mitigation: carve-out experimental lanes (time-boxed pilots with limited payouts and safety nets).
 
-#### 4.4.10 How This Aligns with the Project's Goals
+#### 6.4.10 How This Aligns with the Project's Goals
 
 This mechanism directly addresses elite overproduction and institutional sclerosis by creating fewer, higher-quality, long-accountable leadership slots and by monetizing durability rather than capture. It preserves local experimentation while favoring rules that scale because of genuine durability and public acceptance, aligning incentives between agents and principals across meaningful time horizons.
 
-#### 4.4.11 Implementation Notes
+#### 6.4.11 Implementation Notes
 
 - Payments and persistence accounting can be implemented off-chain (traditional finance rails) or on-chain (smart contracts) depending on jurisdictional and legal strategy.
 - Reputation and persistence history should be public and cryptographically verifiable to enable audit and contestation.
 - Early pilots should use conservative payout sizes and short persistence windows to test behavioral responses before scaling.
 
-#### 4.4.12 Proposal Betting & Staking Mechanics
+#### 6.4.12 Proposal Betting & Staking Mechanics
 
 The proposal cap (Section 5.4.6) limits spam but doesn't directly align leader incentives with proposal quality. A more powerful mechanism: **leaders must stake their political capital (leadership points from Section 5.6.1) on each proposal**. This creates a betting market where leaders literally wager their tenure on their judgment.
 
@@ -574,11 +767,11 @@ This mechanism creates **structural** pressure toward broad-based prosperity rat
 
 **Communities choose their equilibrium.** Some will want tight caps (5:1, radical equality). Some will want loose (200:1, barely constraining). Some will reject ratios entirely. The platform enables experimentation. Data reveals what works where.
 
-### 5.5 Reputation & Reciprocity Engine
+### 6.5 Reputation & Reciprocity Engine
 
 Reputation systems are essential for cooperation at scale—but as shown in Section 2.7.5, they are also the most dangerous governance tool if implemented poorly. This section describes how to operationalize reputation while respecting the constraints from Section 4.9.
 
-#### 4.5.1 The Social Credit Problem
+#### 6.5.1 The Social Credit Problem
 
 The core tension: accountability requires tracking behavior, but tracking behavior enables tyranny.
 
@@ -591,7 +784,7 @@ Historical examples:
 
 **Design constraint:** The reputation engine must provide accountability without creating permanent hierarchies or enabling authoritarian control.
 
-#### 4.5.2 Design Principles for Non-Tyrannical Reputation
+#### 6.5.2 Design Principles for Non-Tyrannical Reputation
 
 **Decentralized rubric creation**
 - No single entity defines "good reputation"
@@ -625,7 +818,7 @@ Historical examples:
 - These are evaluated informally by peers, not algorithmically
 - Right to opacity: not everything needs to be tracked
 
-#### 4.5.3 Veritaseum's Four Cooperation Criteria (Operationalized)
+#### 6.5.3 Veritaseum's Four Cooperation Criteria (Operationalized)
 
 Building on game-theoretic research on cooperation:
 
@@ -650,7 +843,7 @@ Building on game-theoretic research on cooperation:
 - Exclusion from high-trust initiatives
 - But: punishment is temporary and proportional, never permanent
 
-#### 4.5.4 Prediction Markets: Cautious Integration
+#### 6.5.4 Prediction Markets: Cautious Integration
 
 Prediction markets aggregate information efficiently but suffer from severe failure modes (Section 2.7.6). If used at all, they must be heavily constrained:
 
@@ -672,7 +865,7 @@ Prediction markets aggregate information efficiently but suffer from severe fail
 
 **Implementation guideline:** Use prediction markets sparingly, as one input among many, never as the primary decision mechanism.
 
-#### 4.5.5 What Cannot Be Measured
+#### 6.5.5 What Cannot Be Measured
 
 Explicit list of domains excluded from quantification in the base platform (communities can opt-in to measuring these locally, but platform does not provide tools for it):
 
@@ -684,7 +877,7 @@ Explicit list of domains excluded from quantification in the base platform (comm
 
 These domains remain in the realm of informal social evaluation, where they belong.
 
-#### 4.5.6 Implementation Notes
+#### 6.5.6 Implementation Notes
 
 - Reputation data stored on-chain for transparency but with privacy-preserving techniques (zero-knowledge proofs where appropriate)
 - Users control what reputation data follows them between communities
@@ -692,7 +885,391 @@ These domains remain in the realm of informal social evaluation, where they belo
 - Negative reputation decays at 20% per year (configurable by community)
 - Floor set at -100 points (configurable); ceiling uncapped but with diminishing returns
 
-### 5.6 Continuous Alignment Mechanism
+### 6.6 Memory and Truth Mechanisms: Implementing Tracking Without Censorship
+
+**Connection to Section 4.2:** This section implements the requirements from Section 4.2 (Memory and Truth: Requirements for Tracking Without Censorship). The challenge is navigating the dialectic between free speech and accountability, signal and noise, consensus and innovation—without creating a Ministry of Truth or chilling exploration.
+
+#### 5.6.1 Dual-Tier Communication: Free Speech vs. Staked Speech
+
+**The requirement:** The system must support both informal expression (no tracking, no consequences) and formal claims (tracked, with consequences). Cannot force all speech into one mode.
+
+**Implementation:**
+
+**Tier 1: Informal Expression (Free Speech)**
+- **Cost:** Zero. No points, no stake, no tracking.
+- **Scope:** Discussions, brainstorming, debates, questions, casual opinions
+- **Visibility:** Visible to participants in the conversation, but ephemeral—not permanently indexed or used for reputation
+- **Purpose:** Enable exploration, "thinking out loud," testing ideas without commitment
+- **Example:** "I wonder if we should try ranked-choice voting for the next election?" — just exploring, not proposing
+
+**Tier 2: Formal Claims (Staked Speech)**
+- **Cost:** Requires staking points (amount proportional to claim strength and domain)
+- **Scope:** Predictions, factual assertions, policy proposals, truth claims
+- **Visibility:** Permanently on-chain, attached to your identity/reputation
+- **Adjudication:** Time-based—does the claim hold up? Do predictions come true? Do policies work?
+- **Consequences:** Stake returned + reputation bonus if claim validates; stake forfeited + reputation penalty if claim fails
+- **Example:** "Policy X will reduce traffic congestion by 20% within 6 months" — specific, falsifiable, staked
+
+**Why this works:**
+
+**Exploration remains free:** You can float ideas, ask questions, play devil's advocate without fear of permanent consequences. This preserves the informal epistemic commons where learning happens.
+
+**Commitment creates accountability:** When you make a formal claim, you're putting skin in the game. This filters noise (reduces frivolous assertions) while building reputation for those whose claims prove accurate.
+
+**Dunning-Kruger self-correction:** Overconfident novices make bold staked claims, reality provides feedback, they lose points/reputation. Over time, track record builds—those consistently right gain credibility, those consistently wrong lose it.
+
+**No Ministry of Truth needed:** The system doesn't judge "truth" centrally. It judges outcomes: did your prediction come true? Did your policy work? Durability and results adjudicate claims, not authorities.
+
+**Configurable parameters:**
+- **Stake requirements:** Minimum stake, scaling by domain (low-stakes topics require less, high-stakes more)
+- **Adjudication windows:** How long before claims are evaluated? (6 months for policy predictions, 1 year for long-term forecasts)
+- **Stake return multipliers:** Validated claims might return 1.5x-2x stake as reward; failed claims forfeit stake
+- **Partial validation:** Claims that partially succeed return partial stake (not binary win/loss)
+
+#### 5.6.2 Controversy Detection Without Censorship
+
+**The requirement:** System must detect when a domain has genuine distributed disagreement (not just coordinated attack). Response must be displaying multiple perspectives, not suppressing minority views.
+
+**The core mechanism: Automatic multi-perspective display**
+
+When controversy is detected, the system doesn't pick a "winner." Instead, it automatically shows representative views from all substantial factions, preventing exhaustion-based narrative control.
+
+**Controversy detection algorithm:**
+
+1. **Engagement distribution analysis:** Measure point allocation patterns across proposals/claims
+   - Low controversy: unimodal distribution (most points cluster around one position)
+   - High controversy: multimodal distribution (multiple peaks, indicating distinct factions)
+   - Coordinated attack: single-source high volume (many points from few accounts, suspicious timing)
+
+2. **Diversity metrics:** Calculate Shannon entropy or Gini coefficient of opinion distribution
+   - High entropy = genuine disagreement
+   - Low entropy despite high volume = coordinated campaign
+
+3. **Temporal patterns:** Sudden spikes suggest coordination; organic growth suggests genuine concern
+
+4. **Cross-cutting engagement:** Do participants engaging on this topic also engage broadly, or only on this issue? (Astroturf detection)
+
+**Graduated response proportional to controversy level:**
+
+**Low controversy (entropy < threshold 1):**
+- Display primary view with footnote: "Some members have raised concerns. Click to see alternative perspectives."
+- Minority views accessible but not co-equal prominence
+- Example: 80% support, 15% mild opposition, 5% strong opposition
+
+**Medium controversy (threshold 1 < entropy < threshold 2):**
+- Primary view displayed prominently
+- Clear "Alternative Perspectives" section immediately visible
+- Each perspective gets proportional space based on support level
+- Example: 55% support position A, 35% support position B, 10% support position C
+
+**High genuine controversy (entropy > threshold 2, broad engagement):**
+- Co-equal multi-perspective display
+- No single "canonical" view
+- System shows: "This topic has substantial distributed disagreement. Multiple perspectives are presented."
+- Each faction above X% threshold gets equal prominence
+- Example: 40% position A, 35% position B, 25% position C
+
+**Coordinated attack detected (suspicious patterns):**
+- Discount flooding faction
+- Flag manipulation attempt: "Unusual engagement pattern detected. This view's prominence is adjusted for suspected coordination."
+- Requires human/community review to override
+
+**Why this works:**
+
+**Cannot win by exhaustion:** In traditional systems (Wikipedia, Reddit), whoever sustains engagement longest controls the "canonical" narrative. Here, once controversy is detected, competing views remain visible regardless of sustained edit-warring.
+
+**Proportional representation:** Views get prominence proportional to genuine distributed support, not volume of engagement from small determined groups.
+
+**No false balance:** Fringe views with <X% support don't get equal prominence to consensus positions. But they remain accessible—novel ideas can gain traction organically.
+
+**Temporal patience for novel ideas:** New ideas start small. System doesn't suppress them (they're still visible), but doesn't elevate them to co-equal status until they achieve threshold support.
+
+**Implementation challenges:**
+
+**All thresholds are gameable.** Attackers will probe for exact thresholds and optimize just below detection limits. Mitigations:
+- Stochastic thresholds (add noise so exact boundary is unpredictable)
+- Multiple overlapping detection mechanisms (hard to fool all simultaneously)
+- Continuous retraining based on observed attacks
+- Community override via meta-governance
+
+**View definition ambiguity:** Positions aren't always discrete camps. Real disagreements exist on spectrums. Solution: Clustering algorithms identify natural groupings, but allow users to see full distribution, not just representative "camps."
+
+**Failure mode:** This is largely unsolved territory. We're providing tools for experimentation, not prescriptive solutions. Different communities will need different thresholds and detection sensitivities.
+
+#### 5.6.3 Long-Horizon Claim Tracking
+
+**The requirement:** Track record of claims/predictions must inform credibility, but past performance cannot create permanent castes (connects to NICE-Forgiving).
+
+**Mechanism:**
+
+**Prediction/claim registry:**
+- All staked claims stored on-chain with: claim text, stake amount, timestamp, adjudication criteria, resolution date
+- Publicly auditable—anyone can verify someone's track record
+- Claims tagged by domain (policy, economics, technical, social, etc.)
+
+**Automated adjudication where possible:**
+- Falsifiable predictions: "Policy X will reduce metric Y by Z% within T months" — system automatically checks if metric Y changed as predicted
+- KPI-linked claims: Smart contracts can verify whether stated goals were achieved
+- Community voting for non-automated claims: "This policy improved quality of life" requires subjective community assessment
+
+**Time-based resolution:**
+- Claims have defined resolution windows (6 months, 1 year, 5 years depending on nature)
+- System tracks: claim made → resolution date → actual outcome → validate or invalidate
+- Reputation adjusts based on accuracy over time
+
+**Reputation building without permanence:**
+
+**Accuracy bonuses:**
+- Consistently accurate predictions → reputation bonus
+- Domain-specific credibility: accurate on economics ≠ accurate on urban planning
+- Weighted by difficulty: hard-to-predict claims validated = bigger bonus
+
+**Forgiveness mechanisms:**
+- Reputation decay (Section 4.2 requirement #5): Past mistakes fade over time
+- Bankruptcy available: Can reset claim history (but lose positive reputation too)
+- Recent performance weighted more heavily than distant past
+- "Redemption arcs" visible: Someone with poor early track record who improved gets credit for improvement
+
+**Credibility multipliers, not gatekeeping:**
+- High-reputation members' claims don't automatically win
+- But they might get: visibility boost, lower stake requirements, or bonus weight in controversy detection
+- This is influence, not control—low-reputation members can still make claims and build credibility
+
+**Anti-gaming safeguards:**
+- Can't delete failed predictions post-hoc (immutable on-chain)
+- Can't game easy predictions for reputation farming (system tracks prediction difficulty, adjusts reputation gain accordingly)
+- Can't Sybil attack (KYC tier requirements from Section 5.2)
+
+**Connection to Section 5.4.5 (Long-Horizon Compensation):** Leaders' policy claims are automatically tracked. "This policy will work" becomes a testable prediction. Leaders profit from durable policies that achieve stated goals, suffer from failed predictions.
+
+#### 5.6.4 Sensemaking Infrastructure Integration
+
+**Connection to Section 4.2 (Sensemaking Infrastructure):** The Memory and Truth mechanisms support but don't solve the sensemaking problem. They provide tools for:
+
+**Mechanical free speech through controversy-aware display:**
+- Controversy detection triggers multi-perspective display automatically
+- Prevents narrative capture through exhaustion warfare
+- No editorial judgment needed—mechanism enforces multi-view presentation
+
+**Anti-exhaustion coupling:**
+- Point budgets (Section 4.3) limit sustained high-volume engagement in debates
+- Velocity limits prevent edit-war flooding
+- State-based governance: positions persist without requiring constant re-argument
+- Cannot outlast opponents when competing views remain visible
+
+**Temporal and scalar routing:**
+- Not all controversies need community-wide resolution
+- Route to subgroups ("This is a specialist debate—only domain experts see full detail")
+- Route to time ("We don't know yet—this claim resolves in 2 years")
+- Route to meta-governance if controversy itself becomes unproductive
+
+**The humility framing:** These mechanisms don't "solve" truth. They create infrastructure for communities to navigate truth-seeking collectively without:
+- Ministry of Truth (central authority deciding what's true)
+- Information anarchy (no shared reality, epistemic fragmentation)
+- Exhaustion warfare (whoever sustains engagement longest wins)
+- Permanent hierarchies (past performance creates unbreakable castes)
+
+**Different communities will configure differently:**
+- High-trust communities: lower stakes required, longer adjudication windows, more lenient controversy thresholds
+- Low-trust communities: higher stakes, shorter windows, stricter detection
+- Academic communities: emphasize peer review integration, external validation
+- Activist communities: emphasize rapid iteration, lower barriers to claims
+
+**Failure modes explicitly acknowledged:**
+
+**Gaming will happen.** Every detection mechanism is attackable. Every threshold can be probed. This isn't a finished solution—it's infrastructure for ongoing evolutionary arms race between mechanisms and attacks.
+
+**Communities must iterate.** What works at small scale may break at large scale. What works in high-context domains (tight community) fails in low-context (anonymous internet).
+
+**Implementation in MVP:** Start simple. Basic staked claims (Tier 2 speech) with manual adjudication. Controversy detection V1 using basic engagement distribution metrics. Build complexity only after simple version proves viable (Gall's Law—Section 5.13).
+
+### 6.6A Leadership Accountability Mechanisms (Implementing Section 4.4)
+
+**Connection to Section 4.4:** This section implements the concrete mechanisms for "Constraining and Aligning Elites" from the specification. The goal is making the Principal-Agent problem structurally manageable through continuous accountability, not periodic elections.
+
+#### 5.6A.1 Leadership Point Balance (The "Battery" Model)
+
+**The problem:** Traditional elections create discrete accountability moments separated by years. Leaders optimize for election day, not sustained performance. Between elections, there's no structural accountability short of high-friction impeachment.
+
+**The mechanism:** Leaders must maintain a point balance to stay in power. This forces continuous legitimacy rather than one-time electoral victories.
+
+This mechanism **replaces arbitrary term limits** with legitimacy-based tenure. Competent leaders can serve indefinitely if they maintain support (see Singapore's Lee Kuan Yew—decades in power, transformed the country). Failing leaders face automatic removal. Term limits are the Hayflick limit of leadership—arbitrary death regardless of health. We can do better.
+
+**How it works:**
+
+1. **Initial balance:** When elected, leaders receive a pool of "leadership points" (e.g., 10,000 points)
+2. **Mandatory drain:** Points deplete over time at a fixed rate (e.g., 100 points/week). This forces continuous re-legitimization.
+3. **Member support:** Any member can allocate their voting budget to add points to a leader's balance (1 vote = 1 leadership point, or use quadratic cost)
+4. **Member opposition:** Any member can spend their voting budget to burn leader points. **Cost ratio is configurable and experimental:**
+   - **Opposition premium** (e.g., 2-3 votes to burn 1 leader point): Guards against negativity bias. Negativity is already psychologically easier—people notice problems more than smooth functioning. This mechanically counterbalances that tendency.
+   - **Opposition discount** (e.g., 1 vote burns 2-3 leader points): Amplifies accountability. Makes it easier to oppose than support, modeling the difficulty of maintaining vs. withdrawing legitimacy.
+   - **Neutral** (1:1 ratio): No adjustment either way.
+5. **Proposal staking** (Section 5.4.12): Leaders spend points to propose initiatives. Successful proposals that remain approved generate point income. Failed proposals drain points.
+6. **Automatic trigger:** When a leader's point balance hits zero, they are automatically removed from office. Election is called or next eligible candidate assumes role (depending on community configuration).
+
+**Why this works:**
+
+**Continuous accountability:** Leaders can't coast for entire terms. They must maintain ongoing support or face automatic removal. This is dramatically lower friction than impeachment but higher accountability than waiting for the next election cycle.
+
+**The battery metaphor:** Power is literally a depleting resource that must be continuously recharged through community approval. Leaders "spend" battery to make decisions (proposal staking), "recharge" through successful governance that maintains approval.
+
+**Gradual withdrawal of support:** Members don't face a binary "trigger recall election or do nothing" choice. They can reduce support incrementally, signaling dissatisfaction without immediately destabilizing governance. If enough people gradually withdraw, the leader naturally loses legitimacy.
+
+**Schelling point for transitions:** When a leader's balance drops below some visible threshold (e.g., <20% of starting balance), it becomes obvious they're losing legitimacy. Would-be challengers can prepare campaigns. Members can coordinate on alternatives. The transition becomes predictable rather than abrupt.
+
+**Natural forgiveness:** If a leader makes an unpopular decision but it works out, members can restore the point balance. If it doesn't work out, they can accelerate the drain. This is responsive without being reactionary.
+
+**Configurable parameters (communities experiment):**
+- **Initial point allocation:** Higher = more stability, lower = more accountability
+- **Drain rate:** Faster = must work harder to maintain support, slower = more stability
+- **Support cost:** Linear vs quadratic (prevent plutocratic point buying)
+- **Opposition cost ratio:** Premium (harder to oppose), discount (easier to oppose), or neutral (1:1). **This should be experimental**—different communities will discover different optimal settings based on their trust levels and governance culture.
+- **Trigger threshold:** Does removal trigger at zero or some buffer (e.g., 10%)?
+- **Proposal staking integration:** How much do leaders stake per proposal? What's the return rate for successful policies?
+
+**Failure modes and mitigations:**
+
+- **Sybil attacks:** Fake accounts burn leader points. Mitigation: KYC tier requirements for participation (Section 5.2)
+- **Coordinated harassment:** Opposition coordinates mass point burning. Mitigation: Rate limits on how often you can burn, cooldown periods, engagement diversity weighting
+- **Captured support:** Leader's allies continuously prop up their balance. Mitigation: Quadratic costs on support allocation prevent unlimited propping
+- **Election fatigue:** Leaders constantly hit zero, causing continuous elections. Mitigation: Losing leaders face cooldown before re-running; drain rate can be adjusted; higher initial balances
+
+**This mechanism combines:**
+- Weyl & Posner's quadratic voting (Section 1.16)
+- Graeber's continuous accountability principles (Section 1.13)
+- Merit-based tenure replacing arbitrary term limits (Section 4.4 constraint #5)
+
+Unlike Section 4.4's elite rotation (designed to prevent bureaucratic accumulation), this allows effective leaders to serve indefinitely—as long as they maintain legitimacy. Lee Kuan Yew governed Singapore for 31 years, transforming it from third-world to first-world. The constraint shouldn't be time—it should be performance.
+
+#### 5.6A.2 Proposal Approval Modes (At-Time vs. Post-Hoc)
+
+**The problem:** Different decision types require different authority modes. Constitutional changes need consensus before execution. Emergency responses need speed with accountability afterward. One-size-fits-all approval creates either gridlock (everything needs pre-approval) or abuse (everything happens without oversight).
+
+**Connection to Section 4.4.3:** This implements "Differentiated Authority (Execution Modes)" from the specification.
+
+**The two modes:**
+
+**Mode 1: Propose → Approve (At-Time / Ex-Ante)**
+- Leader proposes initiative
+- Community reviews during mandatory visibility window (7-30 days depending on stakes)
+- Community votes using point-allocation system (Section 5.3)
+- **Execution only if threshold met** (majority for inixiatives, supermajority for infrastructure)
+- Appropriate for: infrastructure commitments, constitutional changes, high-stakes irreversible decisions
+
+**Mode 2: Act → Ratify (Post-Hoc / Ex-Post)**
+- Leader executes with delegated authority
+- Community continuously monitors via approval polling
+- **If approval drops below threshold, execution halts and policy sunsets**
+- **Leader loses leadership points if policy sunsets quickly**
+- Appropriate for: emergency response, operational adjustments, time-sensitive decisions, iterative improvements
+
+**Why both modes are necessary:**
+
+**High-consensus domains need at-time approval:** You don't want leaders unilaterally committing to 30-year infrastructure bonds or constitutional rewrites. These require broad buy-in before execution.
+
+**High-speed domains need post-hoc ratification:** Emergency response can't wait for 30-day deliberation windows. Leaders need delegated authority to act, with accountability afterward.
+
+**Implementation parameters (configurable per domain):**
+
+**Visibility windows:**
+- Standard inixiative: 7 days minimum
+- Infrastructure proposal: 30 days minimum
+- Emergency (Act→Ratify mode): No pre-approval window, but immediate post-hoc monitoring
+- Constitutional change: 60-90 days minimum
+
+**Approval thresholds:**
+- Inixiative (Propose→Approve): 50-60% approval
+- Infrastructure (Propose→Approve): 65-75% approval
+- Emergency (Act→Ratify): 40% sustained approval to continue, <30% triggers immediate sunset
+
+**Point staking requirements:**
+- Propose→Approve mode: Leader stakes points proportional to proposal size. Points locked until approval vote. If approved, stake returned + bonus. If rejected, stake forfeited.
+- Act→Ratify mode: Leader stakes points on execution. Point income flows if policy maintains approval. Point drain if approval drops. Immediate point loss if policy sunsets within grace period (3-6 months).
+
+**Authority delegation:**
+- Communities explicitly grant Act→Ratify authority to specific roles for specific domains
+- Example: "Emergency Manager has Act→Ratify authority for disaster response, limited to 90-day initiatives with <$500K budget"
+- Delegation requires supermajority approval and periodic renewal (Section 4.6 lifecycle management)
+- Abuse of delegated authority (acting outside scope) triggers reputation penalties and potential expulsion
+
+**Schelling point shifts:**
+
+**Before (binary mode):** Either everything needs pre-approval (gridlock on urgent matters) OR leaders have blank-check authority (abuse potential). No middle ground.
+
+**After (differentiated modes):** High-stakes decisions get consensus protection (Propose→Approve). Time-sensitive decisions get speed with accountability (Act→Ratify). Communities configure which domains use which mode based on risk/speed tradeoffs.
+
+**Failure modes:**
+
+- **Authority creep:** Leaders expand Act→Ratify scope beyond delegated domains. Mitigation: All actions logged on-chain, community can revoke delegation via meta-governance vote.
+- **False emergencies:** Leaders claim "emergency" to bypass approval. Mitigation: Emergency designation requires threshold support or faces immediate review; pattern of false emergencies damages reputation.
+- **Rubber-stamp approval:** Community passively accepts everything in Act→Ratify mode. Mitigation: Engagement metrics track participation; low engagement triggers warnings; policies with minimal scrutiny get flagged.
+
+#### 5.6A.3 Continuous Approval Polling
+
+**The problem:** Traditional governance has discrete accountability moments (elections) separated by years. Leaders can govern against majority preferences for entire terms with no structural consequence between elections and impeachment.
+
+**The mechanism:** Ongoing approval feedback that creates continuous accountability without destabilizing governance.
+
+**How it works:**
+
+**Citizen approval allocation:**
+- Citizens can allocate approval/disapproval points to leaders at any time using their point budget (Section 5.3)
+- Small approval/disapproval is cheap to express (1-2 points) but has minimal immediate effect
+- Large coordinated disapproval is expensive (convex costs) but triggers consequences
+- Points accumulate over rolling windows (weeks/months) to smooth volatility and prevent reactivity to news cycles
+
+**Integration with Leadership Point Balance:**
+- Approval points flow to leader's battery (recharging it)
+- Disapproval points drain leader's battery (accelerating the natural depletion)
+- This creates continuous feedback loop: leader performance → community sentiment → battery level → leader tenure
+
+**Graduated responses based on approval level:**
+
+**High sustained approval (>70%):**
+- Leader's battery drains slower (performance bonus)
+- Can take on bigger initiatives (higher stake ceiling)
+- Reputation boost for future roles
+
+**Moderate approval (40-70%):**
+- Normal battery drain rate
+- Standard operating authority
+- No bonuses or penalties
+
+**Low sustained approval (20-40%):**
+- Battery drains faster
+- Restricted to Act→Ratify mode only (no major Propose→Approve initiatives)
+- Visible warning: "This leader is approaching removal threshold"
+
+**Critical disapproval (<20% or rapid drop):**
+- Emergency review triggered
+- Community vote: remove immediately or grant grace period
+- If granted grace period, must return to >40% within X weeks or automatic removal
+
+**Grace periods for unpopular-but-eventually-good policies:**
+
+Some policies (public transit, infrastructure, healthcare reform) are initially unpopular but become valued once implemented. The system must not punish leaders for doing the right thing.
+
+**Options (communities configure):**
+
+1. **Maturation windows:** New policies have 3-6 month grace period before negative feedback affects leader's battery at full strength. Early disapproval counts at reduced weight (e.g., 50%).
+
+2. **Separate feedback channels:** "This policy is bad" (affects policy approval, may sunset policy) vs. "This leader is corrupt/incompetent" (affects leader's battery immediately). Only the latter triggers removal.
+
+3. **KPI-linked protection:** If policy meets stated objective metrics despite unpopularity, leader protected from battery drain. Example: "This transit policy will reduce commute times 15%" → if KPI met, negative sentiment doesn't drain battery.
+
+4. **Vesting periods** (Section 5.4.12): Leader point income from proposals vests over 3-6 months, allowing unpopular-but-good policies time to demonstrate value before affecting tenure.
+
+**Computational kindness:** Citizens don't need to engage unless they feel strongly. Most people never allocate approval/disapproval points. System responds to sustained, coordinated sentiment—exactly what should trigger accountability. Low engagement from satisfied citizens is success, not failure.
+
+**The Schelling point shift:**
+
+**Before:** Leaders optimize for election day approval. Between elections, no structural accountability. Impeachment so high-friction it almost never happens.
+
+**After:** Leaders optimize for sustained approval throughout tenure. Governance continuously accountable without destabilization. Removal happens gradually and predictably when legitimacy fades.
+
+**This is not a prescriptive solution—it's infrastructure for experimentation.** Different communities will set different thresholds, drain rates, and grace periods. The mechanism provides the tool; communities discover the equilibrium that works for their context, values, and risk tolerance.
+
+### 6.7 Continuous Alignment Mechanism
 
 Traditional governance creates discrete accountability moments: elections select leaders, impeachment removes bad ones. Between these extremes lies a gap—sustained poor performance that doesn't rise to impeachment but doesn't reflect popular will.
 
@@ -728,7 +1305,7 @@ Some policies (public transit, infrastructure) are initially unpopular but becom
 
 **This is not a solution, it's a Schelling point shift.** Different communities will set different thresholds. Some will want hair-trigger accountability; others will prioritize leader stability. The mechanism provides the tool; communities choose the equilibrium.
 
-#### 4.6.1 Leadership Point Balance: Continuous Legitimacy Requirement
+#### 6.6.1 Leadership Point Balance: Continuous Legitimacy Requirement
 
 A more concrete implementation of continuous accountability: **leaders must maintain a point balance to stay in power**. This forces sustained legitimacy rather than one-time electoral victories. This mechanism **replaces arbitrary term limits** with legitimacy-based tenure. Competent leaders can serve indefinitely if they maintain support (see Singapore's Lee Kuan Yew—decades in power, transformed the country). Failing leaders face automatic removal. Term limits are the Hayflick limit of leadership—arbitrary death regardless of health. We can do better.
 
@@ -773,7 +1350,7 @@ A more concrete implementation of continuous accountability: **leaders must main
 
 **This mechanism combines Weyl & Posner's quadratic voting (Section 1.16), Graeber's continuous accountability principles (Section 1.13), and replaces arbitrary term limits with merit-based tenure.** Unlike Section 4.3's elite rotation (designed to prevent bureaucratic accumulation), this allows effective leaders to serve indefinitely—as long as they maintain legitimacy. Lee Kuan Yew governed Singapore for 31 years, transforming it from third-world to first-world. The constraint shouldn't be time—it should be performance. The result is governance that remains responsive without being unstable—leaders who maintain legitimacy can govern effectively for as long as necessary, but those who lose it face automatic consequences without requiring high-friction impeachment.
 
-### 5.7 Point Voting as Political Will Translation
+### 6.7 Point Voting as Political Will Translation
 
 Binary voting poorly captures political will. It only reveals ordinal preferences (A > B) and treats mild preference the same as intense opposition.
 
@@ -830,7 +1407,7 @@ Proposals that don't generate energy don't execute. This is a feature:
 
 **Schelling point framing:** We're not claiming this is "the answer." Different cost curves (linear, quadratic, exponential) create different equilibria. Communities can tune parameters. We're exploring mechanism design space to understand how different rules shift outcomes.
 
-### 5.8 Delegation & Agentic Participation
+### 6.8 Delegation & Agentic Participation
 
 **The cognitive load problem:** If citizens must vote on every proposal, they'll either:
 - Experience governance fatigue and disengage
@@ -881,7 +1458,7 @@ From "Algorithms to Live By": Good systems should be computationally kind to use
 
 **Schelling point framing:** We're not proposing delegation as "the solution." We're showing how it shifts equilibria: from "engage fully or not at all" to "engage proportionally to your interest and expertise." Communities will find different delegation densities; that's the point.
 
-#### 4.8.1 Representative Matching: Dating Apps for Political Delegation
+#### 6.8.1 Representative Matching: Dating Apps for Political Delegation
 
 Delegation is powerful but has a discovery problem: **How do you find representatives whose values align with yours across multiple issue dimensions?** Traditional politics forces binary choices—you get a representative's entire package even if you only agree on 60% of issues. We can do better.
 
@@ -921,7 +1498,7 @@ Online dating solved a similar problem: matching people across multiple dimensio
 
 **The Tinder analogy:** Just like dating apps let you swipe through potential matches efficiently, political delegation should let you browse potential representatives filtered by compatibility. But unlike dating, you can "date" multiple representatives simultaneously for different issues, and breakups are instant and frictionless.
 
-#### 4.8.2 The Dictator's Handbook Problem in Microdemocracy
+#### 6.8.2 The Dictator's Handbook Problem in Microdemocracy
 
 Delegation solves cognitive load but creates a severe risk: **small winning coalitions optimizing for private goods over public goods.** This is the central thesis of *The Dictator's Handbook* by Bruce Bueno de Mesquita and Alastair Smith, and it applies at ALL scales—from dictatorships to democracies to village councils to microdemocratic communities.
 
@@ -974,7 +1551,9 @@ Delegation is necessary (can't vote on everything) but dangerous (creates small 
 
 **This is not solved—it's managed.** Different communities will find different equilibria between delegation efficiency and coalition-capture risk. The platform provides tools to experiment, not prescriptions.
 
-### 5.9 Jurisdiction & Overlap Resolution
+### 6.9 Jurisdiction & Overlap Resolution
+
+**Connection to Section 4.3 (Scale-Free Cooperation):** This section operationalizes requirement #5 (subsidiarity routing) to keep transaction costs bounded as population grows. By routing decisions to the smallest scale with informational access, authority to act, and scope containment, most decisions remain parallelizable. A city of 1 million doesn't have 10,000x the decision complexity of a city of 100—it has 10,000x more instances of the same types of local decisions that can be resolved independently.
 
 **The boundary problem:** When multiple initiatives have overlapping scope or competing resource claims, how do you resolve conflicts?
 
@@ -1007,10 +1586,18 @@ Delegation is necessary (can't vote on everything) but dangerous (creates small 
 - Algorithmic flagging when initiatives have overlapping scope
 - Community review determines if overlap is productive (multiple perspectives) or conflicting (competing claims)
 
-**Subsidiarity routing:**
-- Issues that affect multiple jurisdictions automatically escalate to shared parent
-- Issues that are purely local stay local
-- Algorithmic determination based on affected parties
+**Subsidiarity routing (Section 4.3 requirement #5):**
+- Problems route to smallest scale with: (1) **informational access** (can perceive the problem—Section 3.1 light cones), (2) **authority to act** (can implement solutions), (3) **scope containment** (effects don't spill beyond that level)
+- Issues affecting multiple jurisdictions automatically escalate to shared parent level
+- Issues purely local stay local—preventing information overload at higher levels
+- Algorithmic determination based on engagement patterns: if proposal attracts points from multiple jurisdictions, system suggests escalation
+- **Volume control benefit:** National-level citizens don't see neighborhood parking disputes; this prevents cognitive overload as population scales
+
+**Transparent expectations (Section 4.3 requirement #4):**
+- Routing rules are encoded in smart contracts (executable, auditable)
+- No insider knowledge required to understand which level handles which decisions
+- Clear jurisdictional magisteria prevent ambiguity about who has authority
+- System teaches users through use: "This proposal affects 3 neighborhoods—escalating to city level"
 
 **Meta-governance for disputes:**
 - When conflicts arise, escalate to meta-governance layer
@@ -1033,7 +1620,7 @@ Delegation is necessary (can't vote on everything) but dangerous (creates small 
 
 **Open question:** How much overlap is optimal? Too little = rigid silos. Too much = coordination chaos. The answer likely varies by domain and culture. Platform should enable experimentation.
 
-### 5.10 Initiative Creation
+### 6.10 Initiative Creation
 
 Templates for:
 
@@ -1044,13 +1631,13 @@ Templates for:
 
 Voting + membership gating
 
-### 5.11 Anti-Capture Architecture
+### 6.11 Anti-Capture Architecture
 
 Capture—when special interests or elites gain control over institutions meant to serve the commons—is the primary failure mode of all governance systems (Section 8.1). As Olson demonstrates, stable democracies inevitably drift toward rent-seeking unless structural mechanisms prevent it. As North shows, concentrated wealth can simply purchase political outcomes in plutocracies, preventing adaptive efficiency.
 
 This section details mechanisms designed to resist capture structurally rather than relying on goodwill or periodic reform efforts.
 
-#### 4.11.1 Peer Point Allocation (Bonusly-Style Reputation)
+#### 6.11.1 Peer Point Allocation (Bonusly-Style Reputation)
 
 Traditional reputation systems face a fundamental problem: **who decides what counts as valuable contribution?** Centralized scoring creates the rubric control problem (Section 2.7.7). But pure democracy (everyone gets equal say) doesn't distinguish between those who contribute and those who extract.
 
@@ -1081,7 +1668,7 @@ Each member receives a budget of "recognition points" per cycle (separate from v
 - Reputation can be denominated in multiple contexts (technical, social, domain-specific)
 - Reputation slowly decays over time (prevents permanent aristocracy, implements Graeber's jubilee principle)
 
-#### 4.11.2 Bounties for Capture Detection
+#### 6.11.2 Bounties for Capture Detection
 
 Regulatory capture succeeds when nobody has incentive to identify and resist it. Costs of capture are diffuse (everyone loses a little), benefits are concentrated (special interests gain enormously). The Nash equilibrium is capture.
 
@@ -1114,7 +1701,7 @@ Regulatory capture succeeds when nobody has incentive to identify and resist it.
 - False flag patterns tracked (repeated false alarms reduce credibility)
 - Deliberate false flagging can itself be flagged as malicious behavior
 
-#### 4.11.3 Deliberate Limits on Elite Accumulation
+#### 6.11.3 Deliberate Limits on Elite Accumulation
 
 As detailed in Section 4.3, thin elite structures are essential. Mechanisms include:
 
@@ -1124,7 +1711,7 @@ As detailed in Section 4.3, thin elite structures are essential. Mechanisms incl
 - **Automatic sunset of unused positions** - eliminates sinecures
 - **Compensation tied to performance** - not just position-holding
 
-#### 4.11.4 Randomized Citizen-Steward Selection
+#### 6.11.4 Randomized Citizen-Steward Selection
 
 For certain oversight and audit functions, use **sortition** (random selection from eligible pool) rather than election or appointment:
 
@@ -1133,7 +1720,7 @@ For certain oversight and audit functions, use **sortition** (random selection f
 - **What to randomize:** Audit committees, policy review boards, meta-governance constitutional conventions
 - **What NOT to randomize:** Executive decision-making, specialized technical roles requiring expertise
 
-#### 4.11.5 Radical Transparency Requirements
+#### 6.11.5 Radical Transparency Requirements
 
 Sunlight as structural disinfectant:
 
@@ -1151,7 +1738,233 @@ Sunlight as structural disinfectant:
 
 These mechanisms don't eliminate capture risk—nothing can—but they shift structural incentives dramatically. Rather than assuming good faith and detecting capture after the fact, they create ongoing immune responses that make capture costly and resistance profitable.
 
-### 5.12 Why These Mechanisms Are Now Possible
+### 6.11A Energy-Backed Currency (kWh Standard) — Experimental Anti-Capture Mechanism
+
+**Epistemic status:** Experimental. No large-scale implementation. Theory appears sound but requires real-world testing.
+
+**The problem:** As diagnosed in Section 1.2a (The 1971 Inflection) and Section 2.11 (Eternal Return of Rent-Seeking), **fiat currency enables structural wealth extraction through inflation**. Even if you build perfect governance mechanisms, monetary debasement remains a capture vector. The Cantillon Effect ensures those closest to money creation (central banks, major financial institutions) extract purchasing power from those furthest away (wage earners, savers).
+
+**Perfect governance + fiat currency = governance with a built-in wealth pump.**
+
+**The proposal:** One experimental option is backing tokens with **energy rather than fiat or scarce commodities**. A kilowatt-hour (kWh) token represents a fixed unit of energy.
+
+#### Why Energy Backing Makes Sense
+
+**1. Fundamental to all economic activity**
+- Nothing happens without energy; it's the ultimate input to production
+- Unlike gold (merely valuable) or fiat (merely agreed-upon), energy has intrinsic productive use
+- Every economic transaction ultimately converts energy into value
+
+**2. Cannot be arbitrarily created**
+- Thermodynamics prevents printing energy; you must actually generate it
+- Ties money creation to physical work and productive capacity
+- Prevents the Cantillon Effect: can't give yourself purchasing power without generating real value
+
+**3. Naturally inflationary as capacity grows**
+- Unlike gold (fixed supply vulnerable to space mining disruption) or Bitcoin (hard cap regardless of economic growth), energy supply expands with real productive capacity
+- Currency inflates as civilization adds energy production (solar buildout, fusion development)
+- Matches monetary expansion to actual economic growth rather than political expedience
+
+**4. Resistant to rent extraction**
+- Can't hoard energy like land; it must be used or stored at cost
+- Storage losses (battery degradation, grid inefficiency) prevent monopoly accumulation
+- Unlike oil cartels, restricting energy supply hurts your own economy (energy is input to everything)
+
+**5. Distributed production**
+- Energy can be generated anywhere: solar, wind, geothermal, hydro, nuclear
+- Renewable sources are globally distributed, making cartels harder than with geographically concentrated resources like oil
+- Decentralization reduces capture risk
+
+**6. Proof-of-work precedent**
+- Bitcoin already demonstrates this principle: mining requires energy expenditure, tying token creation to physical work
+- kWh standard would improve on Bitcoin by requiring energy generation that can be used productively, not burned
+
+#### Implementation Mechanics
+
+**To create new currency units:** Generate energy and commit it to the network. This ties money creation directly to productive capacity.
+
+**Verification:** Energy generation must be cryptographically provable. Potential mechanisms:
+- Smart meters with cryptographic attestation
+- Integration with grid operators for verification
+- Decentralized oracle networks for energy production claims
+- Physical proof-of-work (similar to Bitcoin mining but with useful energy output)
+
+**Currency properties:**
+- **Not a store of value** - Deliberately inflationary as energy production grows
+- **Money-as-economic-lubricant** - Designed to facilitate transactions, not hoarding
+- **Complementary to other stores of value** - Communities may still need real estate, productive assets, gold, Bitcoin for wealth preservation
+
+#### The Graeberian Distinction: Store of Value vs. Economic Lubricant
+
+**Money serves two fundamentally different functions, and no single currency can optimize for both:**
+
+**1. Store of Value (Inelastic Money)**
+- Preserve wealth across time
+- Requires scarcity, durability, resistance to debasement
+- **Bitcoin excels here:** Hard cap, cryptographically secure, immune to arbitrary creation
+- Like gold, but digital and verifiable
+
+**2. Economic Lubricant (Elastic Money)**
+- Facilitate transactions, coordinate production, enable exchange
+- Requires supply that matches the scale of economic activity
+- Too little money → deflation, hoarding, strangled commerce
+- Too much money → inflation, Cantillon extraction
+
+**The historical problem David Graeber identified in *Debt: The First 5,000 Years*:**
+
+Economies repeatedly outgrow fixed-supply currencies, causing systemic collapse.
+
+**The Metallism Trap: Spanish Silver and Ming China (16th-17th century)**
+
+Spanish and Portuguese conquistadors extracted massive silver from the Americas, flooding Europe with currency. This silver flowed to Ming Dynasty China (which demanded silver for taxes and trade). For a time, this fueled global economic expansion.
+
+**But the economy grew faster than silver extraction could match.**
+
+China's internal economic growth created demand for more currency to lubricate the increasing volume of transactions. When silver supply couldn't keep pace with real economic activity, the currency became the bottleneck:
+
+- **Commerce seized up** - Not enough currency tokens to represent the value being created
+- **Deflation spirals** - Fixed money supply + growing economy = each unit becomes more valuable, incentivizing hoarding rather than spending
+- **Credit crunches** - Without medium of exchange, even productive transactions couldn't clear
+- **Systemic collapse** - The economy contracted not because productive capacity declined, but because the **medium of exchange couldn't scale**
+
+**Graeber's broader pattern across history:**
+
+Economies using commodity money (gold, silver, copper) repeatedly hit this constraint:
+1. Economy grows → requires more currency to support transaction volume
+2. Commodity supply can't keep pace with real economic growth
+3. Result: deflation, hoarding, credit crunges, systemic failure
+4. Eventually transition to credit-based systems or fiat currency (which then creates different problems)
+
+**The modern version of this trap:**
+
+**Bitcoin (Digital Gold):**
+- Perfect store of value: Fixed cap prevents debasement
+- Terrible economic lubricant: As the economy grows, there's no mechanism to increase supply
+- If used as primary transaction currency → deflationary spiral (same as Ming silver crisis)
+- Each bitcoin becomes more valuable → hoarding incentive → commerce strangles
+
+**Fiat Currency:**
+- Good economic lubricant: Can print more as economy grows
+- Terrible store of value: Always overshoots, causing inflation
+- **Cantillon Effect:** Those closest to money creation (central banks, major institutions) extract wealth from those furthest away (savers, wage earners)
+- Political corruption: Printing press controlled by elites enables rent extraction
+
+**The kWh Standard solves Graeber's dilemma:**
+
+**Elastic (supply grows with economy) but Constraint-Based (thermodynamics prevents arbitrary printing)**
+
+- Energy production grows with real productive capacity (solar buildout, fusion development, efficiency improvements)
+- Currency supply automatically expands to match civilization's capacity to do work
+- Unlike fiat (arbitrary expansion → Cantillon Effect), expansion is tied to actual thermodynamic work
+- Unlike Bitcoin/gold (fixed cap → deflation spiral), supply can grow with the economy
+- Unlike commodity money (extraction can't keep pace), energy generation scales with industrial capacity
+
+**The "Goldilocks" monetary system:**
+
+**Store of Value: Bitcoin**
+- Digital gold
+- Fixed supply prevents debasement
+- Hold wealth across decades or centuries
+- Optimized for scarcity
+
+**Economic Lubricant: kWh Token**
+- Digital energy
+- Elastic supply grows with productive capacity
+- Facilitate transactions at any economic scale
+- Optimized for matching economic activity
+
+**Real Assets: Land, Businesses, Productive Capital**
+- Generate value independent of currency
+- Complement both storage and transaction functions
+
+**Why you need both:**
+
+Trying to use a fixed-supply currency (Bitcoin/gold) for both functions recreates Graeber's metallism trap—economy outgrows money supply, commerce strangles.
+
+Trying to use fiat currency creates the Cantillon extraction problem—arbitrary printing enables wealth transfer from savers to money creators.
+
+**The complementary solution:**
+- **Save in Bitcoin** (immune to debasement, proven digital scarcity)
+- **Transact in kWh tokens** (supply matches productive capacity, immune to arbitrary creation)
+- **Invest in productive assets** (generate real value)
+
+This separates the functions and eliminates both failure modes: no deflation spiral (elastic lubricant), no Cantillon extraction (energy-constrained creation).
+
+#### Comparison to Alternatives
+
+**Fiat:**
+- Arbitrary creation enables rent extraction through inflation
+- Whoever controls printing press controls economy
+- Cantillon Effect: money creation benefits insiders, taxes savers
+
+**Gold:**
+- Historically stable but vulnerable to supply shocks (space mining could flood market overnight)
+- Not consumable (hoarding creates artificial scarcity without productive use)
+- Geographic concentration enables monopolies
+
+**Bitcoin:**
+- Proof-of-work provides energy-backing property
+- But energy is burned rather than utilized productively
+- Hard cap prevents matching monetary supply to economic growth
+
+**kWh Standard:**
+- Energy generation creates tokens (like Bitcoin PoW)
+- But energy can be used productively (unlike Bitcoin burn)
+- Supply grows with real productive capacity (unlike Bitcoin hard cap)
+- Can't be monopolized like gold or inflated arbitrarily like fiat
+
+#### Cartel Resistance
+
+Unlike oil, energy production can't easily be restricted by geographic monopolies:
+- **Renewables are distributed:** Solar, wind work globally
+- **Restriction hurts restrictor:** Energy is input to everything; cartel would destroy its own economy
+- **Technology enables decentralization:** Rooftop solar, community wind, small modular reactors lower barriers to entry
+- **Storage remains costly:** Can't hoard energy at scale without losses
+
+Historical precedent: OPEC succeeds because oil is geographically concentrated. An "EPEC" (Energy Producing & Exporting Cartel) would fail because restricting energy supply cripples the restrictor's own industrial base.
+
+#### Tradeoffs and Risks
+
+**Advantages:**
+- Immune to arbitrary inflation (thermodynamics enforces scarcity)
+- Ties monetary supply to real productive capacity
+- Resistant to geographic monopolies and cartels
+- Prevents Cantillon Effect wealth extraction
+
+**Challenges:**
+- **Verification complexity:** How do you prove energy generation cryptographically?
+- **Oracle problem:** Requires trusted (or decentralized trustless) sources for energy data
+- **Initial adoption friction:** Communities must understand thermodynamic basis
+- **Not proven at scale:** This is experimental; unknown failure modes likely exist
+
+**MVP strategy:** Start with fiat/stablecoin compatibility (lower friction), but provide path for communities that want monetary sovereignty to experiment with energy-backing.
+
+#### When to Use This
+
+**Communities that value:**
+- Immunity from external monetary debasement
+- Structural resistance to Cantillon Effect wealth extraction
+- Long-term incentive alignment with real productive capacity
+- Willingness to accept higher initial complexity for structural protection
+
+**Communities that should avoid:**
+- Need immediate low-friction adoption
+- Can't handle verification/oracle complexity
+- Value simplicity over monetary sovereignty
+- Operate in regulatory environments hostile to alternative currencies
+
+#### Connection to Other Mechanisms
+
+**Combines with:**
+- **Section 4.6 (Constraining Elites):** Prevents monetary policy as elite capture vector
+- **Section 5.1 (Land Value Tax):** Both address rent extraction from scarce resources
+- **Section 6.11 (Anti-Capture Architecture):** Monetary sovereignty as structural defense
+
+**The core insight:** Governance without monetary sovereignty is governance with a structural vulnerability. Communities can solve coordination, elite accountability, and institutional lifecycle—but if they denominate treasuries in fiat, they remain exposed to external wealth extraction through currency debasement.
+
+**The platform approach:** Enable experimentation. Some communities will prioritize ease of use (fiat/stablecoins). Others will prioritize sovereignty (energy-backing or other experimental mechanisms). Let outcomes determine which tradeoffs are worth it.
+
+### 6.12 Why These Mechanisms Are Now Possible
 
 **Governance is a technology that is shockingly slow to update.** We're still using systems designed hundreds of years ago—before the invention of game theory, computers, the internet, or cryptography. The United States Constitution was written in 1787. The French Republic's structure dates to 1958. The United Nations to 1945. These systems were designed for the informational and technological constraints of their eras: slow communication, paper records, manual vote counting, geographic constraints on participation.
 
@@ -1165,7 +1978,7 @@ Yet our governance systems have barely changed. We're running 18th-century softw
 
 The governance mechanisms described in this section were impossible or impractical in previous eras. Smart contracts and web3 infrastructure create fundamentally new capabilities:
 
-#### 4.12.1 Trustless Execution
+#### 6.12.1 Trustless Execution
 
 **Previously:** Complex incentive structures required trusted intermediaries (bureaucrats, accountants, auditors) who could be corrupted, captured, or simply overwhelmed by complexity.
 
@@ -1173,7 +1986,7 @@ The governance mechanisms described in this section were impossible or impractic
 
 **Example:** Long-horizon leader compensation (Section 5.4) requires tracking policy persistence and calculating payments over years or decades. In a traditional system, this would require a dedicated agency subject to budget cuts, political interference, and administrative bloat. With smart contracts, it's a few hundred lines of Solidity that execute perfectly forever.
 
-#### 4.12.2 Transparent Audit Trails
+#### 6.12.2 Transparent Audit Trails
 
 **Previously:** Governance decisions were opaque. Who voted for what? What deals were made? Transparency required FOIA requests, investigative journalism, or insider leaks.
 
@@ -1181,7 +1994,7 @@ The governance mechanisms described in this section were impossible or impractic
 
 **Caveat:** Must balance transparency with privacy (zero-knowledge proofs for sensitive votes, encryption for deliberation).
 
-#### 4.12.3 Programmable Incentives at Scale
+#### 6.12.3 Programmable Incentives at Scale
 
 **Previously:** Incentive systems required manual administration. Reputation tracking, contribution scoring, and reward distribution were labor-intensive and error-prone.
 
@@ -1189,7 +2002,7 @@ The governance mechanisms described in this section were impossible or impractic
 
 **Example:** Point-allocation voting (Section 5.7) with convex cost curves and time-decay mechanisms would be administratively impossible at scale. Smart contracts make it trivial.
 
-#### 4.12.4 Cooperation-as-a-Service
+#### 6.12.4 Cooperation-as-a-Service
 
 **Previously:** Each organization had to build governance infrastructure from scratch. Bylaws, voting procedures, financial management—all bespoke, all labor-intensive.
 
@@ -1200,7 +2013,7 @@ The governance mechanisms described in this section were impossible or impractic
 
 **Analogy:** Just as AWS made servers cooperation-as-a-service (no need to buy hardware and manage data centers), we're making governance cooperation-as-a-service (no need to write constitutions and manage election infrastructure).
 
-#### 4.12.5 Blockchain-as-a-Service for Financial Coordination
+#### 6.12.5 Blockchain-as-a-Service for Financial Coordination
 
 **Previously:** Pooling resources required banks, escrow services, and complex legal structures. International coordination was prohibitively expensive.
 
@@ -1212,7 +2025,7 @@ The governance mechanisms described in this section were impossible or impractic
 
 **Example:** A global open-source project can pool funds, vote on expenditures, and distribute payments to contributors worldwide—without incorporating, opening bank accounts, or hiring accountants.
 
-#### 4.12.6 Network Effects and Composability
+#### 6.12.6 Network Effects and Composability
 
 **Previously:** Governance innovations were siloed. If one city invented a good budgeting process, other cities had to study it, adapt it, and implement it manually—a years-long process.
 
@@ -1220,11 +2033,11 @@ The governance mechanisms described in this section were impossible or impractic
 
 **Implication:** We can search the governance solution space via rapid experimentation rather than slow political reform.
 
-### 5.13 Platform Philosophy: Humility and Experimentation
+### 6.13 Platform Philosophy: Humility and Experimentation
 
 The mechanisms described in this section are **examples**, not mandates. We cannot know in advance which combinations will work for which communities.
 
-#### 4.13.1 This Is Not Prescriptive
+#### 6.13.1 This Is Not Prescriptive
 
 **We are not proposing THE optimal governance system.**
 
@@ -1240,7 +2053,7 @@ Instead, we build the **simplest possible thing that works**: a pooling and voti
 
 **We are proposing a toolkit for communities to search the solution space.**
 
-#### 4.13.2 Success Metric: Participant Satisfaction Over Time
+#### 6.13.2 Success Metric: Participant Satisfaction Over Time
 
 The only valid measure of governance quality is whether the people governed by it are satisfied with it—not in the moment (populism), but over extended periods (sustainability).
 
@@ -1255,7 +2068,7 @@ The only valid measure of governance quality is whether the people governed by i
 - Do they voluntarily remain participants rather than exiting?
 - Does the community thrive over years and decades?
 
-#### 4.13.3 Communities Mix and Match
+#### 6.13.3 Communities Mix and Match
 
 The platform provides sliders and dials:
 - "How aggressive should policy sunset rules be?"
@@ -1269,7 +2082,7 @@ Some communities will want strong lifecycle management; others will prefer stabi
 
 The platform accommodates diversity. Communities learn from each other's experiments. Better approaches emerge through evolution, not decree.
 
-#### 4.13.4 Governance as Evolutionary Search
+#### 6.13.4 Governance as Evolutionary Search
 
 Think of this as parallel evolution in governance space:
 - Hundreds or thousands of communities running different configurations
@@ -1280,7 +2093,7 @@ Think of this as parallel evolution in governance space:
 
 We don't know the optimal governance system **because there isn't one**. There are many local optima dependent on culture, scale, resources, and historical context. The platform enables communities to find their local optimum.
 
-#### 4.13.5 OkCupid for Governance: Big Data Discovery
+#### 6.13.5 OkCupid for Governance: Big Data Discovery
 
 **Online dating companies don't prescribe optimal relationships—they discover patterns through aggregate data.**
 
