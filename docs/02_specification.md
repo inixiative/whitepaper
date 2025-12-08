@@ -1059,6 +1059,34 @@ All three are catastrophic. Healthy systems need a way to prune institutions wit
 
 **The shift in equilibrium:** When institutions must periodically rejustify their existence, the Olsonian ratchet breaks. Failed experiments sunset. Successful institutions continue with democratic legitimacy. The system can adapt without requiring collapse, war, or revolution.
 
+**Vindication and Restoration Mechanisms:**
+
+Lifecycle management creates two related problems that must be solved: **Dunning-Kruger effects in decision-making** and **irreversible mistakes when rejecting good policies or people**.
+
+**Problem 1: The Dunning-Kruger Effect**
+
+The least competent people are often the most confident (Dunning-Kruger effect). Without feedback mechanisms, they never learn they're wrong. This means bad ideas get championed with high confidence while good heterodox ideas get shut down by people certain they know better.
+
+**Requirement:** Systems must provide feedback loops that allow people to calibrate their confidence to their actual competence. When you're confidently wrong, you need to discover you were wrong so you can adjust. This requires tracking predictions and outcomes over time, making errors visible, and ensuring reputational consequences reflect actual accuracy, not just confidence level.
+
+**Problem 2: Irreversible Rejection of Good Ideas and People**
+
+Policies get repealed. Ideas get rejected. People get condemned. Sometimes this is correct; sometimes it's Dunning-Kruger or moral panic. Current systems make these decisions permanent—there's no mechanism to revisit when new evidence emerges.
+
+**Requirements:**
+
+**Secondary review for rejected proposals:** Ideas and policies that were rejected or repealed must be eligible for reconsideration when new evidence emerges. This cannot be infinite appeals (spam problem), so review frequency must decrease over time (exponential falloff). But complete foreclosure prevents correction of errors.
+
+**Policy version control and institutional memory:** When policies sunset, preserve what was learned: what worked, what didn't, implementation details, expertise. This makes revival feasible rather than requiring reconstruction from scratch. Policies should be restorable like software reverts, not rebuilt from zero.
+
+**Reputational restoration when vindication occurs:** When individuals were condemned for positions later proven correct, reputation must be restored proportional to the original damage. The system must be able to acknowledge and correct its own errors. Those who participated in wrongful condemnation should face reputational costs proportional to their confidence and visibility.
+
+**No one-misstep cancellation:** Severe reputational consequences (ostracization, permanent exclusion) should require repeated offenses or sustained pattern of behavior, not a single mistake or viral moment. People can be wrong once without catastrophic social consequences. Ostracization should be possible—but only when behavior demonstrates a persistent problem, not reactionary pile-ons.
+
+**Why this matters:** Without these mechanisms, being correct-but-early becomes a losing strategy. Heterodox research becomes suicidal. Premature policy changes become irreversible even when proven wrong. The system optimizes for immediate consensus rather than long-term truth.
+
+**Example:** Barry Marshall was ridiculed for two decades for claiming bacteria caused ulcers, eventually won a Nobel Prize. Thorium molten salt reactors were defunded in 1969; institutional knowledge was lost, making revival prohibitively expensive 50+ years later despite demonstrated success. Systems must be able to recognize and correct such errors.
+
 ### 4.9 Voluntary Association by Design
 
 The network state model (Srinivasan) proposes cloud-first, land-last governance: voluntary political communities that coordinate digitally before (if ever) acquiring territory. This inverts the traditional monopoly of geographic states where you're assigned governance by birthplace.
