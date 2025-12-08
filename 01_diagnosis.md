@@ -9,13 +9,19 @@
 
 ### 1.0 The Question That Started Everything
 
-More than a decade ago, I watched a documentary by Kirk Sorensen on thorium reactors. I was struck by a simple question: **Why hadn't we adopted nuclear power at scale?** It seemed like such an obvious thing to do—abundant, clean energy that could power civilization for millennia.
-
 In *Guns, Germs, and Steel*, Jared Diamond begins with a question posed to him by a New Guinean politician: "Why do you white people have so much cargo?" A deceptively simple question that opens into a deep investigation of structural forces shaping human history.
 
-My question did the same. The answer, at the time, was tentative but troubling: **There must be something wrong with how we govern.** If we could make such a catastrophic error—leaving civilization-transforming technology on the shelf for 60 years—then the problem wasn't just bad policy. It was structural.
+This whitepaper begins with a similar question:
 
-But what? How could we make governance such that we do fewer of these errors?
+**In the early 1960s, Oak Ridge National Laboratory successfully demonstrated a thorium molten-salt reactor.** It was safer than uranium pressurized water reactors, produced less long-lived waste, operated at atmospheric pressure (eliminating meltdown scenarios), and achieved 90%+ fuel efficiency compared to the 0.5-2% efficiency of conventional designs. The technology worked. The program was defunded in 1969.
+
+**Fifty-six years later, we still burn coal.**
+
+This isn't a story about energy policy. It's a story about institutional failure. The question isn't "why don't we have thorium reactors?" The question is: **What kind of civilization loses the capacity to build what it already knows how to build?**
+
+If we could make such a catastrophic error—leaving civilization-transforming technology on the shelf for six decades—then the problem wasn't just bad policy or poor leadership. The problem was structural. Something about how we govern prevents us from deploying solutions we've already invented.
+
+But what? How could we design governance systems that make fewer of these errors?
 
 That question became this whitepaper.
 
@@ -235,17 +241,21 @@ The economic forces documented in Section 1.2a—labor market saturation, fiat-f
 
 When dual incomes become economically mandatory, children must be raised by institutions instead of parents. When high-ability individuals can no longer afford to become teachers, education quality collapses. When parents work 50-60 hours per week just to afford housing, childhood becomes institutionalized and supervised rather than exploratory and free. When both parents work but mothers still bear cultural expectations of primary caregiving, parenting norms become weapons in intrasexual competition. These aren't separate pathologies—they're cascading failures from common economic roots.
 
-**The Cynical Capture of Feminism as Economic-Social Bridge**
+**The Structural Capture of Women's Liberation as Economic-Social Bridge**
 
-Second-wave feminism (1960s-1970s) genuinely fought for women's liberation, reproductive rights, workplace equality, and freedom from patriarchal constraints. These were legitimate struggles for human dignity and autonomy. But the movement was **cynically co-opted by institutions that benefited from dual-earner households**:
+Second-wave feminism (1960s-1970s) genuinely fought for women's liberation, reproductive rights, workplace equality, and freedom from patriarchal constraints. These were legitimate struggles for human dignity and autonomy. The movement succeeded in opening previously closed doors—but the timing coincided with economic forces that transformed liberation into economic necessity.
 
-**The State wanted the tax base:** Dual earners = dual taxpayers. Female workforce participation effectively doubled the tax base without raising rates. Governments could fund expanding bureaucracies (Jiang's elite overproduction, Section 1.6) by taxing households twice instead of once.
+**The convergence of institutional incentives:**
 
-**Corporations wanted labor glut:** More workers competing for same positions = suppressed wages. Doubling the labor supply gave employers negotiating leverage. Union power declined partly because replacement workers were abundant.
+**State fiscal incentives:** Dual-earner households meant dual taxpayers. Female workforce participation effectively doubled the tax base without raising rates, funding the bureaucratic expansion documented in Section 1.6 (Jiang's elite overproduction). Gloria Steinem's *Ms. Magazine* received funding from the Independent Research Service, later revealed as a CIA-backed foundation. Whether this represents coordinated strategy or opportunistic institutional support, the structural effect was alignment between feminist messaging and state fiscal interests.
 
-**The "liberation" to work became a trap:** What began as freedom to choose work became economic compulsion to work. By the 1980s, dual income wasn't liberation—it was necessity. Housing prices, education costs, and living expenses had inflated to assume two incomes (Section 1.2a: fiat-fueled asset inflation). Single-earner households were priced out. The option to have one parent home with children effectively disappeared for middle-class families.
+**Corporate labor market dynamics:** Doubling the labor supply gave employers negotiating leverage. When two household members competed for jobs instead of one, wages could remain flat while household expenses rose. Union power declined as replacement workers became abundant. The economic incentive structure favored dual-income households regardless of worker preference.
 
-**This is George's rent extraction (Section 1.13):** The value created by women entering the workforce (increased household income) was captured by landlords (housing costs), creditors (debt loads), and employers (suppressed wages per worker). Women worked more, households worked more, but living standards stagnated because productivity gains flowed to rent extractors, not workers.
+**The transformation from choice to compulsion:** What began as freedom to choose work became economic necessity. By the 1980s, dual income wasn't liberation—it was survival. Housing prices, education costs, and living expenses had inflated to assume two incomes (Section 1.2a: fiat-fueled asset inflation). Single-earner households were priced out. The option to have one parent home with children effectively disappeared for middle-class families.
+
+**George's rent extraction mechanism (Section 1.13):** The increased household income from women entering the workforce was captured by landlords (housing costs rose to match dual incomes), creditors (debt loads increased), and employers (wages per worker stagnated). Households worked more hours collectively, but living standards didn't improve proportionally because productivity gains flowed to rent extractors, not workers.
+
+**Whether the institutional alignment was coordinated strategy, opportunistic capture, or emergent system behavior, the structural result was identical:** Labor supply doubled, wages stagnated, asset prices absorbed the gains, and what began as liberation became economic compulsion.
 
 This dynamic serves as the bridge from economic to social collapse. Dual-income economic necessity (driven by Section 1.2a's labor glut and fiat inflation) made institutional childcare universal, destroyed family time, and created impossible expectations for working mothers. The consequences radiate through every dimension of social infrastructure:
 
