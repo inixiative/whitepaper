@@ -24,7 +24,14 @@ This is **Part 4** of the whitepaper: the concrete implementation. A practical a
 
 **This is not a replacement for government.** It is infrastructure for collective action—a layer for coordination that sits alongside existing institutions and demonstrates value through superior outcomes.
 
-### 7.1 MVP Scope: What We're Building First
+### 7.1 What We're Building
+
+The platform serves two markets with different timing:
+
+1. **MVP - Inixiatives:** Bottom-up collective action (Phase 2)
+2. **Fast Follow - Instituxions:** Governance-as-a-service for existing organizations (Phase 4)
+
+#### 7.1.1 MVP - Inixiatives (Change.org meets Kickstarter)
 
 **The core problem:** Collective action platforms currently fail at one of two failure modes:
 
@@ -34,7 +41,7 @@ This is **Part 4** of the whitepaper: the concrete implementation. A practical a
 
 **The solution: Change.org meets Kickstarter with governance infrastructure**
 
-We're building a platform where initiatives have:
+We're building a platform where inixiatives have:
 - **Specification:** Clear mission, goals, success criteria, and execution plan
 - **Skin in the game:** Escrow commits (money, time, resources) not just signatures
 - **Governance layer:** Participatory decision-making using the mechanisms from Document 3
@@ -45,11 +52,11 @@ We're building a platform where initiatives have:
 
 **Before (Change.org):** "We petition the government to do X" → 100,000 signatures → government ignores it → nothing changes
 
-**After (Inixiative):** "We will do X ourselves if Y people commit Z resources" → threshold met → escrow releases → initiative executes → outcomes tracked
+**After (Inixiative):** "We will do X ourselves if Y people commit Z resources" → threshold met → escrow releases → inixiative executes → outcomes tracked
 
 **The minimum viable product focuses on making this transition cheap and easy.**
 
-#### 7.1.1 Example Initiatives
+**Example Inixiatives:**
 
 Initiatives can span multiple scales and domains:
 
@@ -84,12 +91,68 @@ Initiatives can span multiple scales and domains:
 6. **Accountability** (track outcomes, iterate, share learnings)
 
 **What we're NOT building in MVP:**
-- Full governance replacement for existing institutions
+- Full governance replacement for existing instituxions
 - Nation-state scale systems
 - Complex lifecycle management (that's Phase 4)
 - Subsidiarity engine (that's Phase 4)
 - Advanced reputation systems (basic only)
 - Cellular delegation (available but not required)
+- Instituxional tier (that's Fast Follow)
+
+#### 7.1.2 Fast Follow - Instituxions (DAO-as-a-Service)
+
+**The key distinction:**
+
+**Inixiatives** are time-bounded collective actions - single projects with defined goals and endpoints. Install bike lanes. Fund research. Form a co-op. They may be recurring, but each instance has a completion condition.
+
+**Instituxions** are persistent entities that spawn and manage multiple inixiatives over time. They're the *parents* of many inixiatives. A neighborhood association is an instituxion that launches inixiatives (park cleanup, speed bump installation, community garden). A company is an instituxion that launches inixiatives (product development, departmental budgets, innovation challenges).
+
+**The opportunity:**
+
+While the MVP focuses on proving inixiatives work (one-off collective actions), there's a parallel market: **existing and new instituxions** that need governance infrastructure for their ongoing operations and the many inixiatives they'll spawn.
+
+**The pitch: "Governance infrastructure for instituxions"**
+
+Organizations can use the platform not just for individual inixiatives, but as their core governance layer - managing persistent operations, spawning child inixiatives, handling lifecycle management for both the instituxion itself and its initiatives. Think of it as **DAO-as-a-Service** or **governance modules** that plug into existing instituxions or enable new ones to form.
+
+**Why instituxions want this:**
+
+**Current pain points:**
+- **Top-down budgeting is slow and disconnected:** Leadership makes allocation decisions without ground-level knowledge
+- **Employee/member engagement is low:** No meaningful voice in organizational decisions
+- **Innovation is stifled:** Good ideas die because there's no pathway from proposal to execution
+- **Coordination costs are high:** Endless meetings, email threads, spreadsheets to manage collective action
+- **Accountability is weak:** No transparent tracking of who decided what, outcomes of decisions, or learning from failures
+
+**What inixiative-based governance offers:**
+- **Structured participation:** Clear process from idea to execution, not just suggestion boxes
+- **Skin in the game:** People commit resources (time, budget, reputation), filtering serious proposals from noise
+- **Transparent execution:** Everyone can audit decision flows, fund releases, milestone completion
+- **Modular adoption:** Deploy for specific functions (budgeting, hiring, projects) without rebuilding entire org
+- **Reduced coordination friction:** Smart contracts handle escrow, voting, disbursement automatically
+
+**Example use cases:**
+- **Corporations:** Internal innovation funds, departmental budgeting, working groups, equity & compensation
+- **Non-Profits:** Grant allocation, volunteer coordination, board governance, multi-stakeholder governance
+- **Universities:** Research funding, student governance, curriculum development, administrative transparency
+- **Municipalities:** Participatory budgeting, community improvement projects, advisory councils, transparency dashboards
+- **DAOs & Crypto Projects:** Protocol governance, treasury management, contributor compensation, working group formation
+
+**Why build this after MVP:**
+
+Once we've proven that individual inixiatives work (MVP phase), instituxions become the natural next layer:
+
+1. **Proof of concept validated:** Inixiatives demonstrate the core mechanisms (escrow, governance, flow builder) work at small scale
+2. **Lifecycle management unlocked:** Instituxions need persistent governance, not just one-off projects - this is where advanced features like automatic sunset, renewal mechanisms, and nested hierarchies become necessary
+3. **Revenue diversification:** Enterprise subscriptions from instituxions fund platform development, reduce dependence on transaction fees from grassroots inixiatives
+4. **Network effects:** Employees exposed to inixiative governance at work bring it to their communities, neighborhoods, side projects → viral growth
+5. **Credibility:** "Google uses this for internal budgeting" legitimizes platform for skeptical adopters
+6. **Data & learning:** Instituxional deployments generate rich data on what governance mechanisms work in different contexts
+7. **Political protection:** When established instituxions use the platform, governments are less likely to shut it down (creates powerful constituency defending it)
+
+**The progression:** Prove inixiatives work (MVP) → Add instituxional governance layer (Fast Follow) → Instituxions spawn many inixiatives → Platform becomes infrastructure for both time-bounded projects and persistent organizations.
+
+**See Section 7.7 for full details on instituxional deployment models, revenue strategy, and implementation.**
 
 ### 7.2 Core Features (Minimum Viable)
 
