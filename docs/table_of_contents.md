@@ -75,6 +75,7 @@ You cannot address economic stagnation without understanding competitive saturat
 
 **THEME 2: Structural Collapse Dynamics (HOW it fails)**
 - 1.3 Peter Turchin — Cliodynamics & Structural-Demographic Crisis Theory
+- 1.3A Polybius — Anacyclosis: The Original Cyclical Theory (Monarchy → Tyranny → Aristocracy → Oligarchy → Democracy → Ochlocracy)
 - 1.4 Dani Sulikowski — Intrasexual Competition & Fertility Suppression (Universe 25)
 - 1.5 Joseph Tainter — The Collapse of Complex Societies
 - 1.6 Jiang — Death by Meritocracy & Death by Bureaucracy (Death of the Generalist, Dunning-Kruger amplification, lawyer monoculture)

@@ -528,6 +528,54 @@ Historical societies understood that uncapped inequality eventually produces rev
 
 The diagnosis isn't that inequality exists—some inequality can reflect genuine value creation and provide incentive gradients. The diagnosis is that modern systems lack mechanisms to prevent runaway concentration that destroys social cohesion and cooperative capacity. When wealth inequality passes certain thresholds, the rich and poor inhabit different worlds with incompatible interests, cooperation becomes impossible, and the system defaults to extraction and control.
 
+### 1.3A Polybius — Anacyclosis: The Original Cyclical Theory
+
+Two thousand years before Turchin used mathematics to map historical cycles, the Greek historian Polybius identified the **Cycle of Political Decay (Anacyclosis)**. Writing in the 2nd century BCE after observing the rise and fall of Greek city-states and the Roman Republic, Polybius concluded that every "pure" form of governance inevitably corrupts into its toxic opposite due to **generational forgetting and elite entitlement**.
+
+**The Polybian Cycle:**
+
+The cycle is deterministic, not contingent:
+
+1. **Monarchy** (virtuous rule by one) → **Tyranny** (corrupt rule by one seeking personal gain)
+2. Tyranny is overthrown by the aristocratic class, establishing **Aristocracy** (virtuous rule by the competent few)
+3. **Aristocracy** → **Oligarchy** (corrupt rule by the few who extract rents and rig the system for their benefit)
+4. Oligarchy is overthrown by the masses, establishing **Democracy** (virtuous rule by the many with broad participation)
+5. **Democracy** → **Ochlocracy** (mob rule—demagogues manipulate the masses, reason gives way to passion, policy becomes reactive)
+6. Ochlocracy produces chaos, and a strongman emerges to restore order, returning to **Monarchy**
+
+The cycle repeats endlessly. No pure form is stable.
+
+**Why this happens:** The children of those who established good government don't remember why the system was built. They inherit privilege without the struggle that taught restraint. The second generation takes stability for granted and optimizes for personal gain rather than collective welfare. Virtue degrades into vice within 2-3 generations.
+
+**Polybius's solution: The Mixed Constitution**
+
+Polybius argued that the only way to slow or escape the cycle is a **mixed constitution**—a system that blends monarchic decisiveness, aristocratic competence, and democratic legitimacy. Each element checks the others' tendency toward corruption:
+
+- **Monarchic element:** Enables decisive action and coherent long-term strategy
+- **Aristocratic element:** Ensures competent administration and expertise in decision-making
+- **Democratic element:** Provides legitimacy, prevents tyranny, ensures government serves popular welfare
+
+The Roman Republic (during its functional period) embodied this: Consuls (monarchic), Senate (aristocratic), and Tribunes/Assemblies (democratic). When one element became too powerful, the system corroded—which is exactly what happened as the Senate became oligarchic and the Republic collapsed into Empire.
+
+**Why Polybius matters for this whitepaper:**
+
+**1. Validates cyclical diagnosis over linear progress:** Polybius identified 2000 years ago what Turchin proves with data: history is cyclical, not linear. The "Best Time Ever" narrative ignores that we're in a predictable stage of decay.
+
+**2. Identifies our current position in the cycle:** We are trapped between late-stage **Oligarchy** (financialized elites, regulatory capture, wealth concentration) and rising **Ochlocracy** (populism, cancel culture, viral outrage, mob justice, epistemic collapse). The cycle predicts what comes next: chaos, then strongman restoration.
+
+**3. Refutes "pure democracy" as the solution:** Direct democracy isn't the goal—it's a stage in the decay cycle. Systems that rely purely on majority rule without competence filters or checks on mob dynamics inevitably degenerate into ochlocracy. This gives intellectual grounding for **mixed governance** approaches.
+
+**4. Ancient precedent for modular governance:** Polybius's mixed constitution is the 2000-year-old version of what this whitepaper proposes: **dynamic mixed governance** that combines different modes depending on context:
+   - **Monarchic decisiveness:** Act → Ratify mechanisms (Section 6.6A) for crisis response
+   - **Aristocratic competence:** Expertise weighting and thin elite management (Section 4.6)
+   - **Democratic legitimacy:** Continuous accountability, point-voting, approval-based participation (Sections 4.7, 6.7)
+
+The difference: instead of a static constitutional blend that eventually ossifies, we use **software-enabled modularity** to adapt the mixture dynamically. Different problems require different balances. Crisis demands speed (monarchic). Technical decisions demand expertise (aristocratic). Value-laden tradeoffs demand broad legitimacy (democratic).
+
+**5. Explains why "just more democracy" fails:** Pure forms fail. More voting, more participation, more direct democracy without competence filters and anti-mob mechanisms leads to ochlocracy. This isn't cynicism—it's 2000 years of empirical observation. Governance systems must balance competing forces, not maximize one element.
+
+**The Polybian warning for our moment:** We are experiencing precisely what Polybius predicted: oligarchic capture triggering populist backlash, which is degenerating into mob rule and epistemic chaos. If the cycle continues, the next stage is strongman authoritarianism promising to restore order. The window to build alternative governance infrastructure—before the cycle completes—is closing.
+
 ### 1.4 Dani Sulikowski — Intrasexual Competition & Fertility Suppression
 
 Dani Sulikowski's research on intrasexual competition reveals a profound mechanism: competitive saturation in hierarchical environments—particularly female intrasexual hierarchies—suppresses both fertility and prosocial behavior. This finding generalizes beyond gender to a universal pattern: **when populations swell and internal competition dominates, cooperative norms collapse**.
