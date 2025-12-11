@@ -568,7 +568,7 @@ Without anti-exhaustion mechanisms, any sensemaking infrastructure gets captured
 
 **Humility: This is largely unsolved**
 
-We do not claim to have solved the sensemaking problem. These are among the hardest challenges in governance design. The platform provides **tools for communities to experiment** (tunable controversy detection, multi-view display options, routing mechanisms, meta-governance overrides), not prescriptive solutions.
+We do not claim to have solved the sensemaking problem. These are among the hardest challenges in governance design. Systems should provide **tools for communities to experiment** (tunable controversy detection, multi-view display options, routing mechanisms, meta-governance overrides), not prescriptive solutions.
 
 All proposed mechanisms are gameable and require careful design, continuous measurement, and iteration based on observed attacks. Different communities will need different configurations. What works at small scale may break at large scale.
 
@@ -670,7 +670,7 @@ Managerialism (Section 1.6) is the failure mode: agents capture institutions and
 
 **Act → Ratify (High Speed):** Agent executes with delegated authority, Principal maintains continuous approval monitoring. If approval drops, execution halts. Appropriate for time-sensitive or iterative decisions (emergency response, operational adjustments).
 
-**Why this matters:** Different problems have different speed/risk tradeoffs. Constitutional decisions need consensus. Operational decisions need speed. The platform enables communities to configure which authorities operate in which mode.
+**Why this matters:** Different problems have different speed/risk tradeoffs. Constitutional decisions need consensus. Operational decisions need speed. Systems should enable communities to configure which authorities operate in which mode based on context.
 
 #### 4. Thin Elites (Anti-Empire Building)
 
@@ -684,9 +684,9 @@ Managerialism (Section 1.6) is the failure mode: agents capture institutions and
 - Compensation structured to reward mission accomplishment, not staff count
 
 **Institutional sunset (Section 4.8):**
-- Policies and roles face periodic review (exponential backoff if successful)
-- Low-engagement = automatic sunset
-- Default is discontinuation; continuation requires rejustification
+- Policies and roles should face periodic review (longer intervals if successful)
+- Low-engagement should trigger automatic sunset
+- Default should be discontinuation; continuation requires rejustification
 
 **Anti-accumulation:**
 - Leaders cannot create sub-positions without community approval
@@ -702,10 +702,10 @@ Managerialism (Section 1.6) is the failure mode: agents capture institutions and
 **Requirement:** Leadership must be **temporary by default**, with multiple mechanisms preventing permanent entrenchment.
 
 **Rotation mechanisms:**
-- **Term limits:** Explicit or probabilistic expiration
-- **Reputation caps:** Past leadership doesn't guarantee future leadership (prevents dynasty formation)
-- **Randomized steward selection:** For some roles, randomization dilutes elite coordination and prevents capture
-- **Forced turnover:** Automatic removal when political capital depletes below threshold
+- **Term limits:** Leadership positions should have explicit or probabilistic expiration
+- **Reputation caps:** Past leadership shouldn't guarantee future leadership (prevents dynasty formation)
+- **Randomized selection:** For some roles, randomization can dilute elite coordination and prevent capture
+- **Performance-based removal:** Automatic removal when legitimacy/political capital depletes below threshold
 
 **Why this works:** When leadership is temporary and conditional on performance, elites cannot form stable extractive coalitions. The threat of removal disciplines behavior. Fresh perspectives prevent institutional sclerosis.
 
@@ -722,9 +722,9 @@ Managerialism (Section 1.6) is the failure mode: agents capture institutions and
 **Financial consequences:** Leader compensation must be tied to long-horizon policy success. Leaders lose income when their policies fail or get revoked. They profit from durable success, not short-term positioning.
 
 **Removal mechanisms:**
-- Approval battery depletion triggers automatic removal
-- Community can force emergency review with supermajority opposition
-- Expulsion for major violations (fraud, abuse of authority)
+- Legitimacy/approval depletion should trigger automatic removal
+- Community should be able to force emergency review with high-threshold opposition
+- Major violations (fraud, abuse of authority) should enable expulsion
 
 **Proportionality (connects to NICE-Forgiving, Section 4.1):** Minor mistakes receive minor penalties and allow recovery. Major predation triggers removal. The system distinguishes incompetence from malice.
 
@@ -735,7 +735,7 @@ Managerialism (Section 1.6) is the failure mode: agents capture institutions and
 This is the **Selectorate Theory** (Bueno de Mesquita): leaders optimize for their **minimum winning coalition**, not the general welfare. Divisive positioning keeps you in power: keep 51% happy with targeted benefits, ignore or punish the 49%. Result: leaders govern for narrow factions rather than broad public goods.
 
 **Why legacy voting enables this:**
-- Binary votes (Section 4.11) can't distinguish broad support from narrow support
+- Binary votes (Section 4.13) can't distinguish broad support from narrow support
 - 51% majority, even if barely committed, defeats 49% minority, even if intensely opposed
 - No measurement of engagement—leaders can't tell if support is passionate or indifferent
 - Elections are infrequent—leaders optimize for approval on election day, not continuous performance
@@ -806,7 +806,7 @@ This structurally pushes leaders toward public goods (broad benefits, widely app
 
 **Non-monetary status pathways:** High-status positions must be accessible through non-financial means—randomized selection for some roles, reputation-based appointments, community service. This ensures talented people without wealth can access elite positions.
 
-**Progressive wealth constraints (optional, controversial):** Communities may choose to constrain extreme wealth accumulation to fund public goods. This is contentious and difficult to implement (capital flight, gaming, enforcement challenges). Platform enables communities to experiment with this but does not prescribe it.
+**Progressive wealth constraints (optional, controversial):** Communities may choose to constrain extreme wealth accumulation to fund public goods. This is contentious and difficult to implement (capital flight, gaming, enforcement challenges). Systems should enable communities to experiment with this but not prescribe it universally.
 
 **The tradeoff—incentivizing value creation vs. preventing plutocracy:**
 
@@ -814,7 +814,7 @@ This structurally pushes leaders toward public goods (broad benefits, widely app
 
 **Too much wealth concentration:** Plutocracy. Billionaires rewrite rules. Democracy becomes theater. Counter-elites revolt (see: French Revolution, Gilded Age, current trajectory).
 
-**The platform enables communities to tune this tradeoff:**
+**Governance systems should enable communities to tune this tradeoff:**
 
 Some communities might allow wide wealth distributions but impose strict firewalls between wealth and political power (you can be a billionaire, but you can't buy elections or regulatory favors).
 
@@ -826,7 +826,7 @@ Others might use alternative status systems—reputation, contribution history, 
 
 **Why this belongs in elite alignment:** Plutocracy is a specific failure mode of the Principal-Agent problem. When agents (leaders) can accumulate unconstrained wealth and use that wealth to entrench their power, buy loyalists, and rewrite rules, the feedback mechanisms that align them with principals (community) break down. Bounded wealth-power fungibility keeps the system accountable.
 
-**This is fundamentally experimental.** Different communities will find different equilibria. Startup-heavy communities might tolerate extreme wealth differentials to incentivize risk-taking. Worker co-ops might implement strict ratio caps. The platform provides tools for experimentation, not universal prescriptions.
+**This is fundamentally experimental.** Different communities will find different equilibria. Startup-heavy communities might tolerate extreme wealth differentials to incentivize risk-taking. Worker co-ops might implement strict ratio caps. Systems should provide tools for experimentation, not universal prescriptions.
 
 #### 9. Credentialism vs. Competence (The Selection Problem)
 
@@ -910,7 +910,7 @@ Credentialism and populism are both symptoms of Principal-Agent failure:
 
 **Populism:** When principals lose faith in credentialed agents, they swing to charismatic outsiders who may be even less competent but at least feel responsive. This doesn't solve the alignment problem; it just replaces one failed agent type with another.
 
-**The platform's approach:** Select for demonstrated competence through multiple pathways, maintain continuous accountability through performance tracking, prevent both credentialed insularity and populist anti-expertise through structural mechanisms.
+**The requirements:** Systems must select for demonstrated competence through multiple pathways, maintain continuous accountability through performance tracking, and prevent both credentialed insularity and populist anti-expertise through structural mechanisms.
 
 **The Shift in Equilibrium:**
 
@@ -1018,7 +1018,7 @@ Nested contexts should:
 
 **Why this is a requirement, not a solution:**
 
-We're not prescribing specific governance templates. We're requiring that the platform support communities in creating context-appropriate governance structures. A system that forces all collective action through identical processes will systematically fail in contexts that require different speed/consensus/authority tradeoffs.
+We're not prescribing specific governance templates. We're requiring that systems support communities in creating context-appropriate governance structures. A system that forces all collective action through identical processes will systematically fail in contexts that require different speed/consensus/authority tradeoffs.
 
 **Connection to other principles:**
 - **Section 4.3 (Make Cooperation Cheap):** Context-appropriate governance reduces friction
@@ -1173,7 +1173,7 @@ North's distinction between allocative efficiency (optimizing within existing ru
 
 **Benefit of different rules:** Exploration of solution space, local optimization, contained failure modes, innovation.
 
-**The platform enables both:** Mechanisms for local experimentation AND mechanisms for emergent standardization where beneficial. Communities decide the tradeoff dynamically.
+**Systems should enable both:** Mechanisms for local experimentation AND mechanisms for emergent standardization where beneficial. Communities decide the tradeoff dynamically.
 
 ### 4.12 Resist the Tyranny of Metrics
 
@@ -1263,7 +1263,7 @@ The constitutional framework still matters, but it's insufficient without additi
 
 **Rights subsidiarity as active protection:**
 
-The platform must **actively enforce rights subsidiarity** rather than passively hoping institutions respect constitutional limits:
+Systems must **actively enforce rights subsidiarity** rather than passively hoping institutions respect constitutional limits:
 
 **1. Enumerated powers with burden of proof on expansion:**
 - Communities explicitly delegate specific, limited powers to collective entities
@@ -1295,7 +1295,7 @@ The platform must **actively enforce rights subsidiarity** rather than passively
 
 **What rights are fundamental vs. negotiable?**
 
-We don't prescribe a specific rights framework—that's for communities to determine. But the platform should support communities that want to protect:
+We don't prescribe a specific rights framework—that's for communities to determine. But systems should support communities that want to protect:
 
 - **Bodily autonomy:** Control over your own person, medical decisions, movement
 - **Property rights:** Control over your legitimately-acquired resources
@@ -1304,11 +1304,11 @@ We don't prescribe a specific rights framework—that's for communities to deter
 - **Due process:** Fair procedures before punishment, no arbitrary deprivation
 - **Exit:** Leave communities that don't serve you (Section 4.7)
 
-Different communities will prioritize these differently. Libertarian communities might maximize individual property rights. Communitarian groups might subordinate property to collective needs. Religious communities might have different speech norms. **The platform enables experimentation with different rights configurations** rather than imposing one model.
+Different communities will prioritize these differently. Libertarian communities might maximize individual property rights. Communitarian groups might subordinate property to collective needs. Religious communities might have different speech norms. **Systems should enable experimentation with different rights configurations** rather than imposing one model.
 
 **The tradeoff: Security vs. liberty**
 
-There's genuine tension between collective security (which may require coordination, surveillance, or constraint on individual action) and individual liberty (which resists such impositions). We don't resolve this tension with a universal answer. Instead, the platform enables communities to:
+There's genuine tension between collective security (which may require coordination, surveillance, or constraint on individual action) and individual liberty (which resists such impositions). We don't resolve this tension with a universal answer. Instead, systems should enable communities to:
 
 1. **Make explicit tradeoffs:** Clearly enumerate what powers are delegated and what rights are protected
 2. **Experiment with different balances:** Some communities maximize security, others maximize liberty
