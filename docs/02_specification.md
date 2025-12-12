@@ -218,6 +218,8 @@ Communities observe each other's experiments, adopt what works, avoid what fails
 
 ### 3.6 Dialectic Design: Optimization Under Constraint
 
+**"Doubt is not a pleasant condition, but certainty is absurd."** — Voltaire (Letter to Frederick II, 1767)
+
 **The Insight:**
 
 Complex systems fail when they attempt to maximize a single variable. "Maximum Efficiency" leads to fragility. "Maximum Stability" leads to sclerosis. "Maximum Transparency" leads to the Panopticon.
