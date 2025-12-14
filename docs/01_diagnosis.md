@@ -1898,3 +1898,31 @@ These reports provide specific statistics, exact dates, methodological caveats, 
 
 **Continue to [Document 2: The Specification →](02_specification.md)**
 
+---
+
+## Postscript: On Emergent Coordination and the "Vibe" of Conspiracy
+
+Readers of this diagnosis may notice that the outcomes described—the destruction of the middle class, the hollowing out of institutions, the suppression of fertility, and the shift toward technocratic control—align closely with various modern "conspiracy theories."
+
+There is a reason for this alignment.
+
+The visceral sense that a "cabal" or "Deep State" is deliberately engineering civilizational suicide is a natural human reaction to **emergent coordination**. When ten sharks attack the same prey simultaneously, it looks like a coordinated ambush. In reality, it is ten individual organisms responding to the same chemical signal in the water.
+
+In our case, the "signal" is the Complexity Gap and competitive saturation.
+
+Every elite institution is currently responding to the same structural pressure: secure dwindling positions, purge the counter-elite aspirant class through competitive mechanisms, and pull up the ladder of institutional standards to protect incumbents. They do not need to meet in secret to coordinate; their survival incentives have simply aligned against the common interest.
+
+**We are not witnessing a plot, but a phase shift.** The system is transitioning to competitive mode, which "uninstalls" the software of cooperation (morality, trust, utility-selection) because within the current broken governance architecture, those things have become maladaptive for individuals competing for scarce elite positions.
+
+The fear of a "Great Reset" is the intuitive recognition that the 75% Path (collapse) is already in motion. The sense that "elites are out to get you" reflects the reality that competitive saturation makes aspirants—the credentialed middle class competing for limited elite positions—the primary threat to incumbent elites. Turchin's data shows revolutions come not from the poor, but from frustrated counter-elites. The "chemotherapy for the elite aspirant class" is not conspiracy—it's rational competitive strategy during saturation.
+
+**The conspiracy theorists are detecting real patterns.** Luxury beliefs do impose costs on aspirants while signaling elite status. Institutional barriers are being removed to flood institutions with competitors (protecting incumbents). Cooperation infrastructure is collapsing. The middle class is being crushed. These are not fantasies.
+
+But the mechanism is **distributed emergence**, not centralized control. Every elite facing saturation independently discovers the same adaptive strategies—luxury beliefs, barrier removal, credential inflation, rent extraction—because these strategies work. They converge on similar beliefs not because they got orders from Davos, but because **certain beliefs are adaptive class markers during competitive saturation**. It feels coordinated because evolutionary pressures produce identical behaviors independently.
+
+This makes the situation more dangerous, not less. You cannot arrest Klaus Schwab and fix it, because **any elite class facing saturation will rediscover these strategies**. The problem isn't the people—it's the phase we're in: competitive mode during saturation.
+
+This whitepaper argues the only escape is the 25% Path: not through a "reset" of power, but through an **upgrade of the coordination technology** that allows us to raise the ceiling, switch the biological sensor back to cooperative mode, and make cooperation cheap at civilizational scale again.
+
+The alternative is the 75% Path. And this time, with extinction-capable technology, the 75% Path might be terminal.
+
