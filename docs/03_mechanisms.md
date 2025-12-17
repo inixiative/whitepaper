@@ -1897,18 +1897,465 @@ These mechanisms don't eliminate capture risk—nothing can—but they shift str
 
 #### Implementation Mechanics
 
-**To create new currency units:** Generate energy and commit it to the network. This ties money creation directly to productive capacity.
+**Core principle:** 1 kWh produced = 1 coin minted. 1 kWh consumed = 1 coin burned. Money creation is thermodynamically constrained—you cannot print energy.
 
-**Verification:** Energy generation must be cryptographically provable. Potential mechanisms:
-- Smart meters with cryptographic attestation
-- Integration with grid operators for verification
-- Decentralized oracle networks for energy production claims
-- Physical proof-of-work (similar to Bitcoin mining but with useful energy output)
+**The liquidity problem:** If coins are only minted after production and burned upon consumption, the system faces severe friction:
+- New producers can't create initial supply (cold start problem)
+- Supply constantly drains as energy is consumed
+- Cannot respond to demand spikes in real-time
+- Commerce strangles from lack of circulating medium
 
-**Currency properties:**
-- **Not a store of value** - Deliberately inflationary as energy production grows
-- **Money-as-economic-lubricant** - Designed to facilitate transactions, not hoarding
-- **Complementary to other stores of value** - Communities may still need real estate, productive assets, gold, Bitcoin for wealth preservation
+**The fractional reserve trap:** Traditional banking "solves" liquidity through recursive lending (banks hold 10% reserves, loan 90%, which gets redeposited, enabling 10x money multiplication). This is precisely the rent extraction mechanism we're eliminating. We need liquidity without fractional reserves.
+
+**The solution: Buffer system with full escrow backing**
+
+Producers can mint coins against planned future production, but only if they post **100% collateral in store-of-value assets** (Bitcoin, gold, real property, stablecoins). This provides liquidity while maintaining 1:1 backing—every coin is backed by either past production (verified) or future commitment (fully escrowed).
+
+##### Producer Registration & Capacity Verification
+
+**Registration requirements:**
+1. **Verified production capacity** - Cryptographic proof of generation capability
+   - Grid connection documentation (utility/ISO confirmation)
+   - Equipment specifications (solar array size, wind turbine capacity, nuclear reactor output)
+   - Historical production data (if established producer)
+
+2. **Identity & jurisdiction** - Legal accountability
+   - Corporate/individual registration
+   - Jurisdiction for legal enforcement
+   - Anti-fraud compliance (KYC for producers, not necessarily consumers)
+
+3. **Initial escrow deposit** - Store-of-value collateral
+   - Bitcoin, stablecoins, gold, real estate, or other non-kWh assets
+   - Amount proportional to requested buffer size
+   - Locked in smart contract, released only upon deregistration with clean record
+
+**Why registration?** Prevents Sybil attacks (spinning up fake producers with imaginary capacity), enables capacity-based limits on minting, creates legal accountability for fraud.
+
+##### Buffer Mechanism: Minting Against Future Production
+
+**Buffer definition:** The maximum amount of kWh-coins a producer can mint ahead of verified production, based on their proven capacity.
+
+**Capacity-based limits:**
+- Small-scale (rooftop solar, <100 kW): 1-week buffer
+- Medium-scale (community solar/wind, 100kW-10MW): 2-week buffer
+- Large-scale (utility solar/wind, 10MW-1GW): 1-month buffer
+- Baseload (nuclear, geothermal, hydro >1GW): 6-week buffer (rewarding consistency)
+
+**Example:**
+- Solar farm with 10 MW capacity, average 70% capacity factor
+- 1-month buffer = 10,000 kW × 24 hours × 30 days × 0.7 = 5,040 kWh maximum buffer
+
+**Escrow requirement for buffer activation:**
+- To unlock 5,040 kWh buffer, must post escrow = 5,040 kWh worth of store-of-value
+- If market price is $0.15/kWh → escrow = $756 in Bitcoin/gold/stablecoins
+- **This is 100% backing** - no fractional reserve
+
+**New producers can start small:**
+- 10 MW solar farm doesn't need $756 escrow on day 1
+- Start with 1-week buffer: 1,176 kWh × $0.15 = $176 escrow (much more achievable)
+- After weeks/months of profitable operation, accumulate profits to stake larger buffer
+- Timeline: ~6-12 months of reliable operation naturally builds escrow for maximum buffer
+
+##### Circulation Flow: How Coins Move Through The Economy
+
+**Minting:**
+1. Producer mints 1,000 kWh-coins against buffer (verified capacity, sufficient escrow)
+2. Buffer capacity decreases by 1,000 kWh (tracking "debt" owed to system)
+3. Coins enter circulation (sold to consumers, paid to workers, etc.)
+
+**Consumption:**
+1. Consumer purchases energy, pays 1,000 kWh-coins
+2. Those coins are **burned** (removed from circulation entirely)
+3. Producer's buffer capacity **regenerates** by 1,000 kWh (debt paid)
+
+**Net effect:**
+- Circulating supply stays roughly constant (coins burned = buffer capacity restored)
+- No liquidity drain despite constant burning
+- Producer can mint new coins as old ones are burned
+
+**Production verification:**
+1. Grid operators/smart meters verify actual energy produced
+2. If producer generated more than they minted, buffer stays healthy
+3. If producer generated less than they minted, shortfall accumulates
+
+**Example cycle:**
+- **Week 1:** Producer mints 2,000 coins (buffer capacity: 3,040 remaining of 5,040)
+- **Week 1 consumption:** Consumers burn 1,800 coins (buffer regenerates to 4,840)
+- **Week 1 production:** Producer actually generates 2,100 kWh (verified)
+- **Week 1 net:** +100 kWh ahead of commitments (healthy)
+
+##### Escrow Liquidation: Enforcing 100% Backing
+
+**Shortfall scenario:**
+- Producer mints 2,000 coins but only produces 1,500 kWh (verified)
+- Shortfall: 500 kWh-coins exist that are unbacked by production
+- **System response:** Escrow is automatically liquidated
+
+**Liquidation process (smart contract executed):**
+1. Calculate shortfall: 500 kWh × market price = $75 worth of backing needed
+2. Liquidate $75 of producer's escrowed Bitcoin/gold/stablecoins
+3. Use liquidated funds to **purchase 500 kWh-coins from other producers** on open market
+4. **Burn those purchased coins** (removing unbacked supply)
+5. Reduce producer's maximum buffer capacity proportionally
+
+**Result:** System remains 100% backed. Every coin in circulation represents real produced energy. Fraudulent producer bears the cost (lost escrow), not coin holders.
+
+**Graduated penalties:**
+
+1. **Minor shortfall (<5% of commitment):**
+   - Partial escrow liquidation to cover gap
+   - Warning issued (weather variance, equipment hiccups happen)
+   - Buffer capacity reduced 10% for next period
+
+2. **Moderate shortfall (5-15%):**
+   - Escrow liquidation to purchase makeup coins
+   - Buffer capacity reduced 25% for next period
+   - Reputation score damaged (affects insurance rates, future buffer limits)
+
+3. **Severe shortfall (>15%) or repeated failures:**
+   - Escrow liquidation (may not fully cover if catastrophic)
+   - Minting privileges suspended until escrow refilled AND track record rebuilt
+   - Legal prosecution for fraud (criminal charges if intentional deception)
+   - Remaining escrow held as insurance reserve
+
+4. **Force majeure (natural disasters, grid failures):**
+   - Third-party verification required (grid operator incident reports, insurance adjusters)
+   - Temporary suspension without penalties
+   - Buffer frozen until resolved, escrow intact
+
+**Honest producers benefit from dishonest ones:**
+- Fraudster's liquidated escrow purchases coins from reliable producers
+- Reliable producers receive premium: sold energy at market rate AND got paid extra from fraudster's escrow
+- Creates market incentive for reliability (chance to sell into bailout purchases)
+
+##### Verification Infrastructure: An Unsolved Hard Problem
+
+Energy generation must be cryptographically provable to prevent unbacked minting. **This is genuinely difficult.**
+
+**The requirement:** Verify that claimed energy production is real (not fabricated data, tampered meters, or fraudulent attestations).
+
+**The challenge:** Counterfeiting is an ongoing problem even with physical currency (sophisticated security features, Secret Service enforcement, yet counterfeit bills still circulate). Energy verification faces similar adversarial dynamics—distributed attack surfaces (thousands of meters), economic incentives to fraud (if kWh-coin = $0.15, falsifying production = direct theft), and potential collusion (grid operators + producers).
+
+**Likely approach:** Multi-node verification network where generation and consumption are measured throughout the grid, with reconciliation at each node. Discrepancies between claimed production, metered delivery, and actual consumption would trigger audits. Similar to how electrical grids already balance supply/demand in real-time, but with cryptographic attestation.
+
+**Why this doesn't invalidate the concept:**
+
+Even with imperfect verification, the kWh standard prevents the core fiat problem—**arbitrary money printing by those who control the currency**. Fraudsters must:
+- Post 100% escrow (economic cost)
+- Risk escrow liquidation when shortfalls detected (ex-post enforcement)
+- Face criminal prosecution (legal deterrence)
+
+Unlike fiat (where government prints at will), kWh fraud requires circumventing multiple systems and risking significant losses.
+
+**The honest assessment:** This is an active research problem. We don't have a complete solution. Implementation will require ongoing fraud detection, redundant measurement, and legal enforcement—similar to physical currency anti-counterfeiting operations.
+
+**Scope recommendation:** Start with small-scale implementations (regional currencies, trusted communities, known producers) where verification is more tractable. Scale cautiously as verification infrastructure matures.
+
+##### Time-of-Day Pricing & Market Efficiency
+
+**The baseload problem:** Energy value varies by time. Grid demand peaks mornings/evenings, troughs overnight. Solar produces midday (low demand), nothing at night (high demand). 1 kWh at 3am ≠ 1 kWh at 7pm in grid value.
+
+**Protocol stance:** 1 kWh = 1 coin, period. Protocol doesn't pick winners (no time-weighting at minting).
+
+**Market handles pricing:**
+- kWh-coins carry metadata: production timestamp, source type, location
+- Free market prices coins accordingly
+  - Peak-hour coins trade at premium (e.g., 1.3x)
+  - Off-peak coins trade at discount (e.g., 0.7x)
+- Arbitrage opportunities create price discovery
+
+**Example:**
+- Nuclear plant generates 1,000 kWh at 3am → mints 1,000 coins
+- Solar farm generates 1,000 kWh at noon → mints 1,000 coins
+- Market prices nuclear coins higher (consistent baseload valuable for grid stability)
+- Solar producer accepts lower price (supply glut at midday)
+
+**Storage arbitrage:**
+- Battery operator buys 1,000 off-peak coins (cheap)
+- Stores energy (batteries, pumped hydro, thermal)
+- Discharges during peak, sells 1,000 coins (expensive)
+- Profit = peak price - off-peak price - storage losses
+- **This incentivizes grid storage without central planning**
+
+**Baseload premium (market-driven, not protocol):**
+- Consistent 24/7 sources (nuclear, geothermal, hydro) naturally command premium
+- Reduces grid instability costs (no need for expensive peaker plants)
+- Nuclear advantage: flattens daily production curve, simplifies pricing
+
+**Intermittent sources adapt:**
+- Solar/wind couple with storage to sell peak-hour coins
+- Or accept off-peak pricing (lower margins but still profitable if LCOE competitive)
+- Market forces optimal technology mix, not regulatory mandates
+
+##### Producer Economics: Profit Through Natural Arbitrage
+
+**No protocol profit manipulation.** Producers earn profits the same way any business does: sell products for more than cost of production.
+
+**Cost structure (example solar farm):**
+- Capital: $1M (panels, inverters, land, installation)
+- Annual production: 10,000 MWh
+- Operating costs: $10,000/year (maintenance, insurance, cleaning)
+- Lifetime cost per kWh: ~$0.10 (amortized over 25 years)
+
+**Revenue:**
+- Mint 10,000 MWh-coins/year
+- Sell at market price: $0.15/kWh
+- Annual revenue: $1.5M
+- Annual profit: $1.4M (minus capital amortization)
+
+**Producer profits when:**
+- Production costs < market price (efficiency, location, technology advantages)
+- Technology improves (solar costs dropped 90% in 15 years)
+- They provide valuable services (baseload, peak capacity, grid stability)
+
+**Producer loses when:**
+- Production costs > market price (inefficient, obsolete tech, bad location)
+- Competition drives prices down
+- Escrow liquidation due to unreliability
+
+**This is market discipline** - efficient producers profit and expand, inefficient ones exit. No protocol manipulation (no "produce 1 kWh, receive 1.1 coins" subsidy). Maintains thermodynamic 1:1 relationship.
+
+**Buffer enables profitable operation:**
+- Without buffer: must produce before minting (cash flow nightmare, can't respond to demand)
+- With buffer: mint ahead, sell at peak prices, produce on schedule, smooth cash flow
+- Escrow requirement funded naturally through profitable operation (6-12 months → full buffer unlocked)
+
+##### Preventing Fractional Reserve: Why This Isn't Banking 2.0
+
+**Fractional reserve banking (what we're avoiding):**
+1. Bank receives $100 deposit
+2. Loans $90 (holds 10% reserve)
+3. Borrower deposits $90 at Bank B
+4. Bank B loans $81 (holds $9 reserve)
+5. Recursive multiplication: $100 → $1,000 in "money" (10x leverage)
+
+**Result:** Money supply decoupled from real assets, rent extraction through interest, bank runs when everyone wants cash simultaneously, bailouts when system fails.
+
+**kWh coin system (anti-fractional design):**
+1. Producer proves 10,000 kWh capacity
+2. Posts $1,500 escrow (10,000 kWh × $0.15 market price) = **100% collateral**
+3. Mints 10,000 kWh-coins
+4. **Those coins cannot be re-leveraged** - they're burned upon energy consumption
+5. No recursive multiplication: 10,000 kWh capacity → exactly 10,000 coins maximum
+
+**Key differences:**
+
+| Fractional Reserve Banking | kWh Coin (Full Escrow) |
+|---|---|
+| $100 deposit → $1,000 loans (10x) | 10,000 kWh capacity → 10,000 coins (1x) |
+| 10% reserves | 100% escrow backing |
+| Money created via lending | Money created via production |
+| Deposits can trigger bank runs | Escrow liquidates automatically |
+| Bailouts socialize losses | Fraudsters bear full cost |
+| Interest extracts rent | No interest (market pricing only) |
+
+**Protocol enforcement (smart contract logic):**
+```
+if (requested_mint + current_buffer_debt) > verified_capacity:
+    reject mint ("Exceeds capacity limit")
+
+if (requested_mint × market_price) > escrowed_collateral_value:
+    reject mint ("Insufficient escrow")
+
+if actual_production < minted_coins:
+    liquidate_escrow(shortfall)
+    burn_purchased_coins()
+```
+
+**This makes fractional reserve impossible at protocol level.** You physically cannot mint more coins than you have capacity + escrow to back.
+
+##### Government Role: Regulation Without Arbitrary Control
+
+**The critical distinction:** Regulating verification infrastructure is legitimate governance. Manipulating money supply for political ends is the fiat problem we're eliminating.
+
+**What government SHOULD enforce:**
+- **Verification standards:** Grid operators must submit accurate production data
+- **Fraud prosecution:** Criminal charges for intentional falsification
+- **Consumer protection:** Prevent Ponzi schemes, false advertising, market manipulation
+- **International coordination:** If multiple jurisdictions adopt, standard verification protocols
+- **Oracle security:** Ensure decentralized verification networks aren't compromised
+
+**What government CANNOT control:**
+- **Arbitrary money printing:** Supply determined by thermodynamics (actual energy production), not political will
+- **Monetary policy:** No central bank setting interest rates or inflation targets
+- **Exchange rates:** kWh-coin floats freely against other currencies based on market demand
+- **Credit expansion:** No fractional reserve, no recursive lending, no debt-based money creation
+
+**Precedent - weights and measures:**
+- Government enforces: "1 gallon must equal 3.785 liters" (verification standard)
+- Government doesn't manipulate: "We're redefining gallon to 4.5 liters to boost milk industry" (arbitrary control)
+- Same principle: Verify that 1 kWh-coin = 1 kWh produced, but don't print unbacked coins
+
+**Why this government role is acceptable (vs. fiat):**
+
+Cryptocurrency emerged because fiat money lacks tangible backing—government control becomes pure rent extraction (Cantillon Effect). But if currency IS backed by something real (energy), government regulation of verification becomes **necessary infrastructure**, not parasitism.
+
+**Analogy:**
+- Fiat: Government says "this paper is money because we say so" → trust us → prints arbitrarily
+- Gold standard: Government says "we'll redeem paper for gold" → often lies → Nixon closes gold window
+- kWh standard: Government says "we verify energy production" → thermodynamics enforces scarcity → can't print energy
+
+The verification role is legitimate because **the underlying constraint (thermodynamics) is physics, not politics.**
+
+##### Why You Need TWO Currencies: kWh Coins + Bitcoin
+
+**This is crucial:** kWh coins are NOT a store of value. They're economic lubricant. You need BOTH.
+
+**The fundamental problem (Graeber's insight from *Debt: The First 5,000 Years*):**
+
+Money serves two incompatible functions:
+
+1. **Store of Value** - Preserve wealth across time (requires scarcity, durability, resistance to debasement)
+2. **Economic Lubricant** - Facilitate transactions, coordinate production (requires supply matching economic activity)
+
+**No single currency can optimize for both.** Attempts to use one currency for both functions create systemic failures:
+
+**Failure Mode 1: Fixed-supply currency as lubricant (Graeber's Metallism Trap)**
+
+*Historical example: Spanish Silver & Ming China (16th-17th century)*
+
+- Spanish conquistadors flood Europe with American silver
+- Silver flows to Ming China (demanded for taxes/trade)
+- Fuels economic expansion initially
+- **But economy grows faster than silver supply**
+- Result: Commerce seizes up, deflation spiral, each coin more valuable → hoarding → credit crunch → systemic collapse
+- Economy contracts NOT because productive capacity declined, but because **medium of exchange couldn't scale**
+
+*Modern example: Bitcoin as primary transaction currency*
+
+- Bitcoin: perfect store of value (21M hard cap, immune to debasement)
+- Bitcoin as lubricant: terrible (fixed supply can't grow with economy)
+- If economy grows 3%/year but BTC supply fixed → deflation 3%/year
+- Each bitcoin more valuable over time → hoarding incentive → transactions strangle
+- **Recreates Ming silver crisis**
+
+**Failure Mode 2: Fiat currency as store of value (Cantillon Effect)**
+
+*Modern fiat problem:*
+
+- Fiat: decent lubricant (can expand supply as economy grows)
+- Fiat: terrible store of value (always overshoots → inflation)
+- **Cantillon Effect:** Those closest to money creation (central banks, major institutions) extract wealth from those furthest (savers, wage earners)
+- Your savings erode 3-7%/year as money supply expands
+- Political corruption: printing press enables elite rent extraction
+
+**The kWh + Bitcoin solution:**
+
+**kWh Coin = Economic Lubricant**
+- ✅ Elastic supply (grows with energy production)
+- ✅ Matches economic growth (as civilization produces more, currency supply increases)
+- ✅ Thermodynamically constrained (can't print arbitrarily, must actually generate energy)
+- ❌ Deliberately inflationary (supply grows ~3-5%/year as solar/nuclear scales)
+- ❌ DON'T save long-term wealth here
+
+**Bitcoin = Store of Value**
+- ✅ Fixed supply (21M hard cap, immune to debasement)
+- ✅ Digital scarcity (cryptographically enforced, permissionless)
+- ✅ Wealth preservation across decades
+- ❌ Deflationary if used as primary transaction currency
+- ❌ DON'T conduct daily commerce here
+
+**How they work together:**
+
+**Earning:**
+- Get paid for work/products in kWh-coins (the transaction currency)
+- Energy producers mint kWh-coins, pay workers in kWh-coins
+
+**Transacting:**
+- Buy groceries, pay rent, purchase services → kWh-coins
+- Currency flows through economy constantly (burned and reminted)
+- Supply stays roughly matched to economic activity
+
+**Saving:**
+- Earn more kWh-coins than you spend → convert excess to Bitcoin
+- Bitcoin holdings preserve purchasing power long-term
+- Or invest in real assets (property, businesses, productive capital)
+
+**Later consumption:**
+- Need to make large purchase → sell some Bitcoin for kWh-coins
+- Use kWh-coins for transaction
+- Coins burned upon energy consumption
+
+**The cycle:**
+1. Work → earn kWh-coins
+2. Spend what you need this month → kWh-coins (burned upon use)
+3. Save excess → convert to Bitcoin/gold/real assets (wealth preservation)
+4. Years later, need liquidity → sell Bitcoin → buy kWh-coins → transact
+5. Repeat
+
+**Why this avoids both failure modes:**
+
+✅ **No deflation spiral** (kWh supply elastic, matches economic growth)
+✅ **No Cantillon extraction** (kWh supply constrained by thermodynamics, can't print arbitrarily; wealth saved in BTC which has hard cap)
+✅ **Separation of functions** (transact in one currency, save in another)
+
+**Critical insight:** Trying to use Bitcoin for BOTH functions recreates Graeber's metallism trap (economy outgrows money supply). Trying to use fiat for BOTH creates Cantillon extraction. **The two-currency system eliminates both traps.**
+
+**Analogy:**
+- kWh coin : Bitcoin :: Checking account : Savings account
+- Keep enough in checking for monthly expenses (liquidity)
+- Keep long-term wealth in savings (preservation)
+- Don't try to use one account for both functions
+
+**Government can't control your savings:**
+
+Even if kWh coin system becomes corrupted somehow (captured regulators, fraudulent verification, political interference):
+- Your Bitcoin savings are unaffected (permissionless, decentralized, hard cap)
+- Can exit to other currencies/assets
+- kWh coin failure doesn't destroy your wealth
+
+**This is the protection mechanism:** Transact in kWh (regulated but thermodynamically constrained), save in Bitcoin (permissionless, cryptographically enforced). Together they provide liquidity + preservation without either failure mode.
+
+##### Summary: How The Complete System Works
+
+**Registration & Escrow:**
+1. Energy producer proves 10 MW capacity
+2. Chooses buffer size (start small: 1-week = 1,176 kWh)
+3. Posts 100% escrow: 1,176 kWh × $0.15 = $176 in Bitcoin/stablecoins
+4. Smart contract locks escrow, grants minting privileges up to buffer
+
+**Minting & Circulation:**
+1. Producer mints 500 kWh-coins against buffer (debt: 500 kWh)
+2. Sells coins to consumers for goods/services
+3. Consumers use energy, pay 500 kWh-coins → coins burned
+4. Buffer regenerates: debt reduced to 0, can mint again
+
+**Production Verification:**
+1. Grid operator/smart meters verify: producer generated 520 kWh (actual)
+2. Minted 500, produced 520 → surplus of 20 kWh (healthy)
+3. Buffer remains healthy, escrow intact
+
+**Shortfall & Enforcement:**
+1. Next period: mints 800 coins, produces only 700 kWh (verified)
+2. Shortfall: 100 kWh unbacked
+3. Smart contract liquidates: $15 of escrowed Bitcoin
+4. Purchases 100 kWh-coins from other producers
+5. Burns purchased coins → system 100% backed again
+6. Producer's buffer reduced, warning issued
+
+**Profitable Growth:**
+1. Operate reliably for 6 months, earn profits
+2. Profits stake larger escrow
+3. Unlock bigger buffer (6-month track record → 1-month buffer)
+4. Increase minting capacity without new capital
+5. Scale up to maximum buffer over 12-24 months
+
+**Two-Currency Usage:**
+1. Consumers earn wages in kWh-coins
+2. Spend on daily needs → kWh-coins (burned upon consumption)
+3. Save excess → convert to Bitcoin (long-term wealth preservation)
+4. Later: sell Bitcoin → buy kWh-coins → transact
+5. Never hoard kWh-coins long-term (supply grows 3-5%/year as energy production scales)
+
+**System Properties:**
+- ✅ Thermodynamic constraint (1 kWh = 1 coin, can't print energy)
+- ✅ Liquidity without fractional reserve (buffer with 100% escrow)
+- ✅ Fraud prevention (escrow liquidation, capacity limits, multi-layer verification)
+- ✅ Market efficiency (time-of-day pricing, storage arbitrage, technology competition)
+- ✅ Natural profit mechanism (production cost vs. market price, no protocol manipulation)
+- ✅ Government regulation justified (verification infrastructure) but constrained (can't print money)
+- ✅ Paired with Bitcoin for wealth preservation (solves Graeber's dilemma)
+- ✅ Scales with civilization (supply grows with energy production, matches economic growth)
 
 #### The Graeberian Distinction: Store of Value vs. Economic Lubricant
 
