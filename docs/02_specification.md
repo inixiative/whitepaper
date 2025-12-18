@@ -24,17 +24,79 @@ Section 1 diagnosed what is broken through the lens of various thinkers. Section
 
 Think of this as the design philosophy layer: the principles and frameworks from evolutionary biology, complex systems theory, information theory, and software engineering that guide our approach to institutional architecture.
 
-### 3.1 Evolutionary Light Cones: What Can Systems See?
+### 3.1 Multiscale Competency: The Cancer Problem and Governance as Bioelectricity
 
-Michael Levin's work on developmental biology reveals a profound insight: intelligence and problem-solving exist at every scale of biological organization, not just in brains. Cells make decisions, tissues coordinate, organs adapt—each level has its own form of competency operating within its own informational "light cone." The critical question isn't whether a system is intelligent, but **what information is accessible to its decision-making processes**.
+**Competency Exists at Every Scale**
 
-A cell cannot "see" the organism's overall plan. It responds to local chemical gradients, electrical signals from neighbors, mechanical stress. Yet somehow, billions of cells with purely local information collectively build coherent organisms. The magic isn't that cells are stupid and DNA is a blueprint—it's that cells are competent problem-solvers operating within constrained information spaces, and the right architecture channels their local intelligence toward global coherence.
+Michael Levin's developmental biology reveals a profound principle: a "self" is defined by the boundary of what its components can coordinate on. Cells coordinate to form tissues, tissues form organs, organs form organisms. Each level exhibits competency—local intelligence operating within its own informational "light cone." The organism succeeds when architectural constraints align local optimization with global function.
+
+A cell cannot "see" the organism's overall plan. It responds to local chemical gradients, electrical signals from neighbors, mechanical stress. Yet somehow, billions of cells with purely local information collectively build coherent organisms. The magic isn't that cells are stupid and DNA is a blueprint—it's that cells are competent problem-solvers operating within constrained information spaces, and **the right architecture channels their local intelligence toward global coherence**.
+
+**Cancer as Epistemic Shrinkage**
+
+Cancer represents what Levin calls "epistemic shrinkage." When bioelectric signaling breaks down, a cell's cognitive horizon collapses. It stops perceiving itself as part of an organ and reverts to optimizing only for itself—eat, reproduce, metastasize. The cell hasn't become "evil." It has simply **lost the signal that made coordination rational**. Its light cone has shrunk from organ-level to cell-level, and now its local optimization is global catastrophe.
+
+**The Social Parallel: Institutions as Organs**
+
+The parallel to human organization is direct:
+- Individuals (cells) coordinate to form teams (tissues)
+- Teams coordinate to form institutions (organs)
+- Institutions coordinate to form civilizations (organisms)
+
+The Institutional Commons Problem (Document 1, Section 1.4) is precisely this epistemic shrinkage at the social scale:
+
+**Healthy State (Cooperative Mode):** Accountability signals are strong. Individuals perceive a large cognitive horizon—their "self" extends to institutional success. Optimizing for the institution optimizes for themselves. They contribute function because institutional health determines their own prosperity. Selection pressure favors utility.
+
+**Cancerous State (Competitive Saturation):** Signaling breaks down. Cognitive horizons shrink. Individuals stop perceiving themselves as part of the organ. Their light cone collapses to their immediate status and group access. They begin extracting resources while externalizing costs—overgrazing the institutional commons. Selection pressure shifts from utility to status signaling.
+
+This isn't moral failure. It's a **coordination failure driven by signal collapse**. Individuals revert to their ancestral, competitive, unicellular mode. They aren't "being bad"—they've undergone epistemic shrinkage and are now single-cell agents consuming the multicellular body they inhabit.
+
+In this state, the institutional commons is not a resource to be managed but **a host to be consumed**. Agents overgraze not from greed but because **their light cone has shrunk below the scale where the commons is visible**. They cannot perceive the tragedy because the pasture itself has disappeared from their perceptual field.
+
+**Why Institutions Become Cancerous**
+
+Document 1 diagnosed multiple failure modes—elite overproduction (Section 1.3), regulatory capture (Section 1.7), institutional bloat (Section 2.2), barrier removal (Section 1.4). The Levin framework reveals these are all manifestations of the same underlying mechanism: **signaling pathways that once aligned individual and institutional success have been corrupted**.
+
+Status extraction is social metastasis. When any group can extract competitive advantage while externalizing costs to the institutional commons, they will—not from malice, but because their cognitive horizon has shrunk below the scale where institutional health is perceptible. Elite men did this through rentier extraction. Women entering saturated institutions did this through barrier removal. Identity coalitions do this through DEI mandates. Bureaucrats do this through empire-building.
+
+The pattern is universal: **What we call institutional dysfunction is social cancer—cells that have lost the signal connecting their success to the organ's function.**
+
+**The Multiscale Coordination Challenge**
+
+Current institutions are failing because their coordination signaling—accountability, truth-selection, merit—has been corrupted. This has triggered social cancer: institutions that proliferate without function, individuals who extract value while externalizing costs, organs that metastasize at the organism's expense.
+
+The metacrisis is this: **Our technological complexity has expanded the "body" (civilization) beyond the reach of our current "medieval" signaling systems**. We're running 18th-century coordination software on 21st-century complexity. The bioelectric gradients that once aligned individual and civilizational success no longer reach. Cognitive horizons have collapsed. We're a multicellular organism whose cells have forgotten they're part of a body.
+
+This isn't a policy error. It's a **cybernetic collapse into single-cell competition**.
 
 **Societies are evolutionary systems.** They go through life cycles—Polybius's anacyclosis, Turchin's secular cycles, rise and collapse. Institutions mutate, face selection pressure, and either adapt or die. The 1971 convergence (Section 1.2a) was an environmental shift that changed the fitness landscape. Current institutional failures are ongoing selection events happening in real time.
 
 Francis Fukuyama's "End of History" (1989) was spectacularly wrong. Liberal democracy didn't represent evolution's final form—it was just the current local optimum given post-Cold War conditions. The environment kept changing (globalization, digital technology, demographic shifts, climate pressure), and the fitness landscape shifted beneath us. We're living IN history, experiencing evolutionary forces, watching institutions that can't adapt begin to collapse.
 
 **The question isn't "should we introduce evolution to governance?" Evolution is already operating**—we're just experiencing it as crisis rather than progress. The question is: can we make evolutionary search intentional instead of catastrophic? Can we vary, select, and retain through measurement and experimentation rather than war and collapse?
+
+**Governance as Social Bioelectricity**
+
+This reframes the entire governance design challenge. You don't need a "master planner" cell to build a heart. Levin's work demonstrates you can change an organism's morphology by altering bioelectric gradients—the coordination software—without changing DNA. The right architectural constraints make it impossible for cells not to coordinate.
+
+Governance mechanisms aren't about commanding cooperation or making people "better." They are about designing the **bioelectric gradients of society**—the signaling architecture that expands or shrinks cognitive horizons:
+
+- **Accountability mechanisms** are voltage gradients forcing coordination toward institutional goals
+- **Skin in the game** prevents epistemic shrinkage by coupling individual success to institutional health
+- **Transparency and measurement** expand light cones so individuals perceive institutional-level consequences
+- **Feedback loops** provide the signal that local optimization must serve global function
+
+When these signals are strong, individuals naturally optimize for institutional health because that's where their own success lives. When these signals decay, cognitive horizons collapse, and you get social cancer.
+
+**The Requirement: Architectural Alignment, Not Moral Reform**
+
+The requirement for functional governance isn't better people or more virtuous leaders. It's **architectural constraints that make institutional health necessary for individual success**. We need to design social bioelectricity—signaling mechanisms that expand cognitive horizons so that local intelligence contributes to global function.
+
+This is why governance design benefits from evolutionary and cybernetic thinking. The question isn't "what's the optimal policy?" but "**what architectural constraints align self-interest across scales?**"
+
+The mechanisms in Sections 4-5 (continuous approval polling, skin in the game, transparency requirements, accountability linkages) aren't political reforms. They're the **bioelectric gradients required to re-coordinate cells into organs**—to expand cognitive horizons from individual to institutional to civilizational scale.
+
+We're not trying to make people cooperate through persuasion or moral transformation. We're designing the signaling architecture where **cooperation is the only path to local optimization.**
 
 **Evolution's constraint: selection can only act on what it can measure.** This is evolution's light cone—the boundary of what variation it can "see" to select on. When multiple traits are tightly coupled (linked genes, pleiotropic effects, developmental constraints), evolution cannot optimize them independently. It must take them as a package.
 
