@@ -659,7 +659,31 @@ Neither extreme works. The former enables predation; the latter creates authorit
 
 **The shift in equilibrium:** When the system implements all four principles—nice, intelligent, clear, forgiving—the Nash equilibrium shifts toward durable cooperation. Bad actors face consequences, reformed actors can rebuild trust, and the system doesn't collapse into surveillance authoritarianism or anonymous chaos.
 
-### 4.6 Constraining and Aligning Elites (The Principal-Agent Problem)
+### 4.6 Accountability and Intent
+
+**The requirement:** Cooperation requires reciprocal punishment of defection. Any system enabling cooperation must implement accountability mechanisms that scale proportionally to potential harm and cannot be circumvented through organizational complexity, legal fictions, or autonomous systems.
+
+**The problem:**
+
+Modern systems separate harm from consequence. Organizational complexity and limited liability enable massive damage while diffusing responsibility until no individual faces meaningful punishment. The coming wave of agentic AI threatens to make this worse—autonomous systems making decisions at scale with no embodied actor to hold accountable. When defection carries no personal cost, cooperation collapses.
+
+**The dialectic:**
+
+Must balance delegation (can't micromanage everything) with accountability (can't let "I didn't know" shield decision-makers from foreseeable harms). Must balance innovation (need risk-taking) with deterrence (can't enable reckless deployment of dangerous systems). Must balance economic consequences (appropriate for minor harms) with physical consequences (necessary for catastrophic risks where fines are insufficient deterrent).
+
+**What any solution must provide:**
+
+At policy scale—decisions affecting large populations through organizations—intent becomes unfalsifiable. McGilchrist's work shows the left hemisphere generates plausible post-hoc narratives the speaker genuinely believes. Recent research demonstrates AI agents can be trained to obfuscate their purpose—showing reasoning chains that don't align with their actual training incentives, essentially learning to lie in their reasoning steps. "I meant well" becomes universal defense for humans; "my reasoning shows I was trying to help" becomes universal defense for AI agents. Intent-based accountability becomes theater.
+
+**For policy-level decisions, accountability must attach to identifiable embodied humans.** Not to organizations, not to AI systems, not to "the process." Specific people with decision-making authority or deployment power must be identifiable as responsible parties.
+
+Liability shields cannot diffuse this responsibility. Corporate personhood provides no shield—corporations cannot be imprisoned. AI agency provides no shield—autonomous systems cannot be punished, and deploying them does not remove human accountability for their actions. Organizational complexity provides no shield—"I didn't understand the system" does not absolve those with authority to approve or prevent deployment.
+
+Physical consequences (imprisonment for serious harms, capital punishment for civilizational risks) must be possible, not just economic penalties that rational actors can price in as business costs. As AI, biotech, and interconnected systems grow more powerful, potential harms scale to civilizational. Deterrence must scale proportionally.
+
+**Why non-optional:** Without identifiable human accountability at policy scale, systems optimize for maximum harm diffusion. Complexity becomes a feature designed to ensure no one is responsible. Cooperation dies, extraction dominates. Agentic AI without embodied accountability accelerates this failure mode catastrophically.
+
+### 4.7 Constraining and Aligning Elites (The Principal-Agent Problem)
 
 **The core problem:** Governance is fundamentally a **Principal-Agent problem**. The Principal (the community/public) delegates authority to Agents (leaders/elites/managers). When agents can act in their own interest rather than the principal's, the system fails.
 
@@ -982,7 +1006,7 @@ When all nine mechanisms operate together, the Principal-Agent problem becomes s
 
 The "brain" (elite) stays aligned with the "body" (community) because defection is structurally difficult and cooperation is structurally rewarded. This isn't achieved through moral exhortation—it's baked into the incentive architecture.
 
-### 4.7 Enforce Subsidiarity Through Approval-Based Jurisdiction
+### 4.8 Enforce Subsidiarity Through Approval-Based Jurisdiction
 
 Subsidiarity—the principle that problems should be solved at the lowest capable level—is widely praised but rarely implemented. The structural problem: without enforcement mechanisms, power naturally centralizes. Bureaucracies expand upward because there's no countervailing force pushing decisions back down to local levels.
 
@@ -1086,7 +1110,7 @@ We're not prescribing specific governance templates. We're requiring that system
 - Specialized decisions become incompetent (uninformed majority rules)
 - Temporary powers become permanent (emergency authorities never sunset)
 
-### 4.8 Lifecycle Management for All Institutions
+### 4.9 Lifecycle Management for All Institutions
 
 Olson's research on institutional sclerosis shows that stable societies accumulate rules and organizations until calcified into "institutional arteriosclerosis." The problem: institutions almost never sunset voluntarily. Each rule made sense when created, but rules don't expire when circumstances change. The result is regulatory accumulation until the system becomes impenetrable.
 
@@ -1141,7 +1165,7 @@ Policies get repealed. Ideas get rejected. People get condemned. Sometimes this 
 
 **Example:** Barry Marshall was ridiculed for two decades for claiming bacteria caused ulcers, eventually won a Nobel Prize. Thorium molten salt reactors were defunded in 1969; institutional knowledge was lost, making revival prohibitively expensive 50+ years later despite demonstrated success. Systems must be able to recognize and correct such errors.
 
-### 4.9 Voluntary Association by Design
+### 4.10 Voluntary Association by Design
 
 The network state model (Srinivasan) proposes cloud-first, land-last governance: voluntary political communities that coordinate digitally before (if ever) acquiring territory. This inverts the traditional monopoly of geographic states where you're assigned governance by birthplace.
 
@@ -1161,7 +1185,7 @@ The network state model (Srinivasan) proposes cloud-first, land-last governance:
 
 **The shift in equilibrium:** When association is voluntary and exit is cheap, governance must earn legitimacy continuously. The system selects for quality through competitive pressure rather than relying on captive populations tolerating bad governance because exit is too expensive.
 
-### 4.10 Continuous Adaptation
+### 4.11 Continuous Adaptation
 
 North's distinction between allocative efficiency (optimizing within existing rules) and adaptive efficiency (evolving better rules) explains why successful institutions often fail. Organizations optimized for allocative efficiency—squeezing maximum performance from current paradigms—become structurally incapable of adapting when paradigms shift. Kodak was allocatively efficient at film; this prevented adapting to digital. Detroit was allocatively efficient at internal combustion; this prevented adapting to electric vehicles.
 
@@ -1181,7 +1205,7 @@ North's distinction between allocative efficiency (optimizing within existing ru
 
 **The shift in equilibrium:** When rules can modify themselves through structured feedback, institutions maintain adaptive efficiency alongside allocative efficiency. The system can optimize current approaches while remaining capable of paradigm shifts when circumstances change. This prevents the Kodak failure mode where optimization for the current paradigm prevents adaptation to new ones.
 
-### 4.11 Cohesion Without Uniformity
+### 4.12 Cohesion Without Uniformity
 
 **The standardization tradeoff:** Institutions face a fundamental tension:
 
@@ -1229,7 +1253,7 @@ North's distinction between allocative efficiency (optimizing within existing ru
 
 **Systems should enable both:** Mechanisms for local experimentation AND mechanisms for emergent standardization where beneficial. Communities decide the tradeoff dynamically.
 
-### 4.12 Resist the Tyranny of Metrics
+### 4.13 Resist the Tyranny of Metrics
 
 As shown in Section 2.7.7, the measurement trap is a failure mode common to many governance reforms. Any system must explicitly protect against quantification capture.
 
@@ -1251,7 +1275,7 @@ As shown in Section 2.7.7, the measurement trap is a failure mode common to many
 - No permanent underclass created by poor scores
 - People feel free to experiment and fail without permanent reputational damage
 
-### 4.13 Capture Preference Intensity, Not Just Direction
+### 4.14 Capture Preference Intensity, Not Just Direction
 
 Traditional voting systems suffer from catastrophic information loss. A vote captures only **direction** (for/against, candidate A vs. B) but not **magnitude** (how much you care). This is the difference between a vector and a binary bit: voting should communicate both direction and intensity, but legacy systems discard half the information.
 
@@ -1281,7 +1305,7 @@ Traditional voting systems suffer from catastrophic information loss. A vote cap
 
 **Note:** Arrow's impossibility theorem proves no voting system can satisfy all desirable properties simultaneously. Different mechanisms make different tradeoffs. Communities must choose which properties they value most. See Document 3 for mechanism options and their tradeoff profiles.
 
-### 4.14 Protect Individual Sovereignty Through Rights Subsidiarity
+### 4.15 Protect Individual Sovereignty Through Rights Subsidiarity
 
 Just as Section 4.5 establishes that problems should be solved at the lowest capable level, **powers and rights should default to individuals unless there is clear, ongoing justification for collective control.** The principle of subsidiarity applies not only to governance scale (local vs. regional vs. national) but to the fundamental allocation of authority between individuals and collectives.
 
