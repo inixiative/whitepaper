@@ -2527,7 +2527,126 @@ Historical precedent: OPEC succeeds because oil is geographically concentrated. 
 
 **The platform approach:** Enable experimentation. Some communities will prioritize ease of use (fiat/stablecoins). Others will prioritize sovereignty (energy-backing or other experimental mechanisms). Let outcomes determine which tradeoffs are worth it.
 
-### 6.12 Why These Mechanisms Are Now Possible
+### 6.12 Anti-Monopoly Mechanisms — Progressive Costs on Concentration
+
+**Epistemic status:** Theoretical framework. Progressive taxation exists (income tax), but exponential costs on wealth concentration and corporate size are largely untested at scale.
+
+**The problem:** Document 1 diagnosed elite overproduction, rent-seeking, and institutional capture. But economic concentration—monopolization of markets, accumulation of wealth, corporate gigantism—remains unaddressed. These enable the very rent extraction and political capture we're trying to prevent.
+
+**Chicago School claim:** Monopolies are efficient (economies of scale, reduced transaction costs).
+
+**Observable reality:** Large corporations waste enormous resources on bureaucratic overhead and internal politics. Monopolies extract rent without productive contribution. Concentrated wealth becomes concentrated political power, enabling regulatory capture.
+
+#### The Georgist Foundation
+
+**Henry George's insight (Section 5.1) generalizes beyond land:**
+
+George identified that landowners extract rent as society becomes productive—land values rise not because owners improve it, but because society builds around it. **The pattern applies to any concentrated scarce resource:**
+
+- Land monopoly → rent from location scarcity
+- Corporate monopoly → rent from market power
+- Wealth concentration → rent from capital scarcity
+- Platform monopoly → rent from network effects
+
+**George's solution:** Tax land value to capture socially-created gains. **The principle extends:** tax concentrated control of any scarce resource to capture socially-created rent.
+
+#### Progressive vs. Exponential Taxation
+
+**Income tax precedent:** Most jurisdictions use progressive taxation—higher earners pay higher rates. But wealth is taxed far less progressively, or not at all. Property taxes are often flat. Capital gains are flat. Wealth taxes mostly don't exist.
+
+**Result:** Wealth concentration accelerates. Concentrated wealth → political capture → policies favoring capital over labor → more concentration.
+
+**The design principle:** Make concentration progressively more expensive as it grows. Not confiscatory, but creating natural resistance to monopolization.
+
+**Linear taxation:** Rate constant regardless of size. Concentration grows without friction.
+
+**Progressive taxation:** Rate increases with size. Concentration faces increasing friction.
+
+**Exponential taxation:** Rate grows exponentially. Creates natural ceiling on accumulation—not prohibited, but prohibitively expensive past certain thresholds.
+
+**Key insight:** Don't prohibit concentration (authoritarian, ineffective). Make it costly. Let entities choose: stay smaller (lower taxes, higher agility) or grow larger (economies of scale, but exponentially rising tax burden).
+
+#### What Could Be Taxed Progressively
+
+**Land ownership** - George's original proposal, could be made exponential rather than linear
+
+**Wealth concentration** - Total assets controlled (real estate, financial holdings, business equity)
+
+**Corporate size** - Based on employees, revenue, or market capitalization
+
+**Market share** - Percentage of industry revenue/activity
+
+**DAO treasuries** - Platform-enforceable via smart contracts on accumulated holdings
+
+**Token concentration** - Platform-enforceable penalties on largest holders to prevent governance plutocracy
+
+The principle is consistent: concentrated control becomes increasingly expensive, creating natural pressure toward distribution.
+
+#### On-Chain Implementation: What the Platform Can Enforce
+
+**Scope limitation:** The platform cannot enforce economy-wide wealth taxes or corporate penalties. That requires nation-state authority. **But within participating communities:**
+
+**DAO treasury size:** Smart contracts track holdings, automatically calculate progressive tax, redistribute to members or commons. Cannot be evaded—transparent on-chain.
+
+**Token concentration:** Track distribution, apply progressive tax or dilution to largest holders, incentivize distribution to prevent governance plutocracy.
+
+**Market share within platform:** If hosting competing services, track market share, apply progressive tax on dominant players, fund competitors or public goods.
+
+**Voting power concentration:** Quadratic voting already implements this principle—exponential cost per additional vote. Extends naturally to other forms of concentration.
+
+#### Why This Addresses Document 1's Diagnosis
+
+**Elite overproduction:** Wealth concentration creates barriers to entry—only ultra-wealthy can compete for elite positions. Progressive wealth tax distributes capital, lowers barriers, increases mobility.
+
+**Rent-seeking:** Monopolies extract rent without productive contribution. Market share taxation makes rent extraction costly, forces competition on merit.
+
+**Institutional sclerosis:** Large bureaucratic organizations resist change. Size taxation incentivizes staying small and agile rather than accumulating bloat.
+
+**Capture:** Concentrated wealth converts to political power. Wealth taxation reduces concentration, raises cost of capture without eliminating it entirely.
+
+#### The Efficiency Tradeoff
+
+**Honest acknowledgment:** Real efficiency gains exist from scale. Economies of scale in manufacturing, infrastructure, R&D. Network effects in platforms make dominant players genuinely more valuable.
+
+**The tradeoff:** Too much fragmentation creates inefficiency and coordination failure. Too much concentration creates rent extraction, bureaucracy, and fragility.
+
+**Progressive taxation prices the tradeoff:** If economies of scale are real, the company can afford the tax—productivity gains exceed tax cost. If monopoly is rent extraction, tax exceeds productive value, creating natural pressure to split or distribute.
+
+**Market determines optimal size:** Not a central planner prohibiting companies over arbitrary thresholds, but economic incentives making concentration costly. Worth it if productive, unviable if extractive.
+
+#### Structure Over Enforcement
+
+**Traditional antitrust:** Wait for monopoly, file lawsuit, litigate for years, maybe break it up (rarely successful).
+
+**Structural approach:** Make monopoly formation economically unattractive from the start. No need to break up monopolies if being large incurs significant ongoing costs—entities decentralize voluntarily or fund the commons.
+
+**George's insight generalized:** Don't prohibit land ownership or wealth accumulation. Capture the socially-created value. Tax the rent, not the productive contribution.
+
+**Modern application:**
+- Tax land value (socially created), not improvements (individually created)
+- Tax market dominance (network lock-in), not productive efficiency
+- Tax wealth accumulation (Cantillon Effect compounding), not earned income
+- Tax corporate gigantism (bureaucratic overhead), not genuine scale economies
+
+**The mechanism distinguishes rent from productivity.** If size generates genuine value exceeding the tax, stay large. If it's extraction, tax makes it unviable.
+
+#### Why This Belongs in Governance
+
+**Economic concentration IS governance.** Concentrated wealth buys political influence. Corporate monopolies write legislation. Platform monopolies shape public discourse.
+
+**Functional governance requires addressing economic structure.** Voting mechanisms alone cannot overcome concentrated economic power—the wealthy buy the system.
+
+**The platform's role:** Provide tools for communities to experiment with anti-monopoly mechanisms within their ecosystems. Some will choose aggressive redistribution, others minimal intervention. Communities discover what works through experimentation, not ideology.
+
+**Connection to other mechanisms:**
+- **Section 5.1 (Land Value Tax):** Original anti-rent-extraction mechanism
+- **Section 6.11 (Anti-Capture Architecture):** Prevents governance capture by leaders
+- **Section 6.11A (Energy Currency):** Prevents monetary rent extraction
+- **Section 6.4 (Long-Horizon Alignment):** Prevents short-term extraction
+
+**Together:** Governance is economic structure, monetary systems, incentive alignment, and anti-capture mechanisms. All must work together or concentration finds the weak point.
+
+### 6.13 Why These Mechanisms Are Now Possible
 
 **Governance is a technology that is shockingly slow to update.** We're still using systems designed hundreds of years ago—before the invention of game theory, computers, the internet, or cryptography. The United States Constitution was written in 1787. The French Republic's structure dates to 1958. The United Nations to 1945. These systems were designed for the informational and technological constraints of their eras: slow communication, paper records, manual vote counting, geographic constraints on participation.
 
@@ -2596,11 +2715,11 @@ The governance mechanisms described in this section were impossible or impractic
 
 **Implication:** We can search the governance solution space via rapid experimentation rather than slow political reform.
 
-### 6.13 Platform Philosophy: Humility and Experimentation
+### 6.14 Platform Philosophy: Humility and Experimentation
 
 The mechanisms described in this section are **examples**, not mandates. We cannot know in advance which combinations will work for which communities.
 
-#### 6.13.1 This Is Not Prescriptive
+#### 6.14.1 This Is Not Prescriptive
 
 **We are not proposing THE optimal governance system.**
 
@@ -2616,7 +2735,7 @@ Instead, we build the **simplest possible thing that works**: a pooling and voti
 
 **We are proposing a toolkit for communities to search the solution space.**
 
-#### 6.13.2 Success Metric: Participant Satisfaction Over Time
+#### 6.14.2 Success Metric: Participant Satisfaction Over Time
 
 The only valid measure of governance quality is whether the people governed by it are satisfied with it—not in the moment (populism), but over extended periods (sustainability).
 
@@ -2631,7 +2750,7 @@ The only valid measure of governance quality is whether the people governed by i
 - Do they voluntarily remain participants rather than exiting?
 - Does the community thrive over years and decades?
 
-#### 6.13.3 Communities Mix and Match
+#### 6.14.3 Communities Mix and Match
 
 The platform provides sliders and dials:
 - "How aggressive should policy sunset rules be?"
@@ -2645,7 +2764,7 @@ Some communities will want strong lifecycle management; others will prefer stabi
 
 The platform accommodates diversity. Communities learn from each other's experiments. Better approaches emerge through evolution, not decree.
 
-#### 6.13.4 Governance as Evolutionary Search
+#### 6.14.4 Governance as Evolutionary Search
 
 Think of this as parallel evolution in governance space:
 - Hundreds or thousands of communities running different configurations
@@ -2656,7 +2775,7 @@ Think of this as parallel evolution in governance space:
 
 We don't know the optimal governance system **because there isn't one**. There are many local optima dependent on culture, scale, resources, and historical context. The platform enables communities to find their local optimum.
 
-#### 6.13.5 OkCupid for Governance: Big Data Discovery
+#### 6.14.5 OkCupid for Governance: Big Data Discovery
 
 **Online dating companies don't prescribe optimal relationships—they discover patterns through aggregate data.**
 

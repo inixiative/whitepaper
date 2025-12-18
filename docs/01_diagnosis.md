@@ -1111,6 +1111,8 @@ If a system claims to "help the poor" but consistently produces poverty traps, t
 
 **This is not cynicism—it's engineering diagnosis.** We don't need to accuse leaders of malice. We don't need conspiracy theories about evil cabals. We simply observe: What does the machine actually do? If your car's speedometer reads 60mph but bicycles are passing you, the speedometer is broken. Acknowledging this isn't cynical—it's prerequisite to repair.
 
+The philosopher G.W.F. Hegel made a similar observation: "The rational is real, and the real is rational." What persists over time reveals underlying function, even when that function serves purposes no one will publicly acknowledge.
+
 **Why POSIWID is hard: Confabulation and narrative generation**
 
 Neuroscientist Iain McGilchrist's work on hemispheric brain function reveals why we systematically fail to see what systems actually do. The left hemisphere specializes in generating coherent, plausible narratives—even when it lacks access to actual causal mechanisms. When shown a pattern it cannot explain, it confabulates: creates a story that sounds right.
