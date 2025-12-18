@@ -93,6 +93,18 @@ Societies evolve. Institutions mutate, face selection pressure, and either adapt
 
 This is the evolutionary framing—a lens for understanding how systems change over time based on what information they can access.
 
+**Why Evolutionary Thinking Over Debate**
+
+Most political discourse operates through debate—short-horizon persuasion where audiences judge winners based on rhetoric, confidence, and tribal signaling rather than evidence quality. Debates end when time runs out, not when truth emerges. Participants face no cost for being wrong. The format selects for persuasive skill, not predictive accuracy.
+
+Evolutionary thinking operates differently. It makes predictions, waits for reality to settle the question, and updates based on outcomes. This is long-tail feedback: whose model actually predicted behavior better when tested against evidence over time?
+
+Evolutionary biologist Bret Weinstein's work on applying evolutionary frameworks to human behavior demonstrates this advantage. Consider competing explanations of Nazi behavior. The orthodox model (irrational racist mania) predicts: Jews targeted first everywhere, no cooperation with non-Aryans, sexual restraint with "racial enemies," force labor too dangerous to implement. The evolutionary model (lineage expansion constrained by pragmatism) predicts: Polish intelligentsia killed first (strategic threat), cooperation with Japanese/Arabs when geopolitically useful, widespread sexual violence despite ideology, force labor trumping racial doctrine.
+
+Historical evidence decisively favors the evolutionary model—as documented in Johnny Hudson's PhD dissertation examining perpetrator behavior at Treblinka. But you cannot demonstrate this in a 90-minute debate—you need archival access, time to check predictions, and willingness to follow data where it leads. Debate selects for who sounds right. Long-tail feedback selects for who was actually right.
+
+This is why governance design benefits from evolutionary thinking. The question isn't "what sounds good?" but "what selection pressures operate, what feedback drives adaptation, and what do we predict will happen?" Systems either align incentives with outcomes or they don't. Reality provides the feedback, often on decade timescales. Evolutionary thinking forces discipline: make falsifiable predictions, track outcomes, update models.
+
 ### 3.2 Incentive Design: Rules Shape Behavior More Than Leaders Do
 
 Most political discourse focuses on *who* should have power (which party, which leader, which ideology) or *what* policies to enact (more spending or less, regulation or freedom). Mechanism design asks a more fundamental question: **what rules make good outcomes structurally likely regardless of who's in charge?**
