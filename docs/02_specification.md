@@ -67,9 +67,37 @@ The alignment gradient shifts for everyone, but the *effect* is proportional to 
 
 This explains elite dysfunction without demonization. Elites don't participate in HyperNormalisation because they're "fooled" by fake metrics—their high intelligence allows them to read the actual game better than anyone. They see the dashboard is disconnected from reality, and they optimize accordingly. They use their resources to *maintain* the noise, because the noise is what makes their extraction unpunishable. The damage is proportional to **power × misalignment**.
 
+**Individual Signal Collapse: Why Power "Corrupts"**
+
+The observation that "power corrupts" is better understood as **changed signal environment.** Power insulates from recourse, which changes what signals actually reach the person.
+
+**The mechanism:** When someone is elevated to power, the signals that maintained prosocial alignment stop arriving. Sycophancy replaces honest feedback (reputation signals distorted). Golden parachutes and diffuse consequences mean accountability signals don't reach them. Decisions affect thousands, but effects manifest years later through chains of causation too long to trace back. The person's perceptual capacity is fine—the **signals themselves have changed**. They're responding rationally to the signal environment they actually inhabit, which is now fundamentally different from everyone else's.
+
+This isn't deterministic—it describes a gradient of pressure, not a guarantee of failure. A leader who actively constructs countervailing signal architecture (seeking out critics, maintaining skin-in-the-game, preserving accountability structures) can resist the drift. But absent such deliberate effort, the default trajectory is toward extraction.
+
+**The uncomfortable corollary:** Most people would behave similarly given the same signal environment. The "evil elite" narrative assumes a moral distinction between rulers and ruled. The framework suggests otherwise: change anyone's signal environment the same way—insulate them from recourse, surround them with dependents, diffuse the consequences of their actions—and they will drift toward extraction. Complaining about elites is complaining about the signal architecture, not the people.
+
+**The Selection Filter Problem:** This is compounded by the **Meritocratic Trap**. In saturated hierarchies, the tournament for elite slots selects for agents who have already optimized for competitive mode—extraction, signaling, coalition-building. We aren't merely changing the signal environment for good leaders; we're running a Darwinian tournament that **selects for effective extractors** and then placing them in positions where extraction is unpunished. "Merit" in a broken substrate means skill at navigating the broken game.
+
+**The Sortition Logic:** This provides mechanical justification for **sortition (random selection)** as a coordination tool (Section 4.7). A randomly selected individual hasn't been pre-filtered for competitive extraction. They enter the position without having optimized for the degraded game. Random selection isn't "anti-meritocratic"—it's recognition that meritocracy in a broken substrate filters for extractors. Randomness can inject differently-calibrated agents into the system.
+
 **What Signals Are (and Aren't)**
 
 Reality is real. Geography matters. Climate matters. Droughts, wars, resource constraints, solar cycles—physical causation exists and shapes outcomes. The signaling framework is not a claim that "only signals matter."
+
+**Signals and Capacity: The Two Deaths**
+
+Institutions face two distinct failure modes (Section 2.2):
+
+1. **Cancer (coordination failure):** The system has capacity—energy, resources, competent people—but signals have degraded. Activity is misdirected. Cells consume the body. This is the failure mode most of Section 3.1 addresses.
+
+2. **Senescence (capacity failure):** The system is coordinated but exhausted. Even with perfect signals, there's nothing left to coordinate. The organ has lost the ability to act.
+
+Signals coordinate capacity; they are not capacity itself. A high-SNR signal environment with depleted capacity produces coordinated decline. A low-SNR environment with abundant capacity produces cancer. You need both: **capacity to act** and **signals to coordinate action**.
+
+**Modern warfare makes this visceral.** Russia in Ukraine demonstrated capacity without signals: massive hardware, catastrophic coordination—tanks without fuel, units without orders, logistics chaos. The capacity existed; the signals to coordinate it didn't. Conversely, senescence in warfare is perfect intelligence on enemy positions but no munitions left to strike. Modern militaries have learned what civilian institutions haven't: electronic warfare, cyber attacks, and precision munitions all prioritize the signal layer because **signal superiority often matters more than capacity superiority**. A well-coordinated smaller force defeats a poorly-coordinated larger one.
+
+Most of this document focuses on signal failure because that's the dominant pathology of modern developed societies—we have unprecedented capacity (technology, wealth, educated populations) but degraded coordination. But signal repair alone cannot save a system that has depleted its underlying capacity. The framework addresses one axis; reality has two.
 
 Signals are what **coordinate emergent selves** and **drive intelligence at all scales**—from organelle to cell to tissue to organ to organism to individual to team to institution to civilization. The same principle operates fractally. Without signals, there is no "institution"—just a collection of uncoordinated individuals. The signal is what makes the emergent self possible. Levin's insight: the "self" is defined by the boundary of what can coordinate. Signals define that boundary.
 
