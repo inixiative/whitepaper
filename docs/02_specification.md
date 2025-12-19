@@ -65,7 +65,7 @@ The alignment gradient shifts for everyone, but the *effect* is proportional to 
 - **In high-trust systems:** High-capacity agents drive civilizational breakthroughs—they have the resources to coordinate complex projects, the intelligence to solve hard problems, and the reach to implement solutions at scale.
 - **In low-trust systems:** That same intelligence and resource base is applied to **local extraction**. The multiplier now works against the collective.
 
-This explains elite dysfunction without demonization. Elites don't participate in HyperNormalisation because they're "fooled" by fake metrics—their high intelligence allows them to read the actual game better than anyone. They see the dashboard is disconnected from reality, and they optimize accordingly. They use their resources to *maintain* the noise, because the noise is what makes their extraction unpunishable. The damage is proportional to **power × misalignment**.
+This explains elite dysfunction without demonization. HyperNormalisation (Section 1.2a) is the frozen snapshot of systems when they were last explanatory—an ideology some believe genuinely, some promote cynically, but which protects everyone via "standard of care." Follow the protocol and you're safe; deviate and you're exposed. This truncates possibility space: vast regions of what might be considered become invisible, and agents retreat into smaller self-scopes. The damage is proportional to **power × misalignment**.
 
 **Individual Signal Collapse: Why Power "Corrupts"**
 
@@ -96,6 +96,8 @@ Institutions face two distinct failure modes (Section 2.2):
 Signals coordinate capacity; they are not capacity itself. A high-SNR signal environment with depleted capacity produces coordinated decline. A low-SNR environment with abundant capacity produces cancer. You need both: **capacity to act** and **signals to coordinate action**.
 
 **Modern warfare makes this visceral.** Russia in Ukraine demonstrated capacity without signals: massive hardware, catastrophic coordination—tanks without fuel, units without orders, logistics chaos. The capacity existed; the signals to coordinate it didn't. Conversely, senescence in warfare is perfect intelligence on enemy positions but no munitions left to strike. Modern militaries have learned what civilian institutions haven't: electronic warfare, cyber attacks, and precision munitions all prioritize the signal layer because **signal superiority often matters more than capacity superiority**. A well-coordinated smaller force defeats a poorly-coordinated larger one.
+
+**Self-capacity perception is also a signal.** An agent's perception of their own capacity is itself a signal channel, subject to the same distortions as any other. Whether an agent acts at all depends on their self-model—and that self-model can be inflated, suppressed, or corrupted.
 
 Most of this document focuses on signal failure because that's the dominant pathology of modern developed societies—we have unprecedented capacity (technology, wealth, educated populations) but degraded coordination. But signal repair alone cannot save a system that has depleted its underlying capacity. The framework addresses one axis; reality has two.
 
@@ -213,11 +215,11 @@ The "Social Cancer" diagnosed in Document 1 occurs when the **Signal-to-Noise Ra
 
 This is the "self-made myth" at the level of mechanism: it's not that elites choose ingratitude, but that the substrate has degraded until the global gradient pointing toward mutual integration is invisible. They follow the local gradient because it's the only one they can see. We do not need to "change human nature"; we need to upgrade the **signaling substrate** so that the global gradient is once again legible to the individual.
 
-**The Noise-Extraction Feedback Loop**
+**The Opacity-Extraction Feedback Loop**
 
-The degradation of the signaling substrate is not merely a passive byproduct of complexity; it is a **self-reinforcing feedback loop**. Elites who profit from local extraction have rational incentives to reinvest those profits into maintaining and increasing noise.
+The degradation of the signaling substrate is not merely a passive byproduct of complexity; it is a **self-reinforcing feedback loop**. Those who profit from local extraction have rational incentives to reinvest those profits into maintaining and increasing opacity.
 
-They weaponize complexity—opaque regulations, impenetrable financial instruments, captured expertise, systems too convoluted to audit. Each layer of noise makes extraction safer, which funds more noise-generation, which enables more extraction. If the global gradient became legible, their extraction would become visible—and costly. This is not conspiracy; it is **evolutionary selection for opacity**. Those who profit from illegibility survive and accumulate power; those who clarify signals threaten the extraction and get selected out.
+They weaponize complexity—opaque regulations, impenetrable financial instruments, captured expertise, systems too convoluted to audit. Each layer of complexity makes extraction safer, which funds more opacity, which enables more extraction. If the global gradient became legible, extraction would become visible—and costly. This is not conspiracy; it is **evolutionary selection for opacity**. Those who profit from illegibility survive and accumulate power; those who clarify signals threaten the extraction and get selected out.
 
 The terminal state: **SNR driven toward zero**. Eventually, the noise floor rises so high that even well-meaning actors are forced into the local gradient (Competitive Mode) just to survive. The system doesn't just fail; it actively blinds its constituent parts to ensure that the strip-mining of the institutional commons can proceed undetected. This is Social Cancer in its metastatic stage—and it explains why persuasion cannot work. You cannot argue someone into clarity when their position depends on confusion, and they're the ones writing the rules.
 
@@ -227,7 +229,7 @@ We can finally answer the question that started this investigation (Document 1, 
 
 The answer is a **level-locked civilization**—one where the rents of the current energy rung are reinvested into the epistemic fog that hides the next. We still burn coal sixty years after Oak Ridge demonstrated a working Thorium reactor not because the science failed, but because our **social bioelectricity** was shorted out by the very wealth we extracted.
 
-The incumbents are not merely protecting a market; they are **purchasing blindness**. As documented in Section 1.12, fossil fuel interests fund the narrative complexity and regulatory noise (the 17,000 pages of the NRC) required to ensure that the next level of Vinge's Curve remains imperceptible. Each dollar extracted from the combustion paradigm buys more noise; each layer of noise makes the extraction safer.
+The incumbents are not merely protecting a market; they are **purchasing blindness**. As documented in Section 1.12, fossil fuel interests fund the narrative complexity and regulatory opacity (the 17,000 pages of the NRC) required to ensure that the next level of Vinge's Curve remains imperceptible. Each dollar extracted from the combustion paradigm buys more opacity; each layer of opacity makes the extraction safer.
 
 This is the terminal state of the Metacrisis: we have entered a loop where the profit from standing still is used to ensure we never see the reason to move. The tragedy of the Diamondian answer: those with cargo have used it to buy our blindness. We are a multicellular organism whose constituent parts have lost the signal that they belong to a body.
 
@@ -247,15 +249,15 @@ This is the refutation of *Homo Economicus*: people aren't "innately selfish" or
 
 Standard evolutionary theory, exemplified by Richard Dawkins, treats the gene as the primary unit of selection—organisms are "lumbering robots" built to carry selfish genes. But the Levin framework reveals a deeper reality: **selection operates at every scale that possesses competency.**
 
-Cells, organs, individuals, and institutions are not passive vehicles; they are autonomous Darwinian agents with their own survival drives and problem-solving intelligence. Just as genes optimize for replication, an institution optimizes for its own persistence, resource capture, and growth. It will naturally select for behaviors that protect its budget, its regulatory moat, its "noise-extraction loops"—regardless of the cost to the broader civilization.
+Cells, organs, individuals, and institutions are not passive vehicles; they are autonomous Darwinian agents with their own survival drives and problem-solving intelligence. Just as genes optimize for replication, an institution optimizes for its own persistence, resource capture, and growth. It will naturally select for behaviors that protect its budget, its regulatory moat, its "opacity-extraction loops"—regardless of the cost to the broader civilization.
 
 **Dawkins is wrong in the same way homo economicus is wrong.** Both commit the same error: assuming a fixed level of analysis while ignoring the signaling substrate that couples scales. Homo economicus assumes rational agents at the individual level, ignoring that rationality is scale-dependent (see above). The selfish gene assumes genes are the only "real" units of selection, ignoring that selection operates wherever competency exists. Both are scale-blind.
 
-**The Blinding Proof:** The Noise-Extraction Feedback Loop (above) is the definitive evidence that institutions are autonomous agents. If institutions were merely passive tools—Dawkins' "lumbering robots"—they would never actively degrade their own signaling. A tool doesn't try to blind its user. The fact that our institutions *purchase fog* to hide the future proves they are playing their own Darwinian game. The blinding is an act of self-defense by the mid-level scale against accountability from above (civilization) and below (individuals). A passive vehicle would want 100% signal clarity so its users could thrive. Only a selfish agent generates noise to prevent its own sunset.
+**The Blinding Proof:** The Opacity-Extraction Feedback Loop (above) is the definitive evidence that institutions are autonomous agents. If institutions were merely passive tools—Dawkins' "lumbering robots"—they would never actively degrade their own signaling. A tool doesn't try to blind its user. The fact that our institutions *purchase fog* to hide the future proves they are playing their own Darwinian game. The blinding is an act of self-defense by the mid-level scale against accountability from above (civilization) and below (individuals). A passive vehicle would want 100% signal clarity so its users could thrive. Only a selfish agent generates opacity to prevent its own sunset.
 
 **The signaling substrate is what couples the scales.** When it functions, organism-level selection pressure reaches down to cells—what's good for the body is legible to the tissue. When it degrades, each level plays its own decoupled Darwinian game. Genes face gene-level selection. Individuals face individual-level selection. Institutions face institution-level selection. But they're no longer aligned. Each wins its local game while the organism dies.
 
-**The Selection Mismatch:** The metacrisis is the terminal conflict of these multiscale Darwinian games. Lower-level agents (metastatic bureaucracies and rent-seeking elites) are successfully winning their local selection games while killing the host organism. The NRC doesn't block Thorium because it's stupid; it blocks Thorium because the NRC is a selfish agent that has selected for a high-noise environment where it is the sole arbiter of "safety." It's winning. The civilization is losing.
+**The Selection Mismatch:** The metacrisis is the terminal conflict of these multiscale Darwinian games. Lower-level agents (metastatic bureaucracies and rent-seeking elites) are successfully winning their local selection games while killing the host organism. The NRC doesn't block Thorium because it's stupid; it blocks Thorium because the NRC is a selfish agent that has selected for a high-opacity environment where it is the sole arbiter of "safety." It's winning. The civilization is losing.
 
 **The task of governance engineering is to align the Darwinian games.** We do not need more virtuous actors; we need an architecture that ensures winning at the cellular or institutional level is structurally impossible without contributing to the fitness of the whole body. This is what Document 3's mechanisms attempt: sunset provisions that impose organism-level selection on organs, accountability linkages that couple individual success to institutional health, transparency requirements that restore the signaling substrate so higher-level selection pressure can reach lower-level agents.
 
@@ -895,8 +897,30 @@ Cooperation only persists when defection carries consequences. Both Ostrom's com
 
 1. **Nice:** Default to cooperation. Systems should make cooperation the path of least resistance, not treat everyone as potential criminals.
 2. **Intelligent (Responsive):** Respond proportionally to others' behavior. Cooperate with cooperators, defect against defectors.
-3. **Clear:** Transparent, legible rules. Everyone understands what counts as cooperation vs. defection.
+3. **Clear:** Transparent, legible rules. Everyone understands what counts as cooperation vs. defection. (See expanded definition below.)
 4. **Forgiving:** Mistakes don't permanently doom you. Reformed defectors can rebuild trust.
+
+**The Specification of Clarity:** "Clear" signals are not merely "understandable"—they must satisfy specific engineering requirements to enable coordination. A signal is clear when it is:
+
+- **Fast (Low Latency):** Feedback arrives near-real-time. Delayed signals sever the feedback loop between action and outcome. If you don't know for months whether your decision was good, you can't learn.
+
+- **Proportional (High Resolution):** Signals capture amplitude, not just direction. Small actions produce small signals; existential threats produce high-voltage alarms. Binary signals (pass/fail, approved/rejected) destroy the gradient information agents need to calibrate.
+
+- **Accurate (Truth-Coupled):** The signal tracks physical reality (the windshield), not performative metrics (the dashboard). When metrics decouple from reality—Goodhart's Law—the signal becomes noise regardless of precision.
+
+- **Adaptive (Updating):** Signals update automatically upon environmental changes. Frozen signals create the "standard of care" trap (Section 1.2a)—following protocols calibrated to conditions that no longer exist.
+
+- **Concise (Low Extraction Cost):** Minimum cognitive load to extract meaning. The opposite of complexity-as-weapon: 17,000 pages of NRC regulations are functionally silent, not clear. If the agent must spend all its energy just parsing the signal, coordination fails.
+
+- **Complete (Nothing Essential Omitted):** All information required for the decision is present. A concise summary that omits the critical variable is worse than useless—it creates false confidence. Concision and completeness are in tension; clarity requires both.
+
+- **Attributable (Source-Identified):** Every signal traces to an identifiable source. Anonymous authority—"the department decided," "policy requires"—is opacity wearing a mask. Attribution enables recourse and error-correction.
+
+- **Auditable (Verifiable):** Recipients can trace the signal to its source data. You shouldn't have to trust the issuer; you should be able to verify the measurement. This is the difference between a dashboard connected to instruments and a dashboard showing whatever the pilot wants to see.
+
+- **Independent (Decoupled):** Different signal types (price, reputation, accountability) travel on separate channels. When the price signal must match the political signal, both become noise. Independence enables cross-checking and error detection.
+
+**Why this specification matters:** Current systems fail clarity systematically. Regulatory frameworks fail latency and density. Corporate KPIs fail accuracy and adaptability. Traditional voting fails resolution and latency. By defining clarity operationally, we make these failures visible and correctable—and hold any proposed solution to a concrete standard.
 
 Modern institutions fail at multiple points in this framework. Anonymous systems aren't intelligent (can't track who defected). Bureaucratic systems aren't clear (opaque rules). Punitive systems aren't forgiving (permanent criminal records). The result: cooperation equilibria collapse.
 
@@ -1708,3 +1732,27 @@ The Specification establishes **what we're searching for**. The Mechanisms show 
 ---
 
 **Continue to [Document 3: The Mechanisms →](03_mechanisms.md)**
+
+---
+
+## Postscript: On Observation and the Nature of Coordination
+
+Readers who have followed the signal/capacity framework may sense something deeper beneath the surface—that the distinction reflects not just governance mechanics but something fundamental about the nature of coordinated systems.
+
+They would be right to sense this.
+
+We never access capacity directly. We access it through signals—measurements, observations, feedback. This is true at every scale: physicists measure particles through instruments; we perceive the world through nervous systems; institutions perceive reality through metrics and reports. The map is all we ever have. The territory is inferred.
+
+This means the signal/capacity distinction isn't merely a useful model for governance—it may reflect the basic structure of any observer-system interface with reality. Wherever there is coordination, there must be signaling. Wherever there is a "self" that acts coherently, there is a boundary defined by what it can observe and integrate.
+
+The implications are worth sitting with:
+
+**Unobserved capacity is, for coordination purposes, non-existent.** A civilization that cannot observe its own potential cannot act on it. The thorium reactor exists in physical reality, but if the signals that would coordinate its construction are jammed, it may as well not exist. The "territory" disappears when the "map" shorts out.
+
+**Consciousness may be the experience of being a signal-integration boundary.** Levin's "self" is defined by what its components can coordinate on. Perhaps what we call consciousness—at any scale, from cell to civilization—is what it feels like to be a system that integrates signals into coherent action. A society that loses signal coherence may literally lose a form of collective awareness, becoming a collection of conscious parts that no longer constitute a conscious whole.
+
+**This reframes the project.** We are not merely designing better management systems or more efficient bureaucracies. We are attempting to restore observation—to rebuild a signaling substrate that allows civilizational-scale coordination to perceive its own capacity, its own failures, and its own potential. The platform is, in a sense, a sensory organ for an organism that has gone partially blind.
+
+This is speculative. The document's core claims do not depend on it. But if the framework has explanatory power—if it helps predict where coordination will fail and what interventions might restore it—that power may derive from touching something true about the physics of observation itself.
+
+We leave this as an open question, not a claim. But it is the question that animates the work.
