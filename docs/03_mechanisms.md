@@ -1424,12 +1424,15 @@ Proposals that don't generate energy don't execute. This is a feature:
 - Delegation is always instantly revocable
 - Delegates must publish voting rationale (transparency)
 
-**AI agents:**
-- Train model on your preferences and values
+**AI agents (individual-trained, not provider-consumed):**
+
+The critical architectural principle: AI assistance must be trained BY the individual, not consumed FROM a provider. When you use a provider's pre-trained model, accountability divorces from training—the model optimizes for the provider's objectives, not yours, and you become a consumer of someone else's judgment rather than extending your own.
+
+- You train the model on your preferences and values
 - AI votes on your behalf according to your demonstrated pattern
-- You can override any AI vote
-- AI must be open-source and auditable
+- You can override any AI vote at any time
 - Model training data (your past votes) is private to you
+- The human remains accountable at all points—the AI is an extension of your judgment that you've shaped, not a black box someone else built
 
 **The Schelling point shift:**
 
@@ -1445,8 +1448,8 @@ Proposals that don't generate energy don't execute. This is a feature:
 **Delegation chains:** Alice → Bob → Carol → ...
 - Mitigation: Max depth (e.g., 2 levels)
 
-**AI bias:** Model trained on biased data votes against user interests
-- Mitigation: Open-source requirement, audit trails, user override, periodic model review
+**AI drift:** Model diverges from user's actual preferences over time
+- Mitigation: User override at any time, periodic review of AI voting patterns, ability to retrain or reset. The human remains accountable regardless of AI behavior—auditability of AI reasoning is unreliable (models can optimize to pass audits), so user control is the only real safeguard.
 
 **Computational kindness as design principle:**
 

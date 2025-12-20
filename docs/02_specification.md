@@ -80,6 +80,22 @@ This hypothesis has consequences. If signaling is required for coordination, the
 
 Michael Levin's work on bioelectricity provides one concrete instance of this principle. It is not the universal mechanism—it is evidence that the hypothesis holds in at least one domain, and reason to look for analogous substrates elsewhere.
 
+**The Evolution of Signal Perception**
+
+Why do signals exist at all? Evolution is about finding shortcuts. In the beginning, there is only raw selection—replicators survive or die. "Waiting to die" is the only feedback mechanism.
+
+But perception evolves as a shortcut: instead of dying to learn fire is dangerous, evolve to detect heat. A signal is simply an environmental variable with **predictive utility**—a piece of data that correlates with fitness-relevant outcomes. A bacterium evolves a sensor for a chemical gradient because that gradient predicts energy. The chemical becomes a "signal" because it predicts survival.
+
+What counts as a signal is itself selected. Evolution tunes sensors to whatever environmental features had correlative predictive utility in the ancestral environment. Features that predicted "cooperation will work here" became the inputs to the NICE-viability auditor. This isn't arbitrary—it's the residue of deep-time selection on what information actually mattered.
+
+**The Levin extension**: Multicellularity required perceiving *other cells* as the critical variable. Bioelectricity is evolved predictive utility—a cell perceives the voltage of its neighbor because that voltage predicts what that neighbor will do next. Intelligence is the capacity to expand the light cone of what signals you can perceive and integrate.
+
+**Hyper-novelty and sensor mismatch**: Our sensors evolved under specific environmental conditions. When those conditions change faster than evolution can adapt, signals lose their predictive utility. Blue light is a clear example: our circadian system evolved for fire and sunlight. Now screens blast signals the sensor interprets as "noon" at midnight. The sensor isn't broken—it's receiving inputs it wasn't calibrated for.
+
+Social signals face the same mismatch. GDP once correlated with prosperity; under financialization it tracks extraction. Credentials once correlated with competence; under institutional saturation they track conformity. Engagement once correlated with value; under algorithmic optimization it tracks outrage. The signals haven't disappeared—they've decoupled from the outcomes they used to predict. We're not flying blind; we're flying on instruments calibrated for a world that no longer exists.
+
+**Culture as Coordination Technology**: Humans didn't break the Dunbar limit; we bypassed it with binding stories (Harari's "imagined orders"). We evolved to have culture-mediated sensors. The historical cycles (Doc 1, Section 1.3) are this mechanism playing out across time. Cultural coordination technology succeeds, sensed carrying capacity rises, cooperation scales. It degrades under pressure—elite capture, complexity, novelty, external shock—sensed capacity falls, competitive mode returns. The Cistercians built coordination technology adequate to their era; hyper-novelty is the current pressure degrading ours.
+
 **The Two Dimensions of Coordination**
 
 Coordination depends on two independent variables:
@@ -442,7 +458,7 @@ The pattern emerges from **structure**, not character. When you focus on individ
 
 Touch one variable and a dozen others shift in response through feedback loops you didn't anticipate. Optimize for one metric and participants game it in ways you didn't foresee (Goodhart's Law). Impose rigid rules and people route around them through informal arrangements you can't see. The intervention produces the direct effect you intended, plus a cascade of indirect effects you didn't.
 
-Small changes can have disproportionate effects. Systems can sit in stable equilibria for years, then tip catastrophically when a threshold is crossed. The 2008 financial crisis didn't gradually worsen—it cascaded in days once Bear Stearns failed, triggering panic that overwhelmed the system. Tainter's collapse (Section 1.15) follows the same pattern: societies sustain rising complexity for decades, then collapse suddenly when marginal returns turn negative.
+Small changes can have disproportionate effects. Systems can sit in stable equilibria for years, then tip catastrophically when a threshold is crossed. The 2008 financial crisis didn't gradually worsen—it cascaded in days once Bear Stearns failed, triggering panic that overwhelmed the system. Tainter's collapse (Section 1.5) follows the same pattern: societies sustain rising complexity for decades, then collapse suddenly when marginal returns turn negative.
 
 This non-linearity makes prediction treacherous and control impossible. You cannot fine-tune a complex system the way you adjust a thermostat. Interventions produce delayed effects, indirect consequences, feedback loops that either amplify or dampen depending on context. The system has its own momentum, its own attractors, its own logic that resists external steering.
 
@@ -621,7 +637,7 @@ The strategy must be legible. Others must be able to predict your behavior and r
 
 **Requires:** Transparent rules, encoded in executable form (smart contracts), not subject to arbitrary interpretation.
 
-**Connection to Wealth Pump (Section 2.9):** Opacity is being actively exploited. Some people understand the system (insiders, professionals, those who can afford lawyers/accountants) and others don't. This information asymmetry drives wealth extraction—those who understand the rules can game them, those who don't get exploited. Tax codes, financial regulations, legal procedures are intentionally complex to create informational rents. Clarity isn't just fair—it prevents exploitation.
+**Connection to Wealth Pump (Section 2.1):** Opacity is being actively exploited. Some people understand the system (insiders, professionals, those who can afford lawyers/accountants) and others don't. This information asymmetry drives wealth extraction—those who understand the rules can game them, those who don't get exploited. Tax codes, financial regulations, legal procedures are intentionally complex to create informational rents. Clarity isn't just fair—it prevents exploitation.
 
 **Failure mode:** Bureaucratic opacity creates insider/outsider classes, prevents coordination, enables extraction through information asymmetry.
 
@@ -643,7 +659,7 @@ Focus on absolute gains, not relative position. Don't try to beat your opponent�
 
 Most modern institutions violate multiple NICE principles simultaneously, which is why cooperation has collapsed into competitive warfare:
 
-- **Current democracies:** Violate Intelligent (accountability vacuum—Section 2.12), violate Clear (regulatory complexity enables wealth pump—Section 2.9), somewhat Forgiving (but debt/criminal records create permanent damage)
+- **Current democracies:** Violate Intelligent (accountability vacuum—Section 2.12), violate Clear (regulatory complexity enables wealth pump—Section 2.1), somewhat Forgiving (but debt/criminal records create permanent damage)
 - **Anonymous online systems:** Not Intelligent (can't track defectors), not Clear (implicit norms), toxic equilibrium dominates
 - **Bureaucratic systems:** Not Nice (high barriers), not Intelligent (can't respond individually), not Clear (opaque procedures), not Forgiving (permanent records)
 
@@ -1502,6 +1518,20 @@ North's distinction between allocative efficiency (optimizing within existing ru
 **Requirements:**
 
 **Embedded feedback loops:** The system must continuously monitor policy outcomes through approval ratings, engagement metrics, and explicit feedback mechanisms. This data must feed back into governance decisions, creating cybernetic control loops.
+
+**Measure sensor reads, not just outcomes:** Science and engineering affect capacity (reality). But the cooperation/competition switch is triggered by what sensors perceive, not reality directly. Governance tools must therefore measure what sensors are reading: *Do you feel society is fair? Do consequences fall equally on elites and commoners? Do you feel you have opportunity? Is effort and ability rewarded? Do you feel you have agency—control over your own life? Are you optimistic about the future?* These subjective reads are the actual inputs to the cooperation/competition calculation—and can be decoupled from objective metrics. Adam Curtis's *The Trap* documented this failure: when NHS optimized for numerical targets (wait times, procedure counts), the metrics improved while care quality collapsed. Crime stats fell while people felt less safe. The metrics were gamed; the sensor reads deteriorated. Polling "vibes" is not soft—it's measuring the variables that actually drive behavior. GDP can rise while sensed fairness collapses; material abundance can increase while sensed opportunity shrinks.
+
+**Why sensor reads are robust:** A common objection to using subjective "sensor reads" as governance data is that they are soft or easily manipulated. The opposite is true: metrics are easy to game; aggregate lived experience is almost impossible to game over time.
+
+1. **Lies are informational debt.** Truth is low-maintenance because it is tethered to the territory (reality). A lie is a map decoupled from reality, requiring continuous energy investment to maintain: propaganda to drown out contradictory signals, censorship to prevent note-sharing, complexity to exhaust the observer. Eventually the energy cost exceeds the system's capacity, leading to *HyperNormalisation* (Curtis)—everyone knows the system is lying, elites know everyone knows, but no replacement binding story exists. The signaling substrate becomes 100% noise.
+
+2. **Aggregate sensors as ground truth.** You can fake a GDP number, a crime statistic, a test score. You cannot fake the *feeling* of opportunity or fairness across millions of people. While individual sensors can be "blue-lighted" by hyper-novelty in the short term, the aggregate vibe of a population is the only audit engine hard-wired to detect the truth of a coordination environment. The human sensor network is the ground truth that metrics try—and fail—to proxy.
+
+3. **The 75% path incentive.** Elites often choose to game metrics rather than address sensor reads because of the Accountability Vacuum (Doc 1, Section 2.12). For an aging incumbent, "ten more years of power through lying" is individually rational, even if it ensures civilizational collapse after they're gone. They strip-mine social trust—a resource that took centuries to build—for short-term rents.
+
+**The platform solution:** Make lying computationally expensive by re-coupling the map to the territory. By treating the human sensor network as the primary instrument panel, the system ensures that a policy which looks good on paper but feels like extraction will drain approval immediately. You cannot "math" a populace into feeling they are in cooperative mode when their sensors read competitive reality.
+
+**Metrics as color.** Quantitative data isn't useless—it provides color and context to sentiment. When a cluster reports negative reads, metrics can help diagnose *why*: which subgroups, which regions, which conditions correlate with the signal. But sentiment remains primary; metrics are investigative tools, not the governance signal itself.
 
 **Meta-governance capabilities:** Communities must be able to modify their own governance rules through structured processes. Create new positions, retire obsolete ones, adjust voting mechanisms, change review schedules—all through the same democratic processes used for policy decisions.
 
