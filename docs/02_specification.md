@@ -132,7 +132,7 @@ This means dysfunction is **selective**: some coordination works while other coo
 
 Signals don't just vary by dimension—they vary by **scale**. We are constantly receiving signals from people around us, groups, institutions, nations, the global system. We navigate how much cooperation to extend at each level.
 
-The Arab proverb captures this: "Me against my brother; me and my brother against my cousin; me and my brother and my cousin against the world." These are **nested cooperation circles** with different thresholds. Lineage provides a cooperation subsidy (Hamilton's rule)—you extend more trust to kin because shared genes mean shared fitness. But even kin selection is signal-mediated: you must *perceive* who your kin are, who shares your interests at what scale.
+As the Bedouin proverb captures (Section 1.4), cooperation and competition are **nested circles** with different thresholds. Lineage provides a cooperation subsidy (Hamilton's rule)—you extend more trust to kin because shared genes mean shared fitness. But even kin selection is signal-mediated: you must *perceive* who your kin are, who shares your interests at what scale.
 
 **The Coherence Distance** at each scale is determined by whether the **informational prerequisites for cooperation** can be verified at that distance:
 - Can I verify reciprocation likelihood?
@@ -372,6 +372,21 @@ The relationship is a **dialectic**:
 - **Software Channels Hardware:** Memetic technologies (monasticism, markets, law, digital platforms) build the signaling substrate that keeps the biological sensor convinced we are on a frontier—making cooperation rational and morality adaptive.
 
 The Cistercians (Section 3.4) prove that memes are real and consequential: their management protocol changed the history of a continent. We are not *tabula rasa*, nor are we "lumbering robots." We are the species that **builds the software that manages its own hardware**. The metacrisis is a memetic failure—the 12th-century coordination software has finally crashed on 21st-century hardware complexity.
+
+**Developmental Calibration: The Cooperation Radius**
+
+Cooperation is not binary—it's a gradient. Everyone cooperates more with family than strangers, more with neighbors than foreigners. The question is: **how far out does meaningful cooperation extend?**
+
+Individual variation in cooperation radius is developmental calibration, not fixed personality. A person's default radius reflects their lifetime of signal reads:
+
+- **High-fidelity upbringing** (stable family, fair institutions, promises kept) → large cooperation radius. The sensor learned that cooperation pays off even with strangers and abstract institutions.
+- **Noisy/chaotic upbringing** (broken promises, unpunished defection, institutional betrayal) → contracted radius. The sensor learned that cooperation beyond immediate family is a sucker's bet.
+
+The Marshmallow Test measures perceived institutional reliability, not willpower. Children who wait have learned that promises get kept. Children who grab immediately have learned—often correctly—that delayed gratification is for fools in their environment.
+
+**Functional societies expand the cooperation radius outward.** You still cooperate most with family, but you also cooperate meaningfully with neighbors, strangers, institutions, abstract "society." Epistemic shrinkage contracts this radius—cooperation collapses inward until only immediate kin remain inside the boundary. Everyone outside becomes competitor or threat.
+
+Governance reform must provide sustained signal repair to recalibrate these thresholds across generations. You cannot lecture someone into expanding their radius. You must change the substrate so that wider cooperation actually pays off.
 
 ### 3.2 Incentive Design: Rules Shape Behavior More Than Leaders Do
 
@@ -613,6 +628,22 @@ Cooperation is the foundational requirement for any functional society. Before d
 
 **The foundational insight:** Cooperation is not a moral aspiration or cultural norm—it's a stable equilibrium in iterated games that emerges when specific structural conditions are met. Robert Axelrod's tournaments on iterated Prisoner's Dilemma identified the structural requirements for stable cooperation. The winning strategy ("Tit for Tat") succeeded because it was **NICE**:
 
+**NICE as the Radius Mediator**
+
+The system of sensors described in Document 1 (Section 1.4) audits the environment to detect the **radius at which NICE signals remain legible**. This becomes the cooperation radius.
+
+At Dunbar scale (~150), NICE signals are directly observable—you see who cooperates, who defects, reputation travels by word of mouth. Beyond that scale, **institutions extend the radius** by serving multiple functions:
+
+- **Signal repeaters:** Amplify NICE signals beyond direct observation range. Courts broadcast "defection was punished," media reports "this person cooperated."
+- **Signal interpreters:** Do the sensemaking you can't do yourself. Regulators evaluate whether a company is trustworthy; professional boards determine if practitioners are competent.
+- **Sensemaking offload:** If you trust the institution, you don't have to personally verify every cooperation partner. The institution's stamp means "we've already checked."
+
+When institutions function, you can cooperate with strangers because the institution has already evaluated them. When institutions are captured or degraded, the signals become noisy or deceptive—you can no longer trust information beyond direct observation range, and the cooperation radius contracts accordingly.
+
+**The engineering goal:** We cannot shrink civilization to Dunbar scale. We must build institutions that function as high-fidelity NICE signal infrastructure—extending the radius at which cooperation remains sensorially viable.
+
+---
+
 **1. Nice: Never First to Defect**
 
 Start with cooperation. Default is trust, not suspicion. Don't preemptively defect out of fear. Entry barriers should be low—new participants can take standard actions without extensive vetting.
@@ -830,6 +861,18 @@ Most decisions naturally cluster at small scales (local infrastructure, zoning, 
 
 Only a small fraction of decisions require city-wide, state-wide, or national coordination. If you can keep these at their appropriate scales and prevent accumulation at the top, transaction costs stay bounded even as total population grows.
 
+**The Logarithmic Distribution of Cooperation**
+
+"Scale-free cooperation" does not mean equal cooperation at every scale. It means cooperation is *possible* at any scale—but the *volume* of cooperation should be inversely proportional to scale:
+
+- **Local (~80%):** The vast majority of decisions—daily coordination, resource sharing, dispute resolution—happen where signals are strongest and sensors work best.
+- **Intermediate (~15%):** Cross-community coordination, infrastructure that spans boundaries, aggregation of local experiments.
+- **National/Global (~5%):** Only fundamental protocols—rights, existential risks, standards that genuinely require uniformity (weights, measures, currency).
+
+This logarithmic structure is not a design choice but a **constraint imposed by signal processing limits** (Section 4.8). When centralized institutions attempt to handle more than this distribution allows, they either fail to process the signal load or simplify until they're no longer aligned with the cooperation they're supposed to enable.
+
+The goal is not "cooperation at national scale instead of local scale." It's "cooperation at every scale, with most happening where sensors work best."
+
 **Failure modes if violated:**
 
 - **High synchronous costs:** Scale caps at meeting attendance limit, selects for those with free time
@@ -990,6 +1033,25 @@ Modern systems separate harm from consequence. Organizational complexity and lim
 **The dialectic:**
 
 Must balance delegation (can't micromanage everything) with accountability (can't let "I didn't know" shield decision-makers from foreseeable harms). Must balance innovation (need risk-taking) with deterrence (can't enable reckless deployment of dangerous systems). Must balance economic consequences (appropriate for minor harms) with physical consequences (necessary for catastrophic risks where fines are insufficient deterrent).
+
+**Scale-Dependent Liability: The Institutional Fiduciary**
+
+"Absolute freedom" is only coherent at individual scale. We already recognize this implicitly: doctors can prescribe controlled substances, police can exercise violence, lawyers hold privileged communications, judges can deprive liberty. These are "super-legal" powers granted to individuals performing institutional functions—and they come with professional standards, licensing, malpractice liability, and the possibility of losing the power entirely.
+
+The 18th-century framing of "individual liberty" assumed rough parity between individual and institutional scale. A printing press reached a town; a doctor treated a village. Today, a single algorithm or media CEO can shape the beliefs of 300 million people simultaneously. The scale has changed; the accountability framework has not.
+
+**The principle:** Liability must scale with radius of impact.
+
+- **Individual scale:** High freedom, minimal regulatory burden. If you lie to your neighbor, the damage is local.
+- **Institutional scale:** Subject to accountability mechanisms proportional to impact. If you operate as signal infrastructure for civilization (Section 4.1), you should be *regulatable*—subject to standards, audits, or consequences that individual actors are not.
+
+**The epistemic infrastructure framing:** You don't have "freedom" to build a bridge that collapses, or "freedom" to dump toxic waste into the public water supply. Media is the water supply of the signaling substrate. When media optimizes for engagement (outrage, fear, tribal capture) rather than signal fidelity, it is dumping epistemic pollution into the commons—triggering the four-way population split described in Section 2.8. This isn't a free speech issue—it's a pollution issue.
+
+**Scale determines status, not self-labeling:** Entities will claim individual protections while wielding institutional power—"I'm not media, I'm a platform," "I'm not an institution, I'm just a company." The test cannot be self-declared category; it must be **radius of impact**. If your algorithm shapes the beliefs of millions, you are operating signal infrastructure regardless of what you call yourself.
+
+**Why regulation protects, not punishes:** Without regulation, institutional-scale actors face a race to the bottom. If one media outlet optimizes for outrage and another for accuracy, outrage wins attention and revenue. Absent constraints, *every* rational actor must follow or die. Regulation is what allows companies to avoid this trap—it sets a floor that prevents the defection spiral. The company that wants to maintain signal fidelity can only do so if competitors face the same constraints.
+
+**What we are NOT prescribing:** This section does not specify what accountability mechanisms should apply—that's implementation, not requirement. We are establishing the principle that institutional-scale actors must be *subject to* regulation commensurate with their impact. The specific standards, enforcement mechanisms, and consequences are for communities to explore—dialing the constraints until we get the behaviors we want from our institutions. The requirement is that such actors cannot claim immunity from accountability by self-labeling as individuals or platforms.
 
 **What any solution must provide:**
 
@@ -1331,6 +1393,30 @@ The "brain" (elite) stays aligned with the "body" (community) because defection 
 Subsidiarity—the principle that problems should be solved at the lowest capable level—is widely praised but rarely implemented. The structural problem: without enforcement mechanisms, power naturally centralizes. Bureaucracies expand upward because there's no countervailing force pushing decisions back down to local levels.
 
 **Why this matters:** Scott's *Seeing Like a State* demonstrates how centralized planning destroys local knowledge (metis). When distant bureaucrats make decisions about contexts they don't understand, they optimize for legibility (what they can measure) rather than effectiveness (what actually works). Ashby's Law of Requisite Variety reinforces this: regulatory mechanisms must match system complexity. A single central authority cannot have sufficient variety to govern diverse local conditions.
+
+**The Signal Processing Burden**
+
+Subsidiarity is not just about local knowledge—it's about signal processing capacity. A national-level institution attempting to evaluate NICE signals across an entire country faces an impossible burden. The N² complexity tax (Section 3.1) means that as participants grow, potential noise grows exponentially. No central institution can reliably distinguish cooperation from defection, competence from incompetence, at national scale for complex domains.
+
+This creates two failure modes:
+
+1. **Power accumulation without accountability:** Institutions naturally accumulate power because concentrated authority is easier to wield than distributed coordination. But the same scale that makes them powerful makes them impossible to hold accountable—there's no institution *above* them with the signal processing capacity to evaluate their performance.
+
+2. **Forced simplification:** To operate at national scale, institutions must reduce complex local realities to simple metrics. This isn't a bug in implementation—it's inherent to the task. You cannot process millions of local contexts; you can only process aggregated numbers. The institution becomes "aligned" to its metrics, not to the cooperation it was meant to enable.
+
+**The Organic Growth Requirement**
+
+Only systems that evolve from local through intermediate levels to national scale can be reliably trusted for complex coordination. Each level must prove itself as a functional signal repeater before the next level can rely on its outputs:
+
+- **Local level:** Direct observation. NICE signals are legible because you can see what's happening.
+- **Intermediate level:** Aggregates local signals. Trustworthy only if local levels are trustworthy and the aggregation is honest.
+- **National level:** Aggregates intermediate signals. Trustworthy only if the entire chain beneath it is trustworthy.
+
+A national institution that bypasses this organic layering—that attempts to process local signals directly—will inevitably fail. It lacks the requisite variety (Ashby) and the signal processing capacity to do what it claims.
+
+**Exception: Inherently Simple Coordination**
+
+Some domains are simple enough that national-scale coordination works: road infrastructure, currency standards, weights and measures. These succeed precisely because they don't require complex signal processing—the "signal" is whether the road exists and connects, whether the currency is accepted, whether the meter is 100 centimeters. For anything requiring nuanced evaluation of local context, subsidiarity is not a preference but a necessity.
 
 **Temporal Subsidiarity:** Subsidiarity applies to time as well as space. Operational decisions (tactics, resource allocation, local adaptation) should update at high frequency with local authority. Stabilizing rules—property rights, fundamental protocols, constitutional constraints—should update slowly with broader consensus and longer review periods. This prevents local interest groups from rewriting civilizational DNA overnight. Fast search at the edge enables adaptation; slow stability at the core provides the predictable foundation that makes long-term planning possible. Constitutional amendments require supermajorities precisely because the costs of rapid core changes exceed the benefits of agility at that layer.
 

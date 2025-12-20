@@ -206,7 +206,7 @@ Beyond Schmachtenberger's metacrisis lies the problem of **Hyper-novelty**: a co
 
 Wisdom is fundamentally about delayed gratification and timing—patterns polished by evolution to match their environment. Ancestrally, this worked: stable environments meant wisdom accumulated across generations before conditions changed. But hyper-novelty creates a growing **delta between institutional wisdom and reality**. Technology drives the environment forward while institutions lag behind. The "consensus" that takes decades to form is obsolete upon arrival.
 
-This delta may explain why the density sensor (Section 1.4) trips even in material abundance: the brain interprets unpredictability itself as a threat signal. The widening gap between what institutions can handle and what technology creates keeps the Paleolithic brain in permanent beta-error mode—pushing the BIOS toward Competitive Mode as a survival reflex.
+This delta may explain why cooperation radii contract even in material abundance: the brain interprets unpredictability itself as a threat signal. The widening gap between what institutions can handle and what technology creates keeps the Paleolithic sensors in permanent threat-detection mode—triggering radius contraction as a survival reflex.
 
 **The Turkey Problem (Taleb)**
 
@@ -262,7 +262,7 @@ Turchin's structural-demographic cycles (Section 1.3) operate on ~80-100 year ti
 
 **Without lived memory of collapse, cooperation decayed back to competition.** The "greed is good" 1980s, the "there is no society, only individuals" Thatcherism, the dismantling of New Deal protections—all reflected the return to selfish individualism once generational memory of crisis faded. This is the Fourth Turning pattern (Strauss-Howe): ~80 year cycles where societies forget war and cooperation, drift toward competition and selfishness, experience crisis, and are forced back into cooperation through catastrophe. We're currently in the crisis phase of the cycle that began in the 1940s.
 
-**The biological mechanism:** As memory faded and competition intensified, the **biological density sensor** (Section 1.4) tripped from cooperative to competitive mode—ushering in an era of atomized extraction. Section 1.4 explains how this mode switch produces the "self-made" myth, the death of reciprocal obligation, and the structural mechanisms that sever reality signals from institutional decision-making.
+**The biological mechanism:** As memory faded and competition intensified, cooperation radii contracted (Section 1.4)—ushering in an era of atomized extraction. Section 1.4 explains how this radius contraction produces the "self-made" myth, the death of reciprocal obligation, and the structural mechanisms that sever reality signals from institutional decision-making.
 
 **3. Fiat Currency as Enabler and Symptom**
 
@@ -591,7 +591,7 @@ The difference: instead of a static constitutional blend that eventually ossifie
 
 #### The Biological Density Sensor
 
-Dani Sulikowski's research on intrasexual competition reveals a profound finding: competitive saturation in hierarchical environments—particularly female intrasexual hierarchies—suppresses both fertility and prosocial behavior. We interpret this as evidence of a **biological density sensor**: an evolved mechanism that detects competitive saturation and shifts individual behavior from cooperative to competitive mode. This interpretation extends Sulikowski's empirical findings into a general framework—the "density sensor" terminology and the mode-switch mechanism are our theoretical contribution, built on her research. The finding generalizes beyond gender to a universal pattern: **when populations swell and internal competition dominates, cooperative norms collapse**.
+Dani Sulikowski's research on intrasexual competition reveals a profound finding: competitive saturation in hierarchical environments—particularly female intrasexual hierarchies—suppresses both fertility and prosocial behavior. We interpret this as evidence of **biological sensors** that detect competitive saturation and trigger contraction of the cooperation radius. This interpretation extends Sulikowski's empirical findings into a general framework—the "cooperation radius" terminology and the contraction mechanism are our theoretical contribution, built on her research. The finding generalizes beyond gender to a universal pattern: **when populations swell and internal competition dominates, cooperation radii contract**.
 
 The evolutionary logic operates at the individual level. When populations are small, the primary competition is external—other groups, predators, environmental challenges. In this context, intragroup cooperation is optimal: you survive by banding together. But when populations become large and dense, your biggest competition shifts inside the group. Status becomes positional. Resources are zero-sum. The Nash equilibrium flips from "cooperate to survive external threats" to "compete to win internal status contests."
 
@@ -666,23 +666,30 @@ These behaviors—competitive intensity overdrive, fertility suppression, kin-se
 
 **However, "adaptive" doesn't mean "desirable."** These behaviors cause immense suffering and, in Universe 25, complete extinction. The mechanisms may have worked in ancestral environments with natural population limits, but in modern contexts they overshoot catastrophically. These are **mechanisms with adaptive bases that become pathological in expression**—like anxiety, where threat detection is adaptive but anxiety disorders are pathological overshooting. The competitive intensity calibration system likely evolved to respond to crowding, but in permanent high-density environments it gets stuck in overdrive, producing behaviors that may lead to extinction rather than sustainable regulation.
 
-#### The Cooperative-Competitive Mode Switch
+#### The Cooperation Radius
 
-Humans, like many species, possess a **biological density sensor** that shifts behavior along a gradient between cooperative and competitive strategies. This isn't a binary switch—individual behavior is fluid, and everyone participates in both modes to varying degrees at all times. What changes is the balance: whether, **on balance**, the gradient favors alignment (most agents, most of the time, are coupled enough to the collective that the system maintains itself) or extraction (most agents, most of the time, are decoupled enough that the system degrades). "Cooperative mode" and "competitive mode" describe societies on balance, not individuals—aggregate patterns, not binary states.
+The Bedouin proverb captures the gradient of human allegiance: *"Me against my brother, my brother and me against my cousin, my cousin and me against the stranger."* Cooperation and competition aren't binary opposites—they're **nested circles**. At every scale, you cooperate with those inside your boundary and compete with those outside. The fundamental question of governance is where that line is drawn.
 
-The density sensor shifts this gradient. When it detects saturation exceeding capacity, competitive behaviors become more rational: secure your position, suppress rivals' fertility, and ensure weaker competitors get selected out before the collapse. The goal isn't population-wide sacrifice—it's **positioning yourself to survive the narrowing** while rivals fail. This ancient mechanism worked for species where periodic crashes were inevitable and out-competing rivals for scarce post-collapse resources was adaptive.
+Humans possess a **system of biological sensors** that together generate an emergent sense of this boundary—the **cooperation radius**. Multiple inputs (resource signals, reciprocity history, defection cues, environmental stability) combine into a felt sense of "how far out can I trust cooperation to work?"
 
-**This isn't just behavioral—it's perceptual.** Competitive mode narrows the epistemological horizon: the ability to perceive oneself as integrated into larger systems shrinks, just as cancer cells lose the bioelectric signal telling them they're part of a body. The "self-made" myth (Section 1.5) isn't cynical propaganda—it's an accurate description of how competitive mode experiences reality. Roads, institutions, legal frameworks, decades of accumulated infrastructure become genuinely imperceptible to a cognitive system that has switched modes. The switch doesn't just change what you *do*; it changes what you can *see*.
+- **Individual Level:** The radius determines the limit of "us." It can contract to the individual/kin core or expand to include strangers and abstract institutions.
+- **Societal Level:** When most individuals possess an expanded radius, the aggregate pattern is **cooperative mode**. When signals indicate cooperation beyond the core is high-risk or low-reward, radii contract, and the aggregate shifts into **competitive mode**.
 
-**Crucially, this sensor measures saturation relative to carrying capacity—not absolute population numbers.** Carrying capacity is determined by all limiting factors: resources, coordination systems, environmental constraints, disease, infrastructure. Agriculture and industrialization massively raised material limits. But carrying capacity is only as high as the most limiting constraint. When any critical capacity is exceeded—whether governance, resources, environmental, or coordination—the biological sensor detects it and trips the competitive switch.
+This is what we mean by "high-trust" and "low-trust" societies: the aggregate cooperation radius. High-trust societies are those where most people's radii extend to strangers and institutions. Low-trust societies are those where radii have contracted to family and tribe.
 
-**The sensor measures signaling substrate, not just calories.** "Carrying capacity" for humans is more than just food or land—it's whether the coordination infrastructure can handle the complexity load. The signaling substrate consists of individuals, governance systems, and culture operating as coordination *technologies*. When this substrate functions, it broadcasts a signal that cooperation is rational: trust works, defection is punished, competence is rewarded. The density sensor reads this signal and stays in cooperative mode.
+**Binding Stories as Radius Expanders:** Humans escaped the behavioral sink through **binding stories**—what Harari calls "imagined orders." Religious identities, national myths, and legal fictions (money, corporations, rights) act as modulation hardware that allows the ancestral sensor to read millions of strangers as part of the in-group. These cultural technologies expand the cooperation radius beyond the Dunbar baseline.
 
-When the substrate fails under complexity—when institutions become captured, when trust collapses, when the signal-to-noise ratio degrades—the sensor interprets the coordination failure as saturation. It doesn't matter if there's unlimited food (Universe 25) or unprecedented material wealth (modern developed nations). If the social signaling fails to reach the individual, the brain assumes the niche is overcrowded and flips the switch.
+**Saturation and Contraction:** The sensors measure saturation relative to carrying capacity—not absolute population. Carrying capacity is determined by the most limiting constraint: resources, governance efficiency, coordination infrastructure. When any critical capacity is exceeded, the sensors detect coordination failure and **trigger contraction of the cooperation radius**, prioritizing survival of the immediate lineage over health of the broader organism.
 
-**Why we have this program:** The competitive BIOS exists because the "narrowing" happened enough in ancestral history to be evolutionarily conserved. For 200,000 years, human bands repeatedly hit local carrying capacity. Those who could switch into zero-sum survival mode during bottlenecks out-competed those who kept trying to cooperate in a collapsing niche. We are descendants of people who successfully ran the "purge" program whenever the frontier ran out.
+**The radius IS the epistemological horizon.** Epistemic shrinkage and radius contraction are the same phenomenon. When you can no longer perceive yourself as integrated into larger systems—just as cancer cells lose the bioelectric signal telling them they're part of a body—your cooperation radius has contracted. The "self-made" myth (Section 1.5) isn't cynical propaganda—it's an accurate description of how a contracted radius experiences reality. Roads, institutions, legal frameworks, decades of accumulated infrastructure become genuinely imperceptible once they fall outside the boundary of "us." The contraction doesn't just change what you *do*; it changes what you can *see*.
 
-Civilization, therefore, is **modulation hardware**: a signaling environment designed to keep the density sensor reading "cooperation viable" at scales far beyond tribal baselines. Religion, national identity, legal fictions, institutional trust—these aren't just "culture." They're coordination technologies that provide cooperation catalysts (infrastructure, incentives, shared frameworks) which maintain cooperative signaling above Dunbar scale.
+**The sensors read signaling substrate, not just calories.** "Carrying capacity" for humans is more than food or land—it's whether coordination infrastructure can handle the complexity load. The signaling substrate consists of individuals, governance systems, and culture operating as coordination *technologies*. When this substrate functions, it broadcasts signals that cooperation pays off: trust works, defection is punished, competence is rewarded. The sensors read these signals and the radius stays expanded.
+
+When the substrate fails under complexity—when institutions become captured, when trust collapses, when the signal-to-noise ratio degrades—the sensors interpret coordination failure as saturation. It doesn't matter if there's unlimited food (Universe 25) or unprecedented material wealth (modern developed nations). If social signaling fails to reach the individual, the sensors read "cooperation beyond my circle doesn't pay" and the radius contracts.
+
+**Why we have this program:** The radius-contraction response exists because the "narrowing" happened enough in ancestral history to be evolutionarily conserved. For 200,000 years, human bands repeatedly hit local carrying capacity. Those who contracted their radius during bottlenecks—prioritizing kin, treating outsiders as competition—out-survived those who kept trying to cooperate broadly in a collapsing niche. We are descendants of people who successfully contracted when the frontier ran out.
+
+Civilization, therefore, is **modulation hardware**: a signaling environment designed to keep the sensors reading "wide cooperation viable" at scales far beyond tribal baselines. Religion, national identity, legal fictions, institutional trust—these aren't just "culture." They're coordination technologies that provide cooperation catalysts (infrastructure, incentives, shared frameworks) which maintain expanded radii above Dunbar scale.
 
 #### Epistemic Shrinkage and Social Cancer
 
@@ -690,37 +697,37 @@ Michael Levin's developmental biology provides the mechanistic explanation for w
 
 When the substrate degrades under complexity, the signal doesn't disappear—it becomes noise. Individuals can no longer extract coherence from the institutional environment. Levin calls this "epistemic shrinkage": the cognitive light cone contracts from organ-scale to cell-scale. The individual stops perceiving themselves as part of a body and reverts to unicellular optimization—the ancestral competitive BIOS. This is the biological birth of **social cancer**: an institution being consumed by members who can no longer perceive it as part of their self. They aren't defecting from malice; they've lost the signal that made coordination rational.
 
-This explains the Thorium Reactor paradox (Section 1.0): the signal of safer, 100× more efficient energy was a *multicellular* benefit—civilization-scale coordination gain. But that signal was lost in the noise of cell-level competitive signaling: bureaucratic turf protection, fossil fuel rent-seeking, military-industrial path dependency. The civilizational "organ" couldn't perceive the benefit because its constituent "cells" were operating in competitive mode, optimizing for local position rather than system-wide health. (See Section 3.1 for the engineering implications.)
+This explains the Thorium Reactor paradox (Section 1.0): the signal of safer, 100× more efficient energy was a *multicellular* benefit—civilization-scale coordination gain. But that signal was lost in the noise of cell-level signaling: bureaucratic turf protection, fossil fuel rent-seeking, military-industrial path dependency. The civilizational "organ" couldn't perceive the benefit because its constituent "cells" had contracted radii, optimizing for local position rather than system-wide health. (See Section 3.1 for the engineering implications.)
 
-When carrying capacity is not saturated, the density sensor activates **cooperative mode**. The primary threat is nature—scarcity, external challenges. The adaptive strategy is maximizing group survival against the environment. The tool that enables this is **morality**: fairness, trust, and reciprocity create the social bonds necessary for cooperation. Selection pressure favors utility and competence—what actually helps the group survive matters more than status signaling.
+**Expanded Radius (Cooperative Mode):** When signals indicate cooperation pays off at scale, the radius expands. The primary threat is nature—scarcity, external challenges. The adaptive strategy is maximizing group survival against the environment. The tool that enables this is **morality**: fairness, trust, and reciprocity create the social bonds necessary for cooperation. Selection pressure favors utility and competence—what actually helps the group survive matters more than status signaling.
 
-When carrying capacity saturates, the density sensor switches to **competitive mode**. The primary threat shifts from nature to other humans. The adaptive strategy becomes intrasexual warfare for position within the hierarchy. The tool shifts from morality to **signaling**: demonstrating elite fitness and sabotaging competitors. Selection pressure favors status markers over utility—what demonstrates elite membership matters more than what helps the group. **Morality becomes maladaptive**—fairness, trust, and reciprocity are expensive luxuries when fighting for scarce elite positions.
+**Contracted Radius (Competitive Mode):** When signals indicate carrying capacity saturation, radii contract. The primary threat shifts from nature to other humans. The adaptive strategy becomes warfare for position within the hierarchy. The tool shifts from morality to **signaling**: demonstrating elite fitness and sabotaging competitors. Selection pressure favors status markers over utility—what demonstrates elite membership matters more than what helps the group. **Morality becomes maladaptive**—fairness, trust, and reciprocity are expensive luxuries when fighting for scarce positions.
 
-This phase shift explains why cooperation infrastructure collapses during saturation. It's not moral weakness or cultural decay—it's a **biological mode switch**. The density sensor detects carrying capacity saturation and triggers competitive mode, which **actively destroys cooperation-enabling mechanisms** because they're no longer adaptive for individual survival when the threat is other humans competing for scarce positions, not nature threatening the group.
+This explains why cooperation infrastructure collapses during saturation. It's not moral weakness or cultural decay—it's **radius contraction**. When radii contract, individuals **actively destroy cooperation-enabling mechanisms** because they're no longer adaptive when the threat is other humans competing for scarce positions, not nature threatening the group.
 
-#### The Competitive Mode Philosophy
+#### The Philosophy of Contracted Radius
 
 **The death of noblesse oblige:** Pre-modern aristocracies, for all their flaws, operated under an explicit ideology of reciprocal obligation—*noblesse oblige*, the duty of privilege. Whether this was genuine ethics or a self-serving myth used to justify hierarchy is beside the point: the social expectation existed and created real costs for flagrant defection. Lords who too obviously failed their duties risked Church censure, reputational ruin, and peasant revolt. It was the implicit bargain that allowed hierarchy to coordinate by acknowledging mutual integration.
 
-**The "Self-Made" Myth as Competitive Mode Philosophy:** Modern elites have shed even this expectation of obligation, replacing it with Ayn Rand's philosophy that achievement is purely individual and therefore implies no social debt. This isn't just bad ideology—it's what the **biological phase shift** feels like from the inside. When the density sensor trips from cooperative to competitive mode, elites genuinely stop perceiving their integration into society. The "self-made" myth is competitive mode articulated as moral philosophy.
+**The "Self-Made" Myth as Contracted Radius Philosophy:** Modern elites have shed even this expectation of obligation, replacing it with Ayn Rand's philosophy that achievement is purely individual and therefore implies no social debt. This isn't just bad ideology—it's what **radius contraction** feels like from the inside. When radii contract, elites genuinely stop perceiving their integration into society. The "self-made" myth is contracted radius articulated as moral philosophy.
 
-In cooperative mode, humans perceive themselves as part of a group facing external threats together—the psychological state that made noblesse oblige feel natural. In competitive mode, the primary threat becomes other humans competing for scarce positions, and individuals perceive themselves as atomized agents in zero-sum warfare. Randian individualism isn't a corruption of cooperative norms; it's an accurate description of how competitive mode actually experiences reality.
+With expanded radius, humans perceive themselves as part of a group facing external threats together—the psychological state that made noblesse oblige feel natural. With contracted radius, the primary threat becomes other humans competing for scarce positions, and individuals perceive themselves as atomized agents in zero-sum warfare. Randian individualism isn't a corruption of cooperative norms; it's an accurate description of how contracted radius actually experiences reality.
 
-Every billionaire is "self-made." Every tech founder "built it from nothing." The roads that moved their goods, the education systems that trained their workers, the legal frameworks that enforced their contracts, the decades of taxpayer-funded research that generated their intellectual foundations—all invisible. Not hidden, but genuinely imperceptible to a cognitive system operating in competitive mode. They enjoy the stable society that prevents their assets from being seized, yet define the taxes required to maintain that stability as theft.
+Every billionaire is "self-made." Every tech founder "built it from nothing." The roads that moved their goods, the education systems that trained their workers, the legal frameworks that enforced their contracts, the decades of taxpayer-funded research that generated their intellectual foundations—all invisible. Not hidden, but genuinely imperceptible to a cognitive system with a contracted radius. They enjoy the stable society that prevents their assets from being seized, yet define the taxes required to maintain that stability as theft.
 
 This isn't just ingratitude; it's a **coordination failure justified as moral philosophy**. When elites believe they owe nothing to the society that enabled their success, they feel entitled to extract without limit. Tax avoidance becomes virtue. Offshoring becomes efficiency. Regulatory capture becomes smart business. The commons that enabled wealth creation becomes a resource to be strip-mined rather than maintained.
 
-Graeber's social debt tracking (Section 1.8) depends on acknowledging mutual obligation. When the successful define themselves as owing nothing, the signaling architecture that once aligned individual and civilizational success collapses. The "cells" have lost the signal that they are part of an integrated organism and reverted to their ancestral, competitive, unicellular mode.
+Graeber's social debt tracking (Section 1.8) depends on acknowledging mutual obligation. When the successful define themselves as owing nothing, the signaling architecture that once aligned individual and civilizational success collapses. The "cells" have lost the signal that they are part of an integrated organism and reverted to their ancestral, contracted-radius optimization.
 
-**The crucial distinction:** The Randian "self-made" myth is the *belief* ("I owe nothing to society"). Epistemic shrinkage is the *structural result* ("I can no longer perceive what I owe"). One is ideology; the other is biology. The belief feels true because the biological mode switch has genuinely severed the perception of integration. You cannot argue someone out of a position their cognitive hardware can no longer represent.
+**The crucial distinction:** The Randian "self-made" myth is the *belief* ("I owe nothing to society"). Epistemic shrinkage is the *structural result* ("I can no longer perceive what I owe"). One is ideology; the other is biology. The belief feels true because radius contraction has genuinely severed the perception of integration. You cannot argue someone out of a position their cognitive hardware can no longer represent.
 
 #### Asymmetric Liability and Epistemic Closure
 
-This mode switch also explains why HyperNormalisation (Section 1.2a) takes hold—but not through interpersonal sabotage. The mechanism is **asymmetric liability**.
+Radius contraction also explains why HyperNormalisation (Section 1.2a) takes hold—but not through interpersonal sabotage. The mechanism is **asymmetric liability**.
 
-In competitive mode, doing real things exposes you to risk. If you follow the "standard of care" and fail, you're protected—you followed protocol. If you try something better and fail, you're destroyed—you deviated. If you try something better and *succeed*, you get no reward—you got lucky, and now you're suspect for future deviation. The asymmetry makes sensemaking structurally irrational.
+With contracted radius, doing real things exposes you to risk. If you follow the "standard of care" and fail, you're protected—you followed protocol. If you try something better and fail, you're destroyed—you deviated. If you try something better and *succeed*, you get no reward—you got lucky, and now you're suspect for future deviation. The asymmetry makes sensemaking structurally irrational.
 
-The "standard of care" is a **frozen snapshot** of whatever was working before competitive mode kicked in. It hasn't updated—and *can't* update—because updating requires someone to stick their neck out, and the system decapitates anyone who does. Doctors follow outdated protocols. Teachers teach to obsolete tests. Bankers run models everyone knows are wrong. Not because they're stupid, but because deviation is punished regardless of outcomes.
+The "standard of care" is a **frozen snapshot** of whatever was working before radii contracted. It hasn't updated—and *can't* update—because updating requires someone to stick their neck out, and the system decapitates anyone who does. Doctors follow outdated protocols. Teachers teach to obsolete tests. Bankers run models everyone knows are wrong. Not because they're stupid, but because deviation is punished regardless of outcomes.
 
 The result: a civilization running on autopilot, following scripts that made sense decades ago, unable to adapt because adaptation requires judgment and judgment requires exposure and exposure is death. The "fake world" isn't maintained through loyalty signaling—it's maintained because the alternative (actual sensemaking) has been made structurally suicidal. We're not pretending reality is fake. We've built systems that *punish* anyone who tries to engage with it.
 
@@ -728,11 +735,11 @@ The result: a civilization running on autopilot, following scripts that made sen
 
 The "standard of care" is frozen not just because deviation is punished, but because **there's no signal that would tell you what to deviate toward**. The metrics that were once proxies for reality have become the only reality the system can perceive. This is Scott's legibility critique (Section 1.11) and Goodhart's Law operating at civilizational scale: the map doesn't just replace the territory—the map is all that remains. We're flying on instruments that aren't connected to anything, following a flight plan filed before anyone currently alive was born.
 
-**The causal chain:** Competitive saturation → density sensor trips → elites enter competitive mode → social integration becomes imperceptible (self-made myth) → asymmetric liability makes sensemaking irrational → "standard of care" freezes at pre-saturation snapshot → reality signals replaced by metrics (Goodhart/Scott) → feedback loops sever → civilization flies blind on disconnected instruments → decay proceeds unacknowledged because reality itself has become imperceptible.
+**The causal chain:** Saturation signals → radii contract → social integration becomes imperceptible (self-made myth) → asymmetric liability makes sensemaking irrational → "standard of care" freezes at pre-contraction snapshot → reality signals replaced by metrics (Goodhart/Scott) → feedback loops sever → civilization flies blind on disconnected instruments → decay proceeds unacknowledged because reality itself has become imperceptible.
 
 #### Risk Calibration Under Saturation
 
-The density sensor does more than switch between cooperative and competitive modes—it recalibrates risk tolerance itself. During low saturation, safe incremental strategies yield results. Biology favors stability and risk aversion. Preserve what works, accumulate steadily, don't rock the boat.
+The sensors do more than adjust cooperation radius—they recalibrate risk tolerance itself. With expanded radii, safe incremental strategies yield results. Biology favors stability and risk aversion. Preserve what works, accumulate steadily, don't rock the boat.
 
 But when saturation blocks conventional paths to success, the calculus inverts. Safe strategies guarantee failure—exclusion from elite positions, reproductive dead-ends, permanent status deprivation. When playing it safe means certain loss, biology recalibrates toward high-risk, high-variance strategies. Extreme gambles become rational because the conservative path offers zero payoff.
 
@@ -756,13 +763,23 @@ This pattern is not unique to women or any specific group. It represents a trage
 
 **The trap of artificial abundance (why Universe 25 went to zero):**
 
-In nature, competitive phases are self-limiting: population exceeds capacity → scarcity → crash → survivors reset to cooperative mode. In Universe 25, unlimited food **prevented the crash**. The population was **trapped in competitive mode indefinitely**.
+In nature, radius contraction is self-limiting: population exceeds capacity → scarcity → crash → survivors' radii expand again. In Universe 25, unlimited food **prevented the crash**. The population was **trapped with contracted radii indefinitely**.
 
 These mechanisms evolved for boom-bust cycles with natural resets. Civilization creates artificial abundance that prevents crashes but doesn't change the biological calibration. Behavioral mechanisms designed for a temporary bottleneck ramped up to pathological levels because the expected release never came. **The cooperation software was permanently corrupted by prolonged exposure to hyper-competition without the natural reset.** The mice went extinct not from scarcity but from competitive mechanisms running to levels they would never reach in nature. Modern civilization faces the same trap.
 
-**The Historical Release Valves:** Ancestrally, competitive programs had release valves—band splitting, war, famine, disease—that eventually reset the sensor. Civilization's surplus prolongs the competitive phase: agricultural surplus, imperial expansion, colonial frontiers all served as delays. Even *Lebensraum* was an attempt to solve saturation through frontier expansion. Nothing suggests we've escaped this pattern.
+**The Historical Release Valves:** Ancestrally, radius contraction had release valves—band splitting, war, famine, disease—that eventually allowed radii to expand again. Civilization's surplus prolongs the contracted state: agricultural surplus, imperial expansion, colonial frontiers all served as delays. Even *Lebensraum* was an attempt to solve saturation through frontier expansion. Nothing suggests we've escaped this pattern.
 
 **Why Moral Appeals Fail:** You cannot "educate" someone out of a conserved hardware program. The density sensor responds to the quality of the signaling substrate, not to arguments. The sensor needs a signal, not a sermon.
+
+**Evidence for Sensor-Mediated Cooperation Radius**
+
+Cooperation isn't binary—it's a gradient with a radius. You always cooperate with someone (at minimum, immediate family). The question is how far out does "us" extend? Environmental signals adjust this radius.
+
+**The Empirical Proof: Broken Windows Theory.** Wilson & Kelling (1982) demonstrated that humans read environmental signals to calibrate behavior. Visible signs of unpunished defection (vandalism, litter, graffiti) trigger behavioral shifts in observers. While composition changes matter (bad actors concentrating in an area is real), Broken Windows proves that the *signal* of unpunished defection causes **radius contraction** even in previously prosocial individuals. The neighborhood doesn't become a war of all against all—cooperation contracts to tight in-groups while everyone outside becomes competitor or threat.
+
+**The Intuition Proof: Post-Apocalyptic Fiction.** The enduring resonance of this genre suggests deep intuitive understanding. Audiences find it "realistic" when infrastructure collapse leads to tribal warlordism. If cooperation were a fixed moral trait, these stories would feel alien. Instead, they feel like warnings. We intuitively grasp that civilization expands our cooperation radius beyond kin, and when the signaling substrate fails, the radius contracts back toward family and tribe.
+
+**Why the Specific Sensor Hypothesis Matters:** While Broken Windows proves we have sensors that adjust cooperation radius, this paper hypothesizes that these sensors are tuned to **cooperation viability at scale**. If our sensors read "cooperation doesn't pay beyond my immediate circle," the radius contracts—explaining both the tribalism and the pathological status competition we observe today.
 
 #### Luxury Beliefs: Elite Saturation in Action
 
@@ -1268,6 +1285,14 @@ Examples:
 
 Moloch is incentive structure mismatch—Nash equilibrium differs catastrophically from Pareto optimum. Everyone acting rationally produces outcomes nobody wants.
 
+**The Attention Moloch: Why Good People Can't Fix Bad Systems**
+
+The corruption of signal infrastructure (Section 2.8) is rarely individual malice—it's structural Moloch. In a competitive market for attention, if one signal repeater (media outlet, platform, politician) defects by using outrage or deception to capture engagement, they gain metabolic advantage (profit, status, survival). Competitors face a Darwinian choice: match the defection or be selected out.
+
+This is why "hire better journalists" or "elect better politicians" fails. The CEO who wants to provide high-fidelity signal *cannot*—a competitor who chooses outrage will capture revenue and put the honest institution out of business. The politician who refuses to sensationalize loses to the one who does. Good intentions inside bad incentive structures produce bad outcomes.
+
+Without a regulated coordination floor, the system defaults to lowest-common-denominator signal quality. This is why regulation is not "infringement on freedom" but the structural prerequisite for quality. It provides the floor that allows institutions to fulfill their fiduciary duties without being destroyed by defectors. Regulation makes it *safe to be good*.
+
 **Game A vs. Game B: Changing Rules vs. Playing Harder**
 
 Schmachtenberger distinguishes:
@@ -1597,6 +1622,23 @@ Climate change requires 50-year thinking but gets 4-year election cycles. Emerge
 
 **The Mechanism:** Algorithms optimize for engagement (which usually means outrage), not accuracy. This creates "reality tunnels" where cooperation across tribes becomes impossible because they lack a shared language or fact base. When Group A and Group B believe in different physical facts, Ostrom-style commons management breaks down because there is no agreed-upon "commons" to manage.
 
+**Media as Corrupted Signal Repeater**
+
+Recall the signaling substrate framework (Section 1.4): institutions function as signal repeaters that extend the range at which NICE signals can be detected. Functional journalism once served this role—broadcasting "cooperation worked here," "defection was punished there," providing the information needed to calibrate cooperation radius beyond direct observation.
+
+The crisis occurred when media transitioned from signal repeater to entertainment product. By optimizing for views and engagement rather than signal fidelity, media outlets became **negativity filters**. As Steven Pinker documents, media systematically over-represents rare defections (crimes, crashes, corruption) because they are "engaging," while ignoring the millions of daily successful cooperations that keep civilization running.
+
+**The biological result:** This "blue-lights" the human sensor network. When the repeater broadcasts a loop of unpunished defection and chaos, the sensors read a **false saturation signal**. The brain concludes that cooperation beyond the immediate circle is a war zone—even when objective safety is at historic highs.
+
+**The four-way split:** Exposure to corrupted signal infrastructure produces four distinct populations:
+
+1. **Radicalized Left:** Captured by one tribal signal stream. Reality tunnel optimized for that tribe's sacred beliefs.
+2. **Radicalized Right:** Captured by the opposing tribal signal stream. Different reality tunnel, same capture mechanism.
+3. **Apathetic:** Tuned out entirely. The sensor has gone numb—not from satisfaction but from overload. Withdrawn from a signal environment that offers only noise.
+4. **Independent:** The shrinking minority still attempting honest signal processing. Exhausted by the effort, socially punished by both tribes, increasingly rare.
+
+The middle collapses because the signal environment no longer supports it. You either get captured by a tribal repeater or you disengage entirely. We are not as divided as we feel—we have signal repeaters paid to make us feel divided, and the only apparent escapes are tribal capture or apathy.
+
 **Why Bad Beliefs Persist: Pinker's Low-Cost Error Thesis**
 
 But why don't people just... correct their beliefs when presented with evidence? Psychologist Steven Pinker provides the crucial mechanism: **individuals face no personal consequences for being wrong about abstract political or social beliefs**.
@@ -1851,9 +1893,9 @@ This is **Schmachtenberger's Metacrisis**: You cannot solve climate without solv
 
 **Part 2: Why Morality Collapses (The "Civilizational Suicide" Mechanism)**
 
-The Complexity Gap triggers the biological phase shift described in Section 1.4, explaining the visceral sense of "civilizational suicide" pervading the West.
+The Complexity Gap triggers the radius contraction described in Section 1.4, explaining the visceral sense of "civilizational suicide" pervading the West.
 
-We have hit the ceiling of what our current governance technology can coordinate. The biological sensor detects this saturation and triggers **Competitive Mode**. In this phase, **Morality becomes maladaptive.** Fairness, trust, and reciprocity—the software layer that enables cooperation—are expensive handicaps when the primary threat is other humans fighting for scarce elite positions. The system effectively "uninstalls" the cooperation software to facilitate a purge.
+We have hit the ceiling of what our current governance technology can coordinate. The biological sensors detect this saturation and cooperation radii contract. With contracted radii, **morality becomes maladaptive.** Fairness, trust, and reciprocity are expensive handicaps when the primary threat is other humans fighting for scarce elite positions. Selection pressure shifts from rewarding cooperation to rewarding competitive extraction.
 
 The resulting culture war is **chemotherapy for the elite aspirant class**. While the super-elites (who have secured resources and status) continue to reproduce, the aspirant class engages in a zero-sum status war that suppresses their own fertility and destroys social trust.
 
@@ -1951,7 +1993,7 @@ Previous complexity transitions (printing → religious wars, industrial → wor
 
 **The Engineering Challenge - Building the Life Raft:**
 
-But the ceiling is elastic. It's determined by our coordination technology, not fixed carrying capacity. If we upgrade governance infrastructure to handle complexity at scale, the biological density sensor (Section 1.4) can switch back to cooperative mode. Cooperation becomes cheap again. Morality becomes adaptive again. The phase shift reverses.
+But the ceiling is elastic. It's determined by our coordination technology, not fixed carrying capacity. If we upgrade governance infrastructure to handle complexity at scale, cooperation radii can expand again (Section 1.4). Cooperation becomes cheap again. Morality becomes adaptive again. The contraction reverses.
 
 **We don't need more virtuous pilots; we need to reconnect the dashboard to the engine.** The problem isn't that elites lack good intentions—it's that the signaling substrate has degraded until reality signals no longer transmit (Section 1.4). We need a **substrate upgrade** that restores the coherence signal, making institutional health legible again to individuals whose cognitive light cones have contracted to cell-scale. This isn't about persuasion or moral reform—it's infrastructure engineering.
 
@@ -2063,7 +2105,7 @@ In our case, the "signal" is the Complexity Gap and competitive saturation.
 
 Every elite institution is currently responding to the same structural pressure: secure dwindling positions, purge the counter-elite aspirant class through competitive mechanisms, and pull up the ladder of institutional standards to protect incumbents. They do not need to meet in secret to coordinate; their survival incentives have simply aligned against the common interest.
 
-**We are not witnessing a plot, but a phase shift.** The system is transitioning to competitive mode, which "uninstalls" the software of cooperation (morality, trust, utility-selection) because within the current broken governance architecture, those things have become maladaptive for individuals competing for scarce elite positions.
+**We are not witnessing a plot, but a phase shift.** The system is contracting into competitive mode because signals indicate cooperation beyond the core is high-risk. Selection pressure shifts from rewarding cooperation (morality, trust, utility-selection) to rewarding competitive extraction—because within the current broken governance architecture, wide cooperation radii have become maladaptive for individuals competing for scarce elite positions.
 
 The fear of a "Great Reset" is the intuitive recognition that the 75% Path (collapse) is already in motion. The sense that "elites are out to get you" reflects the reality that competitive saturation makes aspirants—the credentialed middle class competing for limited elite positions—the primary threat to incumbent elites. Turchin's data shows revolutions come not from the poor, but from frustrated counter-elites. The "chemotherapy for the elite aspirant class" is not conspiracy—it's rational competitive strategy during saturation.
 
@@ -2075,7 +2117,7 @@ The fear of a "Great Reset" is the intuitive recognition that the 75% Path (coll
 
 This makes the situation more dangerous, not less. You cannot simply arrest the conspirators and fix it, because **any elite class facing saturation with inadequate governance constraints will rediscover the necessity of coordination and gaming**. The problem isn't just the specific people in power—it's that we're in competitive mode during saturation **without the governance technology to constrain elite predation**. We are experiencing the recurrence of an ancient cycle—the narrowing—where elites rationally coordinate to pull up the ladder, suppress rivals, and extract rents.
 
-This whitepaper argues the only escape is the 25% Path: not through a "reset" of power, but through an **upgrade of the coordination technology** that allows us to raise the ceiling, switch the biological sensor back to cooperative mode, and make cooperation cheap at civilizational scale again.
+This whitepaper argues the only escape is the 25% Path: not through a "reset" of power, but through an **upgrade of the coordination technology** that allows us to raise the ceiling, restore the signals that expand cooperation radii, and make cooperation cheap at civilizational scale again.
 
 The alternative is the 75% Path. And this time, with extinction-capable technology, the 75% Path might be terminal.
 
