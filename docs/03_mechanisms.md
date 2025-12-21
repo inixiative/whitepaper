@@ -2852,6 +2852,83 @@ We're claiming we DON'T know the optimal governance system. We're claiming the a
 
 ---
 
+### 6.15 Implementing the Right to Self-Curation
+
+Document 2, Section 4.6 establishes the principle: users have the right to control the algorithms that shape their information environment. This section addresses implementation.
+
+**Legal grounding:** This is not hypothetical. The EU's Digital Services Act (DSA) already mandates that Very Large Online Platforms provide at least one recommender system not based on profiling. Fukuyama's "middleware" proposal would require platforms to open APIs so third parties can provide curation. The legal argument: amplification is conduct, not speech. Regulating the megaphone's volume is not censoring the speaker.
+
+**Technical viability:** Every recommendation engine is just weighted parameters (relevance, recency, engagement, probability of click). Platforms currently set "engagement" to maximize ad revenue. Exposing the sliders to users is trivially easy—the difficulty is entirely incentive structure, not technology. Bluesky's custom feeds already demonstrate this in production.
+
+**A possible schema:**
+
+Curation likely involves multiple dimensions that platforms already categorize internally:
+
+1. **Relationship proximity:** Explicit connections (friends, family, groups, businesses, conversations I follow) → "show me when they post." This is curated, high-signal content from sources I've chosen.
+
+2. **Content type buckets:** Exploratory content, ads, novel things, educational material, entertainment, news. Users opt into which buckets they want and in what proportion.
+
+3. **Explore/exploit tradeoff:** How much content outside my curated interests? A slider from "only what I asked for" to "surprise me." This is the novelty dial—some users want serendipity, others want focus.
+
+4. **Emotional valence:** Positive/negative, rage-bait vs optimistic, educational vs entertaining. Harder to define precisely, but platforms already classify this for their own optimization. Expose it.
+
+**Schema flexibility:** We cannot initially force every platform to use identical categorization. But the requirement is that platforms expose whatever categorization they're already using internally. If they're optimizing for "engagement," users should see that dial and be able to turn it down. Transparency of existing categories precedes standardization of categories.
+
+**Why this resolves the Ministry of Truth problem:**
+
+- If government regulates algorithms → tyranny
+- If corporations regulate algorithms → capture
+- If users regulate their own algorithms → sovereignty
+
+Self-curation transforms the user from harvested resource back to sovereign sensor. If enough users choose "low-outrage" filters, the Attention Moloch loses its metabolic fuel. It becomes unprofitable to dump epistemic pollution if sensors aren't receptive.
+
+**Enforcement through distributed audit:**
+
+For self-curation to be meaningful, users must be able to verify that tags match reality:
+
+1. **Tag transparency:** Content tags/categories must be visible to users, not hidden internal classifications.
+2. **Feedback mechanism:** Users can flag when tags are inaccurate ("this is labeled 'educational' but it's rage-bait").
+3. **Regulator proxy:** Feedback flows to a neutral aggregator, not directly to the platform. This prevents platforms from gaming their own feedback loops.
+4. **Compliance metric:** Consistent tagging failures at scale—measured through aggregated user feedback—constitutes non-compliance. A platform that systematically mislabels content to circumvent user preferences is violating the right to self-curation.
+
+Users become distributed sensors for algorithmic honesty. The regulator proxy aggregates signal without requiring centralized content review.
+
+**Usability enforcement:**
+
+The same distributed audit mechanism applies to usability. Users can report to the external proxy:
+- "I can't find the self-curation settings"
+- "Settings exist but don't seem to change anything"
+- "The UI is deliberately confusing"
+- "My preferences reset without consent"
+
+Aggregated usability complaints at scale = non-compliance. Dark patterns designed to prevent self-curation are themselves a violation of the right.
+
+**Preventing coordinated false-flagging:**
+
+Reports to the regulator proxy require proof of humanity (verified identity / "blue check"). Bot armies can't mass-flag. Sybil attacks fail because you can't spin up verified identities at scale. This connects to Section 6.2 (Identity & KYC Layer).
+
+**Meta-level audit:** Separate channel *outside the platform* to report verification failures ("I can't get verified," "verification system is broken"). Otherwise catch-22: can't report if verification is broken, but need to report that verification is broken. The external channel can't depend on the same infrastructure it's auditing.
+
+**Finite audit budgets (anti-exhaustion):**
+
+Proof of humanity stops bots but doesn't stop obsessives. The Wikipedia/Reddit failure mode: a small group of highly motivated actors (paid activists, ideological obsessives) can capture the system through sheer volume of engagement. If one verified human can make 10,000 reports a day, they become a signal jammer. This is "Proof of Determination" (Document 1, Section 2.10) applied to auditing.
+
+The fix: treat reporting capacity as a scarce resource.
+
+- **Capped budgets:** Each verified account receives a finite audit budget per period. This forces prioritization: flag the most egregious failures, not every minor disagreement.
+- **Weight by breadth, not depth:** The regulator proxy prioritizes signals that are *broad* (many different users reporting the same failure) rather than *deep* (one user reporting many failures).
+- **Threshold as percentage of active curators:** The compliance metric is calculated against users who have actually engaged with self-curation (custom settings, not defaults). If X% of *actively curating* users report the same tagging failure, that triggers non-compliance review. The denominator is the engaged population, not total users—you can't game the threshold by having a massive user base with low engagement.
+
+Why this matters: The Independent (Document 1, Section 1.4) has a life, a job, a family. They can spare 10 minutes a week to audit. If the Radicalized can audit 40 hours a week, the Independent's signal is drowned out. Capping the budget and weighting by breadth ensures that signal quality comes from distributed consensus, not concentrated engagement.
+
+**Open implementation questions:**
+
+- What happens to users who never adjust defaults? Who sets defaults?
+- Can third-party curation providers create a competitive market for algorithmic quality?
+- What threshold of tagging/usability failures constitutes non-compliance?
+
+---
+
 ## What Comes Next
 
 **The Mechanisms catalog is complete.** We've explored the design space of governance primitives now possible through modern technology:

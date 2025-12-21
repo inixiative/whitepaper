@@ -4,6 +4,16 @@
 
 ---
 
+## Why Start Here?
+
+Part of the apathy is that people don't know what to do. The left and right shout loudly at each other, but it's largely performative—politics as professional wrestling. (Tim Urban's *What's Our Problem?* makes this case explicitly; Matt Taibbi's interview with Walter Kirn describes the same dynamic at Senate hearings.) The noise generates heat, not light. People tune out because engaging feels pointless.
+
+The strategy: put the simplest version of cooperation software in people's hands. Get them using it. Let them experience what coordination *could* feel like. Once someone has used a system where commitments are binding, governance is participatory, and outcomes are measurable, they start asking: *If I can have this here, why can't I have it in my government?*
+
+The goal is not to replace existing institutions overnight. It's to prove that alternate paths exist—and to expose enough people to them that apathy gives way to demand. You can't want what you can't imagine. The MVP makes cooperation imaginable.
+
+---
+
 ## Document Overview
 
 **Document 1 (The Diagnosis)** explained the convergent crisis: elite overproduction, institutional sclerosis, competition saturation, epistemic fragmentation, and why reform attempts fail.

@@ -36,14 +36,16 @@ Persistent entities that spawn and manage multiple inixiatives over time. Existi
 
 ## Documents
 
-This whitepaper consists of four core documents (located in `/docs`):
+This whitepaper follows a **Pain → Principle → Protocol → Proposal** structure:
 
-| Document | Purpose | Status | Word Count |
-|----------|---------|--------|------------|
-| **[01_diagnosis.md](docs/01_diagnosis.md)** | Why current governance systems fail | ✅ Complete | ~27,000 |
-| **[02_specification.md](docs/02_specification.md)** | Requirements for functional cooperative societies | 🚧 In Progress | ~36,000 |
-| **[03_mechanisms.md](docs/03_mechanisms.md)** | Proven and novel governance mechanisms | 🚧 In Progress | ~30,000 |
-| **[04_mvp.md](docs/04_mvp.md)** | Concrete implementation and roadmap | 🚧 In Progress | ~20,000 |
+| Document | Layer | Purpose |
+|----------|-------|---------|
+| **[01_diagnosis.md](docs/01_diagnosis.md)** | **Pain** | What fails and why. The biological, game-theoretic, and institutional roots of cooperation collapse. |
+| **[02_specification.md](docs/02_specification.md)** | **Principle** | What any solution must satisfy. Requirements spec for governance that supports a wide cooperation radius. |
+| **[03_mechanisms.md](docs/03_mechanisms.md)** | **Protocol** | How to implement the principles. Concrete mechanisms that satisfy the requirements. |
+| **[04_mvp.md](docs/04_mvp.md)** | **Proposal** | What we're building first. The minimum viable product for testing these ideas. |
+
+Each layer justifies the next. The diagnosis creates *demand* for the principle. The principle creates *requirements* for the protocol. The protocol creates *options* for the proposal.
 
 **See [docs/table_of_contents.md](docs/table_of_contents.md) for detailed navigation.**
 
@@ -61,18 +63,28 @@ This whitepaper consists of four core documents (located in `/docs`):
 
 ## Core Thesis
 
-We cannot prescribe the optimal governance system—that would be hubris. Instead, we provide tools to search the solution space. Smart contracts enable cooperation mechanisms that were impossible in previous eras. By offering modular, composable governance primitives, communities can discover what works for them.
+**The unified framework:** Humans have a biological "cooperation radius"—how far we extend trust and coordination. This radius is not fixed; it's calibrated by signals from our environment. When the environment broadcasts clear signals that cooperation pays and defection is punished, the radius expands. When those signals degrade, the radius contracts and we default to competitive mode.
+
+Modern institutions are running 12th-century coordination software on 21st-century hardware. The result: signal degradation at scale, cooperation collapse, and the pathologies diagnosed in Document 1.
+
+**The approach:** We cannot prescribe the optimal governance system—that would be hubris. Instead, we provide infrastructure for experimentation. Smart contracts enable cooperation mechanisms that were impossible in previous eras. By offering modular, composable governance primitives, communities can discover what works for them.
 
 **Success metric:** Participant satisfaction over time.
 
 ## Key Innovations
 
-### Novel Mechanisms (Document 3)
+### Theoretical Framework (Documents 1-2)
+- **Cooperation Radius:** Biological mechanism calibrated by environmental signals, not fixed personality
+- **Signaling Substrate:** Physical and institutional environment as cooperation telemetry
+- **Scale-Dependent Liability:** Institutional-scale actors require institutional-scale accountability
+- **Right to Self-Curation:** User sovereignty over algorithmic environments (extends GDPR precedent)
+
+### Governance Mechanisms (Document 3)
 - **Cellular Delegation:** Hierarchical representation via Dunbar-bounded groups (50-150 people)
-- **Flow Builder:** Visual governance workflows (Zapier for governance)
-- **Energy-Backed Currency:** kWh standard as alternative to fiat (experimental)
+- **Distributed Audit:** Users as sensors for algorithmic honesty, with finite budgets to prevent exhaustion capture
 - **Point-Voting with Convex Costs:** Preference intensity without extremism
 - **Lifecycle Management:** Automatic sunset, renewal mechanisms, generational accountability
+- **Anti-Capture Architecture:** Mechanisms to prevent elite capture, Proof of Determination, and regulatory gaming
 
 ### Platform Features (Document 4)
 - **Escrow & Resource Commitment:** Financial, time, expertise, assets
