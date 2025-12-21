@@ -384,6 +384,8 @@ Individual variation in cooperation radius is developmental calibration, not fix
 
 The Marshmallow Test measures perceived institutional reliability, not willpower. Children who wait have learned that promises get kept. Children who grab immediately have learned—often correctly—that delayed gratification is for fools in their environment.
 
+This calibration is what Bourdieu called the *habitus*: the internalization of social conditions into the physical body. A child's cooperation radius isn't an intellectual choice—it's a physiological response tuned by actual experience. The child who defaults to competitive armor isn't misreading signals; they're *correctly* reading an environment where wide-radius cooperation doesn't pay off. The habitus is sticky: it persists even when circumstances change, because the body learned its lessons before the mind could question them. You can't lecture someone out of a habitus. You have to change the environment long enough that the body learns new lessons.
+
 **Functional societies expand the cooperation radius outward.** You still cooperate most with family, but you also cooperate meaningfully with neighbors, strangers, institutions, abstract "society." Epistemic shrinkage contracts this radius—cooperation collapses inward until only immediate kin remain inside the boundary. Everyone outside becomes competitor or threat.
 
 Governance reform must provide sustained signal repair to recalibrate these thresholds across generations. You cannot lecture someone into expanding their radius. You must change the substrate so that wider cooperation actually pays off.
