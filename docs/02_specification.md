@@ -24,6 +24,8 @@ Section 1 diagnosed what is broken through the lens of various thinkers. Section
 
 Think of this as the design philosophy layer: the principles and frameworks from evolutionary biology, complex systems theory, information theory, and software engineering that guide our approach to institutional architecture.
 
+**Why ambitious synthesis despite cultural caution:** The 20th century taught us to fear grand theories—we saw what happens when they're implemented by states with guns. The overcorrection was intellectual timidity: specialization, incrementalism, suspicion of cross-domain synthesis. But this left us unable to think at civilizational scale right when we needed it most. The generalist died (Section 1.6). The challenge is ambitious synthesis without totalizing certainty—search mechanisms rather than prescribed endpoints, infrastructure for experimentation rather than the final answer.
+
 ### 3.0 Evolutionary Thinking: Selection as the Path to Truth
 
 **Evolution is the only proven method for finding what works in complex systems.** Not debate, not planning, not persuasion—variation, selection, and retention. Every biological organism, every successful institution, every durable cultural practice exists because it survived selection pressure. Everything else was eliminated.
@@ -586,6 +588,10 @@ The alternative: evolutionary search with variation, selection, measurement, and
 Communities observe each other's experiments, adopt what works, avoid what fails. The search happens through independent communities maintaining their cohesion and political capital while learning from parallel experiments. Not through fragmentation, but through coordination and knowledge-sharing across diverse attempts.
 
 **Success is not "we found the answer."** Success is "we've enabled systematic exploration of governance-space, accelerated learning across communities, and created infrastructure that lets solutions emerge and propagate." The goal is better search, not a particular destination.
+
+**Competitive epistemology:** This framework doesn't need to be complete—it needs to outperform the alternatives. Science advances not by finding truth but by finding better maps. If this integrated lens predicts and explains better than left/right political framing, pure economics, or single-discipline sociology, it's useful. Newton wasn't "true"—he was more predictive than Aristotle. The test is competitive, not absolute. We're not claiming to have solved governance; we're claiming to have a more useful map than the current ones. The current ones are failing visibly.
+
+This isn't false modesty. In complex systems, optimizing search *is* the optimal strategy. There is no static answer to find—only infrastructure for continuous discovery. Evolution didn't solve survival; it built search infrastructure (mutation, selection, retention) and let solutions emerge continuously. The search is the solution.
 
 ### 3.6 Dialectic Design: Optimization Under Constraint
 
