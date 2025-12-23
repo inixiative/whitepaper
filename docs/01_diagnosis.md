@@ -13,7 +13,7 @@ In *Guns, Germs, and Steel*, Jared Diamond begins with a question posed to him b
 
 Diamond's answer was geography and environment—the structural forces that determined which civilizations accumulated cargo and which didn't. This whitepaper begins with a similarly simple question, the one David Graeber posed: **Why don't we live in the future?**
 
-**In the early 1960s, Oak Ridge National Laboratory successfully demonstrated a thorium molten-salt reactor.** It was safer than uranium pressurized water reactors, produced less long-lived waste, operated at atmospheric pressure (eliminating meltdown scenarios), and achieved 90%+ fuel efficiency compared to the 0.5-2% efficiency of conventional designs. The technology worked. The program was defunded in 1969.
+**In the early 1960s, Oak Ridge National Laboratory successfully demonstrated a thorium molten-salt reactor.** It was safer than uranium pressurized water reactors, produced less long-lived waste, and operated at atmospheric pressure (eliminating meltdown scenarios). The physics suggested dramatically higher fuel efficiency was achievable. The technology worked. The program was defunded in 1969.
 
 **Fifty-six years later, we still burn coal.**
 
@@ -770,6 +770,16 @@ These mechanisms evolved for boom-bust cycles with natural resets. Civilization 
 **The Historical Release Valves:** Ancestrally, radius contraction had release valves—band splitting, war, famine, disease—that eventually allowed radii to expand again. Civilization's surplus prolongs the contracted state: agricultural surplus, imperial expansion, colonial frontiers all served as delays. Even *Lebensraum* was an attempt to solve saturation through frontier expansion. Nothing suggests we've escaped this pattern.
 
 **Why Moral Appeals Fail:** You cannot "educate" someone out of a conserved hardware program. The density sensor responds to the quality of the signaling substrate, not to arguments. The sensor needs a signal, not a sermon.
+
+**Morality as Internalized Substrate:** We evolved moral capacity—both action and perception—in tandem with our expanded ability to cooperate. Morality isn't an abstract ideal grafted onto selfish genes; it's the cooperation substrate internalized as emotion. Guilt, shame, honor, disgust: these are enforcement mechanisms that don't require external detection. They're a metabolic shortcut—coordination without constant policing.
+
+Gossip completes the system: the original distributed reputation ledger. Someone defects → gossip propagates → reputation collapses → defector excluded. No institutions required. This is why Dunbar's number (~150) marks the threshold: gossip doesn't scale reliably past that point. Beyond Dunbar, you need institutions as signal repeaters.
+
+Sociopathy is the separable case: moral perception without moral action. Sociopaths read and manipulate moral expectations while lacking internal enforcement. This is a frequency-dependent defector strategy—viable when rare, catastrophic if common. It stays rare because cooperation is genuinely powerful and because detection works: the gossip system catches most defectors. But at civilizational scale, detection degrades. The gossip network can't track reputation across millions. Institutions that should detect are themselves captured. The result: defector strategies become viable for more people, and actual sociopaths concentrate in positions where defection pays—elite hierarchies under competitive saturation. The "overrepresentation of sociopaths in leadership" isn't new genetics; it's degraded immunity.
+
+What civilizations call "moral decay" is cooperation substrate degradation experienced from inside. When the signaling substrate goes to noise, staying moral becomes maladaptive—those who cooperate in a predatory environment get exploited and selected out. The "internal guards" (guilt, shame) don't disappear because of bad character; they become a liability. Contracted-radius actors accelerate this by actively attacking moral guardrails: if you can delegitimize the "immune system," extraction becomes frictionless.
+
+Every declining empire describes the same "decadence" because they're experiencing the same dynamic: the visceral sensation of the cooperation floor falling out. This isn't a moral judgment—it's telemetry.
 
 **Evidence for Sensor-Mediated Cooperation Radius**
 

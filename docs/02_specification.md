@@ -98,22 +98,32 @@ Social signals face the same mismatch. GDP once correlated with prosperity; unde
 
 **Culture as Coordination Technology**: Humans didn't break the Dunbar limit; we bypassed it with binding stories (Harari's "imagined orders"). We evolved to have culture-mediated sensors. The historical cycles (Doc 1, Section 1.3) are this mechanism playing out across time. Cultural coordination technology succeeds, sensed carrying capacity rises, cooperation scales. It degrades under pressure—elite capture, complexity, novelty, external shock—sensed capacity falls, competitive mode returns. The Cistercians built coordination technology adequate to their era; hyper-novelty is the current pressure degrading ours.
 
-**The Two Dimensions of Coordination**
+**The Four Axes of Coordination**
 
-Coordination depends on two independent variables:
+Intelligence requires signals. Without signals, there is no intelligence—only raw selection pressure where you die to learn. Evolution's shortcut: instead of computing reality from first principles (metabolically expensive, often fatal), build sensors that detect correlates of fitness-relevant outcomes. We are playing telephone with reality—always operating on samples and proxies, never the territory directly. A signal is any environmental variable with predictive utility—information that lets an agent update behavior *before* terminal feedback. This is the fundamental constraint: intelligence operates against signals, not reality. Signaling infrastructure is therefore load-bearing for civilization.
 
-- **Incentive structure:** The actual rewards and punishments agents face—what actions are profitable, safe, or costly. This is the "slope" that determines where rational agents move.
-- **Signaling substrate:** The medium through which agents perceive incentive information. This determines whether agents can see the slope they're on.
+Coordination depends on four independent variables:
 
-**The Three Failure States:**
+- **Capacity (the territory):** The actual reality—resources, incentives, physical constraints. Ground truth. What *would* be optimal if agents could perceive it directly.
+- **Signals:** Observable samples of capacity—actions directly witnessed, effects left in the environment, properties that can be read. When a court fails to punish an elite, observers read defection-pays. When inequality grows, observers read extraction-wins. When a window stays broken, observers read enforcement-failed. Signals correlate (or once correlated) with fitness-relevant outcomes; they can be accurate, fraudulent, or decoupled (once-valid correlates that no longer predict). This is why hyper-novelty breaks coordination: the signal is still received, but the correlation with capacity has degraded.
+- **Substrate:** What signals travel through. Gap junctions between cells, gossip networks between people, media between populations—these carry, amplify, filter, or destroy signals. Failure modes: attenuation (signal doesn't propagate), corruption (signal distorted in transmission), selection bias (what propagates isn't representative of what receivers need for coordination). When substrates select, the question is whether that selection serves coordination at the relevant scale.
+- **Perception:** How agents interpret incoming signals based on developmental calibration (Section 1.4, habitus). Two agents receiving identical signals produce different behaviors because their calibration differs. The receiver matters as much as the transmission.
 
-1. **Rational Extraction (clear signals, misaligned incentives):** Agents perceive their environment accurately and correctly conclude that defection pays. The cancer cell is often here—it's optimizing correctly for a local incentive structure that has decoupled from organ health. This isn't perception failure; it's *incentive* failure.
+**The Failure States:**
 
-2. **Coordination Death (degraded signals, aligned incentives):** The Thorium Paradox. Cooperation would be massively profitable, but signal-to-noise is so low that agents can't perceive the path. They're rational actors in an illegible environment.
+1. **Capacity Failure:** Incentives are misaligned. Agents perceive accurately and correctly conclude defection pays. The cancer cell optimizes for a local incentive structure decoupled from organ health. Not perception failure—*incentive* failure.
 
-3. **The Metacrisis (both broken):** Complexity creates noise (signal failure), and that noise allows rent-seekers to warp incentive structures undetected. Modernity lives here.
+2. **Signal Failure:** False information in the system. Fraud, lies, HyperNormalisation. The substrate transmits faithfully, but what it carries is wrong. Normally detected through consensus, reputation tracking, and verification over time—but those mechanisms can themselves fail.
 
-Fixing signals alone won't solve State 1 or 3. You must also restructure incentives so cooperation is rational. Section 3.2 addresses incentive design; this section addresses the transmission substrate.
+3. **Substrate Failure:** True signals exist but don't propagate representatively. Institutions block, media garbles, networks amplify noise over signal. Pinker's media negativity bias: individual stories are accurate, but systematic selection for alarming content distorts aggregate perception of trends—capacity is improving, but the substrate samples non-representatively, so receivers conclude things are getting worse. The Thorium Paradox: cooperation would be profitable, but agents can't perceive the path.
+
+4. **Perception Failure:** Capacity aligned, signals accurate, substrate functioning—but the receiver is miscalibrated. Contracted-radius habitus rejects cooperation even when it would pay. The Apathetic phenotype. Explains why substrate repair must be sustained across generations.
+
+These failure modes compound: complexity creates noise (substrate), noise allows rent-seekers to inject false signals, false signals warp incentives (capacity), prolonged dysfunction miscalibrates perception. Modern developed societies typically have multiple axes broken simultaneously.
+
+**Cross-Layer Error Correction**
+
+The layers aren't just failure points—they can heal over each other's errors. Evolution selects for error-correction at every level. Systems with redundancy and cross-layer compensation survive; those without don't.
 
 **Signals are Multidimensional**
 
