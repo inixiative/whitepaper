@@ -13,7 +13,7 @@ In *Guns, Germs, and Steel*, Jared Diamond begins with a question posed to him b
 
 Diamond's answer was geography and environment—the structural forces that determined which civilizations accumulated cargo and which didn't. This whitepaper begins with a similarly simple question, the one David Graeber posed: **Why don't we live in the future?**
 
-**In the early 1960s, Oak Ridge National Laboratory successfully demonstrated a thorium molten-salt reactor.** It was safer than uranium pressurized water reactors, produced less long-lived waste, and operated at atmospheric pressure (eliminating meltdown scenarios). The physics suggested dramatically higher fuel efficiency was achievable. The technology worked. The program was defunded in 1969.
+**In the early 1960s, Oak Ridge National Laboratory successfully demonstrated a thorium molten-salt reactor.** It was safer than uranium pressurized water reactors, produced less long-lived waste, and operated at atmospheric pressure (eliminating meltdown scenarios). Learning about this technology—and the 0.5-2% fuel efficiency of current reactors—got me thinking: liquid fuel can be continuously reprocessed. Imagine 10x the energy at 1/10th the cost. What else would change the world like that? AI? The internet? The technology worked. The program was defunded in 1969.
 
 **Fifty-six years later, we still burn coal.**
 
