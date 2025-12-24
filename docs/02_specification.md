@@ -88,7 +88,7 @@ Why do signals exist at all? Evolution is about finding shortcuts. In the beginn
 
 But perception evolves as a shortcut: instead of dying to learn fire is dangerous, evolve to detect heat. A signal is simply an environmental variable with **predictive utility**—a piece of data that correlates with fitness-relevant outcomes. A bacterium evolves a sensor for a chemical gradient because that gradient predicts energy. The chemical becomes a "signal" because it predicts survival.
 
-What counts as a signal is itself selected. Evolution tunes sensors to whatever environmental features had correlative predictive utility in the ancestral environment. Features that predicted "cooperation will work here" became the inputs to the NICE-viability auditor. This isn't arbitrary—it's the residue of deep-time selection on what information actually mattered.
+What counts as a signal is itself selected. Evolution tunes sensors to whatever environmental features had correlative predictive utility in the ancestral environment. Features that predicted "cooperation will work here" became the inputs to the cooperation-viability auditor. This isn't arbitrary—it's the residue of deep-time selection on what information actually mattered.
 
 **The Levin extension**: Multicellularity required perceiving *other cells* as the critical variable. Bioelectricity is evolved predictive utility—a cell perceives the voltage of its neighbor because that voltage predicts what that neighbor will do next. Intelligence is the capacity to expand the light cone of what signals you can perceive and integrate.
 
@@ -152,9 +152,9 @@ As the Bedouin proverb captures (Section 1.4), cooperation and competition are *
 - Can I confirm my contribution is recognized?
 - Does reputation information travel with fidelity?
 
-If these cannot be verified, cooperation cannot cohere—regardless of how many messages can be sent. This explains the **Social Media Paradox**: infinite bandwidth, zero verification range. We can broadcast to billions but cannot verify any prerequisite for trusting them. The sensor correctly reads: "NICE cannot be verified at this scale → cooperation not viable → competitive mode."
+If these cannot be verified, cooperation cannot cohere—regardless of how many messages can be sent. This explains the **Social Media Paradox**: infinite bandwidth, zero verification range. We can broadcast to billions but cannot verify any prerequisite for trusting them. The sensor correctly reads: "cooperation cannot be verified at this scale → competitive mode."
 
-The sensor (Section 1.4) is not a body counter. It is a **NICE-viability auditor** continuously asking: "Is there coherent signal that being NICE (Nice, Intelligent, Clear, Forgiving—Section 4.5) is an effective strategy at this scale?" When the answer is no, the cooperation threshold rises. When it's no across all scales, you get civilizational reversion to competitive mode.
+The sensor (Section 1.4) is not a body counter. It is a **cooperation-viability auditor** continuously asking: "Is there coherent signal that cooperation is an effective strategy at this scale?" When the answer is no, the cooperation threshold rises. When it's no across all scales, you get civilizational reversion to competitive mode.
 
 **Carrying capacity is therefore tech/culture dependent.** The Cistercians extended coherence distance across a continent through standardized rules and ledgers. Nation-states extended it through law and broadcast media. Modernity's crisis: complexity scaled faster than verification infrastructure. We are too large for our current substrate to carry the signal of "we."
 
@@ -487,6 +487,8 @@ The pattern emerges from **structure**, not character. When you focus on individ
 
 **Emergence demands multi-level analysis:** Critically, emergence cuts both ways. Just as you cannot understand higher-level patterns by examining individual components, you cannot assume that identifying lower-level mechanisms obviates the need for higher-level analysis. The biological density sensor (Section 1.4) operates at the individual level, but its effects aggregate into institutional and civilizational dynamics that require their own analytical frameworks. Markets, cultures, and political systems exhibit emergent properties that cannot be predicted from—or reduced to—the psychology of their participants. This is why the whitepaper operates at multiple scales simultaneously: individual incentives (Section 3.2), institutional dynamics (Section 1.4), civilizational patterns (Turchin, Tainter), and the signaling substrate that connects them (Section 3.1). Each level has its own logic, its own failure modes, its own intervention points. Reductionism—explaining everything at one level—is as dangerous as ignoring mechanism altogether.
 
+**Why this document is structured the way it is:** The Pain → Principle → Protocol → Proposal structure is itself an application of systems thinking. You cannot derive correct mechanisms (Protocol) without understanding what constraints they must satisfy (Principle). You cannot specify constraints without understanding what's actually broken (Pain). And you cannot evaluate proposals without the full stack beneath them. Each layer justifies the next. Jumping straight to solutions—as most governance proposals do—ignores emergence and guarantees nth-order failures.
+
 **Nth-order effects and non-linear dynamics:** Complex systems produce consequences that cascade through multiple orders of causation. A first-order effect is direct and immediate. Second-order effects emerge from the response to the first-order change. Third-order and beyond compound unpredictably.
 
 Touch one variable and a dozen others shift in response through feedback loops you didn't anticipate. Optimize for one metric and participants game it in ways you didn't foresee (Goodhart's Law). Impose rigid rules and people route around them through informal arrangements you can't see. The intervention produces the direct effect you intended, plus a cascade of indirect effects you didn't.
@@ -652,23 +654,23 @@ This is **Part 2** of the whitepaper: a formal requirements document against whi
 
 Cooperation is the foundational requirement for any functional society. Before discussing organizational structure, resource allocation, or governance mechanisms, we must establish what cooperation actually *is*, why it fails at scale, and what properties any cooperation-enabling system must satisfy.
 
-### 4.1 What Is Cooperation? The NICE Framework
+### 4.1 What Is Cooperation? The Axelrod Principles
 
-**The foundational insight:** Cooperation is not a moral aspiration or cultural norm—it's a stable equilibrium in iterated games that emerges when specific structural conditions are met. Robert Axelrod's tournaments on iterated Prisoner's Dilemma identified the structural requirements for stable cooperation. The winning strategy ("Tit for Tat") succeeded because it was **NICE**:
+**The foundational insight:** Cooperation is not a moral aspiration or cultural norm—it's a stable equilibrium in iterated games that emerges when specific structural conditions are met. Robert Axelrod's tournaments on iterated Prisoner's Dilemma identified the structural requirements for stable cooperation. The winning strategy ("Tit for Tat") succeeded because it exhibited four qualities: **Nice, Retaliatory, Clear, and Forgiving**.
 
-**NICE as the Radius Mediator**
+**The Axelrod Principles as Radius Mediator**
 
-The system of sensors described in Document 1 (Section 1.4) audits the environment to detect the **radius at which NICE signals remain legible**. This becomes the cooperation radius.
+The system of sensors described in Document 1 (Section 1.4) audits the environment to detect the **radius at which these signals remain legible**. This becomes the cooperation radius.
 
-At Dunbar scale (~150), NICE signals are directly observable—you see who cooperates, who defects, reputation travels by word of mouth. Beyond that scale, **institutions extend the radius** by serving multiple functions:
+At Dunbar scale (~150), cooperation signals are directly observable—you see who cooperates, who defects, reputation travels by word of mouth. Beyond that scale, **institutions extend the radius** by serving multiple functions:
 
-- **Signal repeaters:** Amplify NICE signals beyond direct observation range. Courts broadcast "defection was punished," media reports "this person cooperated."
+- **Signal repeaters:** Amplify cooperation signals beyond direct observation range. Courts broadcast "defection was punished," media reports "this person cooperated."
 - **Signal interpreters:** Do the sensemaking you can't do yourself. Regulators evaluate whether a company is trustworthy; professional boards determine if practitioners are competent.
 - **Sensemaking offload:** If you trust the institution, you don't have to personally verify every cooperation partner. The institution's stamp means "we've already checked."
 
 When institutions function, you can cooperate with strangers because the institution has already evaluated them. When institutions are captured or degraded, the signals become noisy or deceptive—you can no longer trust information beyond direct observation range, and the cooperation radius contracts accordingly.
 
-**The engineering goal:** We cannot shrink civilization to Dunbar scale. We must build institutions that function as high-fidelity NICE signal infrastructure—extending the radius at which cooperation remains sensorially viable.
+**The engineering question:** We cannot shrink civilization to Dunbar scale. So: how far can cooperation signals propagate with fidelity? The answer determines the cooperation radius.
 
 ---
 
@@ -680,13 +682,13 @@ Start with cooperation. Default is trust, not suspicion. Don't preemptively defe
 
 **Failure mode:** Surveillance states that treat everyone as suspect from day one create adversarial equilibria where defection becomes rational self-defense. Conversely, systems with no identity verification enable Sybil attacks and free-riding.
 
-**2. Intelligent (Provocable/Retaliating): Punish Defection Immediately**
+**2. Retaliatory: Punish Defection Immediately**
 
 If someone defects, retaliate. Don't be a doormat. The system must distinguish cooperators from defectors and respond proportionally.
 
 **Requires:** Memory (track who did what) + differentiated response (cooperators get different treatment than defectors).
 
-**Connection to Accountability Vacuum (Section 2.12):** Modern institutions violate this principle systematically. Nobody can be held accountable—corporations shield individuals ("just following policy"), bureaucracies diffuse responsibility ("the system decided"), politicians leave office before consequences manifest. Without accountability, there's no retaliation for defection, so defection dominates. This is why we're in a competitive rather than cooperative phase: the NICE framework has collapsed.
+**Connection to Accountability Vacuum (Section 2.12):** Modern institutions violate this principle systematically. Nobody can be held accountable—corporations shield individuals ("just following policy"), bureaucracies diffuse responsibility ("the system decided"), politicians leave office before consequences manifest. Without accountability, there's no retaliation for defection, so defection dominates. This is why we're in a competitive rather than cooperative phase: the Axelrod equilibrium has collapsed.
 
 **Failure mode:** Anonymous systems can't retaliate (no memory). Systems that treat everyone identically enable free-riders. Current institutions: accountability vacuum means no punishment for defection, so cooperation collapses into competition.
 
@@ -708,37 +710,38 @@ When a defector reforms and cooperates, reciprocate. Don't hold grudges forever.
 
 **Failure mode:** Permanent criminal records, credit scores that never reset, social credit systems create permanent castes and eliminate second chances. Nobody takes risks when errors are unrecoverable.
 
-**Plus: Non-Envious (Not Explicitly in NICE, But Critical)**
+**Plus: Non-Envious (Not Explicitly in Axelrod, But Critical)**
 
 Focus on absolute gains, not relative position. Don't try to beat your opponent—try to maximize total cooperation. This maps to avoiding zero-sum competition and enabling positive-sum coordination.
 
 ---
 
-**Why existing institutions fail NICE:**
+**Where institutions fail the Axelrod Principles:**
 
-Most modern institutions violate multiple NICE principles simultaneously, which is why cooperation has collapsed into competitive warfare:
+Many institutions function well—trash removal, water systems, basic energy infrastructure. The Axelrod framework is diagnostic: where cooperation *does* break down, it often traces to violations of specific principles:
 
-- **Current democracies:** Violate Intelligent (accountability vacuum—Section 2.12), violate Clear (regulatory complexity enables wealth pump—Section 2.1), somewhat Forgiving (but debt/criminal records create permanent damage)
-- **Anonymous online systems:** Not Intelligent (can't track defectors), not Clear (implicit norms), toxic equilibrium dominates
-- **Bureaucratic systems:** Not Nice (high barriers), not Intelligent (can't respond individually), not Clear (opaque procedures), not Forgiving (permanent records)
+- **Accountability vacuums:** Violate Retaliatory (Section 2.12)—no consequences for defection
+- **Regulatory complexity:** Violates Clear (Section 2.1)—insiders can navigate, outsiders can't
+- **Permanent records:** Violate Forgiving—criminal records, credit scores create permanent castes
+- **Anonymous online systems:** Not Retaliatory (can't track defectors), not Clear (implicit norms)
 
-**System requirements to enable NICE:**
+**System requirements to enable the Axelrod Principles:**
 
-**Nice:** Must enable low-friction entry while preventing Sybil attacks. Must support spectrum from fully private to fully public identity verification depending on context. Participants can enter and take standard actions without extensive vetting, but system can distinguish unique individuals to prevent gaming.
+**Nice:** Low-friction entry while preventing Sybil attacks. Participants can enter and take standard actions without extensive vetting, but system can distinguish unique individuals to prevent gaming.
 
-**Intelligent:** Must enable tracking of behavior patterns over time to distinguish consistent cooperators from defectors, WITHOUT creating permanent status hierarchies or control mechanisms. Must support differentiated response - cooperators receive different treatment than defectors. Must restore accountability where modern institutions have accountability vacuums.
+**Retaliatory:** Track behavior patterns over time to distinguish cooperators from defectors. Differentiated response—cooperators receive different treatment than defectors. Restore accountability where it has eroded.
 
-**Clear:** Rules must be executable, auditable, and transparent. No informational rents - system cannot advantage those with insider knowledge over ordinary participants. Processes must be legible enough that participants can predict consequences and reciprocate appropriately.
+**Clear:** Rules executable, auditable, transparent. No informational rents—system cannot advantage insiders over ordinary participants. Legible enough that participants can predict consequences.
 
-**Forgiving:** Must enable redemption and fresh starts. Minor violations require proportional consequences with path to redemption. System must include mechanisms for reputation decay, bankruptcy/reset, and preventing permanent exclusion. Cannot create permanent castes from past errors.
+**Forgiving:** Enable redemption and fresh starts. Proportional consequences with path to recovery. Reputation decay, bankruptcy mechanisms, no permanent castes from past errors.
 
-**The shift in equilibrium:** When all four NICE principles are satisfied, the Nash equilibrium shifts from defection to cooperation. Cooperation becomes individually rational. The system doesn't require moral transformation—it makes prosocial behavior the optimal strategy for selfish actors.
+**The shift in equilibrium:** When all four Axelrod principles are satisfied, the Nash equilibrium shifts from defection to cooperation. Cooperation becomes individually rational. The system doesn't require moral transformation—it makes prosocial behavior the optimal strategy for selfish actors.
 
-This is the foundation. Everything else in Section 4 builds on NICE.
+This is the foundation. Everything else in Section 4 builds on the Axelrod principles.
 
 ### 4.2 Memory and Truth: Requirements for Tracking Without Censorship
 
-**The problem:** NICE cooperation requires "Intelligent" response—distinguish cooperators from defectors, reward good actors, punish bad actors. But this assumes we can determine what actually happened. In adversarial, post-truth environments, establishing ground truth is among the hardest problems in governance design.
+**The problem:** The Retaliatory principle requires distinguishing cooperators from defectors, rewarding good actors, punishing bad actors. But this assumes we can determine what actually happened. In adversarial, post-truth environments, establishing ground truth is among the hardest problems in governance design.
 
 **The dialectic:**
 
@@ -778,7 +781,7 @@ System must detect when a domain has genuine distributed disagreement (not just 
 Must allow "we don't know yet" state. Novel ideas need time to develop, test, gain evidence. Cannot force immediate judgment or route everything to "expert consensus" (which may be defending obsolete paradigms).
 
 **5. Reputation building without permanent hierarchy:**
-Track record of claims/predictions must inform credibility. But past performance cannot create permanent castes (connects to NICE-Forgiving). Must allow redemption, prevent rubric control (Section 4.10).
+Track record of claims/predictions must inform credibility. But past performance cannot create permanent castes (connects to Forgiving principle). Must allow redemption, prevent rubric control (Section 4.10).
 
 **6. No Ministry of Truth:**
 No central authority can decide what counts as true, valid, or legitimate. This power would be immediately captured and weaponized.
@@ -824,7 +827,7 @@ At Dunbar's number (~150), we hit the biological ceiling of cooperation on human
 
 Friedrich Hayek showed that central planning creates infinite transaction costs. Without price signals encoding distributed knowledge, planners can't know what to produce, how much, or for whom. Information that would flow automatically through markets must be manually collected, transmitted, aggregated, decided—each step adding delay and distortion until the system grinds to stagnation.
 
-But the communist failure wasn't just information (Calculation Problem)—it was also **reciprocity and accountability**. Without enforcement mechanisms (NICE-Intelligent from Section 4.1), cooperation collapsed. No one could be held accountable for defection, cooperators were punished while defectors were rewarded, and the entire cooperative equilibrium dissolved.
+But the communist failure wasn't just information (Calculation Problem)—it was also **reciprocity and accountability**. Without enforcement mechanisms (the Retaliatory principle from Section 4.1), cooperation collapsed. No one could be held accountable for defection, cooperators were punished while defectors were rewarded, and the entire cooperative equilibrium dissolved.
 
 **The Scale-Free Cooperation Goal**
 
@@ -866,7 +869,7 @@ The wrong friction kills participation. Too much friction at entry (paperwork, c
 
 **4. Transparent expectations (no insider knowledge):**
 
-Opaque rules create two-tier systems: insiders who know how to navigate, outsiders who don't. This information asymmetry is a transaction cost—you must invest time learning the system before you can participate. (Connects to NICE-Clear, Section 4.1)
+Opaque rules create two-tier systems: insiders who know how to navigate, outsiders who don't. This information asymmetry is a transaction cost—you must invest time learning the system before you can participate. (Connects to Clear principle, Section 4.1)
 
 **Requirement:** Clear, legible rules encoded in executable form (smart contracts). The system teaches users how it works through use. No insider knowledge required.
 
@@ -1220,7 +1223,7 @@ Managerialism (Section 1.6) is the failure mode: agents capture institutions and
 - Community should be able to force emergency review with high-threshold opposition
 - Major violations (fraud, abuse of authority) should enable expulsion
 
-**Proportionality (connects to NICE-Forgiving, Section 4.1):** Minor mistakes receive minor penalties and allow recovery. Major predation triggers removal. The system distinguishes incompetence from malice.
+**Proportionality (connects to Forgiving principle, Section 4.1):** Minor mistakes receive minor penalties and allow recovery. Major predation triggers removal. The system distinguishes incompetence from malice.
 
 #### 7. Public Goods Over Narrow Benefits (Anti-Selectorate Capture)
 
@@ -1430,7 +1433,7 @@ Subsidiarity—the principle that problems should be solved at the lowest capabl
 
 **The Signal Processing Burden**
 
-Subsidiarity is not just about local knowledge—it's about signal processing capacity. A national-level institution attempting to evaluate NICE signals across an entire country faces an impossible burden. The N² complexity tax (Section 3.1) means that as participants grow, potential noise grows exponentially. No central institution can reliably distinguish cooperation from defection, competence from incompetence, at national scale for complex domains.
+Subsidiarity is not just about local knowledge—it's about signal processing capacity. A national-level institution attempting to evaluate cooperation signals across an entire country faces an impossible burden. The N² complexity tax (Section 3.1) means that as participants grow, potential noise grows exponentially. No central institution can reliably distinguish cooperation from defection, competence from incompetence, at national scale for complex domains.
 
 This creates two failure modes:
 
@@ -1442,7 +1445,7 @@ This creates two failure modes:
 
 Only systems that evolve from local through intermediate levels to national scale can be reliably trusted for complex coordination. Each level must prove itself as a functional signal repeater before the next level can rely on its outputs:
 
-- **Local level:** Direct observation. NICE signals are legible because you can see what's happening.
+- **Local level:** Direct observation. Cooperation signals are legible because you can see what's happening.
 - **Intermediate level:** Aggregates local signals. Trustworthy only if local levels are trustworthy and the aggregation is honest.
 - **National level:** Aggregates intermediate signals. Trustworthy only if the entire chain beneath it is trustworthy.
 

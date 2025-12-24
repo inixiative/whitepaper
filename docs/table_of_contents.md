@@ -128,7 +128,7 @@ You cannot address economic stagnation without understanding competitive saturat
 - 3.6 Dialectic Design: Optimization Under Constraint
 
 #### Section 4: Principles of a Cooperative Society (System Requirements Spec)
-- 4.1 What Is Cooperation? The NICE Framework
+- 4.1 What Is Cooperation? The Axelrod Principles
 - 4.2 Memory and Truth: Requirements for Tracking Without Censorship
 - 4.3 Scale-Free Cooperation Through Low Transaction Costs
 - 4.4 Sensemaking Infrastructure

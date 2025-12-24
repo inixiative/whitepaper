@@ -1638,7 +1638,7 @@ Climate change requires 50-year thinking but gets 4-year election cycles. Emerge
 
 **Media as Corrupted Signal Repeater**
 
-Recall the signaling substrate framework (Section 1.4): institutions function as signal repeaters that extend the range at which NICE signals can be detected. Functional journalism once served this role—broadcasting "cooperation worked here," "defection was punished there," providing the information needed to calibrate cooperation radius beyond direct observation.
+Recall the signaling substrate framework (Section 1.4): institutions function as signal repeaters that extend the range at which cooperation signals can be detected. Functional journalism once served this role—broadcasting "cooperation worked here," "defection was punished there," providing the information needed to calibrate cooperation radius beyond direct observation.
 
 The crisis occurred when media transitioned from signal repeater to entertainment product. By optimizing for views and engagement rather than signal fidelity, media outlets became **negativity filters**. As Steven Pinker documents, media systematically over-represents rare defections (crimes, crashes, corruption) because they are "engaging," while ignoring the millions of daily successful cooperations that keep civilization running.
 
@@ -2039,7 +2039,7 @@ Looking at the failure modes documented in Section 2, we can invert them to deri
 
 **From Loss of Subsidiarity (2.4):** Need **approval-based jurisdiction** - problems solved at appropriate scale, not always escalated
 
-**From Trust Breakdown (2.5):** Need NICE mechanisms - **Nice, Intelligent, Clear, Forgiving** - that restore cooperation equilibria
+**From Trust Breakdown (2.5):** Need mechanisms satisfying the Axelrod principles—**Nice, Retaliatory, Clear, Forgiving**—that restore cooperation equilibria
 
 **From Static Rules (2.6):** Need **continuous adaptation** - allocative AND adaptive efficiency, not just optimization within paradigms
 

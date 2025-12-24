@@ -998,7 +998,7 @@ When controversy is detected, the system doesn't pick a "winner." Instead, it au
 
 #### 5.6.3 Long-Horizon Claim Tracking
 
-**The requirement:** Track record of claims/predictions must inform credibility, but past performance cannot create permanent castes (connects to NICE-Forgiving).
+**The requirement:** Track record of claims/predictions must inform credibility, but past performance cannot create permanent castes (connects to Forgiving principle).
 
 **Mechanism:**
 
