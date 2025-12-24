@@ -749,6 +749,8 @@ Political extremism surges as excluded groups bet on burning down systems that l
 
 The pattern is universal: saturation blocks conventional success, risk tolerance spikes, chaos becomes rational. Institutional destruction becomes individually adaptive even when collectively catastrophic. "Chaos is a ladder" isn't cynicism—it's a predictable biological response to carrying capacity saturation.
 
+**The Inverse of HyperNormalisation:** This isn't cold probability calculation—it's something deeper. When the status quo is visibly broken, when every promise to change things has been hollow, when things are getting worse: "try something different" becomes the only defensible position. Not because alternatives look good, but because continuing to do the same thing looks insane. The sensor doesn't compute expected value; it reads "anything else is worth trying." The deeper indictment: when the only visible alternatives are recycled failures from previous eras, that itself is evidence of stagnation—we've stopped generating genuinely new options.
+
 **The Cycle of Institutional Domestication**
 
 This institutional barrier removal follows a predictable lifecycle. Institutions are born in the **Masculine Phase**—men build them as tools for external agency: armies to fight wars, companies to build infrastructure, universities to discover hard truths. The structure is hierarchical and exclusionary because competence is existential. The institution is a weapon against entropy.
