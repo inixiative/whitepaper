@@ -252,7 +252,9 @@ Universal service prevents the prosperity-softness failure mode by institutional
 
 ## 6. Novel Mechanisms Now Possible
 
-This section explores governance mechanisms that were previously impossible but are now feasible through smart contracts and web3 infrastructure.
+Reality is often computationally irreducible—you can't shortcut to the answer. Yet the history of science and much of philosophy has made productive use of thought experiments. This section should be read in that light. Each mechanism asks: "What if governance were configured this way?"
+
+Technology now has the ability to turn what was once conceptual into reality.
 
 ### 6.1 Definitions
 
