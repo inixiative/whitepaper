@@ -1910,13 +1910,7 @@ The Specification establishes **what we're searching for**. The Mechanisms show 
 
 ## Postscript: On Observation and the Nature of Coordination
 
-Readers who have followed the signal/capacity framework may sense something deeper beneath the surface—that the distinction reflects not just governance mechanics but something fundamental about the nature of coordinated systems.
-
-They would be right to sense this.
-
-We never access capacity directly. We access it through signals—measurements, observations, feedback. This is true at every scale: physicists measure particles through instruments; we perceive the world through nervous systems; institutions perceive reality through metrics and reports. The map is all we ever have. The territory is inferred.
-
-This means the signal/capacity distinction isn't merely a useful model for governance—it may reflect the basic structure of any observer-system interface with reality. Wherever there is coordination, there must be signaling. Wherever there is a "self" that acts coherently, there is a boundary defined by what it can observe and integrate.
+The signal/capacity distinction isn't merely a useful model for governance—it may reflect the basic structure of any observer-system interface with reality. Wherever there is coordination, there must be signaling. Wherever there is a "self" that acts coherently, there is a boundary defined by what it can observe and integrate.
 
 The implications are worth sitting with:
 
@@ -1932,6 +1926,14 @@ The implications are worth sitting with:
 
 **A testable prediction:** If consciousness is a causal integration buffer, artificially inducing signals into the buffer should change behavioral outcomes. This is exactly what we observe: sensory inputs, drugs, direct brain stimulation, even directed attention and meditation—all introduce or modify signals in the buffer, all change what the system does next. If consciousness were purely epiphenomenal, these interventions would change experience but not behavior. They change both.
 
-This is speculative. The document's core claims do not depend on it. But if the framework has explanatory power—if it helps predict where coordination will fail and what interventions might restore it—that power may derive from touching something true about the physics of observation itself.
+**The progression:** Zooming out, the framework suggests a nested hierarchy—each layer a response to a coordination problem at the layer below, each producing emergent behavior unpredictable from its substrate (Section 3.3):
 
-We leave this as an open question, not a claim. But it is the question that animates the work.
+1. **Reality** selects for stability. Physics and chemistry produce persistent structures. No replication, just configurations that endure.
+2. **Life** adds replication with variation. Selection operates across generations—faster than waiting for stable configurations by chance.
+3. **Intelligence** adds reaction to signals. Organisms update behavior before terminal feedback—faster than generational selection.
+4. **Consciousness** adds signal integration. Multiple intelligent subsystems need a workspace to coordinate—a buffer for comparison and conflict resolution.
+5. **Self-consciousness** adds modeling the integrator. The system models itself as an agent, enabling theory of mind and coordination with other self-modelers.
+
+Each layer is a shortcut that accelerates adaptation. Each produces behavior its substrate cannot predict. This is emergence applied recursively.
+
+We offer this as hypothesis, not claim. Explaining consciousness was not our intention—we set out to understand governance failure. But thinking through coordination, signals, and emergence, something like this seemed to fall out. When a framework built for one domain generates predictions in another, it may be touching something more fundamental than the original problem.
