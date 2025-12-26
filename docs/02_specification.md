@@ -24,7 +24,7 @@ Section 1 diagnosed what is broken through the lens of various thinkers. Section
 
 Think of this as the design philosophy layer: the principles and frameworks from evolutionary biology, complex systems theory, information theory, and software engineering that guide our approach to institutional architecture.
 
-**Why ambitious synthesis despite cultural caution:** The 20th century taught us to fear grand theories—we saw what happens when they're implemented by states with guns. The overcorrection was intellectual timidity: specialization, incrementalism, suspicion of cross-domain synthesis. But this left us unable to think at civilizational scale right when we needed it most. The generalist died (Section 1.6). The challenge is ambitious synthesis without totalizing certainty—search mechanisms rather than prescribed endpoints, infrastructure for experimentation rather than the final answer.
+**Why ambitious synthesis despite cultural caution:** The 20th century taught us to fear grand theories—we saw what happens when they're implemented by states with guns. The overcorrection was intellectual timidity: specialization, incrementalism, suspicion of cross-domain synthesis. But this left us unable to think at civilizational scale right when we needed it most. The generalist died. The challenge is ambitious synthesis without totalizing certainty—search mechanisms rather than prescribed endpoints, infrastructure for experimentation rather than the final answer.
 
 ### 3.0 Evolutionary Thinking: Selection as the Path to Truth
 
@@ -96,7 +96,7 @@ What counts as a signal is itself selected. Evolution tunes sensors to whatever 
 
 Social signals face the same mismatch. GDP once correlated with prosperity; under financialization it tracks extraction. Credentials once correlated with competence; under institutional saturation they track conformity. Engagement once correlated with value; under algorithmic optimization it tracks outrage. The signals haven't disappeared—they've decoupled from the outcomes they used to predict. We're not flying blind; we're flying on instruments calibrated for a world that no longer exists.
 
-**Culture as Coordination Technology**: Humans didn't break the Dunbar limit; we bypassed it with binding stories (Harari's "imagined orders"). We evolved to have culture-mediated sensors. The historical cycles (Doc 1, Section 1.3) are this mechanism playing out across time. Cultural coordination technology succeeds, sensed carrying capacity rises, cooperation scales. It degrades under pressure—elite capture, complexity, novelty, external shock—sensed capacity falls, competitive mode returns. The Cistercians built coordination technology adequate to their era; hyper-novelty is the current pressure degrading ours.
+**Culture as Coordination Technology**: Humans didn't break the Dunbar limit; we bypassed it with binding stories (Harari's "imagined orders"). We evolved to have culture-mediated sensors. Turchin's historical cycles are this mechanism playing out across time. Cultural coordination technology succeeds, sensed carrying capacity rises, cooperation scales. It degrades under pressure—elite capture, complexity, novelty, external shock—sensed capacity falls, competitive mode returns. The Cistercians built coordination technology adequate to their era; hyper-novelty is the current pressure degrading ours.
 
 **The Four Axes of Coordination**
 
@@ -107,7 +107,7 @@ Coordination depends on four independent variables:
 - **Capacity (the territory):** The actual reality—resources, incentives, physical constraints. Ground truth. What *would* be optimal if agents could perceive it directly.
 - **Signals:** Observable samples of capacity—a slice of reality that can be read. Actions directly witnessed, effects left in the environment, properties that can be measured. Incentives live in capacity, but they also shape signaling: who has incentive to signal what, whether truth or fraud pays, what gets selected for transmission. The signal layer has its own incentive structure layered on top of the capacity it samples. When a court fails to punish an elite, observers read defection-pays. When inequality grows, observers read extraction-wins. When a window stays broken, observers read enforcement-failed. Signals correlate (or once correlated) with fitness-relevant outcomes; they can be accurate, fraudulent, or decoupled (once-valid correlates that no longer predict). This is why hyper-novelty breaks coordination: the signal is still received, but the correlation with capacity has degraded.
 - **Substrate:** What signals travel through. Gap junctions between cells, gossip networks between people, media between populations—these carry, amplify, filter, or destroy signals. Failure modes: attenuation (signal doesn't propagate), corruption (signal distorted in transmission), selection bias (what propagates isn't representative of what receivers need for coordination). When substrates select, the question is whether that selection serves coordination at the relevant scale.
-- **Perception:** How agents interpret incoming signals based on developmental calibration (Section 1.4, habitus). Two agents receiving identical signals produce different behaviors because their calibration differs. The receiver matters as much as the transmission.
+- **Perception:** How agents interpret incoming signals based on developmental calibration. Two agents receiving identical signals produce different behaviors because their calibration differs. The receiver matters as much as the transmission.
 
 **The Failure States:**
 
@@ -144,7 +144,7 @@ This means dysfunction is **selective**: some coordination works while other coo
 
 Signals don't just vary by dimension—they vary by **scale**. We are constantly receiving signals from people around us, groups, institutions, nations, the global system. We navigate how much cooperation to extend at each level.
 
-As the Bedouin proverb captures (Section 1.4), cooperation and competition are **nested circles** with different thresholds. Lineage provides a cooperation subsidy (Hamilton's rule)—you extend more trust to kin because shared genes mean shared fitness. But even kin selection is signal-mediated: you must *perceive* who your kin are, who shares your interests at what scale.
+As the Bedouin proverb captures, cooperation and competition are **nested circles** with different thresholds. Lineage provides a cooperation subsidy (Hamilton's rule)—you extend more trust to kin because shared genes mean shared fitness. But even kin selection is signal-mediated: you must *perceive* who your kin are, who shares your interests at what scale.
 
 **The Coherence Distance** at each scale is determined by whether the **informational prerequisites for cooperation** can be verified at that distance:
 - Can I verify reciprocation likelihood?
@@ -152,9 +152,9 @@ As the Bedouin proverb captures (Section 1.4), cooperation and competition are *
 - Can I confirm my contribution is recognized?
 - Does reputation information travel with fidelity?
 
-If these cannot be verified, cooperation cannot cohere—regardless of how many messages can be sent. This explains the **Social Media Paradox**: infinite bandwidth, zero verification range. We can broadcast to billions but cannot verify any prerequisite for trusting them. The sensor correctly reads: "cooperation cannot be verified at this scale → competitive mode."
+If these cannot be verified, cooperation cannot cohere—regardless of how many messages can be sent. This explains the **Social Media Paradox**: infinite bandwidth, zero verification range. We can broadcast to billions but cannot verify any prerequisite for trusting them. The cooperation radius shrinks accordingly.
 
-The sensor (Section 1.4) is not a body counter. It is a **cooperation-viability auditor** continuously asking: "Is there coherent signal that cooperation is an effective strategy at this scale?" When the answer is no, the cooperation threshold rises. When it's no across all scales, you get civilizational reversion to competitive mode.
+This isn't about counting bodies—it's about auditing cooperation viability. The question is always: "Is there coherent signal that cooperation is an effective strategy at this scale?" When the answer is no, the cooperation radius shrinks. When it's no across all scales, the radius contracts to tribe, family, self.
 
 **Carrying capacity is therefore tech/culture dependent.** The Cistercians extended coherence distance across a continent through standardized rules and ledgers. Nation-states extended it through law and broadcast media. Modernity's crisis: complexity scaled faster than verification infrastructure. We are too large for our current substrate to carry the signal of "we."
 
@@ -174,9 +174,9 @@ The alignment gradient shifts for everyone, but the *effect* is proportional to 
 - **In high-trust systems:** High-capacity agents drive civilizational breakthroughs—they have the resources to coordinate complex projects, the intelligence to solve hard problems, and the reach to implement solutions at scale.
 - **In low-trust systems:** That same intelligence and resource base is applied to **local extraction**. The multiplier now works against the collective.
 
-This explains elite dysfunction without demonization. HyperNormalisation (Section 1.2a) is the frozen snapshot of systems when they were last explanatory—an ideology some believe genuinely, some promote cynically, but which protects everyone via "standard of care." Follow the protocol and you're safe; deviate and you're exposed. This truncates possibility space: vast regions of what might be considered become invisible, and agents retreat into smaller self-scopes. The damage is proportional to **power × misalignment**.
+This explains elite dysfunction without demonization. HyperNormalisation is the frozen snapshot of systems when they were last explanatory—an ideology some believe genuinely, some promote cynically, but which protects everyone via "standard of care." Follow the protocol and you're safe; deviate and you're exposed. This truncates possibility space: vast regions of what might be considered become invisible, and agents retreat into smaller self-scopes. The damage is proportional to **power × misalignment**.
 
-**Hoard or Renegotiate:** When new coordination technology threatens existing power structures, elites face a choice: suppress the new technology to protect current advantages (*hoard*), or adapt to the new conditions (*renegotiate*). Hoarding is the default—it's locally rational, requires no change, and protects accumulated position. But historically, elites who hoard often fail against those who adopt the new technology. The pattern repeats: cavalry against gunpowder, manuscripts against printing, broadcast against internet. The Thorium Paradox (Section 1.0) is hoarding in action—existing energy infrastructure suppressing coordination technology that would obsolete it.
+**Hoard or Renegotiate:** When new coordination technology threatens existing power structures, elites face a choice: suppress the new technology to protect current advantages (*hoard*), or adapt to the new conditions (*renegotiate*). Hoarding is the default—it's locally rational, requires no change, and protects accumulated position. But historically, elites who hoard often fail against those who adopt the new technology. The pattern repeats: cavalry against gunpowder, manuscripts against printing, broadcast against internet. The Thorium Paradox is hoarding in action—existing energy infrastructure suppressing coordination technology that would obsolete it.
 
 **Why elites "miss" technology:** This isn't stupidity—it's rational blindness. Elites rose by mastering the *current* substrate; they're optimized for its rules. Many new technologies emerge constantly, and predicting which one will transform the coordination landscape requires deep abstract modeling that's rare. Easier to double down on extraction from what you know works. By the time elites understand the new substrate, it's scaled past their control. The hopeful implication: hoarding is stable until it isn't. New coordination infrastructure eventually wins, but the transition cost depends on how long hoarding delays it.
 
@@ -192,7 +192,7 @@ This isn't deterministic—it describes a gradient of pressure, not a guarantee 
 
 **The Selection Filter Problem:** This is compounded by the **Meritocratic Trap**. In saturated hierarchies, the tournament for elite slots selects for agents who have already optimized for competitive mode—extraction, signaling, coalition-building. We aren't merely changing the signal environment for good leaders; we're running a Darwinian tournament that **selects for effective extractors** and then placing them in positions where extraction is unpunished. "Merit" in a broken substrate means skill at navigating the broken game.
 
-**The Sortition Logic:** This provides mechanical justification for **sortition (random selection)** as a coordination tool (Section 4.7). A randomly selected individual hasn't been pre-filtered for competitive extraction. They enter the position without having optimized for the degraded game. Random selection isn't "anti-meritocratic"—it's recognition that meritocracy in a broken substrate filters for extractors. Randomness can inject differently-calibrated agents into the system.
+**The Sortition Logic:** This provides mechanical justification for **sortition (random selection)** as a coordination tool. A randomly selected individual hasn't been pre-filtered for competitive extraction. They enter the position without having optimized for the degraded game. Random selection isn't "anti-meritocratic"—it's recognition that meritocracy in a broken substrate filters for extractors. Randomness can inject differently-calibrated agents into the system.
 
 **What Signals Are (and Aren't)**
 
@@ -200,7 +200,7 @@ Reality is real. Geography matters. Climate matters. Droughts, wars, resource co
 
 **Signals and Capacity: The Two Deaths**
 
-Institutions face two distinct failure modes (Section 2.2):
+Institutions face two distinct failure modes—just like life:
 
 1. **Cancer (coordination failure):** The system has capacity—energy, resources, competent people—but signals have degraded. Activity is misdirected. Cells consume the body. This is the failure mode most of Section 3.1 addresses.
 
@@ -222,7 +222,7 @@ If the signaling hypothesis holds, then signals are what **coordinate emergent s
 
 Signals can fail in distinct ways:
 
-- **Attenuation:** Signal weakens over distance or complexity—the center cannot perceive the periphery (Scott's legibility problem, Section 1.11)
+- **Attenuation:** Signal weakens over distance or complexity—the center cannot perceive the periphery (Scott's legibility problem)
 - **Noise:** Random interference drowns signal—too much information, too little meaning
 - **Corruption (Goodhart's Law):** When a measure becomes a target, optimization pressure decouples the signal from reality—the metric is gamed until it carries no information about what you actually cared about
 - **Fusion:** Multiple signal channels collapsed into one (central planning)—loss of error-checking capacity
@@ -243,7 +243,7 @@ The framework explains known governance patterns:
 
 **Signal Ordering (vs. Anarchy):** Anarchy isn't "no signals"—it's no hierarchy or protocol for resolving conflicts between signal channels. Everyone transmits, no one coordinates. At small scales, emergent protocols can work (internet governance, open source projects, traditional societies). At civilizational scale, without ordering protocols, signals cannot coalesce into coordinated action. Anarchy has a coordination ceiling.
 
-**Bandwidth Matching (Subsidiarity):** Subsidiarity is an engineering requirement, not a moral preference. Local signals provide high-resolution, high-fidelity feedback but limited reach. Central signals have massive reach but low resolution (Section 1.11, Scott). Interventions fail when there's scale mismatch between signal and decision. We move coordination to the most local feasible level because that's where SNR is highest. Subsidiarity ensures the civilizational organism doesn't try to coordinate cells using signals that have attenuated into noise.
+**Bandwidth Matching (Subsidiarity):** Subsidiarity is an engineering requirement, not a moral preference. Local signals provide high-resolution, high-fidelity feedback but limited reach. Central signals have massive reach but low resolution. Interventions fail when there's scale mismatch between signal and decision. We move coordination to the most local feasible level because that's where SNR is highest. Subsidiarity ensures the civilizational organism doesn't try to coordinate cells using signals that have attenuated into noise.
 
 **Signal Decoupling and Organ-Scale Defection:** Wholesale institutional defection—military coups, regulatory capture, bureaucratic empire-building—occurs when an organ maintains high internal SNR while the coupling to the larger body degrades to noise. A disciplined military has its own signaling substrate: chain of command, unit cohesion, shared mission. If the civilizational substrate becomes illegible noise while internal signals remain crisp, the organ faces a Darwinian choice: stay coupled to a dying host, or defect as a coherent unit. The coup isn't institutional failure—it's institutional success at the wrong scale. The same pattern explains corporate capture of regulators (internal corporate coherence, external accountability degraded) and political parties that serve themselves while decoupling from constituents. Institutions are autonomous agents that will prioritize their own coherence over a body that no longer provides a legible signal of mutual benefit.
 
@@ -266,7 +266,7 @@ The parallel to human organization is direct:
 - Teams coordinate to form institutions (organs)
 - Institutions coordinate to form civilizations (organisms)
 
-The Institutional Commons Problem (Document 1, Section 1.4) is precisely this epistemic shrinkage at the social scale:
+The Institutional Commons Problem (Document 1) is precisely this epistemic shrinkage at the social scale:
 
 **Healthy State (Cooperative Mode):** Accountability signals are strong. Individuals perceive a large cognitive horizon—their "self" extends to institutional success. Optimizing for the institution optimizes for themselves. They contribute function because institutional health determines their own prosperity. Selection pressure favors utility.
 
@@ -278,7 +278,7 @@ In this state, the institutional commons is not a resource to be managed but **a
 
 **Why Institutions Become Cancerous**
 
-Document 1 diagnosed multiple failure modes—elite overproduction (Section 1.3), regulatory capture (Section 1.7), institutional bloat (Section 2.2), barrier removal (Section 1.4). The Levin framework reveals these are all manifestations of the same underlying mechanism: **signaling pathways that once aligned individual and institutional success have been corrupted**.
+Document 1 diagnosed multiple failure modes—elite overproduction, regulatory capture, institutional bloat, barrier removal. The Levin framework reveals these are all manifestations of the same underlying mechanism: **signaling pathways that once aligned individual and institutional success have been corrupted**.
 
 Status extraction is social metastasis. When any group can extract competitive advantage while externalizing costs to the institutional commons, they will—not from malice, but because their cognitive horizon has shrunk below the scale where institutional health is perceptible. Elite men did this through rentier extraction. Women entering saturated institutions did this through barrier removal. Identity coalitions do this through DEI mandates. Bureaucrats do this through empire-building.
 
@@ -292,7 +292,7 @@ The metacrisis is this: **Our technological complexity has expanded the "body" (
 
 This isn't a policy error. It's a **cybernetic collapse into single-cell competition**.
 
-**Societies are evolutionary systems.** They go through life cycles—Polybius's anacyclosis, Turchin's secular cycles, rise and collapse. Institutions mutate, face selection pressure, and either adapt or die. The 1971 convergence (Section 1.2a) was an environmental shift that changed the fitness landscape. Current institutional failures are ongoing selection events happening in real time.
+**Societies are evolutionary systems.** They go through life cycles—Polybius's anacyclosis, Turchin's secular cycles, rise and collapse. Institutions mutate, face selection pressure, and either adapt or die. The 1971 convergence was an environmental shift that changed the fitness landscape. Current institutional failures are ongoing selection events happening in real time.
 
 Francis Fukuyama's "End of History" (1989) was spectacularly wrong. Liberal democracy didn't represent evolution's final form—it was just the current local optimum given post-Cold War conditions. The environment kept changing (globalization, digital technology, demographic shifts, climate pressure), and the fitness landscape shifted beneath us. We're living IN history, experiencing evolutionary forces, watching institutions that can't adapt begin to collapse.
 
@@ -343,11 +343,11 @@ The terminal state: **SNR driven toward zero**. Eventually, the noise floor rise
 
 **The Diamondian Answer: The Level-Locked Horizon**
 
-We can finally answer the question that started this investigation (Document 1, Section 1.0): **What kind of civilization loses the capacity to build what it already knows how to build?**
+We can finally answer the question that started this investigation (Document 1): **What kind of civilization loses the capacity to build what it already knows how to build?**
 
 The answer is a **level-locked civilization**—one where the rents of the current energy rung are reinvested into the epistemic fog that hides the next. We still burn coal sixty years after Oak Ridge demonstrated a working Thorium reactor not because the science failed, but because our **social bioelectricity** was shorted out by the very wealth we extracted.
 
-The incumbents are not merely protecting a market; they are **purchasing blindness**. As documented in Section 1.12, fossil fuel interests fund the narrative complexity and regulatory opacity (the 17,000 pages of the NRC) required to ensure that the next level of Vinge's Curve remains imperceptible. Each dollar extracted from the combustion paradigm buys more opacity; each layer of opacity makes the extraction safer.
+The incumbents are not merely protecting a market; they are **purchasing blindness**. Fossil fuel interests fund the narrative complexity and regulatory opacity (the 17,000 pages of the NRC) required to ensure that the next level of Vinge's Curve remains imperceptible. Each dollar extracted from the combustion paradigm buys more opacity; each layer of opacity makes the extraction safer.
 
 This is the terminal state of the Metacrisis: we have entered a loop where the profit from standing still is used to ensure we never see the reason to move. The tragedy of the Diamondian answer: those with cargo have used it to buy our blindness. We are a multicellular organism whose constituent parts have lost the signal that they belong to a body.
 
@@ -359,7 +359,7 @@ This is Levin's cancer at the epistemic scale. Cancer doesn't destroy cells—it
 
 Standard economic models of the "Rational Agent" fail because they treat rationality as a fixed individual trait. Levin's multiscale competency reveals that **rationality is a function of the Light Cone.**
 
-What is "rational" for a cell is catastrophic for the organ; what is "rational" for an atomized individual is "Social Cancer" for the civilization. The "Invisible Hand" only produces coordination when the **Trust-Voltage** is high enough to expand the individual's light cone to the scale of the institution. When the signaling substrate fails, rationality doesn't disappear—it **shrinks**. Individuals revert to the ancestral "Narrowing BIOS" (Section 1.4) because, in a noisy environment, optimizing for the self is the only signal that remains legible.
+What is "rational" for a cell is catastrophic for the organ; what is "rational" for an atomized individual is "Social Cancer" for the civilization. The "Invisible Hand" only produces coordination when the **Trust-Voltage** is high enough to expand the individual's light cone to the scale of the institution. When the signaling substrate fails, rationality doesn't disappear—it **shrinks**. Individuals revert to the ancestral "Narrowing BIOS" because, in a noisy environment, optimizing for the self is the only signal that remains legible.
 
 This is the refutation of *Homo Economicus*: people aren't "innately selfish" or "innately cooperative"—they are **dynamically rational agents** who scale their behavior to match the quality of the signaling substrate. "Greed" is just rationality with a shrunken light cone. We do not need "more rational" agents; we need a **substrate upgrade** that makes coordination rational again at scale.
 
@@ -387,7 +387,7 @@ The relationship is a **dialectic**:
 - **Hardware Constrains Software:** You cannot wish away the biological density sensor or the limits of the light cone with ideology. Any memetic protocol that ignores these constraints will eventually trigger the BIOS reversion (Social Cancer).
 - **Software Channels Hardware:** Memetic technologies (monasticism, markets, law, digital platforms) build the signaling substrate that keeps the biological sensor convinced we are on a frontier—making cooperation rational and morality adaptive.
 
-The Cistercians (Section 3.4) prove that memes are real and consequential: their management protocol changed the history of a continent. We are not *tabula rasa*, nor are we "lumbering robots." We are the species that **builds the software that manages its own hardware**. The metacrisis is a memetic failure—the 12th-century coordination software has finally crashed on 21st-century hardware complexity.
+The Cistercians prove that memes are real and consequential: their management protocol changed the history of a continent. We are not *tabula rasa*, nor are we "lumbering robots." We are the species that **builds the software that manages its own hardware**. The metacrisis is a memetic failure—the 12th-century coordination software has finally crashed on 21st-century hardware complexity.
 
 **Developmental Calibration: The Cooperation Radius**
 
@@ -395,8 +395,8 @@ Cooperation is not binary—it's a gradient. Everyone cooperates more with famil
 
 Individual variation in cooperation radius is developmental calibration, not fixed personality. A person's default radius reflects their lifetime of signal reads:
 
-- **High-fidelity upbringing** (stable family, fair institutions, promises kept) → large cooperation radius. The sensor learned that cooperation pays off even with strangers and abstract institutions.
-- **Noisy/chaotic upbringing** (broken promises, unpunished defection, institutional betrayal) → contracted radius. The sensor learned that cooperation beyond immediate family is a sucker's bet.
+- **High-fidelity upbringing** (stable family, fair institutions, promises kept) → large cooperation radius. You learned that cooperation pays off even with strangers and abstract institutions.
+- **Noisy/chaotic upbringing** (broken promises, unpunished defection, institutional betrayal) → contracted radius. You learned that cooperation beyond immediate family is a sucker's bet.
 
 The Marshmallow Test measures perceived institutional reliability, not willpower. Children who wait have learned that promises get kept. Children who grab immediately have learned—often correctly—that delayed gratification is for fools in their environment.
 
@@ -485,7 +485,7 @@ Governance systems are complex adaptive systems. Simple rules interact to produc
 
 The pattern emerges from **structure**, not character. When you focus on individuals, you see moral failures and demand better people. When you focus on systems, you see emergent dynamics and understand that different actors following the same rules would produce the same outcomes. The examples obscure the principle. Outrage at individuals prevents understanding of systems.
 
-**Emergence demands multi-level analysis:** Critically, emergence cuts both ways. Just as you cannot understand higher-level patterns by examining individual components, you cannot assume that identifying lower-level mechanisms obviates the need for higher-level analysis. The biological density sensor (Section 1.4) operates at the individual level, but its effects aggregate into institutional and civilizational dynamics that require their own analytical frameworks. Markets, cultures, and political systems exhibit emergent properties that cannot be predicted from—or reduced to—the psychology of their participants. This is why the whitepaper operates at multiple scales simultaneously: individual incentives (Section 3.2), institutional dynamics (Section 1.4), civilizational patterns (Turchin, Tainter), and the signaling substrate that connects them (Section 3.1). Each level has its own logic, its own failure modes, its own intervention points. Reductionism—explaining everything at one level—is as dangerous as ignoring mechanism altogether.
+**Emergence demands multi-level analysis:** Critically, emergence cuts both ways. Just as you cannot understand higher-level patterns by examining individual components, you cannot assume that identifying lower-level mechanisms obviates the need for higher-level analysis. The biological density sensor operates at the individual level, but its effects aggregate into institutional and civilizational dynamics that require their own analytical frameworks. Markets, cultures, and political systems exhibit emergent properties that cannot be predicted from—or reduced to—the psychology of their participants. This is why the whitepaper operates at multiple scales simultaneously: individual incentives, institutional dynamics, civilizational patterns (Turchin, Tainter), and the signaling substrate that connects them. Each level has its own logic, its own failure modes, its own intervention points. Reductionism—explaining everything at one level—is as dangerous as ignoring mechanism altogether.
 
 **Why this document is structured the way it is:** The Pain → Principle → Protocol → Proposal structure is itself an application of systems thinking. You cannot derive correct mechanisms (Protocol) without understanding what constraints they must satisfy (Principle). You cannot specify constraints without understanding what's actually broken (Pain). And you cannot evaluate proposals without the full stack beneath them. Each layer justifies the next. Jumping straight to solutions—as most governance proposals do—ignores emergence and guarantees nth-order failures.
 
@@ -493,19 +493,19 @@ The pattern emerges from **structure**, not character. When you focus on individ
 
 Touch one variable and a dozen others shift in response through feedback loops you didn't anticipate. Optimize for one metric and participants game it in ways you didn't foresee (Goodhart's Law). Impose rigid rules and people route around them through informal arrangements you can't see. The intervention produces the direct effect you intended, plus a cascade of indirect effects you didn't.
 
-Small changes can have disproportionate effects. Systems can sit in stable equilibria for years, then tip catastrophically when a threshold is crossed. The 2008 financial crisis didn't gradually worsen—it cascaded in days once Bear Stearns failed, triggering panic that overwhelmed the system. Tainter's collapse (Section 1.5) follows the same pattern: societies sustain rising complexity for decades, then collapse suddenly when marginal returns turn negative.
+Small changes can have disproportionate effects. Systems can sit in stable equilibria for years, then tip catastrophically when a threshold is crossed. The 2008 financial crisis didn't gradually worsen—it cascaded in days once Bear Stearns failed, triggering panic that overwhelmed the system. Tainter's collapse follows the same pattern: societies sustain rising complexity for decades, then collapse suddenly when marginal returns turn negative.
 
 This non-linearity makes prediction treacherous and control impossible. You cannot fine-tune a complex system the way you adjust a thermostat. Interventions produce delayed effects, indirect consequences, feedback loops that either amplify or dampen depending on context. The system has its own momentum, its own attractors, its own logic that resists external steering.
 
 **Chesterton's Fence:** "Don't remove a fence until you understand why it was built." Many institutional features exist for reasons invisible to current observers—emergent functions that arose from complex interactions and nth-order effects. They solve problems we've forgotten about, or problems that haven't manifested recently because the fence is still there.
 
-Chesterton's Fence is defense against signal attenuation. Many legacy rules began as high-voltage responses to real threats—someone got gored by the bull, and they built the fence. Over generations, the "why" attenuates while the "rule" remains. The memory of the bull fades; only the fence is visible. Optimizers perceive attenuated signals as waste and tear down the fence—then rediscover the bulls. (Some rules genuinely are nonsense, accumulated cruft, or solutions to problems that no longer exist. The point is you cannot distinguish cruft from critical infrastructure without reconstructing the original context.) Long-latency review (Temporal Subsidiarity, Section 4.8) should require *reconstruction* of the original utility signal before removal: verify the bulls are gone before removing the fence.
+Chesterton's Fence is defense against signal attenuation. Many legacy rules began as high-voltage responses to real threats—someone got gored by the bull, and they built the fence. Over generations, the "why" attenuates while the "rule" remains. The memory of the bull fades; only the fence is visible. Optimizers perceive attenuated signals as waste and tear down the fence—then rediscover the bulls. (Some rules genuinely are nonsense, accumulated cruft, or solutions to problems that no longer exist. The point is you cannot distinguish cruft from critical infrastructure without reconstructing the original context.) Long-latency review (Temporal Subsidiarity) should require *reconstruction* of the original utility signal before removal: verify the bulls are gone before removing the fence.
 
 Ripping out components without understanding their function in the emergent system is dangerous because you can't see what will break until it's gone. The fence may look pointless when examined in isolation, but it might be preventing a second-order or third-order effect that only becomes visible when you remove it. Historical context, tacit knowledge, nth-order effects—much of institutional function emerges from interactions you cannot perceive by examining individual components.
 
 This insight—central to complexity theory, agent-based modeling, and systems thinking—has profound implications for governance design. It means you cannot simply specify desired outcomes and expect to achieve them through detailed rules. You cannot predict all consequences of your mechanisms. You cannot control emergent dynamics through micromanagement. The system will surprise you.
 
-High-modernist planning (Scott, Section 1.9) failed precisely because it denied this reality. Planners believed they could design society the way an engineer designs a bridge—specify every beam, calculate every load, predict every stress. But societies aren't bridges. They're ecologies.
+High-modernist planning failed precisely because it denied this reality. Planners believed they could design society the way an engineer designs a bridge—specify every beam, calculate every load, predict every stress. But societies aren't bridges. They're ecologies.
 
 **Why this demands humility:** If emergence is real and prediction is limited, grand visions of optimal governance are hubris. You cannot design the perfect system on paper and implement it top-down. You can only design mechanisms likely to produce acceptable emergent behaviors, deploy them experimentally, observe what actually happens, and iterate based on evidence.
 
@@ -539,11 +539,11 @@ We built the modern world on that Cistercian substrate. The Industrial Revolutio
 
 **The Invisibility Problem:** The hardest technologies to upgrade are the ones old enough to have become invisible. We recognize smartphones as technology; we don't recognize governance as technology. The Cistercians *invented* systems management—but to us, "management" feels like reality, not invention. Money feels like physics. Property rights feel like nature. Bureaucracy feels like "how organizations work." As Žižek and David Foster Wallace both observed, ideology is invisible to those inside it. The fish doesn't see the water.
 
-You cannot iterate on what you cannot see as iterable. The engineering mindset's deepest challenge isn't technical—it's perceptual. Before you can apply modularity, testing, and iteration to governance, you must first *see* governance as a technology that was invented, has versions, and could be upgraded. The Standard of Care (Section 1.4) is a frozen protocol from a previous era, running on autopilot because no one perceives it as a protocol at all.
+You cannot iterate on what you cannot see as iterable. The engineering mindset's deepest challenge isn't technical—it's perceptual. Before you can apply modularity, testing, and iteration to governance, you must first *see* governance as a technology that was invented, has versions, and could be upgraded. The Standard of Care is a frozen protocol from a previous era, running on autopilot—sometimes not even perceived to be a protocol at all.
 
 **The Interdependency Problem:** But the stack isn't just old and invisible—it's *interdependent*. In "The Trigger Effect" (Connections, Episode 1), Burke traces the 1965 NYC blackout backward through its dependencies: the elevator requires electricity requires the grid requires coal requires trains requires steel requires... all the way back to agriculture—the first technology that enabled civilization by creating surplus, which enabled specialization, which enabled cities, which enabled everything else. It's turtles all the way down. No one person understands more than a tiny fraction. The person who makes your toilet doesn't know how to make porcelain. The porcelain maker doesn't know how to mine the clay.
 
-This is why the billionaire bunker is delusional. It assumes you can extract yourself from the stack while keeping the benefits. You can't. You can't stockpile civilization. You can't hire enough people who know enough things. Your stockpile is a wasting asset with no replenishment. Your security is your vulnerability—the guards have guns, you have canned food. The bunker is the "self-made myth" (Document 1, Section 1.5) made architectural: *"I don't need society."* Except you do. Competitive mode has simply blinded you to your own integration. The billionaire building a bunker is competitive mode's terminal confession: *I know I'm killing the host, but I can't stop—and I can't see that my survival depends on its survival.*
+This is why the billionaire bunker is delusional. It assumes you can extract yourself from the stack while keeping the benefits. You can't. You can't stockpile civilization. You can't hire enough people who know enough things. Your stockpile is a wasting asset with no replenishment. Your security is your vulnerability—the guards have guns, you have canned food. The bunker is the "self-made myth" made architectural: *"I don't need society."* Except you do. Competitive mode has simply blinded you to your own integration. The billionaire building a bunker is competitive mode's terminal confession: *I know I'm killing the host, but I can't stop—and I can't see that my survival depends on its survival.*
 
 Software engineering has solved problems that governance designers haven't even acknowledged. How do you build systems with millions of interacting components where failures cascade unpredictably? How do you update critical infrastructure without catastrophic downtime? How do you debug emergent behaviors you didn't predict?
 
@@ -583,7 +583,7 @@ If governance design were a search problem in solution-space, most approaches am
 
 Current governance is trapped on local peaks. Representative democracy with periodic elections is demonstrably better than monarchy or dictatorship—it's a local maximum compared to nearby alternatives. But that doesn't mean it's the best possible system, merely that small perturbations (slightly longer terms, different voting methods, more or fewer representatives) don't obviously improve it. We're stuck because all visible steps lead down.
 
-**What would let us explore the broader landscape?** Not incremental reform from where we are, but the ability to try radically different starting positions. Network states (Balaji, Section 1.12) provide this: cloud-first communities can experiment with governance structures that would be impossible to reach through incremental mutation of nation-states. Modular mechanisms that can be combined in novel ways amplify this exploration.
+**What would let us explore the broader landscape?** Not incremental reform from where we are, but the ability to try radically different starting positions. Network states provide this: cloud-first communities can experiment with governance structures that would be impossible to reach through incremental mutation of nation-states. Modular mechanisms that can be combined in novel ways amplify this exploration.
 
 Think of it as expanding the search space. Instead of "democracy vs autocracy," the space becomes "continuous approval + point budgets + subsidiarity routing + long-horizon compensation + automatic sunset." Instead of "more regulation vs less regulation," it's "which domains use markets, which use commons management, which use directed provision, and with what switching rules between them?" The dimensionality of the solution space explodes when you decompose governance into composable mechanisms.
 
@@ -593,7 +593,7 @@ Parallel search across independent communities becomes possible. Different netwo
 
 This is governance as distributed experimentation. Not "design the optimal system centrally and deploy universally" but "provide tools for decentralized search and let solutions emerge from variation and selection."
 
-**Respecting the ruggedness of the fitness landscape:** Some solution spaces are smooth—move in any promising direction and you make progress. Others are rugged—full of local peaks, valleys, saddle points, and deceptive gradients where promising directions lead nowhere. Governance is almost certainly rugged. Small changes can have non-linear effects (Section 3.3). What works in one context fails in another. Mechanisms that succeed in isolation fail when combined.
+**Respecting the ruggedness of the fitness landscape:** Some solution spaces are smooth—move in any promising direction and you make progress. Others are rugged—full of local peaks, valleys, saddle points, and deceptive gradients where promising directions lead nowhere. Governance is almost certainly rugged. Small changes can have non-linear effects. What works in one context fails in another. Mechanisms that succeed in isolation fail when combined.
 
 Rugged landscapes demand search strategies beyond hill-climbing. Modularity enables communities to make radical jumps in solution space—swapping entire voting systems or resource allocation mechanisms rather than tweaking parameters. Communities can combine mechanisms from different successful examples, can restart from different initial conditions. But critically, they do this as intact communities, not by fragmenting their political capital through splits.
 
@@ -633,8 +633,8 @@ Governance operates in a space of **bounded dialectics**—dynamic equilibrium b
 4. **Efficiency vs. Resilience:** Too much efficiency → systemic risk, no slack to absorb shocks. Too much resilience → waste, over-engineering prevents action.
 5. **Accountability vs. Measurement Freedom:** Too little → elite capture. Too much → permanent hierarchies, gaming replaces performance.
 6. **Centralization vs. Decentralization:** Too much centralization → destroys local knowledge. Too much decentralization → can't coordinate collective action.
-7. **Bureaucracy vs. Chaos:** Too much bureaucracy → sclerosis, empire-building (Graeber Section 1.6, Jiang Section 1.13). Too little → can't coordinate at scale, institutional amnesia, information doesn't flow (Harari's *Nexus*). The tension: We need institutional memory, standard procedures, information routing—that's what bureaucracy DOES. But bureaucratic classes self-perpetuate and expand beyond their mission. The requirement: mechanisms that provide bureaucratic functions (record-keeping, routing, coordination) without creating permanent bureaucratic elites who capture the system.
-8. **Prosperity vs. Hardness:** Too much prosperity without capability-maintenance mechanisms → population becomes soft, unwilling to sacrifice, vulnerable to conquest by harder rivals (Venice to Napoleon, Rome to barbarians, modern West to mobilized autocracies). Too much hardness/struggle → constant misery prevents enjoying the fruits of good governance. The tension: Systems that succeed in providing comfortable lives reduce their population's willingness to defend those lives violently. The requirement: mechanisms that maintain defensive capability and sacrifice-willingness despite prosperity—mandatory service (Switzerland, Singapore, Israel), civic participation requirements, cultural institutions preserving competitive spirit. Without these, successful governance creates its own vulnerability (Section 1.0 prosperity-vulnerability paradox).
+7. **Bureaucracy vs. Chaos:** Too much bureaucracy → sclerosis, empire-building (Graeber, Jiang). Too little → can't coordinate at scale, institutional amnesia, information doesn't flow (Harari's *Nexus*). The tension: We need institutional memory, standard procedures, information routing—that's what bureaucracy DOES. But bureaucratic classes self-perpetuate and expand beyond their mission. The requirement: mechanisms that provide bureaucratic functions (record-keeping, routing, coordination) without creating permanent bureaucratic elites who capture the system.
+8. **Prosperity vs. Hardness:** Too much prosperity without capability-maintenance mechanisms → population becomes soft, unwilling to sacrifice, vulnerable to conquest by harder rivals (Venice to Napoleon, Rome to barbarians, modern West to mobilized autocracies). Too much hardness/struggle → constant misery prevents enjoying the fruits of good governance. The tension: Systems that succeed in providing comfortable lives reduce their population's willingness to defend those lives violently. The requirement: mechanisms that maintain defensive capability and sacrifice-willingness despite prosperity—mandatory service (Switzerland, Singapore, Israel), civic participation requirements, cultural institutions preserving competitive spirit. Without these, successful governance creates its own vulnerability (the prosperity-vulnerability paradox).
 
 **The Requirement:** Governance infrastructure should not prescribe where to sit in these dialectic spaces. It should provide **tunable mechanisms** that make tradeoffs visible, measurable, and adjustable. Communities navigate to different equilibria based on their contexts, values, and constraints. What works for a 50-person co-op breaks at 50,000-person scale. What works in high-trust cultures fails in low-trust environments.
 
@@ -642,7 +642,7 @@ Governance operates in a space of **bounded dialectics**—dynamic equilibrium b
 
 ## 4. Principles of a Cooperative Society: Requirements for Supporting a Wide Cooperation Radius
 
-This section defines an **interface specification** for governance systems—an abstract interface describing what any functional cooperative society must accomplish, independent of implementation details. The goal is not to prescribe mechanisms but to specify what any governance system must satisfy to support a wide cooperation radius (Section 1.4) up to civilizational scale.
+This section defines an **interface specification** for governance systems—an abstract interface describing what any functional cooperative society must accomplish, independent of implementation details. The goal is not to prescribe mechanisms but to specify what any governance system must satisfy to support a wide cooperation radius up to civilizational scale.
 
 Think of this as analogous to defining the requirements for a database system: ACID properties (Atomicity, Consistency, Isolation, Durability) don't dictate MongoDB vs. PostgreSQL, but any production database must satisfy them. Similarly, these principles don't prescribe specific mechanisms, but any governance system that violates them will experience predictable failure modes.
 
@@ -660,7 +660,7 @@ Cooperation is the foundational requirement for any functional society. Before d
 
 **The Axelrod Principles as Radius Mediator**
 
-The system of sensors described in Document 1 (Section 1.4) audits the environment to detect the **radius at which these signals remain legible**. This becomes the cooperation radius.
+The perceptual system described in Document 1 audits the environment to detect the **radius at which these signals remain legible**. This becomes the cooperation radius.
 
 At Dunbar scale (~150), cooperation signals are directly observable—you see who cooperates, who defects, reputation travels by word of mouth. Beyond that scale, **institutions extend the radius** by serving multiple functions:
 
@@ -688,7 +688,7 @@ If someone defects, retaliate. Don't be a doormat. The system must distinguish c
 
 **Requires:** Memory (track who did what) + differentiated response (cooperators get different treatment than defectors).
 
-**Connection to Accountability Vacuum (Section 2.12):** Modern institutions violate this principle systematically. Nobody can be held accountable—corporations shield individuals ("just following policy"), bureaucracies diffuse responsibility ("the system decided"), politicians leave office before consequences manifest. Without accountability, there's no retaliation for defection, so defection dominates. This is why we're in a competitive rather than cooperative phase: the Axelrod equilibrium has collapsed.
+**Connection to the Accountability Vacuum:** Modern institutions violate this principle systematically. Nobody can be held accountable—corporations shield individuals ("just following policy"), bureaucracies diffuse responsibility ("the system decided"), politicians leave office before consequences manifest. Without accountability, there's no retaliation for defection, so defection dominates. This is why we're in a competitive rather than cooperative phase: the Axelrod equilibrium has collapsed.
 
 **Failure mode:** Anonymous systems can't retaliate (no memory). Systems that treat everyone identically enable free-riders. Current institutions: accountability vacuum means no punishment for defection, so cooperation collapses into competition.
 
@@ -698,7 +698,7 @@ The strategy must be legible. Others must be able to predict your behavior and r
 
 **Requires:** Transparent rules, encoded in executable form (smart contracts), not subject to arbitrary interpretation.
 
-**Connection to Wealth Pump (Section 2.1):** Opacity is being actively exploited. Some people understand the system (insiders, professionals, those who can afford lawyers/accountants) and others don't. This information asymmetry drives wealth extraction—those who understand the rules can game them, those who don't get exploited. Tax codes, financial regulations, legal procedures are intentionally complex to create informational rents. Clarity isn't just fair—it prevents exploitation.
+**Connection to the Wealth Pump:** Opacity is being actively exploited. Some people understand the system (insiders, professionals, those who can afford lawyers/accountants) and others don't. This information asymmetry drives wealth extraction—those who understand the rules can game them, those who don't get exploited. Tax codes, financial regulations, legal procedures are intentionally complex to create informational rents. Clarity isn't just fair—it prevents exploitation.
 
 **Failure mode:** Bureaucratic opacity creates insider/outsider classes, prevents coordination, enables extraction through information asymmetry.
 
@@ -718,10 +718,12 @@ Focus on absolute gains, not relative position. Don't try to beat your opponent�
 
 **Where institutions fail the Axelrod Principles:**
 
-Many institutions function well—trash removal, water systems, basic energy infrastructure. The Axelrod framework is diagnostic: where cooperation *does* break down, it often traces to violations of specific principles:
+Many institutions function well—trash removal, water systems, basic energy infrastructure. Why do these scale while others break down? **Cooperation friction.** Traffic laws work because compliance is nearly automatic: the rules are simple, defection is immediately visible, and the cognitive cost of following them is negligible. You can cooperate with millions of strangers on the road because the friction approaches zero. Complex political coordination fails at scale because the friction is high—understanding the issues, verifying claims, tracking accountability all require cognitive investment that most people can't afford. This is computational kindness (*Algorithms to Live By*): institutions that minimize cognitive burden can extend the cooperation radius further.
 
-- **Accountability vacuums:** Violate Retaliatory (Section 2.12)—no consequences for defection
-- **Regulatory complexity:** Violates Clear (Section 2.1)—insiders can navigate, outsiders can't
+The Axelrod framework is diagnostic: where cooperation *does* break down, it often traces to violations of specific principles:
+
+- **Accountability vacuums:** Violate Retaliatory—no consequences for defection
+- **Regulatory complexity:** Violates Clear—insiders can navigate, outsiders can't
 - **Permanent records:** Violate Forgiving—criminal records, credit scores create permanent castes
 - **Anonymous online systems:** Not Retaliatory (can't track defectors), not Clear (implicit norms)
 
@@ -781,7 +783,7 @@ System must detect when a domain has genuine distributed disagreement (not just 
 Must allow "we don't know yet" state. Novel ideas need time to develop, test, gain evidence. Cannot force immediate judgment or route everything to "expert consensus" (which may be defending obsolete paradigms).
 
 **5. Reputation building without permanent hierarchy:**
-Track record of claims/predictions must inform credibility. But past performance cannot create permanent castes (connects to Forgiving principle). Must allow redemption, prevent rubric control (Section 4.10).
+Track record of claims/predictions must inform credibility. But past performance cannot create permanent castes (connects to Forgiving principle). Must allow redemption, prevent rubric control.
 
 **6. No Ministry of Truth:**
 No central authority can decide what counts as true, valid, or legitimate. This power would be immediately captured and weaponized.
@@ -821,13 +823,13 @@ At Dunbar's number (~150), we hit the biological ceiling of cooperation on human
 - **Small Communities:** Keep transaction costs low through personal relationships, but can't grow beyond ~150 people
 - **Communes/Collectives:** Optimize for equality and shared effort, but collapse when free-riders defect or when scale exceeds trust networks
 - **Markets:** Reduce coordination costs through price signals, but can destroy communal values, create wealth concentration, **and artificially distort preferences through manufactured demand (social media engagement optimization, planned obsolescence)**
-- **Bureaucracies:** Formalize processes to enable large-scale coordination, but accumulate rules until transaction costs become prohibitive (Olson's institutional sclerosis, Section 1.7)
+- **Bureaucracies:** Formalize processes to enable large-scale coordination, but accumulate rules until transaction costs become prohibitive (Olson's institutional sclerosis)
 
 **Why Communism Failed: The Hayekian Calculation Problem**
 
 Friedrich Hayek showed that central planning creates infinite transaction costs. Without price signals encoding distributed knowledge, planners can't know what to produce, how much, or for whom. Information that would flow automatically through markets must be manually collected, transmitted, aggregated, decided—each step adding delay and distortion until the system grinds to stagnation.
 
-But the communist failure wasn't just information (Calculation Problem)—it was also **reciprocity and accountability**. Without enforcement mechanisms (the Retaliatory principle from Section 4.1), cooperation collapsed. No one could be held accountable for defection, cooperators were punished while defectors were rewarded, and the entire cooperative equilibrium dissolved.
+But the communist failure wasn't just information (Calculation Problem)—it was also **reciprocity and accountability**. Without enforcement mechanisms (the Retaliatory principle), cooperation collapsed. No one could be held accountable for defection, cooperators were punished while defectors were rewarded, and the entire cooperative equilibrium dissolved.
 
 **The Scale-Free Cooperation Goal**
 
@@ -869,7 +871,7 @@ The wrong friction kills participation. Too much friction at entry (paperwork, c
 
 **4. Transparent expectations (no insider knowledge):**
 
-Opaque rules create two-tier systems: insiders who know how to navigate, outsiders who don't. This information asymmetry is a transaction cost—you must invest time learning the system before you can participate. (Connects to Clear principle, Section 4.1)
+Opaque rules create two-tier systems: insiders who know how to navigate, outsiders who don't. This information asymmetry is a transaction cost—you must invest time learning the system before you can participate. (the Clear principle)
 
 **Requirement:** Clear, legible rules encoded in executable form (smart contracts). The system teaches users how it works through use. No insider knowledge required.
 
@@ -880,7 +882,7 @@ Opaque rules create two-tier systems: insiders who know how to navigate, outside
 **Subsidiarity also serves volume control:** If decisions stay at appropriate scales, each participant only sees decisions relevant to their scope. Nation-level citizens don't review every neighborhood parking dispute; this prevents information overload as population grows.
 
 **The requirement:** Problems must be routed to the smallest scale that has:
-- **Informational access** (can perceive the problem—Section 3.1 light cones)
+- **Informational access** (can perceive the problem)
 - **Authority to act** (can implement solutions)
 - **Scope containment** (effects don't spill beyond that scale)
 
@@ -900,7 +902,7 @@ Only a small fraction of decisions require city-wide, state-wide, or national co
 - **Intermediate (~15%):** Cross-community coordination, infrastructure that spans boundaries, aggregation of local experiments.
 - **National/Global (~5%):** Only fundamental protocols—rights, existential risks, standards that genuinely require uniformity (weights, measures, currency).
 
-This logarithmic structure is not a design choice but a **constraint imposed by signal processing limits** (Section 4.8). When centralized institutions attempt to handle more than this distribution allows, they either fail to process the signal load or simplify until they're no longer aligned with the cooperation they're supposed to enable.
+This logarithmic structure is not a design choice but a **constraint imposed by signal processing limits**. When centralized institutions attempt to handle more than this distribution allows, they either fail to process the signal load or simplify until they're no longer aligned with the cooperation they're supposed to enable.
 
 The goal is not "cooperation at national scale instead of local scale." It's "cooperation at every scale, with most happening where sensors work best."
 
@@ -929,9 +931,9 @@ When transaction costs drop below the Coasean floor and stay bounded through sub
 
 **Anti-exhaustion mechanisms: Preventing "proof of determination"**
 
-Making cooperation cheap isn't sufficient if coordinated groups can exhaust ordinary participants through sheer volume of engagement (Section 2.10). The system must prevent "last person standing" dynamics where whoever has more free time, obsessive commitment, or organizational resources wins regardless of merit or majority support.
+Making cooperation cheap isn't sufficient if coordinated groups can exhaust ordinary participants through sheer volume of engagement. The system must prevent "last person standing" dynamics where whoever has more free time, obsessive commitment, or organizational resources wins regardless of merit or majority support.
 
-As Section 2.10 documented across Wikipedia, Reddit, Anslinger's bureaucratic campaign, litigation warfare, and scientific paradigm capture: governance without anti-exhaustion mechanisms defaults to **proof of determination**. Whoever can sustain engagement longest wins—whether through personal passion, pathological obsession, or organizational funding.
+As documented across Wikipedia, Reddit, Anslinger's bureaucratic campaign, litigation warfare, and scientific paradigm capture: governance without anti-exhaustion mechanisms defaults to **proof of determination**. Whoever can sustain engagement longest wins—whether through personal passion, pathological obsession, or organizational funding.
 
 **Core principle: Governance attention is a scarce resource.** Just as Ethereum treats block space as scarce and charges gas fees, governance must treat participation capacity as finite and impose costs proportional to potential harm.
 
@@ -953,7 +955,7 @@ As Section 2.10 documented across Wikipedia, Reddit, Anslinger's bureaucratic ca
 
 ### 4.4 Sensemaking Infrastructure
 
-**The foundational problem:** Cooperation requires shared reality. When communities fragment into incompatible epistemic bubbles with no shared factual foundation, cooperation becomes impossible. Section 2.8 (Epistemic Fragmentation) and Section 2.10 (Exhaustion-Based Capture) document how information commons fail: Wikipedia gets captured through edit wars, Reddit through flood strategies, scientific consensus through whoever can sustain institutional engagement longest.
+**The foundational problem:** Cooperation requires shared reality. When communities fragment into incompatible epistemic bubbles with no shared factual foundation, cooperation becomes impossible. The Epistemic Fragmentation and Exhaustion-Based Capture failures documented in Document 1 show how information commons fail: Wikipedia gets captured through edit wars, Reddit through flood strategies, scientific consensus through whoever can sustain institutional engagement longest.
 
 **Current failure mode:** Systems oscillate between toxic free-for-all (no moderation, bad actors dominate) and narrative capture (whoever has most determination or resources controls the "canonical" view through exhaustion warfare). Both destroy the possibility of shared sensemaking.
 
@@ -978,7 +980,7 @@ These constraints are in tension. Solve one, violate another. For example: contr
 
 **Requirements (interface specification, not solutions):**
 
-**Detection without capture:** System must detect when domain has crossed from cooperative to competitive equilibrium—when participants compete for narrative control rather than collaborate toward truth. Requires expanding light cone (Section 3.1) to perceive coordination patterns, determination asymmetries, resource advantages, astroturfing signatures.
+**Detection without capture:** System must detect when domain has crossed from cooperative to competitive equilibrium—when participants compete for narrative control rather than collaborate toward truth. Requires expanding the light cone to perceive coordination patterns, determination asymmetries, resource advantages, astroturfing signatures.
 
 **Graduated response proportional to controversy:** Not binary switch. Low controversy = single view with footnote. Medium = primary view with clear access to alternatives. High genuine controversy = co-equal multi-perspective display. Coordinated attack detected = discount flooding faction.
 
@@ -988,7 +990,7 @@ These constraints are in tension. Solve one, violate another. For example: contr
 
 **Transparency of mechanism:** Users see why they're seeing multi-view and can examine detection logic. Cannot be black-box curation.
 
-**Connection to anti-exhaustion mechanisms (Section 4.3):**
+**Connection to anti-exhaustion mechanisms:**
 
 Without anti-exhaustion mechanisms, any sensemaking infrastructure gets captured through determination warfare. The system must integrate controversy detection with engagement limits, diversity weighting, and state persistence to prevent narrative control through sheer volume of effort.
 
@@ -1007,7 +1009,7 @@ Cooperation only persists when defection carries consequences. Both Ostrom's com
 **The Veritaseum/Axelrod framework:** Research on iterated cooperation games identified four essential principles for stable cooperation at scale:
 
 1. **Nice:** Default to cooperation. Systems should make cooperation the path of least resistance, not treat everyone as potential criminals.
-2. **Intelligent (Responsive):** Respond proportionally to others' behavior. Cooperate with cooperators, defect against defectors.
+2. **Retaliatory:** Respond proportionally to others' behavior. Cooperate with cooperators, defect against defectors.
 3. **Clear:** Transparent, legible rules. Everyone understands what counts as cooperation vs. defection. (See expanded definition below.)
 4. **Forgiving:** Mistakes don't permanently doom you. Reformed defectors can rebuild trust.
 
@@ -1019,7 +1021,7 @@ Cooperation only persists when defection carries consequences. Both Ostrom's com
 
 - **Accurate (Truth-Coupled):** The signal tracks physical reality (the windshield), not performative metrics (the dashboard). When metrics decouple from reality—Goodhart's Law—the signal becomes noise regardless of precision.
 
-- **Adaptive (Updating):** Signals update automatically upon environmental changes. Frozen signals create the "standard of care" trap (Section 1.2a)—following protocols calibrated to conditions that no longer exist.
+- **Adaptive (Updating):** Signals update automatically upon environmental changes. Frozen signals create the "standard of care" trap—following protocols calibrated to conditions that no longer exist.
 
 - **Concise (Low Extraction Cost):** Minimum cognitive load to extract meaning. The opposite of complexity-as-weapon: 17,000 pages of NRC regulations are functionally silent, not clear. If the agent must spend all its energy just parsing the signal, coordination fails.
 
@@ -1043,7 +1045,7 @@ Neither extreme works. The former enables predation; the latter creates authorit
 
 **Requirements for durable cooperation:**
 
-**Reputation systems (Intelligent):** Track contributions and violations transparently. The system should attempt to distinguish cooperators from defectors and adjust access/influence accordingly - though reputation mechanisms remain largely unsolved and carry significant risks of gaming, permanence bias, and rubric control (see Section 4.10). Critical requirement: reputation must decay over time (Forgiving) so reformed actors can rebuild trust and past mistakes don't create permanent castes.
+**Reputation systems (Intelligent):** Track contributions and violations transparently. The system should attempt to distinguish cooperators from defectors and adjust access/influence accordingly - though reputation mechanisms remain largely unsolved and carry significant risks of gaming, permanence bias, and rubric control (see Resist the Tyranny of Metrics). Critical requirement: reputation must decay over time (Forgiving) so reformed actors can rebuild trust and past mistakes don't create permanent castes.
 
 **Verified identity with privacy preservation (Clear + Nice):** Prevent Sybil attacks without sacrificing privacy. The system must enable verification of essential attributes ("this person is unique," "this person lives in this jurisdiction") without revealing sensitive details or treating everyone like criminals.
 
@@ -1074,9 +1076,9 @@ The 18th-century framing of "individual liberty" assumed rough parity between in
 **The principle:** Liability must scale with radius of impact.
 
 - **Individual scale:** High freedom, minimal regulatory burden. If you lie to your neighbor, the damage is local.
-- **Institutional scale:** Subject to accountability mechanisms proportional to impact. If you operate as signal infrastructure for civilization (Section 4.1), you should be *regulatable*—subject to standards, audits, or consequences that individual actors are not.
+- **Institutional scale:** Subject to accountability mechanisms proportional to impact. If you operate as signal infrastructure for civilization, you should be *regulatable*—subject to standards, audits, or consequences that individual actors are not.
 
-**The epistemic infrastructure framing:** You don't have "freedom" to build a bridge that collapses, or "freedom" to dump toxic waste into the public water supply. Media is the water supply of the signaling substrate. When media optimizes for engagement (outrage, fear, tribal capture) rather than signal fidelity, it is dumping epistemic pollution into the commons—triggering the four-way population split described in Section 2.8. This isn't a free speech issue—it's a pollution issue.
+**The epistemic infrastructure framing:** You don't have "freedom" to build a bridge that collapses, or "freedom" to dump toxic waste into the public water supply. Media is the water supply of the signaling substrate. When media optimizes for engagement (outrage, fear, tribal capture) rather than signal fidelity, it is dumping epistemic pollution into the commons. This isn't a free speech issue—it's a pollution issue.
 
 **Scale determines status, not self-labeling:** Entities will claim individual protections while wielding institutional power—"I'm not media, I'm a platform," "I'm not an institution, I'm just a company." The test cannot be self-declared category; it must be **radius of impact**. If your algorithm shapes the beliefs of millions, you are operating signal infrastructure regardless of what you call yourself.
 
@@ -1084,7 +1086,7 @@ The 18th-century framing of "individual liberty" assumed rough parity between in
 
 **Usage-dependent thresholds:** To prevent incumbents from using regulation as a competitive moat, liability must be reach-dependent. New platforms operate with minimal burden—they're not yet signal infrastructure because their radius is small. As reach scales, fiduciary requirements dial up automatically. You face institutional-scale liability only when you have institutional-scale impact.
 
-**The Right to Self-Curation:** The GDPR's "right to be forgotten" established a precedent: users have rights over their data. The right to self-curation extends this logic. It's not enough to delete your data—you need control over the algorithms that use your data to shape what you see. The current failure isn't just that algorithms amplify—it's that users have no control over their own algorithmic environment. No ability to tune what they see. No ability to escape engagement optimization they didn't choose. Users are subjects of algorithmic curation they can't adjust or even inspect. Any functional framework must include user rights over the algorithms that shape their information environment—the right to self-curation, not just protection from manipulation. (Document 3, Section 6.15 addresses implementation challenges.)
+**The Right to Self-Curation:** The GDPR's "right to be forgotten" established a precedent: users have rights over their data. The right to self-curation extends this logic. It's not enough to delete your data—you need control over the algorithms that use your data to shape what you see. The current failure isn't just that algorithms amplify—it's that users have no control over their own algorithmic environment. No ability to tune what they see. No ability to escape engagement optimization they didn't choose. Users are subjects of algorithmic curation they can't adjust or even inspect. Any functional framework must include user rights over the algorithms that shape their information environment—the right to self-curation, not just protection from manipulation. (Document 3 addresses implementation challenges.)
 
 **Why regulation protects, not punishes:** Without regulation, institutional-scale actors face a race to the bottom. If one media outlet optimizes for outrage and another for accuracy, outrage wins attention and revenue. Absent constraints, *every* rational actor must follow or die. Regulation is what allows companies to avoid this trap—it sets a floor that prevents the defection spiral. The company that wants to maintain signal fidelity can only do so if competitors face the same constraints.
 
@@ -1106,17 +1108,17 @@ Physical consequences (imprisonment for serious harms, capital punishment for ci
 
 **The core problem:** Governance is fundamentally a **Principal-Agent problem**. The Principal (the community/public) delegates authority to Agents (leaders/elites/managers). When agents can act in their own interest rather than the principal's, the system fails.
 
-Managerialism (Section 1.6) is the failure mode: agents capture institutions and become unaccountable to principals. They act like parasitic tumors rather than functional organs—consuming resources meant for the body while serving their own survival and expansion.
+Managerialism is the failure mode: agents capture institutions and become unaccountable to principals. They act like parasitic tumors rather than functional organs—consuming resources meant for the body while serving their own survival and expansion.
 
 **The biological goal:** Eusociality—where the leadership caste (the "brain") is functionally integrated with the social body, not exploiting it. The brain doesn't eat the body; it serves its survival. How do we achieve this structurally?
 
 **The failure modes we're preventing:**
 
-**Elite overproduction (Turchin, Section 1.1):** When elite positions confer dramatically superior quality of life compared to ordinary positions, society produces too many educated, ambitious, credentialed aspirants competing for too few elite slots. The ones who can't get in become **counter-elites**—frustrated individuals with elite training and expectations but blocked from elite status within the existing system. These counter-elites have the skills, credentials, and motivation to challenge the system itself, leading to revolutions, civil wars, and institutional collapse (French Revolution, late Qing Dynasty, Occupy Wall Street). Fixed elite slots don't prevent counter-elite formation (still have excluded aspirants), but they do two things: (1) prevent incumbent elites from expanding positions to absorb loyalists and entrench their power, and (2) force genuine competition for quality, making elite positions harder to capture through nepotism and ensuring some meritocratic churn that provides outlets for talented aspirants.
+**Elite overproduction (Turchin):** When elite positions confer dramatically superior quality of life compared to ordinary positions, society produces too many educated, ambitious, credentialed aspirants competing for too few elite slots. The ones who can't get in become **counter-elites**—frustrated individuals with elite training and expectations but blocked from elite status within the existing system. These counter-elites have the skills, credentials, and motivation to challenge the system itself, leading to revolutions, civil wars, and institutional collapse (French Revolution, late Qing Dynasty, Occupy Wall Street). Fixed elite slots don't prevent counter-elite formation (still have excluded aspirants), but they do two things: (1) prevent incumbent elites from expanding positions to absorb loyalists and entrench their power, and (2) force genuine competition for quality, making elite positions harder to capture through nepotism and ensuring some meritocratic churn that provides outlets for talented aspirants.
 
-**Bureaucratic empire-building (Jiang, Section 1.6):** Bureaucrats who can hire subordinates will hire subordinates—not because the mission demands it, but because staff count equals status and power. Agencies justify expansion by creating problems only they can solve. Coordination overhead compounds until the system collapses under its own weight.
+**Bureaucratic empire-building (Jiang):** Bureaucrats who can hire subordinates will hire subordinates—not because the mission demands it, but because staff count equals status and power. Agencies justify expansion by creating problems only they can solve. Coordination overhead compounds until the system collapses under its own weight.
 
-**Accountability vacuum (Section 2.12):** Modern institutions make it nearly impossible to hold anyone responsible. Corporations shield individuals ("just following policy"), bureaucracies diffuse blame ("the system decided"), politicians leave office before consequences manifest. Without accountability, defection dominates.
+**Accountability vacuum:** Modern institutions make it nearly impossible to hold anyone responsible. Corporations shield individuals ("just following policy"), bureaucracies diffuse blame ("the system decided"), politicians leave office before consequences manifest. Without accountability, defection dominates.
 
 **The Requirements:**
 
@@ -1145,7 +1147,7 @@ Managerialism (Section 1.6) is the failure mode: agents capture institutions and
 
 **The pattern:** Leaders possess dynamic political capital that depletes through use and must be continuously recharged through successful governance. When political capital drops below threshold, the agent is removed.
 
-**Connection to Section 4.5 (Make Defection Costly):** This operationalizes accountability. Leaders face continuous consequences for their decisions rather than deferred judgment years later when damage is done.
+**Connection to Make Defection Costly:** This operationalizes accountability. Leaders face continuous consequences for their decisions rather than deferred judgment years later when damage is done.
 
 **Key properties the implementation must have:**
 - Leaders start with initial legitimacy that depletes over time (natural drain)
@@ -1180,7 +1182,7 @@ Managerialism (Section 1.6) is the failure mode: agents capture institutions and
 - Burden of proof on continuation: roles must demonstrate value or sunset
 - Compensation structured to reward mission accomplishment, not staff count
 
-**Institutional sunset (Section 4.8):**
+**Institutional sunset:**
 - Policies and roles should face periodic review (longer intervals if successful)
 - Low-engagement should trigger automatic sunset
 - Default should be discontinuation; continuation requires rejustification
@@ -1223,7 +1225,7 @@ Managerialism (Section 1.6) is the failure mode: agents capture institutions and
 - Community should be able to force emergency review with high-threshold opposition
 - Major violations (fraud, abuse of authority) should enable expulsion
 
-**Proportionality (connects to Forgiving principle, Section 4.1):** Minor mistakes receive minor penalties and allow recovery. Major predation triggers removal. The system distinguishes incompetence from malice.
+**Proportionality (the Forgiving principle):** Minor mistakes receive minor penalties and allow recovery. Major predation triggers removal. The system distinguishes incompetence from malice.
 
 #### 7. Public Goods Over Narrow Benefits (Anti-Selectorate Capture)
 
@@ -1232,7 +1234,7 @@ Managerialism (Section 1.6) is the failure mode: agents capture institutions and
 This is the **Selectorate Theory** (Bueno de Mesquita): leaders optimize for their **minimum winning coalition**, not the general welfare. Divisive positioning keeps you in power: keep 51% happy with targeted benefits, ignore or punish the 49%. Result: leaders govern for narrow factions rather than broad public goods.
 
 **Why legacy voting enables this:**
-- Binary votes (Section 4.13) can't distinguish broad support from narrow support
+- Binary votes can't distinguish broad support from narrow support
 - 51% majority, even if barely committed, defeats 49% minority, even if intensely opposed
 - No measurement of engagement—leaders can't tell if support is passionate or indifferent
 - Elections are infrequent—leaders optimize for approval on election day, not continuous performance
@@ -1245,7 +1247,7 @@ This is the **Selectorate Theory** (Bueno de Mesquita): leaders optimize for the
 
 **Continuous approval:** Leaders cannot optimize for election-day approval alone. They must maintain support continuously. Policies that serve narrow factions but alienate the broader population must lose approval and sunset, costing the leader reputation and compensation.
 
-**Preference intensity capture (Section 4.13):** The system must capture not just direction but magnitude of preference. An intensely opposed minority must be able to outweigh an indifferent majority, preventing tyranny of the indifferent.
+**Preference intensity capture:** The system must capture not just direction but magnitude of preference. An intensely opposed minority must be able to outweigh an indifferent majority, preventing tyranny of the indifferent.
 
 **Long-horizon compensation:** Leaders must profit from policies that remain durably approved, not from policies that pass narrowly and then fail. Serving narrow factions produces unstable policies that sunset quickly, reducing leader returns.
 
@@ -1433,7 +1435,7 @@ Subsidiarity—the principle that problems should be solved at the lowest capabl
 
 **The Signal Processing Burden**
 
-Subsidiarity is not just about local knowledge—it's about signal processing capacity. A national-level institution attempting to evaluate cooperation signals across an entire country faces an impossible burden. The N² complexity tax (Section 3.1) means that as participants grow, potential noise grows exponentially. No central institution can reliably distinguish cooperation from defection, competence from incompetence, at national scale for complex domains.
+Subsidiarity is not just about local knowledge—it's about signal processing capacity. For complex domains, national-scale coordination requires tiered organization with auditable intermediate layers. The N² complexity tax means potential noise grows faster than any single institution's capacity to process it. Current systems fail not because national coordination is impossible, but because they skip tiers: one senator represents 30 million people directly, with no meaningful intermediate structure. At that ratio, recourse breaks down—your vote is 1/30,000,000th of their accountability signal. You cannot meaningfully punish defection or reward cooperation at that scale. Each layer must be small enough that constituents have real recourse against their representative before signals aggregate upward.
 
 This creates two failure modes:
 
@@ -1543,11 +1545,7 @@ Nested contexts should:
 
 We're not prescribing specific governance templates. We're requiring that systems support communities in creating context-appropriate governance structures. A system that forces all collective action through identical processes will systematically fail in contexts that require different speed/consensus/authority tradeoffs.
 
-**Connection to other principles:**
-- **Section 4.3 (Make Cooperation Cheap):** Context-appropriate governance reduces friction
-- **Section 4.9 (Voluntary Association):** People join contexts suited to their preferences
-- **Section 4.10 (Continuous Adaptation):** Communities can modify nested contexts as needs evolve
-- **Section 6.6 (Constraining Elites):** Nested hierarchies require clear accountability bounds
+**Connection to other principles:** Context-appropriate governance reduces friction, people join contexts suited to their preferences, communities can modify nested contexts as needs evolve, and nested hierarchies require clear accountability bounds.
 
 **Failure mode if violated:**
 - Emergency situations become disasters (consensus paralysis)
@@ -1576,7 +1574,7 @@ All three are catastrophic. Healthy systems need a way to prune institutions wit
 
 **Burden of proof on continuation:** Unlike current systems where the default is persistence, the default must be sunset. Institutions must demonstrate sustained value (measured by approval/engagement) to continue. Low engagement or declining approval must trigger automatic retirement.
 
-**Anti-expansion guardrails:** As covered in Section 4.6, bureaucrats cannot create new positions without community approval. This prevents self-perpetuating empire-building where agencies justify expansion by creating problems only they can solve.
+**Anti-expansion guardrails:** Bureaucrats cannot create new positions without community approval. This prevents self-perpetuating empire-building where agencies justify expansion by creating problems only they can solve.
 
 **Graceful degradation:** Sunset must not mean immediate termination. Transition periods must allow for knowledge transfer, alternative solutions, and adjustment. But institutions must not persist indefinitely merely because change is uncomfortable.
 
@@ -1650,7 +1648,7 @@ North's distinction between allocative efficiency (optimizing within existing ru
 
 2. **Aggregate sensors as ground truth.** You can fake a GDP number, a crime statistic, a test score. You cannot fake the *feeling* of opportunity or fairness across millions of people. While individual sensors can be "blue-lighted" by hyper-novelty in the short term, the aggregate vibe of a population is the only audit engine hard-wired to detect the truth of a coordination environment. The human sensor network is the ground truth that metrics try—and fail—to proxy.
 
-3. **The 75% path incentive.** Elites often choose to game metrics rather than address sensor reads because of the Accountability Vacuum (Doc 1, Section 2.12). For an aging incumbent, "ten more years of power through lying" is individually rational, even if it ensures civilizational collapse after they're gone. They strip-mine social trust—a resource that took centuries to build—for short-term rents.
+3. **The 75% path incentive.** Elites often choose to game metrics rather than address sensor reads because of the Accountability Vacuum. For an aging incumbent, "ten more years of power through lying" is individually rational, even if it ensures civilizational collapse after they're gone. They strip-mine social trust—a resource that took centuries to build—for short-term rents.
 
 **The platform solution:** Make lying computationally expensive by re-coupling the map to the territory. By treating the human sensor network as the primary instrument panel, the system ensures that a policy which looks good on paper but feels like extraction will drain approval immediately. You cannot "math" a populace into feeling they are in cooperative mode when their sensors read competitive reality.
 
@@ -1658,7 +1656,7 @@ North's distinction between allocative efficiency (optimizing within existing ru
 
 **Meta-governance capabilities:** Communities must be able to modify their own governance rules through structured processes. Create new positions, retire obsolete ones, adjust voting mechanisms, change review schedules—all through the same democratic processes used for policy decisions.
 
-**Experimentation at scale:** Multiple communities trying different governance approaches must create a distributed search process. Successful innovations must be able to spread through imitation (Section 4.9). Failed experiments must be pruned through sunset mechanisms (Section 4.8). The system must learn what works through variation and selection.
+**Experimentation at scale:** Multiple communities trying different governance approaches must create a distributed search process. Successful innovations must be able to spread through imitation. Failed experiments must be pruned through sunset mechanisms. The system must learn what works through variation and selection.
 
 **Adaptive, not arbitrary:** Changes must not be random or impulsive. Stable, successful policies must earn longer periods between reviews. Rapid iteration should happen when things aren't working; stability should emerge when they are.
 
@@ -1714,7 +1712,7 @@ North's distinction between allocative efficiency (optimizing within existing ru
 
 ### 4.13 Resist the Tyranny of Metrics
 
-As shown in Section 2.7.7, the measurement trap is a failure mode common to many governance reforms. Any system must explicitly protect against quantification capture.
+The measurement trap is a failure mode common to many governance reforms. Any system must explicitly protect against quantification capture.
 
 **Requirements:**
 
@@ -1766,11 +1764,11 @@ Traditional voting systems suffer from catastrophic information loss. A vote cap
 
 ### 4.15 Protect Individual Sovereignty Through Rights Subsidiarity
 
-Just as Section 4.5 establishes that problems should be solved at the lowest capable level, **powers and rights should default to individuals unless there is clear, ongoing justification for collective control.** The principle of subsidiarity applies not only to governance scale (local vs. regional vs. national) but to the fundamental allocation of authority between individuals and collectives.
+Just as Subsidiarity establishes that problems should be solved at the lowest capable level, **powers and rights should default to individuals unless there is clear, ongoing justification for collective control.** The principle of subsidiarity applies not only to governance scale (local vs. regional vs. national) but to the fundamental allocation of authority between individuals and collectives.
 
 **The default assumption must be individual sovereignty:** In the absence of explicit, justified delegation, individuals retain authority over their own lives, property, associations, and choices. Collective authority—whether through law, custom, or institutional power—requires continuous justification, not presumption.
 
-**Why this matters:** History shows that collective power, once granted, rarely returns voluntarily to individuals. Governments expand authority during emergencies (war, pandemic, economic crisis) and retain it permanently. Regulatory agencies accumulate powers that were meant to be temporary. The ratchet works in one direction: toward centralization and collective control, away from individual autonomy. Without structural mechanisms enforcing rights subsidiarity, the Olsonian dynamic (Section 1.5) applies to rights themselves—powers migrate upward and never come back down.
+**Why this matters:** History shows that collective power, once granted, rarely returns voluntarily to individuals. Governments expand authority during emergencies (war, pandemic, economic crisis) and retain it permanently. Regulatory agencies accumulate powers that were meant to be temporary. The ratchet works in one direction: toward centralization and collective control, away from individual autonomy. Without structural mechanisms enforcing rights subsidiarity, the Olsonian dynamic applies to rights themselves—powers migrate upward and never come back down.
 
 **Monopoly on violence: The necessary evil that must be constrained**
 
@@ -1805,10 +1803,10 @@ Systems must **actively enforce rights subsidiarity** rather than passively hopi
 **1. Enumerated powers with burden of proof on expansion:**
 - Communities explicitly delegate specific, limited powers to collective entities
 - Any expansion of collective authority requires supermajority approval and periodic renewal
-- Powers sunset automatically if not renewed (Section 4.5 lifecycle management applies to authority grants)
+- Powers sunset automatically if not renewed (lifecycle management applies to authority grants)
 - Default is individual autonomy; collective power requires continuous justification
 
-**2. Exit rights as ultimate check (Section 4.9):**
+**2. Exit rights as ultimate check:**
 - Voluntary association means individuals must be able to leave communities that violate their rights
 - This creates competitive pressure: communities that abuse power should lose members
 - Multiple overlapping communities mean you're not captive to any single authority
@@ -1839,7 +1837,7 @@ We don't prescribe a specific rights framework—that's for communities to deter
 - **Freedom of association:** Choose who you interact with, which communities you join
 - **Freedom of expression:** Speak, write, share ideas without prior restraint
 - **Due process:** Fair procedures before punishment, no arbitrary deprivation
-- **Exit:** Leave communities that don't serve you (Section 4.7)
+- **Exit:** Leave communities that don't serve you
 
 Different communities will prioritize these differently. Libertarian communities might maximize individual property rights. Communitarian groups might subordinate property to collective needs. Religious communities might have different speech norms. **Systems should enable experimentation with different rights configurations** rather than imposing one model.
 
@@ -1853,13 +1851,7 @@ There's genuine tension between collective security (which may require coordinat
 4. **Adjust dynamically:** Communities can shift the balance based on changing threats or preferences
 5. **Exit if dissatisfied:** Individuals who disagree with a community's tradeoff can join or create alternatives
 
-**Connection to other principles:**
-
-- **Subsidiarity (Section 4.7):** Rights subsidiarity is subsidiarity applied to power allocation—default to individual, justify collective
-- **Voluntary association (Section 4.9):** Exit rights enforce respect for individual sovereignty through competitive pressure
-- **Lifecycle management (Section 4.8):** Grants of collective authority should sunset and require renewal, not persist indefinitely
-- **Thin elites (Section 4.6):** Concentrated power enables rights violations; distributed authority reduces risk
-- **Continuous adaptation (Section 4.10):** Rights frameworks can evolve as technology and threats change, without requiring constitutional crises
+**Connection to other principles:** Rights subsidiarity is subsidiarity applied to power allocation—default to individual, justify collective. Exit rights enforce respect for individual sovereignty through competitive pressure. Grants of collective authority should sunset and require renewal, not persist indefinitely. Concentrated power enables rights violations; distributed authority reduces risk. Rights frameworks can evolve as technology and threats change, without requiring constitutional crises.
 
 **The shift in equilibrium:** When rights subsidiarity is enforced structurally (not just declared rhetorically), the default equilibrium shifts from "collective power expands until constrained" to "individual sovereignty unless explicitly justified." Collective authority becomes something continuously earned through demonstrated necessity and ongoing consent, not something presumed and permanent. This inverts the Olsonian ratchet: instead of powers migrating inexorably toward central control, they must be periodically rejustified or they revert to individuals.
 
@@ -1875,7 +1867,7 @@ Current systems have structurally over-indexed on autonomy, dismantling the inte
 
 **Tunability:** Governance mechanisms must expose parameters that communities can adjust to shift the balance between autonomy, community, and transcendence. These adjustments should affect incentive structures, accountability thresholds, and resource allocation in predictable ways.
 
-**Subsidiarity Connection:** Tuning authority should rest at the most local feasible level (see Section 4.8 Subsidiarity). Different communities may choose different balances—some preferring high autonomy with loose community ties, others preferring tight community cohesion with reduced individual mobility. Higher-level jurisdictions should not impose uniform tuning across diverse populations.
+**Subsidiarity Connection:** Tuning authority should rest at the most local feasible level (see Subsidiarity). Different communities may choose different balances—some preferring high autonomy with loose community ties, others preferring tight community cohesion with reduced individual mobility. Higher-level jurisdictions should not impose uniform tuning across diverse populations.
 
 **Transparency of Tradeoffs:** When communities adjust parameters, the expected effects on the three axes should be clearly visible. Citizens should understand what they are trading (e.g., "increasing community accountability thresholds will reduce individual anonymity and mobility incentives").
 
@@ -1883,7 +1875,7 @@ Current systems have structurally over-indexed on autonomy, dismantling the inte
 
 **Variation Protection:** Regardless of community-level tuning, systems must preserve minimum individual rights: ability to dissent, ability to exit, ability to propose alternatives. No tuning may eliminate the capacity for individual variation—the mutation engine that enables adaptation.
 
-**Signaling Capacity:** Communities that choose high-community or high-transcendence tunings (high "trust-voltage") must maintain proportional signaling infrastructure (see Section 3.1 on bioelectric gradients, Section 4.6 on accountability). Trust cannot exist without high-quality signals. Attempting to tune for tight community cohesion without corresponding accountability mechanisms leads to corruption and opacity, not coordination. You cannot increase trust-voltage without increasing signaling capacity.
+**Signaling Capacity:** Communities that choose high-community or high-transcendence tunings (high "trust-voltage") must maintain proportional signaling infrastructure. Trust cannot exist without high-quality signals. Attempting to tune for tight community cohesion without corresponding accountability mechanisms leads to corruption and opacity, not coordination. You cannot increase trust-voltage without increasing signaling capacity.
 
 **Measurement:** Systems should measure outcomes on all three axes (individual wellbeing, community cohesion, transcendent participation) to provide feedback on whether current tuning achieves intended balance. Without measurement, tuning is blind.
 
@@ -1921,22 +1913,110 @@ The implications are worth sitting with:
 
 **Consciousness may be the experience of being a signal-integration boundary.** Levin's "self" is defined by what its components can coordinate on. Perhaps what we call consciousness—at any scale, from cell to civilization—is what it feels like to be a system that integrates signals into coherent action. A society that loses signal coherence may literally lose a form of collective awareness, becoming a collection of conscious parts that no longer constitute a conscious whole.
 
-**A prediction of the model:** If intelligence evolves as a reaction to signal, the framework predicts that something like consciousness would evolve as a coordination mechanism. Consider: an organism has multiple signals attached to multiple response mechanisms. Signal A says go left; Signal B says go right. Coordination between these intelligent subsystems requires a workspace—a buffer where signals can be held and compared before action. To detect signal frequency (is this happening often or rarely?), you need temporal comparison, which requires memory. The hypothesis: consciousness is this workspace. It evolved as a tool for coordinating signals, including across time. We don't claim this is what consciousness IS—we note that the framework predicts something like it would emerge.
+### An Evolutionary Hypothesis
 
-**This matches the phenomenology.** What does consciousness feel like? Meditation traditions describe it as a space where sensations arise—a witnessing presence where things happen. This is precisely what a signal-integration buffer would feel like from the inside: a workspace where signals appear, persist briefly, and can be compared. The experience of "now" is the buffer's temporal window. The experience of attention is the buffer's limited capacity—not everything fits, so signals compete for integration. The experience of thoughts arising unbidden is signals entering the workspace from subsystems we don't control. The phenomenology fits the prediction.
+Thinking through how coordination mechanisms must have evolved suggests a sequence:
 
-**The feedback loop:** The buffer isn't passive—its outputs feed back into action systems. Signals enter from subsystems, integration happens (comparison, temporal pattern detection, conflict resolution), and the result influences downstream behavior. This is why evolution selects for it: the integration changes what the system does next. Consciousness is causal—but not in the "magic free will" sense. The integration process is causal. The experience is what that process feels like from inside. The system is deterministic given its inputs, but the integration happening in the buffer is part of the causal chain, not epiphenomenal witness.
+**Static → Dynamic:** Pre-life chemistry that responds to environment. Input triggers output. No goals—just reactions.
 
-**A testable prediction:** If consciousness is a causal integration buffer, artificially inducing signals into the buffer should change behavioral outcomes. This is exactly what we observe: sensory inputs, drugs, direct brain stimulation, even directed attention and meditation—all introduce or modify signals in the buffer, all change what the system does next. If consciousness were purely epiphenomenal, these interventions would change experience but not behavior. They change both.
+**Dynamic → Intelligent:** Multiple dynamic switches integrate around a *single* goal. A goal is a preferred state the system actively maintains—expending energy to restore when perturbed. This is proto-homeostasis. The goal doesn't exist in any individual switch; it emerges from their integration. This might be the origin of life itself.
 
-**The progression:** Zooming out, the framework suggests a nested hierarchy—each layer a response to a coordination problem at the layer below, each producing emergent behavior unpredictable from its substrate (Section 3.3):
+**Intelligent → Conscious:** Multiple intelligent systems develop within the same organism. Each maintains its own goal. At first, these goals are *orthogonal*—they can run in parallel without interfering. Fat storage does its job. Thermoregulation does its job. No coordination needed.
+
+But as organisms become mobile and face complex environments, goals become *perpendicular*—they collide. "Move toward food" conflicts with "move away from predator" when the predator is between you and the food. "Conserve energy" conflicts with "escape now." You cannot satisfy both. Something must arbitrate.
+
+**This is the selection pressure for consciousness:** When goals collide regularly, and the cost of poor resolution is high, evolution pays for an arbitration mechanism—a workspace where competing signals can be held, compared, and resolved before action.
+
+**Integration is costly.** Evolution is cheap. So we'd expect:
+- Narrow intelligence (single-goal systems) wherever possible—they're cheaper
+- Parallel orthogonal systems without integration—also cheap
+- Simple heuristics for occasional collisions ("if predator, always flee")
+- Flexible arbitration only where collisions are constant, context is variable, and heuristics keep failing
+
+Consciousness is the expensive, flexible end of this spectrum. It evolves where simpler solutions don't work.
+
+**The hypothermia example:** You can freeze to death with plenty of fat stores. Fat metabolism maintains its preferred state (keep the fat). Thermoregulation maintains its preferred state (stay warm). These systems are mostly orthogonal—they rarely conflict—so tight integration never evolved. In the rare case where they should coordinate (release fat to generate heat), they don't. You die. This isn't a bug; it's evolution satisficing. Integration is expensive. If hypothermia is rare enough, the cost of tight integration exceeds the benefit.
+
+This shows you can have multiple intelligent subsystems *without* consciousness. They run in parallel, occasionally failing catastrophically. Consciousness isn't automatic with complexity—it's specifically the solution to frequent goal-collision.
+
+### Why Temporal Integration?
+
+Before arbitration, there's a simpler question: why would sensors integrate across time at all? Why not just respond to instantaneous state?
+
+Because trajectory matters more than position. "Getting worse" versus "getting better" requires comparing across moments. A predator getting closer requires knowing it was farther a moment ago. A food source is worth pursuing only if you're making progress toward it. Gradient-following—the basis of chemotaxis—requires comparing concentrations across time to determine direction.
+
+Instantaneous sensors can only say "this is the state now." Temporal integration adds "and it's changing in this direction at this rate." That's enormously more useful for action selection. The selection pressure for temporal integration predates consciousness—it's present in the simplest goal-directed systems. But once you have temporal integration, you have the substrate for something more: a window within which multiple signals can be compared. That window becomes the workspace.
+
+### Tickrate: The Integration Window
+
+Consciousness seems to operate at characteristic frequencies. Human consciousness integrates experience at roughly 40-100ms windows—our "specious present." This tickrate is tuned to the scale at which we operate: navigating physical environments, social coordination, predator avoidance.
+
+Other systems operate at different tickrates. Plants signal and respond on timescales of hours to days. Mycorrhizal networks coordinate nutrient distribution across weeks. Cells arbitrate metabolic tradeoffs in milliseconds.
+
+**A prediction:** Entities at radically different tickrates cannot perceive each other's consciousness directly. We readily attribute consciousness to mammals and birds (similar tickrate). We debate insects (borderline). We dismiss plants and fungi (orders of magnitude different).
+
+But plants *are* signaling. The Tel Aviv research showed plants emit ultrasonic clicks when stressed, and neighboring plants respond. We needed instruments to detect it—it happens outside our perceptual window. The mycelial networks preferentially route resources to kin versus strangers. That's not just chemistry; that's recognition.
+
+The mutual blindness isn't evidence of absence. It's predicted by the framework. If consciousness is tickrate-bound, cross-tickrate consciousness is invisible without technological mediation. If this framework is right, the universe contains minds imperceptible to us—not hidden, but operating at timescales incompatible with our integration rate.
+
+### The Pause as Signature
+
+If consciousness is goal-conflict arbitration, we'd expect to see something like "deliberation time" when conflicts are harder. Simple heuristics don't need variable pause times. Flexible processing does.
+
+**Stentor** (a single-celled ciliate) provides evidence. When irritated, Stentor escalates through a hierarchy of responses: first it bends away, then reverses cilia, then contracts, then detaches and swims away. It doesn't jump to the costly response immediately—it tries cheaper solutions first, with pauses between attempts. The pause looks like reassessment.
+
+**T-cells** show variable "dwell time" when deciding whether to kill a target. Harder decisions (ambiguous signals) correlate with longer pauses. The pause duration scales with difficulty.
+
+**Amoebae** hunting bacteria will attempt engulfment, fail, pause, and try a different approach—or abandon that prey entirely.
+
+The pattern: pause time correlating with decision difficulty. This is the behavioral signature of processing that goes beyond simple stimulus-response. Even single cells show it.
+
+### The Workspace
+
+The buffer where arbitration happens is what meditation traditions describe: a space where sensations arise, persist briefly, and can be compared. The experience of "now" is the buffer's temporal window—the tickrate. The experience of attention is the buffer's limited capacity—signals compete for integration. The experience of thoughts arising unbidden is signals entering from subsystems we don't control.
+
+The workspace serves multiple functions: arbitrating between conflicting goals, and integrating many information sources when action requires unified response. There's also a topological efficiency argument. If N systems need to share information, point-to-point connections require N² wires—expensive to build and maintain. A central workspace requires only 2N connections: each system writes to the workspace and reads from it. Centralized integration beats distributed point-to-point when you need many-to-many coordination. This also explains why consciousness is singular—multiple workspaces would reintroduce the N² problem at the workspace level. The unity isn't mystical; it's the whole point.
+
+The buffer isn't passive. Its outputs feed back into action systems. Signals enter from subsystems, integration happens, and the result influences downstream behavior. But it's a loop, not a hierarchy: the broadcast updates how those same systems process, which generates new signals, which compete for the next cycle. What's currently "in" shapes what can enter next.
+
+This is why evolution selects for it: the integration changes what the system does next. Consciousness is causal—but not in the "magic free will" sense. The integration process is causal. The experience is what that process feels like from inside.
+
+### The Progression
+
+Zooming out, the framework suggests a nested hierarchy—each layer a response to a coordination problem at the layer below, each producing emergent behavior unpredictable from its substrate:
 
 1. **Reality** selects for stability. Physics and chemistry produce persistent structures. No replication, just configurations that endure.
 2. **Life** adds replication with variation. Selection operates across generations—faster than waiting for stable configurations by chance.
-3. **Intelligence** adds reaction to signals. Organisms update behavior before terminal feedback—faster than generational selection.
-4. **Consciousness** adds signal integration. Multiple intelligent subsystems need a workspace to coordinate—a buffer for comparison and conflict resolution.
+3. **Intelligence** adds goal-directed behavior. Systems maintain preferred states, updating before terminal feedback—faster than generational selection.
+4. **Consciousness** adds goal-conflict arbitration. Multiple intelligent subsystems with perpendicular goals need a workspace to coordinate—a buffer for comparison and resolution.
 5. **Self-consciousness** adds modeling the integrator. The system models itself as an agent, enabling theory of mind and coordination with other self-modelers.
 
 Each layer is a shortcut that accelerates adaptation. Each produces behavior its substrate cannot predict. This is emergence applied recursively.
+
+### Cellular Precedent
+
+This pattern exists below the scale of neurons. Single-celled organisms perform integration and decision-making using their cytoskeleton—microtubules as signal pathways, the centrosome as organizing hub. Paramecium integrates mechanical, chemical, and electrical signals to coordinate ciliary behavior. Stentor shows sequential decision-making with variable pause times. Neurons didn't invent the workspace; they inherited and scaled something cells were already doing.
+
+If the same architecture evolves at cellular and organismal scales, it may be a convergent solution to any coordination problem involving semi-autonomous subsystems—including, perhaps, societies.
+
+### What Remains Unexplained
+
+We've described WHEN consciousness might evolve (perpendicular goals with frequent collisions), WHAT function it serves (arbitration), and WHERE to look for it (systems with variable pause times scaling with difficulty).
+
+We haven't explained WHY arbitration *feels* like anything. The hard problem remains untouched. We can say that a system meeting these criteria would behave as if conscious, would show the signatures we associate with consciousness, would have evolved under the pressures that would select for consciousness. Whether there's experience accompanying this process is not something this framework addresses.
+
+**But notice how tightly the phenomenology matches the function.**
+
+Most theories leave experience floating free from mechanism. Consciousness could feel like anything—it just happens to feel like this. The character of experience becomes a separate mystery requiring separate explanation.
+
+Not here. What does consciousness feel like? A unified space where inputs appear, persist, and can be compared before action. What does our framework say consciousness *does*? Provide a unified workspace for arbitration and integration. These aren't two descriptions—they're the same description, from inside and outside.
+
+This is not coincidence. **The phenomenology matches the function because they're the same thing.** We're not conscious AND coordinating; consciousness IS the coordination, experienced from within.
+
+The hard problem asks two questions: Why does consciousness feel like THIS? And why does it feel like ANYTHING? We answer the first. This is what arbitration and integration would feel like from inside—a workspace where signals appear, persist, compete, resolve. The character of experience follows from the function. The second question remains open: why experience at all? But that's a narrower mystery. When function predicts phenomenology this precisely, half the problem dissolves.
+
+This is more parsimonious than panpsychism, which posits experience everywhere and then struggles to explain how micro-experiences combine or why experience has any particular character. Our framework claims consciousness requires specific architecture—the workspace. Fewer entities, testable criteria, and the character of experience follows from the function rather than floating free.
+
+**Cracks in the hard problem.** The remaining mystery—why experience at all—is often treated as ineffable, beyond empirical investigation. But the temporal structure of experience offers a handle. Previously, we could only study the *contents* of consciousness—what's in it. The tickrate is different: it's part of the *structure* of consciousness itself. The integration window, the persistence threshold, the temporal dynamics—these are objective and measurable, yet they constrain what experience can be like. Experience isn't fully private. Its timing is public. This opens predictions: different architectures should produce different tickrates, different persistence thresholds, different temporal textures of experience. The hard problem may remain, but it's not sealed off from investigation.
 
 We offer this as hypothesis, not claim. Explaining consciousness was not our intention—we set out to understand governance failure. But thinking through coordination, signals, and emergence, something like this seemed to fall out. When a framework built for one domain generates predictions in another, it may be touching something more fundamental than the original problem.

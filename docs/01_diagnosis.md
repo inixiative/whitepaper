@@ -65,7 +65,7 @@ Nuclear energy is one missed breakthrough. But in the same talk, Vinge introduce
 
 This reveals nuclear isn't an anomaly—it's a **trend**. We generate data exponentially (Moore's Law), yet our ability to synthesize it remains linear. The gap between what we *could* discover and what we *actually* discover widens every year. Gene therapies delayed by FDA bureaucracy. Advanced materials strangled by liability. Fusion research underfunded. Climate solutions blocked by regulatory complexity. The opportunity cost compounds.
 
-**Even AI doesn't solve this—AI is captured by it.** Large language models are trained on papers that passed peer review (not those rejected for deviating from consensus), drugs that completed trials (not those killed by regulatory cost), technologies that were built (not those strangled by liability). If Barry Marshall's ulcer cure was suppressed for 20 years (Section 2.12), AI would confidently tell you stress causes ulcers—because that's what the corpus says. **AI can only recombine knowledge that was allowed to exist.** The institutional barriers that prevent insights from being made also prevent those insights from entering AI's training data. We thought AI would solve Edelson's Law, but AI is a victim of the same institutional filters that cause it.
+**Even AI doesn't solve this—AI is captured by it.** Large language models are trained on papers that passed peer review (not those rejected for deviating from consensus), drugs that completed trials (not those killed by regulatory cost), technologies that were built (not those strangled by liability). If Barry Marshall's ulcer cure was suppressed for 20 years, AI would confidently tell you stress causes ulcers—because that's what the corpus says. **AI can only recombine knowledge that was allowed to exist.** The institutional barriers that prevent insights from being made also prevent those insights from entering AI's training data. We thought AI would solve Edelson's Law, but AI is a victim of the same institutional filters that cause it.
 
 ### The Existential Stakes: Bostrom's Black Ball
 
@@ -79,7 +79,7 @@ Imagine a physics that makes nuclear explosions as easy as baking a cake with ho
 
 Bostrom argues this creates a binary future: **Annihilation** (we pull a Black Ball without coordination to contain it) or **Totalitarian Panopticon** (global surveillance preventing anyone from accessing dangerous knowledge).
 
-**This whitepaper proposes a third path:** governance systems capable of managing existential risk through high-trust coordination and voluntary transparency, not top-down coercion. We need the institutional capacity to handle Black Balls *before* we pull one. With Paleolithic emotions, medieval institutions, and godlike technology (Schmachtenberger's diagnosis, Section 1.1), we're helpless against the Urn of Invention.
+**This whitepaper proposes a third path:** governance systems capable of managing existential risk through high-trust coordination and voluntary transparency, not top-down coercion. We need the institutional capacity to handle Black Balls *before* we pull one. With Paleolithic emotions, medieval institutions, and godlike technology (Schmachtenberger's diagnosis), we're helpless against the Urn of Invention.
 
 ### The Realization
 
@@ -241,11 +241,11 @@ The Baby Boom (1946-1964) created the largest generational cohort in American hi
 
 **The dual-earner necessity emerges:** Both parents were forced to work—not as liberation, but as economic necessity. One income could no longer support a household because competition for jobs had intensified dramatically. This wasn't about women's empowerment (though that narrative was convenient). It was about a generation so large that household economics required two incomes where one had previously sufficed.
 
-**Connection to competitive saturation:** This is Sulikowski's mechanism at civilizational scale (Section 1.4). When population density exceeds carrying capacity, competitive intensity spikes. The Boomer flood created exactly the conditions for competitive saturation—too many individuals competing for limited resources (jobs, housing, status). The result: fertility suppression (exactly what we see post-1970s), cooperation decay (rising individualism), and status anxiety (credential inflation).
+**Connection to competitive saturation:** This is Sulikowski's mechanism at civilizational scale . When population density exceeds carrying capacity, competitive intensity spikes. The Boomer flood created exactly the conditions for competitive saturation—too many individuals competing for limited resources (jobs, housing, status). The result: fertility suppression (exactly what we see post-1970s), cooperation decay (rising individualism), and status anxiety (credential inflation).
 
 **2. Generational Memory Loss and the Return to Selfishness**
 
-Turchin's structural-demographic cycles (Section 1.3) operate on ~80-100 year timescales. This is roughly the human lifespan—the time it takes for direct memory of crisis to fade.
+Turchin's structural-demographic cycles operate on ~80-100 year timescales. This is roughly the human lifespan—the time it takes for direct memory of crisis to fade.
 
 **The previous secular cycles:**
 - **1860s:** Civil War secular cycle—elites fought to exhaustion, massive casualties forced class renegotiation
@@ -262,7 +262,7 @@ Turchin's structural-demographic cycles (Section 1.3) operate on ~80-100 year ti
 
 **Without lived memory of collapse, cooperation decayed back to competition.** The "greed is good" 1980s, the "there is no society, only individuals" Thatcherism, the dismantling of New Deal protections—all reflected the return to selfish individualism once generational memory of crisis faded. This is the Fourth Turning pattern (Strauss-Howe): ~80 year cycles where societies forget war and cooperation, drift toward competition and selfishness, experience crisis, and are forced back into cooperation through catastrophe. We're currently in the crisis phase of the cycle that began in the 1940s.
 
-**The biological mechanism:** As memory faded and competition intensified, cooperation radii contracted (Section 1.4)—ushering in an era of atomized extraction. Section 1.4 explains how this radius contraction produces the "self-made" myth, the death of reciprocal obligation, and the structural mechanisms that sever reality signals from institutional decision-making.
+**The biological mechanism:** As memory faded and competition intensified, cooperation radii contracted—ushering in an era of atomized extraction. The following section explains how this radius contraction produces the "self-made" myth, the death of reciprocal obligation, and the structural mechanisms that sever reality signals from institutional decision-making.
 
 **3. Fiat Currency as Enabler and Symptom**
 
@@ -277,7 +277,7 @@ Under gold convertibility, money creation was constrained. You couldn't print in
 
 **Elite overproduction funding:** Unlimited student loans (backed by government guarantees) let universities expand enrollment indefinitely. Cheap credit let corporations bloat management ranks. Deficit spending let governments grow bureaucracies. All funded by printing money, which would have been impossible under gold constraints.
 
-**Financialization explosion:** When money decouples from physical constraints, finance decouples from the real economy. The derivatives explosion (Section 1.10)—$600-1,000 trillion notional value, 10x global GDP—is a pure fiat phenomenon. Why build factories when you can arbitrage interest rate swaps funded by cheap credit?
+**Financialization explosion:** When money decouples from physical constraints, finance decouples from the real economy. The derivatives explosion—$600-1,000 trillion notional value, 10x global GDP—is a pure fiat phenomenon. Why build factories when you can arbitrage interest rate swaps funded by cheap credit?
 
 **Housing as speculation:** Land became a monetary sink. Real home prices were relatively flat 1890-1971. After 1971, they exploded. Cheap credit flooded into real estate, and land (George's ur-scarce resource) became the target of financialized speculation. Working people got priced out because money printing inflated asset values faster than wages could keep pace.
 
@@ -313,11 +313,11 @@ This took three forms:
 
 **Financialization as control illusion:** The explosion of financial instruments, risk models, and derivatives wasn't just about profit—it was about creating the **illusion of control** over an uncontrollable economy. By turning everything into tradeable risk instruments, elites convinced themselves (and the public) that complex economic realities could be modeled, priced, and managed. The 2008 financial crisis revealed this as fantasy: the models were fundamentally wrong, but by then entire institutions had organized around them.
 
-**Metrics and dashboards as reality-substitutes:** McNamara's Vietnam body counts, corporate KPIs, school test scores, economic indicators—all became proxies for actual reality. Scott's critique of legibility (Section 1.11) operates here: when you can only manage what you can measure, you start optimizing the measurements rather than the underlying reality. This is Goodhart's Law at civilizational scale: when a measure becomes a target, it ceases to be a good measure.
+**Metrics and dashboards as reality-substitutes:** McNamara's Vietnam body counts, corporate KPIs, school test scores, economic indicators—all became proxies for actual reality. Scott's critique of legibility operates here: when you can only manage what you can measure, you start optimizing the measurements rather than the underlying reality. This is Goodhart's Law at civilizational scale: when a measure becomes a target, it ceases to be a good measure.
 
 **Narrative management over problem-solving:** Rather than fix underlying dysfunctions (declining wages, institutional sclerosis, social fragmentation), elites managed **perception** of the dysfunctions. Marketing, PR, think tanks, media coordination—all designed to shape how people experienced reality rather than changing the reality itself. Everyone knew it was fake (hypernormalization), but the alternative—admitting that problems were unsolvable within existing frameworks—was too threatening to contemplate.
 
-**Connection to other mechanisms:** Curtis's thesis explains the cultural dimension of what the other theorists describe structurally. Tainter (Section 1.5) shows institutions becoming too complex to manage. Jiang (Section 1.6) shows bureaucracies optimizing metrics over mission. Curtis shows how this complexity collapse manifests psychologically: elites retreat into simplified models, metrics, and narratives because the actual system has become ungovernable. The fake world is easier to manage than the real one, so the fake world becomes the official reality.
+**Connection to other mechanisms:** Curtis's thesis explains the cultural dimension of what the other theorists describe structurally. Tainter shows institutions becoming too complex to manage. Jiang shows bureaucracies optimizing metrics over mission. Curtis shows how this complexity collapse manifests psychologically: elites retreat into simplified models, metrics, and narratives because the actual system has become ungovernable. The fake world is easier to manage than the real one, so the fake world becomes the official reality.
 
 This is why Section 4.13 ("Resist the Tyranny of Metrics") is essential. The hypernormalization trap—governing legible proxies rather than illegible reality—is a failure mode baked into how modern institutions operate. Breaking it requires acknowledging that some forms of value cannot and should not be quantified, and that governance systems must have principled limits on their own measurement imperatives.
 
@@ -342,17 +342,17 @@ Second-wave feminism (1960s-1970s) genuinely fought for women's liberation, repr
 
 **The convergence of institutional incentives:**
 
-**State fiscal incentives:** Dual-earner households meant dual taxpayers. Female workforce participation effectively doubled the tax base without raising rates, funding the bureaucratic expansion documented in Section 1.6 (Jiang's elite overproduction). Gloria Steinem's *Ms. Magazine* received funding from the Independent Research Service, later revealed as a CIA-backed foundation. Whether this represents coordinated strategy or opportunistic institutional support, the structural effect was alignment between feminist messaging and state fiscal interests.
+**State fiscal incentives:** Dual-earner households meant dual taxpayers. Female workforce participation effectively doubled the tax base without raising rates, funding the bureaucratic expansion Jiang documents. Gloria Steinem's *Ms. Magazine* received funding from the Independent Research Service, later revealed as a CIA-backed foundation. Whether this represents coordinated strategy or opportunistic institutional support, the structural effect was alignment between feminist messaging and state fiscal interests.
 
 **Corporate labor market dynamics:** Doubling the labor supply gave employers negotiating leverage. When two household members competed for jobs instead of one, wages could remain flat while household expenses rose. Union power declined as replacement workers became abundant. The economic incentive structure favored dual-income households regardless of worker preference.
 
-**The transformation from choice to compulsion:** What began as freedom to choose work became economic necessity. By the 1980s, dual income wasn't liberation—it was survival. Housing prices, education costs, and living expenses had inflated to assume two incomes (Section 1.2a: fiat-fueled asset inflation). Single-earner households were priced out. The option to have one parent home with children effectively disappeared for middle-class families.
+**The transformation from choice to compulsion:** What began as freedom to choose work became economic necessity. By the 1980s, dual income wasn't liberation—it was survival. Housing prices, education costs, and living expenses had inflated to assume two incomes (fiat-fueled asset inflation). Single-earner households were priced out. The option to have one parent home with children effectively disappeared for middle-class families.
 
-**George's rent extraction mechanism (Section 1.13):** The increased household income from women entering the workforce was captured by landlords (housing costs rose to match dual incomes), creditors (debt loads increased), and employers (wages per worker stagnated). Households worked more hours collectively, but living standards didn't improve proportionally because productivity gains flowed to rent extractors, not workers.
+**George's rent extraction mechanism:** The increased household income from women entering the workforce was captured by landlords (housing costs rose to match dual incomes), creditors (debt loads increased), and employers (wages per worker stagnated). Households worked more hours collectively, but living standards didn't improve proportionally because productivity gains flowed to rent extractors, not workers.
 
 **Whether the institutional alignment was coordinated strategy, opportunistic capture, or emergent system behavior, the structural result was identical:** Labor supply doubled, wages stagnated, asset prices absorbed the gains, and what began as liberation became economic compulsion.
 
-This dynamic serves as the bridge from economic to social collapse. Dual-income economic necessity (driven by Section 1.2a's labor glut and fiat inflation) made institutional childcare universal, destroyed family time, and created impossible expectations for working mothers. The consequences radiate through every dimension of social infrastructure:
+This dynamic serves as the bridge from economic to social collapse. Dual-income economic necessity (driven by the labor glut and fiat inflation) made institutional childcare universal, destroyed family time, and created impossible expectations for working mothers. The consequences radiate through every dimension of social infrastructure:
 
 **The Five Dimensions of Social Infrastructure Collapse**
 
@@ -360,7 +360,7 @@ This dynamic serves as the bridge from economic to social collapse. Dual-income 
 
 Dual-income necessity (from Boomer labor glut + fiat-funded cost explosion) destroyed the possibility of single-earner households. By the 1980s-1990s, both parents working wasn't a choice—it was economic survival. The consequences:
 
-**Extensive institutional childcare becomes economically mandatory:** Economic coercion from dual-income necessity (Section 1.2a) forced families into extensive institutional childcare arrangements. When both parents must work 40-50 hours/week to afford housing, children require 40-50 hours/week of non-parental care—daycare, schools, after-school programs. This isn't about parental choice or institutional care being inherently harmful; it's about **dosage under economic duress**.
+**Extensive institutional childcare becomes economically mandatory:** Economic coercion from dual-income necessity forced families into extensive institutional childcare arrangements. When both parents must work 40-50 hours/week to afford housing, children require 40-50 hours/week of non-parental care—daycare, schools, after-school programs. This isn't about parental choice or institutional care being inherently harmful; it's about **dosage under economic duress**.
 
 The NICHD Study of Early Child Care and Youth Development (N=1,364 children followed from birth to age 26) found consistent dosage effects: children in non-parental care for more than 30 hours per week showed modestly elevated behavior problems, reduced social competence, and more adult-child conflict, even controlling for family income, maternal education, and other factors (NICHD Early Child Care Research Network, 2003). Effect sizes were small-to-moderate (d = 0.09-0.16), and quality of care mattered significantly—but the effects persisted across development.
 
@@ -385,7 +385,7 @@ The mechanism: Parents working 50-60 hours/week don't have time for deep engagem
 As Jonathan Haidt documents in *The Coddling of the American Mind* and *The Anxious Generation*, childhood fundamentally changed post-1980s. Children who previously had independence, unsupervised play, physical risk-taking, and peer conflict resolution had these systematically removed.
 
 **The convergence of multiple stressors:** Section 1.2b describes interconnected pressures that compound:
-- **Economic precarity** (Turchin's popular immiseration, Section 1.3): Dual-income households work longer hours for stagnant real wages, creating chronic parental stress and financial anxiety
+- **Economic precarity** (Turchin's popular immiseration): Dual-income households work longer hours for stagnant real wages, creating chronic parental stress and financial anxiety
 - **Extensive institutional childcare**: 40-50 hours/week in institutional care from infancy (dosage effects documented above)
 - **Parental absence and guilt**: Parents working 50-60 hours/week experience guilt over limited time with children, often overcompensating through hypervigilance
 - **Loss of free play and independence**: Risk elimination, constant supervision, structured activities replacing unstructured exploration
@@ -403,17 +403,17 @@ This isn't monocausal - it's the convergence. Economic systems forced extensive 
 
 **Why mothers led this:** When both parents work but mothers still bear cultural expectation of primary caregiver, anxiety spikes. "Am I a bad mother for working?" translates into overcompensation through hypervigilant safety measures. Remove all risk to prove you're protecting your children, even while absent. This isn't women's fault—it's the impossible position dual-income necessity created.
 
-**But also: Sulikowski's competitive saturation at work (Section 1.4).** Much of this wasn't rational parenting—it was **intrasexual competition disguised as concern**. When women compete intensely (career + motherhood + social status all simultaneously), parenting norms become competitive weaponry.
+**But also: Sulikowski's competitive saturation at work.** Much of this wasn't rational parenting—it was **intrasexual competition disguised as concern**. When women compete intensely (career + motherhood + social status all simultaneously), parenting norms become competitive weaponry.
 
 Mothers giving other mothers bad advice that creates impossible standards: "Good mothers" never let children take risks, always supervise, enroll kids in enrichment activities, optimize every developmental window, make organic food from scratch, limit screen time to zero, etc. These norms are burdensome, anxiety-inducing, and often counterproductive (as Haidt demonstrates). But they serve a competitive function: **making other mothers' lives harder**.
 
-This is kin-selected spite in action: if you can't succeed (balance work + intensive parenting), sabotage competitors by raising the bar impossibly high. Women who propagate unrealistic parenting standards often benefit from others burning out trying to meet them. The competitive intensity calibration goes into overdrive (Section 1.4)—instead of sustainable parenting, it becomes pathological overinvestment that crowds out everything else.
+This is kin-selected spite in action: if you can't succeed (balance work + intensive parenting), sabotage competitors by raising the bar impossibly high. Women who propagate unrealistic parenting standards often benefit from others burning out trying to meet them. The competitive intensity calibration goes into overdrive—instead of sustainable parenting, it becomes pathological overinvestment that crowds out everything else.
 
 Social media amplified this dynamic: Instagram/Pinterest/Facebook let women broadcast perfect parenting performances, creating arms races. Every other mother sees the curated highlights and feels inadequate, driving further competitive escalation. The Beautiful Ones weren't withdrawing—they were competing so hard on parenting aesthetics that actual child wellbeing became secondary to performance.
 
 **4. Elite Exit from Public Education**
 
-Jiang's meritocracy diagnosis (Section 1.6) connects here. As public education degraded (teacher quality collapse + bureaucratic bloat + lowest-common-denominator pedagogy), elites fled to private schools. This created a vicious cycle:
+Jiang's meritocracy diagnosis connects here. As public education degraded (teacher quality collapse + bureaucratic bloat + lowest-common-denominator pedagogy), elites fled to private schools. This created a vicious cycle:
 
 **Elite exit → public education degrades further:** When wealthy, politically connected families send children to private schools, they lose skin in the game for public education quality. Funding gets cut, teacher pay stagnates, facilities crumble. Elites don't care—their kids aren't affected.
 
@@ -427,9 +427,9 @@ Jiang's meritocracy diagnosis (Section 1.6) connects here. As public education d
 
 Unions provide a stark example. Originally, unions were **cooperation technology**—a mechanism to coordinate workers for collective bargaining, balancing power asymmetry between capital and labor. The Wagner Act (1935) and post-WWII union strength created the conditions for shared prosperity, rising wages, and class compromise.
 
-**But cooperation technologies can become rent-seeking:** By the 1970s-1980s, many unions had become sclerotic (Olson's institutional arteriosclerosis, Section 1.7). Instead of balancing power, they extracted rents through featherbedding, restrictive work rules, and political capture. Union leadership became a self-perpetuating elite (Turchin's overproduction applied to labor organizations). The cooperation mechanism that brought balance itself became a source of inefficiency and capture.
+**But cooperation technologies can become rent-seeking:** By the 1970s-1980s, many unions had become sclerotic (Olson's institutional arteriosclerosis). Instead of balancing power, they extracted rents through featherbedding, restrictive work rules, and political capture. Union leadership became a self-perpetuating elite (Turchin's overproduction applied to labor organizations). The cooperation mechanism that brought balance itself became a source of inefficiency and capture.
 
-This is Tainter's complexity overshoot (Section 1.7): institutions that initially provide positive returns eventually provide negative returns, but path dependence prevents reform until collapse. Unions became so complex, so rule-bound, so politically entrenched that they couldn't adapt when economic conditions shifted (globalization, automation, service economy). Instead of evolving, they fought to preserve structures optimized for 1950s manufacturing.
+This is Tainter's complexity overshoot: institutions that initially provide positive returns eventually provide negative returns, but path dependence prevents reform until collapse. Unions became so complex, so rule-bound, so politically entrenched that they couldn't adapt when economic conditions shifted (globalization, automation, service economy). Instead of evolving, they fought to preserve structures optimized for 1950s manufacturing.
 
 **The lesson:** Even cooperation mechanisms need lifecycle management. Document 2, Section 4.9's automatic sunset provisions apply here. Unions served a vital function, but without renewal mechanisms, they calcified. The platform must prevent this by making all institutions—including cooperation infrastructures themselves—subject to ongoing legitimacy challenges.
 
@@ -471,7 +471,7 @@ Frustrated elite aspirants—lawyers without clients, PhDs without tenure, MBAs 
 
 While elites multiply, the general population experiences stagnant or declining living standards. Real wages stagnate, costs of essentials (housing, healthcare, education) rise faster than incomes, debt increases, economic security deteriorates. This isn't about absolute poverty—it's about the gap between expectations (shaped by cultural narratives of progress) and reality (economic precarity despite working full-time).
 
-The crucial dynamic: **elite overproduction happens simultaneously with popular immiseration**. More people are credentialed for elite positions while fewer can afford comfortable middle-class existence. This creates massive status anxiety and competition intensity—exactly the competitive saturation dynamics Sulikowski identifies (Section 1.4).
+The crucial dynamic: **elite overproduction happens simultaneously with popular immiseration**. More people are credentialed for elite positions while fewer can afford comfortable middle-class existence. This creates massive status anxiety and competition intensity—exactly the competitive saturation dynamics Sulikowski identifies.
 
 **3. State Fiscal Crisis**
 
@@ -531,11 +531,11 @@ The **Gini coefficient** measures inequality on a scale from 0 (perfect equality
 - **2020:** Gini coefficient 0.48 (very high inequality, danger zone)
 - **Wealth Gini (not just income):** exceeds 0.85, approaching levels seen in pre-revolutionary France
 
-This acceleration correlates precisely with the 1971 inflection point (Section 1.2a): the collapse of Bretton Woods, wage-productivity decoupling, and the shift from income-based to asset-based wealth accumulation.
+This acceleration correlates precisely with the 1971 inflection point: the collapse of Bretton Woods, wage-productivity decoupling, and the shift from income-based to asset-based wealth accumulation.
 
 Wealth creates access to capital, political influence, network effects, and information advantages that compound returns. The rich get richer not through superior merit but through structural advantages that money provides. CEO-to-worker pay ratios demonstrate the acceleration: roughly 20:1 in 1965, 59:1 in 1989, and over 350:1 by 2020. This isn't explained by CEOs becoming 17x more productive than their 1965 counterparts. It's structural capture of firm surplus enabled by weak labor bargaining power, financialization, and the post-1971 shift to asset-based wealth accumulation.
 
-Historical societies understood that uncapped inequality eventually produces revolution. They developed informal mechanisms—sumptuary laws limiting displays of wealth, debt jubilees preventing permanent debt peonage (Graeber, Section 1.7), social norms against excessive accumulation, inheritance caps, progressive taxation. Modern societies dismantled these mechanisms during the neoliberal era without replacing them, assuming markets would self-regulate. They don't. Without institutional bounds, Pareto distributions accelerate until political instability forces violent correction.
+Historical societies understood that uncapped inequality eventually produces revolution. They developed informal mechanisms—sumptuary laws limiting displays of wealth, debt jubilees preventing permanent debt peonage (Graeber), social norms against excessive accumulation, inheritance caps, progressive taxation. Modern societies dismantled these mechanisms during the neoliberal era without replacing them, assuming markets would self-regulate. They don't. Without institutional bounds, Pareto distributions accelerate until political instability forces violent correction.
 
 The diagnosis isn't that inequality exists—some inequality can reflect genuine value creation and provide incentive gradients. The diagnosis is that modern systems lack mechanisms to prevent runaway concentration that destroys social cohesion and cooperative capacity. When wealth inequality passes certain thresholds, the rich and poor inhabit different worlds with incompatible interests, cooperation becomes impossible, and the system defaults to extraction and control.
 
