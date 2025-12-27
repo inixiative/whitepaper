@@ -100,6 +100,29 @@ Initiatives can span multiple scales and domains:
 5. **Execution** (when threshold met, action begins)
 6. **Accountability** (track outcomes, iterate, share learnings)
 
+**Why phases matter (governance tickrate):**
+
+This phase structure implements the governance tickrate principle (Section 4.11): discrete cycles with integration windows, not constant input.
+
+**Phases are programmable pauses** where events accumulate until the window closes:
+
+- **Interest gathering** — Commits accumulate until threshold or window closes
+- **Deliberation** — Proposals accumulate, discussion happens
+- **Decision** — Votes accumulate until window closes
+- **Execution** — Work happens, milestones complete
+
+**Composable with branching logic.** Different outcomes branch to different next phases—runoffs if no clear winner, execution if approved, back to deliberation if rejected. High engagement path, low engagement path, no engagement path. The Flow Builder lets founders define the state machine.
+
+**Platform tickrate:**
+
+The platform enforces synchronized resolution windows: weekly, monthly, quarterly, or yearly—all UTC-aligned. Founders choose cadence; phases resolve at shared global intervals.
+
+- All weekly initiatives resolve Sunday midnight UTC
+- All monthly initiatives resolve 1st of month, midnight UTC
+- All quarterly/yearly at their respective boundaries
+
+No early resolution. If you want agility, choose weekly. The tickrate is strict within the chosen cadence—everyone knows when decisions happen, late information still counts, no "is it done yet?" checking behavior. This is the only architectural decision we impose; everything else is composable.
+
 **What we're NOT building in MVP:**
 - Full governance replacement for existing instituxions
 - Nation-state scale systems
