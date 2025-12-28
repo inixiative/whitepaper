@@ -121,7 +121,9 @@ The platform enforces synchronized resolution windows: weekly, monthly, quarterl
 - All monthly initiatives resolve 1st of month, midnight UTC
 - All quarterly/yearly at their respective boundaries
 
-No early resolution. If you want agility, choose weekly. The tickrate is strict within the chosen cadence—everyone knows when decisions happen, late information still counts, no "is it done yet?" checking behavior. This is the only architectural decision we impose; everything else is composable.
+No early resolution. If you want agility, choose weekly. The tickrate is strict within the chosen cadence—everyone knows when decisions happen, late information still counts, no "is it done yet?" checking behavior.
+
+**Events can span multiple windows.** A vote might accumulate across 3 monthly windows before resolving; interest gathering might run for a quarter. Each window boundary is a checkpoint—status visible, interim results published—but the event doesn't resolve until its allocated windows complete. This is the only architectural decision we impose; everything else is composable.
 
 **What we're NOT building in MVP:**
 - Full governance replacement for existing instituxions
