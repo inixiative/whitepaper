@@ -266,6 +266,8 @@ The parallel to human organization is direct:
 - Teams coordinate to form institutions (organs)
 - Institutions coordinate to form civilizations (organisms)
 
+**Coordination operates in two dimensions:** within-scale (cells with cells, individuals with individuals, institutions with institutions) and cross-scale (cells with organs, individuals with institutions, institutions with civilizations). Both can fail. All four axes—capacity, signal, substrate, perception—apply to both. A system can have functional within-scale coordination while cross-scale coordination degrades, or vice versa.
+
 The Institutional Commons Problem (Document 1) is precisely this epistemic shrinkage at the social scale:
 
 **Healthy State (Cooperative Mode):** Accountability signals are strong. Individuals perceive a large cognitive horizon—their "self" extends to institutional success. Optimizing for the institution optimizes for themselves. They contribute function because institutional health determines their own prosperity. Selection pressure favors utility.
@@ -656,6 +658,10 @@ Think of this as analogous to defining the requirements for a database system: A
 
 This is **Part 2** of the whitepaper: a formal requirements document against which any proposed governance mechanism can be evaluated.
 
+**The dialectical framing:** Most governance questions are not problems to be solved but tensions to be managed. Autonomy vs. community. Exit vs. voice. Speed vs. deliberation. Transparency vs. privacy. Central vs. local. Each axis has failure modes at both extremes—maximize autonomy and you get atomization; maximize community and you get coercion. The goal is not to find the "correct" position on each axis but to make the dials visible and adjustable.
+
+Society has been running on hidden defaults—parameters set by path dependence, elite convenience, or technological accident, never made explicit or subject to collective choice. This document does not prescribe optimal settings. It identifies the dials that exist, describes what happens at each extreme, and specifies requirements for making those dials tunable so communities can find their own equilibria rather than being trapped in configurations chosen by someone else for different purposes.
+
 ---
 
 ## THEME 1: COOPERATION AT SCALE
@@ -960,6 +966,28 @@ As documented across Wikipedia, Reddit, Anslinger's bureaucratic campaign, litig
 **Friction for bad faith attacks:** The system must impose costs on coordinated attacks, Sybil tactics, flood strategies, and other exhaustion-based capture attempts. Bad faith engagement and coordinated exhaustion tactics must incur friction proportional to potential harm to prevent "last person standing" dynamics.
 
 **The shift in equilibrium:** When cooperation costs drop below a critical threshold AND exhaustion tactics are made costly, participation becomes viable for ordinary people with jobs and families. The system stops selecting for those with excess time (retirees) or excess motivation (ideologues), and starts representing actual population preferences.
+
+**Tickrate as regulatory lever**
+
+Coordination operates at characteristic frequencies. Human consciousness integrates at ~40-100ms. Effective market decisions require longer—hours, days. When systems operate faster than participants can perceive, only algorithms can navigate them.
+
+As Michael Lewis documented in *Flash Boys*, quants competed for faster market access, shaving milliseconds. The result was flash crashes—markets moving faster than human oversight could track. Speed became an arms race where the fastest algorithm extracted from everyone else. This pattern generalizes: when any coordination system operates faster than its participants can perceive, it becomes a contest between algorithms. Those without algorithms are structurally excluded.
+
+Not all systems need tickrate regulation. Some contexts are fine continuous—peer-to-peer payments, real-time communication. The requirement is not "slow everything down." The requirement is: **tickrate controls must be available as a regulatory lever.**
+
+Just as velocity limits prevent exhaustion through sheer volume, tickrate controls prevent extraction through sheer speed. Both prevent structural advantages that exclude ordinary participants.
+
+**When tickrate regulation applies:**
+- When speed advantages compound into structural extraction (high-frequency trading)
+- When participants cannot perceive their own treatment over time (dynamic pricing changing thousands of times daily)
+- When algorithmic participation becomes required to avoid exploitation
+
+**Available levers:**
+- Minimum intervals between state changes (prices can move at most every X seconds)
+- Synchronized resolution windows (all trades settle at discrete intervals)
+- Data exposure requirements (if operating at high frequency, expose history at human-readable intervals so third-party tools can make the system legible)
+
+Tickrate is a governance decision, not a technical default. Some systems benefit from speed. Others benefit from deliberation. The choice should be explicit, with tickrate controls available when speed itself becomes a vector for extraction or exhaustion.
 
 ### 4.4 Sensemaking Infrastructure
 
@@ -1437,6 +1465,40 @@ When all nine mechanisms operate together, the Principal-Agent problem becomes s
 
 The "brain" (elite) stays aligned with the "body" (community) because defection is structurally difficult and cooperation is structurally rewarded. This isn't achieved through moral exhortation—it's baked into the incentive architecture.
 
+### 4.7A Collective Action Against Concentrated Private Power
+
+Section 4.7 addresses concentrated *public* power—elites who capture institutions. This section extends the same logic to concentrated *private* power—platforms and monopolies that operate coordination infrastructure at scale.
+
+**The Problem:**
+
+Entities operating coordination infrastructure at scale develop structural advantages over participants:
+
+- **Information asymmetry:** Entity sees aggregate of all signals/transactions; participants see only their local view. When an entity can see all signals while participants see only what the entity chooses to show them, the entity has structural extraction capacity that individuals cannot resist alone. This is the platform equivalent of insider trading.
+- **Collective action traps:** Network effects make individual exit costly even when collective exit is rational.
+- **Algorithmic mediation:** Per-user, per-interaction control allows discrimination individuals cannot detect or compare.
+
+**The Trajectory:**
+
+Platforms and monopolies trend toward extraction almost inevitably. Once competitive pressure is removed, the entity becomes a rentier—value flows through it, and it captures an increasing share. This is not a failure of specific firms; it is the structural tendency of concentrated control over coordination infrastructure.
+
+Left unchecked, rents increase until participants are captured: too dependent to leave, too atomized to resist, too blind to the aggregate to perceive the extraction.
+
+**The Requirement:**
+
+A functional system must maintain capacity to resist this trajectory—to preserve a **low-rent equilibrium** where coordination infrastructure remains thin (enabling, not extracting).
+
+This requires that participants retain capacity for effective collective action:
+- **Aggregate visibility:** Participants can perceive their treatment relative to others
+- **Organization capacity:** Participants can coordinate independent of the entity
+- **Portability:** Exit does not require sacrificing what participants created
+- **Leverage:** Mechanisms exist that make the entity responsive to collective pressure
+
+**The Principle:**
+
+Concentrated private power requires the same coordination countermeasures as concentrated public power. The legal form—government, corporation, platform, cooperative—is irrelevant. What matters is whether participants can maneuver to maintain thin-rent equilibrium, or whether they are structurally captured.
+
+A system fails this requirement if collective action against concentrated private power is structurally impossible.
+
 ### 4.8 Enforce Subsidiarity Through Approval-Based Jurisdiction
 
 Subsidiarity—the principle that problems should be solved at the lowest capable level—is widely praised but rarely implemented. The structural problem: without enforcement mechanisms, power naturally centralizes. Bureaucracies expand upward because there's no countervailing force pushing decisions back down to local levels.
@@ -1618,25 +1680,45 @@ Policies get repealed. Ideas get rejected. People get condemned. Sometimes this 
 
 **Example:** Barry Marshall was ridiculed for two decades for claiming bacteria caused ulcers, eventually won a Nobel Prize. Thorium molten salt reactors were defunded in 1969; institutional knowledge was lost, making revival prohibitively expensive 50+ years later despite demonstrated success. Systems must be able to recognize and correct such errors.
 
-### 4.10 Voluntary Association by Design
+### 4.10 Voluntary Association and Exit Friction
 
 The network state model (Srinivasan) proposes cloud-first, land-last governance: voluntary political communities that coordinate digitally before (if ever) acquiring territory. This inverts the traditional monopoly of geographic states where you're assigned governance by birthplace.
 
-**Why this matters:** Exit rights are the ultimate check on power. When people can leave bad governance for better alternatives, institutions must compete on quality rather than relying on captive populations. Tiebout sorting (people moving to jurisdictions that match their preferences) creates competitive pressure that centralized monopolies lack.
+**Why this matters:** Exit rights can check power. When people can leave bad governance for better alternatives, institutions must compete on quality rather than relying on captive populations. Tiebout sorting (people moving to jurisdictions that match their preferences) creates competitive pressure that centralized monopolies lack.
 
-**Current failure mode:** Geographic nation-states are effective monopolies. Exit requires emigration—expensive, socially disruptive, often legally difficult. Most people are stuck with whatever governance they're born into. This eliminates competitive pressure and enables persistent low-quality governance.
+**But exit is not an unambiguous good.** Exit is a lever, not a virtue. The framing of "exit rights" as universally positive is itself an elite preference—elites can actually exit; everyone else mostly cannot.
+
+| Too-Easy Exit | Too-Hard Exit |
+|---------------|---------------|
+| Atomization, substrate hollowing | Captive populations, stagnation |
+| Elite abandonment of commons | No competitive pressure |
+| Voice atrophies (why fight when you can leave?) | Bad governance persists unchallenged |
+| Those who remain lose their most capable advocates | No accountability mechanism |
+
+**The asymmetry problem:** Exit costs money, social capital, and optionality. Moving, re-establishing, finding alternatives—all require resources most people don't have. When only elites can exit, "exit rights" functionally means "elite abandonment rights." The people who *can* leave are precisely those whose voice would have improved the system. Their exit severs the forced coalition (Section 1.2b) that would have aligned elite interests with commons quality.
+
+**Exit as rent extraction:** Henry George observed that land value comes from society—location, infrastructure, neighbors—not from the owner. Capturing that value privately while others created it is rent-seeking. Easy exit from shared substrates follows the same structure: the commons creates value (good schools, functional transit, accumulated social capital), elites benefit from that value, then easy exit lets them capture it while abandoning the substrate that created it. Exit friction is a Georgist mechanism: high friction means you can't extract the rent without contributing to the commons that generated it.
+
+**Exit friction as tunable parameter:** Different contexts require different exit friction:
+
+- **Low friction appropriate:** Governance communities, voluntary associations, ideological groups—where competitive pressure improves quality and no shared physical substrate is at stake
+- **High friction appropriate:** Shared infrastructure, education, healthcare—where elite exit destroys the commons and leaves captive populations with degraded systems
+
+**The discrete/continuous dimension:** Exit can be instant (click to leave) or structured (notice periods, transition requirements, deliberation). Frictionless exit is continuous; structured exit is discrete. As with tickrate (Section 4.3), the choice between continuous and discrete should be explicit, not defaulted to whichever is technically easier.
 
 **Requirements:**
 
-**Opt-in by default:** Citizens must be able to choose which initiatives and institutions to participate in. Participation must be voluntary, not coerced by geography. Abstract associations (open source projects, ideological communities, professional networks) are naturally opt-in. Even geographic associations should support voluntary layers for non-territorial concerns.
+**Opt-in by default for governance:** Citizens must be able to choose which initiatives and governance communities to participate in. Participation must be voluntary, not coerced by geography. Abstract associations (open source projects, ideological communities, professional networks) are naturally opt-in.
 
 **Multiple simultaneous memberships:** Unlike nation-states where you typically have one citizenship, people must be able to belong to multiple voluntary communities simultaneously. Example: participate in a local housing co-op, a professional governance network, and an ideological community—each handling different domains.
 
-**Low exit costs:** Leaving a community must not require uprooting your life. Digital coordination should enable "citizenship" in multiple overlapping communities. If one fails to serve you, exit to alternatives must not require physical relocation.
+**Exit friction must be explicit:** Communities must declare their exit friction level and the rationale. Is this a low-friction association where competitive pressure is the primary accountability mechanism? Or a high-friction shared substrate where voice must remain the primary mechanism because exit would hollow the commons?
 
-**Competition through demonstration:** Communities must compete for members by demonstrating value, not through coercion. Successful governance models should attract imitators and participants. Failed models must lose members and relevance.
+**Exit availability must be symmetric:** If a system offers exit, that exit must be genuinely available—not just theoretically possible for those with resources. Exit rights that only elites can exercise are not exit rights; they're elite privileges that destroy voice for everyone else.
 
-**The shift in equilibrium:** When association is voluntary and exit is cheap, governance must earn legitimacy continuously. The system selects for quality through competitive pressure rather than relying on captive populations tolerating bad governance because exit is too expensive.
+**Competition through demonstration (where appropriate):** In low-friction contexts, communities compete for members by demonstrating value. Successful governance models attract imitators. Failed models lose members. But this competitive logic does not apply to shared substrates where exit destroys the thing being competed over.
+
+**The equilibrium depends on context:** In low-friction associations, cheap exit creates competitive pressure for quality. In shared substrates, exit closure creates forced coalitions that align interests. The system must support both modes and make the choice explicit rather than defaulting to the elite preference for frictionless exit.
 
 ### 4.11 Continuous Adaptation
 

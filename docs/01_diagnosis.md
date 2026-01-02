@@ -208,6 +208,8 @@ Wisdom is fundamentally about delayed gratification and timing—patterns polish
 
 This delta may explain why cooperation radii contract even in material abundance: the brain interprets unpredictability itself as a threat signal. The widening gap between what institutions can handle and what technology creates keeps the Paleolithic sensors in permanent threat-detection mode—triggering radius contraction as a survival reflex.
 
+**The Redundancy Problem:** Historical collapses were regional—Rome declined, but parallel civilizations kept advancing independently. Europe later imported not just preserved knowledge but *extended* knowledge from the Islamic world. Globalization eliminated that redundancy. Everyone runs the same systems now—same financial structures, same institutional patterns, same failure modes. If coordination degrades past recovery threshold, there's no parallel experiment still advancing to re-seed from.
+
 **The Turkey Problem (Taleb)**
 
 This mismatch creates what Nassim Taleb calls the "Turkey Problem." A turkey is fed every day for 1,000 days. Its quality of life graph goes up and up. A "Turkey Pinker" would argue on Day 999 that life has never been better. But confidence is at its maximum precisely when risk is highest (Thanksgiving).
@@ -216,7 +218,7 @@ We have optimized the **mean** (daily comfort) while maximizing the **tail risk*
 
 Eric Weinstein captured the core problem: **"We are now gods, but for the wisdom."** We have godlike technological power without the wisdom—or institutional structures—to wield it responsibly.
 
-**The Conclusion:** We need to do what the Enlightenment did: update our governance to match our new technological reality. Not because it is "nice," but because the old system is structurally incapable of managing Godlike Technology with Medieval Institutions.
+**The Conclusion:** This creates the same structural pressure the Enlightenment responded to: governance that cannot match technological reality becomes obsolete—or fatal. The old system is structurally incapable of managing Godlike Technology with Medieval Institutions.
 
 The following sections document why societies fail (structural collapse dynamics), why we can't fix them with existing tools (institutional sclerosis), and what alternatives exist. Section 1.12 returns to Schmachtenberger's framework to provide the methodological foundation for thinking about solutions.
 
@@ -411,17 +413,51 @@ This is kin-selected spite in action: if you can't succeed (balance work + inten
 
 Social media amplified this dynamic: Instagram/Pinterest/Facebook let women broadcast perfect parenting performances, creating arms races. Every other mother sees the curated highlights and feels inadequate, driving further competitive escalation. The Beautiful Ones weren't withdrawing—they were competing so hard on parenting aesthetics that actual child wellbeing became secondary to performance.
 
-**4. Elite Exit from Public Education**
+**4. The Atomization Pattern**
 
-Jiang's meritocracy diagnosis connects here. As public education degraded (teacher quality collapse + bureaucratic bloat + lowest-common-denominator pedagogy), elites fled to private schools. This created a vicious cycle:
+Jiang's meritocracy diagnosis connects here. As public education degraded (teacher quality collapse + bureaucratic bloat + lowest-common-denominator pedagogy), elites fled to private schools. But education is one instance of a broader phenomenon. Atomization proceeds along multiple axes simultaneously:
 
-**Elite exit → public education degrades further:** When wealthy, politically connected families send children to private schools, they lose skin in the game for public education quality. Funding gets cut, teacher pay stagnates, facilities crumble. Elites don't care—their kids aren't affected.
+| Axis | From | To | What changes |
+|------|------|----|--------------|
+| Consumption | Rolling tobacco → packs → vape pods | Unit fragments, discrete → continuous |
+| Consumer experience | Public transit → Uber tiers | Per-user extraction enabled |
+| Institution | Public school → private/pod | Shared substrate hollows |
 
-**Inequality perpetuates:** Private school → elite university → elite careers. Public school → state university (if any) → limited opportunities. The ladder that existed in the 1950s-1960s (smart public school kids could get to Harvard and succeed) largely disappeared. Meritocracy became a myth concealing inherited advantage.
+These are distinct mechanisms with a common direction: from shared to individuated, from discrete to continuous, from constrained to frictionless.
+
+**The temporal dimension:** Cigarettes imposed discrete doses—you committed to a unit, consumed it in a window, had a natural stopping point. Vapes are continuous, infinitely divisible, always available. The same shift from discrete to continuous appears across domains: newspaper editions to infinite scroll, scheduled programming to streaming, batch auctions to algorithmic trading, fixed prices to dynamic pricing. Each transition removes natural governors—the constraints that created stopping points and prevented both over-consumption and granular extraction.
+
+**The game-theoretic mechanism:** Constraints on individual action can improve collective outcomes. In the Prisoner's Dilemma, credible punishment for defection makes cooperation rational—both players achieve better payoffs than unconstrained "freedom" would produce. Shared institutions function as cooperation-forcing constraints. When elites must use public schools, their interests align with school quality. When politicians' children can be drafted, their interests align with avoiding unnecessary wars. When everyone rides the same trains, the trains stay good. The constraint isn't moral—it's structural. Closure of exit creates aligned incentives.
+
+**The public goods comparison:** Amsterdam built excellent public transit. Rich and poor ride the same trams. The wealthy have skin in the game. The system stays good—and everyone benefits, including the rich. Los Angeles and Bogotá chose cars and ride-share. Everyone—including the wealthy—sits in traffic, paying surge pricing for the privilege. The atomized solution produces worse outcomes even for those who can afford the "premium" tier. When the commons is destroyed, there's nothing to exit *to*—just graduated tiers of extraction.
+
+**Elite exit → degradation cycle:** When wealthy, politically connected families send children to private schools, they lose skin in the game for public education quality. Funding gets cut, teacher pay stagnates, facilities crumble. Elites don't care—their kids aren't affected. The same pattern holds for healthcare, transit, security—any domain where parallel private systems allow exit from the commons.
+
+**Class stratification locks in:** Once exit occurs, inequality perpetuates through parallel pipelines. Private school → elite university → elite careers. Public school → state university (if any) → limited opportunities. The ladder that existed in the 1950s-1960s (smart public school kids could get to Harvard and succeed) largely disappeared. Meritocracy became a myth concealing inherited advantage. The atomized system doesn't just degrade the commons—it creates permanent class separation where the children of those who exited never have to compete with those who couldn't.
 
 **The Scandinavian counter-example:** Countries that ban or severely restrict private schools (Norway, Finland, parts of Sweden) maintain exceptional public education quality. Why? **Elites have skin in the game.** When wealthy, politically powerful families must send their children to public schools, they ensure those schools are well-funded, attract quality teachers, and maintain high standards. Everyone benefits. The commons remains strong because exit isn't an option.
 
-**This is Hirschman's "Exit, Voice, and Loyalty" principle:** When elites can exit (private schools), they don't use voice (political pressure for public school improvement) and loyalty (to public institutions) decays. When exit is blocked, voice intensifies, and everyone benefits from the resulting improvements.
+**This is Hirschman's "Exit, Voice, and Loyalty" principle:** When elites can exit (private schools, gated communities, concierge medicine), they don't use voice (political pressure for improvement) and loyalty (to shared institutions) decays. When exit is blocked, voice intensifies, and everyone benefits from the resulting improvements.
+
+**Brain drain as the same mechanism across borders:** When talented individuals can emigrate from dysfunctional countries, exit is individually rational. Collectively, it removes the human capital that might force institutional improvement. The coalition that would demand better governance never forms—its potential members leave instead. Source countries lose the people who could fix them. This pattern is visible across Latin America, Eastern Europe, sub-Saharan Africa—wherever exit to wealthier nations is available.
+
+**Over-optimization of autonomy:** The Enlightenment drove toward individual autonomy as the optimization target. Real gains resulted—individual rights, freedom from arbitrary authority, escape from rigid hierarchy. But gains in one direction don't mean all gains lie in that direction. Intermediate structures—families, guilds, unions, local communities—were cooperation-forcing constraints. They limited individual autonomy. They also created aligned interests that maintained functional commons. Their dissolution left atomized individuals facing powerful institutions with no intermediate coordination capacity.
+
+**Why atomization wins by default:** Coordination is hard. The Dutch example required sustained political will, planning across decades, resisting the car lobby, maintaining shared infrastructure when atomized alternatives beckoned. Most places couldn't or didn't manage it. Markets naturally trend toward atomization because that's where extraction opportunities lie—per-user pricing beats shared pricing for the seller. Without deliberate constraint, markets atomize every shared system they touch.
+
+**HyperNormalisation as upstream cause:** When elites can't manage real complexity, they stop trying (Curtis). They retreat to managing metrics and narratives. Real coordination—building functional shared systems—requires engaging with messy reality. Atomization is the path of least resistance: no coordination required, extraction enabled, failure distributed across individuals who can't compare notes. Each step toward atomization is a step away from the hard work of shared infrastructure. Uber is easier than fixing public transit. Private schools are easier than fixing public education. Gated communities are easier than safe neighborhoods.
+
+**The asymmetry:**
+- Atomization: automatic, requires no coordination, enables extraction
+- Coordination: requires sustained effort, political will, active resistance to atomization pressure
+
+**The scale mismatch:** Human groups are like tissues; their effectiveness depends on how many specialists and resources they can bring to bear. The family is a tissue. The corporation is an organ. When you atomize down to the family or individual, you're pitting a tissue against an organism—a few people with limited time and expertise against thousands of specialists, lawyers, data scientists, and algorithms optimized for extraction. The disintegration of family and community is symptomatic: these intermediate structures are losing against entities that operate at scales they cannot match.
+
+**We are not freer; we are more extractable.** "Consumer choice" masks the reality: isolated individuals negotiating against entities with aggregate information, algorithmic optimization, and no shared substrate through which to compare notes or coordinate resistance.
+
+The result: atomized individuals, frictionless extraction, hollowed commons, and the few counter-examples (Nordic education, Dutch transit, Singapore housing) treated as inexplicable anomalies rather than evidence that coordination is possible when someone actually tries.
+
+**Elite investment reveals perceived coupling.** In the 1930s, elites renegotiated—not from altruism but because they believed their fate was tied to the system's fate. Exit wasn't viable; revolution was plausible. Today's consumption pattern—premium tiers, parallel systems, offshore infrastructure—signals elites believe they've decoupled. Whether they're right is uncertain. That they're betting on it is diagnostic.
 
 **5. Cooperation Technologies Become Sclerotic**
 
