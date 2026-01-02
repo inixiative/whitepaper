@@ -2651,6 +2651,25 @@ The principle is consistent: concentrated control becomes increasingly expensive
 
 **Together:** Governance is economic structure, monetary systems, incentive alignment, and anti-capture mechanisms. All must work together or concentration finds the weak point.
 
+#### Progressive Accountability Burden (The Diffusion Tax)
+
+**The problem:** Section 2.12 documents the "diffusion trick"—split any action across enough actors, and accountability approaches zero while harm remains constant. More organizational complexity = more ability to evade consequences. This inverts proper incentives: scale should increase accountability burden, not decrease it.
+
+**The principle:** If you benefit from coordinated action, you're accountable for coordinated consequences. The ability to diffuse responsibility is itself a form of power that should be taxed proportionally.
+
+**The mechanism:** Progressive accountability overhead based on organizational complexity:
+
+- **Small team, clear decision-maker** → minimal accountability infrastructure required
+- **Large organization, distributed decisions** → significant reporting, auditing, liability exposure
+- **Massive institution, opaque structure** → heavy accountability costs (mandatory transparency, external audits, personal liability for executives)
+- **Monopoly-scale opacity** → costs so high that entities either accept real accountability or restructure into smaller accountable units
+
+**The inversion:** Currently, scale = more ability to evade consequences. This mechanism inverts that: scale = more accountability burden. The "diffusion trick" becomes expensive rather than free.
+
+**The selection pressure:** Opacity to consequences is selected for—structures that evade accountability outcompete structures that don't. Since opacity is actively selected for, transparency cannot be optional. Progressive accountability burden makes opacity expensive rather than free, inverting the selection pressure.
+
+**[Implementation details TBD]**
+
 ### 6.13 Why These Mechanisms Are Now Possible
 
 **Governance is a technology that is shockingly slow to update.** We're still using systems designed hundreds of years ago—before the invention of game theory, computers, the internet, or cryptography. The United States Constitution was written in 1787. The French Republic's structure dates to 1958. The United Nations to 1945. These systems were designed for the informational and technological constraints of their eras: slow communication, paper records, manual vote counting, geographic constraints on participation.
