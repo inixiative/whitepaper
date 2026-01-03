@@ -98,6 +98,12 @@ Social signals face the same mismatch. GDP once correlated with prosperity; unde
 
 **Culture as Coordination Technology**: Humans didn't break the Dunbar limit; we bypassed it with binding stories (Harari's "imagined orders"). We evolved to have culture-mediated sensors. Turchin's historical cycles are this mechanism playing out across time. Cultural coordination technology succeeds, sensed carrying capacity rises, cooperation scales. It degrades under pressure—elite capture, complexity, novelty, external shock—sensed capacity falls, competitive mode returns. The Cistercians built coordination technology adequate to their era; hyper-novelty is the current pressure degrading ours.
 
+**Why Myths Work:** Shared narratives don't magically create cooperation—they exploit two distinct channels. First, they **hijack kin-identification**. Evolution built circuitry for extending cooperation to genetic relatives (Hamilton's rule). Myths reprogram that channel: "brothers and sisters in Christ," "sons of the revolution," "we're a family here." The kinship language isn't metaphor—it's targeting the specific neural pathway that outputs cooperation. The myth tells ancient circuitry: *these strangers are your kin*.
+
+Second, they establish **stranger protocols**—shared scripts for interacting with people you *don't* identify as kin. Hospitality norms (guest right, xenia), trading customs (handshakes, contracts), religious injunctions ("love thy neighbor," the Torah's treatment of the *ger*). This creates cooperation through predictability rather than identification: if we both know the script for stranger-interaction, we can cooperate without either claiming kinship.
+
+Both mechanisms reduce uncertainty about whether the other will cooperate, but through different signals: kin-expansion says "shared identity means shared fate"; stranger protocols say "shared script means predictable behavior." Both are cultural technologies for extending cooperation beyond Dunbar. Both depend on the signal substrate maintaining consistency between the myth and observed reality—when "brothers" visibly extract or strangers violate guest-right without consequence, the cooperation radius contracts.
+
 **The Four Axes of Coordination**
 
 Intelligence requires signals. Without signals, there is no intelligence—only raw selection pressure where you die to learn. Evolution's shortcut: instead of computing reality from first principles (metabolically expensive, often fatal), build sensors that detect correlates of fitness-relevant outcomes. We are playing telephone with reality—always operating on samples and proxies, never the territory directly. A signal is any environmental variable with predictive utility—information that lets an agent update behavior *before* terminal feedback. This is the fundamental constraint: intelligence operates against signals, not reality. Signaling infrastructure is therefore load-bearing for civilization.
@@ -257,7 +263,13 @@ A cell cannot "see" the organism's overall plan. It responds to local chemical g
 
 Cancer represents what Levin calls "epistemic shrinkage." When bioelectric signaling breaks down, a cell's cognitive horizon collapses. It stops perceiving itself as part of an organ and reverts to optimizing only for itself—eat, reproduce, metastasize. The cell hasn't become "evil." It has simply **lost the signal that made coordination rational**. Its light cone has shrunk from organ-level to cell-level, and now its local optimization is global catastrophe.
 
-**The White Pill:** Levin's experiments demonstrate that this process is reversible. When researchers restored bioelectric connectivity to cancerous tissue—re-establishing the signaling gradients that couple the cell to its neighbors—the cancer reverted to normal tissue behavior. The cells weren't "reformed" or "educated." They simply regained the ability to perceive their context, and cooperation became rational again. **Signal restoration is sufficient for coordination restoration.** The implications for social systems are profound: if institutional cancer is fundamentally a signaling failure, then fixing the signaling substrate should restore cooperative behavior without requiring moral transformation.
+**The White Pill:** Levin's experiments demonstrate that this process is reversible. When researchers restored bioelectric connectivity to cancerous tissue—re-establishing the signaling gradients that couple the cell to its neighbors—the cancer reverted to normal tissue behavior. The cells weren't "reformed" or "educated." They simply regained the ability to perceive their context, and cooperation became rational again.
+
+**The Obstacle:** Cooperation is almost always the superior strategy. The substrate determines whether agents trying to run cooperative scripts can find each other and coordinate. But observable extraction—nepotism, corruption, rent-seeking, unpunished defection—is itself a signal. When you see elites escape consequences, the substrate is broadcasting "retaliation doesn't work here." Axelrod cooperation requires credible punishment of defectors. When the signal says you cannot enforce retaliation effectively, the cooperative strategy collapses—not because defection became superior, but because the enforcement mechanism is visibly broken.
+
+The "why bother" collapse is still signal failure—failure to perceive the causal path from your cooperation to coordination success. Those who benefit from extraction have rational incentives to suppress cooperation channels, to maintain the noise that keeps would-be cooperators isolated and demoralized. This is active interference, not passive decay.
+
+The implication: substrate repair is the intervention. Build channels that let cooperative agents find each other, verify reliability, see defection punished and cooperation rewarded. The demand for cooperation is always there. The substrate enables or blocks it.
 
 **The Social Parallel: Institutions as Organs**
 
@@ -266,13 +278,25 @@ The parallel to human organization is direct:
 - Teams coordinate to form institutions (organs)
 - Institutions coordinate to form civilizations (organisms)
 
+**The Polybius Generalization:** Polybius identified that government forms cycle between functional and dysfunctional modes—monarchy degrades to tyranny, aristocracy to oligarchy, democracy to mob rule. The key insight: these aren't different institutions, they're the *same* institution transitioning through health states over time. A monarchy doesn't become a tyranny by changing structure; it becomes a tyranny when the substrate stops carrying accountability signals.
+
+The pattern generalizes to *all* institutional forms. Corporation, charity, university, union, church—each can serve constituents or extract from them. The structure doesn't determine the mode; the signal environment does. A university that once created knowledge becomes a credential-gatekeeping cartel. A union that once protected workers becomes a rent-seeking bloc. A charity that once delivered aid becomes a reputation-laundering vehicle. Same institution, same structure, different health state—because the selection pressure maintaining alignment degraded.
+
+This isn't about which institutional form is best; it's about what keeps *any* form functional. The answer is continuous accountability—substrate that carries signals of whether the institution is serving or extracting, and mechanisms that make extraction costly.
+
 **Coordination operates in two dimensions:** within-scale (cells with cells, individuals with individuals, institutions with institutions) and cross-scale (cells with organs, individuals with institutions, institutions with civilizations). Both can fail. All four axes—capacity, signal, substrate, perception—apply to both. A system can have functional within-scale coordination while cross-scale coordination degrades, or vice versa.
 
-The Institutional Commons Problem (Document 1) is precisely this epistemic shrinkage at the social scale:
+Institutions exist on a **health continuum** with distinct failure modes:
 
-**Healthy State (Cooperative Mode):** Accountability signals are strong. Individuals perceive a large cognitive horizon—their "self" extends to institutional success. Optimizing for the institution optimizes for themselves. They contribute function because institutional health determines their own prosperity. Selection pressure favors utility.
+**Healthy (Cooperative Mode):** Accountability signals are strong. Individuals perceive a large cognitive horizon—their "self" extends to institutional success. Optimizing for the institution optimizes for themselves. They contribute function because institutional health determines their own prosperity. Selection pressure favors utility.
 
-**Cancerous State (Competitive Saturation):** Signaling breaks down. Cognitive horizons shrink. Individuals stop perceiving themselves as part of the organ. Their light cone collapses to their immediate status and group access. They begin extracting resources while externalizing costs—overgrazing the institutional commons. Selection pressure shifts from utility to status signaling.
+**Sclerotic (Rigidity):** Capacity remains but becomes rigid. The institution can still function but cannot adapt—ossified processes, resistance to change even when change is necessary. Like arthritis: the structure exists but movement is painful. Often precedes cancer as accumulated incumbents protect their positions.
+
+**Cancerous (Extraction):** Signaling breaks down. Cognitive horizons shrink. Individuals stop perceiving themselves as part of the organ. Their light cone collapses to their immediate status and group access. They begin extracting resources while externalizing costs—overgrazing the institutional commons. Selection pressure shifts from utility to status signaling.
+
+**Coordination Collapse (Signal-Dead):** Capacity might exist but agents cannot coordinate. Left hand doesn't know what right hand is doing. Noise overwhelms signal. The Thorium Paradox: cooperation would work, but no one can see how to get there from here.
+
+These states blend and compound. A sclerotic institution often becomes cancerous as incumbents protect their rigidity. A cancerous institution is frequently signal-dead—unable to coordinate even its own extraction. The same institution transitions through these states over time; without continuous selection pressure maintaining alignment, the drift is always toward dysfunction.
 
 This isn't moral failure. It's a **coordination failure driven by signal collapse**. Individuals revert to their ancestral, competitive, unicellular mode. They aren't "being bad"—they've undergone epistemic shrinkage and are now single-cell agents consuming the multicellular body they inhabit.
 
