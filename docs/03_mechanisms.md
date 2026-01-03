@@ -248,6 +248,26 @@ Universal service prevents the prosperity-softness failure mode by institutional
 
 **Application to cooperative societies:** Digital communities can implement analogous mechanisms—mandatory contribution requirements, rotating civic duties, service obligations that maintain engagement and prevent pure consumption mindset. The principle generalizes: prosperity without obligation breeds softness and vulnerability.
 
+### 5.6 Intrinsic Motivation — Autonomy, Mastery, Purpose
+
+**The finding (Daniel Pink, *Drive*):** Extrinsic rewards—bonuses, incentives, carrots and sticks—work for simple mechanical tasks but *backfire* for creative and cognitive work. MIT studies found higher monetary rewards led to *worse* performance on complex tasks. The "overjustification effect" turns play into work, crowding out intrinsic motivation.
+
+**What works instead:**
+- **Autonomy:** Control over task, time, technique, team
+- **Mastery:** Getting better at something that matters
+- **Purpose:** Connection to something larger than yourself
+
+Pink's prescription: "Pay enough to take money off the table"—then stop using money as the motivator.
+
+**Empirical support:**
+- Candle Problem experiments: paid participants solved problems worse than unpaid
+- MIT incentive studies: cognitive performance degraded with higher stakes
+- Open source movement: intrinsic motivation produces Linux, Wikipedia, Apache
+
+**The design implication:** Playgrounds with boundaries. Instead of incentivizing specific behaviors (which gets gamed or backfires), set constraints that prevent failure modes and give autonomy within them. Budget floors and ceilings, not incentives to spend or save. Quality minimums, not bonuses for quality. Prohibited behaviors, not rewards for compliance.
+
+**The Doctorow caveat:** "Autonomy" can be weaponized as labor extraction. Free food, nap pods, and game rooms keep engineers at work longer. As Cory Doctorow observes: workers "could bargain for anything from their bosses—except a 40-hour work-week." Fake autonomy means you control your task but not your time. Fake purpose means the "mission" is quarterly earnings. The tell: "You can tell by the way they treat the workers they don't fear"—engineers pampered while factory workers get suicide nets. Real autonomy includes control over time and genuine exit options, not just task flexibility within a gilded cage.
+
 ---
 
 ## 6. Novel Mechanisms Now Possible
@@ -2668,7 +2688,65 @@ The principle is consistent: concentrated control becomes increasingly expensive
 
 **The selection pressure:** Opacity to consequences is selected for—structures that evade accountability outcompete structures that don't. Since opacity is actively selected for, transparency cannot be optional. Progressive accountability burden makes opacity expensive rather than free, inverting the selection pressure.
 
-**[Implementation details TBD]**
+#### Decision Budget Heuristic
+
+**The principle (via a friend):** Decision rights scale with compensation. An employee should be able to make decisions up to some percentage of their annual salary without committee approval.
+
+**The logic:** Your salary represents the organization's revealed valuation of your judgment. If they pay you $200k/year, they've already decided your judgment is worth that. Requiring committee approval for decisions representing a small fraction of that value is both inefficient and insulting—it implies they don't trust the judgment they're paying for.
+
+**Implementation:** Employees can approve purchases, contracts, and resource allocations up to a defined percentage of their annual salary without additional oversight. All decisions are recorded. Pattern detection surfaces anomalies for review after the fact, not before.
+
+#### Revealed Preference Procurement
+
+**The problem:** Current procurement requires anticipating needs, writing specifications, competitive bidding, committee selection—all before anyone uses anything. This process takes months or years, selects for vendors good at proposals rather than products, and often delivers the wrong thing.
+
+**Consumption as signal:** Purchasing patterns are honest signals of actual need. When people spend their own decision budget, they reveal what they actually value—not what they think they should value or what sounds good in a proposal. This is preference discovery, not waste.
+
+**The mechanism:** Let people buy what they need within their decision budget. Record all purchases. Detect convergence (when multiple people independently buy the same thing). Use convergence as coordination signal—THEN negotiate bulk rates or standardize based on revealed demand.
+
+**The coordination tradeoff:** Pure fragmentation (everyone using different tools) creates integration overhead. But forced standardization before you know what works is worse—you lock in the wrong solution. The sequence matters: discover preferences first, coordinate second. Convergence is earned through demonstrated value, not mandated by committee.
+
+**Security layer:** IT security review remains a gate for anything touching systems—but decoupled from procurement. Security says "this tool is safe to use." Procurement says "this tool is worth buying." These are separate questions with separate processes.
+
+#### Post-Hoc Accountability (Bias Toward Action)
+
+**The pathology:** Organizations default to pre-approval for everything. Every decision requires a committee, a sign-off chain, a process. This made sense when errors were hard to detect and harder to reverse. It makes less sense now.
+
+**The cost of friction:** Pre-approval has real costs:
+- Delay (weeks/months to get approval for reversible decisions)
+- Initiative death (people stop trying)
+- Blame optimization (nobody approves anything risky)
+- Talent exodus (high-agency people leave for environments that trust them)
+
+**The cost of errors:** In most domains, errors are:
+- Detectable (you find out it didn't work)
+- Recoverable (you can undo or mitigate)
+- Educational (you learn something)
+
+**The asymmetry:** For most decisions, friction costs exceed error costs. Pre-approval optimizes for the wrong thing.
+
+**Where pre-approval still makes sense:**
+- Irreversible consequences (can't undo)
+- Catastrophic downside (deaths, existential risk)
+- High-stakes domains: medicine, aviation, nuclear, structural engineering
+- Genuine Type 1 decisions (see Section 4)
+
+**Where post-hoc works better:**
+- Reversible decisions (can undo or iterate)
+- Bounded downside (worst case is manageable)
+- Learning environments (errors generate information)
+- Most business, admin, policy, and creative work
+
+**The mechanism:**
+1. **Default to action:** Within decision budget and domain constraints, act without pre-approval.
+2. **Record everything:** All decisions logged—not for permission, but for pattern detection.
+3. **Anomaly surfacing:** Algorithms flag unusual patterns for human review after the fact.
+4. **Correction, not punishment:** First-time errors in good faith → correction and learning. Repeated patterns or bad faith → escalating consequences.
+5. **Stop-loss triggers:** Automatic review when cumulative impact crosses thresholds.
+
+**The culture shift:** From "get permission" to "act and be accountable." From "don't get blamed" to "learn and improve." This requires trust—which is why it must be paired with genuine consequences for bad actors and genuine support for good-faith errors.
+
+**What this enables:** High-agency people stay. Initiative survives. Organizations move faster. Learning happens. The subset of genuinely dangerous decisions still gets pre-approval—but the default flips from "prove you should" to "just do it."
 
 ### 6.13 Why These Mechanisms Are Now Possible
 

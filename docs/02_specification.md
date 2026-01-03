@@ -1158,6 +1158,85 @@ Managerialism is the failure mode: agents capture institutions and become unacco
 
 **Accountability vacuum:** Modern institutions make it nearly impossible to hold anyone responsible. Corporations shield individuals ("just following policy"), bureaucracies diffuse blame ("the system decided"), politicians leave office before consequences manifest. Without accountability, defection dominates.
 
+**The Empowerment-Compensation-Consequence Triad**
+
+Empowerment, compensation, and consequences must scale together. Any role that exercises elevated power—state authority, fiduciary control, policy-setting, billion-dollar procurement—requires elevated compensation AND elevated accountability. The triad cannot be separated:
+
+- High empowerment + low compensation + low consequences = corruption gradient (grifters thrive, saints burn out)
+- High empowerment + high compensation + low consequences = extraction machine (golden parachutes, regulatory capture)
+- High empowerment + low compensation + high consequences = nobody qualified applies (adverse selection)
+- High empowerment + high compensation + high consequences = aligned incentives (attracts talent, deters corruption)
+
+Government roles are currently configured as the first pattern: maximum empowerment (can make decisions affecting millions), below-market compensation (salary caps, can't compete for specialized talent), minimal consequences (can't fire, can't punish). This configuration mathematically selects for either corruption or incompetence. The civil service system that was designed to prevent patronage now prevents accountability.
+
+**Metrics as Symptom of Triad Failure**
+
+When organizations cannot align empowerment, compensation, and consequences, they compensate by governing through metrics. If you can't trust judgment (because you can't select for competence, can't pay for talent, can't fire for failure), you replace judgment with rules. Every decision requires a checklist. Every action requires a process. Performance is measured by compliance, not outcomes.
+
+This is the low-empowerment equilibrium: nobody has authority to exercise judgment, so nothing requires judgment. The organization becomes a rule-following machine that cannot adapt, cannot innovate, and cannot recognize when the rules are wrong. Metrics-based governance is not a solution—it's a symptom of failing to solve the underlying triad alignment problem.
+
+**Decision Rights Must Be Personal and Consequential**
+
+Authority must attach to individuals, not committees. A committee cannot be fired, cannot be jailed, cannot face consequences—so committees should not have authority. They can advise; they cannot decide. The person who signs is the person who bears consequences.
+
+The current system uses committees precisely to avoid this: diffuse the decision across enough people and nobody is responsible. This is a feature for those hiding, a bug for the system. Any structure that grants authority without personal consequence is an accountability evasion mechanism, regardless of what it's called.
+
+**Power and Accountability Must Scale Together**
+
+Decision authority should scale with personal accountability. Someone who faces real consequences for failure should have corresponding autonomy to act. Someone insulated from consequences should have minimal autonomous authority. The current system inverts this: those with the most power (executives, committees, agencies) face the least personal consequence, while those with the least power bear disproportionate liability for following orders.
+
+**The Spending-Saving-Outcome Disconnect**
+
+Current systems incentivize spending and punish saving, while correlating neither with outcomes:
+
+- **Spend it or lose it:** Unspent budget gets cut next year. Rational actors spend everything, useful or not.
+- **No reward for efficiency:** Saving money earns nothing—no bonus, no recognition, no career benefit.
+- **Outcomes are unmeasured:** Neither spending nor saving correlates with whether the mission was achieved.
+
+The result: bureaucracies optimize for budget consumption, not mission accomplishment. A functional system must reward outcome achievement and efficiency equally, and penalize waste regardless of whether the budget was "available."
+
+**Resource Allocation Pathologies**
+
+These dynamics are not bugs—they are predictable consequences of how organizations allocate resources. Any functional system must account for them:
+
+1. **Acquisition skill ≠ utilization skill.** The people who are good at getting resources are not the people who are good at using them. These are orthogonal competencies. Organizations systematically fund those who argue well, not those who produce well.
+
+2. **Time spent acquiring competes with time spent producing.** Teams politicking for budget aren't executing. Teams executing aren't politicking. The activity of justification competes with the activity of production.
+
+3. **Any metric will be optimized.** Whatever you measure, people will produce—including fabricated versions. The bureaucracy skilled at wasting resources is equally skilled at producing paperwork that looks like progress.
+
+4. **Growth is always rational for the individual.** More headcount = more status, salary, power, job security. There is no natural satiation. Everyone wants to expand their team, budget, and scope.
+
+5. **"Underfunding" is unfalsifiable.** Every team claims underfunding. The claim cannot be disproven from inside. Genuine underfunding and strategic underfunding claims are indistinguishable.
+
+6. **Stated need ≠ revealed need.** What people say they need diverges from what they actually use. Stated need is strategic; revealed need (what they actually consume) is honest.
+
+7. **Squeaky wheel gets the grease.** Effective but quiet teams get baseline or cuts. Loud, demanding teams get increases. Volume of complaint correlates with resource allocation; quality of output does not.
+
+8. **Liars and overpromisers attract investment.** Promising big attracts resources. Delivering small has no immediate consequence. The reward for overpromising is fast; the feedback on underdelivering is slow. Overpromising is selected for.
+
+9. **Internal allocation is zero-sum.** Your department's gain is another's loss. This creates hoarding, internal politics, and sabotage. Departments compete against each other rather than external problems.
+
+10. **Hoarding is rational under scarcity.** If releasing unused resources means losing them forever, never release them. Resources sit idle because returning them is punished.
+
+11. **Success is punished; failure is rewarded.** Hit your targets? Next year's targets are higher with the same budget. Miss your targets? You get "investment" to help you improve.
+
+12. **Peter Principle + smooth-talker selection.** Mediocre performers who present well advance. Promotion tracks verbal and political skill, not operational competence. Organizations fill with people promoted past their effectiveness.
+
+13. **Likability > performance.** People who are liked by bosses, who are friends with decision-makers, get promoted. Social proximity to power matters more than output.
+
+14. **Rewarding savings → cutting corners.** If surplus is divided among the team, you optimize for cheap materials and methods. Quality degrades. This is the inverse of spend-it-or-lose-it: both failure modes exist, and "fixing" one creates the other.
+
+A functional resource allocation system must work *despite* these dynamics, not assume they can be eliminated through policy or culture.
+
+**Decision Weight Must Match Decision Process**
+
+Not all decisions are equal. Jeff Bezos distinguishes "one-way doors" (irreversible, can't go back) from "two-way doors" (reversible, can course-correct). The process weight should match.
+
+**The pathology:** Organizations default to heavy process for everything. Every decision requires committee review, stakeholder sign-off, extensive analysis—regardless of reversibility. The result: slowness, risk aversion, failure to experiment, initiative death.
+
+**The requirement:** Governance systems must differentiate decision types and tune process accordingly. Heavy deliberation for genuinely irreversible choices. Fast delegation for reversible ones. The threshold between them—and how much process each requires—is context-dependent and should be discoverable through experimentation, not prescribed.
+
 **The Requirements:**
 
 #### 1. Fixed Elite Slots (Anti-Overproduction)
