@@ -72,6 +72,10 @@ Evolutionary thinking operates differently. It makes predictions, waits for real
 
 This evolutionary framing is foundational. Section 3.1 applies it to multiscale coordination—how selection operates at every level simultaneously. Section 3.2 applies it to incentive design. The remaining sections provide additional lenses (complex systems, engineering, dialectics) that complement this core framework.
 
+When unrelated systems independently evolve the same solution, that convergence reveals fundamental constraints. Wings evolved separately in birds, bats, insects, and pterosaurs not by coincidence but because flight imposes certain physical requirements regardless of lineage. The repeated emergence of the same form under selection pressure tells us something about the problem space itself.
+
+Coordination at scale shows similar convergence. Across biological organisms, historical institutions, distributed technologies, and organizational structures, certain patterns recur: hierarchical integration with local autonomy, decision speed matched to complexity, continuous feedback rather than periodic binary choices, lifecycle mechanisms that remove failed components. These aren't coincidences or metaphors—they're structural responses to the same underlying constraints that any system faces when coordinating autonomous agents across multiple scales. The frameworks that follow attempt to articulate these patterns precisely enough that we can reason about them, test whether they hold in new contexts, and build systems that embody the principles rather than violate them.
+
 ### 3.1 Multiscale Competency: The Cancer Problem and Governance as Bioelectricity
 
 **The Signaling Hypothesis**
@@ -1604,7 +1608,7 @@ A system fails this requirement if collective action against concentrated privat
 
 ### 4.8 Enforce Subsidiarity Through Approval-Based Jurisdiction
 
-Subsidiarity—the principle that problems should be solved at the lowest capable level—is widely praised but rarely implemented. The structural problem: without enforcement mechanisms, power naturally centralizes. Bureaucracies expand upward because there's no countervailing force pushing decisions back down to local levels.
+Subsidiarity—the principle that problems should be solved at the lowest capable level—is widely praised but rarely implemented. The structural problem: without enforcement mechanisms, power naturally centralizes. Bureaucracies expand upward because there's no countervailing force pushing decisions back down to local levels. We observe subsidiarity throughout biological systems, where it has been selected for across billions of years—suggesting it is not a political preference but an effective response to coordination at scale.
 
 **Why this matters:** Scott's *Seeing Like a State* demonstrates how centralized planning destroys local knowledge (metis). When distant bureaucrats make decisions about contexts they don't understand, they optimize for legibility (what they can measure) rather than effectiveness (what actually works). Ashby's Law of Requisite Variety reinforces this: regulatory mechanisms must match system complexity. A single central authority cannot have sufficient variety to govern diverse local conditions.
 

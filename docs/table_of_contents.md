@@ -156,27 +156,30 @@ You cannot address economic stagnation without understanding competitive saturat
 #### Section 5: Proven Mechanisms (Empirically Validated)
 - 5.1 Henry George — Land Value Tax (Singapore, Hong Kong, Taiwan implementations)
 - 5.2 Elinor Ostrom — Commons Governance (8 principles, polycentric systems)
-- 5.3 Glen Weyl — Radical Markets (Quadratic voting, Harberger taxes)
+- 5.3 Glen Weyl & Eric Posner — Radical Markets (Quadratic voting, Harberger taxes)
 - 5.4 Balaji Srinivasan — Network States (Próspera, Cabin, Praxis examples)
 - 5.5 Mandatory Service — Maintaining Hardness Despite Prosperity (Switzerland, Israel, Singapore)
+- 5.6 Intrinsic Motivation — Autonomy, Mastery, Purpose
 
 #### Section 6: Novel Mechanisms Now Possible
 - 6.1 Definitions
 - 6.2 Identity & KYC Layer (Optional but Necessary for Anti-Sybil)
 - 6.3 Allocation & Voting Mechanisms
-- 6.4 Solving the Principal–Agent Problem: Long-Horizon Alignment Mechanisms
-- 6.5 Reputation & Reciprocity Engine
-- 6.6 Memory and Truth Mechanisms: Implementing Tracking Without Censorship
-- 6.6A Leadership Accountability Mechanisms
-- 6.7 Continuous Alignment Mechanism
-- 6.7 Point Voting as Political Will Translation
-- 6.8 Delegation & Agentic Participation
-- 6.9 Jurisdiction & Overlap Resolution
-- 6.10 Initiative Creation
-- 6.11 Anti-Capture Architecture
-- 6.11A Energy-Backed Currency (kWh Standard) — Experimental Anti-Capture Mechanism
-- 6.12 Why These Mechanisms Are Now Possible
-- 6.13 Platform Philosophy: Humility and Experimentation
+- 6.4 Governance Tickrate: Temporal Batching for Coordination
+- 6.5 Solving the Principal–Agent Problem: Long-Horizon Alignment Mechanisms
+- 6.6 Reputation & Reciprocity Engine
+- 6.7 Memory and Truth Mechanisms: Implementing Tracking Without Censorship
+- 6.7A Leadership Accountability Mechanisms (Implementing Section 4.4)
+- 6.8 Continuous Alignment Mechanism
+- 6.9 Delegation & Agentic Participation
+- 6.10 Jurisdiction & Overlap Resolution
+- 6.11 Initiative Creation
+- 6.12 Anti-Capture Architecture
+- 6.12A Energy-Backed Currency (kWh Standard) — Experimental Anti-Capture Mechanism
+- 6.13 Anti-Monopoly Mechanisms — Progressive Costs on Concentration
+- 6.14 Why These Mechanisms Are Now Possible
+- 6.15 Platform Philosophy: Humility and Experimentation
+- 6.16 Implementing the Right to Self-Curation
 
 ---
 
