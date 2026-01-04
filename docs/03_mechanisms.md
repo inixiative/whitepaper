@@ -368,7 +368,7 @@ Traditional voting captures only **direction** (yes/no). This produces catastrop
 
 **2. Direction (Support vs Opposition):** Do you approve (+) or oppose (-)? This is the only dimension binary voting captures.
 
-**3. Magnitude (Intensity):** How much do you care? "Mild support" (+2) vs "top priority" (+10). "Minor concern" (-2) vs "existential threat" (-10). Budget constraints force you to allocate limited points, revealing what actually matters to you.
+**3. Magnitude (Intensity):** How much do you care? "Mild support" (+2) vs "top priority" (+10). "Minor concern" (-2) vs "existential threat" (-10). Budget constraints operationalize this dimension by forcing you to allocate limited points across competing priorities, revealing what actually matters to you.
 
 **The constraint architecture:**
 - **Representatives:** Limited proposals per cycle (Section 6.5.6) → forces proposing only high-quality policies
