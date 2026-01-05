@@ -968,6 +968,12 @@ Organizations can deploy initiative-style governance for specific internal funct
 
 ### 8.5 Phase 5: Parallel Civic Ecosystems
 
+**Why Reform Fails (The Genie Problem):** The dysfunction in modern systems isn't a bug you can patch—it's load-bearing. Corporate personhood, limited liability, fractional reserve banking, fiat currency, regulatory capture—these aren't parasites on the system, they *are* the system. Remove them and everything collapses before alternatives can emerge. You can't surgically extract the tumor when the tumor is fused to the spine. This is why reform movements fail: they propose fixing structures that the entire economy depends on. The genie is out of the bottle. You can't put it back.
+
+**The Parallel Strategy:** Don't dismantle, outcompete. Build alternative structures people can migrate to voluntarily. The old system doesn't need to be destroyed; it needs to become optional. Exit over voice. As parallel systems demonstrate superior coordination, people and institutions migrate incrementally. The legacy system hollows out through attrition rather than revolution.
+
+**Power's Blindness to Tech:** Incumbents typically respond to technological disruption with optimism—dismissive confidence that the new thing is a toy, won't scale, can be regulated later. "The internet is a fad." "Bitcoin is for criminals." "DAOs are a scam." By the time they recognize the threat, network effects have shifted. This blindness is a feature, not a bug—it buys time for parallel systems to reach critical mass before regulatory capture can strangle them. The strategy relies on incumbents underestimating until it's too late.
+
 **Goal:** Platform becomes default infrastructure for collective action; operates alongside traditional governance
 
 **Characteristics:**

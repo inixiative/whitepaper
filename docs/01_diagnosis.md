@@ -287,6 +287,8 @@ Under gold convertibility, money creation was constrained. You couldn't print in
 
 Post-1971, this effect went supernova. Without gold convertibility as a constraint, central banks could print money without immediate consequences. The Federal Reserve's balance sheet has grown from ~$100 billion in 1971 to over $8 trillion today—an 80-fold increase. This newly created money flowed into financial assets—stocks, bonds, real estate—inflating prices far beyond what wage earners could afford. Asset holders got richer while wage earners saw savings diluted and purchasing power eroded.
 
+**Fiat printing breaks property rights:** Your savings are your property—the stored value of your past labor. When central banks print money, they dilute that stored value without your consent. This is confiscation through inflation rather than taxation. At least taxation is visible and subject to democratic accountability; monetary dilution is invisible and controlled by unelected central bankers. The person who worked and saved in 1971 dollars watched their purchasing power erode by 85%+ over subsequent decades—not through any choice of their own, but through monetary policy decisions made by others. Property rights are a foundational coordination mechanism; fiat currency undermines them at the root. The social contract says "what you earn and save is yours." Fiat printing says "what you earn and save belongs to whoever controls the money supply."
+
 **What the charts reveal:**
 
 **Wage-productivity decoupling:** For decades (1948-1973), worker productivity and median wages rose in tandem—growing 96% and 91% respectively. If workers produced 3% more, wages rose roughly 3%. Beginning in **1973** (coinciding with the oil crisis and early-1970s recession), productivity kept rising while typical worker compensation flatlined. From 1973-2014, productivity grew 72% while typical worker compensation grew only 9%—an 8:1 divergence ratio (Economic Policy Institute, 2015). Where did the gains go? To asset holders. Capital captured productivity improvements; labor did not. This is George's rent extraction thesis proven empirically: those who control scarce assets (land, financial instruments, equity) extract value from those who produce.
@@ -1113,6 +1115,22 @@ Crucially, Graeber identifies **jubilee mechanisms**—periodic debt forgiveness
 
 Ancient rulers understood this: **jubilees weren't charity—they were system maintenance**. Like defragmenting a hard drive or clearing cache, periodic resets prevented systemic failure. The societies that survived for centuries practiced jubilee. Those that didn't collapsed into plutocracy and were conquered.
 
+**The natural direction of markets is deflationary:** As efficiency improves, more output per input means falling prices—barring disasters. But states want to mobilize as many resources as possible, and taxation has political limits. As Niall Ferguson documents in *The Ascent of Money*, states turned to issuing bonds—which is effectively printing money. You're creating claims on future production that may never materialize.
+
+**States were incentivized to issue AND to renege.** Borrow now, default later. This is why historical interest rates were so high—they reflected genuine risk. Lenders knew states might simply refuse to pay. Sovereign defaults, currency collapses, hyperinflation—these weren't aberrations; they were the inevitable results of states printing more claims than economies could honor. The result was continuous cycles of expansion, overextension, crash, and reset. States didn't learn; they just repeated the pattern. But the crashes themselves were the feedback mechanism—the selection pressure that cleared dysfunction and reset the system.
+
+**There is still selection pressure—on states.** The successful ones managed to extract as much as possible without killing their markets. That's the game: maximize extraction while keeping the host alive long enough to extract more. But the historical record is clear—this eventually kills the host. Every empire that debased its currency, every state that printed its way to prosperity, eventually collapsed. The selection pressure just operates on longer timescales than individual careers or election cycles.
+
+**The broken chain:** Fiat currency + central bank backstops removed the crashes. No more cycles of collapse and reset—just continuous inflation. What we're experiencing now (fiscal dominance, endless bailouts, central banks backstopping everything) is late-stage continuous inflation. The crashes haven't been prevented; they've been transformed into slow erosion. Zombie companies, zombie banks, zombie states persist on life support. The feedback that cleared dysfunction has been severed. The system accumulates rot without clearing.
+
+**Property rights are the foundation:** For market incentives to work—for *any* incentives to work—you need secure property rights. The expectation that what you earn and save remains yours is what makes effort worthwhile. Fiat currency undermines this foundation. When monetary policy can confiscate your savings through inflation, the incentive structure breaks. Why build, save, invest for the long term when the value can be diluted at will? The property rights violation isn't just unfair—it corrodes the entire incentive architecture that makes markets function.
+
+**Why extractive inequality is corrosive:** Not all inequality is the same. Productive inequality—wealth from building things, inventing, genuine value creation—is tolerated because it's earned. You made the pie bigger; you get a bigger slice. But extractive inequality—wealth from rent-seeking, Cantillon effect, monetary policy picking winners—corrodes legitimacy. You didn't make the pie bigger; you took someone else's slice.
+
+The pandemic was a stark example: trillions printed, asset prices soared, massive wealth transfer from poor to rich. Small businesses crushed while big tech boomed. Main street collapsed while the stock market hit records. This wasn't reward for productivity—it was extraction via money printer. Societies tolerate merchant princes and industrial titans who built things. They don't tolerate tax farmers, court favorites, and financiers who captured the money printer. The latter triggers revolutions.
+
+**Where this leads:** Assets and capital are structurally privileged over labor—not because asset holders worked harder, but because monetary policy chose winners. The rich, steeped in Randian mythology, believe they deserve their gains. They don't see the extraction; they see merit. Gini coefficients rise past sustainable thresholds. When the correction comes—and it must—it will be messier for having been delayed.
+
 **Relevance to reputation systems:** Document 3, Section 6.5 details how reputation without forgiveness creates permanent underclasses. If a mistake at age 20 follows you forever, people optimize for hiding errors rather than learning from them. If bad reputation can never be escaped, an underclass forms. Graeber shows that successful cooperation systems have always included forgiveness mechanisms—not as mercy, but as structural requirement for sustainability.
 
 **Bullshit Jobs and Institutional Decay**
@@ -1475,6 +1493,8 @@ Both failure modes are fatal. A society cannot survive when its institutions eit
 
 **Bureaucrats expand their power by hiring:** More subordinates = higher status, larger budget, more security. The institution metastasizes.
 
+**Content cancer (legibility bias):** Bureaucracies don't just grow in size—they warp in focus. Bureaucracies manage what they can measure; the intangible gets squeezed out. Schools can measure test scores, attendance, graduation rates. They cannot measure curiosity, love of learning, creativity, resilience, or the value of play. So the legible metrics win and the illegible values die. This is McNamara Fallacy territory: "what gets measured gets managed" becomes "what gets measured is all that exists." The cancer isn't just scale (consuming resources) but content (consuming the unmeasurable). Entire domains of human flourishing disappear from institutional awareness because they resist quantification.
+
 **Why it matters:** Institutional bloat creates:
 - High transaction costs (compliance burden)
 - Reduced adaptability (can't respond to new circumstances)
@@ -1483,7 +1503,9 @@ Both failure modes are fatal. A society cannot survive when its institutions eit
 - Administrative overhead consuming resources *that should go to mission*
 - Productivity collapse as coordination overwhelms execution
 
-**Violates:** Principle 3.5 (Lifecycle Management for All Institutions) - No automatic sunset or renewal mechanisms force institutions to justify continued existence. No mechanism prevents bureaucratic hiring ratchets.
+**The brittleness paradox (complex vs. complicated):** Bureaucratic growth looks like increased robustness—more oversight, more standardization, more control. For *complicated* systems (cameras, airplanes, manufacturing lines), this works: relationships are knowable, tighter tolerances yield better precision. But societies are *complex* systems—emergent, adaptive, with relationships that shift dynamically. More controls suppress variation, and variation is where adaptation lives. Individual agency is the substrate of experimentation; when bureaucracy constrains what people can try, the system loses its adaptive capacity. The organization appears stronger (everything is controlled, measured, compliant) while becoming more fragile (no variation to select from when conditions change). Bureaucracies treat societies like complicated machines, engineering tight specifications for adaptive systems that need room to evolve.
+
+**Violates:** Principle 4.8 (Lifecycle Management for All Institutions) - No automatic sunset or renewal mechanisms force institutions to justify continued existence. No mechanism prevents bureaucratic hiring ratchets.
 
 ### 2.3 Competition Saturation & Decline of Cooperation
 
@@ -2018,7 +2040,7 @@ Secular cycles (Section 1.3) don't resolve randomly. Turchin's cliodynamics data
 **Historical examples:**
 - **Peace of Westphalia (1648):** After 200 years of religious wars following printing press, European powers negotiated **sovereignty principle** (cuius regio, eius religio - ruler's religion determines state religion). New coordination mechanism: **Religious tolerance + Nation-state system**. Closed gap between information abundance and governance capacity.
 
-- **New Deal (1930s):** Elite classes saw USSR, rising socialism, calculated revolution risk. FDR: "Tax yourselves and accept unions, or get guillotines." Elites chose survival. New coordination mechanisms: **Social safety net + Labor rights + Progressive taxation + Regulatory state**. Closed gap between industrial complexity and governance capacity.
+- **New Deal (1930s):** This was genuine human cooperation—not just elite survival calculation. Yes, elite classes saw USSR and calculated revolution risk. But the New Deal also required millions of Americans to sacrifice for the greater good: accepting higher taxes, building public works, fighting for labor rights, believing the collective mattered. FDR's threat ("Tax yourselves and accept unions, or get guillotines") created the incentive structure, but people still had to *choose* cooperation. They did. New coordination mechanisms: **Social safety net + Labor rights + Progressive taxation + Regulatory state**. Closed gap between industrial complexity and governance capacity. The lesson isn't that humans are purely cynical—it's that good structures channel genuine prosocial motivation into sustained cooperation.
 
 **Why 25% succeed:**
 1. **Credible threat visible** (USSR existed as alternative, or religious wars killing millions)
