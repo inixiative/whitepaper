@@ -86,13 +86,11 @@ You cannot address economic stagnation without understanding competitive saturat
 - 1.9 James Burke — Connections, Innovation, and the Mechanism Behind Edelson's Law (inferential distance, path dependency)
 - 1.10 David Graeber — Debt: The First 5000 Years (Jubilee mechanisms)
 - 1.11 James C. Scott — Seeing Like a State (Metis destruction)
+- 1.12 Iain McGilchrist — The Divided Brain: Why Facts Don't Matter (Confabulation, Dual-Channel mechanism, Cover Stories)
 
 **THEME 4: The Foundational Architectures (What Works and Why)**
-- 1.12 Schmachtenberger Returns — Governance as Technology
-- 1.13 Henry George — Proven Mechanism: Land Value Tax
-- 1.14 Elinor Ostrom — Proven Mechanism: Commons Governance
-- 1.15 Balaji Srinivasan — Proven Framework: Network States
-- 1.16 Glen Weyl — Proven-in-Theory: Radical Markets
+- 1.13 Schmachtenberger Returns — Governance as Technology
+- 1.14 Proven Coordination Precedents (George, Ostrom, Weyl, Srinivasan)
 
 #### Section 2: Diagnosis: What Fails in Modern Societies
 - 2.1 Elite Class Hypertrophy (Wealth Pump Failure Mode)
@@ -107,7 +105,8 @@ You cannot address economic stagnation without understanding competitive saturat
 - 2.10 Case Studies: The Vulnerability to Exhaustion and Capture
 - 2.11 The Eternal Return of Rent-Seeking
 - 2.12 The Accountability Vacuum (Nobody to Jail)
-- 2.13 Summary: The Convergent Crisis
+- 2.13 Third-Worldification: The Stable Degraded Equilibrium
+- 2.14 The Metacrisis: The Complexity Gap and the 25% Path
 
 ---
 

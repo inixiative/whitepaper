@@ -168,14 +168,46 @@ This isn't about counting bodies—it's about auditing cooperation viability. Th
 
 **Carrying capacity is therefore tech/culture dependent.** The Cistercians extended coherence distance across a continent through standardized rules and ledgers. Nation-states extended it through law and broadcast media. Modernity's crisis: complexity scaled faster than verification infrastructure. We are too large for our current substrate to carry the signal of "we."
 
+**The Counterparty Type Problem**
+
+Coherence distance assumes a human-like counterparty. But modernity has created a new category: **institutional counterparties**. In developed societies, most of our cooperative interactions are now with bureaucracies, corporations, and systems—not with identifiable humans.
+
+Institutions *are* cooperation technology. They exist to extend coordination beyond what direct human-human interaction can achieve. The Cistercians encoded cooperation patterns in rules and ledgers; corporations encode them in contracts and org charts; governments encode them in law and procedure. An institution that functions is a cooperation achievement—humans inside it coordinating toward shared purpose, and the institution itself serving as scaffolding for coordination at scale.
+
+The problem isn't that institutions lack cooperation—it's that the **human-institution interface** operates differently than the human-human interface our sensors evolved for. Human-human cooperation has reciprocity (I helped you, you remember), reputation (others observe and update), accountability (I can punish defection), rich signals (facial expressions, body language, tone). When you interact with an institution as a user or constituent, these properties are often absent or degraded. The DMV doesn't remember you were patient last time. The insurance company checks credentials, not character. Forms and policies provide none of the signals evolved sensors can read.
+
+**This is an interface design problem.** Institutions *could* be built with interfaces that provide reciprocity (your cooperation history affects how you're treated), reputation tracking (institutional behavior is observable and updates their standing), and accountability (defection has consequences). The specification that follows is partly aimed at this: creating institutional interfaces that meet the prerequisites human cooperation sensors require.
+
+Additionally, institutions can **drift from cooperative to extractive orientation** while remaining internally coordinated. A corporation can have excellent internal cooperation among employees while systematically extracting from customers and communities. The institution-as-cooperation-technology still functions—it's just that the cooperation is no longer oriented toward the constituents it nominally serves.
+
+**The extraction gradient.** Not all institutions shift to competitive posture simultaneously. **Load-bearing institutions defect last.** Water systems, electrical grids, basic sanitation—the more essential the infrastructure, the longer it maintains cooperative orientation. Society literally cannot function if these extract rather than serve.
+
+The extractive shift happens at the periphery first: financial services, healthcare administration, higher education, regulatory agencies. These can extract substantial rents before the dysfunction becomes system-threatening. The pattern works inward over time. When load-bearing infrastructure begins competing against its users rather than serving them—when water becomes a speculation vehicle, when the electrical grid prioritizes shareholder returns over reliability—you're in late-stage institutional decay.
+
+**Digital platforms present a novel case.** Social media, search, cloud computing started as periphery—entertainment, convenience, optional. But they became load-bearing infrastructure faster than the traditional core-to-periphery gradient would predict. You cannot function in the modern economy without them. And they went extractive *while* becoming core, not after decades of cooperative service like traditional utilities. This is why their competitive shift feels like civilizational crisis rather than gradual decay—we woke up dependent on infrastructure that was already in extraction mode.
+
+This suggests a diagnostic: **which institutions have shifted to competitive posture relative to their users?** The answer maps the decay gradient. It also suggests triage: shore up the load-bearing infrastructure first, because once that falls, recovery becomes exponentially harder.
+
 **The Alignment Gradient**
 
-Human behavior is not a binary choice between "cooperative" and "competitive" modes, but a **fluid spectrum** determined by signal quality across these dimensions. We all participate in society; we all shift along this gradient continuously.
+Human behavior is not a binary choice between "cooperator" and "competitor" but a **fluid spectrum** determined by signal quality across these dimensions. We all participate in society; our cooperation radius expands and contracts continuously based on what the signals tell us about cooperation viability at each scale.
 
 - **High-Fidelity Alignment:** When the substrate provides clear, high-SNR feedback across key dimensions, individual self-interest is **tightly coupled** to collective health. Optimizing for the self *is* optimizing for the institution. The signal makes alignment rational.
 - **Decoupled Extraction:** As noise increases across dimensions, this coupling loosens. When the signal of collective benefit becomes illegible, incentives **refract** toward the only targets still visible: the individual or the immediate tribe.
 
-Societies can be characterized as **cooperative on balance** (the gradient favors alignment; most agents most of the time are coupled enough that the system maintains itself), **competitive on balance** (the gradient favors extraction; most agents most of the time are decoupled enough that the system degrades), or **in transition** (the gradient is shifting, mixed behaviors, unstable equilibrium). These are aggregate descriptions—no individual is purely one or the other.
+Societies can be characterized as **cooperative on balance** (the gradient favors alignment; most agents most of the time include the system within their cooperation radius), **competitive on balance** (the gradient favors extraction; most agents most of the time treat the system as outside their radius), or **in transition** (the gradient is shifting, mixed behaviors, unstable equilibrium). These are aggregate descriptions—no individual is purely one or the other.
+
+**The Telemetric Signature: Correction vs. Externalization**
+
+How do you measure which state a system is in? Look at how agents relate to errors.
+
+**When agents cooperate in relation to a system** (the system is within their cooperation radius), they treat errors as threats to fix. An error harms the organism, and the agent's success is coupled to the organism's health. Correction is rational. Resources flow toward identifying and repairing dysfunction.
+
+**When agents compete in relation to a system** (the system is outside their cooperation radius), they treat errors as opportunities to exploit. The agent is decoupled from the system's health—the system is environment, not self. Innovation flows toward finding new ways to externalize costs while capturing benefits. Weaponized compliance becomes the dominant strategy: wrap extraction in precedent so it can't be challenged.
+
+**The signature of decay:** You can determine the health of any civilization by observing where its "innovation" is directed. Is it innovating new ways to fix long-standing harms (thorium, cures, efficient transit)? Or is it innovating new ways to precedent and protect existing harms (regulatory moats, liability shields, "standard of care" excuses)?
+
+Asymmetry in correction speed is the observable divergence. When a system finds it easier to invent new reasons why a harm cannot be fixed than to actually fix it, competition has become dominant. When "mistakes" that benefit the powerful persist uncorrected while "mistakes" that harm them get fixed immediately, the asymmetry in correction speed reveals the asymmetry in cooperation radius. The powerful have contracted their radius to exclude the system; the system exists to be extracted from, not maintained.
 
 **The Power-Extraction Multiplier**
 
@@ -628,6 +660,12 @@ This isn't rejecting theory—mechanism design and game theory inform what to bu
 ### 3.5 Problem Space Navigation: Search, Don't Solve
 
 **"Doubt is not a pleasant condition, but certainty is absurd."** — Voltaire (Letter to Frederick II, 1767)
+
+**The Ceramics Classroom:** In *Art & Fear*, David Bayles and Ted Orland describe a ceramics instructor who divided students into two groups. One group would be graded solely on *quantity*—the total weight of pots produced. The other would be graded on *quality*—they needed to produce only a single pot, but it had to be perfect. At the end of the term, the works of highest quality were all produced by the quantity group. While they were busy churning out piles of work—and learning from their mistakes—the quality group sat theorizing about perfection, and in the end had little more than grandiose theories and a pile of dead clay to show for their efforts.
+
+The parable (which originated with photographer Jerry Uelsmann at the University of Florida) captures a counterintuitive truth: **you cannot think your way to excellence—you must search.** Iteration beats ideation. Practice beats planning. The path to quality runs through quantity.
+
+This applies directly to governance. You cannot design the optimal institution from first principles any more than you can theorize your way to a perfect pot. You must try, fail, learn, iterate. The question is whether we iterate through war and collapse (expensive) or through measured experimentation (cheap).
 
 If governance design were a search problem in solution-space, most approaches amount to hill-climbing from the current position: take small steps in directions that seem to improve things locally. Tweak this regulation, adjust that tax rate, reform this procedure. The problem: hill-climbing finds local optima, not global ones. You climb the nearest hill, reach the peak, and declare victory—never knowing there's a mountain range beyond the valley you'd have to descend through to reach.
 
@@ -1211,6 +1249,8 @@ At policy scale—decisions affecting large populations through organizations—
 **For policy-level decisions, accountability must attach to identifiable embodied humans.** Not to organizations, not to AI systems, not to "the process." Specific people with decision-making authority or deployment power must be identifiable as responsible parties.
 
 Liability shields cannot diffuse this responsibility. Corporate personhood provides no shield—corporations cannot be imprisoned. AI agency provides no shield—autonomous systems cannot be punished, and deploying them does not remove human accountability for their actions. Organizational complexity provides no shield—"I didn't understand the system" does not absolve those with authority to approve or prevent deployment.
+
+**Accountability for persistence, not just causation.** Causing harm triggers accountability. But so does *persisting* harm. If you learn of a problem and don't fix it, that's a separate accountability event. The initial error might be Hanlon's Razor—genuine incompetence. But once noticed and not corrected, incompetence becomes policy. A "mistake" that benefits the institution and persists after discovery is no longer a mistake; it's a choice. Systems must track not just who caused harm, but who knew and didn't act. The cover-up is often worse than the crime—and the failure to correct is a slow-motion cover-up.
 
 Physical consequences (imprisonment for serious harms, capital punishment for civilizational risks) must be possible, not just economic penalties that rational actors can price in as business costs. As AI, biotech, and interconnected systems grow more powerful, potential harms scale to civilizational. Deterrence must scale proportionally.
 
@@ -2131,6 +2171,54 @@ Current systems have structurally over-indexed on autonomy, dismantling the inte
 **Signaling Capacity:** Communities that choose high-community or high-transcendence tunings (high "trust-voltage") must maintain proportional signaling infrastructure. Trust cannot exist without high-quality signals. Attempting to tune for tight community cohesion without corresponding accountability mechanisms leads to corruption and opacity, not coordination. You cannot increase trust-voltage without increasing signaling capacity.
 
 **Measurement:** Systems should measure outcomes on all three axes (individual wellbeing, community cohesion, transcendent participation) to provide feedback on whether current tuning achieves intended balance. Without measurement, tuning is blind.
+
+### 4.17 Institutional Differentiation: Preventing Functional Collapse
+
+Document 1 identifies a metastasis sequence in institutional failure. Cancer doesn't just grow—it spreads its logic until everything loses distinct function. News becomes entertainment. Education becomes credentialing. Healthcare becomes billing optimization. Everything becomes content competing for engagement in the attention economy. Everything becomes financialized, politicized, reduced to signaling. When all institutions optimize for the same metric, they lose the capacity to serve their original functions. The tissue has dedifferentiated.
+
+Governance systems must maintain the capacity to recognize distinct institutional types and hold them accountable to type-specific functional requirements. This is institutional differentiation—the civilizational equivalent of tissue specialization.
+
+**Why Self-Labeling Fails**
+
+Entities claim whatever category suits them. "We're not media, we're a platform." "We're not a bank, we're fintech." "We're not a taxi company, we're a technology marketplace." Self-labeling exploits category gaps to escape functional accountability. If you can define your own category, you can define away your obligations.
+
+The test must be function, not declaration. What does the institution actually do? What role does it play in the lives of those who interact with it? If your algorithm shapes the beliefs of millions, you are operating signal infrastructure regardless of what you call yourself. If you hold people's money and lend it out, you are performing banking functions regardless of your charter. If you control access to essential services, you are operating utility functions regardless of your ownership structure.
+
+This isn't a novel principle—it's how society already handles professions with special powers. Doctors can prescribe controlled substances; pharmacists can dispense them; firefighters can enter buildings without permission; press can access restricted areas. These special abilities come bundled with commensurate responsibilities: licensing, liability, professional standards, accountability structures. You want the power, you accept the responsibility. The failure mode is when power and responsibility decouple—as in banking, where institutions gained the ability to create money through lending but escaped commensurate liability through bailouts and "too big to fail" protections. Food service requires sanitation compliance because contamination at scale is catastrophic. The principle scales: special access to societal functions requires special accountability for how those functions are performed.
+
+Radius of impact matters more than stated purpose. A small newsletter and a platform reaching billions both "publish content," but their obligations should differ because their capacity for harm differs. Categorization must scale with impact, not remain fixed by founding documents or corporate self-description. Small and new institutions should have latitude to experiment—innovation requires space to try things that might not work. But as scale increases, so does accountability. This inverts the current rent-seeking pattern where scale enables regulatory capture and escape from consequences. Here, scale triggers accountability rather than escaping it.
+
+**Functional Requirements by Type**
+
+Different institutional types have different failure modes and therefore need different accountability structures. Signal infrastructure—news organizations, platforms, algorithmic curators—can fail through selection bias, engagement optimization over accuracy, or manufactured consensus. Their accountability must address representativeness: does coverage reflect reality, or does it systematically distort through what it chooses to show and hide?
+
+Financial infrastructure can fail through rent extraction, systemic risk accumulation, or misallocation of capital. Its accountability must address stability and access: are reserves adequate, are risks disclosed, are services available to those who need them?
+
+Commons management institutions can fail through tragedy of the commons or capture by concentrated interests. Their accountability must address stakeholder voice and sustainability: do those affected have input, and is the resource being maintained for future use?
+
+Credentialing institutions can fail through credential inflation, gatekeeping, or disconnection between credentials and competence. Their accountability must address outcomes: do the credentialed actually perform better, and are alternative pathways available for demonstrating competence?
+
+The point is not to prescribe identical rules across types but to recognize that type determines appropriate accountability. Applying financial regulation to news organizations or journalistic standards to banks produces nonsense. But applying no standards because "we're a new thing" produces metastasis.
+
+Hybrid institutions—universities that credential AND research AND publish, platforms that host AND curate AND advertise—don't escape categorization by serving multiple functions. Each function carries its own accountability. If fragmentation occurs (separate entities for each function), each fragment is governed at its own scale. But if a coordinating layer exists—if the fragments are controlled by a common parent—that coordination creates exposure. You cannot escape accountability by routing functions through subsidiaries while retaining central control.
+
+Writing good rules for each type requires domain expertise, not just legal expertise. Tech functions need technologists involved in rule-writing; financial functions need people who understand financial engineering; signal infrastructure needs people who understand algorithmic curation. Otherwise rules become either unenforceable (written without understanding what's technically possible) or captured (written by incumbents to block competition). The goal is accountability that actually works, which requires understanding what the institution actually does.
+
+**The "New Thing" Problem**
+
+Innovation genuinely creates new categories. The answer is not to force everything into existing boxes. But novel institutions cannot escape accountability by claiming novelty. The requirement is that institutions declare what function they serve. If you claim to inform, you accept accountability to accuracy. If you claim to connect, you accept accountability to connection quality. If you claim to allocate capital, you accept accountability to prudent stewardship.
+
+You can be an entertainment company optimizing purely for engagement—but then you cannot claim the legitimacy of journalism. You can be a technology platform that merely hosts content—but then you cannot curate and amplify without accepting responsibility for what you amplify. The legitimacy of serving a societal function comes bundled with accountability to that function. You cannot claim the first without accepting the second.
+
+When institutions cross impact thresholds—measured by users, capital, influence, or control over essential services—categorization requirements activate. Declaration of function becomes mandatory. Category-specific standards apply. Claiming one function while optimizing for another triggers scrutiny.
+
+**What This Enables**
+
+Institutional differentiation preserves diversity of function. When every institution competes on the same dimension (engagement, profit, political power), the ecosystem collapses into monoculture. Differentiation maintains specialized niches—institutions that serve truth even when truth doesn't engage, institutions that maintain infrastructure even when maintenance doesn't generate clicks, institutions that credential competence even when credentialing isn't profitable.
+
+It enables appropriate accountability—matched to actual function rather than claimed category. It creates clear expectations—users know what kind of institution they're interacting with and what standards apply. It supports competition within type—institutions compete on quality of function delivery rather than on regulatory evasion.
+
+The connection to other principles is direct. Subsidiarity (4.8) recognizes that different scales require different institutional types. Lifecycle Management (4.9) applies to institutional categories themselves—as technology creates new possibilities, categories should evolve. Anti-capture architecture (Document 3, Section 6.12) must address category arbitrage as a capture vector.
 
 ---
 
