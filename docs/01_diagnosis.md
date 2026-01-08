@@ -2289,25 +2289,29 @@ If the convergency model is correct, ESG should behave in predictable ways regar
 - **Accountability vacuum:** When ESG-driven decisions cause harm, no one is responsible. ✓ (Rating agencies? Fund managers? Standards bodies?)
 - **Feedback destruction:** By adding goals beyond profitability, ESG removes profit as the primary feedback mechanism. Poor performance can now be excused by pointing to ESG achievements. This breaks the constraint that would otherwise limit extraction—managers can extract indefinitely while gesturing at sustainability metrics. The result is unbounded, even suicidal, extraction disguised as virtue.
 
-ESG behaved exactly as the framework predicts. Not because Schwab directed it to—the cynical gaming, the regulatory capture, the expulsion of true believers wasn't in any white paper. It emerged from structure once the focal point was established.
+ESG behaved exactly as the framework predicts. Not because Schwab directed it—the gaming, the capture, the divergence between stated purpose and actual function emerged from structure once the focal point was established.
 
-**The Cynical Equilibrium**
+**The important caveat:** We cannot know internal motivations—and it doesn't matter. Whether participants were cynically gaming, sincerely believing, or simply reading the wind and complying while compliance was expected, the observable behavior is identical: adoption, participation, performance of the signals. From the outside, all three look the same.
 
-The deeper evidence comes from what happens to true believers. Desiree Fixler, former Chief Sustainability Officer at DWS (Deutsche Bank's asset management arm), provides the case study.[^fixler] She bought the ESG story. She tried to engage honestly with environmental impact metrics. She reported that the firm's ESG claims didn't match reality.
+The system only reveals its selection pressure at one point: **when someone tries to make it cohere**. When someone insists on closing the gap between stated purpose and actual outcomes—that's when divergence becomes visible. Until then, cynics and believers and wind-readers all produce the same compliance. The EU scaling back of ESG mandates may reflect genuine disillusionment, or political winds shifting, or both—we can't know, and the observable outcome is identical either way.
+
+**What Happens When You Test the Claims**
+
+Desiree Fixler, former Chief Sustainability Officer at DWS (Deutsche Bank's asset management arm), provides the case study.[^fixler] By her own account, she believed in ESG—or at least part of her did, part of her wanted to. We like stories that tell us we're good people, and she was also enjoying the benefits: the prestige of the role, the salary, the power that comes from running programs everyone treats as important. None of this is contradiction; it's human. Then she tested the claims against reality—and reported that the firm's ESG ratings didn't match actual environmental outcomes.
 
 She was fired.
 
-The problem wasn't that she disagreed with the agenda. The problem was that she *took it seriously*. She treated ESG as if it meant what it claimed to mean. That's what got her expelled.
+The point isn't that Fixler was a pure-hearted truth-teller surrounded by cynics. She was benefiting from the system like everyone else. The difference is that she *checked*. She insisted on coherence between claims and evidence. That's what got her expelled—and that's the selection pressure. The system doesn't filter for cynicism vs sincerity. It filters for willingness to let contradictions stand.
 
-This reveals the equilibrium: most participants are **cynically compliant**. They know the metrics are gamed. They know the ratings are theater. They participate anyway, because participation is the price of remaining in the game. The cynicism isn't hidden—it's ambient. Everyone knows. Everyone plays along. Anyone who tries to engage honestly reveals themselves as either naive or dangerous.
+This is exactly what signal-based coordination looks like from the outside: identical compliance regardless of internal motivation, with the selection pressure only visible when someone demands coherence.
 
-**Elite selection filters for this.** The credentialing process, the luxury beliefs, the ever-shifting linguistic requirements—these aren't testing competence or conviction. They're testing: *will you play ball?* Can you speak the language without believing it? Can you perform the signals without sincerity? Can you be trusted to maintain the equilibrium, block the honest actors, perpetuate the dance?
+**Elite selection filters for this.** The credentialing process, the luxury beliefs, the ever-shifting linguistic requirements—these aren't testing competence or conviction. They're testing: *will you let the contradictions stand?* Can you adopt the vocabulary without asking whether the metrics match reality? Can you perform the signals without demanding coherence between claims and outcomes?
 
-The question isn't "what do you believe?" but "can we trust you to say whatever needs saying?"
+The question isn't "what do you believe?" but "will you check?"
 
-This is why rapid norm-shifting works as a loyalty filter (Section 2.8). Tracking the changes and adjusting your performance proves you're savvy—you understand the game. Asking "but wait, what about the actual environmental outcomes?" proves you're a liability. The selection pressure isn't toward true belief but toward **reliable performance of coordination signals regardless of belief**.
+This is why rapid norm-shifting works as a loyalty filter (Section 2.8). Tracking the changes and adjusting your performance proves you're adaptable—you won't insist on consistency. Asking "but wait, what about the actual environmental outcomes?" proves you're a liability. The selection pressure isn't toward belief or disbelief but toward **comfortable incoherence**—the ability to hold contradictory positions without experiencing them as contradictory.
 
-The signals converge into gates. ESG compliance. DEI statements. The right credentials, the right vocabulary, the right demonstrated willingness to perform. Each gate filters for cynical compliance. Each filter concentrates the selection pressure. The result is an elite class selected specifically for their ability to coordinate around focal points without sincerity—and to expel anyone who threatens the gap between stated purpose and actual function.
+The signals converge into gates. ESG compliance. DEI statements. The right credentials, the right vocabulary, the right demonstrated willingness to perform. Each gate filters for those who won't test claims against evidence. Each filter concentrates the selection pressure. The result is an elite class selected specifically for their ability to coordinate around focal points without demanding coherence—and to expel anyone who insists on closing the gap between stated purpose and actual function.
 
 [^fixler]: Desiree Fixler, interview discussing her experience at DWS and the ESG industry, 2024. Fixler was terminated after raising concerns about greenwashing; DWS was subsequently raided by German authorities and paid $25 million to settle SEC charges.
 
