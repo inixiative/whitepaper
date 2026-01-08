@@ -206,7 +206,7 @@ Progression: Pure cloud → Popup cities → Coworking/coliving → Real estate 
 
 ### 5.5 Mandatory Service — Maintaining Hardness Despite Prosperity
 
-The prosperity-vulnerability paradox (Section 1.11, Document 1): successful governance creates comfortable lives, which reduces population's willingness to defend those lives violently. Venice surrendered to Napoleon without fighting. Rome's prosperous citizens relied on mercenaries, making them vulnerable to barbarian conquest. Modern Western democracies provide excellent lives but populations are unwilling to accept casualties.
+The prosperity-vulnerability paradox: successful governance creates comfortable lives, which reduces population's willingness to defend those lives violently. Venice surrendered to Napoleon without fighting. Rome's prosperous citizens relied on mercenaries, making them vulnerable to barbarian conquest. Modern Western democracies provide excellent lives but populations are unwilling to accept casualties.
 
 **The mechanism:** Mandatory military or civic service maintains defensive capability and sacrifice-willingness despite prosperity.
 
@@ -509,6 +509,8 @@ Temporal batching addresses multiple coordination failures simultaneously:
 **Enables deliberation:** Instant resolution forces reactive rather than reflective decision-making. By separating input (which can happen anytime during the window) from resolution (which happens at the boundary), the mechanism creates space for considered judgment. Participants can see what others support, understand implications, build coalitions, and refine positions before the resolution point.
 
 **Creates coordination points:** When resolution timing is unpredictable or continuous, participants cannot coordinate attention. Synchronized boundaries create Schelling points—everyone knows when decisions happen and can align their participation accordingly. This reduces coordination costs from O(n²) (everyone coordinating with everyone about timing) to O(1) (everyone coordinates to known boundaries).
+
+**Empirical precedent—Swiss Taktfahrplan:** Switzerland's national rail system demonstrates temporal batching at infrastructure scale. The "Taktfahrplan" (pulse schedule) synchronizes the entire network to 30-minute intervals: trains arrive at major hubs just before the hour or half-hour, passengers transfer, and trains depart just after. The tick creates predictable Schelling points—every participant knows exactly when coordination happens. Result: 77% of Swiss rail journeys achieve transfers under 10 minutes. The system wasn't designed for governance, but it proves the mechanism: synchronized pulses enable complex multi-party coordination at national scale with minimal information overhead. Each participant only needs to know the tick, not the state of every other participant.
 
 **Prevents timing manipulation:** Continuous systems allow gaming through strategic timing—submitting proposals when opposition is absent, rushing votes before deliberation completes, changing conditions mid-process. Fixed boundaries remove these tactics. The window closes when it closes, regardless of who has submitted or who is watching. Late information is allowed; early closure is prevented.
 
@@ -839,7 +841,7 @@ This directly addresses Section 2.1's diagnosis of Pareto distribution accelerat
 
 **Historical context:**
 
-The 1965 ratio of 20:1 wasn't enforced by law—it emerged from social norms, strong labor unions, and progressive taxation. As those constraints eroded post-1971 (Section 1.3), ratios exploded to 350:1+. This mechanism restores bounds through transparent, enforced structure rather than relying on social norms.
+The 1965 ratio of 20:1 wasn't enforced by law—it emerged from social norms, strong labor unions, and progressive taxation. As those constraints eroded post-1971, ratios exploded to 350:1+. This mechanism restores bounds through transparent, enforced structure rather than relying on social norms.
 
 **Why this belongs in contractual associations:**
 
@@ -1263,8 +1265,8 @@ This mechanism **replaces arbitrary term limits** with legitimacy-based tenure. 
 - **Election fatigue:** Leaders constantly hit zero, causing continuous elections. Mitigation: Losing leaders face cooldown before re-running; drain rate can be adjusted; higher initial balances
 
 **This mechanism combines:**
-- Weyl & Posner's quadratic voting (Section 1.16)
-- Graeber's continuous accountability principles (Section 1.13)
+- Weyl & Posner's quadratic voting
+- Graeber's continuous accountability principles
 - Merit-based tenure replacing arbitrary term limits (Section 4.4 constraint #5)
 
 Unlike Section 4.4's elite rotation (designed to prevent bureaucratic accumulation), this allows effective leaders to serve indefinitely—as long as they maintain legitimacy. Lee Kuan Yew governed Singapore for 31 years, transforming it from third-world to first-world. The constraint shouldn't be time—it should be performance.
@@ -3074,6 +3076,50 @@ Why this matters: The Independent (Document 1, Section 1.4) has a life, a job, a
 - What happens to users who never adjust defaults? Who sets defaults?
 - Can third-party curation providers create a competitive market for algorithmic quality?
 - What threshold of tagging/usability failures constitutes non-compliance?
+
+---
+
+### 6.17 Cultural Charter: Explicit Values with Intentional Friction
+
+Document 1, Section 2.8 identifies a vulnerability in implicit culture: when norms exist only as "everyone knows" and "it's obvious," they become weapons in competitive dynamics. Rapid norm-shifting filters for tribal loyalty rather than truth or functionality. The instability itself becomes the sorting mechanism—those who track the changes prove their membership, those holding last week's position mark themselves as outsiders.
+
+The counter-mechanism is explicit codification with intentional friction. But effective cultural documentation requires distinguishing two fundamentally different components that are often conflated: boundaries and orientation.
+
+**Boundaries and Orientation**
+
+Law functions as boundary-setting. It defines what you cannot do, what you must do to remain compliant. Boundaries are essential—they create the space within which activity occurs, they prevent worst outcomes, they establish a floor. But boundaries alone don't tell you where to go within the space they define. Two communities with identical rules can have completely different cultures because their orientation differs.
+
+Orientation is affirmative rather than prohibitive. It answers: What are we trying to do? What do we aspire to? Where are we heading? You cannot "violate" an aspiration the way you violate a rule. Orientation provides direction for decisions that boundaries don't cover—the vast space of choices where nothing is prohibited but some paths align better with purpose than others.
+
+Most governance systems focus heavily on boundaries and leave orientation implicit. This is where capture occurs. When "what we're really about" exists only as shared intuition, whoever controls the narrative about aspirations controls the tribe. Making orientation explicit doesn't eliminate disagreement, but it creates a reference point that can be cited, argued about, and defended against drift.
+
+Religious texts that persist for millennia contain both components. The Torah includes prohibitions and requirements—boundaries—but also "be a light unto the nations," "choose life," "love your neighbor as yourself." These are orientation, not compliance requirements. The aspirational content persists alongside the legal content, and both are explicitly documented in text that can be referenced across generations.
+
+**The Infrastructure of Persistence**
+
+The Jewish model demonstrates what cultural homeostasis requires: explicit text as anchor, interpretive tradition that allows adaptation without losing core, ongoing commentary that extends without erasing, and clear record of what changed, when, and why. The infrastructure matters more than any particular content. A culture with this infrastructure can compound and adapt across generations. A culture without it—however well-conceived—evaporates before it can be tested. This isn't the only factor in Jewish persistence (diaspora cohesion, ritual practice, and external pressure all contributed), but the textual infrastructure provided something to cohere around.
+
+Not all cultural content carries equal weight. Some principles sit at the center—defining what a community *is*. Others are peripheral—applications, interpretations, ongoing commentary. The interesting mechanism isn't static classification but movement: how do ideas migrate toward or away from the center? What earns centrality? What loses it?
+
+Friction should scale with centrality. Changing what's at the core requires more consensus, more deliberation, more explicit justification than changing peripheral applications. But centrality itself should be contestable. A community might discover that something treated as peripheral actually defines them, or that something treated as core no longer resonates. The mechanism for shifting centrality—for arguing that an idea should move inward or outward—is itself part of the cultural infrastructure.
+
+For boundaries, friction prevents erosion through incremental low-stakes changes that accumulate into fundamental transformation. For orientation, friction ensures that directional shifts are deliberate—that the community consciously chooses to reorient rather than drifting unconsciously under competitive pressure.
+
+**Implementation**
+
+A Cultural Charter mechanism includes explicit position for each provision along the center-periphery spectrum, with amendment thresholds that scale accordingly. Changes at any position record who proposed them, what reasoning supported them, and what vote occurred—permanently preserved and publicly accessible. Rate limiting prevents capture via rapid-fire amendments. Cooling periods between proposal and vote ensure deliberation rather than reactive decision-making. Relocating a provision toward or away from the center—changing its centrality rating—should itself require significant friction, since reclassification is a backdoor to changing what's protected.
+
+The boundary section establishes what members must and must not do, with clear consequences for violation. The orientation section establishes what the community aspires to—explicit, referenceable, citable in decisions. Orientation isn't enforced through punishment for insufficient embodiment; you cannot punish someone for failing to fully live up to an aspiration. But actively working against stated orientation—sabotaging the direction rather than merely falling short—is a different matter, addressable through existing boundary mechanisms or community response.
+
+How does orientation function in practice? When disputes arise that boundaries don't resolve—where multiple options are permissible but the community must choose—orientation provides the tiebreaker. "Which option moves us toward what we said we're trying to do?" This can be invoked formally in governance processes or informally in discussion. The key is that the reference point exists and is citable. Without explicit orientation, such disputes resolve through power or exhaustion. With it, there's a shared standard to argue from.
+
+This prevents loyalty-test capture through rate limiting. It prevents gaslighting about what was agreed through explicit record. It prevents "we've always believed X" revisionism through preserved justification chains. It enables adaptation without losing core through friction that scales with centrality.
+
+The relationship to exit matters. Communities with voluntary association don't need unanimous consent—members who find the charter intolerable can leave. This is why explicit charters enable rather than constrain diversity: different communities can have different charters, and people self-select based on fit. The charter doesn't need to satisfy everyone; it needs to clearly signal what this community is about.
+
+The tradeoff is real. Communities that over-specify or set friction too high will ossify—unable to adapt to changing circumstances. Communities that under-specify or set friction too low will drift—captured by whoever is most persistent this week. The mechanism provides infrastructure; communities must calibrate based on their own assessment of which failure mode poses greater risk.
+
+Cultural Charter interacts with Lifecycle Management (Section 4.9)—charters themselves should have review cycles to assess whether friction levels remain appropriate. It interacts with Continuous Alignment (Section 6.8)—ongoing member input on whether charter reflects actual community values. It interacts with Memory and Truth mechanisms (Section 6.7)—charter history is a form of institutional memory that enables accountability across time.
 
 ---
 
