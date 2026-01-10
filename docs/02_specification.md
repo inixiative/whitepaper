@@ -2220,6 +2220,28 @@ It enables appropriate accountability—matched to actual function rather than c
 
 The connection to other principles is direct. Subsidiarity (4.8) recognizes that different scales require different institutional types. Lifecycle Management (4.9) applies to institutional categories themselves—as technology creates new possibilities, categories should evolve. Anti-capture architecture (Document 3, Section 6.12) must address category arbitrage as a capture vector.
 
+### 4.17A Develop Unbundled Language for Dual-Channel Concepts
+
+A pattern recurs throughout the diagnosis: concepts that bundle legitimate and extractive functions under the same label. Language carries both literal communication and social manipulation. Money carries both productive exchange and extractive financialization. Property carries both labor-earned ownership and inflation-captured rent extraction.
+
+The bundling is strategic. Attacking the extractive channel appears to attack the legitimate one. Critique becomes treacherous—oppose financialization and you're "against markets," oppose rent extraction and you're "against property rights."
+
+**Requirement:** Systems must develop and maintain vocabulary that distinguishes legitimate functions from extractive ones sharing the same label. Property earned through labor must be linguistically separable from property captured through monetary expansion. Productive finance must be distinguishable from extractive financialization. Without this vocabulary, systems cannot address extraction without appearing to attack production. They remain trapped in false dichotomies where the actual question—*which* forms of property, *which* market functions—becomes unspeakable.
+
+This is institutional differentiation (4.17) applied to concepts. Just as entities self-label to escape accountability, concepts bundle meanings to escape critique. The remedy is the same: unbundling through explicit, maintained distinctions.
+
+### 4.18 Prevent Claim Duplication (Single-Claim Assets)
+
+**The extraction mechanism:** Financialization extracts value wherever multiple claims can be issued against the same underlying. Fractional reserve banking creates ten claims on one deposit. Rehypothecation pledges the same collateral to multiple counterparties. Naked shorting sells shares that don't exist. Derivatives notional can exceed the total supply of the underlying asset. Each duplicate claim is a license to extract—a fictitious multiplication that dilutes existing holders while enriching those who issue the duplicate claims.
+
+This is the core mechanism behind the K-shaped economy. It's not that some people work harder or invest smarter—it's that proximity to claim-duplication infrastructure determines who can multiply their claims on underlying value while everyone else's claims get diluted. The Cantillon Effect is a special case: new money creation is just one form of claim duplication. The general principle is that **anywhere claims can exceed underlying, extraction will occur**.
+
+**Requirement:** Non-extractive systems must enforce **one valid claim per unit of underlying value**, cryptographically verified. Blockchain or equivalent distributed ledger enables this—each asset has exactly one owner at any time, with transfer recorded immutably. No rehypothecation without explicit multi-party consent and transparent tracking. No fractional reserve without full disclosure that deposits are lent out. No claims that cannot trace to verified underlying with 1:1 correspondence.
+
+**The test:** Can someone sell what they don't own? Can collateral be pledged twice without all parties knowing? Can total claims outstanding exceed the supply of underlying? If yes to any, extraction vectors remain open. If no—if every claim must trace to verified underlying—the duplicate-claim vector closes.
+
+**This is not anti-finance.** Derivatives, futures, options, and complex instruments can exist—but total claims outstanding cannot exceed underlying supply. You can trade risk; you cannot manufacture fictitious ownership. You can lend what you have; you cannot lend what you've already lent to someone else (unless all parties consent with full information). The goal is transparency and 1:1 correspondence, not prohibition of financial innovation.
+
 ---
 
 ## What Comes Next

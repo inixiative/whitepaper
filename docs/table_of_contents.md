@@ -35,7 +35,13 @@ This work is organized into four documents:
 
 ### Core Thesis
 
-We cannot prescribe the optimal governance system—that would be hubris. Instead, we provide tools to search the solution space. Smart contracts enable mechanisms for cooperation that were impossible in previous eras. By offering modular, composable governance primitives, communities can discover what works for them.
+Every society has some ratio of cooperation to extraction. This ratio isn't chosen—it emerges from the chaos of agents competing and cooperating, institutions evolving and decaying, technology enabling and constraining, culture shifting, material conditions pressing. No one designs the equilibrium; it falls out of the dynamics. Different societies at different times land at different points.
+
+But while no one controls the outcome, the conditions that shape it are not random. Some can be observed. Some can be adjusted. Inputs affect outputs. Broader, more deliberate control over inputs—rather than control concentrated in few hands or left to drift—enables broader exploration of possible outcomes.
+
+This project builds infrastructure for observing which inputs affect the cooperation/extraction equilibrium and experimenting with adjustments—at every scale from household to international. Which inputs matter, and how much, is discovered through use, not prescribed in advance.
+
+We cannot prescribe the optimal governance system—that would be hubris. But we can build tools that let societies observe where they are, experiment with adjustments, and discover what works for their context.
 
 **Success metric:** participant satisfaction over time.
 
