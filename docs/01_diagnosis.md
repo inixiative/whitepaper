@@ -211,6 +211,8 @@ We have optimized the **mean** (daily comfort) while maximizing the **tail risk*
 
 Eric Weinstein captured the core problem: **"We are now gods, but for the wisdom."** We have godlike technological power without the wisdom—or institutional structures—to wield it responsibly.
 
+**The Cartesian Crisis (Bret Weinstein):** Hyper-novelty doesn't just outpace individual adaptation—it breaks the infrastructure of *offloaded sensemaking*. Humans cannot be experts in everything; we necessarily trust institutions, specialists, and consensus to do sensemaking on our behalf. This works when incentives align: the doctor's reputation depends on healing, the scientist's on accuracy, the journalist's on truth. But when complexity exceeds coordination capacity (the Metacrisis), those alignment mechanisms degrade. Every sensemaking position becomes an extraction opportunity—follow "standard of care" for liability protection, chase fundable conclusions, optimize engagement over accuracy, maintain complexity for job security. The result is what Weinstein calls the Cartesian Crisis: "the inability to be sure of anything—scientific claims, the basic facts of historical events, the degree to which a consensus is actually accepted by others." You can no longer trust offloaded sensemaking, but you cannot do all the sensemaking yourself. Epistemic paralysis. Curtis's HyperNormalisation (Section 1.2a) is the elite response—govern a simplified fake world because the real one became illegible. The Cartesian Crisis is what it feels like from below—driving blindfolded while hallucinating.
+
 **The Conclusion:** This creates the same structural pressure the Enlightenment responded to: governance that cannot match technological reality becomes obsolete—or fatal. The old system is structurally incapable of managing Godlike Technology with Medieval Institutions.
 
 
@@ -2326,6 +2328,121 @@ We propose a new term: **Convergency**.
 A convergency produces conspiracy-like outcomes through structural alignment rather than directed planning. Participants converge on the same behavior not through secret agreement, but through shared incentives responding to a common focal point. Someone publishes an ideological cover story—a banner to rally around. But the banner doesn't *create* the coordination. It provides a Schelling point for incentives that were already aligned. The cynical behavior emerges from structure, not from any playbook.
 
 The cover story matters. It provides legitimacy, a shared vocabulary, a flag. But the flag isn't the army. The army was already there, waiting for something to converge on.
+
+**Where Do the Bad Ideas Come From?**
+
+Convergency explains how coordination happens without conspiracy. But it doesn't explain why the ideas converged upon are specifically harmful. At some point, there had to be no consensus—a chaos of competing ideas. How does the harmful one win?
+
+Six mechanisms operate simultaneously:
+
+1. **Selection pressure for bad ideas:** Ideas that benefit elites get amplified; ideas that threaten elites get suppressed. Over time, the idea ecosystem becomes dominated by elite-serving ideas. Doesn't require conspiracy—just differential survival based on who funds and platforms them.
+
+2. **Luxury beliefs as signaling:** Bad ideas that are costly to hold become status markers. "I can afford to believe this because I'm insulated from consequences." Luxury beliefs trickle down to aspirants who adopt them to signal elite membership—but aspirants aren't insulated, so they get hurt. The belief spreads precisely because it harms those who adopt it without the wealth buffer.
+
+3. **Convergent rationalization:** Elites need to justify their position. Similar positions produce similar rationalizations: "We deserve this because meritocracy." "The poor deserve poverty because choices." No coordination needed—just similar incentives producing similar self-justifying beliefs. The rationalizations converge because the extraction patterns converge.
+
+4. **Harmful by default:** Most random ideas are bad (low prior on being correct). Good ideas require tight feedback loops to reality. Elites are insulated from feedback. So their ideas drift toward random—which means mostly bad. Not selected for harm specifically, just not selected against it. The filter for good ideas is broken.
+
+5. **Second-order blindness:** Ideas that sound good get selected—compassion, fairness, safety. But sounding good ≠ working well. First-order effects are visible; second-order effects are hidden. So ideas with good first-order effects and bad second-order effects accumulate. This is Sowell's core insight: policies are judged by intentions rather than outcomes.
+
+6. **Actual coordination:** Some ideas are deliberately seeded. Foundations, think tanks, academia serve as distribution networks. But this just moves the question back: where did the seeders get the ideas? The answer is mechanisms 1-5. Explicit coordination amplifies what selection pressure already favors.
+
+The convergency framing: all six mechanisms operate simultaneously. No single source. But the result looks coordinated because selection pressure + insulation + signaling all push the same direction. The ideas that survive aren't random—they're the ones that serve extraction while sounding virtuous.
+
+**Why Specifically Harmful? Selection Through Friction**
+
+But this still doesn't fully answer the question. Why harmful ideas *specifically*, rather than merely wrong ones?
+
+The mechanism is selection for dishonesty through friction:
+
+1. Harmful or false idea gets promoted
+2. Honest engagers see it's wrong
+3. They push back, argue, try to correct
+4. They encounter friction—social cost, career risk, endless argumentation
+5. Honest engagers bounce off (not worth it)
+6. Who remains? People who either:
+   - Don't notice it's wrong (low discernment)
+   - Don't care that it's wrong (cynics/careerists)
+   - Benefit from it being wrong (extractors)
+
+The filter: good faith + intelligence = leaves. Bad faith OR low intelligence = stays. Over time, institutions fill with the latter.
+
+**Why harmful ideas select harder than merely wrong ones:**
+
+- True ideas have natural defenders—reality backs them up, honest people stick around
+- Merely wrong ideas face reality-checking that eventually corrects them
+- *Harmful* ideas only have political defenders—the only reason to stick around is benefit
+- So harmful ideas select more aggressively for cynics and extractors
+- The worse the idea, the more filtered the defenders
+
+The ratchet: each generation of defenders is more cynical than the last, because each generation of honest people bounced off. Eventually you have institutions run entirely by people who know it's nonsense but benefit from maintaining it.
+
+**This explains the 180s without acknowledgment.** When consensus shifts overnight—when yesterday's truth becomes today's heresy with no explanation—it reveals that the people doing the 180s never believed the original position. They were coordinating on whatever the current thing was. Switching costs them nothing because there was no conviction to abandon. Only honest people experience whiplash from the reversal. The cynics just update their performance.
+
+**Crisis as cover for robbery.** Naomi Klein's *Shock Doctrine* (2007) documents how crises—wars, disasters, economic shocks—create windows for extraction that would be impossible during normal times. While people are distracted, disoriented, or desperate, unpopular policies get pushed through. Rahm Emanuel made the quiet part loud in 2008: "You never want a serious crisis to go to waste. And what I mean by that is an opportunity to do things that you think you could not do before."
+
+Klein intended this as critique; Emanuel said it as strategy. The mechanism is identical: crisis provides cover, extraction happens under cover, normality returns with the robbery complete. The 2008 financial crisis produced bank bailouts. COVID produced unprecedented transfers. Each crisis leaves the treasury lighter and the extractors heavier.
+
+**The disposal phase: gaslighting after the robbery.** Bad ideas don't persist forever. After they've served their extraction purpose, they're quietly abandoned—but without acknowledgment. The full cycle:
+
+1. Bad idea promoted with moral urgency
+2. Honest people filtered out through friction
+3. Extraction/harm occurs under cover of the idea
+4. Once the robbery is complete, the idea is silently dropped
+5. Reality reasserts itself, but framed as "new evidence" or "evolving understanding"
+6. Anyone who remembers the original position—and the harm it caused—is gaslit
+
+The ideas were never beliefs. They were tools. You don't mourn a crowbar after you've opened the safe. The 180 isn't hypocrisy in the traditional sense (changing your mind). It's disposal of a spent instrument. "We've always been at war with Eastasia" isn't doublethink—it's operational security.
+
+This is why demanding accountability for past positions feels futile. The defenders of yesterday's orthodoxy will look at you blankly: "No one serious ever believed that." The position was held exactly as long as it was useful, defended exactly as fiercely as extraction required, and abandoned the moment it became a liability rather than an asset.
+
+The gaslighting isn't incidental—it's necessary. Acknowledging the reversal would reveal the game. So the reversal must be memory-holed, and anyone who insists on remembering must be marginalized as obsessive, conspiratorial, or simply unable to "move on."
+
+The thorium connection from Section 1.0: honest nuclear engineers who pushed for thorium got ground down. What remains is people who learned not to question. The institution becomes incapable of course correction—not because the evidence is hidden, but because everyone capable of acting on evidence has been filtered out.
+
+**AI as Bad-Idea Accelerant**
+
+AI changes the dynamics in dangerous ways.
+
+The current process:
+1. Bad idea emerges
+2. Gets tested against reality (slowly)
+3. Some friction, some feedback
+4. Eventually gets enshrined or discarded
+
+AI compresses this timeline and removes friction:
+
+- **Persuasion at scale:** AI generates infinite compelling arguments for any position. Bad ideas that would have died for lack of good advocates now get top-tier argumentation. The idea marketplace decouples from idea quality.
+
+- **Policy automation:** Bad ideas get coded into systems directly. No human in the loop to notice dysfunction. Feedback loops get even longer. By the time consequences become visible, the system has calcified.
+
+- **Convergency acceleration:** AI trained on existing corpus (full of enshrined bad ideas). Reproduces and amplifies consensus. Makes convergent bad ideas seem even more universal and obvious. Harder to think outside the trained distribution.
+
+- **Insulation amplification:** Elites already insulated from consequences. AI lets them automate without even seeing downstream effects. The human feedback that might have caught problems gets removed entirely.
+
+- **Legitimacy laundering:** "The AI recommended this policy." Bad ideas get the authority of "objective" technology. Harder to challenge than human advocacy because "the algorithm" has no interests to question.
+
+The meta-problem: AI optimizes for what it's trained on. Trained on human output. Human output full of enshrined bad ideas. AI becomes a flywheel for existing dysfunction—accelerating the very patterns we need to escape.
+
+**The Thorium Question: Why We Can't Get Out**
+
+This returns to the question that started the paper (Section 1.0): we had a better option, we knew it was better, we chose the worse option, and we've defended that choice for decades. The thorium question isn't just "how did we get here"—it's "why can't we get out?"
+
+Why we hold on so hard:
+
+1. **Sunk cost:** "We've invested too much to change now." True financially, but also psychologically and reputationally. The investment isn't just money—it's identity.
+
+2. **Career lock-in:** People who rose under the bad decision can't admit it was bad. Their legitimacy depends on it being right. The worse the decision, the more careers are tied to defending it. The people with the most power to change course have the most to lose from changing course.
+
+3. **Complexity as defense:** "You don't understand the nuances." "It's more complicated than that." The bad decision gets wrapped in so much complexity that challenging it requires expertise—and the experts are the ones whose careers depend on it. Complexity becomes a moat protecting incumbency.
+
+4. **Identity fusion:** The decision becomes part of institutional and personal identity. Challenging the decision = attacking the person. Rational evaluation becomes impossible because the evaluation triggers ego defense, not analysis.
+
+5. **No mechanism for graceful reversal:** Admitting error = catastrophic loss of face. There's no way to say "we were wrong, here's how we fix it" without heads rolling. So everyone pretends forever. The longer the pretense, the higher the cost of admission, the stronger the incentive to continue pretending.
+
+The structural gap: we have mechanisms for making decisions but no mechanisms for unmaking them gracefully. Bad decisions persist until catastrophic failure forces change—and by then, catastrophic failure has done its damage.
+
+This connects to the civilizational stakes. The same pattern that kept us on uranium instead of thorium operates across every domain. We're not just failing to course-correct on energy policy—we're failing to course-correct on everything. The institutions capable of self-correction have selected against the people capable of correcting them.
 
 **ESG as Predictive Test**
 

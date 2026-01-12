@@ -1642,9 +1642,36 @@ Credentialism and populism are both symptoms of Principal-Agent failure:
 
 **The requirements:** Systems must select for demonstrated competence through multiple pathways, maintain continuous accountability through performance tracking, and prevent both credentialed insularity and populist anti-expertise through structural mechanisms.
 
+#### 10. Professional and Cognitive Diversity (Anti-Monoculture)
+
+**The trap:** Even solving credentialism doesn't prevent professional monoculture. Currently, lawyers dominate governance—legislatures, regulatory agencies, executive positions are filled overwhelmingly with people trained in legal reasoning. This creates systematic blind spots.
+
+**The fundamental problem:** You cannot write legal documents your way to an Oregon power plant. You cannot argue your way to functional infrastructure, working software, healthy populations, or productive farms. Different domains require different cognitive approaches:
+
+- **Engineers** think in systems, constraints, tradeoffs, and failure modes
+- **Doctors** think in diagnosis, intervention, side effects, and triage
+- **Farmers** think in seasons, soil, weather, and biological cycles
+- **Scientists** think in hypotheses, experiments, evidence, and uncertainty
+- **Builders** think in materials, sequences, coordination, and physical reality
+
+Legal reasoning is a specific cognitive mode—adversarial, precedent-based, focused on process and liability. It's excellent for some problems and catastrophic for others. When governance is dominated by one cognitive mode, it produces governance optimized for that mode: elaborate rules, complex compliance requirements, liability shields, process over outcome. Problems that don't yield to legal reasoning get ignored or addressed with legal-shaped solutions that don't work.
+
+**The gaming problem:** Any mechanism mandating professional representation faces gaming. "Must have X engineers" produces engineers who are really politicians—people who obtained credentials but optimized for political skill. The profession becomes a costume rather than a cognitive contribution.
+
+**The requirement:** Governance systems must structurally incorporate diverse professional perspectives—not as advisory consultants to be ignored, but as decision-makers with genuine authority in relevant domains. The system must preserve the *cognitive contribution* of each profession, not just credential-check for professional labels.
+
+**Key properties the implementation must have:**
+
+- Professionals maintain connection to actual practice, not become full-time politicians with old credentials
+- Domain expertise translates to domain authority (engineers have real input on infrastructure, doctors on health policy)
+- Selection evaluates actual problem-solving approach, not just credential possession
+- The friction between different cognitive modes is preserved, not smoothed away—disagreement between the engineer and the lawyer is signal, not noise
+
+**Why this matters:** Section 1.6 (Jiang) documents the death of the generalist. Section 1.9 (Burke) documents how innovation requires cross-domain synthesis. Professional monoculture in governance is the political expression of these failures. Lawyers are trained to argue within frameworks; engineers to build systems; scientists to discover truths; farmers to work with complex adaptive systems. Governance needs all of these cognitive modes as decision-makers, not decorations.
+
 **The Shift in Equilibrium:**
 
-When all nine mechanisms operate together, the Principal-Agent problem becomes structurally manageable:
+When all ten requirements operate together, the Principal-Agent problem becomes structurally manageable:
 
 1. **Fixed slots** prevent elite overproduction (Turchin)
 2. **Continuous accountability** prevents deferred consequences (accountability vacuum)
@@ -1655,6 +1682,7 @@ When all nine mechanisms operate together, the Principal-Agent problem becomes s
 7. **Public goods bias** prevents narrow coalition governance (Selectorate Theory)
 8. **Wealth-power firewalls** prevent plutocratic capture while preserving innovation incentives
 9. **Performance-based selection** prevents both credentialist insularity and populist anti-expertise
+10. **Professional diversity** prevents cognitive monoculture and blind spots (Jiang, Burke)
 
 The "brain" (elite) stays aligned with the "body" (community) because defection is structurally difficult and cooperation is structurally rewarded. This isn't achieved through moral exhortation—it's baked into the incentive architecture.
 
