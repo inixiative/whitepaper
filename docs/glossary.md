@@ -28,6 +28,9 @@ The pathological growth of administrative structures beyond functional necessity
 
 ## C
 
+**Cartesian Crisis**
+Bret Weinstein's term for the epistemic collapse that occurs when offloaded sensemaking breaks down. Humans cannot be experts in everything—we necessarily trust institutions, specialists, and consensus to do sensemaking on our behalf. When incentive alignment degrades (the Metacrisis), every sensemaking position becomes an extraction opportunity rather than a truth-seeking function. The result: "the inability to be sure of anything—scientific claims, the basic facts of historical events, the degree to which a consensus is actually accepted by others." You can no longer trust offloaded sensemaking, but cannot do all the sensemaking yourself. Related to HyperNormalisation (Curtis) and Hyper-novelty.
+
 **Cellular Delegation**
 A hierarchical representation system based on Dunbar-bounded groups (50-150 people). Citizens organize into "cells," each selecting one recallable representative. Representatives form higher-level "tissue layers" that recursively delegate upward, creating scalable democratic structures without losing local accountability.
 
