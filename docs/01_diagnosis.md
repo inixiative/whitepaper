@@ -1277,6 +1277,8 @@ Cover stories work by pre-seeding Channel B before Channel A can engage. Once th
 
 **Why reversal is so difficult:** Emotional memes carry higher voltage than informational corrections. Tribal belonging, moral certainty, designated enemies—these activate ancient circuits calibrated for survival. "Actually, the data shows..." activates the prefrontal cortex, maybe. You cannot overwrite a high-intensity tribal signal with a dry factual correction.
 
+**Revealed vs. stated preference:** Asking people what they value activates left-hemisphere narrative construction. You get the cover story—what they think they should want, what sounds good, what signals the right tribal affiliations. Watching what people actually do reveals something different. This is economists' distinction between stated preference (what people say in surveys) and revealed preference (what people sacrifice for). People say they value privacy but hand over data for a 10% discount. People say they care about the environment but fly for vacation. People say they want honest politicians but vote for charismatic liars. The confabulation isn't conscious deception—it's the left hemisphere doing what it does: generating coherent narratives that may have no relationship to actual behavior. If you want to know what someone values, don't ask them. Watch what they sacrifice for.
+
 **Cover Story Examples**
 
 The pattern recurs across domains. In each case: a stated purpose (Channel B appeal) provides cover for an actual function (observable in outcomes). The stated purpose pre-seeds the emotional frame, making outcome-based criticism feel like tribal attack.
