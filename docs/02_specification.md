@@ -76,6 +76,8 @@ When unrelated systems independently evolve the same solution, that convergence 
 
 Coordination at scale shows similar convergence. Across biological organisms, historical institutions, distributed technologies, and organizational structures, certain patterns recur: hierarchical integration with local autonomy, decision speed matched to complexity, continuous feedback rather than periodic binary choices, lifecycle mechanisms that remove failed components. These aren't coincidences or metaphors—they're structural responses to the same underlying constraints that any system faces when coordinating autonomous agents across multiple scales. The frameworks that follow attempt to articulate these patterns precisely enough that we can reason about them, test whether they hold in new contexts, and build systems that embody the principles rather than violate them.
 
+**The inverse principle: scale-invariant problems.** Convergent evolution tells us that when different systems independently find the same solution, the problem space itself is constrained. The inverse is equally powerful: when the same problem appears at multiple scales within a system, that problem is inherent to systems of that type. You cannot predict emergent behavior from constituent parts—but if molecules forming organelles face the same cooperation/defection challenge as cells forming tissues, as organisms forming groups, as groups forming societies, then you know the challenge is structural, not incidental. This has methodological implications: solutions discovered at one scale may transfer to others. Apoptosis (programmed cell death that eliminates defectors) has analogues in institutional sunset clauses. Immune systems that detect and destroy cancerous cells have analogues in anti-capture mechanisms. The fractal nature of the coordination problem means we can reason by analogy across scales—not as loose metaphor, but as structural insight about systems facing equivalent challenges.
+
 ### 3.1 Multiscale Competency: The Cancer Problem and Governance as Bioelectricity
 
 **The Signaling Hypothesis**
@@ -675,6 +677,12 @@ Current governance is trapped on local peaks—and those peaks are constantly er
 
 Think of it as expanding the search space. Instead of "democracy vs autocracy," decompose governance into modular mechanisms that can be combined in novel ways. Instead of "more regulation vs less regulation," ask which domains use which allocation methods, and with what switching rules between them. There are contexts where unregulated markets are clearly optimal, contexts where tight regulation is clearly optimal, contexts where direct state provision is clearly optimal—but government often lacks the system intelligence to know which tool fits which problem. The dimensionality of the solution space explodes when you stop treating governance as monolithic systems. The search happens across both scale (from small groups to large federations) and time (from fast-iterating experiments to slow constitutional evolution).
 
+**Clearing the frame: cooperation/extraction, not left/right.** The same reframing applies to political discourse itself. Left, right, progressive, conservative—these labels bundle unrelated positions and present false choices. The axis that actually predicts institutional health is simpler: does a policy expand the conditions under which cooperation can happen, or does it enable some parties to extract value from others? A "left" policy and a "right" policy can both be extractive; coalitions on either side contain cooperators and extractors. Left/right isn't unrelated to cooperation—but the relationship is obscured. The labels bundle so many positions that the cooperation question gets lost in tribal signaling.
+
+When arguing in good faith, ideological disagreement is often about cooperation—just unconsciously. When people argue about tax policy, regulation, or social programs, they're debating what conditions enable a fair society where people can thrive together. That's cooperation. The disagreement is about *how* to achieve it: whether markets or states better coordinate resources, whether equality of opportunity or outcome matters more, whether individual liberty or collective provision creates better lives. These are genuine tensions worth navigating. But plenty of political energy is straightforwardly extractive—groups voting to capture resources for themselves at others' expense, wrapped in whatever ideological language is convenient. The left/right frame obscures both: it makes genuine cooperation debates tribal, and it provides cover for extraction by letting it hide behind team loyalty.
+
+**Cooperation is not control.** A persistent conflation: "more cooperation" gets heard as "more central control." This collapses two distinct dimensions. Control is about *who decides*—centralized or distributed authority. Cooperation is about *alignment of interest*—whether participants gain from each other's success or from each other's loss. A centralized system can be cooperative (a well-run company serving customers) or extractive (a tyranny enriching rulers). A decentralized system can be cooperative (a functional market with honest exchange) or extractive (a race to the bottom, fraud unpunished). The conflation makes people oppose cooperation infrastructure because they hear "control infrastructure." This document is agnostic on the control axis—different communities will find different configurations work for them. The specification is about enabling cooperation at whatever level of centralization a community chooses.
+
 **Enabling parallel search:** Evolution works through massive parallelism. Millions of organisms trying millions of variations simultaneously, with selection operating continuously across the whole population. Governance design typically attempts serial search: one nation tries one reform at a time, and we wait decades to see if it worked. The information gain is glacial.
 
 Parallel search across independent communities becomes possible—different groups trying different combinations of mechanisms, measuring outcomes, sharing results. Governance as distributed experimentation, with data collection as infrastructure.
@@ -761,6 +769,98 @@ Brutal winters require storing food months ahead or dying. Societies facing leth
 Pastoralists with mobile wealth (livestock that can be stolen overnight) developed honor cultures where personal reputation for retaliation deters theft. Settled farmers with immobile wealth (land, stored grain that courts and communities can protect) developed institutional trust. The American South's higher violence rates trace partly to Scotch-Irish herding heritage; the North's lower rates to agricultural traditions. Institutional trust scales better and costs less in violence—but you don't develop it while conditions are selecting against it.
 
 **The design implication:** The platform doesn't prescribe which configuration is correct. It enables the search process that finds configurations adequate to constraints—at each relevant scale, for each community's circumstances, within each population's actual capacity. Where adequate configurations have historically been found, civilization grew. Where they couldn't be found, it didn't. The platform replicates a process that demonstrably works, under novel constraints.
+
+### 3.9 Markets: What They Are, What They're For, What They Need
+
+**What is a market?**
+
+A market is a coordination mechanism where distributed agents exchange goods, services, or claims using prices as signals. Prices aggregate information no central planner could collect: what people want, what's scarce, what's abundant, what tradeoffs they're willing to make. When markets function, they solve coordination problems that would overwhelm any planning committee—millions of decisions about what to produce, where to ship it, how to price it, made continuously by people who never meet.
+
+**What is private property?**
+
+Private property is a social agreement that specific resources are controlled by specific people, enforced by the broader community. It's not a natural state—it's a constructed institution. Societies choose to enforce property rights because (in theory) they enable cooperation: if you know your harvest won't be seized, you'll invest in planting. If you know your inventions will be protected, you'll invest in creating. Property rights are instrumental—they exist because they're supposed to make everyone better off, not because they're morally prior to society.
+
+**A digression into history:**
+
+The standard economics story—first barter, then money, then credit, then markets—is backwards.
+
+Within a community, you don't need money. Everyone knows everyone, relationships are ongoing, debts are remembered socially. I give you fish today, you help me build tomorrow, nobody counts precisely because we'll be dealing with each other for life.
+
+But *between* communities, when something goes wrong—you kill one of theirs—how do you settle it without endless blood feud? You need to quantify the value of a person. Blood money. Wergild. "This many cattle for that life." That's where money comes from. Not "I have fish, you have shoes, how do we trade efficiently"—but "you killed my brother, what do you owe me to prevent war." The first thing that needed precise valuation was human life. Money was people. The unit of account was the person.
+
+Long-distance trade added complexity. Luxury goods—spices, silk, metals—were worth the transport cost. But how do you verify what you're getting from a stranger you'll never see again? James Burke's *Connections* highlights the Lydian touchstone (6th century BC): rub metal on black stone, compare the streak color to known samples. Technology enabling cooperation—you can't have trustworthy exchange without verification. Coinage plus touchstone equals standardized, verifiable currency, equals trade at scale.
+
+The pattern: every expansion of market cooperation required new infrastructure. Verification technology (touchstones, scales, assayers). Recording technology (writing, ledgers, double-entry bookkeeping). Enforcement technology (courts, contracts, police). States and markets co-evolved—states needed to pay soldiers and collect taxes, markets needed states to enforce contracts and punish fraud. There was never a "natural" market state that government interfered with. Markets are constructed technology for managing stranger-relations.
+
+**What markets are good at:**
+
+When functioning, markets excel at:
+- **Distributed information processing** — prices aggregate knowledge no planner could collect
+- **Coordination without central control** — millions of decisions made by people who never meet
+- **Innovation incentives** — rewards for solving problems others will pay for
+- **Efficient allocation** — resources flow toward valued uses
+- **Strangers cooperating** — exchange without prior trust or relationship
+
+This is genuine cooperation technology. Two people who don't know each other, don't share values, don't speak the same language, can exchange goods to mutual benefit. The market provides the protocol.
+
+**When markets fail: Questions that reveal assumptions**
+
+Markets have prerequisites. When those aren't met, markets become extraction mechanisms rather than cooperation mechanisms.
+
+*What happens when markets control necessities with no competition?* Water is infrastructure—a natural monopoly. You can't build a second pipe network to create competition. Food markets work because production is decentralized, with many producers and easy entry. Water doesn't have that structure. When a necessity has monopoly characteristics, "voluntary exchange" becomes coercion. You can't exit; the market has leverage.
+
+*What happens when wealth concentrates in a small minority?* Markets assume rough bargaining equality. When one side has all the capital, they can wait you out, buy up alternatives, capture regulators. "Voluntary" exchange with a party who controls what you need to survive is not cooperation—it's extraction with a smile.
+
+*What happens when safety and quality can't be verified?* Information asymmetry—seller knows, buyer doesn't. "The market will punish bad actors" requires harm to be visible, attributable, and escapable. Without those: race to the bottom. The competitor who hides harms and prices low beats the honest seller. The market selects for whoever externalizes costs best.
+
+*What happens without enforcement of property rights and contracts?* You hire enforcers. Enforcers negotiate or fight with other enforcers. Organizations with violence capacity that extract payment for protection are called mobs, feudal lords, or governments. "Markets without government" isn't a stable configuration—it's a transition state that resolves into governance, just with more violence along the way.
+
+*What do people actually want from markets, versus what they get?* People want fair exchange, quality goods, reasonable prices, safety. What they often get: extraction, fraud, monopoly pricing, hidden harms. The gap between market mythology and market reality is where politics lives.
+
+*What happens when the product is your attention and the cost is your wellbeing?* The attention economy optimizes for engagement, not satisfaction. Platforms compete to capture attention; the winner is whoever triggers the strongest response—outrage, anxiety, envy, fear. The result: a device in your pocket engineered to make you depressed, that you can't put down, that you need for work and social connection. You didn't choose this. No one asked "would you like a machine that maximizes your screen time at the cost of your mental health?" The market produced it because attention is monetizable and psychological damage is an unpaid externality. You can't exit—the platforms have become infrastructure. And the information asymmetry is total: they have teams of engineers studying how to manipulate your behavior; you have willpower.
+
+**The enforcement prerequisite:**
+
+Markets presuppose a framework that enforces their rules. Property rights don't enforce themselves—someone must stop theft, adjudicate disputes, punish fraud. Contracts don't execute themselves—someone must compel performance or extract damages. The question was never "markets OR governance." Markets are downstream of governance. The only questions are: what rules does the framework enforce, and who controls it?
+
+"Free market" in the sense of "no rules" is incoherent. Without rules against monopoly, markets become monopolies. Without rules against fraud, markets become fraud. Without rules against violence, markets become protection rackets. The rules are what make markets work. The constraints are the market.
+
+But this creates a second-order problem: the rules themselves become targets for capture. Regulations meant to prevent extraction become tools of extraction—licensing requirements that protect incumbents, safety standards written by the companies they regulate, zoning laws that inflate property values for existing owners. Monopoly and regulatory capture are two sides of the same coin: control the market directly, or control the rules that govern it. Either way, the result is rent-seeking. The power to make rules is necessary for markets to function, but that same power, when captured, makes markets extractive. This is why the democratic premise matters—if rule-making is locked away from revision, capture becomes permanent.
+
+**Selection, not design:**
+
+Current market institutions didn't emerge from theory—they emerged from centuries of trial and error. Bankruptcy law exists because societies discovered that permanent debt slavery destroyed productive capacity. Anti-trust exists because societies discovered that monopolies extract rather than create. Securities regulation exists because societies discovered that information asymmetry enables fraud at scale. Consumer protection exists because societies discovered that buyers can't verify safety claims and races to the bottom kill people.
+
+These aren't arbitrary constraints imposed on a pure system. They're solutions to failure modes discovered through painful experience. Every regulation has a story—usually a disaster that preceded it. The question isn't "regulation vs. freedom"—it's "which failure modes have we learned to prevent, and which are we still discovering?"
+
+**The design implication:**
+
+If markets are constructed cooperation technology, then the construction matters. What differentiates cooperative markets from extractive ones?
+
+- **Transparency** — parties can verify claims
+- **Competition** — alternatives exist, exit is possible
+- **Accountability** — fraud and defection are punished
+- **Symmetric information** — both parties know what they're trading
+- **Priced externalities** — costs can't be hidden and dumped on others
+- **Enforcement** — contracts and property rights are reliable
+
+These conditions don't happen naturally. They require design and maintenance. A market without these conditions isn't "free"—it's failed. The work of maintaining markets as cooperation technology never ends.
+
+**The democratic premise: choosing the rules, not just within them**
+
+Market ideology often treats market rules as natural or given—property rights, contract enforcement, what can be owned, what can be traded. But these are choices. Societies make them, and different societies make them differently—shaped by culture, history, geography (wheat vs. rice).
+
+The fundamental democratic claim is not that markets are good or bad, but that people should be able to choose the rules of their markets, not just make choices within them. You choose which goods to buy—but you should also be able to affect whether healthcare is a market good at all, whether land can be monopolized, whether information asymmetry is permitted.
+
+This creates a meta-incentive: market actors who know the rules can be changed cannot hide behind ideology. "That's just how markets work" is not a defense when the market's rules are subject to democratic revision. Extraction that would otherwise be defended as natural becomes visible as a choice—one that can be reversed. Markets that stay aligned with what people actually want face less pressure for restructuring.
+
+Most societies are a mix—some sectors heavily regulated, others light-touch, some publicly provided, some private. This isn't incoherence; it's the result of learning what works where. Water privatization has failed repeatedly (Bolivia's water wars, UK failures) because water has the characteristics that make markets extractive: necessity with no exit, natural monopoly, information asymmetry. But failure can also come from the opposite direction: healthcare in the US combines restricted supply (licensing, certificates of need) with subsidized demand (insurance, Medicare)—the worst of both worlds, neither functional market nor functional public provision. LASIK eye surgery, outside the regulated system with consumers paying directly, shows healthcare *can* follow the price-collapse pattern of other technology sectors. The appropriate mix is discovered through experience, not derived from first principles.
+
+This document doesn't prescribe what those choices should be. Individualist cultures and cooperative cultures will choose differently, and that's appropriate. What the document argues is that the infrastructure for making those choices should exist—that the meta-level shouldn't be locked away from democratic input, captured by incumbents, or treated as natural law.
+
+The goal is choice about the system, not just choice within it.
+
+---
 
 ## 4. Principles of a Cooperative Society: Requirements for Supporting a Wide Cooperation Radius
 
@@ -1671,7 +1771,7 @@ Legal reasoning is a specific cognitive mode—adversarial, precedent-based, foc
 
 **The Shift in Equilibrium:**
 
-When all ten requirements operate together, the Principal-Agent problem becomes structurally manageable:
+When all eleven requirements operate together, the Principal-Agent problem becomes structurally manageable:
 
 1. **Fixed slots** prevent elite overproduction (Turchin)
 2. **Continuous accountability** prevents deferred consequences (accountability vacuum)
@@ -1683,8 +1783,39 @@ When all ten requirements operate together, the Principal-Agent problem becomes 
 8. **Wealth-power firewalls** prevent plutocratic capture while preserving innovation incentives
 9. **Performance-based selection** prevents both credentialist insularity and populist anti-expertise
 10. **Professional diversity** prevents cognitive monoculture and blind spots (Jiang, Burke)
+11. **Age-weighted influence** prevents generational capture and ensures succession
 
 The "brain" (elite) stays aligned with the "body" (community) because defection is structurally difficult and cooperation is structurally rewarded. This isn't achieved through moral exhortation—it's baked into the incentive architecture.
+
+#### 11. Age-Weighted Influence (Anti-Generational Capture)
+
+**The trap:** Power naturally accumulates with age—experience, networks, wealth, institutional knowledge all compound over time. This is rational individual behavior. But when combined with increased longevity and large cohort sizes, it produces generational capture: one cohort holding power for decades, blocking normal succession, governing with outdated mental models.
+
+**Why this is now necessary:** Historically, mortality enforced generational succession automatically—elders died, power transferred whether they wished it or not. Increased longevity has broken this natural mechanism. What was once inevitable must now be designed.
+
+**The biological intuition:** Influence should track stake in the future. A 25-year-old has 50+ years to live with consequences of today's decisions. A 75-year-old has perhaps 10. Yet current systems often invert this—those with the shortest time horizons make the longest-term decisions.
+
+**The requirement:** Influence in governance should scale with life-cycle factors. This can be implemented through vote weighting (individual voting power varies by age) or position weighting (eligibility and authority in leadership roles varies by age), depending on community preference.
+
+**Early influence (teens):** Minimal but non-zero. Longest time horizon of any cohort—they'll live with consequences longest. Limited by inexperience, but included in the system rather than excluded entirely. Builds civic engagement early.
+
+**Rising influence (20s-30s):** Young adults build stake through demonstrated competence, contribution history, and community investment. Influence grows as they prove themselves.
+
+**Peak influence (40s-50s):** Maximum weight. These individuals combine substantial experience (20-30 years of pattern recognition) with substantial future stake (30-40 years of consequences). They have enough history to judge well and enough future to care about outcomes.
+
+**Declining influence (60s+):** Gradual transition toward advisory rather than executive roles. Wisdom and pattern recognition remain valuable; decision-making authority shifts to those with longer time horizons. Not a cliff—a gradual curve acknowledging reduced future stake.
+
+**Why this differs from term limits:** Term limits are arbitrary—why 8 years and not 10? Age-weighting ties influence to the structural factor that actually matters: how long you'll live with the consequences. It creates natural turnover without arbitrary cutoffs.
+
+**Key properties the implementation must have:**
+
+- Gradual curves, not cliff edges—influence scales smoothly, not binary thresholds
+- Advisory roles preserve elder wisdom without concentrating executive power
+- Communities can tune the specific curves based on their values and demographics
+- Prevents one generation from permanently blocking succession
+- Maintains accountability across generational transitions
+
+**The shift this creates:** Instead of gerontocracy (oldest accumulate most power indefinitely) or pure youth rule (inexperience in charge), the system weights toward those with both experience AND future stake. Generational handoff becomes structural rather than dependent on incumbents choosing to step aside.
 
 ### 4.7A Collective Action Against Concentrated Private Power
 

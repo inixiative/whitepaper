@@ -1829,6 +1829,14 @@ Capture—when special interests or elites gain control over institutions meant 
 
 This section details mechanisms designed to resist capture structurally rather than relying on goodwill or periodic reform efforts.
 
+**The Watchmen Problem**
+
+Every anti-capture mechanism faces an infinite regress: who watches the watchmen? If regulators can be captured, create oversight boards. If oversight boards can be captured, create oversight of oversight. Turtles all the way down.
+
+The answer isn't "no watchmen"—specialized investigation requires expertise that can't be fully distributed. The answer is separating *doing the watching* from *judging the watchers*. Watchmen exist: auditors, investigators, oversight bodies with specialized skills. But they don't judge themselves. The broader community evaluates their performance through transparent results, distributed voting, and structural accountability. Expertise does the work; the public determines whether the work was done well. This is the jury principle applied to institutional oversight.
+
+The mechanisms below implement this separation: specialized roles for detection and investigation, distributed judgment for accountability, structural incentives that make capture expensive, visible, and likely to fail.
+
 #### 6.12.1 Peer Point Allocation (Bonusly-Style Reputation)
 
 Traditional reputation systems face a fundamental problem: **who decides what counts as valuable contribution?** Centralized scoring creates the rubric control problem (Section 2.7.7). But pure democracy (everyone gets equal say) doesn't distinguish between those who contribute and those who extract.
