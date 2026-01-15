@@ -1413,6 +1413,8 @@ If a system claims to "help the poor" but consistently produces poverty traps, t
 
 **This is not cynicism—it's engineering diagnosis.** We don't need to accuse leaders of malice. We don't need conspiracy theories about evil cabals. We simply observe: What does the machine actually do? If your car's speedometer reads 60mph but bicycles are passing you, the speedometer is broken. Acknowledging this isn't cynical—it's prerequisite to repair.
 
+There's a word for this: **teleology**—the study of purpose and goal-directedness in systems. POSIWID is teleological thinking applied to institutions: systems have purposes, and those purposes are observable in outcomes.
+
 The philosopher G.W.F. Hegel made a similar observation: "The rational is real, and the real is rational." What persists over time reveals underlying function, even when that function serves purposes no one will publicly acknowledge.
 
 **Why POSIWID is hard:** Section 1.13 documents the mechanisms—confabulation makes us generate charitable narratives, and cover stories pre-seed emotional frames that make outcome-based criticism feel like tribal attack. The result: POSIWID observers get labeled cynical or conspiratorial, which protects dysfunctional systems from scrutiny.
