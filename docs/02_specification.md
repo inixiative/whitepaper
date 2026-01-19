@@ -2339,6 +2339,14 @@ Jonathan Haidt's work in *The Happiness Hypothesis* identifies three fundamental
 
 Current systems have structurally over-indexed on autonomy, dismantling the intermediary structures (families, guilds, local communities) that previously provided community cohesion and transcendent meaning. The result is widespread atomization, loneliness, and increased vulnerability to institutional extraction. Systems should enable communities to consciously tune the balance of these axes to match their values and needs.
 
+**The kinship calibration problem:**
+
+Community requires belonging infrastructure, but intensive kinship (cousin marriage, clan loyalty) constrains cooperation radius—Dunbar slots fill with kin, leaving little capacity for stranger-cooperation. This is the blind alley most human societies got stuck in. The medieval Church's Marriage and Family Programme demonstrated that community cohesion does not require intensive kinship—you can attenuate kin intensity while maintaining family and community structures.
+
+The overcorrection: having discovered that intensive kinship wasn't necessary, modernity proceeded to dismantle *all* intermediary structures. We threw out community along with clan. The result is atomization—belonging receptors unfilled, captured by substitutes (ideology, parasocial relationships, brand identity) that provide the feeling of belonging without generating actual coordination.
+
+**The requirement:** Attenuate intensive kinship enough to enable stranger-cooperation (guilt over shame, expanded cooperation radius), while maintaining family and community structures that provide real belonging. Not clan, not atomization—calibrated community. Systems must support community formation that fills belonging receptors without reverting to intensive kin networks.
+
 **Requirements:**
 
 **Tunability:** Governance mechanisms must expose parameters that communities can adjust to shift the balance between autonomy, community, and transcendence. These adjustments should affect incentive structures, accountability thresholds, and resource allocation in predictable ways.
