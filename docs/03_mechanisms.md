@@ -3154,5 +3154,114 @@ The Diagnosis told us why we need alternatives. The Specification defined what w
 
 ---
 
+## Postscript: Religion as Coordination Signal Infrastructure
+
+The mechanisms in this document attempt to build coordination infrastructure—systems that generate trust, suppress defection, enable cooperation at scale. But humans already evolved such infrastructure: religious belief systems. Understanding *why* religion works provides insight into what secular replacement must accomplish.
+
+**The POSIWID stance:**
+
+Even if we assume religious beliefs are factually false—that they reduce rather than improve our ability to predict the future—the fact that they evolved independently in every culture and were conserved across millennia suggests they serve some adaptive function. POSIWID: the purpose of a system is what it does. If religion persists universally despite potential epistemic costs, the question isn't "is it true?" but "what function is it serving that's valuable enough to offset those costs?" This postscript attempts to answer that question.
+
+**The mechanism, not the content:**
+
+We understand that religion promotes cooperation. The literature treats belief as a black box—you either have "faith" or you don't. This misses the mechanism. If consciousness is an arbitration system that weighs competing signals (Document 2 Postscript), and if group coordination requires generating/receiving signals about membership, coherence, and mutual commitment—then religious belief is a *technology* for generating those signals internally.
+
+**Two signal types:**
+
+| Signal Type | What It Regulates | Failure Mode Without It |
+|-------------|-------------------|------------------------|
+| **Coordination signals** | Group coherence, defection suppression | Free-rider collapse, trust breakdown |
+| **Safety/substrate signals** | Individual stress, risk tolerance | Chronic anxiety, paralysis, withdrawal |
+
+*Coordination signals* say: "We are a group. Defection is observed. Cooperation is sacred."
+
+*Safety signals* say: "Things will be okay. The world is predictable. You are provided for."
+
+**What different beliefs generate:**
+
+| Belief Structure | Signal Generated | Coordination Effect |
+|-----------------|------------------|---------------------|
+| Omniscient observer | "I am being watched" | Defection detection impossible |
+| Ancestor spirits | "My lineage persists" | Extended time horizon, legacy motivation |
+| Afterlife rewards/punishments | "Infinite consequences" | Overwhelms temporal discounting |
+| Sacrifice requirements | "I am invested" | Sunk cost, commitment signal to self and others |
+| Shared rituals | "We are synchronized" | Common knowledge of coordination |
+| Creation narrative | "We share origin" | Expands cooperation radius to co-believers |
+| Moral code from God | "Rules are non-negotiable" | Removes defection rationalization |
+| Reincarnation/karma | "Actions compound across lives" | Extended time horizon, justice will eventually balance |
+| Providence | "Things will be okay" | Dampens uncertainty stress |
+
+**The evolutionary logic:**
+
+Intelligence creates a problem: you can model the future, which means you can model all the ways things could go wrong. This is adaptive up to a point—you prepare, you plan, you avoid danger. Past that point, it becomes maladaptive: chronic stress, paralysis from perceived risks, energy drain from constant vigilance.
+
+As Sapolsky observes, zebras don't get ulcers because they can't model the future. They stress when the lion is chasing them, then it's over. Humans stress about lions that might come, lions that came last year, lions their children might face, the *concept* of lions, whether their lion-avoidance strategy is optimal.
+
+Religion provides a circuit breaker: "God/ancestors/karma/fate will handle the lions I can't control."
+
+**The coevolution argument:**
+
+If religious belief were purely cultural accident, you'd expect patchy distribution (some cultures have it, some don't), no correlation with social outcomes, easy to discard when "we know better." Instead we see: universal emergence (every culture develops something), correlation with cooperation scale and social complexity, extremely difficult to replace (secular communes fail within 8 years while religious ones persist).
+
+This suggests we didn't just *invent* religion—we *coevolved* with it. The memes and genes shaped each other. We're not just using religious belief; we're *adapted to receive it*. The receptor evolved alongside the signal.
+
+This parallels multi-scale competency at other levels. Cells evolved mechanisms to sense membership in a larger organism—without these, cancer (cellular defection). Humans may have evolved analogous receptors: hardware for sensing membership in something larger and continuous. This is Haidt's "transcendence" axis—not a mysterious spiritual category but evolved hardware expecting input.
+
+The evolutionary sequence matters: once organisms evolve community coordination, the community itself becomes the selection environment. Groups whose members can sense membership in something larger coordinate better; they outcompete groups whose members can't. The transcendence receptor is exactly what you'd evolve for long-lived tribal coordination—the ability to sense membership in something that extends beyond your individual lifespan, and to act accordingly. The community selects for the hardware that makes community work.
+
+Small tribal units with shared religious rituals were the ancestral signal environment. Every family, every tribe had its own practices. The receptors evolved expecting that input. Religion fits those receptors; modern secular life leaves them unfed.
+
+**Unfilled receptors seek signals:**
+
+This is nearly axiomatic for goal-seeking systems: an unfilled receptor generates search behavior. The question is never *whether* something fills it, but *what*. When religion occupied the transcendence receptor, it channeled the search toward community, ritual, and coordination infrastructure. Remove religion and the receptor doesn't disappear—it seeks other signals. Political ideology. Parasocial relationships with celebrities. Sports tribalism. Conspiracy communities. Brand identity. Online fandoms. Each provides some simulacrum of the coordination signals religion generated: group membership, shared narrative, us-vs-them boundaries, something larger than the self to identify with.
+
+The pattern clarifies the MFP mechanism: the medieval Church didn't just attenuate kin networks—it freed up receptor capacity that kin signals had been saturating, then filled that capacity with religious signals that coordinated at larger scale. Augustine's explicit goal of extending "bonds of charity beyond natural kin" is the strategy stated plainly. Islam did the same with the ummah. The receptor is always there; kin filled it at small scale; religion filled it at larger scale; modernity emptied it; now a thousand substitutes compete to fill it. You fit in, but it's a hobby—belonging without building, filling the receptor without generating actual coordination. Often these are precisely the substitutes the state tolerates: they satiate the receptor without creating competing loyalty structures or alternative power centers.
+
+The secular challenge isn't building something to *replace* religion—it's recognizing that unfilled receptors will be filled by *something*, and that something is currently a fragmented mess of ideology, algorithm-optimized outrage, and consumption-as-identity. The infrastructure question is whether we can provide signal sources that actually coordinate, or whether we leave the receptors to be captured by whatever generates the most engagement.
+
+Removing religion doesn't just remove a "nice to have"—it removes expected input to evolved systems. Like removing vitamin C from the diet: we lost the ability to synthesize it because we were getting it from the environment. Similarly, we may have lost (or never developed) the ability to generate coordination/safety signals purely internally because we were getting them from belief systems.
+
+**Why unfalsifiability is the feature, not the bug:**
+
+A falsifiable belief can't serve the safety function because:
+
+- It's supposed to update on evidence
+- Bad outcomes → belief weakens → signal weakens → exactly when you need it most
+- "Things will be okay because X" + X fails = no more safety signal
+
+Unfalsifiable beliefs are load-bearing *precisely because* they don't update on local evidence. "God has a plan" persists through failure because it *cannot* be falsified by local evidence. The buffer maintains exactly when the buffer is needed.
+
+**The sacred protection function:**
+
+Religion serves a second function beyond signal generation: it protects certain content from the optimization loop. "Sacred" means "this doesn't get gamed, updated, or negotiated." When everything is subject to feedback and revision, everything eventually gets captured. The sacred category creates protected space.
+
+These two functions interact. The content protected from change is often what generates the signals. If costly sacrifices could be negotiated away, commitment signals disappear. If "God is watching" could update on evidence, defection-suppression weakens. Unfalsifiability protects the signal-generating machinery itself.
+
+Judaism's persistence as "people of the book" illustrates the mechanism: textual anchor resists drift. Oral traditions shift; written canon provides a reference point that can be cited against change. The infrastructure of text + interpretive tradition allows adaptation at the periphery while protecting the core. This is the same pattern as the Cultural Charter—friction scaling with centrality.
+
+This connects to the forgetting loop: civilizations face continuous selection pressure against memory. Every hour preserving wisdom is an hour not competing. The convergent solution across cultures was a structurally separated memory class—priests, rabbis, monks, scholars—protected from competition with other functions. Religion provided both the *content* worth preserving and the *institutional architecture* for preserving it. The sacred protection function and the memory-preservation function are the same function viewed from different angles.
+
+The end-of-society pattern: when nothing is sacred, everything enters the optimization loop, everything becomes negotiable, everything gets gamed. The "nothing is off-limits" phase is the loss of protected space. Religion maintains that space—imperfectly, but structurally.
+
+This may explain why secularism clusters at civilizational collapse points. Secularism removes the protected space, causing the gaming cascade. Or secularism emerges when religious institutions have accumulated enough corruption to lose credibility—symptom of late-stage cruft. Or the intellectual class defects from signal-maintenance, gaining status by critiquing the very infrastructure they're supposed to maintain. Most likely all three in a feedback loop: corruption weakens religion, secularism emerges, protected space shrinks, gaming accelerates, more corruption, more secularism.
+
+**Why imperfectly: the corruption-adaptation tradeoff:**
+
+Individual incentives to corrupt religion are strong. The priestly class benefits from adding complexity, increasing their necessity, capturing interpretation. But the core text can't be updated—so adaptation happens through interpretive layers. Torah begets Talmud; Quran begets hadith; scripture begets commentary. Each layer patches the previous for new circumstances. Each layer is also a capture opportunity. Over time, layers calcify and become sacred themselves. The system accumulates technical debt—eventually overspecified, encumbering, "autistic" in its complexity. But still functional, because the core anchor holds.
+
+The unfalsifiability that protects the signal-generating core also prevents removing bad patches. You can add interpretive layers but rarely subtract them. This is the tradeoff: protection from gaming vs. inability to course-correct. Religions persist not because they're optimal but because the protection function outweighs the accumulating cruft—until it doesn't, and reform movements or schisms attempt to strip back to core text.
+
+This is the core problem for secular replacement: you can't replace religion with "good institutions that demonstrably work" because institutions fail sometimes, and when they fail, the signal fails—precisely when you need it most.
+
+But there may be another path. Religion generates transcendence signals through belief about being part of something larger. But you actually ARE part of something larger—the individual self is one level of organization, not the only real one. Functional coordination infrastructure might feed the transcendence receptors not through unfalsifiable belief but by making the larger-scale coordination real enough to identify with. The signal would be true because the coordination would be true.
+
+Haidt's insight is that the three axes—autonomy, community, transcendence—aren't zero-sum. You can score high on all three simultaneously. The goal isn't trading one for another but building infrastructure where all three flourish. Both endpoints (pure atomized autonomy, pure collective dissolution) are failure modes. Healthy multi-scale systems don't sacrifice one level for another—they coordinate across all levels.
+
+Missing any axis degrades the others. Without autonomy, you can't contribute—only comply. Without community, you can't coordinate—only transact. Without transcendence, you can't sacrifice for the long term—only optimize locally. Each axis makes the others possible. A person missing any one becomes not just a worse member of the group but less fulfilled—less actualized.
+
+This is the aspiration: not simulating religious signals but building the actual coordination that makes transcendence warranted, without sacrificing the autonomy and community that make it meaningful.
+
+---
+
 **Continue to [Document 4: The MVP →](04_mvp.md)**
 

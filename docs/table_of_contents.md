@@ -121,6 +121,7 @@ Any shorter treatment would either oversimplify the problem or fail to establish
 - 2.12 The Accountability Vacuum (Nobody to Jail)
 - 2.13 Third-Worldification: The Stable Degraded Equilibrium
 - 2.14 The Metacrisis: The Complexity Gap and the 25% Path
+- 2.15 The Forgetting Loop and Memory-Preserving Architecture
 
 ---
 
@@ -155,6 +156,12 @@ Any shorter treatment would either oversimplify the problem or fail to establish
 - 4.12 Resist the Tyranny of Metrics
 - 4.13 Capture Preference Intensity, Not Just Direction
 - 4.14 Protect Individual Sovereignty Through Rights Subsidiarity
+- 4.15 Markets as Coordination Infrastructure (With Constraints)
+- 4.16 Moral-Political Axes: The Three Foundations
+- 4.17 Institutional Differentiation: Preventing Functional Collapse
+- 4.17A Develop Unbundled Language for Dual-Channel Concepts
+- 4.17B Stable Differentiation Architecture
+- 4.18 Prevent Claim Duplication (Single-Claim Assets)
 
 ---
 
