@@ -2451,6 +2451,24 @@ This is the core mechanism behind the K-shaped economy. It's not that some peopl
 
 **This is not anti-finance.** Derivatives, futures, options, and complex instruments can exist—but total claims outstanding cannot exceed underlying supply. You can trade risk; you cannot manufacture fictitious ownership. You can lend what you have; you cannot lend what you've already lent to someone else (unless all parties consent with full information). The goal is transparency and 1:1 correspondence, not prohibition of financial innovation.
 
+### 4.19 Light Touch Intervention: Minimum Effective Dose for Complex Systems
+
+Complex systems are butterfly-sensitive. Small perturbations cascade unpredictably; heavy interventions cascade catastrophically. Žižek's inversion applies: "In the twentieth century, we tried to change the world too quickly. The time is to interpret it again, to start thinking." Be careful how you flap your wings.
+
+**Requirements:**
+
+**Anonymization as first-line intervention.** When the problem is bias at decision points—hiring, lending, admissions—the first tool should be anonymization, not prohibition. Blind auditions. Anonymized applications. Redacted credentials. Remove the information that triggers bias; let the decision proceed on merit. This solves the actual problem while preserving agency, variance, and reversibility.
+
+**Escalation only on demonstrated failure.** Stronger legislation—outcome mandates, protected classes, litigation rights—should be reserved for cases where anonymization demonstrably fails. The burden of proof should be on escalation: *why wasn't the lighter touch sufficient?* The historical error was inverting this hierarchy: applying maximum legal force first, destroying voluntary association and productive segregation as collateral damage, when a procedural intervention might have sufficed.
+
+**Monitor second-order effects.** Deploy interventions at limited scale. Watch what else changes. The system will surprise you—the question is whether you're paying attention when it does. Pseudo-activist pressure ("Do something! Now!") crowds out the monitoring that would reveal whether the intervention is working or destroying.
+
+**Preserve variance.** Interventions that eliminate variance eliminate the system's capacity to search for solutions. Good regulation keeps the game fair so discovery can proceed; bad regulation dictates outcomes and blinds the search function.
+
+**Prefer process over outcome mandates.** Anonymization changes *how* decisions are made without mandating *what* decisions must be reached. Process interventions preserve agency and search capacity; outcome mandates destroy both.
+
+**Maintain reversibility.** Interventions should be retractable if second-order effects prove destructive. This argues against constitutional entrenchment of policy experiments. An intervention you cannot undo is a bet you cannot escape.
+
 ---
 
 ## What Comes Next
