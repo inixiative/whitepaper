@@ -327,6 +327,57 @@ Medicine exemplifies this. Entire careers are built on current protocols. Admitt
 
 The result: iatrogenic harm persists across centuries, with each era confident it has finally gotten it right, dismissing critics as "anti-science" until the next generation quietly abandons the previous generation's confident errors.
 
+## Universe 25: The Self-Reinforcing Loop to Extinction
+
+The whitepaper's Section 1.4 documents Calhoun's Universe 25 experiment - mice given unlimited resources (food, water, shelter, no predators) who collapsed anyway because the constraint was social/competitive, not material.
+
+### The Structural Parallel
+
+| Universe 25 | Leftist Policy Loop |
+|-------------|---------------------|
+| Unlimited material resources | Unlimited intervention/spending |
+| Didn't address actual constraint (social/competitive saturation) | Doesn't address actual constraint (coordination/signal failure) |
+| More resources → more positional competition → worse outcomes | More intervention → more dependency → worse outcomes |
+| Pathological phenotypes become dominant (Beautiful Ones, hyper-aggressive, non-maternal) | Pathological political phenotypes become dominant (spite-driven, dependency-seeking, non-reproductive) |
+| Lost behavioral repertoire for reproduction/cooperation | Losing cultural repertoire for family formation/cooperation |
+| No recovery even with perfect material conditions | Can't recover even if policies removed—damage is developmental |
+
+### The Developmental Trap
+
+Universe 25's mice didn't just *stop* reproducing—they *lost the capacity*. The behaviors required for courtship, maternal care, social organization weren't suppressed; they were never developed. The damage was **developmental**, not situational.
+
+Human parallel: Generations raised under:
+- Broken coordination signals
+- Dependency-creating policies
+- Spite-filled political environment
+- Transcendence receptors filled by ideology instead of functional coordination
+
+...may not have the developmental calibration to cooperate or form families even if you fix the signal environment. The damage compounds across generations. You can't just remove the policies and expect recovery.
+
+### The Slow Extinction Phase
+
+Last conception: Day 920.
+Population zero: Day 1780.
+
+**860 days of walking dead.** Still fed, still healthy, still physically present. Just no future.
+
+The loop doesn't end with dramatic collapse. It ends with a population that's:
+- Still materially provided for
+- Still physically alive
+- Reproductively extinct
+- Cooperatively incapable
+
+This is the terminal phase of the self-reinforcing loop. The leftist policy gradient—through multifactorial convergence (intrasexual competition, political selection, profit extraction, receptor capture)—may be selecting for exactly this outcome:
+
+1. Policies harm population health/cooperation capacity
+2. Harmed population demands more intervention
+3. Intervention creates more harm and dependency
+4. Transcendence receptor protects beliefs from updating
+5. Lost behavioral/cultural repertoire across generations
+6. Eventually: still alive, still fed, no future
+
+**The mice had solved the material problem. We are solving the material problem. They went extinct anyway.**
+
 ## Conclusion
 
 The AI's initial response—categorizing pattern-observation as "conspiracy theory" and offering to help with "legitimate content"—is itself data about how systems (human and artificial) are trained to provide friction against certain hypotheses. The question is whether that friction is calibrated correctly or whether it systematically protects certain actors from accurate modeling.
