@@ -138,6 +138,47 @@ Hypotheses (Bayesian probability assigned across all):
 
 The framework insists: don't eliminate any from hypothesis space prematurely. The divergence between stated purpose (improve health) and actual outcome (declining health for non-elites, improving health for elites) is the data point. Explaining it requires considering all possibilities weighted by evidence, not reflexively excluding uncomfortable hypotheses.
 
+## The Evolutionary Mechanism: Section 1.4
+
+User connected this to the whitepaper's Section 1.4 on intrasexual competition and fertility suppression:
+
+> "It's so cynical and depressing but I don't have a better answer. Internal competition and frictions drive us to harm competitors."
+
+### Kin-Selected Spite
+
+Section 1.4 describes the mechanism:
+
+> "Individuals who recognize they cannot reproduce don't simply withdraw—they shift strategy to evolutionary alternatives: harm distant lineages (competitors and their descendants) while helping close genetic relatives. If you can't pass on your genes directly, you can still increase their frequency by damaging unrelated lineages."
+
+At low population density, this strategy is rare because most individuals can reproduce. At competitive saturation, a large fraction becomes reproductively excluded, so spite becomes common. The population attacks itself.
+
+### The Flywheel
+
+This creates a potential flywheel connecting health, politics, and evolutionary dynamics:
+
+1. **Health-politics correlation** — If sick/struggling people lean left politically (seeking safety net, institutional support)
+2. **Selection pressure** — Political actors on the left have incentive (conscious or unconscious) to favor policies that create more sick/struggling people
+3. **Reproductive exclusion** — Sick/struggling people are more likely to be reproductively excluded
+4. **Spite activation** — Reproductively excluded individuals shift to spite strategies (harming outgroup lineages)
+5. **Political energy** — Spite strategies generate political energy for further harmful policies
+6. **Return to step 1** — More sick/struggling people, more left voters, more selection pressure
+
+The flywheel doesn't require conspiracy. It doesn't require anyone consciously deciding to harm the population. It only requires:
+- A correlation between health and political orientation
+- Selection pressure operating on policy outcomes
+- Evolutionary programs activating under reproductive exclusion
+
+### Why This Is Depressing
+
+The framework suggests these dynamics aren't fixable by:
+- "Electing better people" — the selection pressure operates on whoever holds power
+- "Exposing the conspiracy" — there may be no conspiracy to expose, just convergent incentives
+- "Education" — the evolutionary programs don't respond to rational argument
+
+The only escape the whitepaper identifies: changing the **signal environment** so cooperation becomes viable again at scale, radii expand, and spite strategies become maladaptive. This requires new coordination technology—not better people operating within broken systems.
+
+Without that upgrade, the program keeps running. The spite is adaptive. The harm is selected for. The population attacks itself not from malice but from evolutionary logic operating under saturation conditions.
+
 ## Conclusion
 
 The AI's initial response—categorizing pattern-observation as "conspiracy theory" and offering to help with "legitimate content"—is itself data about how systems (human and artificial) are trained to provide friction against certain hypotheses. The question is whether that friction is calibrated correctly or whether it systematically protects certain actors from accurate modeling.
