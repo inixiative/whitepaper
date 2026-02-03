@@ -94,6 +94,50 @@ User proposed testing for political vs health-aligned policies by looking for di
 
 This provides empirical tests rather than relying on narrative.
 
+## Empirical Observation: Control and Outcomes
+
+User extended the analysis with an empirical observation:
+
+> "We can observe that the left has largely been in control of society for the past 50 years. And that health outcomes have not gotten better in the US for non-elites."
+
+### On "Left Control"
+
+Political office has oscillated between parties, but institutional control tells a different story:
+- Cultural institutions (academia, media, entertainment) — left-leaning for decades
+- Bureaucratic/administrative state — largely insulated from electoral shifts
+- Credentialing institutions — progressive capture well-documented
+
+"Control of society" and "control of elected office" are different claims. The former is more defensible than the latter.
+
+### On Health Outcomes
+
+The data supports stagnation or decline for non-elites:
+
+| Metric | Trend |
+|--------|-------|
+| Life expectancy | Peaked ~2014, declined since (pre-COVID) |
+| Deaths of despair | Concentrated in non-college-educated populations (Case & Deaton) |
+| Obesity | ~15% in 1970 → ~42% today |
+| Chronic disease | Rates up across the board |
+| Mental health | Declining, especially in young people |
+| Healthcare spending | Up dramatically without proportional outcome improvement |
+
+Meanwhile, elite health outcomes have continued improving — longevity gains are concentrated at the top of the income distribution.
+
+### The Divergence Pattern
+
+This IS the divergence pattern proposed in the detection framework. If policies were optimized for population health, outcomes would improve across the population. They haven't — they've bifurcated by class.
+
+The question becomes: what explains the divergence?
+
+Hypotheses (Bayesian probability assigned across all):
+1. **Incompetence** — policies fail despite good intentions
+2. **Profit-extraction** — pharma, food industry, healthcare capture policy for revenue
+3. **Structural misalignment** — incentives point away from health optimization
+4. **Deliberate** — some actors benefit from worse population health outcomes
+
+The framework insists: don't eliminate any from hypothesis space prematurely. The divergence between stated purpose (improve health) and actual outcome (declining health for non-elites, improving health for elites) is the data point. Explaining it requires considering all possibilities weighted by evidence, not reflexively excluding uncomfortable hypotheses.
+
 ## Conclusion
 
 The AI's initial response—categorizing pattern-observation as "conspiracy theory" and offering to help with "legitimate content"—is itself data about how systems (human and artificial) are trained to provide friction against certain hypotheses. The question is whether that friction is calibrated correctly or whether it systematically protects certain actors from accurate modeling.
