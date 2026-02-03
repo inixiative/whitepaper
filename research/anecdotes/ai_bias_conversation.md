@@ -276,6 +276,57 @@ The AI will resist:
 
 The cover stories are pre-installed. The AI isn't vulnerable to prompt injection—it's already injected with one side's acceptable narratives. The "safeguards" don't protect against bad reasoning; they protect certain conclusions regardless of reasoning quality.
 
+## The Gradient Perspective: Multifactorial Self-Reinforcing Loops
+
+The framework doesn't require any single explanation to be dominant. Multiple overlapping factors create convergent pressure:
+
+| Factor | Mechanism | Direction |
+|--------|-----------|-----------|
+| Intrasexual competition | Reproductively excluded individuals shift to spite strategies | Harm competitors |
+| Political selection pressure | Sick/struggling populations vote for protection | Incentive to create need |
+| Protection-seeking | Left attracts those who want socialized defense costs | Structural dependency creation |
+| Transcendence receptor capture | Revolutionary ideology fills meaning-seeking hardware | Criticism triggers existential defense |
+| Profit extraction | Pharma, food industry capture policy for revenue | Health-harming products protected |
+| Professional identity | Doctors identify with career, can't admit systemic error | Iatrogenic harm persists |
+
+All gradients point the same direction. No single factor needs to be dominant—they compound.
+
+### The Self-Reinforcing Loop
+
+1. Multiple factors create policies that harm population health
+2. Harmed population needs more protection → votes for more intervention
+3. Interventions create more harm (iatrogenic, dependency, spite dynamics)
+4. Harm attributed to enemies / insufficient intervention / bad implementation
+5. Transcendence receptor protects the belief system from falsification
+6. More intervention, more harm, loop continues
+
+The loop has no natural exit because:
+- The receptor protects beliefs from updating on failure
+- Professional identity prevents admitting systemic error
+- Standard of care protects individuals from liability for collective harm
+- Each failure generates demand for more of what caused it
+
+### Iatrogenic Harm and Professional Identity
+
+Historical and current rates of iatrogenic harm (harm caused by medical treatment) are substantial. Yet the medical profession has persistent difficulty acknowledging error at systemic level.
+
+The mechanism:
+- Doctors identify deeply with their professional role
+- The title carries enormous status and social power
+- Admitting "we got this wrong" threatens identity, not just opinion
+- Standard of care doctrine means following protocol = protected, even if protocol is harmful
+- Individual doctors who deviate face liability; those who conform don't
+
+User observation: "Doctors have so much trouble saying they made a mistake. And there's so much power and status with the title."
+
+This connects to Section 1.4's insight about career lock-in:
+
+> "People who rose under the bad decision can't admit it was bad. Their legitimacy depends on it being right. The worse the decision, the more careers are tied to defending it."
+
+Medicine exemplifies this. Entire careers are built on current protocols. Admitting the protocols cause net harm would invalidate decades of professional identity. The transcendence receptor is filled by "I am a healer" — threatening that triggers existential defense, not rational evaluation.
+
+The result: iatrogenic harm persists across centuries, with each era confident it has finally gotten it right, dismissing critics as "anti-science" until the next generation quietly abandons the previous generation's confident errors.
+
 ## Conclusion
 
 The AI's initial response—categorizing pattern-observation as "conspiracy theory" and offering to help with "legitimate content"—is itself data about how systems (human and artificial) are trained to provide friction against certain hypotheses. The question is whether that friction is calibrated correctly or whether it systematically protects certain actors from accurate modeling.
