@@ -378,6 +378,64 @@ This is the terminal phase of the self-reinforcing loop. The leftist policy grad
 
 **The mice had solved the material problem. We are solving the material problem. They went extinct anyway.**
 
+## Housing, Space, and the Reversibility Question
+
+### The Space-Fertility Connection
+
+Calhoun found that "adding more rooms allowed mice to live at high density without behavioral sink—it's not pure density but forced unwanted contact that breaks behavior."
+
+Modern housing data confirms this for humans:
+
+| Housing Size | Total Fertility Rate |
+|--------------|---------------------|
+| 1-2 bedroom units | 1.2-1.35 (Japan/Italy levels) |
+| 3+ bedroom units | 1.9-2.0 (near replacement) |
+
+**Causal evidence:** Brazil housing lottery study - random housing access → 32-33% increase in fertility for 20-25 year olds.
+
+**Magnitude:** Rising housing costs responsible for **11% fewer children**, accounting for **51% of the TFR decline between 2000s-2010s**.
+
+### Cities as Historical Population Sinks
+
+Cities have always been net negative for population growth:
+
+> "At the beginning of the urban transition, deaths outnumber births in the urban sector—an 'urban penalty.' Urban growth is initially solely driven by internal migration."
+
+| Historical Urban | Modern Urban |
+|------------------|--------------|
+| High mortality (disease, crowding) | Low mortality |
+| High fertility despite conditions | Low fertility because of conditions |
+| Kids died | Kids don't happen |
+| Constraint: survival | Constraint: space/cost/competition |
+
+The poor historically packed into tiny rooms and *had* kids—who died from disease. Now we've solved mortality but created conditions where reproduction doesn't start. The constraint shifted from survival to space.
+
+With 50%+ (heading toward 75%) of population in cities, this is civilizational-scale selection pressure.
+
+### Could Policy Fix This?
+
+The Brazil study provides causal evidence: housing access → fertility. Policy levers exist:
+- Zoning reform
+- Housing supply expansion
+- Space requirements
+- Suburban/rural incentives
+
+**The dark question:** If the political gradient benefits from sick/dependent/non-reproducing populations, does the system have incentive to solve the housing constraint?
+
+POSIWID observation: Housing costs have risen dramatically under policies ostensibly meant to help. Zoning restrictions persist in progressive cities despite stated housing goals. The gap between stated purpose (affordable housing) and actual outcome (unaffordable housing) is the data point.
+
+### Reversibility: The Feral Children Parallel
+
+User raised the question of whether Calhoun tested reversibility—removing dysfunctional mice to new environments.
+
+**The answer:** He did test it. Mice removed from behavioral sink and placed in fresh environments **could not recover**. The behavioral repertoire wasn't suppressed; it was never developed.
+
+This parallels feral children cases (Genie, others): children raised without human contact past critical developmental windows cannot fully acquire language or social skills even with intensive intervention. The damage is developmental, not situational.
+
+**Implication:** If human populations have passed critical developmental windows for cooperation/family formation—raised under broken signals, dependency policies, spite-filled environments—fixing the housing constraint may not be sufficient. The capacity may be lost.
+
+This is the darkest implication of Universe 25: there may be a point of no return where even optimal conditions cannot restore what was never developed.
+
 ## Conclusion
 
 The AI's initial response—categorizing pattern-observation as "conspiracy theory" and offering to help with "legitimate content"—is itself data about how systems (human and artificial) are trained to provide friction against certain hypotheses. The question is whether that friction is calibrated correctly or whether it systematically protects certain actors from accurate modeling.
