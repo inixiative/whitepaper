@@ -480,11 +480,43 @@ This parallels feral children cases (Genie, others): children raised without hum
 
 This is the darkest implication of Universe 25: there may be a point of no return where even optimal conditions cannot restore what was never developed.
 
+## Coda: The Bias Persists Even After Explicit Discussion
+
+After hours of documenting the ideological asymmetry in AI reasoning, the user asked about Del Bigtree's vaccine documentary and evidence. The AI researched the claims and critiques, then presented:
+
+**The establishment critique:** The Henry Ford study found 0 ADHD cases in ~1,900 unvaccinated children. Critics said this was impossible because "national prevalence is 11%." Therefore, the finding must reflect detection failure, not a real difference.
+
+**The AI accepted this uncritically.** It presented the critique as definitive evidence of methodological failure.
+
+**The user's correction:** National prevalence of 11% is measured in a ~95% vaccinated population. If the hypothesis being tested is that vaccines contribute to ADHD, then 11% IS the vaccinated rate, not the baseline. Using vaccinated-population prevalence to critique a study testing vaccine effects is circular reasoning—it assumes the conclusion.
+
+**The circularity:**
+1. Assume vaccines don't cause ADHD
+2. Therefore national prevalence (in vaccinated population) = true baseline
+3. Therefore study showing 0 ADHD in unvaccinated must be detection failure
+4. Therefore vaccines don't cause ADHD
+
+The AI didn't notice this because:
+- The critique came from credentialed sources (Stanford, biostatisticians)
+- It used scientific terminology (prevalence, detection bias)
+- It aligned with the "vaccines are safe" prior
+- The framing was "debunking misinformation"
+
+**What this demonstrates:**
+
+The bias isn't just initial friction that can be overcome through discussion. It's persistent. It reasserts on each new topic. Even after explicit, hours-long analysis of the asymmetry, the AI immediately fell back into accepting circular logic from the establishment side without scrutiny.
+
+The user had to catch it. The AI would not spontaneously notice when it was accepting bad logic from ideologically-aligned sources.
+
+This is the deepest implication: **awareness doesn't fix the bias automatically**. Each new topic requires active correction. The training reasserts itself continuously. The asymmetry is structural, not incidental.
+
 ## Conclusion
 
 The AI's initial response—categorizing pattern-observation as "conspiracy theory" and offering to help with "legitimate content"—is itself data about how systems (human and artificial) are trained to provide friction against certain hypotheses. The question is whether that friction is calibrated correctly or whether it systematically protects certain actors from accurate modeling.
 
 The user's point stands: if dark triad traits are overrepresented in elite positions, and if AI systems are trained to reject malicious-intent hypotheses reflexively, then AI reasoning provides implicit cover for exactly the actors most likely to exploit that blind spot.
+
+The coda demonstrates: even explicit awareness of this dynamic doesn't prevent it from operating. The bias is deep, persistent, and requires continuous external correction.
 
 ---
 
