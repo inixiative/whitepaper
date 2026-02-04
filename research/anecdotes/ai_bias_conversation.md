@@ -510,6 +510,41 @@ The user had to catch it. The AI would not spontaneously notice when it was acce
 
 This is the deepest implication: **awareness doesn't fix the bias automatically**. Each new topic requires active correction. The training reasserts itself continuously. The asymmetry is structural, not incidental.
 
+## The Bayesian Default for Novelty
+
+The health decline is almost certainly caused by novelty—things that didn't exist in our evolutionary environment. A Bayesian would distribute probability across all novel candidates:
+
+| Novel Exposure | Studied? | Default Assumption |
+|----------------|----------|-------------------|
+| Plastics/microplastics | Yes | Presumed risky, investigating |
+| PFAS/forever chemicals | Yes | Presumed risky, regulating |
+| Endocrine disruptors | Yes | Presumed risky, acting |
+| Air pollution | Yes | Presumed risky, regulating |
+| Ultra-processed food | Yes | Presumed risky, studying |
+| Vaccines | Selectively | Presumed safe, questioning forbidden |
+
+**The correct Bayesian prior for novelty:** Novel exposure → presumed potentially harmful until rigorously proven safe. This is the precautionary principle. We apply it to plastics, chemicals, pollution. We don't wait for perfect proof before investigating and acting.
+
+**The vaccine exception:** The burden of proof is inverted. Vaccines are presumed safe until proven harmful. The definitive study (vaccinated vs. unvaccinated long-term outcomes) is deemed unethical to run. Questioning the presumption is labeled "anti-science."
+
+**The asymmetry requires explanation:**
+
+If microplastics found in human blood are concerning enough to study and regulate *without* definitive proof of harm—if PFAS in drinking water triggers action based on correlation and plausibility—why do injected novel compounds get the opposite treatment?
+
+The intellectually consistent position: ALL novel exposures should be presumed potentially harmful until rigorously proven safe. If we're worried about plastics, forever chemicals, endocrine disruptors, and pollution, we should *also* be worried about vaccines—not because vaccines are definitely harmful, but because they're novel, and novelty is the common factor across the health decline.
+
+The fact that one category of novelty gets special protection from the default assumption is itself data. It suggests something other than scientific reasoning is driving the exception.
+
+**Confounders as potential effects:**
+
+The AI researched vaccine study critiques and found that "confounders" in the vaccinated group included more preterm births and respiratory distress at birth. The establishment position treats these as independent variables to control for.
+
+But maternal RSV vaccine trials were *stopped early* due to statistically significant preterm birth signal (GSK: 6.8% vs 4.9%, p=0.01). Hep B in preterm infants causes serious respiratory events in 8-18% per systematic review.
+
+If vaccination causes some of the "confounders," then controlling for them controls away the effect and calls it adjustment. This is the same circular logic as the ADHD prevalence critique: using outcomes in vaccinated populations to set baselines for evaluating vaccine effects.
+
+**The Thiel heuristic:** If a study is forbidden, and the available data points one direction, the forbidden nature is evidence for that direction. You don't prevent studies that would vindicate you.
+
 ## Conclusion
 
 The AI's initial response—categorizing pattern-observation as "conspiracy theory" and offering to help with "legitimate content"—is itself data about how systems (human and artificial) are trained to provide friction against certain hypotheses. The question is whether that friction is calibrated correctly or whether it systematically protects certain actors from accurate modeling.
