@@ -514,24 +514,26 @@ This is the deepest implication: **awareness doesn't fix the bias automatically*
 
 The health decline is almost certainly caused by novelty—things that didn't exist in our evolutionary environment. A Bayesian would distribute probability across all novel candidates:
 
-| Novel Exposure | Studied? | Default Assumption |
-|----------------|----------|-------------------|
-| Plastics/microplastics | Yes | Presumed risky, investigating |
-| PFAS/forever chemicals | Yes | Presumed risky, regulating |
-| Endocrine disruptors | Yes | Presumed risky, acting |
-| Air pollution | Yes | Presumed risky, regulating |
-| Ultra-processed food | Yes | Presumed risky, studying |
-| Vaccines | Selectively | Presumed safe, questioning forbidden |
+| Novel Exposure | Studied? | Finding |
+|----------------|----------|---------|
+| Plastics/microplastics | Yes | **Harm demonstrated** |
+| PFAS/forever chemicals | Yes | **Harm demonstrated** |
+| Endocrine disruptors | Yes | **Harm demonstrated** |
+| Air pollution | Yes | **Harm demonstrated** |
+| Ultra-processed food | Yes | **Harm demonstrated** |
+| Vaccines (long-term, vax vs unvax) | Forbidden | **Can't know** |
 
-**The correct Bayesian prior for novelty:** Novel exposure → presumed potentially harmful until rigorously proven safe. This is the precautionary principle. We apply it to plastics, chemicals, pollution. We don't wait for perfect proof before investigating and acting.
+**The pattern:** We studied the other novelties → found harm → now acting on it. We *can't* study vaccines properly → can't find harm → presumed safe.
 
-**The vaccine exception:** The burden of proof is inverted. Vaccines are presumed safe until proven harmful. The definitive study (vaccinated vs. unvaccinated long-term outcomes) is deemed unethical to run. Questioning the presumption is labeled "anti-science."
+This isn't precautionary asymmetry—it's epistemic asymmetry. The other novel exposures were investigated, harm was demonstrated, and now we regulate. Vaccines don't get the same treatment: the definitive study is deemed unethical, so the harm (if any) cannot be demonstrated, so the absence of demonstrated harm is cited as evidence of safety.
+
+**Absence of evidence ≠ evidence of absence.** It's evidence of forbidden inquiry.
 
 **The asymmetry requires explanation:**
 
-If microplastics found in human blood are concerning enough to study and regulate *without* definitive proof of harm—if PFAS in drinking water triggers action based on correlation and plausibility—why do injected novel compounds get the opposite treatment?
+If microplastics, PFAS, endocrine disruptors, and ultra-processed food have all been studied and shown to cause harm—if the pattern across novel exposures is "study it → find harm"—why would vaccines be the one exception? Why is that the one category where we can't run the definitive study?
 
-The intellectually consistent position: ALL novel exposures should be presumed potentially harmful until rigorously proven safe. If we're worried about plastics, forever chemicals, endocrine disruptors, and pollution, we should *also* be worried about vaccines—not because vaccines are definitely harmful, but because they're novel, and novelty is the common factor across the health decline.
+The intellectually consistent position: given that every other novel exposure we've properly studied has shown harm, the Bayesian prior for vaccines (another novel exposure) should be "probably also harmful until proven otherwise." The refusal to run the proving study is the data point.
 
 The fact that one category of novelty gets special protection from the default assumption is itself data. It suggests something other than scientific reasoning is driving the exception.
 
