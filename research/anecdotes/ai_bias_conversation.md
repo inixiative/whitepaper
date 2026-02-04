@@ -378,6 +378,50 @@ This is the terminal phase of the self-reinforcing loop. The leftist policy grad
 
 **The mice had solved the material problem. We are solving the material problem. They went extinct anyway.**
 
+### The External Competition Constraint
+
+The self-reinforcing loop has a critical dependency: **it only operates in the absence of external competitive pressure**.
+
+Universe 25 was an artificial environment with no predators. The mice could run self-destructive dynamics to extinction because nothing external would kill them first. In nature, a population weakening itself through internal dysfunction gets eaten, conquered, or outcompeted before reaching the slow extinction phase.
+
+**Why the loop is running now:**
+
+| Condition | Status |
+|-----------|--------|
+| Great power war | None since 1945 (nuclear peace) |
+| Serious external rival | Absent during unipolar moment |
+| Geographic vulnerability | US protected by oceans |
+| Time since loop began | Recent enough that external selection hasn't operated |
+
+The leftist policy gradient is **borrowing against future competition**. It works as long as:
+1. No serious external rival emerges
+2. The rival doesn't exploit the self-induced weakness
+3. The damage doesn't compound past recovery before competition arrives
+
+**The historical pattern:**
+
+Internal decay rarely causes collapse alone. The pattern is: internal dynamics weaken the society until an external force finishes it. Rome, late Qing, late Ottoman - internal dysfunction created vulnerability, external pressure delivered the blow.
+
+**China as potential selection pressure:**
+
+If serious great power competition returns, societies running the self-weakening loop face existential consequences. A rival that:
+- Maintains population health
+- Preserves cooperation capacity
+- Doesn't run spite dynamics internally
+
+...would outcompete societies that have weakened themselves through the loop.
+
+**The implication:**
+
+The loop isn't a stable equilibrium - it's a **temporary condition enabled by absence of predators**. Like Universe 25 itself, the experiment only runs to completion in an artificial environment where nothing external interrupts it.
+
+External competition would either:
+1. **Purge the dynamic** - societies running it get conquered, removing the trait from the population
+2. **Force correction** - existential threat triggers cooperation radius expansion, overriding internal spite dynamics
+3. **Select for resistance** - populations/subgroups that resist the loop survive, those that don't get replaced
+
+The current environment (Pax Americana, nuclear peace, geographic isolation) has removed the external selection pressure that would normally prevent self-destructive internal dynamics from running to completion.
+
 ## Housing, Space, and the Reversibility Question
 
 ### The Space-Fertility Connection
