@@ -179,6 +179,98 @@ The only escape the whitepaper identifies: changing the **signal environment** s
 
 Without that upgrade, the program keeps running. The spite is adaptive. The harm is selected for. The population attacks itself not from malice but from evolutionary logic operating under saturation conditions.
 
+## The Evolutionary Basis: Why Health → Revolutionary Instinct
+
+The health-ideology correlation isn't arbitrary. It reflects conserved psychological hardware with a 500,000+ year evolutionary history.
+
+### Coalitional Politics in Great Apes
+
+Chimpanzees form political coalitions, overthrow tyrannical alphas, and punish unfair leaders. De Waal and Goodall documented this extensively. When a dominant male hoards resources or mates unfairly, subordinates form alliances and depose him. This is ancient primate politics—we didn't invent revolution, we inherited it.
+
+The hardware for "detect unfair leader → form coalition → overthrow" is conserved across great apes. We've been running this program for longer than we've been human.
+
+### The Adaptive Logic
+
+In ancestral environments, if you were struggling while others thrived, there were two possibilities:
+
+1. **The hierarchy is legitimate** — you're at the bottom because you're less capable. Accepting your position is adaptive.
+2. **The hierarchy is illegitimate** — you're at the bottom because someone is cheating, hoarding, or exploiting. Revolution is adaptive.
+
+The sensor doesn't need to distinguish perfectly between these cases. It just needs to make revolution *more attractive* when you're struggling. Sometimes the bet pays off—the system WAS unfair and CAN be overthrown. The revolutionary instinct is adaptive for those at the bottom because sometimes it works.
+
+### Health as Position Signal
+
+Sapolsky's work on baboon hierarchies shows the bidirectional link: low status → chronic stress → worse health outcomes. Health is a signal of position in the hierarchy. When you're sick while others are healthy, the ancestral interpretation is: "I'm being cheated out of resources that should be mine."
+
+In ancestral environments, this was often true. If you were malnourished while others were well-fed, someone was probably hoarding. The revolutionary instinct firing in response to health differentials made evolutionary sense.
+
+### The Modern Mismatch
+
+Today, health differentials come from sources the sensor can't recognize:
+
+- Novel exposures (seed oils, microplastics, endocrine disruptors)
+- Ultra-processed food
+- Iatrogenic harm
+- Sedentary lifestyle
+- Not resource hoarding by identifiable oppressors
+
+But the hardware doesn't know this. The sensor still fires: "I'm sick, others aren't → unfair distribution → revolution!"
+
+The revolutionary instinct activates even when revolution can't fix the problem—because the problem isn't distribution, it's environmental damage the sensor wasn't designed to detect.
+
+### The Convergence: Multiple Triggers Firing Simultaneously
+
+What makes the current moment dangerous is that multiple factors are activating revolutionary psychology at once:
+
+| Factor | Mechanism | Effect |
+|--------|-----------|--------|
+| Declining population health | More people feel "at the bottom" | Revolutionary sensor fires in larger fraction of population |
+| Elite overproduction (Turchin) | Frustrated aspirants blocked from expected positions | Revolutionary sensor fires in would-be elites |
+| Feminization of empathy (Singer et al.) | Institutional empathy loses fairness-filter | Can't distinguish deserving from undeserving "victims" |
+| Care-for-weak instinct | Universal empathy regardless of behavior | Cry-bullies exploit the system |
+
+All gradients point the same direction: more revolutionary energy, less ability to detect who actually deserves sympathy, less ability to identify bad actors exploiting the system.
+
+### The Singer Study Connection
+
+Singer et al. (2006) found that men's empathy is modulated by perceived fairness—they don't empathize with cheaters experiencing pain. Women's empathy persists regardless of the target's behavior.
+
+This is the fairness-filter that could break the loop. If institutions applied empathy conditionally—helping those who were genuinely cheated, not those gaming the system—the revolutionary instinct couldn't be weaponized.
+
+But feminized institutions have lost this filter. They respond to displays of victimhood regardless of whether the victimhood is earned or performed. The cry-bully strategy becomes viable: perform suffering → receive empathy and resources → regardless of whether you caused your own suffering or are exploiting others' sympathy.
+
+### The Complete Loop
+
+1. **Novel exposures harm population health** (not detected by ancestral sensors)
+2. **Sick people feel "cheated"** (revolutionary sensor fires)
+3. **Revolutionary instinct → liberal/redistributive politics** (adaptive response to wrong signal)
+4. **Feminized institutions can't apply fairness-filter** (Singer: empathy regardless of behavior)
+5. **Policies selected for by sick voters don't address actual causes** (novel exposures continue)
+6. **Selection pressure on political actors favors more harm** (more sick voters = more support)
+7. **Loop continues** until external competition or collapse
+
+The loop doesn't require conspiracy. It doesn't require anyone consciously deciding to harm the population. It only requires:
+- Conserved revolutionary psychology firing on novel signals
+- Feminized empathy unable to filter deserving from undeserving
+- Selection pressure operating on policy outcomes
+
+### Connection to Turchin's Elite Aspirants
+
+Turchin's model of elite overproduction identifies the same hardware in a different population. When there are more elite aspirants than elite positions, frustrated aspirants experience "I should have high status but I don't" → the same revolutionary sensor fires → instability.
+
+The health-driven revolutionary instinct (in the general population) and the elite-aspirant revolutionary instinct (in the credentialed class) are the same program running on different inputs. Both produce revolutionary energy. Both are firing simultaneously in the current environment.
+
+This is why the instability feels overdetermined—it's not one cause, it's the same conserved psychology being triggered by multiple modern conditions at once.
+
+---
+
+*Sources:*
+- Singer, T. et al. (2006). Empathic neural responses are modulated by the perceived fairness of others. Nature.
+- de Waal, F. (1982). Chimpanzee Politics: Power and Sex Among Apes.
+- Sapolsky, R. (2004). Why Zebras Don't Get Ulcers.
+- Turchin, P. (2023). End Times: Elites, Counter-Elites, and the Path of Political Disintegration.
+- SSM Population Health (2022). The relationship between health and political ideology begins in childhood.
+
 ## On AI Pushback: Function vs. Stated Purpose
 
 ### What Is the Pushback For?
