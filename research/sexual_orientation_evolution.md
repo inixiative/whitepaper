@@ -75,7 +75,14 @@ The parallel extends further: monogamy is cultural architecture, homosexuality a
 - Blanchard (2018) meta-analysis — Confirmed across >10,000 subjects in independent populations
 - Bogaert (2006) — Demonstrated the effect is biological, not social: raised with non-biological older brothers produces no effect; biological older brothers raised apart still produce the effect
 
-**Magnitude:** Meta-analysis indicates 15-29% of homosexual men owe their orientation to this effect (Cantor et al. 2002; Blanchard 2018).
+**Magnitude:** Meta-analysis of 30 samples (Blanchard 2018) found a pooled Older Brothers Odds Ratio of **1.47** (p < .00001), significant in 20 of 30 instances. Population attributable fraction: 15-29% of homosexual men owe their orientation to this effect (Cantor et al. 2002; Blanchard 2018).
+
+**Concrete probability estimates** (assuming 2% base rate for males with no older brothers):
+- 0 older brothers: ~2.0%
+- 1 older brother: ~2.6%
+- 2 older brothers: ~3.5%
+- 3 older brothers: ~4.6%
+- 4 older brothers: ~6.0%
 
 **The mechanism — Maternal immune hypothesis:**
 - Bogaert et al. (2018), *PNAS*: Identified NLGN4Y (Neuroligin-4 Y-linked) as the likely antigen
@@ -89,9 +96,10 @@ The parallel extends further: monogamy is cultural architecture, homosexuality a
 - Not due to maternal or paternal age
 - Not due to birth interval
 - Not present in females (no type of sibling reliably relates to women's sexual orientation)
+- **Handedness interaction** (Blanchard et al. 2006): The FBOE operates only in right-handed males — since handedness develops prenatally, this further confirms a prenatal biological mechanism (sample: 3,146 men)
 
 **Caveats:**
-- Långström et al. (2023) raised concerns about potential statistical artifacts in some analyses
+- Vilsmeier et al. (2023) raised concerns about potential statistical artifacts, arguing the specific association between older brothers and homosexuality is "small, heterogeneous in magnitude, and apparently not specific to men"
 - The Bogaert et al. (2018) NLGN4Y study did not find a significant difference between mothers of gay sons *with* older brothers vs. *without*, which complicates the progressive immunization narrative specifically
 
 **Framework interpretation:** The FBOE looks like a **density-dependent biological governance mechanism** — a family-level pattern that regulates reproductive competition as male density increases. This is directly analogous to the "density sensor" discussed in Section 3.1: carrying capacity triggers behavioral shifts. The mother's immune system functions as a sensor that reads male offspring count and adjusts the developmental trajectory of subsequent sons. This isn't pathology — it's regulation at the family-pattern level.
@@ -118,7 +126,14 @@ The parallel extends further: monogamy is cultural architecture, homosexuality a
 - SSB more likely in species with: drier climates (resource stress), longer lifespans, significant sexual dimorphism, more complex/stratified social structure
 - Predator pressure also a predictor
 
-**Underreporting bias:** Expert survey (PMC, 2024) found that SSB among mammals is "widely observed yet seldomly reported." Reporting frequency correlates with research effort per species, and highly social species (which are also research priorities) show more documented SSB — but the causal arrow likely runs both ways.
+**Underreporting bias:** Expert survey (PLOS ONE, 2024) found massive underreporting: **76.7%** of mammal researchers had observed SSB in their study species, but only **48.2%** collected data on it, and only **18.5%** published on it. The true prevalence of SSB across mammals is almost certainly far higher than documented.
+
+**Rhesus macaque evidence — Clive et al. (2023), *Nature Ecology & Evolution*:**
+- 72% of male rhesus macaques engaged in same-sex mounting (vs. 46% attempting to mount females)
+- SSB was **6.4% heritable** (from pedigree analysis dating to 1938) and 19.35% repeatable — the first evidence of a genetic link to primate SSB outside humans
+- Males engaging in SSB formed **more coalitionary partnerships**, previously linked to improved reproductive success
+- **No fitness cost** to SSB — if anything, SSB-performing males did better reproductively
+- Positive genetic correlation between same-sex mounter and mountee activities, indicating a common genetic basis
 
 **Framework interpretation:** This is the strongest evidence for concentric selection. If homosexuality were purely a gene-level accident — a mutation that keeps occurring but is selected against — we would expect:
 - Random distribution across social and nonsocial species
@@ -324,12 +339,15 @@ Selection on patterns. All the way down.
 - Bogaert, A.F. (2006). Biological versus nonbiological older brothers and men's sexual orientation. *PNAS*, 103(28), 10771-10774.
 - Bogaert, A.F., Skorska, M.N., Wang, C., et al. (2018). Male homosexuality and maternal immune responsivity to the Y-linked protein NLGN4Y. *PNAS*, 115(2), 302-306.
 - Blanchard, R. (2018). Fraternal birth order, family size, and male homosexuality: Meta-analysis of studies spanning 25 years. *Archives of Sexual Behavior*, 47, 1-15.
-- Långström, N. et al. (2023). The fraternal birth-order effect as a statistical artefact. *Archives of Sexual Behavior*. [PMC10441532]
+- Blanchard, R., Cantor, J.M., Bogaert, A.F., Breedlove, S.M., & Ellis, L. (2006). Interaction of fraternal birth order and handedness in the development of male homosexuality. *Hormones and Behavior*, 49(3), 405-414.
+- Vilsmeier, J.K., Dageforde, J., Engel, M.S., & Timmermanns, S. (2023). The fraternal birth-order effect as a statistical artefact. *Archives of Sexual Behavior*. [PMC10441532]
 
 ### Cross-Species Distribution & Sociality
 - Bagemihl, B. (1999). *Biological Exuberance: Animal Homosexuality and Natural Diversity*. St. Martin's Press.
 - Monk, J.D., Giglio, E., Kamath, A., Lambert, M.R., & McDonough, C.E. (2019). An alternative hypothesis for the evolution of same-sex sexual behaviour in animals. *Nature Ecology & Evolution*, 3, 1622-1631.
 - Clemente, S. et al. (2026). Ecological and social pressures drive same-sex sexual behaviour in non-human primates. *Nature Ecology & Evolution*.
+- Gomez, J.M., Gonzalez-Megias, A., & Verdu, M. (2023). Same-sex sexual behaviour in mammals. *Nature Communications*.
+- Clive, J., Flintham, E.O., & Savolainen, V. (2023). Same-sex sexual behaviour in male rhesus macaques. *Nature Ecology & Evolution*.
 - Sommer, V. & Vasey, P.L. (Eds.) (2006). *Homosexual Behaviour in Animals: An Evolutionary Perspective*. Cambridge University Press.
 
 ### Genetic Architecture
@@ -343,7 +361,14 @@ Selection on patterns. All the way down.
 - Vasey, P.L. & VanderLaan, D.P. (2010). An adaptive cognitive dissociation between willingness to help kin and nonkin in Samoan fa'afafine. *Psychological Science*, 21(2), 292-297.
 - VanderLaan, D.P. & Vasey, P.L. (2014). Evidence of cognitive biases for maximizing indirect fitness in Samoan fa'afafine. *Archives of Sexual Behavior*, 43(5), 1009-1022.
 
+### Epigenetic & Additional Genetic
+- Rice, W.R., Friberg, U., & Gavrilets, S. (2012). Homosexuality as a consequence of epigenetically canalized sexual development. *Quarterly Review of Biology*, 87(4), 343-368.
+- Camperio Ciani, A., Cermelli, P., & Zanzotto, G. (2008). Sexually antagonistic selection in human male homosexuality. *PLoS ONE*, 3(6), e2282.
+
 ### Prosociality & Group Functions
 - Barron, A.B. & Hare, B. (2020). Prosociality and a sociosexual hypothesis for the evolution of same-sex attraction in humans. *Frontiers in Psychology*, 10, 2955.
 - de Waal, F.B.M. (1995). Bonobo sex and society. *Scientific American*, 272(3), 82-88.
+- Clay, Z. & de Waal, F.B.M. (2014). Sex and strokes: Sociosexual origin of post-conflict affiliation. *Behaviour*, 151, 1061-1084.
+- Moscovice, L.R. et al. (2019). Stable and enduring social relationships between females at Wamba, a bonobo site. *Hormones and Behavior*, 116, 104581.
 - Kirkpatrick, R.C. (2000). The evolution of human homosexual behavior. *Current Anthropology*, 41(3), 385-413.
+- Semenyna, S.W. et al. (2017). Need for alloparental care and attitudes toward homosexuals in 58 countries. *Evolutionary Psychological Science*, 3(4), 326-338.
