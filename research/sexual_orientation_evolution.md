@@ -102,7 +102,17 @@ The parallel extends further: monogamy is cultural architecture, homosexuality a
 - Vilsmeier et al. (2023) raised concerns about potential statistical artifacts, arguing the specific association between older brothers and homosexuality is "small, heterogeneous in magnitude, and apparently not specific to men"
 - The Bogaert et al. (2018) NLGN4Y study did not find a significant difference between mothers of gay sons *with* older brothers vs. *without*, which complicates the progressive immunization narrative specifically
 
-**Framework interpretation:** The FBOE looks like a **density-dependent biological governance mechanism** — a family-level pattern that regulates reproductive competition as male density increases. This is directly analogous to the "density sensor" discussed in Section 3.1: carrying capacity triggers behavioral shifts. The mother's immune system functions as a sensor that reads male offspring count and adjusts the developmental trajectory of subsequent sons. This isn't pathology — it's regulation at the family-pattern level.
+**Framework interpretation — this is not a gene mechanism:**
+
+The FBOE is the clearest demonstration in all of biology that the gene-centric view is insufficient for understanding developmental outcomes. Consider: the DNA of son #5 is no different from son #1 in any relevant respect. The genome didn't change. What changed is the **informational state of the mother's body** — her immune memory, a somatic, non-genetic information channel that is literally *counting* male offspring and translating that count into a developmental signal.
+
+This is a **Levin mechanism**, not a Dawkins mechanism. Michael Levin's central argument is that biological information isn't stored only in DNA — it's stored in bioelectric gradients, physiological states, and other non-genetic substrates, and these information channels *govern* development. The genome provides the molecular hardware. The mother's immune system is the **software** — reading family-level state and writing developmental instructions into fetal neurodevelopment via anti-NLGN4Y antibodies crossing the placental barrier.
+
+It is also Denis Noble's point made concrete. Noble argues that causal power in biology resides in the *system*, not in the gene. The gene-centric view says "find the gene for X." But there is no "gene for homosexuality" in son #5 that is absent in son #1. The causal agent is the mother-fetus physiological interface — a system-level information processor operating at a scale that DNA cannot see.
+
+The FBOE thus functions as a **density-dependent biological governance mechanism** — a family-level pattern that regulates reproductive competition as male density increases. This is directly analogous to the "density sensor" discussed in Section 3.1: carrying capacity triggers behavioral shifts. The mother's immune system is the sensor. The NLGN4Y antibody response is the signal. The altered developmental trajectory is the governance output. This isn't pathology — it's regulation at the family-pattern level, executed through non-genetic information channels that the gene-centric framework has no vocabulary to describe.
+
+The progressive, graduated nature of the effect (each additional brother incrementally increasing probability, not flipping a binary switch) is itself diagnostic. This is how information-processing systems behave — analog, proportional, responsive to accumulated state. It is not how genes behave.
 
 ---
 
@@ -278,16 +288,20 @@ View the same data through concentric selection:
 
 No single level explains the data. All levels together explain it parsimoniously.
 
-### The FBOE as Biological Governance
+### The FBOE as Biological Governance — A Levin/Noble Mechanism
 
-The fraternal birth order effect deserves special attention because it's the most mechanistically understood component, and it maps precisely onto the whitepaper's governance framework:
+The fraternal birth order effect deserves special attention not only because it's the most mechanistically understood component, but because it demonstrates that the causal architecture of sexual orientation cannot be captured by the gene-centric framework. It is a **non-genetic information-processing mechanism** — exactly the kind of phenomenon that Michael Levin and Denis Noble argue is pervasive in biology but invisible to molecular reductionism.
+
+The mapping to the whitepaper's governance framework:
 
 - The mother's immune system functions as a **sensor** reading a family-level variable (male offspring count)
 - The NLGN4Y antibody response functions as a **signal** — biological information that adjusts developmental trajectory
 - The effect (increased probability of homosexuality in later-born sons) functions as **governance** — regulating within-family male competition as density increases
-- The mechanism is **progressive** — not binary, but graduated, with probability increasing per older brother
+- The mechanism is **progressive** — not binary, but graduated, with probability increasing per older brother (~2% → ~2.6% → ~3.5% → ~4.6% → ~6.0%)
 
-This is bioelectricity as governance, operating at the family scale rather than the cellular scale. Section 3.1's framework predicts exactly this kind of mechanism: wherever there is coordination across scales, there must be a signaling substrate. The mother's immune system is that substrate for family-level reproductive coordination.
+The crucial point: the genome of son #5 is identical in all relevant respects to son #1. The information that produces the different developmental outcome is stored in the mother's immune memory — a somatic, physiological state, not a genetic sequence. This is governance through **non-genetic information channels**, operating at the family scale rather than the cellular scale. It is precisely what Levin describes in the bioelectric domain: the hardware (genome) is necessary but the software (physiological state) determines the actual developmental output.
+
+Section 3.1's framework predicts exactly this kind of mechanism: wherever there is coordination across scales, there must be a signaling substrate. The mother's immune system is that substrate for family-level reproductive coordination. And the fact that the signal is analog, proportional, and state-dependent — not binary — is itself diagnostic of an information-processing system, not a genetic switch.
 
 ### What This Is Not
 
