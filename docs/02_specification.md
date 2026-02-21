@@ -503,6 +503,18 @@ The relationship is a **dialectic**:
 
 The Cistercians prove that memes are real and consequential: their management protocol changed the history of a continent. We are not *tabula rasa*, nor are we "lumbering robots." We are the species that **builds the software that manages its own hardware**. The metacrisis is a memetic failure—the 12th-century coordination software has finally crashed on 21st-century hardware complexity.
 
+**Spatial Design as Memetic Technology**
+
+Document 1 establishes that Calhoun's spatial-complexity variations delayed behavioral sink: more defensible private territory per individual meant the density sensor didn't trigger competitive overdrive as fast. The architecture of the physical environment modulated the biological signal. This is not a metaphor. It is a design parameter.
+
+Urban spatial design is a memetic technology in exactly the same sense as monasticism or markets — it builds the signaling substrate that keeps the biological sensor convinced conditions are cooperative rather than saturated. The prescription follows directly: **minimum dwelling sizes in high-density environments function as carrying-capacity infrastructure, not luxury regulation.** They are the human equivalent of Calhoun's side rooms.
+
+A person in a 200 sq ft studio in a dense city is getting maximum-density signals constantly — shared hallways, packed elevators, crowded streets, no private territory that feels defensible. The sensor fires. Competitive intensity calibration shifts upward. Given the dimorphism of competitive suppression documented in Section 1.4: when female density signals are maximal, fertility suppression is the predicted output. The Japan/South Korea/Hong Kong data confirms this.
+
+The practical implication: you can have high population density without triggering competitive saturation — but only with spatial complexity. Shared parks and green space provide territory that feels expansive without requiring low density. Spacious rooms with acoustic isolation and visual privacy give the sensor "defensible territory" reads. Private outdoor space — balconies, courtyards, rooftop gardens — provides boundary signals. The design goal is not square footage per se but **signal management**: ensuring that the density sensor reads "I have space, I have territory, encounters with competitors are voluntary" rather than "I am surrounded, I cannot retreat, every interaction is involuntary."
+
+Unit sizes, acoustic isolation, visual privacy, access to shared green space — these are not amenities or luxury goods. They are **signal inputs to the density sensor**, and the density sensor drives competitive intensity calibration, which drives fertility. Get the spatial design wrong and you trigger the competitive saturation cascade regardless of how wealthy, safe, or materially abundant the society is. Get it right and you can house large populations in the same footprint while the sensor reads "frontier." This is memetic architecture applied to physical architecture — building the environment that keeps the hardware in cooperative mode.
+
 **Developmental Calibration: The Cooperation Radius**
 
 Cooperation is not binary—it's a gradient. Everyone cooperates more with family than strangers, more with neighbors than foreigners. The question is: **how far out does meaningful cooperation extend?**
