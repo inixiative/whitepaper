@@ -78,6 +78,8 @@ In a molten salt reactor (MSR), the nuclear fuel is dissolved directly in a molt
 
 Because this happens in a liquid, the Pa-233 can be chemically separated and allowed to decay to U-233 outside the neutron flux (preventing parasitic neutron absorption), then fed back into the reactor. This is impossible with solid fuel.
 
+**Why U-233 is special:** U-233 has the highest neutron reproduction factor (eta) of any fissile isotope in the thermal spectrum — ~2.29 neutrons per absorption vs. ~2.07 for U-235 and ~2.11 for Pu-239. After one neutron sustains the chain reaction and one breeds new fuel from thorium, there are still enough excess neutrons to overcome losses. This makes **thermal-spectrum breeding possible** — something that is essentially impossible with the uranium/plutonium cycle (which is why conventional breeder reactors require expensive, complex fast-neutron designs).
+
 **Result:** Theoretical fuel utilization approaches **100%** of the thorium feedstock. In practice, with realistic reprocessing losses, utilization of **>95%** is considered achievable.
 
 **Source:** World Nuclear Association, Molten Salt Reactors; ORNL Molten Salt Reactor Experiment documentation; OSTI report on Liquid Fuel MSRs for Thorium Utilization
@@ -222,9 +224,25 @@ The worst thing that can happen in a conventional nuclear reactor is a **meltdow
 | **Wind** | Possible | Moderate ($26-50/MWh) | **No** — requires 1,690x more land than nuclear | Now | Fails on footprint; intermittent |
 | **Natural gas** | No (finite fuel, ~50 year supply) | Low now, volatile | Moderate | Now | Fails on scale and emissions |
 | **Fusion** | Yes (if it works) | Unknown ($40-70/MWh projected) | Yes (comparable to fission) | **2040-2050+** | Not available for decades; tritium fuel supply bottleneck |
-| **Advanced geothermal** | Limited (geography-dependent) | Moderate | Yes | 2030s | Promising but geographically constrained; cannot be sole solution |
+| **Superhot rock geothermal** | Possibly (terawatt potential) | Plausible ($20-40/MWh target) | Yes | Late 2020s-2030s | Strongest competitor — see below |
+| **Conventional geothermal** | Limited (geography-dependent) | Moderate | Yes | Now | Geographically constrained to volcanic regions |
 | **Space-based solar** | Theoretically yes | **No** (launch costs prohibitive) | Yes (on Earth) | 2040s+ | Too speculative; massive engineering challenges |
 | **Liquid fuel nuclear (MSR/LFTR)** | **Yes** (thorium supply for 10,000+ years) | **Plausible** ($30-50/MWh NOAK) | **Yes** (smallest footprint of any source) | **2030s** | Only technology that checks all three boxes in a realistic timeframe |
+
+### The superhot rock geothermal wildcard
+
+The research identified one technology that could genuinely compete with liquid fuel nuclear on all three criteria: **superhot rock (SHR) enhanced geothermal**.
+
+- **Concept:** Drill 10-20 km deep into hot crystalline basement rock (>375°C), inject water, extract supercritical steam. Unlike conventional geothermal, this works virtually anywhere — you're just drilling deep enough.
+- **Power density:** 50-100 MW per well (vs. 3-5 MW for conventional geothermal) — very compact footprint
+- **Cost target:** $20-40/MWh at scale (DOE 2035 target: $45/MWh)
+- **Scale potential:** Terawatt-scale — the Earth's crustal heat (~10^31 joules) is essentially unlimited
+- **Timeline:** First commercial SHR projects targeted for late 2020s to early 2030s. Fervo Energy achieved 3.5 MW from its first commercial EGS well in 2023.
+- **Key uncertainties:** Long-term reservoir sustainability (thermal drawdown over decades), reliable drilling into superhot crystalline rock, and scaling from individual wells to hundreds of GW
+
+**Verdict:** SHR geothermal is the strongest near-term competitor to liquid fuel nuclear. If it works as hoped, it could provide a significant portion of "10x energy" alongside MSRs. The two technologies are more complementary than competitive — SHR for distributed baseload, MSR for industrial process heat and high-temperature applications.
+
+**Source:** Clean Air Task Force, SHR Techno-Economic Model (2023); Cascade Institute, "The Deep Heat Advantage" (2025); DOE Geothermal Technologies Office
 
 ### The fusion comparison
 
