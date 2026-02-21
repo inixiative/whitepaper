@@ -277,6 +277,69 @@ The prediction can be sharpened: SSB should track not just with *sociality* but 
 
 ---
 
+### 7. The Derived Prediction: Lineage Optimization, Not Reproduction Maximization
+
+The preceding sections demonstrate that homosexuality is *consistent* with the concentric selection framework. But the stronger claim is that the framework **predicts** it — derives it from first principles rather than accommodating it after the fact.
+
+**The derivation:**
+
+If the unit of selection is the **information lineage** — not the individual organism, not the individual gene, but the pattern of genetic information persisting across generations — then what matters is not how many offspring you produce, but how many *surviving, reproducing descendants* your lineage generates over deep time.
+
+These are not the same thing.
+
+**The crossover point.** It makes sense to reproduce while you have the resources to invest in offspring. But reproduction has diminishing — and eventually negative — marginal returns for the lineage. Consider:
+
+- With 3 children and adequate resources, each child receives sufficient investment to be competitive. Child #4 might increase your genetic representation.
+- With 6 children and strained resources, each child receives less investment. Child #7 might *decrease* your total genetic representation — because now all 7 are under-resourced and outcompeted by neighbors' well-invested 3.
+- At some point, you are not expanding your lineage. You are **competing with it.** Each additional offspring dilutes the investment available to existing offspring, reducing their fitness and their descendants' fitness.
+
+This is the quantity-quality tradeoff in life history theory (Lack 1947, Smith & Fretwell 1974), but the concentric selection framework extends it beyond the individual parent's optimization problem. The lineage itself — the multi-generational pattern — does better with *regulated* reproduction than with maximal reproduction.
+
+**The prediction follows:** Selection should favor mechanisms that modulate reproductive drive based on existing offspring density within the family unit. Not "have as many as possible" but "have the right number given current conditions." And critically, these mechanisms don't have to be conscious decision-making — they can be hormonal, epigenetic, immunological, behavioral.
+
+**Sexual orientation as one such regulator.** From this perspective, non-reproductive orientation in some family members is not a malfunction — it is a **density-dependent regulatory output.** A proportion of non-reproductive siblings in a family unit produces:
+
+1. **More adult investment per existing child.** The kin selection / "helper at the nest" argument, but derived from lineage optimization rather than invoked *ad hoc*.
+2. **Less resource competition within the lineage.** Fewer siblings competing for the same parental and familial resources means each competitor is better-resourced.
+3. **Additional adult cognitive and labor capacity** directed at the family's coordination problems — childcare, resource acquisition, social alliance maintenance — rather than split across yet another dependent.
+
+The family lineage with a mix of reproductive and non-reproductive members outcompetes the family lineage where everyone reproduces maximally, because the former optimizes **descendant quality** while the latter optimizes offspring quantity at the expense of quality.
+
+**Why epigenetic, not genetic.** The framework predicts that this regulatory mechanism should be **environmentally responsive**, not genetically fixed. A family with 2 sons in a resource-rich environment should produce 2 reproductive males. A family with 6 sons in a resource-constrained environment should produce some non-reproductive males. You want the mechanism to *read family state and respond proportionally* — which means it should operate through non-genetic information channels: hormonal, immunological, epigenetic.
+
+This is exactly what the fraternal birth order effect is. The mother's immune system reads a family-level variable (cumulative male offspring), and the signal (anti-NLGN4Y antibodies) adjusts developmental trajectory proportionally — not flipping a binary switch, but incrementally increasing probability with each additional son (~2% → ~2.6% → ~3.5% → ~4.6% → ~6.0%). The mechanism is analog, graduated, state-dependent. It is a density sensor producing a regulatory output.
+
+**The framework derives this; it does not merely accommodate it.** Start from the postscript's progression:
+
+1. Reality selects for stability.
+2. Life adds replication — higher-fidelity stability through copying.
+3. Selection operates on patterns at every scale (Section 3.1).
+4. The relevant pattern for reproductive strategy is the lineage — the multi-generational information structure, not the individual organism.
+5. Lineages that regulate reproduction to match carrying capacity outpersist lineages that maximize reproduction regardless of conditions.
+6. Therefore: selection should produce density-dependent mechanisms that modulate reproductive output at the family level.
+7. Therefore: we should observe biological mechanisms — not just cultural ones — that reduce reproductive drive in response to high offspring density.
+8. Therefore: non-reproductive sexual orientation, produced by a biological mechanism that tracks family size, is a *predicted output* of concentric selection theory.
+
+The FBOE is not an anomaly that the theory explains. It is a mechanism the theory requires.
+
+**The information infrastructure hierarchy maps to this.** The broader framework predicts that persistence time should correlate with the fidelity of the replication infrastructure:
+
+- **Genetic patterns** (highest fidelity): persist for millions of years
+- **Epigenetic/immunological patterns** (moderate fidelity, partial generational reset): persist for generations — the FBOE operates at exactly this timescale
+- **Cultural patterns with dedicated preservers** (institutional transmission): persist for millennia
+- **Cultural patterns without dedicated transmission infrastructure**: persist for decades to centuries, then drift and fragment
+
+The FBOE sits at the epigenetic/immunological tier — a family-level regulatory mechanism that resets partially with each generation (each mother starts with zero anti-NLGN4Y antibody load) but accumulates within a generation. This is precisely the timescale at which family-level optimization operates: not across evolutionary time (too slow to respond to local conditions) and not within a single lifetime (too fast to affect developmental trajectory). The mechanism's temporal resolution matches its functional scale.
+
+**Testable predictions from the derivation:**
+
+1. **Non-reproductive orientation rates should correlate with family size** — not just birth order, but total sibling density. Larger families should show higher rates. (Partially confirmed by FBOE data, but the prediction extends beyond the brother-specific effect to overall family resource pressure.)
+2. **The regulatory mechanism should be attenuated in high-resource environments.** If the function is lineage optimization under resource constraint, then families with abundant resources should show weaker density-dependent effects — the crossover point where additional children become costly moves further out.
+3. **Other density-dependent reproductive regulators should exist.** Non-reproductive orientation is predicted to be one mechanism among several. Others might include: delayed reproductive maturity in later-born children, reduced libido under resource stress, increased investment in non-reproductive social roles. The framework predicts a *suite* of density-dependent regulatory mechanisms, not a single one.
+4. **Species with stronger resource constraints on offspring investment should show stronger density-dependent SSB.** Among social species (which already show elevated SSB), those with longer juvenile dependency periods and higher per-offspring investment should show more pronounced density-dependent modulation of reproductive orientation.
+
+---
+
 ## SYNTHESIS: THE CONCENTRIC VIEW
 
 ### Why Gene-Level Analysis Fails
@@ -410,6 +473,10 @@ Selection on patterns. All the way down.
 - Turecek, P., Fort, H. & Flegr, J. (2025). Crusaders, monks and family fortunes: evolutionary models of the fraternal birth-order effect on male sexual orientation. *Proceedings of the Royal Society B*, 291, 20242756.
 - Luoto, S. (2022). Understanding the biodevelopment of sexual orientation requires a multilevel evolutionary analysis. *Archives of Sexual Behavior*, 52, 1655-1661.
 
+### Life History Theory & Offspring Investment
+- Lack, D. (1947). The significance of clutch-size. *Ibis*, 89(2), 302-352.
+- Smith, C.C. & Fretwell, S.D. (1974). The optimal balance between size and number of offspring. *American Naturalist*, 108(962), 499-506.
+
 ### FBOE Challenges and Methodological Critiques
 - Vilsmeier, J.K., Jahn, R.T. & Tran, U.S. (2023). The fraternal birth-order effect as a statistical artefact: convergent evidence from probability calculus, simulated data, and real data. *Archives of Sexual Behavior*, 52, 2741-2757.
 
@@ -451,6 +518,8 @@ Selection on patterns. All the way down.
 **6. The monogamy parallel.** The argument that homosexuality and monogamy are structural analogs — both reducing the number of males in zero-sum reproductive competition, one through biological and one through cultural architecture. **Not found in published literature.**
 
 **7. The Western replication failure as evidence FOR the framework.** The argument that kin selection failing in Western societies but working in Samoa is not evidence against kin selection but evidence that the group-level structure (communitarian context) is required for the group-level function to express. **Partially found** — Vasey provides the empirical observations and some of this reasoning — but not framed through a multi-level selection lens.
+
+**8. The lineage optimization derivation.** The argument that sexual orientation as a density-dependent reproductive regulator is *derived* from first principles — not accommodated after the fact — by reasoning from the unit of selection being the information lineage rather than the individual organism. The quantity-quality tradeoff (Lack 1947, Smith & Fretwell 1974) is well-established in life history theory, but applying it to predict non-reproductive orientation as a lineage-level regulatory output is **not found in published literature.** The closest approach is the "kin selection" framing, which posits helpers compensating for lost reproduction — but that is an *accounting exercise* (does the help offset the cost?), not a *derivation from first principles* (the theory requires density-dependent regulation, the FBOE is an instance). The distinction matters: the kin selection framing treats homosexuality as a cost that might be offset; the lineage optimization derivation treats it as a predicted regulatory output of a system optimizing for descendant quality rather than offspring quantity.
 
 ### Assessment
 
