@@ -3129,6 +3129,30 @@ The tradeoff is real. Communities that over-specify or set friction too high wil
 
 Cultural Charter interacts with Lifecycle Management (Section 4.9)—charters themselves should have review cycles to assess whether friction levels remain appropriate. It interacts with Continuous Alignment (Section 6.8)—ongoing member input on whether charter reflects actual community values. It interacts with Memory and Truth mechanisms (Section 6.7)—charter history is a form of institutional memory that enables accountability across time.
 
+### 6.18 Spatial Design as Density-Sensor Infrastructure
+
+Document 1 establishes that Calhoun's spatial-complexity variations delayed behavioral sink: experiments with more side rooms, multiple levels, and greater physical complexity attenuated competitive saturation. The mice still hit overdrive eventually, but spatial complexity bought time and reduced severity. More defensible private territory per individual meant the density sensor didn't trigger competitive intensity calibration as fast. The architecture of the physical environment modulated the biological signal.
+
+This is not a metaphor. It is a design parameter.
+
+**The mechanism:** The biological density sensor doesn't read property deeds or understand rent markets. It reads the same cues Calhoun's mice read: how many conspecifics are you encountering in your territory, how much space can you defensibly control, how often are you in involuntary proximity to competitors. Urban spatial design is therefore a memetic technology in exactly the same sense as monasticism or markets — it builds the signaling substrate that keeps the biological sensor convinced conditions are cooperative rather than saturated.
+
+**Minimum dwelling sizes as carrying-capacity infrastructure.** A person in a 200 sq ft studio in a dense city is getting maximum-density signals constantly — shared hallways, packed elevators, crowded streets, no private territory that feels defensible. The sensor fires. Competitive intensity calibration shifts upward. Given the dimorphism of competitive suppression documented in Section 1.4: when female density signals are maximal, fertility suppression is the predicted output. The Japan/South Korea/Hong Kong data — smallest average dwelling sizes among wealthy nations, lowest fertility rates on Earth — confirms the predicted pattern.
+
+**The design principle: density without competitive saturation requires spatial complexity.** You can stack people vertically. You can have large populations in the same footprint. Density per se is not the problem. The problem is density *without spatial complexity* — without enough defensible private territory per individual that the biological sensor reads "I have space" rather than "I'm surrounded by competitors."
+
+The concrete variables:
+- **Shared green space and parks** provide territory that feels expansive without requiring low density. They give the sensor "frontier" reads — open space, voluntary encounters, room to move — even in high-density urban cores.
+- **Spacious private rooms** with acoustic isolation and visual privacy give "defensible territory" reads. The sensor needs to register that your space is *yours* — that competitors cannot observe you or intrude without your consent.
+- **Private outdoor space** — balconies, courtyards, rooftop gardens — provides boundary signals. Territory that extends beyond the interior wall.
+- **Acoustic isolation** matters independently of visual privacy. Involuntary exposure to neighbors' sounds registers as density even behind closed doors.
+
+The design goal is not square footage per se but **signal management**: ensuring that the density sensor reads "I have space, I have territory, encounters with competitors are voluntary" rather than "I am surrounded, I cannot retreat, every interaction is involuntary."
+
+**The policy implication:** Unit sizes, acoustic isolation, visual privacy, access to shared green space — these are not amenities or luxury goods. They are **signal inputs to the density sensor**, and the density sensor drives competitive intensity calibration, which drives fertility. Get the spatial design wrong and you trigger the competitive saturation cascade regardless of how wealthy, safe, or materially abundant the society is. Get it right and you can house large populations in the same footprint while the sensor reads "frontier."
+
+This connects directly to Section 5.1 (Henry George): land value taxation enables exactly this kind of spatial design by preventing the land speculation that drives minimum-viable-unit-size development. When landowners must pay full land value tax, the incentive shifts from "maximize rentable square footage per unit of land" (which produces tiny apartments) to "maximize the value of the community" (which requires spatial complexity that attracts residents). Georgist land policy and density-sensor-aware urban design are complementary mechanisms.
+
 ---
 
 ## What Comes Next
