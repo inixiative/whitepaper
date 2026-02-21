@@ -114,6 +114,21 @@ The FBOE thus functions as a **density-dependent biological governance mechanism
 
 The progressive, graduated nature of the effect (each additional brother incrementally increasing probability, not flipping a binary switch) is itself diagnostic. This is how information-processing systems behave — analog, proportional, responsive to accumulated state. It is not how genes behave.
 
+**The meta-level argument — the mechanism itself is evolved:**
+
+But there is a deeper point still. The FBOE mechanism is not an accident of immunology. It is a multi-step pathway — immune recognition of NLGN4Y → progressive antibody accumulation across pregnancies → placental transfer → neurodevelopmental effect on sexual differentiation — and at *every step*, evolution could have shut it down:
+
+- The maternal immune system could have evolved tolerance to NLGN4Y (as it tolerates many fetal antigens)
+- The placental barrier could have evolved to filter anti-NLGN4Y antibodies more effectively
+- Fetal neurodevelopment could have evolved insensitivity to these maternal antibodies
+- Any mutation at any link in the chain that broke the pathway would have been positively selected — *if individual-level selection were the only force operating*
+
+The fact that this entire chain is intact — that it has been **preserved and maintained** across evolutionary time — means there is selection pressure *for* the mechanism, not just tolerance of it. The mechanism is not a bug in the immune system that evolution hasn't gotten around to fixing. It is a feature that has been actively maintained because its output is adaptive at a level above the individual.
+
+This generates a testable prediction: the FBOE mechanism (or functionally analogous mechanisms producing SSB) should track sociality. We should find it in highly social species where group coordination matters, and it should be absent or attenuated in solitary species where there is no group-level function to serve. The cross-species data (Section 2 below) already confirms the output side of this prediction — SSB itself tracks sociality across 261 mammalian species (Gomez et al. 2023) and 491 primate species (Savolainen et al. 2026). The next empirical step would be to test whether the *production mechanisms* for SSB (maternal immune effects, epigenetic transmission, etc.) show the same phylogenetic distribution.
+
+This is the concentric selection argument made concrete. At the gene level, you would expect any mechanism that reduces individual reproductive output to be selected against. But at the group/family level, the mechanism serves a coordination function — regulating within-family male competition, producing individuals who strengthen social bonds and reduce intra-group conflict. The mechanism persists because the selection pressure maintaining it operates at a wider ring than the selection pressure that would eliminate it. The mechanism is itself evidence of multi-level selection — not just the trait it produces, but the evolved architecture that produces the trait.
+
 ---
 
 ### 2. Cross-Species Distribution: The Sociality Correlation
