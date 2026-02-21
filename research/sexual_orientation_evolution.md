@@ -401,3 +401,59 @@ Selection on patterns. All the way down.
 - Moscovice, L.R. et al. (2019). Stable and enduring social relationships between females at Wamba, a bonobo site. *Hormones and Behavior*, 116, 104581.
 - Kirkpatrick, R.C. (2000). The evolution of human homosexual behavior. *Current Anthropology*, 41(3), 385-413.
 - Semenyna, S.W. et al. (2017). Need for alloparental care and attitudes toward homosexuals in 58 countries. *Evolutionary Psychological Science*, 3(4), 326-338.
+
+### Multi-Level Selection and Theoretical Models
+- Kirby, J. (2003). A new group-selection model for the evolution of homosexuality. *Biology & Philosophy*, 18, 683-694.
+- Gavrilets, S. & Rice, W.R. (2006). Genetic models of homosexuality: generating testable predictions. *Proceedings of the Royal Society B*, 273, 3031-3038.
+- Rice, W.R., Friberg, U. & Gavrilets, S. (2012). Homosexuality as a consequence of epigenetically canalized sexual development. *Quarterly Review of Biology*, 87(4), 343-368.
+- Gavrilets, S., Friberg, U. & Rice, W.R. (2017). Understanding homosexuality: moving on from patterns to mechanisms. *Archives of Sexual Behavior*, 47(1), 27-31.
+- Turecek, P., Fort, H. & Flegr, J. (2025). Crusaders, monks and family fortunes: evolutionary models of the fraternal birth-order effect on male sexual orientation. *Proceedings of the Royal Society B*, 291, 20242756.
+- Luoto, S. (2022). Understanding the biodevelopment of sexual orientation requires a multilevel evolutionary analysis. *Archives of Sexual Behavior*, 52, 1655-1661.
+
+### FBOE Challenges and Methodological Critiques
+- Vilsmeier, J.K., Jahn, R.T. & Tran, U.S. (2023). The fraternal birth-order effect as a statistical artefact: convergent evidence from probability calculus, simulated data, and real data. *Archives of Sexual Behavior*, 52, 2741-2757.
+
+---
+
+## LITERATURE GAP ANALYSIS
+
+**Date added:** February 2026
+**Purpose:** Map what the existing literature establishes versus what this research document synthesizes as novel.
+
+### What the Literature Establishes (Individual Pieces)
+
+| Claim | Source(s) | Status |
+|-------|-----------|--------|
+| FBOE exists and is robustly replicated | Blanchard, Bogaert, meta-analyses | Well-established |
+| Mechanism involves anti-NLGN4Y maternal antibodies | Bogaert et al. 2018 | Supported but needs replication |
+| SSB correlates with sociality across mammals | Gomez et al. 2023, Monk et al. 2019 | Well-established |
+| Social complexity directly promotes SSB in primates | Coxshall et al. 2026 | Recently established |
+| Kin selection operates in communitarian contexts | Vasey & VanderLaan, multiple studies | Established (Samoa) |
+| Sexually antagonistic selection maintains alleles | Camperio Ciani et al. 2004, 2008; Zietsch et al. 2021 | Supported but facing recent challenges |
+| SSB serves alliance/bonding/conflict functions | Barron & Hare 2020, de Waal | Supported |
+| Group selection can theoretically maintain homosexuality | Kirby 2003 | Theoretical only |
+| FBOE may involve parental/sibling manipulation | Flegr 2024, Turecek et al. 2025 | Emerging |
+| Polygenic architecture suggests balancing selection | Ganna et al. 2019 | Well-established |
+| No single hypothesis explains all the data | Multiple recent reviews (2023-2026) | Consensus |
+
+### What This Document Synthesizes (Novel)
+
+**1. The pathway preservation argument.** The argument that every link in the FBOE chain (immune recognition → antibody accumulation → placental transfer → neurodevelopmental effect) represents a point where selection could have shut it down, and the chain's preservation constitutes evidence of positive selection *for* the mechanism at a supra-individual level. **Not found in any published paper.** The standard framing (Blanchard, Bogaert, and essentially all FBOE researchers) treats the mechanism as an immunological byproduct, not an adaptation. The closest approach is Turecek et al. (2025), who argue the FBOE "is not a mere constraint of gestation" and "requires an evolutionary explanation," but they attribute it to sibling manipulation dynamics within an inclusive fitness framework, not to the mechanism itself being maintained by multi-level selection.
+
+**2. Connecting FBOE to multi-level selection theory.** The explicit argument that the FBOE persists because it serves family/group-level fitness despite reducing individual reproductive output, framed through multi-level selection. **Not found as stated.** Kirby (2003) uses group selection for homosexuality generally but does not discuss the FBOE mechanism. Luoto (2022) calls for "multilevel evolutionary analysis" but means Tinbergen's four questions (levels of *explanation*), not multi-level *selection* in the D.S. Wilson / Price equation sense.
+
+**3. Connecting FBOE to the cross-species sociality correlation.** The prediction that SSB-*producing mechanisms* (not just SSB behavior) should track sociality across species. **Not found. These two literatures operate in complete isolation.** The sociality researchers (Gomez, Monk, Coxshall) work at the phylogenetic level — which species show SSB? The FBOE researchers (Blanchard, Bogaert) work at the proximate immunological level — what mechanism produces it in individual humans? No published paper bridges them.
+
+**4. The density-dependent governance framing.** The interpretation of the mother's immune system as a sensor, NLGN4Y antibodies as a signal, and altered developmental trajectory as governance output. The comparison to carrying-capacity triggers. The Levin/Noble informational framework applied to the FBOE. **Not found in any paper.** The closest is Miller (2000), who describes the FBOE as reducing "unproductive competition," and Camperio Ciani et al. (2008), who describe a "buffer effect" — but both frame these as observations, not as evidence of an evolved governance architecture.
+
+**5. The concentric selection integration.** The synthesis that organizes gene-level (polygenic architecture), family-level (FBOE + sexually antagonistic selection), group-level (alliance/alloparenting), and species-level (sociality correlation) evidence into a unified multi-ring selection framework. **No published paper presents this integration.** Each ring has its own research program.
+
+**6. The monogamy parallel.** The argument that homosexuality and monogamy are structural analogs — both reducing the number of males in zero-sum reproductive competition, one through biological and one through cultural architecture. **Not found in published literature.**
+
+**7. The Western replication failure as evidence FOR the framework.** The argument that kin selection failing in Western societies but working in Samoa is not evidence against kin selection but evidence that the group-level structure (communitarian context) is required for the group-level function to express. **Partially found** — Vasey provides the empirical observations and some of this reasoning — but not framed through a multi-level selection lens.
+
+### Assessment
+
+The synthesis is built on individually well-supported empirical findings assembled into a theoretical framework that is genuinely novel. The strongest version of the argument — that the FBOE mechanism was positively selected at the family/group level, and that this constitutes evidence of multi-level selection — is the most ambitious claim and the one with the least direct published precedent. The weakest empirical link is the FBOE mechanism itself, which rests primarily on one direct test (Bogaert et al. 2018) and faces statistical challenges (Vilsmeier et al. 2023). The cross-species sociality correlation, by contrast, is robustly established across three independent research groups using different methodologies.
+
+The most testable novel prediction is that SSB-producing mechanisms should show the same phylogenetic distribution as SSB itself — tracking sociality across species. This bridges two currently isolated literatures and could be tested by surveying maternal immune sensitization or functionally analogous mechanisms across social vs. solitary mammalian species.
