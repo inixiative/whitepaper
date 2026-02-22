@@ -103,6 +103,49 @@ George's diagnosis applies to modern structures where control over money creatio
 - **The scale of financialization:** Global derivatives ($600-1,000 trillion) are 6-10x larger than global GDP ($100 trillion). The financial system has become primarily parasitic.
 - **The growth imperative:** Debt-based money, equity markets, and quarterly earnings create perpetual growth expectations, forcing consolidation and infinite expansion—similar to George's landowners optimizing for rent extraction.
 
+**The Agglomeration Paradox: Why Housing Becomes Sustainably Costly**
+
+George's core insight was that land value rises as "society builds around it." Agglomeration economics gives this a spatial corollary: cities become more productive as they grow, which is exactly why people move to them — and exactly why their land becomes expensive.
+
+Agglomeration economies are well-documented: workers in cities of 1 million are roughly 15-20% more productive than the same workers in small towns, not from harder work but from denser networks, specialized labor markets, and knowledge spillovers. Cities are thermodynamically favorable — productive activity concentrates people, which increases land value, which concentrates more people. George's mechanism operating exactly as predicted: society creates the productivity; landowners capture it as rent.
+
+This makes housing in cities **sustainably costly** — not a market failure or a temporary crisis, but a structural consequence of the productivity that makes cities worth living in. Policy responses that subsidize demand (guaranteed mortgages, housing vouchers, tax deductions) inflate prices to absorb the subsidy, confirming George's prediction. The stated remedy IS the mechanism perpetuating the problem.
+
+**The Universe 25 Consequence**
+
+This sustainable costliness has a biological consequence George did not identify but Calhoun demonstrated experimentally. When land costs are captured as rent, developers optimize for minimum-viable-unit housing — studios, micro-units, shared walls — because that is what survives at rent-extracted price points. The biological density sensor doesn't read property deeds or understand rent markets. It reads the same cues Calhoun's mice read: can you establish defensible territory? How often are you in involuntary proximity to competitors? Is there room for offspring?
+
+The data confirms the predicted pattern. Japan (among the smallest average dwelling sizes in the developed world, 1.2 TFR), South Korea (extreme Seoul density plus tiny apartments, 0.72 TFR), Hong Kong (smallest average dwelling sizes of any major city, 0.8 TFR): not material scarcity, but signal saturation. The sensor reads "no room for offspring" regardless of caloric abundance.
+
+Causal evidence, not just correlation: Brazil's housing credit lottery (Van Doornik et al., 2025) assigned housing access randomly. Young adults (ages 20-25) who received housing showed a 32-33% increase in probability of having children. This is controlled causation — housing access → fertility. Aggregating across the economy, rising housing costs account for approximately **51% of the total fertility rate decline between the 2000s and 2010s**. Housing cost is not a secondary factor; it is the dominant driver of the fertility collapse.
+
+The causal chain: **George's rent extraction → sustainable housing costs → minimum-viable-unit development → density without spatial complexity → Universe 25 density signal → fertility suppression.**
+
+**Cities as Historical Population Sinks**
+
+This is not a modern anomaly. Cities have always been net negative for population growth. Demographers call it the "urban penalty": at the beginning of the urban transition, deaths outnumber births in the urban sector; urban growth is driven initially by in-migration alone, not natural increase. Historically the constraint was mortality — the poor packed into tiny rooms and had children who died of disease, malnutrition, and violence. We solved that constraint. Now we have created conditions where reproduction doesn't begin. The constraint shifted from survival to space.
+
+| Historical urban | Modern urban |
+|---|---|
+| High mortality (disease, crowding) | Low mortality |
+| High fertility despite conditions | Low fertility *because* of conditions |
+| Children died | Children don't happen |
+| Constraint: survival | Constraint: space / cost / competition signal |
+
+With 50%+ of global population in cities (heading toward 75%), this is civilizational-scale selection pressure — concentrating humanity into environments that signal "no room for offspring" to ancestral carrying-capacity sensors while providing unlimited calories and material comfort. The Universe 25 parallel is precise: unlimited food, insufficient space for normal social and reproductive behavior, population collapse despite material abundance.
+
+**The Irreversibility Warning**
+
+Calhoun's experiments include a finding that rarely gets cited. Before Universe 25 collapsed entirely, he removed Beautiful Ones and other dysfunctional mice to fresh environments — empty universes with abundant space and resources. They did not recover. The behavioral repertoire for courtship, maternal care, territorial establishment, and social organization was never developed; the damage was developmental, not situational. Mice raised under behavioral sink conditions could not perform reproductive and cooperative behaviors even when given optimal conditions.
+
+The implication for human populations: if generations are raised under housing conditions that persistently signal "no room for offspring," developmental windows close. Even if housing becomes available later, the capacity to use it may not be recoverable. Policy that restricts housing may not merely delay family formation — it may permanently prevent it by allowing critical developmental windows to close.
+
+**The Georgist Solution**
+
+Land value taxation breaks this chain at the first link. By capturing the agglomeration premium for public benefit rather than private rent, it removes the incentive to build minimum-viable-unit housing. When landowners pay full land value tax, the incentive shifts from "maximize rentable units per hectare of land" toward "maximize the value of the community" — because only a community people actually want to live in commands the rent that funds the tax. Spatial complexity that keeps the biological density sensor reading "frontier" rather than "saturation" becomes economically rational.
+
+Singapore's implementation illustrates this. Near-universal state land ownership with 99-year leaseholds means the agglomeration premium flows to the public rather than private landowners — and Singapore has among the highest housing quality and most livable density in the world. The Georgist correction is not an abstract redistribution argument; it is the specific mechanism through which land policy determines whether cities concentrate people into human-scale environments or into behavioral sinks.
+
 ### 5.2 Elinor Ostrom — Commons Governance
 
 Elinor Ostrom's work on commons governance provides empirical counterpoint to the "tragedy of the commons" narrative. Through extensive fieldwork, she identified conditions under which communities successfully manage shared resources without privatization or central authority.
