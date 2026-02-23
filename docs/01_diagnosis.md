@@ -234,7 +234,7 @@ The Baby Boom (1946-1964) created the largest generational cohort in American hi
 
 **The dual-earner necessity emerges:** Both parents were forced to work—not as liberation, but as economic necessity. One income could no longer support a household because competition for jobs had intensified dramatically. This wasn't about women's empowerment (though that narrative was convenient). It was about a generation so large that household economics required two incomes where one had previously sufficed.
 
-**Connection to competitive saturation:** This matches patterns documented in competitive saturation research: when population density exceeds carrying capacity, competitive intensity spikes. The Boomer flood created exactly the conditions for competitive saturation—too many individuals competing for limited resources (jobs, housing, status). The result: fertility suppression (exactly what we see post-1970s), cooperation decay (rising individualism), and status anxiety (credential inflation).
+**The crowding effect:** When too many individuals compete for limited resources (jobs, housing, status), predictable pathologies emerge: fertility suppression, cooperation decay, and status anxiety. The Boomer flood created exactly these conditions—a generation so large that normal competition intensified into something closer to a permanent struggle. The effects we document in Section 1.4 (credential inflation, fertility collapse despite wealth, withdrawal behaviors) trace back partly to this demographic overshoot. Population ecologists call this "competitive saturation"—when density exceeds the system's capacity to provide stable positions for most individuals.
 
 **Boomers entering politics: generational capture at scale.** The same cohort that flooded the labor market eventually flooded politics. Power accumulation with age is nothing new—elites have always tried to hold power as long as possible. What's different is scale. Longevity improvements mean more people survive to accumulate power. The Boomer cohort is so large that they can dominate institutions without recruiting younger ranks—they don't need replacements when there are enough of them. And rationally, they lobby for policies that benefit their generation: protecting Social Security and Medicare while cutting investments in the young, restricting housing supply to inflate their assets, running deficits their grandchildren will repay. Clinton, Bush, Trump, and Biden were all born within a four-year window (1942-1946)—the same generational cohort holding the presidency from 1993 to potentially 2029. Historically, generational power would have been tempered by mortality and the need to train successors. The Boomers face neither constraint.
 
@@ -2268,6 +2268,181 @@ The resulting culture war is **chemotherapy for the elite aspirant class**. Whil
 
 **The consequence:** Cooperation is superior when sustainable. Societies that maintain cooperation at scale dominate those that can't. But biological mechanisms calibrated for small hunter-gatherer bands are **catastrophic at civilizational scale**. The moral outcry ("this is cultural suicide!") is correct—we ARE sacrificing cooperation-enabling infrastructure. What looks like moral decay is actually **civilizational suicide**: biology triggering a purge mechanism designed for small bands, now operating at a scale where losing cooperation means collapse, not adaptive reset.
 
+**The Health-Ideology Selection Pressure: Why The System Selects For Harm**
+
+The civilizational suicide mechanism has a specific amplification loop that makes correction increasingly difficult. To understand it, we need to start with the mechanism, then see what it predicts, then examine the evidence.
+
+**The Mechanism: The Revolutionary Sensor**
+
+Chimpanzees form political coalitions, overthrow tyrannical alphas, and punish unfair leaders. De Waal and Goodall documented this extensively. When a dominant male hoards resources or mates unfairly, subordinates form alliances and depose him. This is ancient primate politics—we didn't invent revolution, we inherited it.
+
+The hardware for "detect unfair hierarchy → form coalition → overthrow" is conserved across great apes. We've been running this program for 500,000+ years—longer than we've been human.
+
+**The Adaptive Logic:**
+
+In ancestral environments, if you were struggling while others thrived, there were two possibilities:
+
+1. **The hierarchy is legitimate** — you're at the bottom because you're less capable. Accepting your position is adaptive.
+2. **The hierarchy is illegitimate** — you're at the bottom because someone is cheating, hoarding, or exploiting. Revolution is adaptive.
+
+The sensor doesn't need to distinguish perfectly between these cases. It just needs to make revolution *more attractive* when you're struggling. Sometimes the bet pays off—the system WAS unfair and CAN be overthrown. The revolutionary instinct is adaptive for those at the bottom because sometimes it works.
+
+**Health as Position Signal:**
+
+Sapolsky's work on baboon hierarchies shows the bidirectional link: low status → chronic stress → worse health outcomes. Health is a signal of position in the hierarchy. When you're sick while others are healthy, the ancestral interpretation is: "I'm being cheated out of resources that should be mine."
+
+In ancestral environments, this was often true. If you were malnourished while others were well-fed, someone was probably hoarding. The revolutionary instinct firing in response to health differentials made evolutionary sense.
+
+**What This Predicts:**
+
+If this mechanism exists, we would expect:
+- People with worse health should be more attracted to revolutionary/redistributive politics
+- This should hold even controlling for socioeconomic status (because the sensor responds to health itself, not just poverty)
+- The effect should begin in childhood (when the sensor calibrates)
+- The correlation should be robust across cultures (because the hardware is conserved)
+
+**The Empirical Validation:**
+
+A 2022 study in *SSM Population Health* ("The relationship between health and political ideology begins in childhood") confirmed exactly these predictions. Childhood health predicts adult political ideology: children who were healthier grew up more conservative; children who were less healthy grew up more liberal. The longitudinal design tracked the same individuals from childhood through adulthood.
+
+The finding replicates across multiple datasets and countries. Self-reported health, chronic conditions, and disability all correlate with left-leaning political orientation. The effect is robust to controls for socioeconomic status, education, and other confounds.
+
+This isn't a claim that liberal politics are "sick" or conservative politics are "healthy." It's a claim about mechanism: the revolutionary sensor fires in response to health signals, and health signals are now being generated by novel sources.
+
+**The Modern Mismatch:**
+
+Today, health differentials come from sources the revolutionary sensor can't recognize:
+
+- Novel exposures (seed oils, microplastics, endocrine disruptors)
+- Ultra-processed food
+- Iatrogenic harm
+- Sedentary lifestyle
+- Environmental toxins
+
+These are not resource hoarding by identifiable oppressors. But the hardware doesn't know this. The sensor still fires: "I'm sick, others aren't → unfair distribution → revolution!"
+
+The revolutionary instinct activates even when revolution can't fix the problem—because the problem isn't distribution, it's environmental damage the sensor wasn't designed to detect.
+
+**The Selection Pressure Loop:**
+
+This creates a perverse selection pressure on policy:
+
+1. **Novel exposures harm population health** (not detected by ancestral sensors)
+2. **Sick people feel "cheated"** (revolutionary sensor fires)
+3. **Revolutionary instinct → liberal/redistributive politics** (adaptive response to wrong signal)
+4. **Politicians who benefit from liberal voters have incentive to not fix health** (more sick voters = more support)
+5. **Policies selected for by sick voters don't address actual causes** (novel exposures continue)
+6. **Population gets sicker → more revolutionary voters → loop continues**
+
+The loop doesn't require conspiracy. It doesn't require anyone consciously deciding to harm the population. It only requires:
+- Conserved revolutionary psychology firing on novel signals
+- Electoral incentives favoring policies that create your voter base
+- Selection pressure operating on policy outcomes
+
+**The Convergence: Multiple Revolutionary Triggers Firing Simultaneously**
+
+What makes the current moment especially dangerous is that multiple factors are activating revolutionary psychology at once:
+
+| Factor | Mechanism | Effect |
+|--------|-----------|--------|
+| Declining population health | More people feel "at the bottom" | Revolutionary sensor fires in larger fraction of population |
+| Elite overproduction (Turchin) | Frustrated aspirants blocked from expected positions | Revolutionary sensor fires in would-be elites |
+| Feminization of empathy (Singer) | Institutional empathy loses fairness-filter | Can't distinguish deserving from undeserving "victims" |
+| Family formation decline | No generational stake in stability | Lower threshold for revolutionary action |
+
+All gradients point the same direction: more revolutionary energy, less ability to detect who actually deserves sympathy, less ability to identify bad actors exploiting the system.
+
+**The Complete Flywheel: Selection For Policies That Harm Health**
+
+The health-ideology loop creates a perverse selection pressure on policy itself. The feminization of institutional empathy (Section 1.4) compounds the dynamic:
+
+1. **Health decline** → revolutionary sensor fires → demand for redistribution
+2. **Feminized institutions** → can't apply fairness filter (Section 1.4) → respond to all victimhood claims
+3. **Victimhood performance rewarded** → incentive to claim/perform illness
+4. **Actual health problems unaddressed** → novel exposures continue
+5. **More sick people, more performed sickness** → more revolutionary voters
+6. **Politicians selected for who benefit from this dynamic** → policies that perpetuate it
+
+**The critical insight: Step 6 means selection pressure favors policies that make people sick.**
+
+Politicians who benefit from sick, dependent voters have electoral incentive to:
+- NOT address novel environmental exposures (seed oils, microplastics, endocrine disruptors)
+- NOT reform food systems that create metabolic disease
+- NOT investigate iatrogenic harm from medical interventions
+- Expand programs that create dependency rather than health
+- Frame health problems as requiring more intervention rather than removing harmful exposures
+
+This isn't conspiracy—it's selection. Politicians who happen to support policies that harm health gain electoral advantage over politicians who would fix the underlying causes. Over time, the political system filters for those whose policy preferences (whether sincere or calculated) happen to create more sick voters.
+
+**The selection operates at multiple levels:**
+- **Electoral:** Sick voters select for politicians who promise care, not cure
+- **Bureaucratic:** Agencies that address root causes shrink their own justification; agencies that manage symptoms grow
+- **Corporate:** Industries that profit from treating chronic disease lobby against prevention
+- **Academic:** Researchers who question harmful interventions lose funding; those who validate them thrive
+
+Each actor may be individually well-intentioned. The aggregate outcome is a system that selects against health and for dependency.
+
+**Evidence of Selection in Action:**
+
+If the system selects for policies that create dependency rather than health, we should see resource allocation patterns that prioritize managing illness over preventing it, and that expand the dependent population rather than shrinking it.
+
+**Education spending on disabled vs. general population children:**
+
+The data confirms exactly what selection pressure would predict:
+
+**Enrollment has doubled:**
+- 1976-77: 3.6 million students in special education (8% of enrollment)
+- 2022-23: 7.5 million students (15% of enrollment)
+- The percentage of students classified as disabled has nearly doubled in 45 years
+
+**Spending ratios favor special ed:**
+- National average: special education costs 1.5x to 2.5x general education per pupil
+- New Hampshire 2023-24: $49,812 per special ed student vs ~$18,700 general ed (2.7x ratio)
+- Some individual students cost 10x the district average
+
+**Diagnostic expansion:**
+- Autism: 93,000 students (2000-01) → 882,000 students (2021-22) — nearly 10x increase in 20 years
+- Categories that didn't exist now account for significant enrollment
+
+**State variation reveals the selection pressure:**
+- New York: 20.5% of students in special education
+- Texas/Idaho: 11.7% of students in special education
+- Same underlying population, different diagnostic/classification incentives
+
+Sources: [NCES Fast Facts](https://nces.ed.gov/fastfacts/display.asp?id=64), [EdWeek](https://www.edweek.org/teaching-learning/the-number-of-students-in-special-education-has-doubled-in-the-past-45-years/2023/07), [Pew Research](https://www.pewresearch.org/short-reads/2023/07/24/what-federal-education-data-shows-about-students-with-disabilities-in-the-us/)
+
+This isn't a claim that disabled children don't deserve resources. It's a claim about selection pressure: systems that create more disabled children will, over time, outcompete systems that prevent disability—because the dependent population votes for expansion of dependency programs, and the bureaucracy that manages them votes for its own growth.
+
+**The cancer dynamic:** Resources flow increasingly toward the least productive members of society—not because anyone decided this, but because each marginal reallocation is politically easier than the last. The constituency for expansion grows with each expansion. The constituency for prevention shrinks as prevention succeeds (fewer people who would have been disabled, fewer advocates for the program that prevented them).
+
+This continues until the burden becomes unbearable. As documented in Section 1.6 (Tainter), complexity accumulates until marginal returns go negative—but **societies almost never simplify voluntarily**. Each layer of dependency management has constituencies that defend it. Simplification happens through collapse, not reform.
+
+In the meantime, the civilization operates with an ever-larger fraction of resources devoted to managing dysfunction rather than building capacity. This is the bureaucratic cancer described in Section 2.2—cells that should die but don't, accumulating damage, consuming resources meant for healthy tissue.
+
+**The Homelessness Industrial Complex:**
+
+The same dynamic plays out in homelessness policy. Oscar Wilde's full argument from "The Soul of Man Under Socialism" (1891) is worth quoting at length:
+
+> "People find themselves surrounded by hideous poverty, by hideous ugliness, by hideous starvation. It is inevitable that they should be strongly moved by all this. Accordingly, with admirable though misdirected intentions, they very seriously and very sentimentally set themselves to the task of remedying the evils that they see. But their remedies do not cure the disease: they merely prolong it. Indeed, their remedies are part of the disease. They try to solve the problem of poverty, for instance, by keeping the poor alive; or, in the case of a very advanced school, by amusing the poor. But this is not a solution: it is an aggravation of the difficulty. The proper aim is to try and reconstruct society on such a basis that poverty will be impossible... **The worst slave-owners were those who were kind to their slaves, and so prevented the horror of the system being realized by those who suffered from it, and understood by those who contemplated it.**"
+
+Wilde's insight: kind treatment of symptoms prevents recognition of the disease. The charitable response makes the underlying system invisible—and therefore unreformable.
+
+Modern homelessness spending follows this pattern precisely:
+- San Francisco spends ~$100,000+ per homeless person annually
+- Los Angeles has spent billions with homelessness increasing
+- The "homeless industrial complex" employs thousands whose jobs depend on homelessness continuing
+
+The selection pressure: organizations that *solve* homelessness shrink their own funding. Organizations that *manage* homelessness grow. Over time, the system selects for management over solution. Nobody needs to consciously decide to perpetuate homelessness—the incentive structure does it automatically.
+
+Administrators, social workers, non-profit executives, and outreach coordinators all have career incentives aligned with homelessness continuing. The population of homeless people votes (where eligible) for politicians who expand services. The aggregate effect is a system optimized to perpetuate the problem it claims to solve.
+
+This isn't cynicism about individuals—many people in homelessness services genuinely want to help. But their individual intentions operate within a structure that selects against solving the problem. Good intentions inside bad incentive structures produce bad outcomes.
+
+**Why this is civilizational suicide:**
+
+A political system that selects for harming the health of its population will, over sufficient time, produce a population too sick to maintain the civilization. The selection pressure is slow enough that no single policy looks catastrophic, but the cumulative effect is demographic and civilizational decline.
+
+The actors don't need to be evil; they just need to respond to incentives. The outcome is civilizational suicide regardless of intent.
 
 **Part 3: Fractal Manifestations**
 
