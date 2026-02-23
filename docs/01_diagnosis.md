@@ -1703,6 +1703,12 @@ The Epstein files implicated elites across the full political spectrum. There we
 
 Most Americans are not aligned with the political positions these movements advance. The movements are loud, institutionally embedded, and foreign-supported. They are not representative. Whether the people inside them understand their role in the larger system is, per Section 1.13, largely unknowable — confabulation ensures that useful idiots believe in their own mission with complete sincerity.
 
+The most parsimonious reading: incumbent elites have probably deliberately changed the channels through which counter-elite competitors are elevated — radically favoring women and minorities over the demographic groups that historically mounted the most coherent challenges to concentrated power. Section 1.2c established that this kind of deliberate manipulation of aspirant classes has documentary evidence going back to Rockefeller and Carnegie. The mechanism is not new; the composition of the target class has changed.
+
+The same properties that made this class susceptible to ideological capture — higher social conformity pressure, emotional responsiveness, empathy-weighted reasoning over symmetrical fairness — are exactly what make them susceptible to foreign interference. Qatar, China, and Russia did not create the vulnerability. They found a population already primed to respond to emotional framing and social coordination, and moved into the opening. The ideological lobotomization and the foreign exploitability are not two separate problems; they are the same underlying trait, applied first by domestic institutional capture and then by foreign actors who recognized what was there.
+
+One further caveat: the "elites" visible enough to name throughout this analysis — CEOs, politicians, university presidents, prominent donors — are probably not the apex. The 0.001% who hold truly vast concentrations of wealth are largely invisible in public discourse. We are describing the visible layer of the mechanism. The actual top-level actors, their interests, and the degree of their coordination remain genuinely opaque.
+
 ### 2.2 Institutional Bloat / Bureaucratic Cancer
 
 **The biological analogy:** Institutions function as organs in a society's body. Like biological organs, they face two failure modes—the same two deaths that kill any organ:
