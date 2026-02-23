@@ -3131,13 +3131,9 @@ Cultural Charter interacts with Lifecycle Management (Section 4.9)—charters th
 
 ### 6.18 Spatial Design as Density-Sensor Infrastructure
 
-Document 1 establishes that Calhoun's spatial-complexity variations delayed behavioral sink: experiments with more side rooms, multiple levels, and greater physical complexity attenuated competitive saturation. The mice still hit overdrive eventually, but spatial complexity bought time and reduced severity. More defensible private territory per individual meant the density sensor didn't trigger competitive intensity calibration as fast. The architecture of the physical environment modulated the biological signal.
+Section 5.1 develops the theoretical basis: rent extraction drives minimum-viable-unit development, which triggers the biological density sensor, which suppresses fertility. The causal chain runs from land economics to reproductive biology. This section addresses the design parameters — what spatial variables actually modulate the density signal.
 
 This is not a metaphor. It is a design parameter.
-
-**The mechanism:** The biological density sensor doesn't read property deeds or understand rent markets. It reads the same cues Calhoun's mice read: how many conspecifics are you encountering in your territory, how much space can you defensibly control, how often are you in involuntary proximity to competitors. Urban spatial design is therefore a memetic technology in exactly the same sense as monasticism or markets — it builds the signaling substrate that keeps the biological sensor convinced conditions are cooperative rather than saturated.
-
-**Minimum dwelling sizes as carrying-capacity infrastructure.** A person in a 200 sq ft studio in a dense city is getting maximum-density signals constantly — shared hallways, packed elevators, crowded streets, no private territory that feels defensible. The sensor fires. Competitive intensity calibration shifts upward. Given the dimorphism of competitive suppression documented in Section 1.4: when female density signals are maximal, fertility suppression is the predicted output. The Japan/South Korea/Hong Kong data — smallest average dwelling sizes among wealthy nations, lowest fertility rates on Earth — confirms the predicted pattern.
 
 **The design principle: density without competitive saturation requires spatial complexity.** You can stack people vertically. You can have large populations in the same footprint. Density per se is not the problem. The problem is density *without spatial complexity* — without enough defensible private territory per individual that the biological sensor reads "I have space" rather than "I'm surrounded by competitors."
 
