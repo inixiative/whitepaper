@@ -2073,6 +2073,12 @@ Together they eliminate both failure modes: no deflation spiral (elastic lubrica
 
 **The hard problem:** Cryptographic verification of energy generation is genuinely unsolved. Meters can be tampered, data fabricated, and the incentive to commit fraud scales with the token's value. The 100% escrow buffer provides ex-post enforcement — fraudsters bear the cost of shortfalls — but verification infrastructure is an active research problem with no complete solution today.
 
+**Anti-counterfeiting properties that may make the hard problem tractable:**
+
+1. **Distributed sensor redundancy.** A robust mesh of nodes and sensors at both ingoing and outgoing grid connection points creates cross-validation by default. Every unit of energy entering the grid has a corresponding measurement leaving it somewhere else. Hardware injection or meter tampering at one node produces detectable inconsistencies across the network — the energy books don't balance. The denser the node distribution, the harder it becomes to fabricate generation or consumption without creating an anomaly that neighboring nodes can flag. This is not a single-point-of-trust model (one meter, one reading); it is a distributed consistency model where fraud requires compromising multiple independent measurement points simultaneously.
+
+2. **The diffuse-value problem works in the system's favor.** Energy is high-volume, low-margin, and physically distributed. Unlike counterfeiting currency (where a single successful forgery yields concentrated value), fabricating energy production yields only the value of the kWh tokens for that unit — which is deliberately small. The effort-to-reward ratio for energy fraud is structurally unfavorable: you need physical infrastructure (or convincing fakes of it), sustained over time, for marginal per-unit returns. At scale, the amount of energy in the system is so large that any individual fraud is a rounding error on total supply. This doesn't eliminate fraud, but it means the incentive gradient favors legitimate production over counterfeiting — the opposite of fiat, where proximity to the money printer yields outsized returns for zero productive contribution.
+
 **MVP approach:** Start with fiat/stablecoin compatibility for low friction. Provide a path for communities that want monetary sovereignty to experiment with energy-backing at small scale, in trusted networks with known producers, where verification is tractable.
 
 #### When to Use This
