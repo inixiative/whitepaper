@@ -8,7 +8,7 @@
 
 **Document 1 (The Diagnosis)** explained why modern governance fails—the convergent crisis of elite overproduction, institutional sclerosis, competition saturation, and epistemic fragmentation.
 
-**Document 2 (The Specification)** defined what any functional cooperative society must accomplish—the design frameworks (Section 3) and formal requirements (Section 4).
+**Document 2 (The Specification)** defined what any functional cooperative society must accomplish—the design frameworks and formal requirements.
 
 **This document (The Mechanisms)** explores the design space of novel governance mechanisms now possible thanks to smart contracts, cryptographic verification, and digital coordination infrastructure.
 
@@ -17,8 +17,6 @@
 **Document 4 (The MVP)** will present the concrete implementation—what we're actually building first.
 
 ---
-
-## 5. Novel Mechanisms Now Possible
 
 This is **Part 3** of the whitepaper: examples of governance mechanisms that were previously impossible but are now feasible through smart contracts and web3 infrastructure.
 
@@ -43,7 +41,7 @@ Rather than proposing a single governance system, we're building a **cooperation
 
 - **Voting mechanisms:** plurality, quadratic, approval, point-vote, liquid democracy, etc.
 - **Resource allocation tools:** budgeting, commons management, public goods funding
-- **Reputation systems:** contribution tracking, skill verification, trust graphs (all with safeguards from Section 4.9)
+- **Reputation systems:** contribution tracking, skill verification, trust graphs (all with safeguards from the specification)
 - **Lifecycle management:** configurable sunset rules, review schedules, renewal thresholds
 - **Subsidiarity routing:** algorithmic escalation/de-escalation based on configurable thresholds
 - **Accountability mechanisms:** continuous alignment, prediction markets, KPI tracking
@@ -65,15 +63,15 @@ Low engagement by ordinary citizens is success, not failure—as long as it refl
 
 ### The Following Sections
 
-**Section 5** presents proven mechanisms—governance tools that have been tested in practice with measurable results. These aren't theoretical proposals; they're working systems with empirical evidence.
+The first part of this document presents proven mechanisms—governance tools that have been tested in practice with measurable results. These aren't theoretical proposals; they're working systems with empirical evidence.
 
-**Section 6** explores novel mechanisms made possible by smart contracts and digital infrastructure—proposals that are theoretically sound but not yet proven at scale.
+The second part explores novel mechanisms made possible by smart contracts and digital infrastructure—proposals that are theoretically sound but not yet proven at scale.
 
 ---
 
 ## 5. Proven Mechanisms: What Works
 
-This section contains **only mechanisms with empirical validation**. The epistemic boundary is crucial: we distinguish between "this works, we have evidence" (Section 5) and "this should work, we have theory" (Section 6).
+This section contains **only mechanisms with empirical validation**. The epistemic boundary is crucial: we distinguish between "this works, we have evidence" and "this should work, we have theory."
 
 ### 5.1 Henry George — Land Value Tax
 
@@ -117,7 +115,7 @@ This sustainable costliness has a biological consequence George did not identify
 
 The data confirms the predicted pattern. Japan (among the smallest average dwelling sizes in the developed world, 1.2 TFR), South Korea (extreme Seoul density plus tiny apartments, 0.72 TFR), Hong Kong (smallest average dwelling sizes of any major city, 0.8 TFR): not material scarcity, but signal saturation. The sensor reads "no room for offspring" regardless of caloric abundance.
 
-Causal evidence, not just correlation: Brazil's housing credit lottery (Van Doornik et al., 2025) assigned housing access randomly. Young adults (ages 20-25) who received housing showed a 32-33% increase in probability of having children. This is controlled causation — housing access → fertility. Aggregating across the economy, rising housing costs account for approximately **51% of the total fertility rate decline between the 2000s and 2010s**. Housing cost is not a secondary factor; it is the dominant driver of the fertility collapse.
+Causal evidence, not just correlation: Brazil's housing credit lottery (Van Doornik et al., 2025) assigned housing access randomly. Young adults (ages 20-25) who received housing showed a 32-33% increase in probability of having children. This is controlled causation — housing access → fertility — operating alongside ISC suppression, competitive saturation, and density signaling. Multiple mechanisms, all real, all pointing the same direction.
 
 The causal chain: **George's rent extraction → sustainable housing costs → minimum-viable-unit development → density without spatial complexity → Universe 25 density signal → fertility suppression.**
 
@@ -315,9 +313,13 @@ Pink's prescription: "Pay enough to take money off the table"—then stop using 
 
 ## 6. Novel Mechanisms Now Possible
 
-Reality is often computationally irreducible—you can't shortcut to the answer. Yet the history of science and much of philosophy has made productive use of thought experiments. This section should be read in that light. Each mechanism asks: "What if governance were configured this way?"
+Document 2 established that governance operates in dialectic space — there are no optimal configurations, only tradeoffs to navigate. It also established that complex systems are computationally irreducible: you cannot calculate the right answer in advance, you can only search. Selection is what search looks like.
 
-Technology now has the ability to turn what was once conceptual into reality.
+This section is a catalog of mechanisms to search across, not a prescription for what to implement. Each mechanism is a lever: tunable, combinable, and independently activatable. Communities running inixiatives will turn different levers on and off, observe outcomes, and discover empirically which configurations work for their context, scale, and culture. There is no universal answer. The answer is the search.
+
+Read this section as a design space, not a design. Each mechanism asks: "What would governance look like if configured this way?" Technology has now made many of these configurations practically possible for the first time. Which of them actually produce better outcomes is an empirical question — one that only becomes answerable by building, deploying, and measuring.
+
+The mechanisms are modular by design. No community needs to implement all of them. Most will implement a small subset, learn from it, and adjust. The goal is not to prescribe a governance system but to make the design space legible so communities can navigate it deliberately rather than by accident.
 
 ### 6.1 Definitions
 
@@ -393,7 +395,7 @@ A failure mode: people claiming membership in communities where they have no sta
 - Abstract associations accept that membership is self-selected (that's the point)
 - Communities can require "skin in the game" - financial stake, time commitment, reputation bond
 
-**Cross-community coordination:** Section 6.10 handles cases where someone legitimately belongs to multiple overlapping communities and conflicts arise.
+**Cross-community coordination:** The jurisdiction overlap resolution mechanisms handle cases where someone legitimately belongs to multiple overlapping communities and conflicts arise.
 
 ### 6.3 Allocation & Voting Mechanisms
 
@@ -414,14 +416,14 @@ Traditional voting captures only **direction** (yes/no). This produces catastrop
 **3. Magnitude (Intensity):** How much do you care? "Mild support" (+2) vs "top priority" (+10). "Minor concern" (-2) vs "existential threat" (-10). Budget constraints operationalize this dimension by forcing you to allocate limited points across competing priorities, revealing what actually matters to you.
 
 **The constraint architecture:**
-- **Representatives:** Limited proposals per cycle (Section 6.5.6) → forces proposing only high-quality policies
+- **Representatives:** Limited proposals per cycle → forces proposing only high-quality policies
 - **Citizens:** Limited point budget per cycle → forces prioritizing what actually matters
 - **Proposals:** Must hit engagement threshold + positive net points → filters noise, surfaces genuine priorities
-- **Time windows:** Votes accumulate during windows, resolve at boundaries (Section 6.4) → prevents mid-stream gaming
+- **Time windows:** Votes accumulate during windows, resolve at boundaries → prevents mid-stream gaming
 
 **Natural prioritization emerges:** trivial proposals die from lack of engagement, passionate minorities can't impose on indifferent majorities (magnitude is bounded by budget), and citizens focus scarce attention on decisions that actually matter to them. Most proposals you ignore—that's success, not failure.
 
-**Note:** Many leadership decisions (hiring, emergency response, operational execution) don't route through these voting channels—other alignment mechanisms handle those (Section 6.5).
+**Note:** Many leadership decisions (hiring, emergency response, operational execution) don't route through these voting channels—other alignment mechanisms handle those.
 
 #### 6.3.1 Point-Vote System: Continuous Approval with Budget Constraints
 
@@ -451,15 +453,17 @@ This correctly translates political will—even though A has numerical plurality
 
 **Budget constraints:** Citizens receive a fixed budget of points per period (e.g., 100 points per month). Allocating these points across all active proposals forces prioritization—you can't strongly support everything. To signal intense preference, you must concentrate points, revealing what actually matters.
 
-**Optional: Convex cost curves:** Make intensity expression increasingly expensive. Expressing +5 costs 5 points. Expressing +10 costs 100 points (quadratic). This bounds the influence of passionate minorities while still allowing intensity to matter. See Section 5.3 (Weyl & Posner's Quadratic Voting) for the theoretical foundation—this implementation is simpler and focuses on engagement filtering.
+**Optional: Convex cost curves:** Make intensity expression increasingly expensive. Expressing +5 costs 5 points. Expressing +10 costs 100 points (quadratic). This bounds the influence of passionate minorities while still allowing intensity to matter. See the Quadratic Voting section for the theoretical foundation—this implementation is simpler and focuses on engagement filtering.
 
-**Asynchronous by design (Section 4.3 requirement #1):** Points can be reallocated at any time within your own schedule—no synchronous meetings required. However, proposals require **minimum visibility periods** before execution (e.g., 7 days for standard proposals, 30 days for infrastructure changes—see Section 6.4.1 for temporal batching mechanisms). This prevents sneaking decisions through when no one is watching while maintaining asynchronous flexibility. Participation happens on your schedule *within required visibility windows*.
+**A note on integration windows:** The deeper divergence from Weyl is temporal. Quadratic voting inherits the efficient-market assumption: preferences are already formed, rapid aggregation reveals truth, faster feedback is better signal. This is wrong for governance. Policy effects are time-delayed — infrastructure takes years to show value, reforms disrupt before they stabilize, costs are immediate while benefits compound slowly. A system optimized for rapid approval response selects against exactly the policies most likely to work long-term. Genuine collective preference formation also requires deliberation time: people need to understand proposals, discuss them, observe analogous policies elsewhere. Treating preferences as pre-formed inputs misses how democratic judgment actually works. Short integration windows amplify noise — a bad news week, a manufactured controversy, a policy that looks terrible before its effects materialize. Longer windows let signal separate from noise. The mechanisms throughout this section are deliberately designed around integration rather than reaction: temporal batching, periodic approval gates, and policy dividend vesting all instantiate the same principle. Speed is not a virtue in governance; deliberated, sustained judgment is.
 
-**Continuous feedback, not periodic elections:** If a policy you supported starts failing, withdraw support. If a policy you opposed improves, reduce opposition. This creates continuous accountability (Section 6.5) rather than binary "election day" judgments that are immediately obsolete.
+**Asynchronous by design:** Points can be reallocated at any time within your own schedule—no synchronous meetings required. However, proposals require **minimum visibility periods** before execution (e.g., 7 days for standard proposals, 30 days for infrastructure changes—see the temporal batching mechanisms below). This prevents sneaking decisions through when no one is watching while maintaining asynchronous flexibility. Participation happens on your schedule *within required visibility windows*.
 
-**Appropriate friction matched to stakes (Section 4.3 requirement #3):** The cost to express opinion scales with the stakes. Informal opinion expression costs minimal points. Formal proposals require staking points (Section 6.5.12). Meta-governance changes require supermajority thresholds. This implements purposeful friction—enough to prevent spam and gaming, but not so much as to exclude legitimate participation.
+**Continuous feedback, not periodic elections:** If a policy you supported starts failing, withdraw support. If a policy you opposed improves, reduce opposition. This creates continuous accountability rather than binary "election day" judgments that are immediately obsolete.
 
-**Aggregation:** Policy approval = sum of all points allocated to it. Policies must maintain positive approval to remain active. If approval drops below threshold, policy sunsets (lifecycle management, Section 4.5). If approval is overwhelmingly positive, policy may be promoted to broader jurisdiction (subsidiarity, Section 4.4).
+**Appropriate friction matched to stakes:** The cost to express opinion scales with the stakes. Informal opinion expression costs minimal points. Formal proposals require staking points. Meta-governance changes require supermajority thresholds. This implements purposeful friction—enough to prevent spam and gaming, but not so much as to exclude legitimate participation.
+
+**Aggregation:** Policy approval = sum of all points allocated to it. Policies must maintain positive approval to remain active. If approval drops below threshold, policy sunsets (lifecycle management). If approval is overwhelmingly positive, policy may be promoted to broader jurisdiction (subsidiarity).
 
 **Why this works:**
 
@@ -489,7 +493,7 @@ Not all mechanisms should use continuous approval. Some decisions require clear 
 
 #### 6.3.3 Dynamic Scaling: Jurisdiction Follows Engagement
 
-As described in Section 4.4 (Subsidiarity), policies should operate at the lowest capable level. Voting mechanisms enable dynamic jurisdiction through engagement patterns.
+Policies should operate at the lowest capable level. Voting mechanisms enable dynamic jurisdiction through engagement patterns.
 
 **Local by default:** Proposals start at the smallest relevant jurisdiction. A park renovation proposal starts at neighborhood level.
 
@@ -509,7 +513,7 @@ Direct voting on every issue creates cognitive overload. The point-vote system s
 
 **AI agents as delegates:** Future extension: delegate to AI agents that learn your preferences and values, making allocations consistent with your revealed preferences while you focus on living your life.
 
-**Computational kindness (Section 4.3 requirement #2):** This directly implements the requirement that users with only 10 minutes per week can contribute meaningfully. Most citizens delegate most issues most of the time. Leaders and engaged citizens spend time here; ordinary citizens check in periodically. **Low engagement from satisfied, well-represented citizens is a success metric, not failure.** The system minimizes cognitive load through intelligent routing (Section 5.9), filtering based on your delegation choices, and surfacing only decisions that either (1) you care intensely about, (2) your delegates flagged as needing your input, or (3) affect your immediate jurisdiction.
+**Computational kindness:** This directly implements the requirement that users with only 10 minutes per week can contribute meaningfully. Most citizens delegate most issues most of the time. Leaders and engaged citizens spend time here; ordinary citizens check in periodically. **Low engagement from satisfied, well-represented citizens is a success metric, not failure.** The system minimizes cognitive load through intelligent routing, filtering based on your delegation choices, and surfacing only decisions that either (1) you care intensely about, (2) your delegates flagged as needing your input, or (3) affect your immediate jurisdiction.
 
 #### 6.3.5 Meta-Governance Controls
 
@@ -522,6 +526,49 @@ To maintain adaptability while preventing governance bloat, the system should in
 
 These meta-governance levers ensure that the architecture of the system itself remains accountable, preventing ossification while also protecting against runaway expansion or capture.
 
+#### 6.3.6 Multi-Dimensional Vote Signals: Beyond Approval Direction
+
+**This is an optional module.** Communities can enable orthogonal voting dimensions alongside the standard approval vote, or not. Which dimensions to track, how to weight them, and what consequences they carry are all configurable. The mechanism is infrastructure; communities decide what to measure.
+
+The Fantasy Flight Games RPG dice system offers a useful design model. A single roll simultaneously resolves multiple independent axes: success/failure (did the action work?), advantage/threat (positive or negative side effects regardless of success), and triumph/despair (exceptional outcomes in either direction). These are orthogonal — you can succeed with threat, or fail with advantage. Crucially, the dimensions don't collapse into each other.
+
+Governance voting can capture the same structure. Citizens have opinions about proposal quality, scope, and design that are independent of their directional preference. A citizen might strongly support a bill while also signaling that it was over-engineered — or mildly oppose it while recognizing it handled a genuinely hard problem well. These signals are currently lost because direction is the only output captured.
+
+When orthogonal voting is enabled, communities define which additional dimensions matter for their context. Examples:
+
+- **Complexity calibration:** Was this more or less complex than the problem required? A spectrum from "over-bundled" to "appropriately scoped" to "this required exactly this complexity." Unnecessary complexity gets penalized; genuine complexity gets rewarded — because designing policy that *needs* to be intricate is harder work.
+- **Implementation critique:** Right goal, wrong approach. Lets voters signal "I support what this is trying to do but not how."
+- **Structural concerns:** Suspected earmarking, geographic capture, logrolling — the canonical example being the fighter jet built in every 50 states, whose manufacturing distribution makes it politically indestructible regardless of merit.
+
+These are examples, not a fixed list. Communities enable what they want to test and drop what proves uninformative.
+
+**Why orthogonal signals matter:**
+
+- **Proposers** learn not just whether they lost but *why* — allowing redesign rather than abandonment
+- **The community** can distinguish "we rejected this because we oppose the goal" from "we rejected this because the implementation was wrong"
+- **The system** can detect patterns over time: persistent complexity complaints in a domain, recurring earmark signals in a legislative session
+
+**Connection to dividend multipliers:** When enabled, orthogonal scores can feed into the proposer's reward calculation rather than just serving as qualitative feedback. A policy that passes with strong negative complexity signals earns a reduced multiplier — the community sanctioned it, but with reservations that are priced in. A policy the community validates as well-calibrated to a genuinely hard problem earns a premium. This ties legislative craft directly to financial incentives without requiring a separate enforcement mechanism.
+
+Whether communities enable this multiplier effect, use orthogonal signals as pure feedback, or skip orthogonal voting entirely is a configuration choice. None of it is mandatory.
+
+#### 6.3.7 Coordinated Packages and Suite Proposals
+
+Not all bundling is bad. Some policies only work as a system — incentive without penalty, right without responsibility, investment without the regulatory framework that makes it worth making. A suite of complementary reforms may need to stand or fall together. Forcing everything to be atomic would prevent coherent policy design.
+
+The mechanism allows proposers to explicitly declare a dependency structure when submitting:
+
+**Type A: Atomic** — this proposal stands alone. Rises or falls independently. Can be repealed independently. The default type.
+
+**Type B: Package** — this set of proposals is formally interdependent. If any element fails the vote, the package fails. If any element is later repealed, the others automatically sunset unless the community votes to keep them independently. The proposer is declaring: these only work together.
+
+**Type C: Recommended suite** — these proposals are complementary and recommended together, but each can stand independently if others fail. The proposer is saying: these work better together, but each has standalone value.
+
+The community votes on each element individually, but the declared dependency structure governs execution and lifecycle. Type B packages create a structural commitment that prevents partial implementation from defeating the package's purpose — you can't keep the benefit while dismantling the mechanism that makes it work.
+
+**Declaring a package is a design statement, not a political maneuver.** The difference from earmark bundling: Type B packages make the interdependency explicit and subject to scrutiny, while earmark bundles obscure it. If the atomicity vote on a declared Type B package skews sufficiently negative — the community is saying "this doesn't actually need to be a package" — the dependency claim goes to meta-governance review. Proposers bear the burden of justifying the coupling.
+
+**Dismantling coordinated packages:** Repeal works at the element level. Repealing one element of a Type B package triggers a community decision: repeal the whole package, or sever the element and treat the remainder as independent (each remaining element becomes Type A or C automatically). This prevents partial dismantling from destroying the system integrity without preventing legitimate revision.
 
 ### 6.4 Governance Tickrate: Temporal Batching for Coordination
 
@@ -529,7 +576,7 @@ Digital systems enable instant, continuous operation by default—votes could re
 
 Governance tickrate mechanisms add temporal structure on top of this instant capability, batching inputs into discrete cycles with accumulation and resolution phases. This is not a technical limitation but a deliberate design choice: constraining speed to enable coordination at human scale.
 
-**Connection to Section 4.3 (Document 2):** As established in the requirements for scale-free cooperation, tickrate serves as a regulatory lever preventing extraction through speed and exhaustion through constant engagement. The mechanisms described here operationalize those principles.
+**Design connection:** As established in the requirements for scale-free cooperation, tickrate serves as a regulatory lever preventing extraction through speed and exhaustion through constant engagement. The mechanisms described here operationalize those principles.
 
 #### 6.4.1 The Core Mechanism: Temporal Batching
 
@@ -541,7 +588,7 @@ Governance tickrate mechanisms add temporal structure on top of this instant cap
 
 **Why boundaries matter:** This structure ensures that late-arriving information counts equally with early information. A vote cast five minutes before the boundary has the same weight as a vote cast five days before. This prevents gaming through timing—you cannot rush a decision by submitting early, nor exclude input by timing the window. All participants know when resolution happens and can plan accordingly.
 
-**Integration windows:** The time between boundaries serves as deliberation space. Information propagates through the network. Participants discuss implications. Coalition-building occurs. Understanding develops. This is the coordination value—not the speed of response but the quality of integration. Section 4.3 (Document 2) established that integration takes time; temporal batching provides that time structurally rather than hoping participants voluntarily slow down.
+**Integration windows:** The time between boundaries serves as deliberation space. Information propagates through the network. Participants discuss implications. Coalition-building occurs. Understanding develops. This is the coordination value—not the speed of response but the quality of integration. Integration takes time; temporal batching provides that time structurally rather than hoping participants voluntarily slow down.
 
 #### 6.4.2 Multi-Constraint Solving
 
@@ -557,7 +604,7 @@ Temporal batching addresses multiple coordination failures simultaneously:
 
 **Prevents timing manipulation:** Continuous systems allow gaming through strategic timing—submitting proposals when opposition is absent, rushing votes before deliberation completes, changing conditions mid-process. Fixed boundaries remove these tactics. The window closes when it closes, regardless of who has submitted or who is watching. Late information is allowed; early closure is prevented.
 
-**Computational kindness:** Governance should minimize cognitive burden for ordinary participants (Section 6.3.4). Temporal batching enables batch processing—check all decisions at window boundaries rather than constant monitoring. Leaders and engaged participants can work throughout the window; ordinary citizens can check in once near the boundary and their input still counts.
+**Computational kindness:** Governance should minimize cognitive burden for ordinary participants. Temporal batching enables batch processing—check all decisions at window boundaries rather than constant monitoring. Leaders and engaged participants can work throughout the window; ordinary citizens can check in once near the boundary and their input still counts.
 
 #### 6.4.3 Cadence Trade-Offs
 
@@ -573,7 +620,7 @@ The length of the accumulation window creates fundamental trade-offs:
 - **Policy changes** benefit from moderate cycles (monthly or quarterly)
 - **Constitutional modifications** benefit from slower cycles (quarterly or yearly)
 
-**Exponential backoff for stability:** Policies can be reviewed on different cadences based on their maturity. New or contested policies receive frequent review (fast cadence). Policies that repeatedly demonstrate stable support transition to slower review cycles (exponential backoff: 1 year → 3 years → 7 years → 15 years). This implements pace layering (Stewart Brand): rapid iteration at the surface, stability in the foundation. Failed or modified policies reset to fast cadence. This pattern appears in current Section 6.4.8 (Principal-Agent mechanisms), where it ensures both adaptability and stability.
+**Exponential backoff for stability:** Policies can be reviewed on different cadences based on their maturity. New or contested policies receive frequent review (fast cadence). Policies that repeatedly demonstrate stable support transition to slower review cycles (exponential backoff: 1 year → 3 years → 7 years → 15 years). This implements pace layering (Stewart Brand): rapid iteration at the surface, stability in the foundation. Failed or modified policies reset to fast cadence. This pattern ensures both adaptability and stability.
 
 **Selecting cadence:** Different initiatives or policy domains can operate at different cadences. Infrastructure might review quarterly; emergency response might operate weekly; constitutional amendments might review yearly. The platform does not prescribe a universal cadence—it provides the mechanism, and communities configure based on their coordination needs.
 
@@ -581,15 +628,15 @@ The length of the accumulation window creates fundamental trade-offs:
 
 Temporal batching affects how other governance mechanisms operate:
 
-**Voting accumulation (Section 6.3):** Point-vote allocations can change continuously during the window, but the aggregation that determines policy approval happens at the boundary. This allows participants to update their positions as information arrives without forcing constant re-tallying. Delegation changes similarly take effect at the next boundary, preventing mid-window gaming.
+**Voting accumulation:** Point-vote allocations can change continuously during the window, but the aggregation that determines policy approval happens at the boundary. This allows participants to update their positions as information arrives without forcing constant re-tallying. Delegation changes similarly take effect at the next boundary, preventing mid-window gaming.
 
 **Escrow and resource commitment:** Commitments lock when made but activate at threshold resolution. If an initiative requires $50k from 1,000 participants, commitments accumulate during the window and the threshold check happens at the boundary. If met, the initiative activates and enters its next phase. If not met, escrow refunds automatically. This prevents partial activation or ambiguous states.
 
-**Reputation updates (Section 6.6):** Reputation changes can be queued during a window but commit at the boundary. This allows dispute resolution or clarification before reputation is affected, preventing punishment for actions that were misunderstood or where context emerged later.
+**Reputation updates:** Reputation changes can be queued during a window but commit at the boundary. This allows dispute resolution or clarification before reputation is affected, preventing punishment for actions that were misunderstood or where context emerged later.
 
-**Lifecycle management and sunset provisions:** Policies under review remain active until the window closes. This prevents premature termination and ensures stability—once a policy survives a review window, participants know it persists until the next scheduled review. The exponential backoff pattern mentioned in Section 6.5.3 extends this: successful policies graduate to longer windows between reviews.
+**Lifecycle management and sunset provisions:** Policies under review remain active until the window closes. This prevents premature termination and ensures stability—once a policy survives a review window, participants know it persists until the next scheduled review. The exponential backoff pattern extends this: successful policies graduate to longer windows between reviews.
 
-**Subsidiarity and jurisdiction (Section 6.10):** When proposals attract engagement from multiple jurisdictions, the platform can detect this during the accumulation phase and suggest escalation before the resolution boundary. This allows proper routing without interrupting mid-window or forcing premature escalation.
+**Subsidiarity and jurisdiction:** When proposals attract engagement from multiple jurisdictions, the platform can detect this during the accumulation phase and suggest escalation before the resolution boundary. This allows proper routing without interrupting mid-window or forcing premature escalation.
 
 **Why this matters:** Temporal structure is not just a feature of voting—it's architectural. Every state change in the system respects window boundaries. This creates predictability, prevents mid-process gaming, and ensures all mechanisms operate in sync rather than creating race conditions or inconsistent states.
 
@@ -790,7 +837,7 @@ This mechanism directly addresses elite overproduction and institutional scleros
 
 #### 6.5.12 Proposal Betting & Staking Mechanics
 
-The proposal cap (Section 6.5.6) limits spam but doesn't directly align leader incentives with proposal quality. A more powerful mechanism: **leaders must stake their political capital (leadership points from Section 6.8.1) on each proposal**. This creates a betting market where leaders literally wager their tenure on their judgment.
+The proposal cap limits spam but doesn't directly align leader incentives with proposal quality. A more powerful mechanism: **leaders must stake their political capital (leadership points) on each proposal**. This creates a betting market where leaders literally wager their tenure on their judgment.
 
 **Basic mechanism:**
 
@@ -799,7 +846,7 @@ The proposal cap (Section 6.5.6) limits spam but doesn't directly align leader i
 3. **If rejected by vote:** Lose staked points
 4. **If approved but sunsets quickly:** Reduced returns or point loss (configurable)
 
-This transforms proposing from low-cost signaling into high-stakes commitment. Leaders who spam bad ideas drain their own point balance and trigger automatic removal (Section 6.8.1). Leaders who propose high-quality, durable policies accumulate points and extend their tenure.
+This transforms proposing from low-cost signaling into high-stakes commitment. Leaders who spam bad ideas drain their own point balance and trigger automatic removal. Leaders who propose high-quality, durable policies accumulate points and extend their tenure.
 
 **Configurable parameters (communities experiment):**
 
@@ -830,29 +877,43 @@ This transforms proposing from low-cost signaling into high-stakes commitment. L
 
 **Engagement metrics, not just votes:** Approval by vote isn't enough—policies must show sustained usage/engagement to generate returns. Prevents passing symbolic policies that look good but accomplish nothing.
 
-**Reputation coupling:** Failed proposals hurt reputation (Section 6.6), not just point balance. This creates non-financial costs that prevent wealthy leaders from simply absorbing point losses.
+**Reputation coupling:** Failed proposals hurt reputation, not just point balance. This creates non-financial costs that prevent wealthy leaders from simply absorbing point losses.
 
 **The bureaucracy prevention mechanism:** The user's key insight—we need to guard against "legislating just for the sake of doing so." Traditional bureaucracies expand because activity is rewarded regardless of value. This mechanism inverts that: activity without value is punished. Proposal betting ensures leaders have skin in the game for every initiative.
 
 **Dictator's Handbook concern:** This mechanism helps prevent the small-winning-coalition problem. A leader can't just serve 51 core supporters with narrow benefits because:
 1. Those proposals likely have low broad engagement (reduced returns)
-2. The other 49 can burn the leader's points (Section 6.8.1 opposition)
+2. The other 49 can burn the leader's points (opposition mechanism)
 3. Narrow-benefit proposals are more likely to sunset early (engagement threshold)
 4. Staking requirements make it expensive to spam narrow-interest initiatives
 
 The structure pushes toward public goods over private goods even in small communities.
 
+**Repeal and undo-of-repeal staking:**
+
+Repeal is itself a proposal. A leader who uses a proposal slot to repeal an existing policy is staking on that repeal — they receive an execution fee if it passes, but their financial position is tied to the repeal's durability just as it would be for any other policy action.
+
+This creates skin in the game on both sides of every governance decision:
+
+- **Original proposer:** Collects dividends while policy is active. Dividends cease on repeal. If the repeal is later overturned (undo), dividends restart.
+- **Proposer of repeal:** Execution fee on passage. If the repeal itself is revoked, future income ceases and reputation is marked accordingly.
+- **Proposer of undo:** Same staking logic applies — they're betting the original policy deserves to live.
+
+The rule is simple: **you don't get paid for being on the wrong side of governance history.** If a decision you made — whether an original proposal, a repeal, or an undo — gets reversed by the community, future payments stop. Past payments are not clawed back (no retroactive punishment for good-faith decisions), but the financial incentive runs only as long as the community continues to endorse your judgment.
+
+This eliminates the asymmetry in current systems where leaders who repeal good policies, or block useful ones, face no financial consequence. Here, every governance action is a long-term bet on what the community will ultimately support.
+
 **Failure modes:**
 
 - **Risk-aversion:** Leaders might avoid bold policies to preserve point balance. Mitigation: carve-out experimental lanes with lower stakes, separate "pilot proposal" budget.
 - **Wealthy leaders absorbing losses:** Rich leaders might not care about point costs. Mitigation: reputation coupling makes failures non-monetary costs; quadratic costs on adding points.
-- **Coordination to approve bad policies:** Coalitions might approve each other's proposals to game returns. Mitigation: engagement requirements, automatic sunset for low-usage policies, bounties for capture detection (Section 5.11.2).
+- **Coordination to approve bad policies:** Coalitions might approve each other's proposals to game returns. Mitigation: engagement requirements, automatic sunset for low-usage policies, bounties for capture detection.
 
-**This is fundamentally experimental.** We don't know the optimal stake size, payout schedule, or engagement weighting a priori. Different communities will tune these parameters differently. Like OkCupid (Section 5.13), the aggregated data will reveal what configurations work in which contexts.
+**This is fundamentally experimental.** We don't know the optimal stake size, payout schedule, or engagement weighting a priori. Different communities will tune these parameters differently. Like OkCupid, the aggregated data will reveal what configurations work in which contexts.
 
-#### 5.4.13 Compensation Ratio Caps: Aligning Leadership with Organizational Health
+#### 6.5.13 Compensation Ratio Caps: Aligning Leadership with Organizational Health
 
-**The diagnosis:** Section 2.1 documents runaway wealth concentration—CEO-to-worker pay ratios exploded from 20:1 (1965) to 350:1 (2020), Gini coefficient climbed to 0.48 (danger zone), wealth inequality approaching pre-revolutionary levels. This isn't just unfair—it's structurally misaligned. When executives can capture massive surplus regardless of worker prosperity, their incentives diverge from organizational health.
+**The diagnosis:** Runaway wealth concentration—CEO-to-worker pay ratios exploded from 20:1 (1965) to 350:1 (2020), Gini coefficient climbed to 0.48 (danger zone), wealth inequality approaching pre-revolutionary levels—isn't just unfair; it's structurally misaligned. When executives can capture massive surplus regardless of worker prosperity, their incentives diverge from organizational health.
 
 **The mechanism:** Cap leadership compensation at a fixed multiple of median (or lowest) worker compensation. If a community sets a 20:1 ratio, the highest-paid leader can earn at most 20 times what the median worker earns.
 
@@ -880,7 +941,7 @@ If CEO pay is capped at 20x median worker, and the CEO wants a raise from $2M to
 
 **Connection to diagnosis:**
 
-This directly addresses Section 2.1's diagnosis of Pareto distribution acceleration and Gini coefficient danger zone (0.48). It provides a structural bound on inequality within organizations—not eliminating productive inequality (some differential rewards skill and effort), but preventing runaway concentration that destroys social cohesion.
+This directly addresses Pareto distribution acceleration and the Gini coefficient danger zone (0.48). It provides a structural bound on inequality within organizations—not eliminating productive inequality (some differential rewards skill and effort), but preventing runaway concentration that destroys social cohesion.
 
 **Historical context:**
 
@@ -888,7 +949,7 @@ The 1965 ratio of 20:1 wasn't enforced by law—it emerged from social norms, st
 
 **Why this belongs in contractual associations:**
 
-This mechanism applies primarily to **Contractual/Ownership Associations** (Section 6.2.1): cooperatives, corporations, DAOs where membership is defined by formal relationships. It's less applicable to voluntary associations or pure geographic communities.
+This mechanism applies primarily to contractual/ownership associations: cooperatives, corporations, DAOs where membership is defined by formal relationships. It's less applicable to voluntary associations or pure geographic communities.
 
 - **Worker co-ops:** Natural fit - members are both workers and owners
 - **Platform co-ops:** Prevents founder/early investor extraction from later contributors
@@ -911,11 +972,11 @@ This mechanism applies primarily to **Contractual/Ownership Associations** (Sect
 
 **Interaction with other mechanisms:**
 
-**Persistence payments (Section 6.5.5):** Leader compensation for durable policies can include ratio-capped bonuses. Long-term value creation increases organizational resources → higher worker pay → higher executive cap → aligned incentives at multi-year horizon.
+**Persistence payments:** Leader compensation for durable policies can include ratio-capped bonuses. Long-term value creation increases organizational resources → higher worker pay → higher executive cap → aligned incentives at multi-year horizon.
 
-**Proposal betting (Section 6.5.12):** Leaders stake points on initiatives. Successful initiatives that increase organizational health raise revenue → worker wages rise → executive cap rises. Creates compounding alignment.
+**Proposal betting:** Leaders stake points on initiatives. Successful initiatives that increase organizational health raise revenue → worker wages rise → executive cap rises. Creates compounding alignment.
 
-**Continuous alignment (Section 6.8):** Workers can vote to adjust ratio cap. If leaders are extractive, workers tighten the ratio. If leaders deliver shared prosperity, workers may loosen it as reward.
+**Continuous alignment:** Workers can vote to adjust ratio cap. If leaders are extractive, workers tighten the ratio. If leaders deliver shared prosperity, workers may loosen it as reward.
 
 **The empirical question:**
 
@@ -925,7 +986,7 @@ What ratio produces optimal outcomes? We don't know a priori. Historical data su
 - **Culture:** Scandinavian tolerance for equality vs American tolerance for inequality
 - **Growth stage:** Startups might need higher ratios to attract talent; mature firms can tighten
 
-**OkCupid model (Section 5.13):** After thousands of organizations experiment with different ratios, we discover empirically:
+**OkCupid model:** After thousands of organizations experiment with different ratios, we discover empirically:
 - "Co-ops with 20-50 members thrive at 10:1; larger orgs need 30:1"
 - "Tech startups need 100:1 for first 3 years, then tighten to 50:1"
 - "Service industries with thin margins work better at 15:1; manufacturing at 40:1"
@@ -934,7 +995,7 @@ These aren't prescriptions—they're discoveries from experimentation.
 
 **Why this matters:**
 
-This mechanism creates **structural** pressure toward broad-based prosperity rather than relying on leaders' virtue or workers' collective bargaining power. It operationalizes the insight from Section 2.1: inequality isn't inherently bad, but runaway concentration destroys cooperation capacity. By capping inequality within organizations at levels compatible with empirically-tested healthy ranges (Gini 0.25-0.35), we prevent the acceleration that led to current crisis levels (Gini 0.48).
+This mechanism creates **structural** pressure toward broad-based prosperity rather than relying on leaders' virtue or workers' collective bargaining power. Inequality isn't inherently bad, but runaway concentration destroys cooperation capacity. By capping inequality within organizations at levels compatible with empirically-tested healthy ranges (Gini 0.25-0.35), we prevent the acceleration that led to current crisis levels (Gini 0.48).
 
 **This is not a silver bullet.** It doesn't solve inequality between organizations (some co-ops will be more productive than others). It doesn't prevent wealth accumulation through ownership of multiple firms or financial assets. But it prevents the most direct form of extraction: leadership capturing organizational surplus while workers stagnate.
 
@@ -942,7 +1003,7 @@ This mechanism creates **structural** pressure toward broad-based prosperity rat
 
 ### 6.6 Reputation & Reciprocity Engine
 
-Reputation systems are essential for cooperation at scale—but as shown in Section 2.7.5, they are also the most dangerous governance tool if implemented poorly. This section describes how to operationalize reputation while respecting the constraints from Section 4.9.
+Reputation systems are essential for cooperation at scale—but they are also the most dangerous governance tool if implemented poorly. This section describes how to operationalize reputation while respecting the constraints from the specification.
 
 #### 6.6.1 The Social Credit Problem
 
@@ -991,7 +1052,7 @@ Historical examples:
 - These are evaluated informally by peers, not algorithmically
 - Right to opacity: not everything needs to be tracked
 
-#### 6.6.3 Veritaseum's Four Cooperation Criteria (Operationalized)
+#### 6.6.3 Axelrod's Four Cooperation Criteria (Operationalized)
 
 Building on game-theoretic research on cooperation:
 
@@ -1010,7 +1071,7 @@ Building on game-theoretic research on cooperation:
 - Bankruptcy mechanisms
 - Rehabilitation paths clearly defined
 
-**4. Punishing (defection has consequences)**
+**4. Retaliatory (defection has consequences)**
 - Verified bad behavior reduces reputation
 - Loss of trust multipliers
 - Exclusion from high-trust initiatives
@@ -1018,7 +1079,7 @@ Building on game-theoretic research on cooperation:
 
 #### 6.6.4 Prediction Markets: Cautious Integration
 
-Prediction markets aggregate information efficiently but suffer from severe failure modes (Section 2.7.6). If used at all, they must be heavily constrained:
+Prediction markets aggregate information efficiently but suffer from severe failure modes. If used at all, they must be heavily constrained:
 
 **What prediction markets CAN do:**
 - Provide probability estimates for falsifiable outcomes
@@ -1060,7 +1121,7 @@ These domains remain in the realm of informal social evaluation, where they belo
 
 ### 6.7 Memory and Truth Mechanisms: Implementing Tracking Without Censorship
 
-**Connection to Section 4.2:** This section implements the requirements from Section 4.2 (Memory and Truth: Requirements for Tracking Without Censorship). The challenge is navigating the dialectic between free speech and accountability, signal and noise, consensus and innovation—without creating a Ministry of Truth or chilling exploration.
+**Specification connection:** This section implements the requirements for Memory and Truth. The challenge is navigating the dialectic between free speech and accountability, signal and noise, consensus and innovation—without creating a Ministry of Truth or chilling exploration.
 
 #### 6.7.1 Dual-Tier Communication: Free Speech vs. Staked Speech
 
@@ -1198,7 +1259,7 @@ When controversy is detected, the system doesn't pick a "winner." Instead, it au
 - Weighted by difficulty: hard-to-predict claims validated = bigger bonus
 
 **Forgiveness mechanisms:**
-- Reputation decay (Section 4.2 requirement #5): Past mistakes fade over time
+- Reputation decay: Past mistakes fade over time
 - Bankruptcy available: Can reset claim history (but lose positive reputation too)
 - Recent performance weighted more heavily than distant past
 - "Redemption arcs" visible: Someone with poor early track record who improved gets credit for improvement
@@ -1211,13 +1272,13 @@ When controversy is detected, the system doesn't pick a "winner." Instead, it au
 **Anti-gaming safeguards:**
 - Can't delete failed predictions post-hoc (immutable on-chain)
 - Can't game easy predictions for reputation farming (system tracks prediction difficulty, adjusts reputation gain accordingly)
-- Can't Sybil attack (KYC tier requirements from Section 5.2)
+- Can't Sybil attack (KYC tier requirements)
 
-**Connection to Section 6.5.5 (Long-Horizon Compensation):** Leaders' policy claims are automatically tracked. "This policy will work" becomes a testable prediction. Leaders profit from durable policies that achieve stated goals, suffer from failed predictions.
+**Connection to long-horizon compensation:** Leaders' policy claims are automatically tracked. "This policy will work" becomes a testable prediction. Leaders profit from durable policies that achieve stated goals, suffer from failed predictions.
 
 #### 6.7.4 Sensemaking Infrastructure Integration
 
-**Connection to Section 4.2 (Sensemaking Infrastructure):** The Memory and Truth mechanisms support but don't solve the sensemaking problem. They provide tools for:
+**Connection to sensemaking infrastructure:** The Memory and Truth mechanisms support but don't solve the sensemaking problem. They provide tools for:
 
 **Mechanical free speech through controversy-aware display:**
 - Controversy detection triggers multi-perspective display automatically
@@ -1225,7 +1286,7 @@ When controversy is detected, the system doesn't pick a "winner." Instead, it au
 - No editorial judgment needed—mechanism enforces multi-view presentation
 
 **Anti-exhaustion coupling:**
-- Point budgets (Section 4.3) limit sustained high-volume engagement in debates
+- Point budgets limit sustained high-volume engagement in debates
 - Velocity limits prevent edit-war flooding
 - State-based governance: positions persist without requiring constant re-argument
 - Cannot outlast opponents when competing views remain visible
@@ -1254,11 +1315,11 @@ When controversy is detected, the system doesn't pick a "winner." Instead, it au
 
 **Communities must iterate.** What works at small scale may break at large scale. What works in high-context domains (tight community) fails in low-context (anonymous internet).
 
-**Implementation in MVP:** Start simple. Basic staked claims (Tier 2 speech) with manual adjudication. Controversy detection V1 using basic engagement distribution metrics. Build complexity only after simple version proves viable (Gall's Law—Section 5.13).
+**Implementation in MVP:** Start simple. Basic staked claims (Tier 2 speech) with manual adjudication. Controversy detection V1 using basic engagement distribution metrics. Build complexity only after simple version proves viable (Gall's Law).
 
-### 6.7A Leadership Accountability Mechanisms (Implementing Section 4.4)
+### 6.7A Leadership Accountability Mechanisms
 
-**Connection to Section 4.4:** This section implements the concrete mechanisms for "Constraining and Aligning Elites" from the specification. The goal is making the Principal-Agent problem structurally manageable through continuous accountability, not periodic elections.
+**Specification connection:** This section implements the concrete mechanisms for "Constraining and Aligning Elites" from the specification. The goal is making the Principal-Agent problem structurally manageable through continuous accountability, not periodic elections.
 
 #### 6.7A.1 Leadership Point Balance (The "Battery" Model)
 
@@ -1277,7 +1338,7 @@ This mechanism **replaces arbitrary term limits** with legitimacy-based tenure. 
    - **Opposition premium** (e.g., 2-3 votes to burn 1 leader point): Guards against negativity bias. Negativity is already psychologically easier—people notice problems more than smooth functioning. This mechanically counterbalances that tendency.
    - **Opposition discount** (e.g., 1 vote burns 2-3 leader points): Amplifies accountability. Makes it easier to oppose than support, modeling the difficulty of maintaining vs. withdrawing legitimacy.
    - **Neutral** (1:1 ratio): No adjustment either way.
-5. **Proposal staking** (Section 6.5.12): Leaders spend points to propose initiatives. Successful proposals that remain approved generate point income. Failed proposals drain points.
+5. **Proposal staking:** Leaders spend points to propose initiatives. Successful proposals that remain approved generate point income. Failed proposals drain points.
 6. **Automatic trigger:** When a leader's point balance hits zero, they are automatically removed from office. Election is called or next eligible candidate assumes role (depending on community configuration).
 
 **Why this works:**
@@ -1302,7 +1363,7 @@ This mechanism **replaces arbitrary term limits** with legitimacy-based tenure. 
 
 **Failure modes and mitigations:**
 
-- **Sybil attacks:** Fake accounts burn leader points. Mitigation: KYC tier requirements for participation (Section 5.2)
+- **Sybil attacks:** Fake accounts burn leader points. Mitigation: KYC tier requirements for participation
 - **Coordinated harassment:** Opposition coordinates mass point burning. Mitigation: Rate limits on how often you can burn, cooldown periods, engagement diversity weighting
 - **Captured support:** Leader's allies continuously prop up their balance. Mitigation: Quadratic costs on support allocation prevent unlimited propping
 - **Election fatigue:** Leaders constantly hit zero, causing continuous elections. Mitigation: Losing leaders face cooldown before re-running; drain rate can be adjusted; higher initial balances
@@ -1310,22 +1371,22 @@ This mechanism **replaces arbitrary term limits** with legitimacy-based tenure. 
 **This mechanism combines:**
 - Weyl & Posner's quadratic voting
 - Graeber's continuous accountability principles
-- Merit-based tenure replacing arbitrary term limits (Section 4.4 constraint #5)
+- Merit-based tenure replacing arbitrary term limits
 
-Unlike Section 4.4's elite rotation (designed to prevent bureaucratic accumulation), this allows effective leaders to serve indefinitely—as long as they maintain legitimacy. Lee Kuan Yew governed Singapore for 31 years, transforming it from third-world to first-world. The constraint shouldn't be time—it should be performance.
+Unlike elite rotation (designed to prevent bureaucratic accumulation), this allows effective leaders to serve indefinitely—as long as they maintain legitimacy. Lee Kuan Yew governed Singapore for 31 years, transforming it from third-world to first-world. The constraint shouldn't be time—it should be performance.
 
 #### 6.7A.2 Proposal Approval Modes (At-Time vs. Post-Hoc)
 
 **The problem:** Different decision types require different authority modes. Constitutional changes need consensus before execution. Emergency responses need speed with accountability afterward. One-size-fits-all approval creates either gridlock (everything needs pre-approval) or abuse (everything happens without oversight).
 
-**Connection to Section 4.4.3:** This implements "Differentiated Authority (Execution Modes)" from the specification.
+**Specification connection:** This implements "Differentiated Authority (Execution Modes)" from the specification.
 
 **The two modes:**
 
 **Mode 1: Propose → Approve (At-Time / Ex-Ante)**
 - Leader proposes initiative
 - Community reviews during mandatory visibility window (7-30 days depending on stakes)
-- Community votes using point-allocation system (Section 6.3)
+- Community votes using point-allocation system
 - **Execution only if threshold met** (majority for inixiatives, supermajority for infrastructure)
 - Appropriate for: infrastructure commitments, constitutional changes, high-stakes irreversible decisions
 
@@ -1362,7 +1423,7 @@ Unlike Section 4.4's elite rotation (designed to prevent bureaucratic accumulati
 **Authority delegation:**
 - Communities explicitly grant Act→Ratify authority to specific roles for specific domains
 - Example: "Emergency Manager has Act→Ratify authority for disaster response, limited to 90-day initiatives with <$500K budget"
-- Delegation requires supermajority approval and periodic renewal (Section 4.6 lifecycle management)
+- Delegation requires supermajority approval and periodic renewal (lifecycle management)
 - Abuse of delegated authority (acting outside scope) triggers reputation penalties and potential expulsion
 
 **Schelling point shifts:**
@@ -1386,7 +1447,7 @@ Unlike Section 4.4's elite rotation (designed to prevent bureaucratic accumulati
 **How it works:**
 
 **Citizen approval allocation:**
-- Citizens can allocate approval/disapproval points to leaders at any time using their point budget (Section 6.3)
+- Citizens can allocate approval/disapproval points to leaders at any time using their point budget
 - Small approval/disapproval is cheap to express (1-2 points) but has minimal immediate effect
 - Large coordinated disapproval is expensive (convex costs) but triggers consequences
 - Points accumulate over rolling windows (weeks/months) to smooth volatility and prevent reactivity to news cycles
@@ -1430,7 +1491,7 @@ Some policies (public transit, infrastructure, healthcare reform) are initially 
 
 3. **KPI-linked protection:** If policy meets stated objective metrics despite unpopularity, leader protected from battery drain. Example: "This transit policy will reduce commute times 15%" → if KPI met, negative sentiment doesn't drain battery.
 
-4. **Vesting periods** (Section 6.5.12): Leader point income from proposals vests over 3-6 months, allowing unpopular-but-good policies time to demonstrate value before affecting tenure.
+4. **Vesting periods:** Leader point income from proposals vests over 3-6 months, allowing unpopular-but-good policies time to demonstrate value before affecting tenure.
 
 **Computational kindness:** Citizens don't need to engage unless they feel strongly. Most people never allocate approval/disapproval points. System responds to sustained, coordinated sentiment—exactly what should trigger accountability. Low engagement from satisfied citizens is success, not failure.
 
@@ -1442,86 +1503,55 @@ Some policies (public transit, infrastructure, healthcare reform) are initially 
 
 **This is not a prescriptive solution—it's infrastructure for experimentation.** Different communities will set different thresholds, drain rates, and grace periods. The mechanism provides the tool; communities discover the equilibrium that works for their context, values, and risk tolerance.
 
-### 6.8 Continuous Alignment Mechanism
+#### 6.7A.4 Periodic Approval Gates
 
-Traditional governance creates discrete accountability moments: elections select leaders, impeachment removes bad ones. Between these extremes lies a gap—sustained poor performance that doesn't rise to impeachment but doesn't reflect popular will.
+**The problem:** Continuous accountability mechanisms like the battery model respond to aggregate sentiment in real time. But real-time polling has a known weakness: news cycles, manufactured controversies, and short-term unpopularity of correct decisions generate noise that can punish good governance. A leader who makes the right call on a difficult infrastructure project shouldn't face removal before the project is finished.
 
-**The Schelling point problem:** Elections incentivize short-term thinking (optimize for winning). Impeachment is so high-friction it almost never happens. Leaders can govern against majority preferences for entire terms with no structural consequence.
+**The mechanism:** Scheduled approval check-ins at defined intervals — not continuous, not arbitrary — with two distinct consequence tiers based on how far approval has fallen.
 
-**Mechanism: Continuous approval polling**
+**Tier 1: Below threshold A → Ineligible to run again**
 
-Instead of discrete elections, implement ongoing feedback:
+The leader completes their current term, but cannot stand for re-election to this role. This is accountability for the future: you're serving out your mandate, but your record disqualifies you from renewal.
 
-- Citizens can allocate approval/disapproval points to current leaders at any time
-- Points accumulate over weeks/months (smoothing prevents reactivity to news cycles)
-- If sustained disapproval crosses threshold, leader becomes ineligible for re-election
-- Or: if disapproval is severe and sudden, triggers early review/recall
+- Threshold: community-configured; requires sustained low approval across consecutive check-ins (not a single bad period)
+- Effect: term concludes normally; no disruption to governance continuity
+- Purpose: removes zombie leaders who would cling to power despite lost legitimacy, without triggering the instability of a mid-term election
 
-**Implementation with point-based system:**
+**Tier 2: Below threshold B → Early removal**
 
-- Small disapproval is cheap to express (1-2 points) but has minimal effect
-- Large coordinated disapproval is expensive (convex costs) but triggers consequences
-- Creates natural filtering: trivial complaints don't matter, serious sustained problems do
+Approval has fallen far enough, or fast enough, that completing the term would be a democratic failure. An immediate transition is triggered.
 
-**The Schelling point shift:** Leaders now optimize for sustained approval throughout their term, not just at election time. Governance becomes accountable between elections without the drama and destabilization of constant recall elections.
+- Threshold: community-configured; triggered either by sustained floor-level disapproval or by a sufficiently sharp single-period drop
+- Effect: removal; successor process follows community-configured rules
+- Purpose: handles genuine loss-of-mandate situations without requiring impeachment's high friction
 
-**Grace periods for unpopular-but-eventually-good policies:**
+**Why periodic rather than continuous:**
 
-Some policies (public transit, infrastructure) are initially unpopular but become valued once implemented. How do we not punish leaders for doing the right thing?
+**News cycle resilience.** A two-week media storm doesn't remove a leader. Scheduled gates smooth over short-term volatility, giving leaders room to make difficult decisions before outcomes materialize.
 
-**Options:**
-1. **Maturation windows:** New policies have 3-6 month grace period before negative feedback affects leader eligibility
-2. **Separate feedback types:** "Policy is bad" vs. "Leader is corrupt/incompetent" — only latter affects eligibility immediately
-3. **KPI-linked override:** If policy meets stated objective metrics despite unpopularity, leader protected
+**Predictable accountability moments.** Both leaders and citizens know when gates occur. Leaders can plan around them; citizens know when their disapproval registers structurally. This is a Schelling point for political accountability — a defined moment to evaluate rather than ambient grinding pressure.
 
-**Computational kindness:** Citizens don't need to engage unless they feel strongly. Most people never allocate disapproval points. System responds to sustained, coordinated negative sentiment—exactly what should trigger accountability.
+**Unpopular-but-correct decisions.** Some of the best governance decisions look terrible at month 2 and vindicated at year 3. Appropriate gate spacing gives time for outcomes to emerge before they count against a leader's record.
 
-**This is not a solution, it's a Schelling point shift.** Different communities will set different thresholds. Some will want hair-trigger accountability; others will prioritize leader stability. The mechanism provides the tool; communities choose the equilibrium.
+**Relationship to other mechanisms:**
 
-#### 6.8.1 Leadership Point Balance: Continuous Legitimacy Requirement
+The battery model (6.7A.1) and periodic gates operate at different timescales and serve complementary functions:
 
-A more concrete implementation of continuous accountability: **leaders must maintain a point balance to stay in power**. This forces sustained legitimacy rather than one-time electoral victories. This mechanism **replaces arbitrary term limits** with legitimacy-based tenure. Competent leaders can serve indefinitely if they maintain support (see Singapore's Lee Kuan Yew—decades in power, transformed the country). Failing leaders face automatic removal. Term limits are the Hayflick limit of leadership—arbitrary death regardless of health. We can do better.
+| Mechanism | Timescale | Consequence | Best For |
+|---|---|---|---|
+| Battery model | Continuous | Automatic removal at zero | Gradual, sustained erosion of legitimacy |
+| Periodic gates | Scheduled | Ineligible to run / early removal | Clear threshold accountability without daily noise |
 
-**Mechanism:**
+They coexist. A leader might maintain their battery through modest continuous support but still fail a periodic gate if their floor approval has been consistently weak. Or they might take a hit from a controversial decision, feel battery pressure, but survive to the check-in where the decision has since proven correct.
 
-1. **Initial balance:** When elected, leaders receive a pool of "leadership points" (e.g., 10,000 points)
-2. **Mandatory drain:** Points deplete over time at a fixed rate (e.g., 100 points/week). This forces continuous re-legitimization.
-3. **Member support:** Any member can allocate their voting budget to add points to a leader's balance (1 vote = 1 leadership point, or use quadratic cost)
-4. **Member opposition:** Any member can spend their voting budget to burn leader points. **Cost ratio is configurable and experimental:**
-   - **Opposition premium** (e.g., 2-3 votes to burn 1 leader point): Guards against negativity bias. Negativity is already psychologically easier—people notice problems more than smooth functioning. This mechanically counterbalances that tendency.
-   - **Opposition discount** (e.g., 1 vote burns 2-3 leader points): Amplifies accountability. Makes it easier to oppose than support, modeling the difficulty of maintaining vs. withdrawing legitimacy.
-   - **Neutral** (1:1 ratio): No adjustment either way.
-5. **Automatic trigger:** When a leader's point balance hits zero, a new election is immediately called
+**Parameters communities configure:**
+- **Check-in frequency:** Higher frequency = more accountability; lower frequency = more stability for difficult decisions
+- **Tier 1 threshold:** Sustained floor approval level, requires consecutive failures (not a single period)
+- **Tier 2 threshold:** Floor level or rate-of-drop trigger — communities choose which signal matters more
+- **Consecutive check-in requirement for Tier 1:** Prevents a single difficult period from ending a career
+- **New leader grace period:** First gate does not fire until a community-configured minimum time has passed, allowing leaders to actually govern before being evaluated
 
-**Why this works:**
-
-**Continuous accountability:** Leaders can't coast for entire terms. They must maintain ongoing support or face automatic removal. This is dramatically lower friction than impeachment but higher accountability than waiting for the next election cycle.
-
-**Gradual withdrawal of support:** Members don't face a binary "trigger recall election or do nothing" choice. They can reduce support incrementally, signaling dissatisfaction without immediately destabilizing governance. If enough people gradually withdraw, the leader naturally loses legitimacy.
-
-**Configurable asymmetry for experimentation:** Should opposition be easier or harder than support? Different contexts may need different answers. Communities can experiment with opposition premiums (guard against negativity bias), opposition discounts (amplify accountability), or neutral ratios. This is fundamentally an empirical question—we don't know the optimal setting a priori.
-
-**Schelling point for transitions:** When a leader's balance drops below some visible threshold (e.g., <20% of starting balance), it becomes obvious they're losing legitimacy. Would-be challengers can prepare campaigns. Members can coordinate on alternatives. The transition becomes predictable rather than abrupt.
-
-**Natural forgiveness:** If a leader makes an unpopular decision but it works out, members can restore the point balance. If it doesn't work out, they can accelerate the drain. This is responsive without being reactionary.
-
-**Parameters communities can tune:**
-- **Initial point allocation:** Higher = more stability, lower = more accountability
-- **Drain rate:** Faster = must work harder to maintain support
-- **Support cost:** Linear vs quadratic (prevent plutocratic point buying)
-- **Opposition cost ratio:** Premium (harder to oppose), discount (easier to oppose), or neutral (1:1). **This should be experimental**—different communities will discover different optimal settings.
-- **Trigger threshold:** Does election trigger at zero or some buffer (e.g., 10%)?
-
-**Failure modes and mitigations:**
-
-- **Sybil attacks:** Fake accounts burn leader points. Mitigation: KYC tier requirements for participation (Section 5.2)
-- **Coordinated harassment:** Opposition coordinates mass point burning. Mitigation: Rate limits on how often you can burn, cooldown periods
-- **Captured support:** Leader's allies continuously prop up their balance. Mitigation: Quadratic costs on support allocation prevent unlimited propping
-- **Election fatigue:** Leaders constantly hit zero, causing continuous elections. Mitigation: Losing leaders face cooldown before re-running; drain rate can be adjusted
-
-**Incentivizing stewardship over churn:** An important design consideration: the system must reward leaders who maintain well-functioning systems, not just those who propose new initiatives. Traditional bureaucracies create pressure to "do something" regardless of whether action is needed, leading to legislative churn and unnecessary complexity. Good governance sometimes means leaving things alone. Mechanisms should value leaders who recognize when systems work well and resist the temptation to meddle.
-
-**This mechanism combines Weyl & Posner's quadratic voting (Section 1.16), Graeber's continuous accountability principles (Section 1.13), and replaces arbitrary term limits with merit-based tenure.** Unlike Section 4.3's elite rotation (designed to prevent bureaucratic accumulation), this allows effective leaders to serve indefinitely—as long as they maintain legitimacy. Lee Kuan Yew governed Singapore for 31 years, transforming it from third-world to first-world. The constraint shouldn't be time—it should be performance. The result is governance that remains responsive without being unstable—leaders who maintain legitimacy can govern effectively for as long as necessary, but those who lose it face automatic consequences without requiring high-friction impeachment.
+**Connection to policy dividends:** Gates handle electoral incentives; dividends handle financial incentives. Together they create alignment across both dimensions — a leader can't satisfy one without the other.
 
 ### 6.9 Delegation & Agentic Participation
 
@@ -1530,7 +1560,7 @@ A more concrete implementation of continuous accountability: **leaders must main
 - Vote poorly due to ignorance
 - Spend unsustainable time staying informed
 
-**The Schelling point problem:** Direct democracy doesn't scale cognitively. Representative democracy creates principal-agent problems. How do we enable meaningful participation without requiring everyone become full-time politicsengagement?
+**The Schelling point problem:** Direct democracy doesn't scale cognitively. Representative democracy creates principal-agent problems. How do we enable meaningful participation without requiring everyone become a full-time political participant?
 
 **Mechanism: Layered delegation + AI agents**
 
@@ -1637,11 +1667,11 @@ All leaders are motivated to gain power, stay in power, and control money. What 
 
 **How this applies to microdemocracy:**
 
-**Delegation creates small coalitions:** A micropolitician with 500 constituents who delegates to 50 domain experts has a winning coalition of ~26 (50% of 50). Those 26 can effectively control community decisions by coordinating their delegated votes.
+**Delegation creates small coalitions:** A micropolitician (a community-level representative managing a small delegate pool) with 500 constituents who delegates to 50 domain experts has a winning coalition of ~26 (50% of 50). Those 26 can effectively control community decisions by coordinating their delegated votes.
 
 **Village leaders bullying broader coalitions:** In nested governance (neighborhood → city → region), a leader representing 1,000 people can extort the regional level: "You need my bloc's support for that initiative. Here's my price." Coalitions become extortion layers rather than preference transmission mechanisms.
 
-**Private goods vs public goods incentive:** It's easier and cheaper for a micropolitic leader to serve narrow coalition interests than broad community interests. "I'll support your housing initiative if you funnel construction contracts to my 26 backers."
+**Private goods vs public goods incentive:** It's easier and cheaper for a micropolitician to serve narrow coalition interests than broad community interests. "I'll support your housing initiative if you funnel construction contracts to my 26 backers."
 
 **The logrolling problem:** Representatives form mutual-support pacts: "I'll vote for your proposal if you vote for mine, regardless of merit." This is exactly how legislative capture happens—coalitions serve each other rather than constituents.
 
@@ -1649,11 +1679,11 @@ All leaders are motivated to gain power, stay in power, and control money. What 
 
 **Point-voting with quadratic costs makes coalition formation expensive:** Can't just coordinate 26 bloc votes cheaply. Each person's second vote on the same issue costs 4x the first. Large coordinated voting becomes prohibitively expensive.
 
-**Engagement requirements favor public goods:** Proposals must show broad engagement to survive (Section 6.5.12). Narrow-benefit policies that only serve 26 people sunset quickly, draining the proposer's point balance.
+**Engagement requirements favor public goods:** Proposals must show broad engagement to survive. Narrow-benefit policies that only serve 26 people sunset quickly, draining the proposer's point balance.
 
-**Transparent voting patterns flag coordination:** All votes are public. Statistical analysis can detect suspiciously coordinated voting ("these 26 delegates always vote together"). Bounties for capture detection (Section 6.12.2) reward flagging logrolling.
+**Transparent voting patterns flag coordination:** All votes are public. Statistical analysis can detect suspiciously coordinated voting ("these 26 delegates always vote together"). Bounties for capture detection reward flagging logrolling.
 
-**Rotation and term limits (for some roles):** Section 4.3 discusses elite rotation. While Section 6.8.1 allows indefinite leadership based on merit, certain roles might still need rotation to prevent coalition entrenchment.
+**Rotation and term limits (for some roles):** While continuous accountability allows indefinite leadership based on merit, certain roles might still need rotation to prevent coalition entrenchment.
 
 **Direct voting option always available:** Constituents can override delegates at any time. If your delegate is serving a narrow coalition instead of you, instant re-delegation. This exit threat limits how far delegates can defect.
 
@@ -1666,19 +1696,19 @@ Delegation is necessary (can't vote on everything) but dangerous (creates small 
 2. Transparency enabling capture detection
 3. Engagement requirements filtering narrow-benefit policies
 4. Easy exit (instant re-delegation) creating competition
-5. Proposal betting (Section 6.5.12) punishing leaders who serve coalitions over community
+5. Proposal betting punishing leaders who serve coalitions over community
 
 **This is not solved—it's managed.** Different communities will find different equilibria between delegation efficiency and coalition-capture risk. The platform provides tools to experiment, not prescriptions.
 
 #### 6.9.3 Cellular Delegation: Hierarchical Representation Through Dunbar-Bounded Groups
 
-**The problem with traditional representation:** Pure liquid democracy (Section 6.9) enables fine-grained delegation but creates three structural problems:
+**The problem with traditional representation:** Pure liquid democracy enables fine-grained delegation but creates three structural problems:
 
 1. **Cognitive overload:** Ordinary citizens still need to choose delegates across multiple domains, research their positions, and monitor performance
 2. **Lack of cohesion:** Everyone choosing their own representatives independently creates fragmented networks with no stable coalitions
 3. **Scale inefficiency:** Direct voting or individual delegation doesn't create natural intermediate organizing structures
 
-**The problem with pure representative democracy:** Fixed geographic districts force citizens into arbitrary groupings that often don't match natural affinities, and representatives serve coalition interests rather than constituent preferences (Dictator's Handbook problem from Section 6.9.2).
+**The problem with pure representative democracy:** Fixed geographic districts force citizens into arbitrary groupings that often don't match natural affinities, and representatives serve coalition interests rather than constituent preferences (the Dictator's Handbook problem).
 
 **Mechanism: Cellular delegation (hierarchical representation with Dunbar-bounded groups)**
 
@@ -1724,7 +1754,7 @@ The biological metaphor: Just as cells organize into tissues, tissues into organ
 
 **Addresses Dictator's Handbook problem:**
 
-From Section 6.9.2: Small coalitions optimize for private goods rather than public goods. Cellular delegation mitigates this through:
+Small coalitions optimize for private goods rather than public goods. Cellular delegation mitigates this through:
 
 **Intra-cell transparency:** Within a 50-150 person group, it's much harder to hide serving narrow interests. Social accountability catches coalition-serving behavior that statistical analysis might miss.
 
@@ -1737,16 +1767,16 @@ From Section 6.9.2: Small coalitions optimize for private goods rather than publ
 **Attack surfaces and mitigations:**
 
 **Cell capture:** A wealthy actor could infiltrate a cell, gain trust, get selected as representative, then defect at higher levels.
-- Mitigation: Instant recall (once defection detected, immediate replacement); competing cells (members can exit to different cell); reputation tracking across cell tenures; betting mechanisms (Section 6.5.12) punish defection
+- Mitigation: Instant recall (once defection detected, immediate replacement); competing cells (members can exit to different cell); reputation tracking across cell tenures; betting mechanisms punish defection
 
 **Sybil attacks on cell formation:** Bad actors create fake cells to gain disproportionate representation.
-- Mitigation: KYC requirements (Section 6.2); minimum participation thresholds; audit trails showing genuine deliberation; cells must demonstrate real cohesion to gain voting weight
+- Mitigation: KYC requirements; minimum participation thresholds; audit trails showing genuine deliberation; cells must demonstrate real cohesion to gain voting weight
 
 **Faction entrenchment:** Cells could become ossified factions (political parties, ethnic blocs, etc.) rather than dynamic preference coalitions.
 - Mitigation: Easy exit and cell-switching; periodic re-formation requirements (cells sunset and must re-form); incentives for cross-cell coalition-building
 
 **Representative power concentration:** Tissue-layer representatives gain outsized influence by representing thousands indirectly.
-- Mitigation: Point-voting with quadratic costs still applies (can't just bloc vote cheaply); transparency requirements on all representatives; betting against representatives (Section 6.5.12) punishes elite defection
+- Mitigation: Point-voting with quadratic costs still applies (can't just bloc vote cheaply); transparency requirements on all representatives; betting against representatives punishes elite defection
 
 **Comparison to other delegation mechanisms:**
 
@@ -1788,7 +1818,7 @@ From Section 6.9.2: Small coalitions optimize for private goods rather than publ
 
 ### 6.10 Jurisdiction & Overlap Resolution
 
-**Connection to Section 4.3 (Scale-Free Cooperation):** This section operationalizes requirement #5 (subsidiarity routing) to keep transaction costs bounded as population grows. By routing decisions to the smallest scale with informational access, authority to act, and scope containment, most decisions remain parallelizable. A city of 1 million doesn't have 10,000x the decision complexity of a city of 100—it has 10,000x more instances of the same types of local decisions that can be resolved independently.
+**Specification connection:** This section operationalizes subsidiarity routing to keep transaction costs bounded as population grows. By routing decisions to the smallest scale with informational access, authority to act, and scope containment, most decisions remain parallelizable. A city of 1 million doesn't have 10,000x the decision complexity of a city of 100—it has 10,000x more instances of the same types of local decisions that can be resolved independently.
 
 **The boundary problem:** When multiple initiatives have overlapping scope or competing resource claims, how do you resolve conflicts?
 
@@ -1821,14 +1851,14 @@ From Section 6.9.2: Small coalitions optimize for private goods rather than publ
 - Algorithmic flagging when initiatives have overlapping scope
 - Community review determines if overlap is productive (multiple perspectives) or conflicting (competing claims)
 
-**Subsidiarity routing (Section 4.3 requirement #5):**
-- Problems route to smallest scale with: (1) **informational access** (can perceive the problem—Section 3.1 light cones), (2) **authority to act** (can implement solutions), (3) **scope containment** (effects don't spill beyond that level)
+**Subsidiarity routing:**
+- Problems route to smallest scale with: (1) **informational access** (can perceive the problem), (2) **authority to act** (can implement solutions), (3) **scope containment** (effects don't spill beyond that level)
 - Issues affecting multiple jurisdictions automatically escalate to shared parent level
 - Issues purely local stay local—preventing information overload at higher levels
 - Algorithmic determination based on engagement patterns: if proposal attracts points from multiple jurisdictions, system suggests escalation
 - **Volume control benefit:** National-level citizens don't see neighborhood parking disputes; this prevents cognitive overload as population scales
 
-**Transparent expectations (Section 4.3 requirement #4):**
+**Transparent expectations:**
 - Routing rules are encoded in smart contracts (executable, auditable)
 - No insider knowledge required to understand which level handles which decisions
 - Clear jurisdictional magisteria prevent ambiguity about who has authority
@@ -1855,20 +1885,9 @@ From Section 6.9.2: Small coalitions optimize for private goods rather than publ
 
 **Open question:** How much overlap is optimal? Too little = rigid silos. Too much = coordination chaos. The answer likely varies by domain and culture. Platform should enable experimentation.
 
-### 6.11 Initiative Creation
-
-Templates for:
-
-- civic projects
-- infrastructure management
-- dispute resolution
-- budgeting decisions
-
-Voting + membership gating
-
 ### 6.12 Anti-Capture Architecture
 
-Capture—when special interests or elites gain control over institutions meant to serve the commons—is the primary failure mode of all governance systems (Section 8.1). As Olson demonstrates, stable democracies inevitably drift toward rent-seeking unless structural mechanisms prevent it. As North shows, concentrated wealth can simply purchase political outcomes in plutocracies, preventing adaptive efficiency.
+Capture—when special interests or elites gain control over institutions meant to serve the commons—is the primary failure mode of all governance systems. As Olson demonstrates, stable democracies inevitably drift toward rent-seeking unless structural mechanisms prevent it. As North shows, concentrated wealth can simply purchase political outcomes in plutocracies, preventing adaptive efficiency.
 
 This section details mechanisms designed to resist capture structurally rather than relying on goodwill or periodic reform efforts.
 
@@ -1882,7 +1901,7 @@ The mechanisms below implement this separation: specialized roles for detection 
 
 #### 6.12.1 Peer Point Allocation (Bonusly-Style Reputation)
 
-Traditional reputation systems face a fundamental problem: **who decides what counts as valuable contribution?** Centralized scoring creates the rubric control problem (Section 2.7.7). But pure democracy (everyone gets equal say) doesn't distinguish between those who contribute and those who extract.
+Traditional reputation systems face a fundamental problem: **who decides what counts as valuable contribution?** Centralized scoring creates the rubric control problem. But pure democracy (everyone gets equal say) doesn't distinguish between those who contribute and those who extract.
 
 **Mechanism: Distributed point allocation**
 
@@ -1946,7 +1965,7 @@ Regulatory capture succeeds when nobody has incentive to identify and resist it.
 
 #### 6.12.3 Deliberate Limits on Elite Accumulation
 
-As detailed in Section 4.3, thin elite structures are essential. Mechanisms include:
+Thin elite structures are essential. Mechanisms include:
 
 - **Fixed position counts** - can't create new positions without meta-governance approval
 - **Term limits and rotation** - prevents entrenchment
@@ -1983,676 +2002,68 @@ These mechanisms don't eliminate capture risk—nothing can—but they shift str
 
 ### 6.12A Energy-Backed Currency (kWh Standard) — Experimental Anti-Capture Mechanism
 
-**Epistemic status:** Experimental. No large-scale implementation. Theory appears sound but requires real-world testing.
+**Epistemic status:** Speculative. No large-scale implementation. The concept and its mechanism design are presented as an exploratory idea, not a blueprint. Detailed implementation would require a separate technical paper.
 
-**The problem:** As diagnosed in Section 1.2a (The 1971 Inflection) and Section 2.11 (Eternal Return of Rent-Seeking), **fiat currency enables structural wealth extraction through inflation**. Even if you build perfect governance mechanisms, monetary debasement remains a capture vector. The Cantillon Effect ensures those closest to money creation (central banks, major financial institutions) extract purchasing power from those furthest away (wage earners, savers).
+**The problem:** Fiat currency is a structural capture vector. Even with perfect governance mechanisms, monetary debasement remains available to elites. The Cantillon Effect ensures those closest to money creation extract purchasing power from those furthest away — wage earners and savers. Perfect governance + fiat currency = governance with a built-in wealth pump.
 
-**Perfect governance + fiat currency = governance with a built-in wealth pump.**
-
-**The proposal:** One experimental option is backing tokens with **energy rather than fiat or scarce commodities**. A kilowatt-hour (kWh) token represents a fixed unit of energy.
+**The proposal:** Back community tokens with **energy rather than fiat or scarce commodities**. A kilowatt-hour (kWh) token represents a fixed unit of energy produced.
 
 #### Why Energy Backing Makes Sense
 
-**1. Fundamental to all economic activity**
-- Nothing happens without energy; it's the ultimate input to production
-- Unlike gold (merely valuable) or fiat (merely agreed-upon), energy has intrinsic productive use
-- Every economic transaction ultimately converts energy into value
+1. **Fundamental to all economic activity.** Nothing happens without energy. Unlike gold (merely valuable) or fiat (merely agreed-upon), energy has intrinsic productive use.
+2. **Cannot be arbitrarily created.** Thermodynamics prevents printing energy — you must actually generate it. Eliminates the Cantillon Effect at the protocol level.
+3. **Naturally scales with productive capacity.** Unlike gold or Bitcoin (fixed supply), energy supply grows with civilization's real output — solar buildout, nuclear, efficiency gains. Monetary supply tracks economic growth, not political expedience.
+4. **Resistant to rent extraction.** Energy must be used or stored at cost. Storage losses prevent monopoly accumulation. Restricting energy supply hurts your own economy — an "EPEC" cartel fails where OPEC succeeds.
+5. **Distributed production.** Solar, wind, geothermal, and nuclear can be generated anywhere — no geographic concentration enabling cartels.
+6. **Extends Bitcoin's proof-of-work logic.** Bitcoin already demonstrates energy-tying. The kWh standard improves on it by requiring energy that can be used productively rather than simply burned.
 
-**2. Cannot be arbitrarily created**
-- Thermodynamics prevents printing energy; you must actually generate it
-- Ties money creation to physical work and productive capacity
-- Prevents the Cantillon Effect: can't give yourself purchasing power without generating real value
+#### The Burn and Buffer Mechanic
 
-**3. Naturally inflationary as capacity grows**
-- Unlike gold (fixed supply vulnerable to space mining disruption) or Bitcoin (hard cap regardless of economic growth), energy supply expands with real productive capacity
-- Currency inflates as civilization adds energy production (solar buildout, fusion development)
-- Matches monetary expansion to actual economic growth rather than political expedience
+**Core principle:** 1 kWh produced = 1 coin minted. 1 kWh consumed = 1 coin burned. Money creation is thermodynamically constrained — you cannot print energy.
 
-**4. Resistant to rent extraction**
-- Can't hoard energy like land; it must be used or stored at cost
-- Storage losses (battery degradation, grid inefficiency) prevent monopoly accumulation
-- Unlike oil cartels, restricting energy supply hurts your own economy (energy is input to everything)
+**The liquidity problem:** If coins can only be minted after production and burned on consumption, circulation is too thin to sustain commerce.
 
-**5. Distributed production**
-- Energy can be generated anywhere: solar, wind, geothermal, hydro, nuclear
-- Renewable sources are globally distributed, making cartels harder than with geographically concentrated resources like oil
-- Decentralization reduces capture risk
+**The buffer solution:** Producers may pre-mint coins against their verified capacity, but must post 100% collateral in store-of-value assets (Bitcoin, gold, stablecoins). Every coin in circulation is backed either by past production (verified) or future commitment (fully escrowed). When production is verified, collateral releases; if a producer defaults, escrow covers the gap. No coin is ever unbacked. No fractional reserve: 100 kWh capacity → 100 coins maximum.
 
-**6. Proof-of-work precedent**
-- Bitcoin already demonstrates this principle: mining requires energy expenditure, tying token creation to physical work
-- kWh standard would improve on Bitcoin by requiring energy generation that can be used productively, not burned
+The burn mechanic is the key anti-capture property: kWh coins cannot be hoarded indefinitely. They must be used or held at the cost of the energy they represent — structurally opposite to fiat, where accumulation is free and inflation taxes savers.
 
-#### Implementation Mechanics
+#### The Two-Currency Insight (Graeber)
 
-**Core principle:** 1 kWh produced = 1 coin minted. 1 kWh consumed = 1 coin burned. Money creation is thermodynamically constrained—you cannot print energy.
+Graeber's *Debt: The First 5,000 Years* documents a recurring historical trap: economies using fixed-supply commodity money eventually outgrow their money supply. Commerce seizes — not because productive capacity declined, but because the medium of exchange couldn't scale. This happened with silver in Ming China, gold in the early modern period, and is the structural reason Bitcoin fails as a primary transaction currency. Each coin becomes more valuable over time, incentivizing hoarding over spending.
 
-**The liquidity problem:** If coins are only minted after production and burned upon consumption, the system faces severe friction:
-- New producers can't create initial supply (cold start problem)
-- Supply constantly drains as energy is consumed
-- Cannot respond to demand spikes in real-time
-- Commerce strangles from lack of circulating medium
+Fiat "solves" this by making supply elastic — at the cost of the Cantillon Effect. The printing press becomes a wealth pump.
 
-**The fractional reserve trap:** Traditional banking "solves" liquidity through recursive lending (banks hold 10% reserves, loan 90%, which gets redeposited, enabling 10x money multiplication). This is precisely the rent extraction mechanism we're eliminating. We need liquidity without fractional reserves.
+The kWh standard resolves this by separating the two functions money is asked to serve:
 
-**The solution: Buffer system with full escrow backing**
+- **kWh token = economic lubricant.** Elastic supply grows with real energy production. Facilitates transactions. Deliberately grows as civilization scales. Not a savings vehicle — holding kWh tokens long-term means holding an intentionally depreciating asset.
+- **Separate store of value = required.** The system explicitly recommends holding wealth in a scarce, hard-capped asset (Bitcoin, gold, or equivalent) rather than in kWh tokens. This is not incidental — it is the design. The kWh system is incomplete without a store of value alongside it. Using a fixed-supply asset as the primary transaction currency recreates the metallism trap (economy outgrows money supply, commerce strangles); using the kWh token as a savings vehicle defeats the anti-Cantillon property by making the token something worth accumulating.
 
-Producers can mint coins against planned future production, but only if they post **100% collateral in store-of-value assets** (Bitcoin, gold, real property, stablecoins). This provides liquidity while maintaining 1:1 backing—every coin is backed by either past production (verified) or future commitment (fully escrowed).
-
-##### Producer Registration & Capacity Verification
-
-**Registration requirements:**
-1. **Verified production capacity** - Cryptographic proof of generation capability
-   - Grid connection documentation (utility/ISO confirmation)
-   - Equipment specifications (solar array size, wind turbine capacity, nuclear reactor output)
-   - Historical production data (if established producer)
-
-2. **Identity & jurisdiction** - Legal accountability
-   - Corporate/individual registration
-   - Jurisdiction for legal enforcement
-   - Anti-fraud compliance (KYC for producers, not necessarily consumers)
-
-3. **Initial escrow deposit** - Store-of-value collateral
-   - Bitcoin, stablecoins, gold, real estate, or other non-kWh assets
-   - Amount proportional to requested buffer size
-   - Locked in smart contract, released only upon deregistration with clean record
-
-**Why registration?** Prevents Sybil attacks (spinning up fake producers with imaginary capacity), enables capacity-based limits on minting, creates legal accountability for fraud.
-
-##### Buffer Mechanism: Minting Against Future Production
-
-**Buffer definition:** The maximum amount of kWh-coins a producer can mint ahead of verified production, based on their proven capacity.
-
-**Capacity-based limits:**
-- Small-scale (rooftop solar, <100 kW): 1-week buffer
-- Medium-scale (community solar/wind, 100kW-10MW): 2-week buffer
-- Large-scale (utility solar/wind, 10MW-1GW): 1-month buffer
-- Baseload (nuclear, geothermal, hydro >1GW): 6-week buffer (rewarding consistency)
-
-**Example:**
-- Solar farm with 10 MW capacity, average 70% capacity factor
-- 1-month buffer = 10,000 kW × 24 hours × 30 days × 0.7 = 5,040 kWh maximum buffer
-
-**Escrow requirement for buffer activation:**
-- To unlock 5,040 kWh buffer, must post escrow = 5,040 kWh worth of store-of-value
-- If market price is $0.15/kWh → escrow = $756 in Bitcoin/gold/stablecoins
-- **This is 100% backing** - no fractional reserve
-
-**New producers can start small:**
-- 10 MW solar farm doesn't need $756 escrow on day 1
-- Start with 1-week buffer: 1,176 kWh × $0.15 = $176 escrow (much more achievable)
-- After weeks/months of profitable operation, accumulate profits to stake larger buffer
-- Timeline: ~6-12 months of reliable operation naturally builds escrow for maximum buffer
-
-##### Circulation Flow: How Coins Move Through The Economy
-
-**Minting:**
-1. Producer mints 1,000 kWh-coins against buffer (verified capacity, sufficient escrow)
-2. Buffer capacity decreases by 1,000 kWh (tracking "debt" owed to system)
-3. Coins enter circulation (sold to consumers, paid to workers, etc.)
-
-**Consumption:**
-1. Consumer purchases energy, pays 1,000 kWh-coins
-2. Those coins are **burned** (removed from circulation entirely)
-3. Producer's buffer capacity **regenerates** by 1,000 kWh (debt paid)
-
-**Net effect:**
-- Circulating supply stays roughly constant (coins burned = buffer capacity restored)
-- No liquidity drain despite constant burning
-- Producer can mint new coins as old ones are burned
-
-**Production verification:**
-1. Grid operators/smart meters verify actual energy produced
-2. If producer generated more than they minted, buffer stays healthy
-3. If producer generated less than they minted, shortfall accumulates
-
-**Example cycle:**
-- **Week 1:** Producer mints 2,000 coins (buffer capacity: 3,040 remaining of 5,040)
-- **Week 1 consumption:** Consumers burn 1,800 coins (buffer regenerates to 4,840)
-- **Week 1 production:** Producer actually generates 2,100 kWh (verified)
-- **Week 1 net:** +100 kWh ahead of commitments (healthy)
-
-##### Escrow Liquidation: Enforcing 100% Backing
-
-**Shortfall scenario:**
-- Producer mints 2,000 coins but only produces 1,500 kWh (verified)
-- Shortfall: 500 kWh-coins exist that are unbacked by production
-- **System response:** Escrow is automatically liquidated
-
-**Liquidation process (smart contract executed):**
-1. Calculate shortfall: 500 kWh × market price = $75 worth of backing needed
-2. Liquidate $75 of producer's escrowed Bitcoin/gold/stablecoins
-3. Use liquidated funds to **purchase 500 kWh-coins from other producers** on open market
-4. **Burn those purchased coins** (removing unbacked supply)
-5. Reduce producer's maximum buffer capacity proportionally
-
-**Result:** System remains 100% backed. Every coin in circulation represents real produced energy. Fraudulent producer bears the cost (lost escrow), not coin holders.
-
-**Graduated penalties:**
-
-1. **Minor shortfall (<5% of commitment):**
-   - Partial escrow liquidation to cover gap
-   - Warning issued (weather variance, equipment hiccups happen)
-   - Buffer capacity reduced 10% for next period
-
-2. **Moderate shortfall (5-15%):**
-   - Escrow liquidation to purchase makeup coins
-   - Buffer capacity reduced 25% for next period
-   - Reputation score damaged (affects insurance rates, future buffer limits)
-
-3. **Severe shortfall (>15%) or repeated failures:**
-   - Escrow liquidation (may not fully cover if catastrophic)
-   - Minting privileges suspended until escrow refilled AND track record rebuilt
-   - Legal prosecution for fraud (criminal charges if intentional deception)
-   - Remaining escrow held as insurance reserve
-
-4. **Force majeure (natural disasters, grid failures):**
-   - Third-party verification required (grid operator incident reports, insurance adjusters)
-   - Temporary suspension without penalties
-   - Buffer frozen until resolved, escrow intact
-
-**Honest producers benefit from dishonest ones:**
-- Fraudster's liquidated escrow purchases coins from reliable producers
-- Reliable producers receive premium: sold energy at market rate AND got paid extra from fraudster's escrow
-- Creates market incentive for reliability (chance to sell into bailout purchases)
-
-##### Verification Infrastructure: An Unsolved Hard Problem
-
-Energy generation must be cryptographically provable to prevent unbacked minting. **This is genuinely difficult.**
-
-**The requirement:** Verify that claimed energy production is real (not fabricated data, tampered meters, or fraudulent attestations).
-
-**The challenge:** Counterfeiting is an ongoing problem even with physical currency (sophisticated security features, Secret Service enforcement, yet counterfeit bills still circulate). Energy verification faces similar adversarial dynamics—distributed attack surfaces (thousands of meters), economic incentives to fraud (if kWh-coin = $0.15, falsifying production = direct theft), and potential collusion (grid operators + producers).
-
-**Likely approach:** Multi-node verification network where generation and consumption are measured throughout the grid, with reconciliation at each node. Discrepancies between claimed production, metered delivery, and actual consumption would trigger audits. Similar to how electrical grids already balance supply/demand in real-time, but with cryptographic attestation.
-
-**Why this doesn't invalidate the concept:**
-
-Even with imperfect verification, the kWh standard prevents the core fiat problem—**arbitrary money printing by those who control the currency**. Fraudsters must:
-- Post 100% escrow (economic cost)
-- Risk escrow liquidation when shortfalls detected (ex-post enforcement)
-- Face criminal prosecution (legal deterrence)
-
-Unlike fiat (where government prints at will), kWh fraud requires circumventing multiple systems and risking significant losses.
-
-**The honest assessment:** This is an active research problem. We don't have a complete solution. Implementation will require ongoing fraud detection, redundant measurement, and legal enforcement—similar to physical currency anti-counterfeiting operations.
-
-**Scope recommendation:** Start with small-scale implementations (regional currencies, trusted communities, known producers) where verification is more tractable. Scale cautiously as verification infrastructure matures.
-
-##### Time-of-Day Pricing & Market Efficiency
-
-**The baseload problem:** Energy value varies by time. Grid demand peaks mornings/evenings, troughs overnight. Solar produces midday (low demand), nothing at night (high demand). 1 kWh at 3am ≠ 1 kWh at 7pm in grid value.
-
-**Protocol stance:** 1 kWh = 1 coin, period. Protocol doesn't pick winners (no time-weighting at minting).
-
-**Market handles pricing:**
-- kWh-coins carry metadata: production timestamp, source type, location
-- Free market prices coins accordingly
-  - Peak-hour coins trade at premium (e.g., 1.3x)
-  - Off-peak coins trade at discount (e.g., 0.7x)
-- Arbitrage opportunities create price discovery
-
-**Example:**
-- Nuclear plant generates 1,000 kWh at 3am → mints 1,000 coins
-- Solar farm generates 1,000 kWh at noon → mints 1,000 coins
-- Market prices nuclear coins higher (consistent baseload valuable for grid stability)
-- Solar producer accepts lower price (supply glut at midday)
-
-**Storage arbitrage:**
-- Battery operator buys 1,000 off-peak coins (cheap)
-- Stores energy (batteries, pumped hydro, thermal)
-- Discharges during peak, sells 1,000 coins (expensive)
-- Profit = peak price - off-peak price - storage losses
-- **This incentivizes grid storage without central planning**
-
-**Baseload premium (market-driven, not protocol):**
-- Consistent 24/7 sources (nuclear, geothermal, hydro) naturally command premium
-- Reduces grid instability costs (no need for expensive peaker plants)
-- Nuclear advantage: flattens daily production curve, simplifies pricing
-
-**Intermittent sources adapt:**
-- Solar/wind couple with storage to sell peak-hour coins
-- Or accept off-peak pricing (lower margins but still profitable if LCOE competitive)
-- Market forces optimal technology mix, not regulatory mandates
-
-##### Producer Economics: Profit Through Natural Arbitrage
-
-**No protocol profit manipulation.** Producers earn profits the same way any business does: sell products for more than cost of production.
-
-**Cost structure (example solar farm):**
-- Capital: $1M (panels, inverters, land, installation)
-- Annual production: 10,000 MWh
-- Operating costs: $10,000/year (maintenance, insurance, cleaning)
-- Lifetime cost per kWh: ~$0.10 (amortized over 25 years)
-
-**Revenue:**
-- Mint 10,000 MWh-coins/year
-- Sell at market price: $0.15/kWh
-- Annual revenue: $1.5M
-- Annual profit: $1.4M (minus capital amortization)
-
-**Producer profits when:**
-- Production costs < market price (efficiency, location, technology advantages)
-- Technology improves (solar costs dropped 90% in 15 years)
-- They provide valuable services (baseload, peak capacity, grid stability)
-
-**Producer loses when:**
-- Production costs > market price (inefficient, obsolete tech, bad location)
-- Competition drives prices down
-- Escrow liquidation due to unreliability
-
-**This is market discipline** - efficient producers profit and expand, inefficient ones exit. No protocol manipulation (no "produce 1 kWh, receive 1.1 coins" subsidy). Maintains thermodynamic 1:1 relationship.
-
-**Buffer enables profitable operation:**
-- Without buffer: must produce before minting (cash flow nightmare, can't respond to demand)
-- With buffer: mint ahead, sell at peak prices, produce on schedule, smooth cash flow
-- Escrow requirement funded naturally through profitable operation (6-12 months → full buffer unlocked)
-
-##### Preventing Fractional Reserve: Why This Isn't Banking 2.0
-
-**Fractional reserve banking (what we're avoiding):**
-1. Bank receives $100 deposit
-2. Loans $90 (holds 10% reserve)
-3. Borrower deposits $90 at Bank B
-4. Bank B loans $81 (holds $9 reserve)
-5. Recursive multiplication: $100 → $1,000 in "money" (10x leverage)
-
-**Result:** Money supply decoupled from real assets, rent extraction through interest, bank runs when everyone wants cash simultaneously, bailouts when system fails.
-
-**kWh coin system (anti-fractional design):**
-1. Producer proves 10,000 kWh capacity
-2. Posts $1,500 escrow (10,000 kWh × $0.15 market price) = **100% collateral**
-3. Mints 10,000 kWh-coins
-4. **Those coins cannot be re-leveraged** - they're burned upon energy consumption
-5. No recursive multiplication: 10,000 kWh capacity → exactly 10,000 coins maximum
-
-**Key differences:**
-
-| Fractional Reserve Banking | kWh Coin (Full Escrow) |
-|---|---|
-| $100 deposit → $1,000 loans (10x) | 10,000 kWh capacity → 10,000 coins (1x) |
-| 10% reserves | 100% escrow backing |
-| Money created via lending | Money created via production |
-| Deposits can trigger bank runs | Escrow liquidates automatically |
-| Bailouts socialize losses | Fraudsters bear full cost |
-| Interest extracts rent | No interest (market pricing only) |
-
-**Protocol enforcement (smart contract logic):**
-```
-if (requested_mint + current_buffer_debt) > verified_capacity:
-    reject mint ("Exceeds capacity limit")
-
-if (requested_mint × market_price) > escrowed_collateral_value:
-    reject mint ("Insufficient escrow")
-
-if actual_production < minted_coins:
-    liquidate_escrow(shortfall)
-    burn_purchased_coins()
-```
-
-**This makes fractional reserve impossible at protocol level.** You physically cannot mint more coins than you have capacity + escrow to back.
-
-##### Government Role: Regulation Without Arbitrary Control
-
-**The critical distinction:** Regulating verification infrastructure is legitimate governance. Manipulating money supply for political ends is the fiat problem we're eliminating.
-
-**What government SHOULD enforce:**
-- **Verification standards:** Grid operators must submit accurate production data
-- **Fraud prosecution:** Criminal charges for intentional falsification
-- **Consumer protection:** Prevent Ponzi schemes, false advertising, market manipulation
-- **International coordination:** If multiple jurisdictions adopt, standard verification protocols
-- **Oracle security:** Ensure decentralized verification networks aren't compromised
-
-**What government CANNOT control:**
-- **Arbitrary money printing:** Supply determined by thermodynamics (actual energy production), not political will
-- **Monetary policy:** No central bank setting interest rates or inflation targets
-- **Exchange rates:** kWh-coin floats freely against other currencies based on market demand
-- **Credit expansion:** No fractional reserve, no recursive lending, no debt-based money creation
-
-**Precedent - weights and measures:**
-- Government enforces: "1 gallon must equal 3.785 liters" (verification standard)
-- Government doesn't manipulate: "We're redefining gallon to 4.5 liters to boost milk industry" (arbitrary control)
-- Same principle: Verify that 1 kWh-coin = 1 kWh produced, but don't print unbacked coins
-
-**Why this government role is acceptable (vs. fiat):**
-
-Cryptocurrency emerged because fiat money lacks tangible backing—government control becomes pure rent extraction (Cantillon Effect). But if currency IS backed by something real (energy), government regulation of verification becomes **necessary infrastructure**, not parasitism.
-
-**Analogy:**
-- Fiat: Government says "this paper is money because we say so" → trust us → prints arbitrarily
-- Gold standard: Government says "we'll redeem paper for gold" → often lies → Nixon closes gold window
-- kWh standard: Government says "we verify energy production" → thermodynamics enforces scarcity → can't print energy
-
-The verification role is legitimate because **the underlying constraint (thermodynamics) is physics, not politics.**
-
-##### Why You Need TWO Currencies: kWh Coins + Bitcoin
-
-**This is crucial:** kWh coins are NOT a store of value. They're economic lubricant. You need BOTH.
-
-**The fundamental problem (Graeber's insight from *Debt: The First 5,000 Years*):**
-
-Money serves two incompatible functions:
-
-1. **Store of Value** - Preserve wealth across time (requires scarcity, durability, resistance to debasement)
-2. **Economic Lubricant** - Facilitate transactions, coordinate production (requires supply matching economic activity)
-
-**No single currency can optimize for both.** Attempts to use one currency for both functions create systemic failures:
-
-**Failure Mode 1: Fixed-supply currency as lubricant (Graeber's Metallism Trap)**
-
-*Historical example: Spanish Silver & Ming China (16th-17th century)*
-
-- Spanish conquistadors flood Europe with American silver
-- Silver flows to Ming China (demanded for taxes/trade)
-- Fuels economic expansion initially
-- **But economy grows faster than silver supply**
-- Result: Commerce seizes up, deflation spiral, each coin more valuable → hoarding → credit crunch → systemic collapse
-- Economy contracts NOT because productive capacity declined, but because **medium of exchange couldn't scale**
-
-*Modern example: Bitcoin as primary transaction currency*
-
-- Bitcoin: perfect store of value (21M hard cap, immune to debasement)
-- Bitcoin as lubricant: terrible (fixed supply can't grow with economy)
-- If economy grows 3%/year but BTC supply fixed → deflation 3%/year
-- Each bitcoin more valuable over time → hoarding incentive → transactions strangle
-- **Recreates Ming silver crisis**
-
-**Failure Mode 2: Fiat currency as store of value (Cantillon Effect)**
-
-*Modern fiat problem:*
-
-- Fiat: decent lubricant (can expand supply as economy grows)
-- Fiat: terrible store of value (always overshoots → inflation)
-- **Cantillon Effect:** Those closest to money creation (central banks, major institutions) extract wealth from those furthest (savers, wage earners)
-- Your savings erode 3-7%/year as money supply expands
-- Political corruption: printing press enables elite rent extraction
-
-**The kWh + Bitcoin solution:**
-
-**kWh Coin = Economic Lubricant**
-- ✅ Elastic supply (grows with energy production)
-- ✅ Matches economic growth (as civilization produces more, currency supply increases)
-- ✅ Thermodynamically constrained (can't print arbitrarily, must actually generate energy)
-- ❌ Deliberately inflationary (supply grows ~3-5%/year as solar/nuclear scales)
-- ❌ DON'T save long-term wealth here
-
-**Bitcoin = Store of Value**
-- ✅ Fixed supply (21M hard cap, immune to debasement)
-- ✅ Digital scarcity (cryptographically enforced, permissionless)
-- ✅ Wealth preservation across decades
-- ❌ Deflationary if used as primary transaction currency
-- ❌ DON'T conduct daily commerce here
-
-**How they work together:**
-
-**Earning:**
-- Get paid for work/products in kWh-coins (the transaction currency)
-- Energy producers mint kWh-coins, pay workers in kWh-coins
-
-**Transacting:**
-- Buy groceries, pay rent, purchase services → kWh-coins
-- Currency flows through economy constantly (burned and reminted)
-- Supply stays roughly matched to economic activity
-
-**Saving:**
-- Earn more kWh-coins than you spend → convert excess to Bitcoin
-- Bitcoin holdings preserve purchasing power long-term
-- Or invest in real assets (property, businesses, productive capital)
-
-**Later consumption:**
-- Need to make large purchase → sell some Bitcoin for kWh-coins
-- Use kWh-coins for transaction
-- Coins burned upon energy consumption
-
-**The cycle:**
-1. Work → earn kWh-coins
-2. Spend what you need this month → kWh-coins (burned upon use)
-3. Save excess → convert to Bitcoin/gold/real assets (wealth preservation)
-4. Years later, need liquidity → sell Bitcoin → buy kWh-coins → transact
-5. Repeat
-
-**Why this avoids both failure modes:**
-
-✅ **No deflation spiral** (kWh supply elastic, matches economic growth)
-✅ **No Cantillon extraction** (kWh supply constrained by thermodynamics, can't print arbitrarily; wealth saved in BTC which has hard cap)
-✅ **Separation of functions** (transact in one currency, save in another)
-
-**Critical insight:** Trying to use Bitcoin for BOTH functions recreates Graeber's metallism trap (economy outgrows money supply). Trying to use fiat for BOTH creates Cantillon extraction. **The two-currency system eliminates both traps.**
-
-**Analogy:**
-- kWh coin : Bitcoin :: Checking account : Savings account
-- Keep enough in checking for monthly expenses (liquidity)
-- Keep long-term wealth in savings (preservation)
-- Don't try to use one account for both functions
-
-**Government can't control your savings:**
-
-Even if kWh coin system becomes corrupted somehow (captured regulators, fraudulent verification, political interference):
-- Your Bitcoin savings are unaffected (permissionless, decentralized, hard cap)
-- Can exit to other currencies/assets
-- kWh coin failure doesn't destroy your wealth
-
-**This is the protection mechanism:** Transact in kWh (regulated but thermodynamically constrained), save in Bitcoin (permissionless, cryptographically enforced). Together they provide liquidity + preservation without either failure mode.
-
-##### Summary: How The Complete System Works
-
-**Registration & Escrow:**
-1. Energy producer proves 10 MW capacity
-2. Chooses buffer size (start small: 1-week = 1,176 kWh)
-3. Posts 100% escrow: 1,176 kWh × $0.15 = $176 in Bitcoin/stablecoins
-4. Smart contract locks escrow, grants minting privileges up to buffer
-
-**Minting & Circulation:**
-1. Producer mints 500 kWh-coins against buffer (debt: 500 kWh)
-2. Sells coins to consumers for goods/services
-3. Consumers use energy, pay 500 kWh-coins → coins burned
-4. Buffer regenerates: debt reduced to 0, can mint again
-
-**Production Verification:**
-1. Grid operator/smart meters verify: producer generated 520 kWh (actual)
-2. Minted 500, produced 520 → surplus of 20 kWh (healthy)
-3. Buffer remains healthy, escrow intact
-
-**Shortfall & Enforcement:**
-1. Next period: mints 800 coins, produces only 700 kWh (verified)
-2. Shortfall: 100 kWh unbacked
-3. Smart contract liquidates: $15 of escrowed Bitcoin
-4. Purchases 100 kWh-coins from other producers
-5. Burns purchased coins → system 100% backed again
-6. Producer's buffer reduced, warning issued
-
-**Profitable Growth:**
-1. Operate reliably for 6 months, earn profits
-2. Profits stake larger escrow
-3. Unlock bigger buffer (6-month track record → 1-month buffer)
-4. Increase minting capacity without new capital
-5. Scale up to maximum buffer over 12-24 months
-
-**Two-Currency Usage:**
-1. Consumers earn wages in kWh-coins
-2. Spend on daily needs → kWh-coins (burned upon consumption)
-3. Save excess → convert to Bitcoin (long-term wealth preservation)
-4. Later: sell Bitcoin → buy kWh-coins → transact
-5. Never hoard kWh-coins long-term (supply grows 3-5%/year as energy production scales)
-
-**System Properties:**
-- ✅ Thermodynamic constraint (1 kWh = 1 coin, can't print energy)
-- ✅ Liquidity without fractional reserve (buffer with 100% escrow)
-- ✅ Fraud prevention (escrow liquidation, capacity limits, multi-layer verification)
-- ✅ Market efficiency (time-of-day pricing, storage arbitrage, technology competition)
-- ✅ Natural profit mechanism (production cost vs. market price, no protocol manipulation)
-- ✅ Government regulation justified (verification infrastructure) but constrained (can't print money)
-- ✅ Paired with Bitcoin for wealth preservation (solves Graeber's dilemma)
-- ✅ Scales with civilization (supply grows with energy production, matches economic growth)
-
-#### The Graeberian Distinction: Store of Value vs. Economic Lubricant
-
-**Money serves two fundamentally different functions, and no single currency can optimize for both:**
-
-**1. Store of Value (Inelastic Money)**
-- Preserve wealth across time
-- Requires scarcity, durability, resistance to debasement
-- **Bitcoin excels here:** Hard cap, cryptographically secure, immune to arbitrary creation
-- Like gold, but digital and verifiable
-
-**2. Economic Lubricant (Elastic Money)**
-- Facilitate transactions, coordinate production, enable exchange
-- Requires supply that matches the scale of economic activity
-- Too little money → deflation, hoarding, strangled commerce
-- Too much money → inflation, Cantillon extraction
-
-**The historical problem David Graeber identified in *Debt: The First 5,000 Years*:**
-
-Economies repeatedly outgrow fixed-supply currencies, causing systemic collapse.
-
-**The Metallism Trap: Spanish Silver and Ming China (16th-17th century)**
-
-Spanish and Portuguese conquistadors extracted massive silver from the Americas, flooding Europe with currency. This silver flowed to Ming Dynasty China (which demanded silver for taxes and trade). For a time, this fueled global economic expansion.
-
-**But the economy grew faster than silver extraction could match.**
-
-China's internal economic growth created demand for more currency to lubricate the increasing volume of transactions. When silver supply couldn't keep pace with real economic activity, the currency became the bottleneck:
-
-- **Commerce seized up** - Not enough currency tokens to represent the value being created
-- **Deflation spirals** - Fixed money supply + growing economy = each unit becomes more valuable, incentivizing hoarding rather than spending
-- **Credit crunches** - Without medium of exchange, even productive transactions couldn't clear
-- **Systemic collapse** - The economy contracted not because productive capacity declined, but because the **medium of exchange couldn't scale**
-
-**Graeber's broader pattern across history:**
-
-Economies using commodity money (gold, silver, copper) repeatedly hit this constraint:
-1. Economy grows → requires more currency to support transaction volume
-2. Commodity supply can't keep pace with real economic growth
-3. Result: deflation, hoarding, credit crunges, systemic failure
-4. Eventually transition to credit-based systems or fiat currency (which then creates different problems)
-
-**The modern version of this trap:**
-
-**Bitcoin (Digital Gold):**
-- Perfect store of value: Fixed cap prevents debasement
-- Terrible economic lubricant: As the economy grows, there's no mechanism to increase supply
-- If used as primary transaction currency → deflationary spiral (same as Ming silver crisis)
-- Each bitcoin becomes more valuable → hoarding incentive → commerce strangles
-
-**Fiat Currency:**
-- Good economic lubricant: Can print more as economy grows
-- Terrible store of value: Always overshoots, causing inflation
-- **Cantillon Effect:** Those closest to money creation (central banks, major institutions) extract wealth from those furthest away (savers, wage earners)
-- Political corruption: Printing press controlled by elites enables rent extraction
-
-**The kWh Standard solves Graeber's dilemma:**
-
-**Elastic (supply grows with economy) but Constraint-Based (thermodynamics prevents arbitrary printing)**
-
-- Energy production grows with real productive capacity (solar buildout, fusion development, efficiency improvements)
-- Currency supply automatically expands to match civilization's capacity to do work
-- Unlike fiat (arbitrary expansion → Cantillon Effect), expansion is tied to actual thermodynamic work
-- Unlike Bitcoin/gold (fixed cap → deflation spiral), supply can grow with the economy
-- Unlike commodity money (extraction can't keep pace), energy generation scales with industrial capacity
-
-**The "Goldilocks" monetary system:**
-
-**Store of Value: Bitcoin**
-- Digital gold
-- Fixed supply prevents debasement
-- Hold wealth across decades or centuries
-- Optimized for scarcity
-
-**Economic Lubricant: kWh Token**
-- Digital energy
-- Elastic supply grows with productive capacity
-- Facilitate transactions at any economic scale
-- Optimized for matching economic activity
-
-**Real Assets: Land, Businesses, Productive Capital**
-- Generate value independent of currency
-- Complement both storage and transaction functions
-
-**Why you need both:**
-
-Trying to use a fixed-supply currency (Bitcoin/gold) for both functions recreates Graeber's metallism trap—economy outgrows money supply, commerce strangles.
-
-Trying to use fiat currency creates the Cantillon extraction problem—arbitrary printing enables wealth transfer from savers to money creators.
-
-**The complementary solution:**
-- **Save in Bitcoin** (immune to debasement, proven digital scarcity)
-- **Transact in kWh tokens** (supply matches productive capacity, immune to arbitrary creation)
-- **Invest in productive assets** (generate real value)
-
-This separates the functions and eliminates both failure modes: no deflation spiral (elastic lubricant), no Cantillon extraction (energy-constrained creation).
+Together they eliminate both failure modes: no deflation spiral (elastic lubricant), no Cantillon extraction (energy-constrained creation). Each does one job; neither tries to do both.
 
 #### Comparison to Alternatives
 
-**Fiat:**
-- Arbitrary creation enables rent extraction through inflation
-- Whoever controls printing press controls economy
-- Cantillon Effect: money creation benefits insiders, taxes savers
+| | Supply | Capture Risk | Deflation Risk |
+|---|---|---|---|
+| **Fiat** | Arbitrary | High (Cantillon Effect) | Low |
+| **Gold** | Fixed (geographic) | Moderate (monopoly possible) | High |
+| **Bitcoin** | Fixed (hard cap) | Low | High |
+| **kWh token** | Elastic (energy production) | Low (thermodynamic constraint) | Low |
 
-**Gold:**
-- Historically stable but vulnerable to supply shocks (space mining could flood market overnight)
-- Not consumable (hoarding creates artificial scarcity without productive use)
-- Geographic concentration enables monopolies
+#### Tradeoffs and Open Problems
 
-**Bitcoin:**
-- Proof-of-work provides energy-backing property
-- But energy is burned rather than utilized productively
-- Hard cap prevents matching monetary supply to economic growth
+**Advantages:** Immune to arbitrary inflation; ties monetary supply to real productive capacity; resistant to cartels; prevents Cantillon extraction.
 
-**kWh Standard:**
-- Energy generation creates tokens (like Bitcoin PoW)
-- But energy can be used productively (unlike Bitcoin burn)
-- Supply grows with real productive capacity (unlike Bitcoin hard cap)
-- Can't be monopolized like gold or inflated arbitrarily like fiat
+**The hard problem:** Cryptographic verification of energy generation is genuinely unsolved. Meters can be tampered, data fabricated, and the incentive to commit fraud scales with the token's value. The 100% escrow buffer provides ex-post enforcement — fraudsters bear the cost of shortfalls — but verification infrastructure is an active research problem with no complete solution today.
 
-#### Cartel Resistance
-
-Unlike oil, energy production can't easily be restricted by geographic monopolies:
-- **Renewables are distributed:** Solar, wind work globally
-- **Restriction hurts restrictor:** Energy is input to everything; cartel would destroy its own economy
-- **Technology enables decentralization:** Rooftop solar, community wind, small modular reactors lower barriers to entry
-- **Storage remains costly:** Can't hoard energy at scale without losses
-
-Historical precedent: OPEC succeeds because oil is geographically concentrated. An "EPEC" (Energy Producing & Exporting Cartel) would fail because restricting energy supply cripples the restrictor's own industrial base.
-
-#### Tradeoffs and Risks
-
-**Advantages:**
-- Immune to arbitrary inflation (thermodynamics enforces scarcity)
-- Ties monetary supply to real productive capacity
-- Resistant to geographic monopolies and cartels
-- Prevents Cantillon Effect wealth extraction
-
-**Challenges:**
-- **Verification complexity:** How do you prove energy generation cryptographically?
-- **Oracle problem:** Requires trusted (or decentralized trustless) sources for energy data
-- **Initial adoption friction:** Communities must understand thermodynamic basis
-- **Not proven at scale:** This is experimental; unknown failure modes likely exist
-
-**MVP strategy:** Start with fiat/stablecoin compatibility (lower friction), but provide path for communities that want monetary sovereignty to experiment with energy-backing.
+**MVP approach:** Start with fiat/stablecoin compatibility for low friction. Provide a path for communities that want monetary sovereignty to experiment with energy-backing at small scale, in trusted networks with known producers, where verification is tractable.
 
 #### When to Use This
 
-**Communities that value:**
-- Immunity from external monetary debasement
-- Structural resistance to Cantillon Effect wealth extraction
-- Long-term incentive alignment with real productive capacity
-- Willingness to accept higher initial complexity for structural protection
+**Appropriate for** communities that value immunity from external monetary debasement, structural resistance to Cantillon extraction, and long-term incentive alignment with real productive capacity — and accept higher initial complexity.
 
-**Communities that should avoid:**
-- Need immediate low-friction adoption
-- Can't handle verification/oracle complexity
-- Value simplicity over monetary sovereignty
-- Operate in regulatory environments hostile to alternative currencies
+**Avoid** when immediate low-friction adoption is required, verification infrastructure is unavailable, or regulatory environments are hostile to alternative currencies.
 
-#### Connection to Other Mechanisms
-
-**Combines with:**
-- **Section 4.6 (Constraining Elites):** Prevents monetary policy as elite capture vector
-- **Section 5.1 (Land Value Tax):** Both address rent extraction from scarce resources
-- **Section 6.12 (Anti-Capture Architecture):** Monetary sovereignty as structural defense
-
-**The core insight:** Governance without monetary sovereignty is governance with a structural vulnerability. Communities can solve coordination, elite accountability, and institutional lifecycle—but if they denominate treasuries in fiat, they remain exposed to external wealth extraction through currency debasement.
-
-**The platform approach:** Enable experimentation. Some communities will prioritize ease of use (fiat/stablecoins). Others will prioritize sovereignty (energy-backing or other experimental mechanisms). Let outcomes determine which tradeoffs are worth it.
+**The core insight:** Governance without monetary sovereignty is governance with a structural vulnerability. Communities can solve coordination, elite accountability, and institutional lifecycle — but if they denominate treasuries in fiat, they remain exposed to external wealth extraction through currency debasement. Enable experimentation; let outcomes determine which tradeoffs are worth it.
 
 ### 6.13 Anti-Monopoly Mechanisms — Progressive Costs on Concentration
 
@@ -2666,7 +2077,7 @@ Historical precedent: OPEC succeeds because oil is geographically concentrated. 
 
 #### The Georgist Foundation
 
-**Henry George's insight (Section 5.1) generalizes beyond land:**
+**Henry George's insight generalizes beyond land:**
 
 George identified that landowners extract rent as society becomes productive—land values rise not because owners improve it, but because society builds around it. **The pattern applies to any concentrated scarce resource:**
 
@@ -2766,16 +2177,16 @@ The principle is consistent: concentrated control becomes increasingly expensive
 **The platform's role:** Provide tools for communities to experiment with anti-monopoly mechanisms within their ecosystems. Some will choose aggressive redistribution, others minimal intervention. Communities discover what works through experimentation, not ideology.
 
 **Connection to other mechanisms:**
-- **Section 5.1 (Land Value Tax):** Original anti-rent-extraction mechanism
-- **Section 6.12 (Anti-Capture Architecture):** Prevents governance capture by leaders
-- **Section 6.12A (Energy Currency):** Prevents monetary rent extraction
-- **Section 6.5 (Long-Horizon Alignment):** Prevents short-term extraction
+- **Land Value Tax:** Original anti-rent-extraction mechanism
+- **Anti-Capture Architecture:** Prevents governance capture by leaders
+- **Energy Currency:** Prevents monetary rent extraction
+- **Long-Horizon Alignment:** Prevents short-term extraction
 
 **Together:** Governance is economic structure, monetary systems, incentive alignment, and anti-capture mechanisms. All must work together or concentration finds the weak point.
 
 #### Progressive Accountability Burden (The Diffusion Tax)
 
-**The problem:** Section 2.12 documents the "diffusion trick"—split any action across enough actors, and accountability approaches zero while harm remains constant. More organizational complexity = more ability to evade consequences. This inverts proper incentives: scale should increase accountability burden, not decrease it.
+**The problem:** The "diffusion trick"—split any action across enough actors, and accountability approaches zero while harm remains constant. More organizational complexity = more ability to evade consequences. This inverts proper incentives: scale should increase accountability burden, not decrease it.
 
 **The principle:** If you benefit from coordinated action, you're accountable for coordinated consequences. The ability to diffuse responsibility is itself a form of power that should be taxed proportionally.
 
@@ -2831,7 +2242,7 @@ The principle is consistent: concentrated control becomes increasingly expensive
 - Irreversible consequences (can't undo)
 - Catastrophic downside (deaths, existential risk)
 - High-stakes domains: medicine, aviation, nuclear, structural engineering
-- Genuine Type 1 decisions (see Section 4)
+- Genuine Type 1 decisions
 
 **Where post-hoc works better:**
 - Reversible decisions (can undo or iterate)
@@ -2870,7 +2281,7 @@ The governance mechanisms described in this section were impossible or impractic
 
 **Now:** Smart contracts execute deterministically. If a policy passes review, payments happen automatically. If a policy is revoked, payments cease automatically. No human discretion, no corruption, no bureaucratic delay.
 
-**Example:** Long-horizon leader compensation (Section 6.5) requires tracking policy persistence and calculating payments over years or decades. In a traditional system, this would require a dedicated agency subject to budget cuts, political interference, and administrative bloat. With smart contracts, it's a few hundred lines of Solidity that execute perfectly forever.
+**Example:** Long-horizon leader compensation requires tracking policy persistence and calculating payments over years or decades. In a traditional system, this would require a dedicated agency subject to budget cuts, political interference, and administrative bloat. With smart contracts, it's a few hundred lines of Solidity that execute perfectly forever.
 
 #### 6.14.2 Transparent Audit Trails
 
@@ -2886,7 +2297,7 @@ The governance mechanisms described in this section were impossible or impractic
 
 **Now:** Algorithmic incentives scale to millions of participants with near-zero marginal cost. The complexity that would have required a bureaucratic agency now runs as automated code.
 
-**Example:** Point-allocation voting (Section 6.3 and Section 6.8A) with convex cost curves and time-decay mechanisms would be administratively impossible at scale. Smart contracts make it trivial.
+**Example:** Point-allocation voting with convex cost curves and time-decay mechanisms would be administratively impossible at scale. Smart contracts make it trivial.
 
 #### 6.14.4 Cooperation-as-a-Service
 
@@ -3055,7 +2466,7 @@ We're claiming we DON'T know the optimal governance system. We're claiming the a
 
 ### 6.16 Implementing the Right to Self-Curation
 
-Document 2, Section 4.6 establishes the principle: users have the right to control the algorithms that shape their information environment. This section addresses implementation.
+Document 2 establishes the principle: users have the right to control the algorithms that shape their information environment. This section addresses implementation.
 
 **Legal grounding:** This is not hypothetical. The EU's Digital Services Act (DSA) already mandates that Very Large Online Platforms provide at least one recommender system not based on profiling. Fukuyama's "middleware" proposal would require platforms to open APIs so third parties can provide curation. The legal argument: amplification is conduct, not speech. Regulating the megaphone's volume is not censoring the speaker.
 
@@ -3106,13 +2517,13 @@ Aggregated usability complaints at scale = non-compliance. Dark patterns designe
 
 **Preventing coordinated false-flagging:**
 
-Reports to the regulator proxy require proof of humanity (verified identity / "blue check"). Bot armies can't mass-flag. Sybil attacks fail because you can't spin up verified identities at scale. This connects to Section 6.2 (Identity & KYC Layer).
+Reports to the regulator proxy require proof of humanity (verified identity / "blue check"). Bot armies can't mass-flag. Sybil attacks fail because you can't spin up verified identities at scale. This connects to the identity and KYC layer.
 
 **Meta-level audit:** Separate channel *outside the platform* to report verification failures ("I can't get verified," "verification system is broken"). Otherwise catch-22: can't report if verification is broken, but need to report that verification is broken. The external channel can't depend on the same infrastructure it's auditing.
 
 **Finite audit budgets (anti-exhaustion):**
 
-Proof of humanity stops bots but doesn't stop obsessives. The Wikipedia/Reddit failure mode: a small group of highly motivated actors (paid activists, ideological obsessives) can capture the system through sheer volume of engagement. If one verified human can make 10,000 reports a day, they become a signal jammer. This is "Proof of Determination" (Document 1, Section 2.10) applied to auditing.
+Proof of humanity stops bots but doesn't stop obsessives. The Wikipedia/Reddit failure mode: a small group of highly motivated actors (paid activists, ideological obsessives) can capture the system through sheer volume of engagement. If one verified human can make 10,000 reports a day, they become a signal jammer. This is "Proof of Determination" applied to auditing.
 
 The fix: treat reporting capacity as a scarce resource.
 
@@ -3120,7 +2531,7 @@ The fix: treat reporting capacity as a scarce resource.
 - **Weight by breadth, not depth:** The regulator proxy prioritizes signals that are *broad* (many different users reporting the same failure) rather than *deep* (one user reporting many failures).
 - **Threshold as percentage of active curators:** The compliance metric is calculated against users who have actually engaged with self-curation (custom settings, not defaults). If X% of *actively curating* users report the same tagging failure, that triggers non-compliance review. The denominator is the engaged population, not total users—you can't game the threshold by having a massive user base with low engagement.
 
-Why this matters: The Independent (Document 1, Section 1.4) has a life, a job, a family. They can spare 10 minutes a week to audit. If the Radicalized can audit 40 hours a week, the Independent's signal is drowned out. Capping the budget and weighting by breadth ensures that signal quality comes from distributed consensus, not concentrated engagement.
+Why this matters: The Independent citizen has a life, a job, a family. They can spare 10 minutes a week to audit. If the Radicalized can audit 40 hours a week, the Independent's signal is drowned out. Capping the budget and weighting by breadth ensures that signal quality comes from distributed consensus, not concentrated engagement.
 
 **Open implementation questions:**
 
@@ -3132,7 +2543,7 @@ Why this matters: The Independent (Document 1, Section 1.4) has a life, a job, a
 
 ### 6.17 Cultural Charter: Explicit Values with Intentional Friction
 
-Document 1, Section 2.8 identifies a vulnerability in implicit culture: when norms exist only as "everyone knows" and "it's obvious," they become weapons in competitive dynamics. Rapid norm-shifting filters for tribal loyalty rather than truth or functionality. The instability itself becomes the sorting mechanism—those who track the changes prove their membership, those holding last week's position mark themselves as outsiders.
+Document 1 identifies a vulnerability in implicit culture: when norms exist only as "everyone knows" and "it's obvious," they become weapons in competitive dynamics. Rapid norm-shifting filters for tribal loyalty rather than truth or functionality. The instability itself becomes the sorting mechanism—those who track the changes prove their membership, those holding last week's position mark themselves as outsiders.
 
 The counter-mechanism is explicit codification with intentional friction. But effective cultural documentation requires distinguishing two fundamentally different components that are often conflated: boundaries and orientation.
 
@@ -3170,11 +2581,11 @@ The relationship to exit matters. Communities with voluntary association don't n
 
 The tradeoff is real. Communities that over-specify or set friction too high will ossify—unable to adapt to changing circumstances. Communities that under-specify or set friction too low will drift—captured by whoever is most persistent this week. The mechanism provides infrastructure; communities must calibrate based on their own assessment of which failure mode poses greater risk.
 
-Cultural Charter interacts with Lifecycle Management (Section 4.9)—charters themselves should have review cycles to assess whether friction levels remain appropriate. It interacts with Continuous Alignment (Section 6.8)—ongoing member input on whether charter reflects actual community values. It interacts with Memory and Truth mechanisms (Section 6.7)—charter history is a form of institutional memory that enables accountability across time.
+Cultural Charter interacts with Lifecycle Management—charters themselves should have review cycles to assess whether friction levels remain appropriate. It interacts with Continuous Alignment—ongoing member input on whether charter reflects actual community values. It interacts with Memory and Truth mechanisms—charter history is a form of institutional memory that enables accountability across time.
 
 ### 6.18 Spatial Design as Density-Sensor Infrastructure
 
-Section 5.1 develops the theoretical basis: rent extraction drives minimum-viable-unit development, which triggers the biological density sensor, which suppresses fertility. The causal chain runs from land economics to reproductive biology. This section addresses the design parameters — what spatial variables actually modulate the density signal.
+The Land Value Tax section develops the theoretical basis: rent extraction drives minimum-viable-unit development, which triggers the biological density sensor, which suppresses fertility. The causal chain runs from land economics to reproductive biology. This section addresses the design parameters — what spatial variables actually modulate the density signal.
 
 This is not a metaphor. It is a design parameter.
 
@@ -3190,7 +2601,49 @@ The design goal is not square footage per se but **signal management**: ensuring
 
 **The policy implication:** Unit sizes, acoustic isolation, visual privacy, access to shared green space — these are not amenities or luxury goods. They are **signal inputs to the density sensor**, and the density sensor drives competitive intensity calibration, which drives fertility. Get the spatial design wrong and you trigger the competitive saturation cascade regardless of how wealthy, safe, or materially abundant the society is. Get it right and you can house large populations in the same footprint while the sensor reads "frontier."
 
-This connects directly to Section 5.1 (Henry George): land value taxation enables exactly this kind of spatial design by preventing the land speculation that drives minimum-viable-unit-size development. When landowners must pay full land value tax, the incentive shifts from "maximize rentable square footage per unit of land" (which produces tiny apartments) to "maximize the value of the community" (which requires spatial complexity that attracts residents). Georgist land policy and density-sensor-aware urban design are complementary mechanisms.
+This connects directly to land value taxation, which enables exactly this kind of spatial design by preventing the land speculation that drives minimum-viable-unit-size development. When landowners must pay full land value tax, the incentive shifts from "maximize rentable square footage per unit of land" (which produces tiny apartments) to "maximize the value of the community" (which requires spatial complexity that attracts residents). Georgist land policy and density-sensor-aware urban design are complementary mechanisms.
+
+---
+
+### 6.19 Natalist Tax Structure: Internalizing the Reproductive Externality
+
+**Epistemic status:** Historically precedented at smaller scale; modern implementation requires careful scoping.
+
+**The problem this addresses:**
+
+Document 2 establishes that reproductive viability is a hard constraint — societies below replacement TFR terminate within generations regardless of other governance quality. The decision not to reproduce imposes real costs on the broader society (demographic decline, pension solvency, labor supply, civilizational continuity) that are currently entirely externalized. The individual captures the competitive advantages of childlessness; the society bears the demographic costs. This is a textbook externality, and the standard response is internalization.
+
+**The mechanism:**
+
+Two levers operating together:
+
+**Benefit side — begins at first child, ages 23–25.** Parents who have their first child during the natural peak fertile window receive immediate tax relief. The timing is intentional: peak fertility produces healthier children, and younger parents have the energy and biological resources the task demands. Benefits are graduated to target replacement rather than maximize family size:
+
+| Children | Benefit level |
+|----------|--------------|
+| 1 | Meaningful relief — recognizes the commitment, begins restructuring the competitive calculus |
+| 2–3 | Substantially higher — the target zone. This is where the mechanism concentrates its weight, since 2–3 children per woman is what sustains replacement |
+| 4+ | Diminishing returns. Some acknowledgment, but the mechanism is not trying to produce large families — it is trying to get to replacement. Beyond 3, marginal benefit tapers |
+
+The graduated structure matters: a flat-rate benefit for any number of children treats one child and five children as equivalent contributions to demographic viability, which they are not. A scheme that maximizes incentives at 2–3 is honest about what it is actually trying to achieve.
+
+**Levy side — applies to childless adults after age 30.** Adults without children pay an additional reproductive viability contribution. Thirty is the threshold: it is past the initial child-bearing window, past the period of reasonable career establishment, and before the point where fertility declines make the decision irreversible for most. Medical infertility is exempted; adoption satisfies the requirement fully.
+
+Together the two levers restructure the competitive calculus. The current environment makes childlessness competitively advantageous — benefits close that gap from both directions simultaneously. The levy internalizes the externality; the benefit reduces the competitive cost of the cooperative strategy.
+
+**Historical precedents:**
+
+The mechanism is not novel. Multiple civilizations independently reached equivalent structures when facing the same problem:
+
+- **Augustan Rome** (*Lex Julia de maritandis ordinibus*, 18 BC; *Lex Papia Poppaea*, 9 AD): Tax benefits for citizens with three or more children; inheritance restrictions and penalties on unmarried and childless adults. Enacted explicitly in response to falling birth rates and women choosing liberation over motherhood — the same pattern at the same civilizational stage.
+- **Hungary** (current): Income tax exemption for mothers of four or more children; loan forgiveness tied to children born; housing subsidies for large families.
+- **Eastern Europe broadly:** Poland, Czech Republic, and others have implemented various pro-natal transfer programs in response to sub-replacement TFR.
+
+The recurrence across radically different political systems — republic, empire, communist state, liberal democracy — is the signal. The coordination problem is structural, not ideological. Every system that runs long enough faces it and reaches for similar tools.
+
+**Connection to other mechanisms:**
+
+This mechanism works in conjunction with spatial design as density-sensor infrastructure — correcting the incentive structure while simultaneously triggering the biological density sensor through anti-natal housing design would undermine both levers. It also connects to long-horizon alignment: politicians with short electoral horizons have no incentive to address demographic decline whose consequences appear on 30-year timescales. Long-horizon alignment is a prerequisite for natalist policy to survive the political cycle.
 
 ---
 
@@ -3273,6 +2726,35 @@ This parallels multi-scale competency at other levels. Cells evolved mechanisms 
 The evolutionary sequence matters: once organisms evolve community coordination, the community itself becomes the selection environment. Groups whose members can sense membership in something larger coordinate better; they outcompete groups whose members can't. The transcendence receptor is exactly what you'd evolve for long-lived tribal coordination—the ability to sense membership in something that extends beyond your individual lifespan, and to act accordingly. The community selects for the hardware that makes community work.
 
 Small tribal units with shared religious rituals were the ancestral signal environment. Every family, every tribe had its own practices. The receptors evolved expecting that input. Religion fits those receptors; modern secular life leaves them unfed.
+
+**The Natalist Injunction: Solving the Reproduction Coordination Failure**
+
+The word *religio* in Latin is most plausibly derived from *religare*: to bind, to tie together. The etymology is not incidental. The binding function — creating obligations that override individual calculation — is exactly what makes the specific content of religious commands non-arbitrary. Dietary laws, sabbath observance, marriage structures, sexual ethics, and the near-universal command to reproduce are not arbitrary cultural accretions that happened to attach to theology. They are solutions to coordination problems every sufficiently complex civilization independently encountered. Convergent solutions are signals: when radically different religious systems arrive at the same specific command, the problem space is constrained.
+
+The natalist injunction illustrates this precisely. "Be fruitful and multiply" is the first commandment of the Hebrew Bible. Hadith praise large families and discourage celibacy among lay Muslims. Hinduism's householder stage (*grhastha*) — family, children, household — is one of four obligatory life phases. These traditions differ radically on cosmology, ritual, and law. They converge on reproduction. Why?
+
+Because if reproduction were self-sustaining under all conditions, the injunction would be unnecessary.
+
+**You do not command breathing.**
+
+The universality of the command implies the observed phenomenon: under conditions of civilizational surplus, reproduction declines without cultural enforcement. Every complex civilization old enough to develop formal religion apparently observed this pattern — and encoded the solution. Rome reached the same conclusion secularly: Augustus enacted marriage laws and baby bonuses in response to falling birth rates and women choosing liberation over motherhood. Same pattern, same stage, different wrapper.
+
+**The structural coordination problem religion was solving:**
+
+Individuals without children hold a structural competitive advantage over those with them. Parenting absorbs time, cognitive bandwidth, risk tolerance, and career continuity. The childless competitor can work longer hours, remain geographically mobile, take more professional risks, and invest more in status signaling. This produces a prisoner's dilemma:
+
+- **Cooperate** (have children): individual bears reproductive costs, civilization's TFR is sustained
+- **Defect** (remain childless): individual gains competitive advantage — but collective defection terminates the civilization
+
+No individual can solve this unilaterally. Having children when competitors don't is structural disadvantage. The defection strategy dominates individual calculation even though collective defection is catastrophic — the defining signature of a coordination failure requiring institutional, not individual, solution.
+
+Mass female workforce participation intensified the dynamic. Once women entered the competitive labor market, the reference class for career competition included childless women with a structural advantage over mothers — in the same way doping athletes have an advantage over clean ones. The arms race requires no malice; competitive pressure reshapes behavior regardless of intent. Wages compressed (larger labor supply), requiring two incomes where one once sufficed, which further penalized the partner who steps back during child-rearing years.
+
+**The religious solution:** Make reproduction a sacred obligation, not a preference. Surround it with identity, community belonging, and transcendent meaning — the full binding weight of who you understand yourself to be. The individual calculation "I'd be more competitive without children" gets overridden not by argument but by the deeper architecture of self. This is precisely the binding function: *religio* ties reproductive behavior to obligations that transcend cost-benefit calculation.
+
+**Why secularism removes the solution without removing the problem:** The competitive advantage of childlessness doesn't disappear when religion declines. The prisoner's dilemma doesn't disappear. What disappears is the cultural technology that was counteracting these pressures. The sub-replacement TFR of secular Western societies may not be incidentally correlated with religious decline — the correlation may be mechanistic. The ISC suppression mechanism documented in Document 1 and the competitive advantage of childlessness both persist; the countervailing infrastructure doesn't.
+
+The non-arbitrary point bears repeating: the specific things religion commands — reproduce, maintain family structure, care for the dead, observe the sabbath — are not random taboos that happened to get sacralized. They are solutions to problems civilizations face repeatedly at scale. The binding function is the product; the theology is the packaging that makes it receivable by beings who evolved to take signals from unfalsifiable sources.
 
 **Unfilled receptors seek signals:**
 

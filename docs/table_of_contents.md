@@ -111,7 +111,7 @@ Any shorter treatment would either oversimplify the problem or fail to establish
 - 2.2 Institutional Bloat / Bureaucratic Cancer
 - 2.3 Competition Saturation & Decline of Cooperation
 - 2.4 Loss of Subsidiarity (Problems Escalated to Improper Scale)
-- 2.5 Breakdown of Trust Mechanisms (Nice, Clear, Forgiving, Punishing)
+- 2.5 Breakdown of Trust Mechanisms (Nice, Retaliatory, Clear, Forgiving)
 - 2.6 Fatigue of Legacy Governance Models (Static Rules in an Adaptive System)
 - 2.7 Why Previous Reform Attempts Failed
 - 2.8 Epistemic Fragmentation (The Sense-Making Crisis)

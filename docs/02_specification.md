@@ -10,9 +10,9 @@
 
 **This document (The Specification)** defines what any functional cooperative society must accomplish. It operates at two levels:
 
-**Section 3: Design Frameworks & Methodologies** — The meta-level thinking tools from evolutionary biology, complex systems theory, information theory, and software engineering that inform how to design governance systems. Think of this as the design philosophy layer.
+**Design Frameworks & Methodologies** — The meta-level thinking tools from evolutionary biology, complex systems theory, information theory, and software engineering that inform how to design governance systems. Think of this as the design philosophy layer.
 
-**Section 4: Principles of a Cooperative Society** — The concrete requirements specification, an abstract interface for governance. Any system that violates these principles will experience predictable failure modes.
+**Principles of a Cooperative Society** — The concrete requirements specification, an abstract interface for governance. Any system that violates these principles will experience predictable failure modes.
 
 This is not an implementation guide—that comes in Documents 3 and 4. This is the requirements document: what we're searching for, independent of how we build it.
 
@@ -20,7 +20,7 @@ This is not an implementation guide—that comes in Documents 3 and 4. This is t
 
 ## 3. Design Frameworks & Methodologies
 
-Section 1 diagnosed what is broken through the lens of various thinkers. Section 2 synthesized these diagnoses into recurring failure patterns. This section provides the meta-frameworks for thinking about solutions—not specific mechanisms (those come in Sections 4-5) but the conceptual tools and mental models that inform how to design governance systems.
+Document 1 diagnosed what is broken through the lens of various thinkers and synthesized those diagnoses into recurring failure patterns. This section provides the meta-frameworks for thinking about solutions—not specific mechanisms but the conceptual tools and mental models that inform how to design governance systems.
 
 Think of this as the design philosophy layer: the principles and frameworks from evolutionary biology, complex systems theory, information theory, and software engineering that guide our approach to institutional architecture.
 
@@ -70,7 +70,7 @@ Evolutionary thinking operates differently. It makes predictions, waits for real
 
 **The core constraint:** Whatever feedback mechanism you use determines what your system will become. If the environment changes but the measurement system stays fixed, the selection mechanism becomes blind to new realities. The sensor array itself must evolve.
 
-This evolutionary framing is foundational. Section 3.1 applies it to multiscale coordination—how selection operates at every level simultaneously. Section 3.2 applies it to incentive design. The remaining sections provide additional lenses (complex systems, engineering, dialectics) that complement this core framework.
+This evolutionary framing is foundational. The following sections apply it to multiscale coordination, incentive design, and additional lenses (complex systems, engineering, dialectics) that complement this core framework.
 
 When unrelated systems independently evolve the same solution, that convergence reveals fundamental constraints. Wings evolved separately in birds, bats, insects, and pterosaurs not by coincidence but because flight imposes certain physical requirements regardless of lineage. The repeated emergence of the same form under selection pressure tells us something about the problem space itself.
 
@@ -276,7 +276,7 @@ Reality is real. Geography matters. Climate matters. Droughts, wars, resource co
 
 Institutions face two distinct failure modes—just like life:
 
-1. **Cancer (coordination failure):** The system has capacity—energy, resources, competent people—but signals have degraded. Activity is misdirected. Cells consume the body. This is the failure mode most of Section 3.1 addresses.
+1. **Cancer (coordination failure):** The system has capacity—energy, resources, competent people—but signals have degraded. Activity is misdirected. Cells consume the body. This is the failure mode that multiscale coordination addresses.
 
 2. **Senescence (capacity failure):** The system is coordinated but exhausted. Even with perfect signals, there's nothing left to coordinate. The organ has lost the ability to act.
 
@@ -305,7 +305,7 @@ Signals can fail in distinct ways:
 
 Different failure modes require different interventions. Attenuation needs signal amplification or subsidiarity. Noise needs filtering. Corruption needs metric rotation or outcome-based measurement. Fusion needs channel separation. Severance needs feedback restoration.
 
-**Note: Necessary but Not Sufficient.** Signal clarity is necessary but not sufficient for coordination. A high-fidelity signal that accurately transmits "defection is rewarded" produces clear, *rational* defection. The substrate must transmit accurately (clarity) AND encode incentives where cooperation is the Nash equilibrium (alignment). Section 3.2 addresses incentive design—how to structure the actual rewards and punishments so that cooperating is the dominant strategy. Section 3.1 addresses whether agents can *perceive* that cooperation is optimal. Both must be solved.
+**Note: Necessary but Not Sufficient.** Signal clarity is necessary but not sufficient for coordination. A high-fidelity signal that accurately transmits "defection is rewarded" produces clear, *rational* defection. The substrate must transmit accurately (clarity) AND encode incentives where cooperation is the Nash equilibrium (alignment). Incentive design addresses how to structure the actual rewards and punishments so that cooperating is the dominant strategy; multiscale coordination addresses whether agents can *perceive* that cooperation is optimal. Both must be solved.
 
 **Signal Architecture and Governance Patterns**
 
@@ -433,7 +433,7 @@ The requirement for functional governance isn't better people or more virtuous l
 
 This is why governance design benefits from evolutionary and cybernetic thinking. The question isn't "what's the optimal policy?" but "**what architectural constraints align self-interest across scales?**"
 
-The mechanisms in Sections 4-5 (continuous approval polling, skin in the game, transparency requirements, accountability linkages) aren't political reforms. They're the **bioelectric gradients required to re-coordinate cells into organs**—to expand cognitive horizons from individual to institutional to civilizational scale.
+The mechanisms in this document and Document 3 (continuous approval polling, skin in the game, transparency requirements, accountability linkages) aren't political reforms. They're the **bioelectric gradients required to re-coordinate cells into organs**—to expand cognitive horizons from individual to institutional to civilizational scale.
 
 We're not trying to make people cooperate through persuasion or moral transformation. We're designing the signaling architecture where **cooperation is the only path to local optimization.**
 
@@ -758,7 +758,7 @@ Governance operates in a space of **bounded dialectics**—dynamic equilibrium b
 
 **The framing:** Governance infrastructure should not prescribe where to sit in these dialectic spaces. It should provide tunable mechanisms that make tradeoffs visible, measurable, and adjustable. Communities navigate to different equilibria based on their contexts, values, and constraints.
 
-**Why this matters:** Section 4 principles will often be in tension by design. This isn't a bug—it's recognition that governance has no optimal point, only viable ranges. The goal is not solving tensions but navigating them dynamically as conditions change.
+**Why this matters:** The principles in this specification will often be in tension by design. This isn't a bug—it's recognition that governance has no optimal point, only viable ranges. The goal is not solving tensions but navigating them dynamically as conditions change.
 
 ### 3.7 Friction as Information: Desire Paths and Coordination Costs
 
@@ -922,8 +922,6 @@ Society has been running on hidden defaults—parameters set by path dependence,
 
 ---
 
-## THEME 1: COOPERATION AT SCALE
-
 Cooperation is the foundational requirement for any functional society. Before discussing organizational structure, resource allocation, or governance mechanisms, we must establish what cooperation actually *is*, why it fails at scale, and what properties any cooperation-enabling system must satisfy.
 
 ### 4.1 What Is Cooperation? The Axelrod Principles
@@ -999,6 +997,8 @@ The Axelrod framework is diagnostic: where cooperation *does* break down, it oft
 - **Permanent records:** Violate Forgiving—criminal records, credit scores create permanent castes
 - **Anonymous online systems:** Not Retaliatory (can't track defectors), not Clear (implicit norms)
 
+Fixing these breakdowns requires engineering the structural conditions each principle depends on — not moral exhortation, but mechanism design.
+
 **System requirements to enable the Axelrod Principles:**
 
 **Nice:** Low-friction entry while preventing Sybil attacks. Participants can enter and take standard actions without extensive vetting, but system can distinguish unique individuals to prevent gaming.
@@ -1011,7 +1011,7 @@ The Axelrod framework is diagnostic: where cooperation *does* break down, it oft
 
 **The shift in equilibrium:** When all four Axelrod principles are satisfied, the Nash equilibrium shifts from defection to cooperation. Cooperation becomes individually rational. The system doesn't require moral transformation—it makes prosocial behavior the optimal strategy for selfish actors.
 
-This is the foundation. Everything else in Section 4 builds on the Axelrod principles.
+This is the foundation. Everything else in this specification builds on the Axelrod principles.
 
 ### 4.2 Memory and Truth: Requirements for Tracking Without Censorship
 
@@ -1583,7 +1583,7 @@ Not all decisions are equal. Jeff Bezos distinguishes "one-way doors" (irreversi
 - **Randomized selection:** For some roles, randomization can dilute elite coordination and prevent capture
 - **Performance-based removal:** Automatic removal when legitimacy/political capital depletes below threshold
 
-**Why this works:** When leadership is temporary and conditional on performance, elites cannot form stable extractive coalitions. The threat of removal disciplines behavior. Fresh perspectives prevent institutional sclerosis.
+**Why this works:** When leadership is temporary and conditional on performance, elites cannot form stable extractive coalitions. The threat of removal disciplines behavior. Fresh perspectives prevent institutional sclerosis. Note: performance-based removal (the battery model described in the Mechanisms document) can serve as the primary mechanism, with explicit term limits reserved for specific roles where coalition entrenchment risk is highest. The requirement is prevention of permanent entrenchment, not mandatory fixed terms.
 
 #### 6. Reciprocity and Defection Punishment
 
@@ -1813,7 +1813,7 @@ Legal reasoning is a specific cognitive mode—adversarial, precedent-based, foc
 - Selection evaluates actual problem-solving approach, not just credential possession
 - The friction between different cognitive modes is preserved, not smoothed away—disagreement between the engineer and the lawyer is signal, not noise
 
-**Why this matters:** Section 1.6 (Jiang) documents the death of the generalist. Section 1.9 (Burke) documents how innovation requires cross-domain synthesis. Professional monoculture in governance is the political expression of these failures. Lawyers are trained to argue within frameworks; engineers to build systems; scientists to discover truths; farmers to work with complex adaptive systems. Governance needs all of these cognitive modes as decision-makers, not decorations.
+**Why this matters:** Jiang documents the death of the generalist; Burke documents how innovation requires cross-domain synthesis. Professional monoculture in governance is the political expression of these failures. Lawyers are trained to argue within frameworks; engineers to build systems; scientists to discover truths; farmers to work with complex adaptive systems. Governance needs all of these cognitive modes as decision-makers, not decorations.
 
 **The Shift in Equilibrium:**
 
@@ -1865,7 +1865,7 @@ The "brain" (elite) stays aligned with the "body" (community) because defection 
 
 ### 4.7A Collective Action Against Concentrated Private Power
 
-Section 4.7 addresses concentrated *public* power—elites who capture institutions. This section extends the same logic to concentrated *private* power—platforms and monopolies that operate coordination infrastructure at scale.
+The previous section addresses concentrated *public* power—elites who capture institutions. This section extends the same logic to concentrated *private* power—platforms and monopolies that operate coordination infrastructure at scale.
 
 **The Problem:**
 
@@ -2097,7 +2097,7 @@ The network state model (Srinivasan) proposes cloud-first, land-last governance:
 | Voice atrophies (why fight when you can leave?) | Bad governance persists unchallenged |
 | Those who remain lose their most capable advocates | No accountability mechanism |
 
-**The asymmetry problem:** Exit costs money, social capital, and optionality. Moving, re-establishing, finding alternatives—all require resources most people don't have. When only elites can exit, "exit rights" functionally means "elite abandonment rights." The people who *can* leave are precisely those whose voice would have improved the system. Their exit severs the forced coalition (Section 1.2b) that would have aligned elite interests with commons quality.
+**The asymmetry problem:** Exit costs money, social capital, and optionality. Moving, re-establishing, finding alternatives—all require resources most people don't have. When only elites can exit, "exit rights" functionally means "elite abandonment rights." The people who *can* leave are precisely those whose voice would have improved the system. Their exit severs the forced coalition that would have aligned elite interests with commons quality.
 
 **Exit as rent extraction:** Henry George observed that land value comes from society—location, infrastructure, neighbors—not from the owner. Capturing that value privately while others created it is rent-seeking. Easy exit from shared substrates follows the same structure: the commons creates value (good schools, functional transit, accumulated social capital), elites benefit from that value, then easy exit lets them capture it while abandoning the substrate that created it. Exit friction is a Georgist mechanism: high friction means you can't extract the rent without contributing to the commons that generated it.
 
@@ -2106,7 +2106,7 @@ The network state model (Srinivasan) proposes cloud-first, land-last governance:
 - **Low friction appropriate:** Governance communities, voluntary associations, ideological groups—where competitive pressure improves quality and no shared physical substrate is at stake
 - **High friction appropriate:** Shared infrastructure, education, healthcare—where elite exit destroys the commons and leaves captive populations with degraded systems
 
-**The discrete/continuous dimension:** Exit can be instant (click to leave) or structured (notice periods, transition requirements, deliberation). Frictionless exit is continuous; structured exit is discrete. As with tickrate (Section 4.3), the choice between continuous and discrete should be explicit, not defaulted to whichever is technically easier.
+**The discrete/continuous dimension:** Exit can be instant (click to leave) or structured (notice periods, transition requirements, deliberation). Frictionless exit is continuous; structured exit is discrete. As with tickrate, the choice between continuous and discrete should be explicit, not defaulted to whichever is technically easier.
 
 **Requirements:**
 
@@ -2433,7 +2433,7 @@ Institutional differentiation preserves diversity of function. When every instit
 
 It enables appropriate accountability—matched to actual function rather than claimed category. It creates clear expectations—users know what kind of institution they're interacting with and what standards apply. It supports competition within type—institutions compete on quality of function delivery rather than on regulatory evasion.
 
-The connection to other principles is direct. Subsidiarity (4.8) recognizes that different scales require different institutional types. Lifecycle Management (4.9) applies to institutional categories themselves—as technology creates new possibilities, categories should evolve. Anti-capture architecture (Document 3, Section 6.12) must address category arbitrage as a capture vector.
+The connection to other principles is direct. Subsidiarity recognizes that different scales require different institutional types. Lifecycle Management applies to institutional categories themselves—as technology creates new possibilities, categories should evolve. Anti-capture architecture must address category arbitrage as a capture vector.
 
 ### 4.17A Develop Unbundled Language for Dual-Channel Concepts
 
@@ -2447,7 +2447,7 @@ This is institutional differentiation (4.17) applied to concepts. Just as entiti
 
 ### 4.17B Stable Differentiation Architecture
 
-Section 4.17 established function-based categorization. This section addresses maintaining differentiation over time.
+The previous section established function-based categorization. This section addresses maintaining differentiation over time.
 
 **The failure mode:** When one domain becomes dominant, it forces all others to compete on its metric. Finance dominates → universities optimize for revenue, journalism optimizes for engagement, everything becomes financialized. The differentiation collapses; all tissues become the same tissue.
 
@@ -2495,13 +2495,56 @@ Complex systems are butterfly-sensitive. Small perturbations cascade unpredictab
 
 ---
 
+### 4.20 Maintain Reproductive Viability
+
+Any functional society must sustain a total fertility rate (TFR) at or above replacement level (~2.1 children per woman). Below this threshold, the society terminates within generations regardless of all other governance quality. This is a **hard constraint**, not a soft preference. It functions like solvency for a corporation: you can optimize for efficiency, equity, sustainability, and innovation—but if TFR falls below replacement and stays there, the civilization goes to zero. Nothing else in the specification matters after that.
+
+**Why this is a predictable failure mode, not a random one:**
+
+Document 1 documents the mechanism: intrasexual competition (ISC) in conditions of affluence and competitive saturation systematically suppresses fertility below replacement. This is not random cultural drift. It is a recurring feature of the civilization cycle—the same pattern appears in Augustan Rome (which enacted marriage laws and baby bonuses in response), in late imperial dynamics across multiple civilizations, and in current Western demographics. The affluence condition that enables the golden age also frees the surplus bandwidth for competitive reproductive suppression. The social capital accumulated during the rise gets spent on this mechanism during the peak. The result is demographically predictable: birth rates decline precisely when material conditions are best.
+
+**The childless competitive advantage: a second mechanism**
+
+ISC suppression operates at the level of cultural messaging and ideology. A second, compounding mechanism operates at the level of direct competitive dynamics: individuals without children hold a structural advantage over those with them in almost every form of competition modern societies run.
+
+Parenting absorbs time, cognitive bandwidth, risk tolerance, and career continuity. The childless competitor can work longer hours, remain geographically mobile, take more professional risks, and invest more in credential signaling and networking. This produces a multi-player prisoner's dilemma:
+
+- **Cooperate** (have children): individual bears reproductive costs; civilization's TFR is sustained
+- **Defect** (remain childless): individual gains competitive advantage — but collective defection terminates the civilization
+
+No individual can solve this unilaterally. Having children when competitors don't is structural disadvantage regardless of intent. The defection strategy dominates individual calculation even when actors are aware of the aggregate harm.
+
+Mass female workforce participation intensified the dynamic without creating it. Once women entered the competitive labor market, the reference class for career competition expanded to include childless women who have a structural advantage over mothers — in the same way doping athletes have an advantage over clean ones. No malice required; competitive pressure reshapes behavior regardless of intent. Wages compressed as labor supply increased, requiring two incomes where one once sufficed, which further penalized the parent who steps back during child-rearing years.
+
+This is why individual exhortation cannot solve the reproductive viability problem. "Have children for society's sake" asks people to accept unilateral disarmament in a competitive landscape. Historically, this coordination failure was carried by religious natalist injunctions — making reproduction a sacred obligation that overrode individual cost-benefit calculation through the full weight of identity and belonging. The near-universal convergence of radically different religious traditions on the command to reproduce (the "religio" binding function) is precisely the signal that this coordination failure is structural and recurrent. The decline of that cultural infrastructure without equivalent structural replacement is a direct contributor to current sub-replacement TFR. Document 3's religion postscript develops this further.
+
+**The analogy to anti-monopoly law:**
+
+Markets, left unregulated, naturally tend toward monopoly—not because participants are evil but because winning firms can use their position to prevent competition. Anti-trust law exists because this failure mode is **structural and predictable**, not incidental. The response is structural intervention against a predictable market failure.
+
+The same logic applies to reproductive viability. The ISC mechanism is structural and predictable. Without explicit countervailing architecture, affluent societies will reliably suppress fertility below replacement through the same competitive dynamics every time. Governance systems must include mechanisms that correct this failure mode just as anti-trust law corrects monopoly formation.
+
+**Requirements:**
+
+- **TFR monitoring as governance metric.** TFR should be tracked at the same level of institutional seriousness as GDP, inflation, and unemployment. If TFR falls below 2.1 for more than a defined period, the governance system should trigger mandatory policy review.
+
+- **Remove structural anti-natal penalties.** Many anti-natal effects are inadvertent outputs of other policies: housing regulations that prevent family-sized units, tax structures that penalize marriage, credential requirements that delay family formation into late fertility years, zoning that separates work from living (making two-parent households harder to sustain). Governance systems should audit for inadvertent anti-natal effects and remove them.
+
+- **Internalize the reproductive externality.** The decision not to reproduce imposes real costs on the broader society (demographic decline, pension solvency, labor supply, civilizational continuity) that are currently externalized entirely. Governance design should partially internalize this externality through structural incentives—analogous to carbon taxes correcting environmental externalities. Document 3 details specific mechanisms.
+
+- **Housing and spatial design.** Document 3 documents the density sensor mechanism: small-unit, high-density housing triggers competitive saturation biology that suppresses fertility regardless of wealth. Reproductive viability requires spatial design that avoids triggering this sensor.
+
+- **Avoid coercion.** These mechanisms operate through incentive correction, not coercion. The goal is not to mandate reproduction but to stop inadvertently penalizing it and to correct externalities that the market cannot self-correct.
+
+---
+
 ## What Comes Next
 
 **The Specification is complete.** We've defined:
 
-**Section 3** provided the design philosophy—evolutionary light cones, incentive design, complex systems thinking, engineering mindset, and problem space navigation. These are the conceptual frameworks that inform all mechanism design.
+The design frameworks provided the design philosophy—evolutionary light cones, incentive design, complex systems thinking, engineering mindset, and problem space navigation. These are the conceptual frameworks that inform all mechanism design.
 
-**Section 4** provided the requirements specification—the 12 principles any functional cooperative society must satisfy. Make cooperation cheap (with anti-exhaustion mechanisms), enable sensemaking infrastructure, make defection costly, maintain thin elites, enforce subsidiarity, manage institutional lifecycles, enable voluntary association, support continuous adaptation, balance cohesion with variety, resist metric tyranny, capture preference intensity, and protect individual sovereignty.
+The principles of a cooperative society provided the requirements specification — what any functional cooperative society must satisfy: make cooperation cheap, enable sensemaking infrastructure, make defection costly, maintain thin elites, enforce subsidiarity, manage institutional lifecycles, enable voluntary association, support continuous adaptation, balance cohesion with variety, resist metric tyranny, capture preference intensity, protect individual sovereignty, and maintain reproductive viability, among others.
 
 These are not suggestions—they're structural requirements. Violate them and you experience predictable failure modes documented in the Diagnosis.
 
