@@ -2027,6 +2027,24 @@ These mechanisms don't eliminate capture risk—nothing can—but they shift str
 
 The burn mechanic is the key anti-capture property: kWh coins cannot be hoarded indefinitely. They must be used or held at the cost of the energy they represent — structurally opposite to fiat, where accumulation is free and inflation taxes savers.
 
+#### Quantized Energy Leases — The Satoshi-kWh Interaction Model
+
+**Core idea:** On-chain energy interactions are not continuous streams — they are **quantized leases**. The smallest trackable unit of energy defines the granularity of all transactions.
+
+**Consumption side (drawing energy from the grid):** A participant pays one token unit (e.g., one satoshi-equivalent of energy value) and receives a **time-bounded lease** — a fixed window (e.g., 15 minutes) of access to the smallest discrete unit of energy the system tracks. This is not real-time metering; it is a quantized claim. You pay, you get a block of energy-time, the token burns. The chain doesn't need to monitor continuous consumption — it only needs to verify that a discrete unit was claimed and the corresponding token was destroyed.
+
+**Production side (feeding energy into the grid):** The inverse operation. When a producer completes delivery of one discrete unit of energy (the same smallest trackable unit), the system **credits their account** — minting a token or marking an action-completed delta. Production verification is also quantized: the chain doesn't track continuous generation, it registers completed units.
+
+**The delta ledger:** What the chain actually maintains is a **quantized delta** — a running account of discrete units consumed (burned) and discrete units produced (minted). Each participant's balance reflects completed atomic transactions, not continuous flows. This keeps on-chain state manageable: no streaming data, no real-time sensor feeds, just completed discrete events.
+
+**Why quantization matters:**
+1. **Tractable verification.** Continuous metering requires trusted hardware and real-time data feeds — an unsolved problem at scale. Quantized units reduce verification to: did this discrete block of energy get produced/consumed? Binary yes/no is far easier to validate than continuous measurement.
+2. **Clean on-chain semantics.** Smart contracts handle discrete state transitions well. They handle continuous streams poorly. One atomic unit produced → one credit. One atomic unit consumed → one debit. No floating-point rounding, no streaming reconciliation.
+3. **Natural rate-limiting.** The quantization granularity (the size of the smallest unit and the lease window) acts as a built-in throttle on how frequently participants interact with the chain. This bounds transaction volume without artificial gas limits.
+4. **Fraud surface reduction.** Disputing a discrete unit ("did this 15-minute block of energy get delivered?") is simpler than disputing a continuous flow ("was the meter accurate for every millisecond of this hour?").
+
+**Open question:** What is the right granularity? Too coarse (1 MWh blocks) and small producers/consumers can't participate. Too fine (watt-seconds) and chain throughput becomes the bottleneck. The correct unit likely varies by community scale and grid infrastructure — another argument for letting communities configure their own parameters rather than imposing a universal standard.
+
 #### The Two-Currency Insight (Graeber)
 
 Graeber's *Debt: The First 5,000 Years* documents a recurring historical trap: economies using fixed-supply commodity money eventually outgrow their money supply. Commerce seizes — not because productive capacity declined, but because the medium of exchange couldn't scale. This happened with silver in Ming China, gold in the early modern period, and is the structural reason Bitcoin fails as a primary transaction currency. Each coin becomes more valuable over time, incentivizing hoarding over spending.
