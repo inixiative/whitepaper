@@ -2027,6 +2027,24 @@ These mechanisms don't eliminate capture risk—nothing can—but they shift str
 
 The burn mechanic is the key anti-capture property: kWh coins cannot be hoarded indefinitely. They must be used or held at the cost of the energy they represent — structurally opposite to fiat, where accumulation is free and inflation taxes savers.
 
+#### Quantized Energy Leases — The Satoshi-kWh Interaction Model
+
+**Core idea:** On-chain energy interactions are not continuous streams — they are **quantized leases**. The smallest trackable unit of energy defines the granularity of all transactions.
+
+**Consumption side (drawing energy from the grid):** A participant pays one token unit (e.g., one satoshi-equivalent of energy value) and receives **one power quantum** — a discrete, indivisible unit of energy (e.g., the smallest kWh fraction the system tracks). This is not real-time metering; it is a quantized claim. You pay, you get one quantum of power, the token burns. The chain doesn't need to monitor continuous consumption — it only needs to verify that a discrete unit was claimed and the corresponding token was destroyed.
+
+**Production side (feeding energy into the grid):** The inverse operation. When a producer completes delivery of one discrete unit of energy (the same smallest trackable unit), the system **credits their account** — minting a token or marking an action-completed delta. Production verification is also quantized: the chain doesn't track continuous generation, it registers completed units.
+
+**The delta ledger:** What the chain actually maintains is a **quantized delta** — a running account of discrete units consumed (burned) and discrete units produced (minted). Each participant's balance reflects completed atomic transactions, not continuous flows. This keeps on-chain state manageable: no streaming data, no real-time sensor feeds, just completed discrete events.
+
+**Why quantization matters:**
+1. **Tractable verification.** Continuous metering requires trusted hardware and real-time data feeds — an unsolved problem at scale. Quantized units reduce verification to: did this discrete block of energy get produced/consumed? Binary yes/no is far easier to validate than continuous measurement.
+2. **Clean on-chain semantics.** Smart contracts handle discrete state transitions well. They handle continuous streams poorly. One atomic unit produced → one credit. One atomic unit consumed → one debit. No floating-point rounding, no streaming reconciliation.
+3. **Natural rate-limiting.** The quantization granularity (the size of the smallest power quantum) acts as a built-in throttle on how frequently participants interact with the chain. This bounds transaction volume without artificial gas limits.
+4. **Fraud surface reduction.** Disputing a discrete power quantum ("was this unit of energy produced/consumed?") is simpler than disputing a continuous flow ("was the meter accurate for every millisecond of this hour?").
+
+**Open question:** What is the right granularity? Too coarse (1 MWh blocks) and small producers/consumers can't participate. Too fine (watt-seconds) and chain throughput becomes the bottleneck. The correct unit likely varies by community scale and grid infrastructure — another argument for letting communities configure their own parameters rather than imposing a universal standard.
+
 #### The Two-Currency Insight (Graeber)
 
 Graeber's *Debt: The First 5,000 Years* documents a recurring historical trap: economies using fixed-supply commodity money eventually outgrow their money supply. Commerce seizes — not because productive capacity declined, but because the medium of exchange couldn't scale. This happened with silver in Ming China, gold in the early modern period, and is the structural reason Bitcoin fails as a primary transaction currency. Each coin becomes more valuable over time, incentivizing hoarding over spending.
@@ -2054,6 +2072,20 @@ Together they eliminate both failure modes: no deflation spiral (elastic lubrica
 **Advantages:** Immune to arbitrary inflation; ties monetary supply to real productive capacity; resistant to cartels; prevents Cantillon extraction.
 
 **The hard problem:** Cryptographic verification of energy generation is genuinely unsolved. Meters can be tampered, data fabricated, and the incentive to commit fraud scales with the token's value. The 100% escrow buffer provides ex-post enforcement — fraudsters bear the cost of shortfalls — but verification infrastructure is an active research problem with no complete solution today.
+
+**Anti-counterfeiting properties that may make the hard problem tractable:**
+
+1. **Distributed sensor redundancy.** A robust mesh of nodes and sensors at both ingoing and outgoing grid connection points creates cross-validation by default. Every unit of energy entering the grid has a corresponding measurement leaving it somewhere else. Hardware injection or meter tampering at one node produces detectable inconsistencies across the network — the energy books don't balance. The denser the node distribution, the harder it becomes to fabricate generation or consumption without creating an anomaly that neighboring nodes can flag. This is not a single-point-of-trust model (one meter, one reading); it is a distributed consistency model where fraud requires compromising multiple independent measurement points simultaneously.
+
+2. **The diffuse-value problem works in the system's favor.** Energy is high-volume, low-margin, and physically distributed. Unlike counterfeiting currency (where a single successful forgery yields concentrated value), fabricating energy production yields only the value of the kWh tokens for that unit — which is deliberately small. The effort-to-reward ratio for energy fraud is structurally unfavorable: you need physical infrastructure (or convincing fakes of it), sustained over time, for marginal per-unit returns. At scale, the amount of energy in the system is so large that any individual fraud is a rounding error on total supply. This doesn't eliminate fraud, but it means the incentive gradient favors legitimate production over counterfeiting — the opposite of fiat, where proximity to the money printer yields outsized returns for zero productive contribution.
+
+3. **Vein-and-artery channel topology.** Cross-node verification becomes far more tractable if the grid's measurement architecture separates energy flows into **directional channels** — dedicated inbound ("artery") and outbound ("vein") paths, analogous to a circulatory system. Each channel is unidirectional and independently metered, so the verification question simplifies: does the energy flowing out of this artery match what's arriving at the corresponding vein? Discrepancies in a single directional channel are immediately localizable — you know which segment has the leak or the fabrication.
+
+   **Leaf nodes** (individual producers/consumers) sit at the capillary level — small, simple, unidirectional sensors measuring one flow direction at a time. Verification at this level is lightweight: a leaf node either confirms receipt of a quantized unit or it doesn't.
+
+   **Larger crossover nodes** handle the points where multiple channels converge, split, or reverse direction — the grid equivalent of the heart or major arterial junctions. These nodes carry higher verification responsibility: they reconcile inflows across multiple artery channels against outflows across multiple vein channels. Because they sit at convergence points, they naturally aggregate the accounting and can detect imbalances that leaf nodes individually cannot. A crossover node that sees 100 kWh arriving across its inbound channels but only 94 kWh departing across outbound channels knows 6 kWh are unaccounted for — and can narrow the discrepancy to the specific channel segment.
+
+   **Why this topology helps:** It converts the verification problem from "is every meter in the entire mesh honest?" (intractable) to "do directional flows balance at each junction?" (auditable). The circulatory metaphor is structural, not cosmetic — biological circulatory systems evolved directional flow precisely because it makes systemic health monitoring possible. A body detects a clot or a hemorrhage because flow is directional and junction points can sense imbalances. The same principle applies to energy grids: directional channels with junction-level reconciliation make anomalies visible without requiring trust in every individual meter.
 
 **MVP approach:** Start with fiat/stablecoin compatibility for low friction. Provide a path for communities that want monetary sovereignty to experiment with energy-backing at small scale, in trusted networks with known producers, where verification is tractable.
 
