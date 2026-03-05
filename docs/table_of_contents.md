@@ -122,6 +122,8 @@ Any shorter treatment would either oversimplify the problem or fail to establish
 - 2.13 Third-Worldification: The Stable Degraded Equilibrium
 - 2.14 The Metacrisis: The Complexity Gap and the 25% Path
 - 2.15 The Forgetting Loop and Memory-Preserving Architecture
+- 2.16 The Obsolescence Hypothesis: When Populations Become Optional
+- 2.17 The Risk Elimination Paradox: Legislated Fragility (Antifragility destruction through legislative risk elimination, multi-polar risk aversion, Taleb/Haidt synthesis)
 
 ---
 
