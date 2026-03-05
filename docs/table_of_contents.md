@@ -110,6 +110,7 @@ Any shorter treatment would either oversimplify the problem or fail to establish
 - 2.1 Elite Class Hypertrophy (Wealth Pump Failure Mode)
 - 2.2 Institutional Bloat / Bureaucratic Cancer
 - 2.3 Competition Saturation & Decline of Cooperation
+- 2.3A The Risk Elimination Paradox: Legislated Fragility (Legislative ratchet, multi-polar risk aversion, antifragility destruction — one mechanism among moral panics, childhood isolation, protectionism)
 - 2.4 Loss of Subsidiarity (Problems Escalated to Improper Scale)
 - 2.5 Breakdown of Trust Mechanisms (Nice, Retaliatory, Clear, Forgiving)
 - 2.6 Fatigue of Legacy Governance Models (Static Rules in an Adaptive System)
@@ -123,7 +124,6 @@ Any shorter treatment would either oversimplify the problem or fail to establish
 - 2.14 The Metacrisis: The Complexity Gap and the 25% Path
 - 2.15 The Forgetting Loop and Memory-Preserving Architecture
 - 2.16 The Obsolescence Hypothesis: When Populations Become Optional
-- 2.17 The Risk Elimination Paradox: Legislated Fragility (Antifragility destruction through legislative risk elimination, multi-polar risk aversion, Taleb/Haidt synthesis)
 
 ---
 
