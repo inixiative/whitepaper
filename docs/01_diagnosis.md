@@ -3066,13 +3066,5 @@ The alternative is the 75% Path. And this time, with extinction-capable technolo
 
 A final synthesis on the relationship between deliberate coordination and structural selection — because the debate generates more heat than light, and both sides are partially right.
 
-Conspiracy is real but local. Shleifer conspired to defraud the U.S. government — a court found that. Disraeli and Rothschild coordinated in secret to bypass Parliament on Suez. Venetian bondholders who simultaneously held legislative power were consciously arranging extraction. These are facts, documented in archives and court records.
-
-Convergency is real but insufficient alone. It struggles to explain the kernel — the actual coordinating nucleus at the center of any given extraction event. Pure structural explanation, with no actors and no intent, is as incomplete as pure conspiracy.
-
-The synthesis: **conspiracy explains the nucleus; convergency explains the mass.** A small number of actors deliberately coordinate to seed an extraction pattern. The institutional environment then selects for everyone else to fall in line — not because they are in on it, but because the incentive gradient rewards compliance and punishes resistance. The conspiracy provides the initial direction; convergency provides the mass adherence that makes it look like a centuries-spanning plan.
-
-The Suez purchase had a kernel: two men coordinating in secret. But the reason it *worked* — the reason Parliament accepted the fait accompli, the reason the financial system supported it — is that thousands of actors independently concluded empire served their interests. Nobody told them to comply. The gradient was sufficient.
-
-Russia's post-Soviet collapse had a kernel: Shleifer and Hay actually conspiring for personal gain. But the mass adherence — IMF continuing to lend, academia staying silent, the U.S. government looking away — required no coordination. The incentive structure made silence individually optimal.
+Conspiracy is real. Convergency is real. The synthesis: **conspiracy explains the nucleus; convergency explains the mass.** A small number of actors deliberately coordinate to seed an extraction pattern. The institutional environment then selects for everyone else to fall in line — not because they are in on it, but because the incentive gradient rewards compliance and punishes resistance. The conspiracy provides the initial direction; convergency provides the mass adherence that makes it look like a centuries-spanning plan.
 
