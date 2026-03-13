@@ -10,7 +10,7 @@ Both cases demonstrate real extraction, real harm, and real elite networks — b
 
 ### Source
 
-Alison McIntyre (alimcforever), Irish researcher and communicator with ~290K TikTok followers and 6,000+ Substack subscribers. She works from primary sources: Hansard parliamentary records, Bank of England FOI documents, EUR-Lex, Archivio di Stato di Venezia. Her documentation quality is strong; her interpretive framework is where the analysis diverges from the whitepaper's approach.
+Ailíe Nic an tSaoir (alimcforever), Irish researcher and communicator with ~290K TikTok followers and 6,000+ Substack subscribers. She works from primary sources: Hansard parliamentary records, Bank of England FOI documents, EUR-Lex, Archivio di Stato di Venezia. Her documentation quality is strong; her interpretive framework is where the analysis diverges from the whitepaper's approach.
 
 ### Verified Historical Claims
 
