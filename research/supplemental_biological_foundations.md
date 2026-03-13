@@ -269,16 +269,36 @@ In the framework developed here, luxury beliefs are **low-integrity pattern-main
 
 This is propaganda's deepest mechanism: not false facts, but **corrupted pattern-maintenance signals**. The myth still sounds like a cooperation signal — it activates the same receptors — but the pattern it instantiates has degraded.
 
-### 6.3 Tools for Sorting
+### 6.3 The Surplus Problem: When Reality Stops Correcting
 
-The implication: people need tools to evaluate signal integrity. Not "critical thinking" in the abstract, but **mechanisms that make pattern integrity measurable:**
+Prosperity lengthens feedback loops. When surplus is sufficient, bad beliefs don't produce consequences that reach the believer. You can hold any position — about economics, cooperation, human nature — and never encounter the physical correction that would update you. The signal environment that would falsify your model has been padded with enough wealth that the falsification never arrives.
+
+This is why the most insulated thinkers produce the most disconnected models. Not because they're stupid — because they're *never wrong in their environment*. Their environment has been engineered to absorb the cost of error. A tenured academic can claim violence is declining without ever experiencing what it's like when the feedback loop is short. A policy architect can design systems that destroy metis without ever depending on metis for survival. Their models are untested not because testing is impossible but because surplus makes testing unnecessary for *them*. The costs land on populations without the buffer.
+
+The civilizations that lasted longest had cultural mechanisms for maintaining contact with unpadded reality despite surplus: mandatory military service (Switzerland, Israel, Singapore — section 5.5), religious disciplines that imposed voluntary hardship, apprenticeship systems that kept decision-makers in contact with work, rites of passage involving genuine risk. The common thread: **artificial re-shortening of feedback loops that prosperity had lengthened.**
+
+The managerial separation compounds this. Modern organizations promote competent practitioners into management — disconnecting every capable decision-maker from the work they were competent at. The people who touch reality lose authority; the people with authority stop touching reality. This is a structural severance of the feedback channel, not a personnel failure.
+
+### 6.4 Tools for Sorting: Why "Soft" Metrics Are the Hardest Signals
+
+The implication: people need tools to evaluate signal integrity. Not "critical thinking" in the abstract, but **mechanisms that make pattern integrity measurable.** And the measurement insight that the whitepaper develops (section 4.11) inverts the conventional hierarchy: quantified metrics are the *soft* signals because they are the most gameable; experiential, felt-state sensors are the *hard* signals because faking them is nearly as expensive as the real thing.
+
+"Hard to quantify" has been confused with "not real." This is Scott's legibility bias elevated to epistemological principle — if the state can't see it, it doesn't exist. But the map is not the territory. GDP can rise while sensed fairness collapses. Crime statistics can fall while people feel less safe. NHS wait times can improve while care quality deteriorates (Curtis, *The Trap*). In every documented case where quantified metrics diverged from aggregate felt experience, **the felt experience was tracking reality and the metrics were being gamed.**
+
+The reason is structural, not cultural. Quantified metrics have a low cost of falsification: change the measurement methodology, reclassify categories, optimize for the indicator rather than the underlying condition. Aggregate experiential states — do you have friends, do you trust your neighbors, do you feel opportunity is real, are you raising children — have a falsification cost that approaches the cost of actually producing the condition. You cannot policy-hack your way to people genuinely trusting their neighbors. Either the signal environment produces trust or it doesn't.
+
+This is the Zahavian principle applied to measurement: **the best metrics are the ones where faking is as expensive as the real thing.** A martial arts rank earned through years of unpadded physical testing has a false positive rate below 2% — not because the culture is virtuous but because the verification architecture makes faking structurally expensive. Anyone can test you at any time. The audit is continuous and distributed. Every training partner is a sensor. Compare this to credentials where the audit is periodic, concentrated, and conducted by people with institutional incentives to pass you.
+
+The whitepaper's mechanisms implement this measurement philosophy:
 
 - **Outcome tracking:** Does this policy/belief/institution produce the cooperation outcomes it claims? The whitepaper's continuous approval mechanism (6.8) implements this — policies must maintain measured satisfaction over time, not just sound good at adoption.
 - **Cost distribution analysis:** Who bears the costs of this signal? If cost-bearers and signal-holders are different populations, the signal may be a luxury belief. Distributed audit can surface this.
 - **Pattern fidelity measurement:** Is this institution still instantiating the cooperation pattern it was designed for? Lifecycle review (4.8, 4.9) forces this question periodically. Low engagement or declining approval triggers sunset — the system doesn't wait for capture to become visible.
 - **Search + feedback over time:** Long-horizon accountability mechanisms (6.5) ensure that signal integrity is measured not at the moment of adoption but across the timescale where consequences manifest.
 
-### 6.4 The Active Choice
+The design principle underlying all of these: **every mechanism should shorten a feedback loop that surplus has lengthened.** Escrow re-introduces resource commitment (contact with scarcity). Lifecycle sunset re-introduces institutional mortality (contact with impermanence). Distributed audit re-introduces observability (contact with consequences). Continuous approval re-introduces felt experience as primary data (contact with the territory, not the map).
+
+### 6.5 The Active Choice
 
 Levin's insight is that biological selves are committed to forward-looking pattern maintenance, not to their own past. The institutional equivalent: **institutions should be committed to their purpose-pattern, not to their historical form.**
 
