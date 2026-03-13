@@ -10,9 +10,9 @@
 
 **This document (The Specification)** defines what any functional cooperative society must accomplish. It operates at two levels:
 
-**Section 3: Design Frameworks & Methodologies** — The meta-level thinking tools from evolutionary biology, complex systems theory, information theory, and software engineering that inform how to design governance systems. Think of this as the design philosophy layer.
+**Design Frameworks & Methodologies** — The meta-level thinking tools from evolutionary biology, complex systems theory, information theory, and software engineering that inform how to design governance systems. Think of this as the design philosophy layer.
 
-**Section 4: Principles of a Cooperative Society** — The concrete requirements specification, an abstract interface for governance. Any system that violates these principles will experience predictable failure modes.
+**Principles of a Cooperative Society** — The concrete requirements specification, an abstract interface for governance. Any system that violates these principles will experience predictable failure modes.
 
 This is not an implementation guide—that comes in Documents 3 and 4. This is the requirements document: what we're searching for, independent of how we build it.
 
@@ -20,7 +20,7 @@ This is not an implementation guide—that comes in Documents 3 and 4. This is t
 
 ## 3. Design Frameworks & Methodologies
 
-Section 1 diagnosed what is broken through the lens of various thinkers. Section 2 synthesized these diagnoses into recurring failure patterns. This section provides the meta-frameworks for thinking about solutions—not specific mechanisms (those come in Sections 4-5) but the conceptual tools and mental models that inform how to design governance systems.
+Document 1 diagnosed what is broken through the lens of various thinkers and synthesized those diagnoses into recurring failure patterns. This section provides the meta-frameworks for thinking about solutions—not specific mechanisms but the conceptual tools and mental models that inform how to design governance systems.
 
 Think of this as the design philosophy layer: the principles and frameworks from evolutionary biology, complex systems theory, information theory, and software engineering that guide our approach to institutional architecture.
 
@@ -70,7 +70,7 @@ Evolutionary thinking operates differently. It makes predictions, waits for real
 
 **The core constraint:** Whatever feedback mechanism you use determines what your system will become. If the environment changes but the measurement system stays fixed, the selection mechanism becomes blind to new realities. The sensor array itself must evolve.
 
-This evolutionary framing is foundational. Section 3.1 applies it to multiscale coordination—how selection operates at every level simultaneously. Section 3.2 applies it to incentive design. The remaining sections provide additional lenses (complex systems, engineering, dialectics) that complement this core framework.
+This evolutionary framing is foundational. The following sections apply it to multiscale coordination, incentive design, and additional lenses (complex systems, engineering, dialectics) that complement this core framework.
 
 When unrelated systems independently evolve the same solution, that convergence reveals fundamental constraints. Wings evolved separately in birds, bats, insects, and pterosaurs not by coincidence but because flight imposes certain physical requirements regardless of lineage. The repeated emergence of the same form under selection pressure tells us something about the problem space itself.
 
@@ -276,7 +276,7 @@ Reality is real. Geography matters. Climate matters. Droughts, wars, resource co
 
 Institutions face two distinct failure modes—just like life:
 
-1. **Cancer (coordination failure):** The system has capacity—energy, resources, competent people—but signals have degraded. Activity is misdirected. Cells consume the body. This is the failure mode most of Section 3.1 addresses.
+1. **Cancer (coordination failure):** The system has capacity—energy, resources, competent people—but signals have degraded. Activity is misdirected. Cells consume the body. This is the failure mode that multiscale coordination addresses.
 
 2. **Senescence (capacity failure):** The system is coordinated but exhausted. Even with perfect signals, there's nothing left to coordinate. The organ has lost the ability to act.
 
@@ -305,7 +305,7 @@ Signals can fail in distinct ways:
 
 Different failure modes require different interventions. Attenuation needs signal amplification or subsidiarity. Noise needs filtering. Corruption needs metric rotation or outcome-based measurement. Fusion needs channel separation. Severance needs feedback restoration.
 
-**Note: Necessary but Not Sufficient.** Signal clarity is necessary but not sufficient for coordination. A high-fidelity signal that accurately transmits "defection is rewarded" produces clear, *rational* defection. The substrate must transmit accurately (clarity) AND encode incentives where cooperation is the Nash equilibrium (alignment). Section 3.2 addresses incentive design—how to structure the actual rewards and punishments so that cooperating is the dominant strategy. Section 3.1 addresses whether agents can *perceive* that cooperation is optimal. Both must be solved.
+**Note: Necessary but Not Sufficient.** Signal clarity is necessary but not sufficient for coordination. A high-fidelity signal that accurately transmits "defection is rewarded" produces clear, *rational* defection. The substrate must transmit accurately (clarity) AND encode incentives where cooperation is the Nash equilibrium (alignment). Incentive design addresses how to structure the actual rewards and punishments so that cooperating is the dominant strategy; multiscale coordination addresses whether agents can *perceive* that cooperation is optimal. Both must be solved.
 
 **Signal Architecture and Governance Patterns**
 
@@ -433,7 +433,7 @@ The requirement for functional governance isn't better people or more virtuous l
 
 This is why governance design benefits from evolutionary and cybernetic thinking. The question isn't "what's the optimal policy?" but "**what architectural constraints align self-interest across scales?**"
 
-The mechanisms in Sections 4-5 (continuous approval polling, skin in the game, transparency requirements, accountability linkages) aren't political reforms. They're the **bioelectric gradients required to re-coordinate cells into organs**—to expand cognitive horizons from individual to institutional to civilizational scale.
+The mechanisms in this document and Document 3 (continuous approval polling, skin in the game, transparency requirements, accountability linkages) aren't political reforms. They're the **bioelectric gradients required to re-coordinate cells into organs**—to expand cognitive horizons from individual to institutional to civilizational scale.
 
 We're not trying to make people cooperate through persuasion or moral transformation. We're designing the signaling architecture where **cooperation is the only path to local optimization.**
 
@@ -520,7 +520,37 @@ This calibration is what Bourdieu called the *habitus*: the internalization of s
 
 Governance reform must provide sustained signal repair to recalibrate these thresholds across generations. You cannot lecture someone into expanding their radius. You must change the substrate so that wider cooperation actually pays off.
 
-### 3.1b The Peacock Feather Problem: Costly Signaling as a Better Model Than Market Economics
+### 3.1b Concentric Selves: Eusociality and the Expandable Boundary of Identity
+
+The cooperation radius describes behavior—how far out cooperation extends. But there is a deeper phenomenon underneath: **the boundary of self is not fixed.** What you experience as "me" is a variable, not a constant.
+
+To see why, start at the bottom. What exists, physically, are waves propagating through media—electromagnetic fields, pressure gradients, chemical diffusion, electrical potential. From these waves, varyingly stable *patterns* emerge: atoms, molecules, crystals, lipid membranes. Most patterns are transient. Some are stable enough to persist. And a few, eventually, stumble onto the trick of *self-propagation*—patterns that actively maintain and copy themselves. Life.
+
+The pattern is the thing. Not the substrate. Your body replaces virtually every atom over roughly seven years; what persists is the *organization*, not the material. This is Levin's "platonic selves" insight, and it is the Ship of Theseus resolved: the ship of Theseus isn't the planks—it's the plan in the minds of the workers who repair it. A living body is a self-reinforcing dynamic pattern that continuously rebuilds itself from whatever matter is available. Identity resides in the pattern, not in the physical stuff the pattern is currently made of.
+
+A "self," then, is not an object but a *classification*—a way of drawing a boundary around a pattern and saying "this persists, this is a unit." And that classification is **scale-independent**. A cell is a self-propagating pattern. A tissue is a higher-order pattern composed of cell-patterns. An organism is a pattern of tissue-patterns. A colony, an institution, a civilization—patterns all the way up. At every scale, the same question applies: is the signaling substrate strong enough to hold the pattern together? A pattern that cannot coordinate its parts cannot maintain itself—it isn't a self at all, just matter. Signals are not something a self *uses*; signals are what *constitutes* a self. When signaling works, the pattern persists and we call it a "self." When it fails, the pattern dissolves into its components, each of which reverts to maintaining only its own smaller pattern.
+
+This is Levin's deepest insight applied to governance. A single cell has a "self"—it maintains its own homeostasis, defends its membrane, pursues its metabolic goals. But when bioelectric signals couple cells into a tissue, something shifts: the cells begin to maintain the *tissue's* homeostasis, not just their own. They will sacrifice themselves for the organ—apoptosis (programmed cell death) is a cell treating the organ as its self. The boundary of "self" has expanded. The cell's identity now includes structures beyond its membrane.
+
+The immune system reveals how literal this is. As immunologist Gerald Callahan argued (*Lousy Sex: Creating Self in an Infectious World*), the immune system's primary function is not defending a pre-existing self—it is *creating* self by actively distinguishing "me" from "not-me." T-cell education in the thymus is where selfhood is *taught*: cells that attack self are destroyed, cells that ignore everything are destroyed, and only those calibrated to the boundary survive. Callahan, who worked on the Nobel Prize-winning research that decoded this mechanism, drew the implication: "We are singular men and women only because we have immune systems. When immune systems fail, people disappear, and in their places arise communities of living things." Self is not a given. It is an ongoing signaling achievement—and its failure modes map precisely onto governance pathology. Autoimmune disease is the self-boundary drawn *too tight*: the system attacks its own tissue, the institutional analog being purges, purity spirals, and the exclusion of functional members. Cancer is the self-boundary drawn *too loose*: cells that should be recognized as defectors pass as self. Both are failures of the same discrimination process, not different diseases.
+
+This expansion is what we mean by **concentric selves**: identity radiating outward through layers of inclusion. Self → family → clan → community → institution → nation → civilization. At each ring, the question is whether the signaling substrate is strong enough to make that scale *feel* like self rather than other. The Bedouin proverb isn't just describing strategic alliance—it's describing nested identity. "Me against my brother" presupposes that at the next level out, my brother *is* me.
+
+**Eusociality is the biological proof of concept.** In eusocial species—ants, bees, termites, naked mole rats—individual organisms have so completely expanded their self-boundary to the colony level that they surrender individual reproduction entirely. The colony is the organism; the workers are its cells. This isn't metaphor. Eusocial colonies exhibit the same properties as multicellular bodies: division of labor, coordinated immune response, collective homeostasis, sacrifice of parts for the whole. E.O. Wilson called them superorganisms because the analogy is structural, not decorative.
+
+W.D. Hamilton, the evolutionary biologist who formalized kin selection theory in the 1960s, identified the genetic precondition. His rule: an organism will sacrifice its own reproductive success to help relatives when the *relatedness* between them, multiplied by the *benefit* to the recipient, exceeds the *cost* to the helper. In plain language: I'll give up having two of my own offspring if doing so helps my sister raise five, because my genes come out ahead. Eusociality becomes stable when relatedness is high enough that helping the colony *is* helping your genes. Boomsma's monogamy hypothesis (2009) identifies the specific trigger: when a queen mates once and only once, her offspring are equally related to their siblings as they would be to their own potential offspring. The math simplifies—helping and reproducing become genetically equivalent, so any situation where cooperative brood care is even marginally more efficient than going it alone tips the balance toward helping. Hughes et al. (2008) confirmed this across 267 eusocial species: every lineage evolved from strictly monogamous ancestors. The institutional implication is striking—a *mating arrangement* (monogamy) is what opens the door to a major evolutionary transition. Structure precedes cooperation. But genetics only opens the door. What *maintains* eusocial coordination is the signaling substrate—pheromones, tactile communication, shared chemical environment. Destroy the pheromone network and the colony doesn't gradually become less cooperative; it *disintegrates*. Workers stop working. Soldiers stop defending. The superorganism dies the same way a body dies when bioelectric signaling fails: not through destruction of parts, but through loss of the substrate that made parts into a whole.
+
+**The governance parallel is exact.** Human civilization is an experiment in eusociality without the genetic shortcut. We don't have the extreme genetic relatedness of a bee colony binding us into obligate cooperation. We have *memetic* infrastructure—myths, institutions, legal systems, shared identities—performing the same function that pheromones perform in a colony: maintaining the expanded self-boundary so that individuals experience institutional and civilizational goals as *their own* goals.
+
+Jonathan Haidt's "hive switch" (*The Righteous Mind*) identifies the psychological mechanism. Humans, he argues, are "90% chimp and 10% bee"—mostly pursuing individual interest, but with a latent capacity for self-transcendence that, when triggered, dissolves the individual self into the group. Synchronized movement, shared ritual, collective threat, awe—these flip the switch and produce what Durkheim called *collective effervescence*: the experience of being part of something larger than yourself. This isn't mysticism. It's the human version of the pheromone network—a signaling mechanism that temporarily expands the self-boundary from individual to group. The hive switch is the proof that humans carry the *hardware* for eusocial coordination. The question is whether the institutional *software* activates it or lets it atrophy.
+
+Patriotism, team spirit, professional identity, religious belonging—these aren't sentimental extras. They are sustained versions of the hive switch: the substrate through which the self-boundary expands beyond the skin. When someone says "I would die for my country," they are not making a strategic calculation about inclusive fitness. They have genuinely expanded their self to include the nation. When that feeling dies—when cynicism, betrayal, or institutional failure collapses the signal—the self contracts back to the skin. This is not selfishness. It is the appropriate response of the concentric self to a signaling substrate that no longer sustains the expanded identity.
+
+**This reframes the governance challenge.** We are not trying to make selfish individuals cooperate against their nature. We are trying to maintain the signaling substrate that allows the self to *expand* to the institutional and civilizational scale—so that cooperation at those scales isn't altruism (costly sacrifice of self for other) but **identity** (defense of self at a larger scale). The difference matters: altruism is fragile because it requires constant effort against self-interest. Expanded identity is stable because self-interest *includes* the larger whole.
+
+Cancer, restated in this framework, is not just coordination failure—it is **identity collapse**. The cell's self-boundary has contracted from the organism back to the cell. It no longer experiences the body as self. The body has become environment—a resource to exploit. Every symptom of the metacrisis exhibits this pattern: institutions that no longer identify with their stated mission, elites who no longer identify with their society, citizens who no longer identify with their nation. The concentric rings have collapsed inward. The task of governance engineering is to build and maintain the signaling substrate that keeps them expanded—not through propaganda (a corrupted signal that eventually collapses), force (which produces compliance, not identification), or neurological shortcut. The temptation to engineer cooperative *individuals*—through pharmacology, behavioral nudging, or someday direct neural modification—mistakes the level at which the problem operates. Cooperative individuals embedded in extractive institutions will still produce extractive outcomes; the superorganism can be predatory even when its cells are docile. And cooperation that depends on continuous external modification rather than institutional structure is brittle by definition: remove the modification and there is no substrate underneath. This is the Callahan insight applied forward—if self is an ongoing signaling achievement, then you cannot install it once and walk away. It must be *maintained* by architecture that makes expanded identity continuously rational. When the institution keeps its promises, when cooperation actually pays off at scale, when defection is actually punished—the self-boundary expands not because you are told to love your country, but because your country has earned inclusion in your self.
+
+### 3.1c The Peacock Feather Problem: Costly Signaling as a Better Model Than Market Economics
 
 **The puzzle biology hasn't solved.** The peacock's tail is the canonical example of a trait that reduces the fitness of the organism carrying it. It's heavy, conspicuous to predators, metabolically expensive. Yet peahens reliably select for it. The standard explanations — Zahavi's handicap principle ("only a truly fit male can afford this burden"), Fisherian runaway (the preference self-reinforces once established), good genes (the tail correlates with parasite resistance) — describe the dynamics but don't fully resolve the core paradox: **why would a female choose a trait for her offspring that conspicuously reduces their fitness?** Is the signal of health really so valuable that it's worth saddling your sons with an increasingly absurd tail? Bret Weinstein has flagged this as an unsatisfactorily explained mechanism in evolutionary biology — the pattern is real, the selection is observable, but the *why* bottoms out in circular reasoning or incomplete models. Penn and Szamado (2020) go further, arguing that the handicap principle itself is "an erroneous hypothesis that became a scientific principle" — newer mathematical models show signals don't have to be costly to be honest; what prevents cheating is the *potential* cost of being caught, not the realized cost to honest signalers. The phenomenon is real. The standard explanation for it may not be.
 
@@ -796,7 +826,7 @@ Governance operates in a space of **bounded dialectics**—dynamic equilibrium b
 
 **The framing:** Governance infrastructure should not prescribe where to sit in these dialectic spaces. It should provide tunable mechanisms that make tradeoffs visible, measurable, and adjustable. Communities navigate to different equilibria based on their contexts, values, and constraints.
 
-**Why this matters:** Section 4 principles will often be in tension by design. This isn't a bug—it's recognition that governance has no optimal point, only viable ranges. The goal is not solving tensions but navigating them dynamically as conditions change.
+**Why this matters:** The principles in this specification will often be in tension by design. This isn't a bug—it's recognition that governance has no optimal point, only viable ranges. The goal is not solving tensions but navigating them dynamically as conditions change.
 
 ### 3.7 Friction as Information: Desire Paths and Coordination Costs
 
@@ -960,8 +990,6 @@ Society has been running on hidden defaults—parameters set by path dependence,
 
 ---
 
-## THEME 1: COOPERATION AT SCALE
-
 Cooperation is the foundational requirement for any functional society. Before discussing organizational structure, resource allocation, or governance mechanisms, we must establish what cooperation actually *is*, why it fails at scale, and what properties any cooperation-enabling system must satisfy.
 
 ### 4.1 What Is Cooperation? The Axelrod Principles
@@ -1037,6 +1065,8 @@ The Axelrod framework is diagnostic: where cooperation *does* break down, it oft
 - **Permanent records:** Violate Forgiving—criminal records, credit scores create permanent castes
 - **Anonymous online systems:** Not Retaliatory (can't track defectors), not Clear (implicit norms)
 
+Fixing these breakdowns requires engineering the structural conditions each principle depends on — not moral exhortation, but mechanism design.
+
 **System requirements to enable the Axelrod Principles:**
 
 **Nice:** Low-friction entry while preventing Sybil attacks. Participants can enter and take standard actions without extensive vetting, but system can distinguish unique individuals to prevent gaming.
@@ -1049,7 +1079,7 @@ The Axelrod framework is diagnostic: where cooperation *does* break down, it oft
 
 **The shift in equilibrium:** When all four Axelrod principles are satisfied, the Nash equilibrium shifts from defection to cooperation. Cooperation becomes individually rational. The system doesn't require moral transformation—it makes prosocial behavior the optimal strategy for selfish actors.
 
-This is the foundation. Everything else in Section 4 builds on the Axelrod principles.
+This is the foundation. Everything else in this specification builds on the Axelrod principles.
 
 ### 4.2 Memory and Truth: Requirements for Tracking Without Censorship
 
@@ -1621,7 +1651,7 @@ Not all decisions are equal. Jeff Bezos distinguishes "one-way doors" (irreversi
 - **Randomized selection:** For some roles, randomization can dilute elite coordination and prevent capture
 - **Performance-based removal:** Automatic removal when legitimacy/political capital depletes below threshold
 
-**Why this works:** When leadership is temporary and conditional on performance, elites cannot form stable extractive coalitions. The threat of removal disciplines behavior. Fresh perspectives prevent institutional sclerosis.
+**Why this works:** When leadership is temporary and conditional on performance, elites cannot form stable extractive coalitions. The threat of removal disciplines behavior. Fresh perspectives prevent institutional sclerosis. Note: performance-based removal (the battery model described in the Mechanisms document) can serve as the primary mechanism, with explicit term limits reserved for specific roles where coalition entrenchment risk is highest. The requirement is prevention of permanent entrenchment, not mandatory fixed terms.
 
 #### 6. Reciprocity and Defection Punishment
 
@@ -1851,7 +1881,7 @@ Legal reasoning is a specific cognitive mode—adversarial, precedent-based, foc
 - Selection evaluates actual problem-solving approach, not just credential possession
 - The friction between different cognitive modes is preserved, not smoothed away—disagreement between the engineer and the lawyer is signal, not noise
 
-**Why this matters:** Section 1.6 (Jiang) documents the death of the generalist. Section 1.9 (Burke) documents how innovation requires cross-domain synthesis. Professional monoculture in governance is the political expression of these failures. Lawyers are trained to argue within frameworks; engineers to build systems; scientists to discover truths; farmers to work with complex adaptive systems. Governance needs all of these cognitive modes as decision-makers, not decorations.
+**Why this matters:** Jiang documents the death of the generalist; Burke documents how innovation requires cross-domain synthesis. Professional monoculture in governance is the political expression of these failures. Lawyers are trained to argue within frameworks; engineers to build systems; scientists to discover truths; farmers to work with complex adaptive systems. Governance needs all of these cognitive modes as decision-makers, not decorations.
 
 **The Shift in Equilibrium:**
 
@@ -1903,7 +1933,7 @@ The "brain" (elite) stays aligned with the "body" (community) because defection 
 
 ### 4.7A Collective Action Against Concentrated Private Power
 
-Section 4.7 addresses concentrated *public* power—elites who capture institutions. This section extends the same logic to concentrated *private* power—platforms and monopolies that operate coordination infrastructure at scale.
+The previous section addresses concentrated *public* power—elites who capture institutions. This section extends the same logic to concentrated *private* power—platforms and monopolies that operate coordination infrastructure at scale.
 
 **The Problem:**
 
@@ -2135,7 +2165,7 @@ The network state model (Srinivasan) proposes cloud-first, land-last governance:
 | Voice atrophies (why fight when you can leave?) | Bad governance persists unchallenged |
 | Those who remain lose their most capable advocates | No accountability mechanism |
 
-**The asymmetry problem:** Exit costs money, social capital, and optionality. Moving, re-establishing, finding alternatives—all require resources most people don't have. When only elites can exit, "exit rights" functionally means "elite abandonment rights." The people who *can* leave are precisely those whose voice would have improved the system. Their exit severs the forced coalition (Section 1.2b) that would have aligned elite interests with commons quality.
+**The asymmetry problem:** Exit costs money, social capital, and optionality. Moving, re-establishing, finding alternatives—all require resources most people don't have. When only elites can exit, "exit rights" functionally means "elite abandonment rights." The people who *can* leave are precisely those whose voice would have improved the system. Their exit severs the forced coalition that would have aligned elite interests with commons quality.
 
 **Exit as rent extraction:** Henry George observed that land value comes from society—location, infrastructure, neighbors—not from the owner. Capturing that value privately while others created it is rent-seeking. Easy exit from shared substrates follows the same structure: the commons creates value (good schools, functional transit, accumulated social capital), elites benefit from that value, then easy exit lets them capture it while abandoning the substrate that created it. Exit friction is a Georgist mechanism: high friction means you can't extract the rent without contributing to the commons that generated it.
 
@@ -2144,7 +2174,7 @@ The network state model (Srinivasan) proposes cloud-first, land-last governance:
 - **Low friction appropriate:** Governance communities, voluntary associations, ideological groups—where competitive pressure improves quality and no shared physical substrate is at stake
 - **High friction appropriate:** Shared infrastructure, education, healthcare—where elite exit destroys the commons and leaves captive populations with degraded systems
 
-**The discrete/continuous dimension:** Exit can be instant (click to leave) or structured (notice periods, transition requirements, deliberation). Frictionless exit is continuous; structured exit is discrete. As with tickrate (Section 4.3), the choice between continuous and discrete should be explicit, not defaulted to whichever is technically easier.
+**The discrete/continuous dimension:** Exit can be instant (click to leave) or structured (notice periods, transition requirements, deliberation). Frictionless exit is continuous; structured exit is discrete. As with tickrate, the choice between continuous and discrete should be explicit, not defaulted to whichever is technically easier.
 
 **Requirements:**
 
@@ -2471,7 +2501,7 @@ Institutional differentiation preserves diversity of function. When every instit
 
 It enables appropriate accountability—matched to actual function rather than claimed category. It creates clear expectations—users know what kind of institution they're interacting with and what standards apply. It supports competition within type—institutions compete on quality of function delivery rather than on regulatory evasion.
 
-The connection to other principles is direct. Subsidiarity (4.8) recognizes that different scales require different institutional types. Lifecycle Management (4.9) applies to institutional categories themselves—as technology creates new possibilities, categories should evolve. Anti-capture architecture (Document 3, Section 6.12) must address category arbitrage as a capture vector.
+The connection to other principles is direct. Subsidiarity recognizes that different scales require different institutional types. Lifecycle Management applies to institutional categories themselves—as technology creates new possibilities, categories should evolve. Anti-capture architecture must address category arbitrage as a capture vector.
 
 ### 4.17A Develop Unbundled Language for Dual-Channel Concepts
 
@@ -2485,7 +2515,7 @@ This is institutional differentiation (4.17) applied to concepts. Just as entiti
 
 ### 4.17B Stable Differentiation Architecture
 
-Section 4.17 established function-based categorization. This section addresses maintaining differentiation over time.
+The previous section established function-based categorization. This section addresses maintaining differentiation over time.
 
 **The failure mode:** When one domain becomes dominant, it forces all others to compete on its metric. Finance dominates → universities optimize for revenue, journalism optimizes for engagement, everything becomes financialized. The differentiation collapses; all tissues become the same tissue.
 
@@ -2533,13 +2563,56 @@ Complex systems are butterfly-sensitive. Small perturbations cascade unpredictab
 
 ---
 
+### 4.20 Maintain Reproductive Viability
+
+Any functional society must sustain a total fertility rate (TFR) at or above replacement level (~2.1 children per woman). Below this threshold, the society terminates within generations regardless of all other governance quality. This is a **hard constraint**, not a soft preference. It functions like solvency for a corporation: you can optimize for efficiency, equity, sustainability, and innovation—but if TFR falls below replacement and stays there, the civilization goes to zero. Nothing else in the specification matters after that.
+
+**Why this is a predictable failure mode, not a random one:**
+
+Document 1 documents the mechanism: intrasexual competition (ISC) in conditions of affluence and competitive saturation systematically suppresses fertility below replacement. This is not random cultural drift. It is a recurring feature of the civilization cycle—the same pattern appears in Augustan Rome (which enacted marriage laws and baby bonuses in response), in late imperial dynamics across multiple civilizations, and in current Western demographics. The affluence condition that enables the golden age also frees the surplus bandwidth for competitive reproductive suppression. The social capital accumulated during the rise gets spent on this mechanism during the peak. The result is demographically predictable: birth rates decline precisely when material conditions are best.
+
+**The childless competitive advantage: a second mechanism**
+
+ISC suppression operates at the level of cultural messaging and ideology. A second, compounding mechanism operates at the level of direct competitive dynamics: individuals without children hold a structural advantage over those with them in almost every form of competition modern societies run.
+
+Parenting absorbs time, cognitive bandwidth, risk tolerance, and career continuity. The childless competitor can work longer hours, remain geographically mobile, take more professional risks, and invest more in credential signaling and networking. This produces a multi-player prisoner's dilemma:
+
+- **Cooperate** (have children): individual bears reproductive costs; civilization's TFR is sustained
+- **Defect** (remain childless): individual gains competitive advantage — but collective defection terminates the civilization
+
+No individual can solve this unilaterally. Having children when competitors don't is structural disadvantage regardless of intent. The defection strategy dominates individual calculation even when actors are aware of the aggregate harm.
+
+Mass female workforce participation intensified the dynamic without creating it. Once women entered the competitive labor market, the reference class for career competition expanded to include childless women who have a structural advantage over mothers — in the same way doping athletes have an advantage over clean ones. No malice required; competitive pressure reshapes behavior regardless of intent. Wages compressed as labor supply increased, requiring two incomes where one once sufficed, which further penalized the parent who steps back during child-rearing years.
+
+This is why individual exhortation cannot solve the reproductive viability problem. "Have children for society's sake" asks people to accept unilateral disarmament in a competitive landscape. Historically, this coordination failure was carried by religious natalist injunctions — making reproduction a sacred obligation that overrode individual cost-benefit calculation through the full weight of identity and belonging. The near-universal convergence of radically different religious traditions on the command to reproduce (the "religio" binding function) is precisely the signal that this coordination failure is structural and recurrent. The decline of that cultural infrastructure without equivalent structural replacement is a direct contributor to current sub-replacement TFR. Document 3's religion postscript develops this further.
+
+**The analogy to anti-monopoly law:**
+
+Markets, left unregulated, naturally tend toward monopoly—not because participants are evil but because winning firms can use their position to prevent competition. Anti-trust law exists because this failure mode is **structural and predictable**, not incidental. The response is structural intervention against a predictable market failure.
+
+The same logic applies to reproductive viability. The ISC mechanism is structural and predictable. Without explicit countervailing architecture, affluent societies will reliably suppress fertility below replacement through the same competitive dynamics every time. Governance systems must include mechanisms that correct this failure mode just as anti-trust law corrects monopoly formation.
+
+**Requirements:**
+
+- **TFR monitoring as governance metric.** TFR should be tracked at the same level of institutional seriousness as GDP, inflation, and unemployment. If TFR falls below 2.1 for more than a defined period, the governance system should trigger mandatory policy review.
+
+- **Remove structural anti-natal penalties.** Many anti-natal effects are inadvertent outputs of other policies: housing regulations that prevent family-sized units, tax structures that penalize marriage, credential requirements that delay family formation into late fertility years, zoning that separates work from living (making two-parent households harder to sustain). Governance systems should audit for inadvertent anti-natal effects and remove them.
+
+- **Internalize the reproductive externality.** The decision not to reproduce imposes real costs on the broader society (demographic decline, pension solvency, labor supply, civilizational continuity) that are currently externalized entirely. Governance design should partially internalize this externality through structural incentives—analogous to carbon taxes correcting environmental externalities. Document 3 details specific mechanisms.
+
+- **Housing and spatial design.** Document 3 documents the density sensor mechanism: small-unit, high-density housing triggers competitive saturation biology that suppresses fertility regardless of wealth. Reproductive viability requires spatial design that avoids triggering this sensor.
+
+- **Avoid coercion.** These mechanisms operate through incentive correction, not coercion. The goal is not to mandate reproduction but to stop inadvertently penalizing it and to correct externalities that the market cannot self-correct.
+
+---
+
 ## What Comes Next
 
 **The Specification is complete.** We've defined:
 
-**Section 3** provided the design philosophy—evolutionary light cones, incentive design, complex systems thinking, engineering mindset, and problem space navigation. These are the conceptual frameworks that inform all mechanism design.
+The design frameworks provided the design philosophy—evolutionary light cones, incentive design, complex systems thinking, engineering mindset, and problem space navigation. These are the conceptual frameworks that inform all mechanism design.
 
-**Section 4** provided the requirements specification—the 12 principles any functional cooperative society must satisfy. Make cooperation cheap (with anti-exhaustion mechanisms), enable sensemaking infrastructure, make defection costly, maintain thin elites, enforce subsidiarity, manage institutional lifecycles, enable voluntary association, support continuous adaptation, balance cohesion with variety, resist metric tyranny, capture preference intensity, and protect individual sovereignty.
+The principles of a cooperative society provided the requirements specification — what any functional cooperative society must satisfy: make cooperation cheap, enable sensemaking infrastructure, make defection costly, maintain thin elites, enforce subsidiarity, manage institutional lifecycles, enable voluntary association, support continuous adaptation, balance cohesion with variety, resist metric tyranny, capture preference intensity, protect individual sovereignty, and maintain reproductive viability, among others.
 
 These are not suggestions—they're structural requirements. Violate them and you experience predictable failure modes documented in the Diagnosis.
 

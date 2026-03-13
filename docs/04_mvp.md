@@ -102,7 +102,7 @@ Initiatives can span multiple scales and domains:
 
 **Why phases matter (governance tickrate):**
 
-This phase structure implements the governance tickrate principle (Section 4.11): discrete cycles with integration windows, not constant input.
+This phase structure implements the governance tickrate principle: discrete cycles with integration windows, not constant input.
 
 **Phases are programmable pauses** where events accumulate until the window closes:
 
@@ -150,21 +150,7 @@ While the MVP focuses on proving inixiatives work (one-off collective actions), 
 
 Organizations can use the platform not just for individual inixiatives, but as their core governance layer - managing persistent operations, spawning child inixiatives, handling lifecycle management for both the instituxion itself and its initiatives. Think of it as **DAO-as-a-Service** or **governance modules** that plug into existing instituxions or enable new ones to form.
 
-**Why instituxions want this:**
-
-**Current pain points:**
-- **Top-down budgeting is slow and disconnected:** Leadership makes allocation decisions without ground-level knowledge
-- **Employee/member engagement is low:** No meaningful voice in organizational decisions
-- **Innovation is stifled:** Good ideas die because there's no pathway from proposal to execution
-- **Coordination costs are high:** Endless meetings, email threads, spreadsheets to manage collective action
-- **Accountability is weak:** No transparent tracking of who decided what, outcomes of decisions, or learning from failures
-
-**What inixiative-based governance offers:**
-- **Structured participation:** Clear process from idea to execution, not just suggestion boxes
-- **Skin in the game:** People commit resources (time, budget, reputation), filtering serious proposals from noise
-- **Transparent execution:** Everyone can audit decision flows, fund releases, milestone completion
-- **Modular adoption:** Deploy for specific functions (budgeting, hiring, projects) without rebuilding entire org
-- **Reduced coordination friction:** Smart contracts handle escrow, voting, disbursement automatically
+**Why instituxions want this:** Top-down budgeting is disconnected from ground-level knowledge, engagement is low, and coordination costs are high. Initiative-based governance addresses these through structured participation, skin-in-the-game accountability, and transparent execution. Full pain-point analysis in the instituxional deployment section below.
 
 **Example use cases:**
 - **Corporations:** Internal innovation funds, departmental budgeting, working groups, equity & compensation
@@ -173,21 +159,9 @@ Organizations can use the platform not just for individual inixiatives, but as t
 - **Municipalities:** Participatory budgeting, community improvement projects, advisory councils, transparency dashboards
 - **DAOs & Crypto Projects:** Protocol governance, treasury management, contributor compensation, working group formation
 
-**Why build this after MVP:**
-
-Once we've proven that individual inixiatives work (MVP phase), instituxions become the natural next layer:
-
-1. **Proof of concept validated:** Inixiatives demonstrate the core mechanisms (escrow, governance, flow builder) work at small scale
-2. **Lifecycle management unlocked:** Instituxions need persistent governance, not just one-off projects - this is where advanced features like automatic sunset, renewal mechanisms, and nested hierarchies become necessary
-3. **Revenue diversification:** Enterprise subscriptions from instituxions fund platform development, reduce dependence on transaction fees from grassroots inixiatives
-4. **Network effects:** Employees exposed to inixiative governance at work bring it to their communities, neighborhoods, side projects → viral growth
-5. **Credibility:** "Google uses this for internal budgeting" legitimizes platform for skeptical adopters
-6. **Data & learning:** Instituxional deployments generate rich data on what governance mechanisms work in different contexts
-7. **Political protection:** When established instituxions use the platform, governments are less likely to shut it down (creates powerful constituency defending it)
-
 **The progression:** Prove inixiatives work (MVP) → Add instituxional governance layer (Fast Follow) → Instituxions spawn many inixiatives → Platform becomes infrastructure for both time-bounded projects and persistent organizations.
 
-**See Section 7.7 for full details on instituxional deployment models, revenue strategy, and implementation.**
+**See the instituxional deployment section below for full details on deployment models, revenue strategy, and rationale.**
 
 ### 7.2 Core Features (Minimum Viable)
 
@@ -396,7 +370,7 @@ Inspiration from web2 workflow builders (Zapier, n8n, etc.) applied to governanc
 - **Point-voting:** Allocate points to express preference intensity (convex costs discourage extremism)
 - **Quadratic voting:** Pay quadratically for additional votes on same issue
 - **Liquid democracy:** Delegate your votes to trusted domain experts, revocable anytime
-- **Cellular delegation:** Join Dunbar-bounded cells (50-150 people), cells select representatives hierarchically (Document 3, Section 6.8.3)
+- **Cellular delegation:** Join Dunbar-bounded cells (50-150 people), cells select representatives hierarchically (see Document 3)
 - **Hybrid:** Different mechanisms for different decision types (strategic decisions get broad vote, operational details delegated)
 
 **Decision types within initiatives:**
@@ -413,7 +387,7 @@ Inspiration from web2 workflow builders (Zapier, n8n, etc.) applied to governanc
 - **Technocratic:** Domain experts make operational decisions, community sets strategic direction
 - **Adaptive:** Governance mechanism can evolve via meta-vote
 
-**Safeguards (from Document 2, Section 4):**
+**Safeguards (from Document 2):**
 - **Lifecycle management:** Initiatives can sunset automatically if engagement drops
 - **Exit rights:** Participants can withdraw and reclaim proportional uncommitted funds
 - **Transparency:** All votes, fund flows, and decisions are public on-chain
@@ -423,7 +397,7 @@ Inspiration from web2 workflow builders (Zapier, n8n, etc.) applied to governanc
 
 **Problem:** Free-riders, lack of accountability, need to identify reliable contributors and initiatives
 
-**Solution:** Simple reputation system with strict safeguards (per Document 3, Section 6.5)
+**Solution:** Simple reputation system with strict safeguards (per Document 3)
 
 **What's tracked:**
 - **Initiatives created:** Did they reach funding threshold? Did they execute successfully?
@@ -431,7 +405,7 @@ Inspiration from web2 workflow builders (Zapier, n8n, etc.) applied to governanc
 - **Voting participation:** Engagement level within initiatives you've joined
 - **Skill verification:** Credentials, completed work, peer attestations
 
-**What's NOT tracked (per Section 4.9 - Resist Tyranny of Metrics):**
+**What's NOT tracked (per the Resist Tyranny of Metrics principle):**
 - Artistic merit, moral character, social bonds, wisdom
 - Political opinions or ideological alignment
 - Domains explicitly designated as "unmeasured commons"
@@ -445,13 +419,13 @@ Inspiration from web2 workflow builders (Zapier, n8n, etc.) applied to governanc
 **Safeguards against reputation tyranny:**
 - **Negative floor:** Reputation can't go below minimum (can't create permanent underclass)
 - **Decay over time:** Old negative marks fade (forgiveness mechanism)
-- **Bankruptcy option:** Nuclear reset available (per Document 3, Section 6.5)
+- **Bankruptcy option:** Nuclear reset available (per Document 3)
 - **Context-specific:** Reputation in one initiative doesn't automatically carry to others (prevents totalizing scores)
 - **Opt-out available:** Can participate without reputation tracking (trade trust multiplier for privacy)
 
-**Currency note:** The escrow system (Section 7.2.4) is **currency-agnostic**. Initiatives can pool ETH, USDC, DAI, or custom tokens. We provide the governance and escrow infrastructure; communities choose their currency.
+**Currency note:** The escrow system is **currency-agnostic**. Initiatives can pool ETH, USDC, DAI, or custom tokens. We provide the governance and escrow infrastructure; communities choose their currency.
 
-**The fiat vulnerability caveat:** While MVP supports fiat-backed stablecoins for ease of adoption, governance built on fiat rails inherits a structural weakness (inflation as wealth extraction via Cantillon Effect). Document 3 (Section 6.11A) explores energy-backed currencies for communities wanting immunity from monetary capture. MVP prioritizes adoption; advanced mechanisms can layer on later.
+**The fiat vulnerability caveat:** While MVP supports fiat-backed stablecoins for ease of adoption, governance built on fiat rails inherits a structural weakness (inflation as wealth extraction via Cantillon Effect). Document 3 explores energy-backed currencies for communities wanting immunity from monetary capture. MVP prioritizes adoption; advanced mechanisms can layer on later.
 
 ### 7.3 Technical Architecture
 
@@ -684,7 +658,7 @@ The platform supports two primary user journeys: **creating initiatives** and **
 - Success metrics: 200 daily bike trips (vs. 50 before)
 - Initiative marked complete, reputation boost for Alice and contractor
 
-### 7.6 What's NOT in MVP
+### 7.5 What's NOT in MVP
 
 Features reserved for later phases after proving the initiative-based cooperation layer:
 
@@ -717,14 +691,14 @@ Features reserved for later phases after proving the initiative-based cooperatio
 - AI governance assistants (proposal drafting, summarization, voting recommendations)
 - Formal verification of governance flows
 
-**Institutional features (see Section 7.6):**
+**Institutional features:**
 - White-label deployment for existing organizations
 - Enterprise integrations (HR systems, accounting, legal compliance)
 - Hybrid governance (traditional + on-chain)
 
 **Why not:** These are advanced features requiring the basic initiative platform to be proven first. We need real-world usage data, user feedback, and demonstrated demand before adding complexity. Build the foundation, prove it works, then layer sophistication.
 
-### 7.5 Success Metrics for MVP
+### 7.6 Success Metrics for MVP
 
 How we know if this is working:
 
@@ -901,7 +875,7 @@ Organizations can deploy initiative-style governance for specific internal funct
 **Goal:** Deploy minimal viable product focused on low-friction cooperation
 
 **Scope:**
-- Core features (Section 7.2): Initiative creation, escrow, flow builder, governance modules, reputation
+- Core features: Initiative creation, escrow, flow builder, governance modules, reputation
 - Web2 frontend + web3 backend
 - Deploy on Ethereum L2 (Optimism or Base)
 - Target: 50-200 pilot initiatives across diverse domains
@@ -944,7 +918,7 @@ Organizations can deploy initiative-style governance for specific internal funct
 **Goal:** Launch DAO-as-a-Service for organizations; add sophisticated mechanisms based on pilot learnings
 
 **New features (based on actual user needs):**
-- **Institutional deployment:** White-label, enterprise integrations, hybrid governance (Section 7.7)
+- **Institutional deployment:** White-label, enterprise integrations, hybrid governance
 - **Lifecycle management:** Automatic sunset, exponential review backoff, renewal mechanisms
 - **Subsidiarity engine:** Algorithmic escalation/de-escalation between initiative scales
 - **Long-horizon accountability:** Persistence payments for durable policies
@@ -1070,7 +1044,7 @@ Every governance system has failure modes. Acknowledging them is not weakness—
 
 ### 9.4 The Rubric Problem (Measurement Becomes Control)
 
-**Risk:** As detailed in Sections 2.7.7 and 3.9, whoever controls what gets measured controls behavior. Reputation systems become tools of oppression.
+**Risk:** Whoever controls what gets measured controls behavior. Reputation systems become tools of oppression.
 
 **Failure modes:**
 - Centralized scoring creates authoritarian control
@@ -1218,7 +1192,7 @@ The best we can do is:
 3. Maintain intellectual humility about what we can't predict
 4. Preserve exit rights (Hirschman: if you can't improve it, leave it)
 
-## 9. Conclusion
+## 10. Conclusion
 
 Societies fail because they lose the ability to cooperate. Elite classes hypertrophy, institutions ossify, competition saturates, and subsidiarity breaks down. The diagnosis is clear. The question is: what do we do about it?
 
@@ -1238,7 +1212,7 @@ Smart contracts and web3 technology enable cooperation mechanisms that were prev
 
 **Second, measurement humility.** We acknowledge the tyranny of metrics — that whoever controls the rubric controls the population, that prediction markets suffer from Goodhart's Law, that second-order effects matter. We build unmeasured commons into the architecture and preserve the right to opacity. Not everything valuable can or should be quantified.
 
-**Third, execution humility.** Section 7 catalogs the many ways this could fail: capture, gaming, overcomplexity, cultural mismatch, lack of adoption. We don't pretend these risks don't exist. We design structural mitigations and accept that some risks — eternal vigilance against capture, resistance to complexity growth — cannot be eliminated, only managed.
+**Third, execution humility.** The risk analysis above catalogs the many ways this could fail: capture, gaming, overcomplexity, cultural mismatch, lack of adoption. We don't pretend these risks don't exist. We design structural mitigations and accept that some risks — eternal vigilance against capture, resistance to complexity growth — cannot be eliminated, only managed.
 
 **The opportunity is this:** For the first time in history, we can make cooperation as cheap as communication. The transaction costs of collective action have plummeted. What used to require lawyers, bank accounts, bylaws, and years of organizing can now happen with smart contracts, templates, and a weekend. This changes what's possible.
 
