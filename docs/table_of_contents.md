@@ -135,6 +135,7 @@ Any shorter treatment would either oversimplify the problem or fail to establish
 
 #### Section 3: Design Frameworks & Methodologies
 - 3.1 Evolutionary Light Cones: What Can Mechanisms See?
+- 3.1b The Peacock Feather Problem: Costly Signaling as a Better Model Than Market Economics
 - 3.2 Incentive Design: Rules Shape Behavior More Than Leaders Do
 - 3.3 Complex Systems & Emergence: Designing for the Unpredictable
 - 3.4 Engineering Mindset: Build, Measure, Iterate
