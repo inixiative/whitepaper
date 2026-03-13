@@ -3076,9 +3076,3 @@ The Suez purchase had a kernel: two men coordinating in secret. But the reason i
 
 Russia's post-Soviet collapse had a kernel: Shleifer and Hay actually conspiring for personal gain. But the mass adherence — IMF continuing to lend, academia staying silent, the U.S. government looking away — required no coordination. The incentive structure made silence individually optimal.
 
-This maps to biology. Cancer starts with a small number of mutated cells — the kernel. Metastasis happens because the surrounding tissue environment fails to resist: immune signaling has degraded enough that defection propagates unchecked. The tumor seeds; the failed immune system scales.
-
-The operational implication: if conspiracy seeds and convergency scales, you need **immune architecture** that addresses both layers. Mechanisms that make the seeding costly — distributed audit, transparency, accountability — *and* mechanisms that prevent the scaling — lifecycle management, subsidiarity, defection constraints. You address the kernel through detection. You address the mass through infrastructure that changes what the gradient selects for.
-
-Not revolution (remove the villains). Not fatalism (the structure is inevitable). Infrastructure that makes conspiracy expensive to seed and convergency difficult to scale. An immune system for the cooperation pattern.
-
