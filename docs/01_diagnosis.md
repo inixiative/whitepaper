@@ -2902,7 +2902,7 @@ The cover story matters. It provides legitimacy, a shared vocabulary, a flag. Bu
 
 Convergency explains how coordination happens without conspiracy. But it doesn't explain why the ideas converged upon are specifically harmful. At some point, there had to be no consensus—a chaos of competing ideas. How does the harmful one win?
 
-Six mechanisms operate simultaneously:
+Seven mechanisms operate simultaneously:
 
 1. **Selection pressure for bad ideas:** Ideas that benefit elites get amplified; ideas that threaten elites get suppressed. Over time, the idea ecosystem becomes dominated by elite-serving ideas. Doesn't require conspiracy—just differential survival based on who funds and platforms them.
 
@@ -2916,11 +2916,13 @@ Six mechanisms operate simultaneously:
 
 6. **Actual coordination:** Some ideas are deliberately seeded. Foundations, think tanks, academia serve as distribution networks. But this just moves the question back: where did the seeders get the ideas? The answer is mechanisms 1-5. Explicit coordination amplifies what selection pressure already favors.
 
-The convergency framing: all six mechanisms operate simultaneously. No single source. But the result looks coordinated because selection pressure + insulation + signaling all push the same direction. The ideas that survive aren't random—they're the ones that serve extraction while sounding virtuous.
+7. **Reproductive competition accumulation:** Once a society moves past survival, excess resources flow into intersexual competition. Like peacocks accumulating ever-longer feathers, stable societies accumulate ever-costlier competitive burdens—credentials, beliefs, parenting norms, consumption standards—and the accumulation is directional: each generation inherits the previous generation's signaling landscape and must match or exceed it. The burdens stick because they work as signals; they compound because each cohort must out-signal the last. The convergency is toward ever-more-elaborate peacock feathers, and the feathers are indistinguishable from "culture."
+
+The convergency framing: all seven mechanisms operate simultaneously. No single source. But the result looks coordinated because selection pressure + insulation + signaling all push the same direction. The ideas that survive aren't random—they're the ones that serve extraction while sounding virtuous.
 
 **A Concrete Illustration: Environmental Pollution**
 
-Environmental pollution shows all six mechanisms operating at once. Industrial production externalizes pollution costs onto surrounding populations—a straightforward principal-agent failure. But the same pollutants (PFAS, phthalates, BPA, atrazine, microplastics) are documented endocrine disruptors with measurable effects on sperm counts, testosterone levels, ovarian function, and pregnancy outcomes. The class stratification of exposure is real: working-class populations have less access to filtered water, organic food, and low-chemical environments; elites can afford to minimize exposure. The net effect is differential fertility suppression by class—a brake applied more heavily to those least able to afford alternatives.
+Environmental pollution shows all seven mechanisms operating at once. Industrial production externalizes pollution costs onto surrounding populations—a straightforward principal-agent failure. But the same pollutants (PFAS, phthalates, BPA, atrazine, microplastics) are documented endocrine disruptors with measurable effects on sperm counts, testosterone levels, ovarian function, and pregnancy outcomes. The class stratification of exposure is real: working-class populations have less access to filtered water, organic food, and low-chemical environments; elites can afford to minimize exposure. The net effect is differential fertility suppression by class—a brake applied more heavily to those least able to afford alternatives.
 
 And the same exposures that suppress fertility also generate chronic illness, which activates the revolutionary sensor, which generates left-leaning voters, which selects for politicians with electoral incentive to perpetuate the exposures rather than address root causes. Three selection pressures converging on one output: cost externalization, differential fertility suppression, and electorally useful health decline.
 
