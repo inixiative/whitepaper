@@ -3072,3 +3072,9 @@ This whitepaper argues the only escape is the 25% Path: not through a "reset" of
 
 The alternative is the 75% Path. And this time, with extinction-capable technology, the 75% Path might be terminal.
 
+**Conspiracy Seeds, Convergency Scales**
+
+A final synthesis on the relationship between deliberate coordination and structural selection — because the debate generates more heat than light, and both sides are partially right.
+
+Conspiracy is real. Convergency is real. The synthesis: **conspiracy explains the nucleus; convergency explains the mass.** A small number of actors deliberately coordinate to seed an extraction pattern. The institutional environment then selects for everyone else to fall in line — not because they are in on it, but because the incentive gradient rewards compliance and punishes resistance. The conspiracy provides the initial direction; convergency provides the mass adherence that makes it look like a centuries-spanning plan.
+
