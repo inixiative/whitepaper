@@ -2397,6 +2397,39 @@ The only valid measure of governance quality is whether the people governed by i
 - Do they voluntarily remain participants rather than exiting?
 - Does the community thrive over years and decades?
 
+**The Putnam Methodology: Why Subjective Measurement Works**
+
+Robert Putnam's *Making Democracy Work* (1993) studied why identical democratic institutions produced dramatically different outcomes across Italian regions. Northern regions had high institutional performance; southern regions had low—despite sharing the same formal constitutional structure.
+
+His measurement instrument was entirely subjective: civic culture surveys asking citizens whether they trusted institutions, whether they felt political efficacy, whether they believed participation mattered. These subjective scores predicted actual institutional performance better than any objective economic or demographic metric.
+
+The implication is fundamental: democratic legitimacy is not a proxy for something more real. It *is* the real thing. Institutions that people believe in function. Institutions that people don't believe in don't—regardless of formal design.
+
+**The Ungameable Metric**
+
+Objective endpoints get captured. If a governance target is "X% of group Y in position Z," the system optimizes the metric without improving underlying conditions. Administrators learn to fill the number while the substance goes unaddressed. This is the failure mode of every bureaucratic measurement regime.
+
+Subjective legitimacy surveys resist this. You cannot optimize "people feel the system is fair" without actually making the system fairer. The measurement and the condition being measured are the same thing.
+
+A Putnam-style legitimacy instrument:
+- *Do you feel this system treats people fairly and equitably?*
+- *Do you feel like everyone has a genuine opportunity to participate and be heard?*
+- *Do you feel this system responds to feedback?*
+- *Do you feel like you have real recourse if you disagree with a decision?*
+- *Do you feel like your participation actually influences outcomes?*
+
+These questions require supermajority positive response—not simple majority. Governance that works for 51% while the other 49% feel unheard has not achieved legitimacy; it has merely achieved temporary control.
+
+**Legitimacy Threshold as Dissolution Trigger**
+
+If a community's legitimacy score falls below a configurable threshold—sustained over a measurement window long enough to filter noise—the system triggers automatic remediation or dissolution. Communities configure:
+
+- **The threshold:** What score constitutes failed legitimacy (e.g., fewer than two-thirds of participants reporting positive felt legitimacy across all dimensions)
+- **The window:** How long below threshold before trigger activates, preventing overreaction to temporary disruption
+- **The consequence:** Remediation mode (forced governance review, fresh elections, mechanism audit) vs. full dissolution with asset redistribution per pre-agreed rules
+
+This operationalizes the sunset principle already built into the approval system: governance structures that lose the felt confidence of their members cannot indefinitely self-perpetuate. The dissolution trigger is not a punishment. It is recognition that legitimacy is the precondition of function—a system that has lost legitimacy has already ceased to be a governance system in any meaningful sense. The formal dissolution just makes the reality legible.
+
 #### 6.15.3 Communities Mix and Match
 
 The platform provides sliders and dials:
