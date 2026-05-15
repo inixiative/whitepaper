@@ -2004,7 +2004,7 @@ These mechanisms don't eliminate capture risk—nothing can—but they shift str
 
 **Epistemic status:** Speculative. No large-scale implementation. The concept and its mechanism design are presented as an exploratory idea, not a blueprint. Detailed implementation would require a separate technical paper.
 
-**The problem:** Fiat currency is a structural capture vector. Even with perfect governance mechanisms, monetary debasement remains available to elites. The Cantillon Effect ensures those closest to money creation extract purchasing power from those furthest away — wage earners and savers. Perfect governance + fiat currency = governance with a built-in wealth pump.
+**The problem:** Fiat currency is a structural capture vector. Even with perfect governance mechanisms, monetary debasement remains available to elites. As Ferguson documents in *The Ascent of Money*, currency creation was historically invented precisely because taxation was politically unpopular — rulers learned to print what they couldn't levy. The Cantillon Effect ensures those closest to money creation extract purchasing power from those furthest away — wage earners and savers. Perfect governance + fiat currency = governance with a built-in wealth pump.
 
 **The proposal:** Back community tokens with **energy rather than fiat or scarce commodities**. A kilowatt-hour (kWh) token represents a fixed unit of energy produced.
 
