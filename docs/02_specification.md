@@ -590,9 +590,75 @@ The peacock feather escalation drives this: as the costly signal inflates (more 
 
 4. **The Weinstein gap.** The deepest problem remains Weinstein's: we do not have a satisfying explanation for why females select for conspicuously fitness-reducing traits in the first place. The models describe stable equilibria but not why organisms enter them. Penn and Szamado's critique compounds this — if the handicap principle is formally incorrect, then even the standard explanation for *maintenance* of costly signals is weaker than assumed. The phenomenon persists across species, across cultures, across millennia. The formal models for why it exists are contested. Until evolutionary biology resolves this — if it can — the cultural application inherits the same explanatory gap. We are applying a pattern that demonstrably exists to a domain where it demonstrably fits, while acknowledging that the pattern itself is not fully understood.
 
-**Why this matters for governance.** If cultural behavior operates substantially on Zahavian logic rather than market logic, then interventions designed around rational choice theory will systematically fail. You cannot fix costly signaling dynamics by providing better information (the agents aren't misinformed), by adjusting incentives at the margin (the signal IS the incentive), or by appealing to outcomes (outcomes aren't what's being selected for). You would need to change what is being selected for — which means changing the signaling environment itself, not the choices within it. This connects directly to the cooperation radius framework: the signaling substrate determines behavior, not the arguments about behavior. Section 3.2's incentive design must account for the possibility that agents are optimizing for costly display, not fitness — and design environments where fitness-tracking signals dominate status-tracking signals.
+**Why this matters for governance.** If cultural behavior operates substantially on Zahavian logic rather than market logic, then interventions designed around rational choice theory will systematically fail. You cannot fix costly signaling dynamics by providing better information (the agents aren't misinformed), by adjusting incentives at the margin (the signal IS the incentive), or by appealing to outcomes (outcomes aren't what's being selected for). You would need to change what is being selected for — which means changing the signaling environment itself, not the choices within it. This connects directly to the cooperation radius framework: the signaling substrate determines behavior, not the arguments about behavior. Section 3.3's incentive design must account for the possibility that agents are optimizing for costly display, not fitness — and design environments where fitness-tracking signals dominate status-tracking signals.
 
-### 3.2 Incentive Design: Rules Shape Behavior More Than Leaders Do
+### 3.2 Chemistry Thinking: Activation Energy, Polymorphs, and the Limits of Reform
+
+**Institutions exist in metastable configurations.** A given institutional architecture — a university's promotion criteria, a regulatory body's approval thresholds, a religion's interpretive consensus — can be locally stable for centuries while being globally suboptimal. The reason is the same reason a chemical system can sit indefinitely in a high-energy state: the barrier to escape is bigger than any individual perturbation. This is **activation energy**, and together with the related phenomenon of **polymorph templating** it is the right frame for understanding why institutional reform almost always fails — and what the alternative actually is.
+
+**These are not chemistry metaphors.** Section 3.1 established the deeper claim — articulated through Michael Levin's bioelectricity work but applying far beyond it — that the patterns governing coordination across scales are not unique to biology, and not unique to any particular substrate. Systems with state, signaling, and feedback exhibit the same structural features whether they are chemical, biological, cognitive, or social. There is no separate metaphysics of "life" or "society"; there is a continuum of complexity in which the same patterns recur, instantiated in different materials. Activation energy and polymorph templating are claims of this kind. They are described most cleanly in chemistry because chemistry is where they were first formalized, but they are not chemical phenomena. They are descriptions of what happens in any system whose state-changes have energy barriers and whose configurations can propagate into adjacent substrates. Crystals do this. Proteins do this. Memories do this. Institutions do this. The work below applies the patterns; the chemistry is just where we have the cleanest names.
+
+**What activation energy is.** Imagine a ball in a shallow valley, separated from a deeper valley by a peak. To move the ball to the deeper valley — the more stable resting place — you first have to lift it over the peak. The peak height is the *activation energy*: the minimum input required to leave the current state. If every push you can apply is smaller than the peak height, the ball stays where it is forever, even though the deeper valley would be globally preferable. The system isn't optimized; it's stuck. In chemistry this is what determines whether reactions proceed: two molecules might form a more stable compound if they rearranged, but rearrangement costs energy first, and if the barrier exceeds what is available from heat or catalyst or light, the molecules sit unreacted indefinitely.
+
+Reformers within an institution face the same structural problem. The cost of attempting reform exceeds what any individual reformer can pay. Defection from the existing equilibrium is punished by the equilibrium's enforcement mechanisms — peer pressure, resource gatekeeping, formal sanction, reputation destruction — and the punishment falls on the reformer, not on the institution. This is not a moral failure of the reformer or the institution. It is the predictable behavior of any system whose enforcement mechanisms are doing exactly what enforcement mechanisms are supposed to do.
+
+This explains a feature of institutional decay that purely behavioral or rational-choice models do not: **why the cost of reform compounds over time.** Edelson's Law (Section 1.0) — that institutional fixes get exponentially more expensive the longer dysfunction is allowed to compound — is a direct consequence of activation-energy logic. Each generation of accumulated process, vested interest, and substrate adaptation raises the barrier to escape. By the time the dysfunction is severe enough to motivate widespread reform energy, the activation barrier is already too high for that energy to clear.
+
+**Polymorphs: when the same molecule has multiple stable configurations.** Activation energy alone tells us systems get stuck. The deeper insight comes from a specific phenomenon: chemical compounds can crystallize into multiple distinct geometric configurations — *polymorphs* — composed of identical molecules but differing in how those molecules pack together. Polymorphs differ in melting point, solubility, mechanical properties, and biological activity. The same drug, in different polymorph form, is a different drug.
+
+In 1998 Abbott Laboratories was selling Ritonavir, one of the first HIV protease inhibitors, formulated using a metastable crystal form ("Form I") with the right solubility profile to be absorbed orally. Mid-production, a previously-unknown more thermodynamically stable polymorph ("Form II") spontaneously appeared in their facilities. Form II had roughly half the solubility of Form I, which meant the drug stopped working. The molecule was unchanged; the crystal architecture had shifted into a configuration the body could not extract.
+
+Three findings made this case canonical:
+
+1. **Form II templated Form I.** A single seed crystal of Form II, contacting a Form I batch, converted the batch. Activation energy is high *for individual molecules in isolation* and near-zero *given a template*. Templates eliminate the barrier.
+2. **Once Form II appeared anywhere, it propagated everywhere.** Abbott's labs became contaminated. Even with new equipment, sterile conditions, and fresh starting material, Form II kept reappearing. Crystal seeds carry on equipment, on technicians' clothing, in the air of the production facility. They are not eliminated by sterilization.
+3. **Form I became impossible to manufacture at scale.** This is the **disappearing polymorph** phenomenon. Once nature finds a more stable configuration in a substrate, the original metastable configuration may become functionally unrecoverable — anywhere, indefinitely.
+
+Abbott pulled Norvir, reformulated as a different delivery system, and never recovered Form I production. The cost was several hundred million dollars and a year of HIV-positive patients without their drug.
+
+**Institutions are polymorphs.** The chemistry analogy is structural, not metaphorical. An institution's *substrate* is its people, norms, expectations, processes, and accumulated procedural memory — the carrier of the institutional configuration. The institution's *form* is the operating equilibrium that emerges from that substrate. The same substrate (humans, with the same evolved psychology) can crystallize into very different institutional forms: a university that selects for disagreeable competence vs. a university that selects for ideological conformity; a regulatory body that polices fraud vs. a regulatory body that captures rents; a religion that argues vs. a religion that ossifies; a market that prices accurately vs. a market that rents-extracts.
+
+The polymorph frame predicts four things that the activation-energy frame alone does not:
+
+1. **Templating spreads bad forms.** A single captured department in a single university templates the next hire, who templates the next, until the institution is uniformly the new form. Activation energy *between individuals* (each person's belief change) is high; activation energy *given a captured-institution template* is low. This is why ideological capture sometimes flips an organization in 5–10 years rather than 50.
+
+2. **Templating spreads good forms too.** Toyota's production system propagated to other manufacturers because once one factory ran it, the proof was visible and the seed crystals — operators, engineers, written process — were portable. Singapore's anti-corruption regime is templating slowly into the Gulf states. The mechanism is symmetrical; whether it produces functional or dysfunctional institutions depends on which form has the seed crystals available at the moment of substrate contact.
+
+3. **Restoration is mostly impossible.** This is the dark implication. Once a more locally-stable institutional polymorph crystallizes in a substrate, the original form may be unrecoverable. You cannot rebuild 1950s American academic culture, or pre-Ghazali Islamic intellectual openness, or pre-1960s mainline Protestant institutional Christianity, by trying. The substrate has been templated. New entrants are templated by the institution they enter. Reformers carrying the old template get expelled or re-templated. The Form I is gone, not just suppressed. This is why every "return to" movement — Restorationist, Salafi, classical-liberal, traditionalist Catholic — bottoms out at the same wall: there is no substrate left in which to grow the original form.
+
+4. **The remaining strategies are: build a different polymorph, maintain boundaries, or wait for crystal disruption.** If you cannot reform Form II back to Form I, your options collapse to: (a) construct a new Form III in a substrate that has not yet been contaminated — crypto's early years, homeschool networks, intentional communities, network states, parallel-civic ecosystems; (b) maintain boundaries against contamination from the dominant form — the Amish/Hutterite case demonstrates this requires explicit, sustained work and isolates the form from the broader civilization; or (c) wait until the existing crystal shatters under external stress and have your alternative ready at the moment of disruption.
+
+**The Islamic case as canonical.** The clearest historical instance of polymorph capture is the closing of the Islamic Golden Age. Between roughly 750 and 1100 CE, the Abbasid intellectual ecosystem was dynamic, internally argumentative, and producing world-leading work in mathematics, astronomy, medicine, and philosophy. Mu'tazilite rationalism, falsafa (Avicenna, Averroes, al-Farabi), and an early historical-critical method applied to *hadith* coexisted with orthodoxy. Then a series of barrier-raising events crystallized a different form: al-Ghazali's *Incoherence of the Philosophers* (~1095) attacked Aristotelian rationalism and won the doctrinal field; the Ash'arite victory over Mu'tazilites hardened the doctrine that the Quran is uncreated and eternal, making historical-critical analysis structurally impossible; the formal "closing of the gates of *ijtihad*" declared that future scholarship would be interpretation of past scholarship, not new reasoning; the Mongol sack of Baghdad (1258) physically destroyed the political and intellectual core; and apostasy laws hardened from social to capital sanction.
+
+The activation energy to reform from inside became prohibitive and has remained so for nine centuries. Every attempted reform — Ibn Taymiyyah's restorationism (which paradoxically templated more strongly toward fundamentalism), Sufi alternatives, Muhammad Abduh's modernism, contemporary Quranist or reformist voices like Mustafa Akyol or the Saudi-state-backed reformism under MBS — has been crushed, co-opted, or remained marginal. The local equilibrium snaps back. Compare Christianity, which had multiple Reformations, internal historical-critical methods that survived, and an enlightenment without collapsing the religion; and Judaism, whose rabbinic tradition is *literally built on argument* and whose Talmud is a record of unresolved disputes treated as legitimate. Different polymorphs, different activation energies, different templating dynamics — and different civilizational trajectories over a thousand years. The molecules (humans) are the same. The crystal architecture is what determined the outcome.
+
+**The pattern recurs.** Late Imperial China's failure to industrialize despite obvious external pressure; Tokugawa Japan's lock until Meiji forced opening; Byzantine theology after Iconoclasm; Soviet command economy; modern Western elite institutional capture. In each case, the substrate is fine — it is the same humans the institution had during its functional phase. What changed was the polymorph the substrate crystallized into, and the templating dynamics that prevent reversion.
+
+**Why this matters for governance design.** The activation-energy + polymorph frame inverts most reform thinking. The standard mode is to argue that existing institutions can be persuaded into better behavior through better arguments, better personnel, better incentives, better leadership. The chemistry frame suggests this is wrong about the dynamics. Argument does not clear activation energy. Better people get re-templated by the form they enter. Better incentives within an existing institutional polymorph get absorbed into the existing equilibrium without changing it. The personnel trap (Section 1.4) is the political-philosophy version of this same observation: every reform movement of the last 250 years has tried to fix governance by changing who holds power; the substructure remained, and so the dynamics remained.
+
+The actually-available design strategy is closer to:
+
+- **Lower activation energy for course correction.** Build mechanisms that make institutional state changes cheap. Lifecycle defaults (automatic sunset rather than indefinite operation), modular composition (replace components without rebuilding the whole), exit-as-default (keep the cost of leaving any specific institutional configuration low), and continuous feedback over periodic binary judgment. This is the activation-energy reduction strategy applied to institutional design. Most of the mechanisms catalogued in Document 3 are evaluated by this criterion: do they make subsequent correction cheap?
+
+- **Build templates that propagate.** Construct working examples of the desired institutional form in low-stakes contexts where the existing form has not yet templated. Make the template portable — codified, replicable, transferable across substrates. Accept that the path to institutional change is through propagation of working alternatives, not reform of incumbents. The strategic premise of this paper, stated honestly: the existing institutional polymorph cannot be reformed; we are building Form III seed crystals to be available when the existing system fails under its own weight or external shock.
+
+- **Boundary maintenance is a first-class design concern.** A new institutional form, sitting next to a dominant existing form, will be templated by it unless explicit boundary maintenance is sustained. Galt's Gulch — Ayn Rand's hidden valley in *Atlas Shrugged*, where the productive class withdraws from a collapsing society to build a parallel civilization — is not a moral fantasy. It is a chemistry requirement. The mechanisms for boundary maintenance — exit rights, jurisdictional separation, legal autonomy, economic independence, identity isolation — are not afterthoughts. They are what makes Form III survivable in the presence of Form II contamination pressure. This is part of why Document 2's specifications include scale-dependent liability and the right to self-curation, and why Document 3's mechanisms include subsidiarity routing and jurisdictional overlap resolution. Without boundaries, propagation works in the wrong direction.
+
+- **Be ready for crystal disruption.** Existing polymorphs persist until external stress shatters them. The likely path of civilizational change is not gradual reform but punctuated transition: a long period of accumulating dysfunction, an external shock or internal collapse that clears the activation-energy barrier, and a rapid replacement by whatever alternative form is available at that moment. Meiji Japan had Western technology ready; post-WWII Germany had constitutional templates ready; post-Soviet states had market institutions ready (with mixed substrate compatibility). The strategic implication: the work is to *have the alternative available* at the moment of disruption, not to expect adoption-by-persuasion in the current equilibrium.
+
+**The limits of the model.** Honesty requires acknowledging where this frame bottoms out:
+
+1. **Crystals follow strict thermodynamic rules; institutions have agency, novelty, and external shocks.** The polymorph metaphor is structural, not deterministic. Some institutions DO restore — the early Catholic Church reformed multiple times; Meiji Japan restored a particular cultural template; Singapore's PAP rebuilt institutions on the wreckage of colonial governance. The frame describes typical dynamics, not iron laws.
+
+2. **The substrate of institutions is more variable than the substrate of crystals.** The same humans can be calibrated by different signaling environments to support very different institutional forms. This is the hopeful version: substrate change is possible — slow, generational, requires sustained signal change — so the disappearing-polymorph problem may be more recoverable in social systems than in chemistry. The cooperation-radius framework (Section 1.5) is partly a theory of how this signaling change can be engineered.
+
+3. **Templating speed varies.** Some institutional forms propagate slowly (centuries — feudalism, monasticism); some propagate quickly (decades — woke ideology, command economies). The factors that determine speed — network density, communication infrastructure, ideological coherence, status-seeking dynamics — are not fully formalized, and predictions about specific propagation rates are weaker than predictions about direction.
+
+4. **The frame can be over-deterministic.** "You can't reform that institution" is a true claim about most cases and a self-fulfilling cope in some. The discipline required is to apply the frame to evaluate strategies on their merits, not to license abandonment of every reform effort by default. Particularly: the existence of an external shock or substrate-level signal change can sometimes reopen possibilities the frame would have ruled out.
+
+**Connection to the rest of this section.** The biological thinking established above (3.0–3.1c) tells us *what kinds of cooperation are possible* given evolved psychology. The chemistry thinking developed here tells us *what kinds of transitions between institutional configurations are possible* given the substrate-templating dynamics of those configurations. The remaining lenses — incentive design (3.3), complex systems and emergence (3.4), engineering mindset (3.5), problem-space navigation (3.6), dialectic design (3.7), friction as information (3.8), tautology as clarity (3.9), and markets (3.10) — build on both. The mechanisms catalogued in Document 3 are evaluated through this combined frame: does the mechanism *lower* activation energy for course correction? Does it *propagate* by templating, or does it require central mandate to replicate? Is it constructed on uncontaminated substrate, or is it Form II in disguise? These are the questions chemistry thinking supplies, and they are load-bearing for the rest of the design work.
+
+### 3.3 Incentive Design: Rules Shape Behavior More Than Leaders Do
 
 Most political discourse focuses on *who* should have power (which party, which leader, which ideology) or *what* policies to enact (more spending or less, regulation or freedom). Mechanism design asks a more fundamental question: **what rules make good outcomes structurally likely regardless of who's in charge?**
 
@@ -663,7 +729,7 @@ Alignment is not a binary state you achieve and lock in. It's a **dynamic equili
 
 This is the incentive design framing—a lens for understanding why structure shapes behavior, why moralizing fails, and why alignment is a continuous challenge rather than a solved problem.
 
-### 3.3 Complex Systems & Emergence: Designing for the Unpredictable
+### 3.4 Complex Systems & Emergence: Designing for the Unpredictable
 
 Governance systems are complex adaptive systems. Simple rules interact to produce emergent behaviors that cannot be predicted from the rules themselves. Thousands of individual decisions, each locally rational, aggregate into patterns no central planner designed and no single actor intended. Markets produce prices without price-setters. Cities develop neighborhoods without urban planners. Languages evolve grammar without linguists. The order emerges from interaction, not imposition.
 
@@ -715,7 +781,7 @@ The goal is not to predict and control emergent behavior but to provide an envir
 
 This requires accepting that different communities will converge on different solutions. There is no universal optimal governance structure because contexts differ, values differ, and emergence produces path-dependent outcomes. Robust mechanisms must work across a range of contexts and allow evolutionary search to find local optima.
 
-### 3.4 Engineering Mindset: Build, Measure, Iterate
+### 3.5 Engineering Mindset: Build, Measure, Iterate
 
 **We Are Recursive Tool Makers:** Humans are not just tool users—we are the species that makes tools to make better tools. We invented fire, then invented kilns to control fire, then invented metallurgy to use kilns to make better tools. We invented writing, then invented printing to scale writing, then invented computers to automate printing. Each layer enables the next. Governance is no different: we invented coordination technologies (tribes, laws, markets, bureaucracies) and can invent meta-technologies to make better coordination technologies. This whitepaper proposes exactly that—tools for making governance tools, infrastructure for experimenting with governance infrastructure.
 
@@ -763,7 +829,7 @@ The engineering mindset is fundamentally empirical. You build, you measure, you 
 
 This isn't rejecting theory—mechanism design and game theory inform what to build. But theory guides experimentation; it doesn't replace it. The goal is theories that survive contact with reality, refined through iteration rather than protecting them from falsification through unfalsifiability.
 
-### 3.5 Problem Space Navigation: Search, Don't Solve
+### 3.6 Problem Space Navigation: Search, Don't Solve
 
 **"Doubt is not a pleasant condition, but certainty is absurd."** — Voltaire (Letter to Frederick II, 1767)
 
@@ -801,7 +867,7 @@ Rugged landscapes demand search strategies beyond hill-climbing. Modularity enab
 
 **Competitive epistemology:** This framework doesn't need to be complete—it needs to outperform alternatives. The test is competitive, not absolute. We're not claiming to have solved governance; we're aiming for a more useful map than left/right framing or single-discipline analysis. The current maps are failing visibly. In complex systems, optimizing search *is* the optimal strategy. Evolution is search—variation, selection, retention—and it works.
 
-### 3.6 Dialectic Design: Optimization Under Constraint
+### 3.7 Dialectic Design: Optimization Under Constraint
 
 A **dialectic** is a tension between opposing forces that cannot be permanently resolved—only navigated. Hegel formalized this as thesis, antithesis, synthesis: opposing ideas generate conflict, which produces a new synthesis incorporating elements of both. But synthesis isn't final—it becomes a new thesis, generating new opposition. The process never terminates.
 
@@ -832,7 +898,7 @@ Governance operates in a space of **bounded dialectics**—dynamic equilibrium b
 
 **Why this matters:** The principles in this specification will often be in tension by design. This isn't a bug—it's recognition that governance has no optimal point, only viable ranges. The goal is not solving tensions but navigating them dynamically as conditions change.
 
-### 3.7 Friction as Information: Desire Paths and Coordination Costs
+### 3.8 Friction as Information: Desire Paths and Coordination Costs
 
 **Desire paths** are the trails worn into grass where people actually walk—ignoring the paved paths architects designed. They reveal where friction defeats intent. If people aren't doing the thing you designed, maybe the design is fighting human nature instead of working with it.
 
@@ -848,7 +914,7 @@ Governance operates in a space of **bounded dialectics**—dynamic equilibrium b
 
 **The principle:** Observe where friction accumulates. Friction is information about where design fights behavior. Design with the grain of human cognition and social dynamics, not against it.
 
-### 3.8 Tautology as Clarity
+### 3.9 Tautology as Clarity
 
 **What is a tautology?** A statement true by definition. "All bachelors are unmarried" can't be false—that's what the words mean. Tautologies don't tell you anything new about the world; they clarify what you're already committed to by using certain concepts. They're often dismissed as trivially obvious.
 
@@ -884,7 +950,7 @@ Postmodern critical theory reduces all social phenomena to power dynamics—ever
 
 **The design implication:** The platform doesn't prescribe which configuration is correct. It enables the search process that finds configurations adequate to constraints—at each relevant scale, for each community's circumstances, within each population's actual capacity. Where adequate configurations have historically been found, civilization grew. Where they couldn't be found, it didn't. The platform replicates a process that demonstrably works, under novel constraints.
 
-### 3.9 Markets: What They Are, What They're For, What They Need
+### 3.10 Markets: What They Are, What They're For, What They Need
 
 **What is a market?**
 
@@ -2607,6 +2673,50 @@ The same logic applies to reproductive viability. The ISC mechanism is structura
 - **Housing and spatial design.** Document 3 documents the density sensor mechanism: small-unit, high-density housing triggers competitive saturation biology that suppresses fertility regardless of wealth. Reproductive viability requires spatial design that avoids triggering this sensor.
 
 - **Avoid coercion.** These mechanisms operate through incentive correction, not coercion. The goal is not to mandate reproduction but to stop inadvertently penalizing it and to correct externalities that the market cannot self-correct.
+
+### 4.21 Distinguish Care from Autonomy: Substrate-Aware Institutional Design
+
+What gets called "feminism" bundles two distinct traditions — articulated by Mary Harrington (with Erika Bachiochi and Abigail Favale).
+
+**Care** recognizes that women's lives are structurally different because of reproduction, embodiment, and dependence-relations. It builds institutions that protect women's distinctive interests *given* the asymmetry: motherhood-compatible work, multigenerational community, family-supporting economic policy. Compatible with the substrate analysis in §1.4.
+
+**Autonomy** treats women as default-men with reproductive equipment that is ideally optional. Demands equal participation in male-coded individual-competition institutions on identical terms. Technological precondition: reliable contraception — without it, embodiment forces the interdependence the Autonomy program denies. The institutional templating analyzed in §3.2 is the Autonomy strand's victory.
+
+The bundling matters: one word carries both functions, so attacking the Autonomy override appears to attack legitimate autonomy protections. This is §4.17A applied to the most consequential bundled concept in contemporary politics.
+
+**Requirement:** Distinguish Care from Autonomy and protect both in their proper domains.
+
+- **Care institutions are first-class infrastructure** — family formation, motherhood, multigenerational community, neighborhood-scale interdependence — supported as deliberately as the Autonomy economy.
+- **Legitimate autonomy protections remain non-negotiable** — legal personhood, property, contract, voting, professional access. Not at issue, not threatened by the Care critique.
+- **Unbundle the vocabulary.** Without distinguishing the two, defending motherhood reads as opposing women's rights — the false dichotomy that has kept Care politically homeless.
+- **Track Bio-Libertarianism as the broader category.** The Autonomy strand is one branch of a wider transhumanist program that uses technology to override biological constraint (feminism via the Pill, transgenderism via hormones, surrogacy via gestational outsourcing). Distinguish substrate-aware Care from substrate-erasing Bio-Libertarianism across all these domains.
+- **Evaluate by distributional consequences.** The Autonomy program reliably produces a high-status-female / low-status-female extraction asymmetry. Stated intent does not matter; outputs do.
+
+This is the precondition for §4.20 (no policy corrects fertility collapse without rebuilding Care infrastructure) and the constructive prescription following from §3.2's chemistry frame.
+
+### 4.22 Sustainable Equilibrium for Women's Roles
+
+The reproductive role is the central civilizational contribution women make. Without it the civilization terminates regardless of every other governance virtue (§4.20). Pre-1900s arrangements over-constrained women in this role — no exit from abuse, no property, no education, no legal personhood independent of household role — and produced legitimate grievances. The Autonomy-program over-corrected: women reframed as interchangeable labor units, reproduction demoted to one-of-many-options, the institutions templated into Form II (§3.2) without self-correction capacity. The empirical signature is collapse: fertility below replacement across the developed world, fatherlessness at historic highs, deteriorated child outcomes, record female unhappiness across cohorts.
+
+Society having no preference is not neutrality — it is a position. The current "neutral" stance is in fact a state-corporate preference for maximum female workforce participation: more taxpayers, more consumers, more labor supply driving wages downward, more atomized households unable to resist institutional capture. This is the arms race producing the unhappiness. The honest alternative is for society to acknowledge that it has a directional preference and structure accordingly.
+
+**Requirement:** Society publicly prefers the reproductive role within intact families. Alternative roles are tolerated but not privileged. The privileged form's defaults make it the rational choice for most women across the life-course.
+
+- **Society's preference is stated, not pretended-away.** Blank-slate role-agnosticism is not neutral; it favors whichever role market and state interests prefer, which is currently atomized labor-force participation. A cooperative society explicitly prefers reproduction-within-intact-family and structures incentives accordingly.
+
+- **Women retain access to all roles, without engineered privilege.** Women may pursue any career or role on equal terms. The system does not affirmatively engineer female institutional representation through quota, compensatory privilege, or compressed selection. Title IX–style mechanisms that engineer outcomes by penalizing merit-based selection are removed.
+
+- **Marriage privilege is conditional on family formation, not on the contract alone.** Marriage entry carries an initial bonus. The bonus extends and deepens only when the marriage produces and raises children. Legal marriage as an end in itself, without the family it exists to enable, does not retain the full privilege.
+
+- **Alternative arrangements are tolerated, not subsidized to incentive flip.** The system does not punish single mothers or their children. It also does not produce structures whose marginal incentive favors single parenthood over marriage, or non-reproductive arrangements over reproductive ones.
+
+- **Failure-case exit remains.** Abuse, abandonment, and chronic addiction (with refusal to treat) retain exit without the dissolution-costs that apply to unilateral-preference dissolution.
+
+- **Children have standing in dissolution.** Marriages with minor children are not two-party contracts; the children's stake must be reflected in dissolution defaults.
+
+**The trade-off is real and not avoidable.** Privileging family makes alternative arrangements structurally harder. Every functional civilization in recorded history has privileged family formation; civilizations that abandoned the privilege have collapsed. Pretending the universal pattern is parochial, or that "this time" the substrate-blank arrangement will work, has been tested for sixty years and has produced the diagnosis in Document 1.
+
+Specific mechanisms satisfying these requirements are catalogued in Document 3.
 
 ---
 

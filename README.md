@@ -2,6 +2,8 @@
 
 **Adaptive Governance Infrastructure for Cooperative Societies**
 
+> *Every reform movement of the last 250 years has tried to fix governance by changing who holds power. The founders worked one level deeper. We continue that lineage.*
+
 ---
 
 ## Overview
