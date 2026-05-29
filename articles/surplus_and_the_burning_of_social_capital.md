@@ -94,7 +94,11 @@ This matters because the wrong diagnosis produces the wrong response. If the dec
 
 Post-1970 America removed the restrictions on capital mobility at precisely the moment when the surplus was at its historical peak and the binding mechanisms were still calibrated for an earlier, more legible form of wealth. The unbinding force grew. The binding force didn't adjust. What followed was not a failure of American character. It was a ratio problem.
 
-The diagnostic question for any society is not "are your institutions good?" It is: is your binding force keeping pace with the surplus it is trying to contain? And if the surplus is already running — if the golden age is already burning — the harder question is whether anything can be rebuilt faster than it is being consumed.
+The implication is uncomfortable. We want to believe that good institutions, once built, stay good. That the work of founding — the constitutions, the norms, the hard-won accountability structures — is work that only has to be done once. The pattern says otherwise. The binding force is not self-sustaining. It has to be actively maintained, continuously, against the pressure of a surplus that is always looking for extraction opportunities. The scarcity that originally made those institutions necessary is gone. The external pressure that enforced vigilance is gone with it. What remains has to be deliberately rebuilt in the absence of the conditions that produced it.
+
+The societies that hold longest are not the ones that built the best institutions once. They are the ones that treated institutional maintenance as a permanent obligation — structural, not cultural, because culture erodes quietly and statutes are harder to dismantle. Codetermination laws. Salary transparency. Separation of powers with actual enforcement teeth. These are not solutions to the problem. They are forms of ongoing vigilance, designed to keep binding force active when no one feels the urgency of scarcity anymore.
+
+The golden age is when the urgency disappears. That is exactly what makes it dangerous. You cannot rest on the social capital that surplus temporarily makes invisible. The only answer is systems built on the assumption that the threat is permanent — because it is. Surplus is always finding the path of least resistance through whatever contains it. The binding force has to be maintained as though it weren't there yet.
 
 ---
 
