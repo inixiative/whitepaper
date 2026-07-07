@@ -769,6 +769,19 @@ Community can challenge classification during deliberation period. If majority d
 - Infrastructure proposals that fail to meet threshold can be resubmitted as lower-commitment inixiatives
 - Transparency: all current infrastructure obligations visible in registry
 
+**Declared pain windows: a third proposal attribute.**
+
+Some policies are correct and unpopular in that order. Light rail that narrows a freeway, densification, base closures, pension reform — the cost lands first and visibly, the benefit arrives later and diffusely, so the policy polls terribly right up until it polls well. A governance system that punishes leaders for month-2 sentiment kills exactly these. But "trust us, it hurts before it works" is also the historical cover for liability shields, bailouts, and emergency-powers ratchets, which are not J-curves — they are permanent transfers wearing a J-curve's clothes. The system needs to tell them apart *ex ante*, not litigate them after.
+
+Alongside the inixiative/infrastructure classification, a proposal may carry a **declared pain window** — and its legitimacy is tested against four conditions, all of which must hold:
+
+1. **Bounded window.** A stated end date, declared at proposal time. Unbounded insulation is disqualifying — a pain window with no resolution date is just a permanent exemption.
+2. **Sentiment-only suspension.** A pain window may discount the *approval* signal while costs-then-benefits play out. It may never suspend *recourse*. Construction can proceed while polling at 30%; nobody harmed by the construction loses their ability to claim damages. The test is functional, not formal: recourse must remain as cheap and fast as it was before the insulation, or the insulation is invalid. (The 1986 vaccine act failed here — it nominally replaced tort recourse with a compensation fund, then made that fund slow, adversarial, and capped. Recourse preserved on paper, degraded in practice.)
+3. **Staked vindication claim.** The J-curve is not an exemption the leader invokes; it is a stake the leader posts, in the 6.7.3 claim-registry format. Declare the vindication test at proposal time — e.g., "post-completion approval exceeds pre-construction approval within N months of opening." During the declared window, sentiment drains the battery (6.7A.3) at reduced weight; at resolution, either the test passes and the withheld drain is forgiven, or it fails and the accumulated drain lands retroactively plus the stake. This makes crying "J-curve" cheap when true and expensive when false.
+4. **Same-population incidence.** The pain and the benefit must land on the same population, time-shifted — not on different groups. Light rail's disruption and its payoff both accrue to the corridor's residents. A liability shield concentrates the benefit on producers and the exposure on the public: different populations, which is disqualifying.
+
+Infrastructure with a genuine cost-then-benefit profile passes all four. Liability shields, bailouts, and emergency-powers ratchets each fail at least two — typically the recourse test and the same-population test. As with the type classification, the community can challenge a declared pain window; if the challenge succeeds, it escalates to meta-governance, and the burden is on the proposer to justify the insulation.
+
 **The Schelling point shift:**
 **Before:** All proposals treated equally → either everything needs supermajority (stagnation) or everything passes easily (instability)
 **After:** Risk-proportional thresholds → experimentation flourishes while foundation remains stable
