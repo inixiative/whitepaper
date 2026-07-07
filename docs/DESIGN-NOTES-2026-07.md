@@ -181,42 +181,223 @@ affected population's own assessment (at its scale) gets pruned. "As complex as
 a body" is earned by first installing what a body has — not a single fitness
 objective, but health legible at every scale and apoptosis that acts on it.
 
-## 8. Attack on utilitarianism — it recognizes only one scale of self
-**Status: READY (argument complete). Home: 02, alongside the Levin concentric-selves / multi-level-analysis material (02:326–535, 02:740); a named critique in the vein of the paper's other thinker-engagements.**
+## 8. Attack on utilitarianism — experience-monism can't hold non-experiential goods
+**Status: READY to promote to prose. Home: 02, alongside the Levin concentric-selves / multi-level-analysis material (02:326–535, 02:740); a named critique in the vein of the paper's other thinker-engagements. Write it as attack → strongest reply → two-flank rebuttal → anti-totalitarian armor; do NOT write it as "utilitarians ignore non-humans."**
 
-Utilitarianism says: provide the maximum good to the most people. But it counts
-only *humans*, as a bag of individuals — it recognizes no self above or below
-the person. If organisms, superorganisms, and institutions are real things
-(the paper's Levin ontology — nested selves, each with its own homeostasis and
-its own thing-it-is-like-to-function), then the good has to be provided to
-*them* too, at every scale: I want my mitochondria healthy, my cells healthy,
-my organs healthy, myself healthy, and the collective I'm part of healthy —
-concentric selves, all real, all with a claim.
+**Pick the target precisely.** The *escapable* charge is "utilitarianism only
+values humans." Don't lead there — Singer built the edifice to defeat exactly
+that: the utility-bearer is anything with valenced experience, so the animal
+case falls straight out and a good utilitarian dodges by widening the circle of
+sentients. The *unescapable* charge is about the **ontology of the value-bearer**,
+not its species. Every stripe of utilitarian, Singer included, is monistic
+about what can be a moral patient: only *experiences* have final value, and an
+experience requires a subject that feels it. Everything else is instrumental.
 
-The load-bearing move against the utilitarian: an individual human's well-being
-is *often a product of how well the larger systems function*, and that
-dependency is invisible from introspection of the individual. A cell cannot see
-it by examining itself — yet its access to resources is entirely contingent on
-the larger self functioning. The cell has resources *at the scale of a human*
-only because it is part of a human. It subsumed its autonomy to join a larger
-self through signals — which is precisely what this project proposes humans do,
-at a slightly higher scale, through signaling/coordination infrastructure.
+**The attack.** If organisms, superorganisms, and institutions are real
+emergent entities with health-states of their own — states not reducible to,
+and not introspectively visible from, the felt experiences of their parts —
+then there exist bearers of good whose good is *not anyone's experience*. The
+health of the coupling between your cells is a real good; no cell experiences
+it, and you don't experience it either (you experience its downstream effects
+when it *fails* — the coherence itself is a structural property, not a felt
+state). So the world contains goods the utilitarian ontology has no slot for:
+the health of the higher-order selves, and above all the health of the
+*couplings between scales*, which belongs to no part, no subject, and no
+aggregate of subjects.
 
-So the utilitarian sum over individuals systematically misses the term that
-actually drives most individual welfare: the health of the couplings between
-scales (cf. note #1 — health of the whole is a property of the coupling, not
-the sum of the parts). Aggregating good over persons is the same error as
-aggregating health over cells — it can read "high" while the tissue is
-necrotic, and it cannot even represent the goods that exist only at the
-super-individual scale. This is why "greatest good for the greatest number" is
-not merely hard to compute but ontologically under-specified: it never asks
-*greatest good for the greatest number of what*, at *which scale*.
+**Their strongest reply (reductive), which must be staged and beaten.** "The
+institution's health has no value in itself; it matters exactly insofar as it
+produces welfare in the sentient beings that compose it or are affected by it.
+You've described a crucial *instrument*, not a new *end*. Cellular coordination
+matters because a healthy body feels good and a cancerous one suffers." I.e.
+concede every causal point, deny the ontological one; absorb the multi-scale
+structure as instrumentally load-bearing and keep experience as the sole
+terminal value. Beat it on two flanks (use both — they hit different targets):
 
-(Ties directly to notes #1 and #2: same multi-scale ontology, same "posture is
-real" warrant, same terminal object — cross-scale coherence of health rather
-than a single-scale aggregate.)
+- **Epistemic / measurement flank (the strong one).** Even granting
+  experience-monism *at the level of value*, the utilitarian still cannot run
+  their own calculus, because the higher-scale health states are not
+  recoverable from any survey of the parts' experiences — the cell's dependence
+  on the larger self is invisible from introspection of the cell. A felicific
+  sum over individual experienced welfare is therefore structurally blind to
+  the variable that most determines that welfare over time: the coherence of
+  the level above. The utilitarian optimizing measured life-satisfaction is the
+  physician who takes only the self-report and never the bloodwork — and worse,
+  the self-report *cannot contain* the bloodwork, because the coupling operates
+  below the resolution of any subject's experience. A method that can't see the
+  dominant causal variable produces catastrophic prescriptions: it will happily
+  optimize a metric that is decoupling from the health that generates it, right
+  up to the cliff. **This is the aggregate-approval-as-lagging-indicator problem
+  (note #1) generalized into a standing objection to utilitarian method as
+  such.**
 
-## 9. Open knots (block downstream writing)
+- **Ontological flank (the deeper disagreement — state it plainly).**
+  Experience-monism is *asserted, never argued*, in the tradition. It mistakes a
+  value ("feeling matters") for a law ("only feeling matters") — it scalarizes a
+  genuinely vector-valued good. **But the flank as usually stated is vulnerable
+  and must be armored:** the utilitarian does not ground value in
+  "reality + causal efficacy" (rocks are real and causally efficacious and have
+  no good-of-their-own) — they ground it in *valence*, in there being a way
+  things can go well or badly *for* a subject. So this flank owes an account of
+  **welfare-for-a-non-experiencing-self**, or it loses the exchange. The only
+  account that carries it is the Levin / functionalist one: a system with
+  homeostatic setpoints has states that are good-for-it (regulation maintained,
+  goals met) or bad-for-it (dysregulation) *independent of anything it feels*.
+  Welfare = a goal-directed system meeting its own homeostatic ends; experience
+  is one way a self can have ends, not the only way. This is contestable, and
+  it is the exact spot where the section must **argue rather than assert** — plant
+  the flag here, don't paper over it.
+
+**Anti-totalitarian armor (non-optional — without it the section reads as
+20th-century organicism right before the catastrophe).** A reviewer will say:
+"you've re-derived the organic theory of the state, and that theory's body
+count is the highest in history — the Nation, the Race, the Revolution as
+superorganisms invoked to devour individuals." The answer is built into the
+coupling argument — but state it carefully, because **"no sacrifice" is too
+strong and false, and so is any language of harmony.** Keep the concession, it
+is the honest core and it is easy to let slide: **there is no simultaneous
+maximum.** Some portion of a generation's men died in war because a tribe that
+would not fight was extinguished — optimal at the tribal scale, catastrophic at
+the scale of those men. Apoptosis is the cell dying for the body. The
+disposable-male pattern, Baumeister's tradeoff, ISC: the scales are genuinely,
+structurally in conflict, one is sacrificed, and the higher scale is not thereby
+cancerous — it is paying the price of existing.
+
+So the correct claim is weaker and more defensible: not a joint maximum but a
+**Pareto frontier** — the set of allocations where you cannot improve one scale
+without harming another. **Health means being *on* the frontier; the frontier
+itself contains real, unavoidable, tragic tradeoffs** (the disposable young men
+are a *point on it*, not a problem solved). The **pathologies are the interior
+points**: a scale sacrificed for *no* compensating gain to any other, or a gain
+grossly disproportionate to the loss it imposes. Cancer (part consumes whole)
+and totalitarianism (whole consumes parts) are the same disease under this
+criterion — both are interior points, sacrifice without compensating coherence.
+The criterion is symmetric: it condemns Randian atomism and Nation-as-Moloch
+with one stroke. **Keep the frontier; drop the harmony.** "All scales
+simultaneously healthy" is not a defensible claim and must not creep back in.
+
+**This is a *better* weapon against the utilitarian, not a retreat.** The
+utilitarian collapses the frontier to a single point by summing — they pick the
+allocation that maximizes total experienced welfare and declare the tradeoffs
+resolved. But summing *hides* the sacrifice rather than justifying it. The
+disposable young men do not appear as a cost in the tribal utility sum if the
+tribe survives and flourishes — they are absorbed into the aggregate and vanish.
+Utilitarianism is precisely the theory that lets you not see them. The
+multi-scale frontier refuses the accounting trick: it makes you look at the
+tradeoff you are actually making and *own* it, rather than laundering the losers
+through a total. The ethical advance is not an allocation with no losers — it is
+the refusal to pretend there are none.
+
+**(This also lands on Sowell — though he might half-agree.)** "There are no
+solutions, only tradeoffs" is the frontier stated as if we always occupied it.
+But the interior is real and is usually where we are: dominated allocations that
+sacrifice a scale for nothing. Tradeoffs are the *floor* of the problem (the
+best case, the frontier), not the whole of it — you can simply make things
+worse. Sowell's phrasing concedes too much to the status quo by implying every
+current arrangement is already a genuine tradeoff rather than an interior point
+that a Pareto move could improve for free. He'd likely agree dominated policy
+exists — it's his bête noire — but "only tradeoffs" understates the failure mode.
+
+**The hard debt the section owes (flag it, don't hide it).** Telling an
+*on-frontier* sacrifice (the draft that buys the tribe's survival, a real gain
+to another scale) from an *interior* one (the purge that feeds the regime, loss
+with no compensating gain, or grossly disproportionate) is the whole game and
+has to be *worked*, not asserted. Two tests: does the sacrifice produce a
+compensating gain to *some* other scale at all (else strictly dominated — pure
+waste), and is the exchange rate not grossly lopsided (else it is the
+disproportion that marks Moloch)? Harder than the utilitarian's problem, because
+they at least have a common currency — but the difficulty is the honesty.
+Connects to notes #1 (coherence as terminal object), #2 (posture is real), and
+#9 (mesoscale collapse).
+
+**One-line thesis for the section:** not "utilitarians ignore non-humans"
+(dodgeable), but "utilitarians are experience-monists; multi-scale reality
+contains non-experiential goods and non-introspectable couplings; their method
+is therefore blind to the dominant causal variable; their monism is an unargued
+assertion that scalarizes a vector-valued good — and the frame that replaces it
+is not higher-scale supremacy (that is just totalitarianism) but *scale-
+coherence*, which condemns totalitarianism and atomism as the same pathology."
+
+## 9. Mesoscale collapse is the disease; thick-but-exitable attachment is the design target
+**Status: STRONG THESIS (candidate for the center of the frame; still being worked). Home: 01 (diagnosis) as a major thread; ties to the religion-as-coordination postscript in 03 (MFP, "unfilled receptors seek signals") and the Dunbar-radius material. Reframes the whole platform's purpose — see the prescriptive turn below.**
+
+**Correct the framing: not tribe → family → atom as three settings of one dial,
+but the progressive *deletion* of intermediate scales.** Henrich's WEIRD thesis:
+the Church's Marriage and Family Program (banning cousin marriage, killing the
+corporate kin-group) didn't shift the scale of optimization — it *dissolved the
+intermediate scale and thereby manufactured the individual*. Break the clan and
+the person falls out as the unit, because there is no longer a kin-body to
+belong to. The sequence is deletion, top-down over centuries: clan → extended
+family → multigenerational household → (now) arguably the nuclear family, the
+congregation, the union hall, the neighborhood — until the individual is
+attached *directly* to the largest scales (state, market, the abstraction
+"modernity") with almost nothing in between.
+
+**Stated in the paper's own multi-scale language: the disease is not optimizing
+the wrong scale — it is hollowing out the middle scales.** A body with only
+mitochondria and a whole organism — no cells, no tissues, no organs — is not a
+leaner organism, it is a *corpse*. The intermediate structure *is* the organism;
+complex systems *are* their mesoscale. Delete it and you don't get a leaner
+system, you get atomized substrate coupled directly to a totalizing whole —
+**atom-to-Leviathan, which is precisely the structural precondition for both
+pathologies in #8.** When the mesoscale dies, the only remaining relationship is
+atom-to-Leviathan, and that is the raw material of *both* cancer and
+totalitarianism. Arendt saw it (atomization as the prerequisite for
+totalitarianism — the isolated mass individual with no intermediate loyalties);
+so did Tocqueville (associations), Burke (little platoons), Putnam (bowling
+leagues), Henrich (clans). One observation: the mesoscale is load-bearing, and
+modernity is a mesoscale-stripping process.
+
+**Weyl's "too many attachments, no primary attachment" is that collapse from the
+inside — the phenomenology of the atom.** The modern person is not unattached;
+they are attached to five hundred things at a thousandth of the strength each —
+diffuse, revocable, exit-at-will, every tie a thin market-like relation you can
+leave costlessly. It sounds like freedom and is experienced as a specific
+*starvation*, because the thing humans are built to attach to is a bounded,
+thick, non-optional, identity-constituting group at Dunbar scale. **A thousand
+thin ties do not sum to one thick one; you cannot integrate your way from
+diffuse to primary — a primary attachment is categorically different, it is the
+one that is not a portfolio position.**
+
+**Mechanism = exit cost (ties to the persistence-payoff / exit-cost thread).** A
+primary attachment is *defined by* high exit cost — the one you can't costlessly
+leave — and that non-exitability is what makes it identity-constituting rather
+than consumptive. Modernity lowered every exit cost toward zero in the name of
+freedom and thereby made primary attachment *structurally impossible*, because
+an attachment you can leave for free is by definition not primary.
+
+**The prescriptive turn — this reframes the platform.** The Inixiative machinery
+(Dunbar cells, vouching, cellular delegation, the whole subsidiarity stack)
+reads differently now: it is not primarily a *decision / preference-aggregation*
+mechanism — it is a **mesoscale-reconstruction mechanism.** The deepest thing
+the platform can do is not aggregate preferences better; it is *manufacture
+thick intermediate attachments* — bounded Dunbar-scale groups with real shared
+stakes and non-trivial exit costs that can thicken into primary attachments and
+rebuild the deleted middle of the social organism. The cell is not a voting unit
+that happens to be Dunbar-sized; **the Dunbar-sized belonging is the product,
+and the governance is what gives it real stakes so it becomes a genuine
+attachment rather than another thin affinity group.** Thesis worth putting at
+the center: the crisis is mesoscale collapse, the felt symptom is
+diffuse-attachment starvation, and cooperation infrastructure's real job is
+*organ-regeneration* — re-growing the intermediate scales modernity dissolved.
+
+**Keep yourself honest — don't let this become nostalgia (frontier again).** The
+old mesoscale units — clan, caste, the closed village — were also *cages*. High
+exit cost is also how a group traps and abuses the people inside it; the
+cousin-marriage ban was *liberating*, and modernity dissolving the clan was not
+stupidity. So the design problem is real and must not be papered over: you want
+attachments thick enough to constitute a self but not so inescapable they become
+prisons — **some** exit cost, not infinite; exit *possible but not frictionless*;
+and the freedom to hold a *few* thick ties rather than one totalizing one. The
+clan had one inescapable attachment; modernity has infinite escapable ones; the
+target is a small number of *semi-escapable thick* ones. That is the Pareto
+frontier from #8 applied to belonging: you buy belonging with some liberty and
+liberty with some belonging, and you choose the mix *deliberately* instead of
+letting modernity default you to all-liberty-no-belonging. Not the harmony point
+where attachment is both perfectly free and perfectly binding — that point does
+not exist.
+
+## 10. Open knots (block downstream writing)
 - **Tiers by vouch vs. by reach.** Are tiers defined by *vouches* (identity /
   trust / skin-in-the-game) or by *demonstrated cross-cleavage reach*
   (anti-faction)? These pull in different directions; the tiered design can't
