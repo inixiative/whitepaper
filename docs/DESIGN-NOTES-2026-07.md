@@ -288,15 +288,24 @@ tradeoff you are actually making and *own* it, rather than laundering the losers
 through a total. The ethical advance is not an allocation with no losers — it is
 the refusal to pretend there are none.
 
-**(This also lands on Sowell — though he might half-agree.)** "There are no
-solutions, only tradeoffs" is the frontier stated as if we always occupied it.
-But the interior is real and is usually where we are: dominated allocations that
-sacrifice a scale for nothing. Tradeoffs are the *floor* of the problem (the
-best case, the frontier), not the whole of it — you can simply make things
-worse. Sowell's phrasing concedes too much to the status quo by implying every
-current arrangement is already a genuine tradeoff rather than an interior point
-that a Pareto move could improve for free. He'd likely agree dominated policy
-exists — it's his bête noire — but "only tradeoffs" understates the failure mode.
+**(Sowell calibration — reclaim the frame from its own slogan; see note #10 for
+the full treatment.)** Split the two Sowells. The *slogan* — "there are no
+solutions, only tradeoffs" — is true as anti-utopianism (it kills the
+harmony-point believer, the same corrective as "drop the harmony" above) but
+false as general ontology: it states the frontier as if we always occupied it,
+and so cannot distinguish a genuine tragic tradeoff (disposable young men, the
+cousin-marriage ban) from a pure loss (Tainter complexity past negative return),
+counselling the same resigned "well, everything's a trade-off" in both. But the
+*thinker* is an interior-point theorist who happens to brand under a trade-off
+slogan: his knowledge-problem critique of central planning is precisely that it
+produces Pareto-*dominated* outcomes, worse on every axis, by destroying the
+distributed local knowledge that finds the frontier. So don't attack Sowell —
+decompress him (same move as Weyl): his epistemics and the mesoscale thesis (#9)
+are the *same argument* — the frontier is only findable by many local units each
+solving their own scale with knowledge only they have; strip the mesoscale and
+you lose the apparatus that locates the frontier, so you crash into the interior
+and stay there. His knowledge-problem predicts the interior-point pathology; the
+mesoscale-collapse thesis explains why his frontier is so rarely reached.
 
 **The hard debt the section owes (flag it, don't hide it).** Telling an
 *on-frontier* sacrifice (the draft that buys the tribe's survival, a real gain
@@ -397,7 +406,94 @@ letting modernity default you to all-liberty-no-belonging. Not the harmony point
 where attachment is both perfectly free and perfectly binding — that point does
 not exist.
 
-## 10. Open knots (block downstream writing)
+## 10. The configuration ratchet — the spine that holds the rest together
+**Status: SPINE / master frame. The other notes (#1, #2, #8, #9) are its parts, not siblings. Largely a *reframing* of material already in Documents 1–2 (Turchin/Tainter collapse, fertility/ISC/Universe 25, mesoscale) into one backbone — so this is a Document 1 organizing pass, not mostly-new content. Home: the top of the diagnosis, or a new framing section it all hangs from.**
+
+**Bury "utopianism"; take the better thing.** The architect's "things can
+continuously get better" is *not* a defense of utopianism — it is its
+abandonment, and the sharper word matters. Utopianism is *telic*: an end-state,
+a configuration that solves it, history as approach to a terminus (classless
+society, end of history, the harmony point where all scales reconcile). What was
+actually described has *no destination*: a ratchet with no top. Each
+configuration enables growth; growth exceeds what the configuration can carry;
+the strain forces a new configuration operating at a scale the old one couldn't
+reach. That is **directional open-endedness / meliorism** — monotonic-in-
+expectation improvement with no terminal state — and it is the thing that
+*survives* utopianism's refutation, distinct from both the utopian (there's an
+end, we approach it) and the tragic conservative (no improvement, only cycles).
+
+**The fusion with the frontier/interior geometry (this is the clean part).** At
+a fixed configuration there is a frontier — a Pareto surface, real tragic
+tradeoffs, a best-you-can-do; **Sowell is right *within* a configuration**
+(short run). But the frontier is *not fixed across time*: a new configuration —
+a technology, an institutional form, a cooperation mechanism — moves the whole
+frontier outward. The cousin-marriage ban didn't find a better point on the
+existing frontier; it *relocated* the frontier by dissolving a scale and
+enabling a new one. So the two claims that felt opposed — "there are only
+tradeoffs" and "things can continuously get better" — hold at *different
+timescales* and compose: within a configuration you climb to a frontier and then
+face only tradeoffs; across configurations the frontier itself moves, and **that
+is where the free lunches live.** Sowell's slogan describes the short run; the
+ratchet describes the long run; the mechanism connecting them is *configuration
+change* — which is exactly what the platform is for. **Inixiative is not a
+better point on the current frontier; it is an attempt at a new configuration
+that moves the frontier**, the way the printing press, double-entry bookkeeping,
+or the joint-stock company each did. That is the paper's actual claim to
+significance: not "we optimize governance" but "we're a frontier-relocating
+configuration, of the kind that appears when the current one has hit its limits."
+
+**The tragic realism that keeps it non-naive (keep it load-bearing — the same
+discipline as "drop the harmony").** Each new configuration *enables the growth
+that generates the crisis that requires the next configuration* — success is
+what breaks it (Turchin, Tainter, the diagnosis document: the solution becomes
+the substrate for the next failure). So the ratchet is neither free nor
+guaranteed to click forward. The step back is real and sometimes it is a *fall*:
+a society that hits a configuration's limit and fails to find the next one
+doesn't hold at the plateau — it collapses *below* it, losing scales it had
+already climbed (Bronze Age collapse; the Western Roman mesoscale reverting to
+localism for centuries). The honest shape is not a staircase, it is **a
+staircase over a cliff**: each step up increases the height of the fall if the
+next step isn't found in time. The optimism is real but it is optimism about the
+*distribution, not the path* — more configurations succeed than fail across deep
+time, but any given civilization at any given limit faces genuine probability of
+the fall, not the step, and the failures are worse the higher it has climbed.
+That is what makes it non-utopian while still directional.
+
+**Fertility collapse + mesoscale dissolution = the *current instance* of the
+pattern, not a side-worry.** The modern configuration — atomized individuals,
+thin ties, market-and-state with the mesoscale dissolved (#9) — was enabled by
+real gains (the cousin-marriage ratchet, WEIRD cooperation-with-strangers,
+enormous scale). It has now grown beyond what it can carry: **sub-replacement
+fertility is the configuration failing to reproduce its own substrate** — the
+clearest possible signal of a configuration at its terminus, because one that
+cannot make the next generation of humans is *definitionally* terminal. In this
+frame it is not one problem among many; it is the *diagnostic* that we are at a
+configuration limit *now*, and the question is whether the next configuration
+gets found — whether something re-grows the mesoscale and restores reproductive
+viability at a new scale — or whether this is a fall rather than a step. (Ties
+directly to the existing fertility/ISC/Universe 25 material in Docs 1–2 and to
+the natalist/spatial mechanisms in 6.18–6.19 — the ratchet frame is what makes
+those a spine rather than scattered worries.)
+
+**The spine, end to end** (every prior fragment slots in):
+1. Configurations set frontiers — Sowell, short run (#8, #10).
+2. Success exhausts configurations — Turchin / Tainter, the diagnosis.
+3. New configurations relocate frontiers — the ratchet, the long-run optimism.
+4. Each click can fall instead of step; higher climbs mean deeper falls — the
+   tragic realism that keeps it honest (staircase over a cliff).
+5. We are at a limit-point *now*, marked by fertility collapse and mesoscale
+   dissolution — the urgency (#9).
+6. The platform is an attempt at the *next configuration*, specifically one that
+   re-grows the intermediate scales modernity deleted — the proposal (#9).
+
+**Handoff note:** the other thread has repeatedly offered to write the whole
+thing up as one unified piece in the architect's voice (health/coupling ontology
++ utilitarian attack + mesoscale + trade-off calibration + this ratchet frame),
+armored at each point a reviewer would sink it. That draft has NOT been written
+yet — it awaits an explicit "go." When it comes, it is a Document 1 reframing,
+not another note.
+
+## 11. Open knots (block downstream writing)
 - **Tiers by vouch vs. by reach.** Are tiers defined by *vouches* (identity /
   trust / skin-in-the-game) or by *demonstrated cross-cleavage reach*
   (anti-faction)? These pull in different directions; the tiered design can't
