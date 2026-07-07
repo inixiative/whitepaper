@@ -786,8 +786,9 @@ Design sketch. Leaders (formal stewards or elected proposers) receive:
 - **Substantial up-front compensation for service.** A high baseline reduces the immediate economic motive for petty corruption and rent-seeking and makes refusal of bribes easier in expectation of future returns tied to performance.
 - **A limited proposal budget per term.** Each leader may submit a fixed number of proposals (e.g., 3–7). This constraint encourages prioritization and high-quality proposals rather than spamming the agenda.
 - **Execution payoff.** A leader receives a payment when a proposal passes, reflecting the social value of shepherding a policy to adoption.
-- **Persistence payoffs.** Continued, diminishing payments are made for each period the policy remains active and meets performance tests. When a policy is revoked, persistence payoffs cease retroactively for future periods (not clawed back for past).
-- **Performance multipliers / penalties.** Policies that meet objective KPIs (savings, participation, welfare metrics) yield bonus multipliers; harmful outcomes expose the leader to reputational and financial penalties during review windows.
+- **Persistence payoffs.** Continued, diminishing payments are made for each period the policy remains active and the broad retrospective signal for the affected population remains above its pre-policy baseline. When a policy is revoked, persistence payoffs cease retroactively for future periods (not clawed back for past).
+
+**Why no KPI multipliers.** Earlier drafts attached bonus multipliers to "objective KPIs." This is deliberately removed: any named metric that binds compensation is a Goodhart target, and a leader who nominates their own KPI will nominate a hittable proxy. The only signal ungameable at the measurement layer is the maximally broad did-this-work poll, because it is the terminal value rather than a proxy for it. Narrow metrics still exist in the system — as staked claims (6.7.3) that the proposer posts voluntarily. Staked claims resolve against reputation and the stake itself, never against the compensation stream. Conditioning persistence pay on the broad signal exceeding its pre-policy baseline (rather than on mere survival of the policy) also closes the entrenchment loophole: a policy that persists only because it built a dependent constituency, while the affected population's own assessment stagnates or declines, stops paying its author.
 
 **Incentives produced.** This structure turns policy making into a long-term investment. Leaders profit from policies that are durable, robust, and well-accepted — the exact qualities desirable for social health. It flips the usual model where leaders capture upside and externalize future costs.
 
@@ -797,7 +798,7 @@ Design sketch. Leaders (formal stewards or elected proposers) receive:
 
 - **Proposal cap per term:** 3–5 proposals (tunable).
 - **Execution fee:** fixed amount scaled to community size / budget.
-- **Persistence cadence:** quarterly payments to reduce short-term volatility; evaluated against engagement and KPIs.
+- **Persistence cadence:** quarterly payments to reduce short-term volatility; evaluated against engagement and the broad retrospective approval signal for the affected population.
 - **Sunset review:** every policy faces periodic review windows (e.g., 1 year, 3 years, 7 years). During review, citizens allocate points; failure to meet threshold triggers remediation or sunset.
 - **Revocation threshold:** only strong multi-tier disapproval (e.g., large negative point plurality in both local and regional tiers) can trigger emergency revocation outside normal windows.
 - **Clawback limits:** avoid punitive retroactive clawbacks; instead make future payoffs cease and attach reputational penalties to prevent chilling effect on experimentation.
@@ -821,7 +822,7 @@ To prevent overload and encourage useful engagement:
 #### 6.5.9 Failure Modes & Mitigations
 
 - **Capture via stacking payouts:** Rich actors might fund leaders to push capture-friendly policies. Mitigation: transparency requirements for funding, limits on external campaign financing in the platform, and public audit trails.
-- **Short-term gaming of KPI multipliers:** Leaders might game KPIs. Mitigation: diversified metrics, multi-stakeholder audit committees, decentral adjudication (Kleros-style) for disputes.
+- **Metric gaming:** Leaders might optimize proxies rather than outcomes. Mitigation is structural, not procedural: no named metric binds compensation (see 6.5.5). Metrics live only in voluntarily staked claims, where gaming costs the gamer their stake and reputation. Disputes over claim adjudication route to decentral adjudication (Kleros-style).
 - **Elite rigidity / lock-in:** Successful leaders could entrench. Mitigation: rotating steward randomization layers, term limits, and influence caps combined with point-voting dilution of disproportionate influence.
 - **Demotivation of bold policy innovation:** High persistence risk may deter risk-taking. Mitigation: carve-out experimental lanes (time-boxed pilots with limited payouts and safety nets).
 
@@ -1489,9 +1490,9 @@ Some policies (public transit, infrastructure, healthcare reform) are initially 
 
 2. **Separate feedback channels:** "This policy is bad" (affects policy approval, may sunset policy) vs. "This leader is corrupt/incompetent" (affects leader's battery immediately). Only the latter triggers removal.
 
-3. **KPI-linked protection:** If policy meets stated objective metrics despite unpopularity, leader protected from battery drain. Example: "This transit policy will reduce commute times 15%" → if KPI met, negative sentiment doesn't drain battery.
+3. **Vesting periods:** Leader point income from proposals vests over 3-6 months, allowing unpopular-but-good policies time to demonstrate value before affecting tenure.
 
-4. **Vesting periods:** Leader point income from proposals vests over 3-6 months, allowing unpopular-but-good policies time to demonstrate value before affecting tenure.
+**Deliberately excluded — metric-linked immunity:** An earlier draft allowed a leader whose policy met its stated KPI to be protected from battery drain despite broad disapproval. This is removed. It let a leader nominate a hittable proxy and then use it to override the sovereign signal — the exact rubric-control problem the rest of the architecture exists to prevent. If a leader believes a policy follows a J-curve (unpopular until built, popular after), the correct instrument is a staked claim (6.7.3): declare the pain window and a vindication test at proposal time. Battery drain during the declared window accrues at reduced weight; if the vindication test passes at resolution, the withheld drain is forgiven — if it fails, it lands retroactively plus the stake. Crying "trust the metric" is thereby made expensive when false and cheap when true, without any metric ever overriding the broad signal.
 
 **Computational kindness:** Citizens don't need to engage unless they feel strongly. Most people never allocate approval/disapproval points. System responds to sustained, coordinated sentiment—exactly what should trigger accountability. Low engagement from satisfied citizens is success, not failure.
 
