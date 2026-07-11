@@ -1157,7 +1157,120 @@ off — the good is not reducible to satisfied preference, exactly as value is n
 reducible to experienced valence. The social-sugar case is the everyday proof that
 welfare and preference-satisfaction come apart.
 
-## 21. Open knots (block downstream writing)
+## 21. Birthgap's Vitality Curve vs. the Brazil housing RCT — the causal argument for *age-targeted* spatial intervention
+**Status: READY — reframes an under-deployed citation the paper already owns (the Brazil RCT at 03:118, inside §5.1) into an actual causal argument for §6.18/§6.19 *and* a pre-emptive rebuttal to Birthgap's policy-nihilism, which a critical reader would otherwise bring. Home: §6.18 (03:2652), §6.19, §5.1 (03:76/118). Upgrades the #16 Birthgap register entry with the mechanism + policy dimension.**
+
+**Birthgap's mechanism (steelmanned).** The *Vitality Curve* — the age
+distribution of *first*-time parenthood — is a smooth, symmetric bell in every
+cohesive society, peaking mid-to-late 20s. The claim: it does not *stretch* to
+absorb delay, it *shifts and compresses*, and the far-side compression runs into
+biological fertility decline faster than people expect, converting "kids later"
+into "no kids" for a large fraction of the delayed cohort. Shaw calls the loss of
+synchronized timing *Reproductive Synchrony* breakdown (fewer peers hitting
+family-formation at once). Trigger: acute economic shock — the 1973 oil shock for
+Japan/Italy (first-time-mother numbers crater ~9 months after and never recover),
+the 1997 Asian crisis for Korea, 2008 for the West. Most pessimistic finding: no
+society in the dataset has recovered once the pattern locks in. (The
+driver-is-childlessness-not-family-size point is in #16.)
+
+**Where the film overreaches — flag it, because the paper depends on the opposite.**
+Birthgap rightly rejects contraception/the pill as the universal driver (Japan
+collapsed via 1948 abortion legalization + traditional methods, decades before the
+1999 pill legalization). But it *also* rejects housing, childcare, and baby-bonuses
+as primary levers — claiming they can't explain the curve's symmetry, and that
+bonuses only produce a blip-then-slump. That is an overclaim: "the pattern exists
+and correlates with shock triggers" is far weaker than "therefore no policy lever
+can shift it." If the underlying driver of delay is *structural and continuous*
+(career/credential timelines, housing cost, ISC-style competitive pressure) rather
+than a one-time shock, those continuous pressures should move where the curve
+*centers*, not merely when it is triggered — which makes housing and career-timeline
+policy relevant after all, operating *through* the synchrony mechanism rather than
+against it.
+
+**The Brazil RCT is the rebuttal, and the paper already owns it (03:118).**
+Van Doornik et al. 2025: a *randomized* housing-credit lottery — winners and
+losers statistically identical on income, ambition, relationship status,
+everything — where winners aged **20–25** showed a **32–33% increase in the
+probability of having children.** That is about as clean a causal estimate as
+fertility research contains, and it directly contradicts the film's "housing can't
+move birth rates." Right now the paper cites it as a bare causal-evidence line;
+it should be doing far more work.
+
+**The reconciliation (don't declare a winner — read the mechanism right).** The
+20–25 band *is* the peak synchrony window. Housing-at-20–25 is not working
+*against* the Vitality Curve — it works *through* it, removing a barrier that would
+otherwise push family formation past the peak into the high-risk delayed zone.
+That is categorically different from a baby bonus, which (per the film's own valid
+critique) just moves an already-planned birth forward without expanding *who* ends
+up a parent. So the synthesis is sharper than either side: the film is right that
+generic cash-at-any-age yields blip-then-slump (Russia, Hungary); it is wrong that
+"policy can't move birth rates." **Age-targeted removal of a structural barrier at
+the synchrony window is a different and more powerful lever than cash-at-any-age** —
+and the Vitality Curve is *why*, not evidence against. This is the strongest form
+of the §6.18/§6.19 argument, and much stronger than the sections' current
+assert-the-mechanism framing.
+
+**Intergenerational extraction is the continuous driver that keeps the curve
+centered late (the architect's mechanism, and it closes the gap the film leaves).**
+Birthgap's one-time-shock story can't explain non-recovery; the whitepaper's
+continuous-extraction story can. The young's fertile-window resources — housing
+(via asset-inflation), time, treasure, and career runway — are continuously
+extracted by the incumbent generation (the wealth pump, §2.1; "asset-inflation
+buys homeowner passivity," 01:2366), and immigration is run partly as labor-supply
+to sustain those asset values (older cohorts importing workers to generate value
+*after* they have already had their own children). This extraction lands precisely
+on the 20–30 synchrony window, raising the barrier exactly when it is most
+decisive. So the two frames compose: **shocks trigger the delay; continuous
+extraction prevents the recovery by keeping the barrier high.** This also connects
+to the gerontocracy failure mode the paper already designs against (02:2092).
+
+## 22. "The larger things are actually real" — the ontological upgrade over communitarianism, and barriers-down as the telos
+**Status: FRAMING / positioning (architect's close, and a defense against the "just nostalgia" dismissal). Home: the §3.1 concentric-self material and Doc 1's individualism/atomization discussion; positions the paper against a tradition it currently doesn't name. Restates #1/#2/#8's ontological claim as a stance toward communitarianism; ties #9 (anti-nostalgia) and #20 (friction-on-the-sugar). Carries a citation-to-verify.**
+
+**The design telos, stated plainly (architect):** "You have to have fewer barriers
+to having kids — economic *and* social. Society has to be made such that it's easy
+to have kids, to be supported, and to integrate." That is the end §21's levers
+serve: lower the cost of the *good* (family formation, belonging) at the decisive
+window — the constructive face of #20's "put the friction on the sugar, not the
+vegetables."
+
+**The positioning move — and it is the paper's actual originality here.** The
+communitarian tradition already said "we are part of larger wholes, and modern
+individualism made us forget it" — Nisbet's *Quest for Community*, Bellah's *Habits
+of the Heart*, MacIntyre, Deneen, the Burkean little platoons. That much is known,
+and individualism has always been able to wave it away as *sentiment* or nostalgia:
+a nice thing to value, not a fact. **The paper's load-bearing upgrade is to convert
+the ought into an is: the larger things are *actually real* — Levin's point.** Not
+"you ought to value the larger whole" but "the larger whole is a real agent/self at
+its own scale, so belonging is not a sentiment you could rationally decline — it is
+a cell correctly recognizing the body it is literally part of." That is what makes
+this more than warmed-over communitarianism, and it is the same move as #1/#2
+(institutional posture is real in the sense consciousness is) and #8 (concentric
+selves). Recorded here as the *explicit stance toward communitarianism* the paper
+should take — and as armor: a reviewer who reaches for "this is just nostalgic
+communitarianism" is answered by the ontology, not by more exhortation.
+
+**Extraction as the symptom of lost larger-self recognition (bridges to #21).** The
+intergenerational extraction in #21 is what the world looks like *once the larger-
+self recognition breaks*: the old treat the young as a resource to be worked for
+their benefit rather than as the continuation of a self they are part of. "We lost
+the plot that we are part of a larger thing" is not moral decline in the abstract —
+it is the specific failure that licenses a generation to extract from its own
+successors. The Levin-realism move is therefore not decorative; it is the thing
+that reframes extraction from "unfair" (an ought they can dispute) to
+"autophagy" (an is — a body consuming the tissue that would have been its own
+next stage).
+
+**Citation to verify (like the Weyl knot in Open knots).** The architect attributed
+the "we are part of larger things we used to know, then dismissed by individualism"
+point to a name that came through as *"Jeremy Bourings"* — almost certainly a
+voice-transcription garble. Likeliest referents: Robert Nisbet (*The Quest for
+Community*), Patrick Deneen (*Why Liberalism Failed*), Robert Bellah (*Habits of
+the Heart*), or a contemporary meaning-crisis voice (Vervaeke, McGilchrist).
+Resolve the actual source before attributing in prose — do not cite from the
+garbled name.
+
+## 23. Open knots (block downstream writing)
 - **The rotten-core problem — the hardest unresolved question under the whole
   paper.** The religion postscript's sharpest move is that unfalsifiability is a
   *feature* (a sacred core doesn't update, so it can't be gamed or negotiated when
