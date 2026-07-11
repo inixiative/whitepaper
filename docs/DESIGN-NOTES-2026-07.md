@@ -850,9 +850,11 @@ confirmed):** China GSS (social trust → family-size intention); Iranian cohort
 (social capital → shorter time-to-pregnancy); Hart's Vermont (constant crime,
 collapsed roam radius — #14); the four-pen topology (identical capacity, different
 routing, different outcome — #13); China's 2026 move against paper gold tracking
-the fractional-claim / five-money-types argument almost as stated. These are the
-existence proof that the generate-then-verify method produces hits, not just
-stories.
+the fractional-claim / five-money-types argument almost as stated; **Japan
+isolating homogeneity from cohesion** (maximal ethnic homogeneity, decades of
+collapsing cohesion — the mesoscale-infrastructure variable, not homogeneity, is
+what moves; full treatment in #19). These are the existence proof that the
+generate-then-verify method produces hits, not just stories.
 
 **Open predictions with named natural experiments:**
 - **§4.20 / §3.1b — identity-fusion → fertility.** High measured identity fusion
@@ -980,7 +982,63 @@ orphanages, and §6.19 should state it explicitly.
   line explicitly is what stops a critical reader from drawing the Ceaușescu
   comparison unfavorably on their own.
 
-## 19. Open knots (block downstream writing)
+## 19. Japan — the natural experiment that isolates mesoscale infrastructure from ethnic homogeneity
+**Status: READY — a clean natural experiment that strengthens #9 (mesoscale collapse), #11 (embedding-first / ritual-cadence), and #13 (substrate channels); a confirmed entry in the #16 register. Home: Doc 1's isolation/mesoscale discussion (Japan is currently cited only as a *fertility / competitive-saturation* case — 01:765, 01:803 [hikikomori ~1.5M already in], 01:838; 03:116 dwelling-density — never as a cohesion natural experiment). Editorial note: I checked, and the doc does *not* overtly claim ethnic homogeneity is protective, so this note's job is *preemptive* — isolate the variable before a reader assumes homogeneity explains cohesion — not corrective.**
+
+**Why Japan is a cleaner test than most examples already in the paper: it separates
+two variables the reader will otherwise run together — ethnic/cultural homogeneity
+and actual social cohesion.** Japan has the first in spades and has been visibly
+losing the second for sixty years. So **homogeneity alone does not protect the
+concentric-self mechanism** the paper builds on; what Japan lost was the
+*infrastructure* — rural community bonds, extended-family proximity, obligatory
+collective ritual — the exact load-bearing mesoscale (#9) modernity dismantles
+everywhere, here via a *different route*: urbanization and postwar individualism
+rather than the Church's MFP, compulsory schooling, or anti-discrimination law.
+Same disease, different vector, **no immigration or demographic fragmentation
+required** — which is precisely what makes it a discriminating test: it forbids the
+"cohesion is downstream of homogeneity" reading, because the homogeneity stayed
+constant while the cohesion collapsed.
+
+**The evidence bundle (blind-generated, verified).** Japan created a cabinet-level
+Minister of Loneliness in 2021 (2nd nation after the UK); the 2005 OECD survey
+found it had the highest social isolation of 24 members, unimproved twenty years
+on; *kodokushi* ("lonely death," undiscovered for extended periods) is a
+recognized sociological category with its own cleanup industry; *hikikomori*
+(fully withdrawn) are ~1.46M, about 2% of the population; Greater Tokyo holds ~37M,
+close to 30% of the nation in one metro — one of the most extreme single-city
+concentrations in the developed world (the megacity migration *is* the spatial-
+substrate routing of #13/#14, at national scale).
+
+**The "suffocating collectivism" flight = #9's anti-nostalgia / Pareto-frontier-of-
+belonging as a real historical arc.** In Japan's own telling, people fled what they
+experienced as the oppressive collectivism of rural farming villages and
+deliberately engineered a society where you could live *without depending on
+anyone* — and got isolation as the direct, chosen cost of that independence. This
+confirms *both* halves of #9 at once: the old mesoscale unit was load-bearing
+**and** it was a cage worth fleeing. Japan ran the overcorrection to completion —
+from the village's near-infinite exit cost to atomization's near-zero exit cost —
+and landed in exactly the diffuse-attachment starvation #9 predicts. It is the
+clearest existing proof that the target is not "restore the village" but the
+*semi-escapable thick* attachment on the frontier.
+
+**Work as the last remaining substrate channel — the counter-image of the Shabbat
+spec (#11).** The architect's read ("all they do is work because it's easier than
+socializing") is the sharp mechanism: work supplies ready-made *obligatory
+structure* — a hierarchy that tells you where to stand, a schedule that fills the
+hours, scripted interaction (keigo, seniority, defined roles) — so you never have
+to initiate, self-disclose, or risk an uninvited overture. Voluntary friendship
+has none of that scaffolding. Once the family/neighborhood infrastructure that used
+to generate contact *passively* is gone, work is the last domain where human
+contact still happens without anyone having to try, so it swells to fill the
+vacuum — *karoshi* (death by overwork) is the terminal case, working yourself to
+death partly because work is where the remaining contact lives. This is the exact
+inverse of #11's Shabbat spec: Japan is what a society looks like with **no
+enforced non-work sacred time and no surviving passive-contact substrate** — the
+optimization frame devours the whole social field because nothing is walled off
+from it by rule. Substrate repair (#11/#13) is the same prescription read from the
+failure side.
+
+## 20. Open knots (block downstream writing)
 - **The rotten-core problem — the hardest unresolved question under the whole
   paper.** The religion postscript's sharpest move is that unfalsifiability is a
   *feature* (a sacred core doesn't update, so it can't be gamed or negotiated when
