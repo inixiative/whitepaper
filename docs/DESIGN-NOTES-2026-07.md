@@ -1668,7 +1668,71 @@ between earned and extracted), and (2) a concentration curve applies to *voting
 weight itself* (not wealth) via the on-chain, oracle-free tranche discount above,
 with §6.2 Tier 4 closing the Sybil gap it opens.
 
-## 27. Open knots (block downstream writing)
+## 27. What's actually opposed: cheating and bad bureaucracy, not power or elites — and ostracism as a no-fault removal valve
+**Status: RULING (clarifies #25/#26's target) + READY new mechanism proposal (ostracism). Home: the clarification restates §4.7's own principal-agent premise (02:1633 — "governance is fundamentally a Principal-Agent problem"; elites/hierarchy are assumed necessary, the failure mode is capture, not elite existence per se); ostracism is a new addition to §6.12 alongside 6.12.4's sortition (03:1977, confirmed: "Can't capture what you can't predict"). Closes out tonight's token-governance thread (#20–#26) on the right note — a good stopping point.**
+
+**The clarification — restates the paper's own founding premise, corrects an
+overcorrection.** "I'm not against savvy people being in the market... I'm not
+against people having power. You need hierarchy, you need power, you need elites.
+What I'm against is the cheating and the bad bureaucracy." This is not a
+concession or a new position — it **is** §4.7's opening stance (elites/hierarchy
+assumed necessary; the failure mode is the principal-agent gap, capture, and
+managerialism, not elite existence). Worth stating because #25/#26 had drifted
+toward treating *concentration itself* as the thing needing justification; the
+correct framing, restored here, is narrower and matches the rest of the document:
+concentration is fine, **cheating and bureaucratic capture are the target** —
+inflation-that-destroys-value (the printer, §3.11) and Cantillon-style extraction
+are what's actually opposed, not savvy investors winning fairly.
+
+**Ostracism — a genuinely different kind of mechanism than anything built
+tonight, worth taking as a serious addition, not a rhetorical gesture.** The actual
+Athenian procedure, precisely: no charge, no trial, no defense, **no proof of
+wrongdoing required at all.** Annually the assembly voted whether to hold one; if
+so, every citizen scratched a name on a shard (*ostrakon*); above quorum, whoever
+accumulated the most was exiled **ten years, citizenship and property both
+intact, no criminal record, nothing seized.** Purely preemptive — removing someone
+judged dangerously prominent (positioning toward tyranny) with **zero requirement
+to demonstrate an actual bad act.**
+
+**Why this is a different tool than everything else in the token-governance
+thread, and possibly the more honest one.** Tonight's whole apparatus (§23's
+Vickrey-integrity engineering, the bounties-for-capture-detection, KYC-tier
+Sybil-resistance, §6.13's concentration curve) is fundamentally **cheating-
+detection machinery** — it works by trying to define, in advance, exactly what
+counts as illegitimate accumulation, then catching violations of that definition.
+Ostracism inverts the premise entirely: it is built on **not trusting the
+community to always catch the cheating**, so it reserves a periodic,
+**majority-triggered, no-fault power to simply remove excessive influence on
+suspicion alone** — no definition of illegitimacy required in advance. Directly
+parallel to **§6.12.4's sortition logic** ("can't be captured by what you didn't
+select in advance") — same principle, applied to **removal** instead of
+**selection**. Worth proposing as a §6.12 addition: a periodic, no-fault,
+community-triggered mechanism for shedding outsized platform-token concentration
+or influence, separate from and complementary to the cheating-detection
+machinery already specified.
+
+**The honest tension this surfaces, left unresolved on purpose (per this
+conversation's own discipline — don't smooth a real gap).** §2.1A's dynastic-
+lineage/relative-fitness argument doesn't require *any* cheating to produce
+multi-generational concentration: a savvy investor who never touches a printer,
+never games a Vickrey auction, wins consistently and compounds that advantage
+across time and descendants, produces the *same* structural entrenchment the
+whole document worries about — through purely legitimate relative-fitness
+competition. This doesn't invalidate the earned/extracted distinction (#26); it
+means the distinction, even applied perfectly, **does not fully close the loop**
+§2.1A opens. Ostracism is the honest acknowledgment of that residual gap: not a
+claim that concentrated power is illegitimate, but a standing community
+reservation of the right to say "enough," on its own judgment, without first
+having to prove the accumulation was cheated. Whether the platform actually wants
+that valve — and at what threshold, cadence, and cost to the community that
+invokes it — is left as a genuinely open design question, not resolved here.
+
+**Session note:** a good point to close this stretch of the conversation — the
+token-governance thread (#20 revealed-preference → #23 base-token → #24/#25
+governance split and its reversal → #26 extraction-vs-earned → #27 here) is now a
+coherent, load-bearing arc, not a pile of disconnected ideas.
+
+## 28. Open knots (block downstream writing)
 - **Platform-token vote-weight curve: ratify the tranche-discount proposal.**
   #26 proposes a concrete resolution (discount curve on voting weight, not
   wealth — oracle-free; Sybil-resistance via §6.2 Tier 4 above a concentration
