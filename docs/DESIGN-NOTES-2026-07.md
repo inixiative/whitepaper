@@ -493,7 +493,127 @@ armored at each point a reviewer would sink it. That draft has NOT been written
 yet — it awaits an explicit "go." When it comes, it is a Document 1 reframing,
 not another note.
 
-## 11. Open knots (block downstream writing)
+## 11. Fertility is a sensor-read on whether the larger self is real and present
+**Status: STRONG THESIS for the mechanism (fertility-as-sensor); READY for the falsification-test addition to 3.1b (it repairs a real gap); the supporting demographics are HYPOTHESIS pending a longitudinal source. Home: §3.1b (concentric selves) — supplies the limits/mechanism section 3.1b lacks and that 3.1c already has. Ties to #9 (mesoscale — this is its demographic symptom), #10 (ratchet — fertility collapse as the terminus diagnostic), §3.4 (Chesterton's Fence, applied to ritual), and the religion-as-coordination postscript in 03. The clean layering: mesoscale collapse is the *disease* (#9), fertility is the *sensor/symptom* (this note), the ratchet is the *frame* (#10).**
+
+**The mechanism — the actual new claim.** Fertility proclivity is not primarily an
+economic or preference variable; it is a *read-out of instrumentation*. The
+question a person's reproductive drive is quietly answering is the Putnam
+question from 3.1: *is the larger self real and present — do I have sufficient
+community, is that superorganism extant and safe?* You have children when the
+sensor reads the mesoscale as intact, because raising them *well* requires the
+embedding (family, friends, community) and the child comes out worse without it —
+so the drive is gated on a prior reading of "is there a body to belong to." This
+turns fertility from an *outcome* into a *sensor*: sub-replacement fertility is
+the instrument reading "no larger self present," which is exactly why it is the
+terminus diagnostic in #10 — the configuration has stopped reading as real to the
+units inside it, and they stop making the next generation. The architect's own
+framing: this is why he is pushing his family toward more frequent Shabbat — the
+felt need is *community*, "it's hard to do this alone, and the kids don't come
+out as good" without the embedding.
+
+**This is the falsification section 3.1b is missing.** 3.1c (the peacock-feather
+section) states its own limits — origin, termination, Weinstein gap; 3.1b (the
+concentric-self / hive-switch claim) has no equivalent and, as written, reads
+close to unfalsifiable (high fertility ⇒ boundary expanded; low fertility ⇒
+boundary contracted — post-hoc redescription, the same evidentiary weakness
+flagged in the Bitcoin-capture and 3.1c material). The architect supplied the
+fix — a *forward* prediction, specified in advance: **societies with strong
+internal class narrative should show both higher within-class fertility and more
+resistance to elite-manufactured discontent.** The pre-committed falsifying case:
+a population with high *measured* identity-fusion and low fertility (or the
+inverse) that the theory would then have to explain away rather than absorb. Put
+this in 3.1b as its limits section — it converts the concentric-self claim from a
+vocabulary you can wrap around any outcome into a mechanism that makes a checkable
+bet.
+
+**The narrative-homogenization mechanism — substrate capture, in 3.1's own
+vocabulary (genuinely new, and strong).** Over ~100 years, radio → television →
+internet flattened *class-internal* narrative into one centrally-broadcast feed.
+A century ago the lower classes generated their own story internally — they could
+organize, and their bright people led locally, inside the class. Now everyone is
+fed into the sorting machine, most get a degree that doesn't help, and the
+*sufficiently talented aspirants get shuffled off into dissatisfied counter-
+elites* (Turchin's elite overproduction, arrived at from the media angle). Stated
+in the paper's own terms this is **substrate capture**: a local high-fidelity
+signal (your neighbors, parish, union hall telling you who you are) overwhelmed by
+a low-fidelity, high-reach broadcast one, so the self-boundary that used to anchor
+at class/neighborhood scale lost its anchor and snapped back to the atom. This
+*extends Putnam's own mechanism* — in Bowling Alone he attributes much of the
+civic-association collapse specifically to television, cohort by cohort — from
+"civic associations" to "class-internal identity narrative." Propaganda existed
+before, but it couldn't overwhelm the inertia of your own class's self-told story;
+the new channels can.
+
+**Embedding comes first; marriage is a precursor because it is a *symbol of
+participating in a social order*.** The causal order the architect insists on:
+willingness to be embedded → marriage → children; the rest follows the embedding,
+it does not precede it. Marriage is such a good leading indicator for fertility
+not (only) as a private dyad but because it is a public act of *joining the social
+order* — a legibility signal, to self and others, that the larger self is real
+enough to bind into. This is the belonging-first ordering, and it is why
+subsidizing the intermediate layers (Iceland's complementary welfare state) tracks
+better than substituting for them.
+
+**Not pure eusociality — the superorganism has to be re-earned through signal, and
+that is what makes it fragile (a correction to keep on 3.1b).** We are "90% chimp,
+10% bee." Boomsma's lifetime-monogamy-precedes-eusociality finding argues *against*
+full eusociality as the human model: we are not genetically wired like an ant
+colony, so the superorganism-feeling is not given free by relatedness math — it
+must be *built and continuously re-earned* through signal (ritual, shared story,
+mutual obligation). That is a harder, more fragile position than eusociality, and
+it is precisely why belonging needs *infrastructure* and cannot be assumed to
+persist once installed — which sets up the next point.
+
+**Collective effervescence was load-bearing infrastructure, and efficiency
+stripped it — Chesterton's Fence applied to ritual.** "We have no euphoria anymore
+besides dance clubs and maybe psychedelics." Sanctioned collective ecstatic
+practice — the thing societies used to *provide and recognize as important* — got
+removed by efficiency-minded middle management as beneath them / illegible, but it
+was load-bearing. Barbara Ehrenreich, *Dancing in the Streets*, documents the
+Western suppression of communal ecstatic ritual (Reformation crackdowns on
+carnival, medicalization of ecstasy) and links its disappearance to the rise of
+mass depression in exactly the populations that lost it; Durkheim's *collective
+effervescence* is literally the same mechanism 3.1b already cites through Haidt's
+hive switch (synchronized movement / shared ritual dissolving individual self into
+group self). So this is the paper's *own* Chesterton's Fence argument (3.4)
+applied to ritual instead of regulation: a fence built by people who remembered
+why collective ecstasy mattered, torn down by people who inherited the fence
+without the memory of the bull — because the function was never on the dashboard,
+and the bureaucratic instinct measures only what a dashboard can see.
+
+**Shabbat as the engineering spec (the architect's applied instance — worth
+writing as a worked example of the design criteria).** Score it against the
+paper's own clarity/signal requirements and it is a *good* mechanism, not merely a
+nice one: **weekly** (frequent enough to reinforce the identity before it decays —
+vs. annual holidays, too sparse to hold a boundary against daily competing
+signals); **embodied** (shared meal, physical co-presence, not verbal assent);
+**multigenerational** (grandparents and children in one room — the "dedicated
+preservation role" the paper says religion has and philosophy lacks); and
+**mandatorily unproductive** — the enforced work-stoppage *by rule, not
+preference*, is what makes it legible as sacred rather than one more optimizable
+calendar slot. That last property is the load-bearing one: a monthly "family
+dinner" scheduled around everyone's work calendar stays *inside* the productivity
+frame and erodes the first time something more "important" comes up; Shabbat is
+outside it by rule, which is what stops the erosion. This is the general spec for
+mesoscale-reconstruction ritual (#9): frequent, embodied, multigenerational,
+non-optional, and outside the optimization frame by rule.
+
+**Keep the note honest — the identification problem is real (same discipline as
+everywhere else).** The causal arrow runs both ways and the available evidence
+cannot separate them: parenthood *manufactures* local embedding (school pickup,
+PTA, church nursery), so "parents are more embedded / higher trust / more church
+attendance" (the JEC report; the China GSS social-trust → fertility-intention
+result; the Iranian social-capital → shorter-time-to-pregnancy cohort) is equally
+consistent with the reverse arrow — having kids drags you into community, rather
+than community enabling kids. The version that would actually be *strong* evidence
+is **longitudinal**: belonging measured *before* the childbearing decision
+predicting that decision, controlling for income, religiosity, and marital status.
+Flag this as a source to chase for the paper — do not rest 3.1b on the
+cross-sectional numbers, which is exactly the retrofitting weakness the
+falsification test above is meant to close.
+
+## 12. Open knots (block downstream writing)
 - **Tiers by vouch vs. by reach.** Are tiers defined by *vouches* (identity /
   trust / skin-in-the-game) or by *demonstrated cross-cleavage reach*
   (anti-faction)? These pull in different directions; the tiered design can't
