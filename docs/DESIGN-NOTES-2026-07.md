@@ -613,7 +613,207 @@ Flag this as a source to chase for the paper — do not rest 3.1b on the
 cross-sectional numbers, which is exactly the retrofitting weakness the
 falsification test above is meant to close.
 
-## 12. Open knots (block downstream writing)
+## 12. Managerialism is the named mechanism behind the ritual-pruning
+**Status: READY for the *bridge* (links existing material to #11 and §4.13); the Burnham/Andreessen economics is ALREADY IN the paper — 01:2269 names both explicitly ("Power shifted from those with skin in the game to those optimizing for plausible deniability… their incentive is not success, it's non-blame"), plus 01:2147, 02:1078, 02:1637. So this note does NOT re-diagnose managerialism; it (a) adds the synthesis the paper leaves implicit and (b) files a citation-hygiene flag. Home: the bridge sits between §4.13 (Tyranny of Metrics) / §3.4 (streetlight) and #11 (ritual suppression); the citation flag applies wherever Universe 25 / mouse-utopia is load-bearing (Doc 1 §1.4–1.5).**
+
+**Don't re-litigate the economics — it's in.** Burnham's *Managerial Revolution*
+(1941), Andreessen's revival, the non-blame incentive (a manager who follows
+procedure and fails gets reassigned; who breaks procedure and succeeds gets fired
+for insubordination), the skin-in-the-game → plausible-deniability shift: all
+present at 01:2269. Andreessen's own extensions are optional context, not new
+diagnosis — Burnham thought the shift *structurally inevitable* (orgs get too big
+and technical for owner-operators), Andreessen frames venture capital as "a rump
+protest movement" re-seeding founder-run capitalism against that tide, and he
+distinguishes it from the Ehrenreichs' 1977 left-origin "professional-managerial
+class" coinage. Cite Burnham directly if anything.
+
+**The additive claim — the paper's signaling frame supplies the mechanism
+Andreessen lacks.** Andreessen/Burnham give the *economic-organizational*
+mechanism: who captures the institution, and why the manager optimizes for
+non-blame. The paper's own signaling framework gives the *deeper* mechanism
+Andreessen does not have: **why managerial optimization specifically destroys
+*unmeasured* goods** — ritual, belonging, collective effervescence (#11) — and
+not merely economic dynamism. The managerial calculus can only act on
+dashboard-legible value, so it predictably prunes toward the legible and cuts
+what it cannot see — not from malice toward joy, but because unmeasured value is
+*invisible* to it. That makes "middle management decided this is beneath them"
+(#11) not a throwaway but a named instance: **managerialism applied to ritual**,
+and the *same* mechanism as §4.13 (Tyranny of Metrics) and §3.4 (streetlight — you
+search under the lamppost because that is where the light is). The paper is
+actually *more precise* than Andreessen here — he treats managerialism as an
+economic phenomenon (dynamism, founders); the paper extends it to the specific
+casualty, the unmeasured coordination goods that hold the mesoscale together
+(#9). Managerialism is also the parasitic-tumor failure mode already stated at
+02:1637 ("parasitic tumors rather than functional organs") — i.e. the *cancer*
+pole of the #8 cancer/totalitarianism symmetry: a scale capturing the whole and
+starving the rest. So §4's anti-managerial machinery (thin/rotating elites,
+defection-costly, the empowerment-compensation-consequence triad) is the
+institutional immune response, and the metric-tyranny point is *why that immune
+response must protect the unmeasured organs too.*
+
+**Citation-hygiene flag (editor of record).** Rudyard Lynch (the WhatIfAltHist
+popularizer; his "SAW" — Studies in Ancient Wisdom — framework argues world
+religions encode hard-won adaptive knowledge that managerial bureaucracy flattens)
+is the ecosystem in which several of the paper's load-bearing analogies circulate —
+the mouse-utopia framing traces to him. His managerialism-flattens-ancient-wisdom
+point has real cultural traction, and noting the idea's reach is fine. But **cite
+Burnham directly and the paper's own 3.1 / 4.13 machinery — do NOT lean on Lynch's
+specific framings** (mouse-utopia-as-comfort-ennui, the SAW packaging,
+over-leaning on Turchin's 250-year cycle beyond what cliodynamics defends). Those
+are secondhand compressions that grow *more* convincing with podcast repetition
+and *less* convincing against the primary literature — the same failure class as
+the Bitcoin-capture chain and the Benz material flagged earlier. This bites because
+Universe 25 is heavily load-bearing in Doc 1; #13 supplies the primary-literature
+grounding that makes it bulletproof.
+
+## 13. Space is a substrate channel, not a capacity variable — the four-pen studies prove it
+**Status: REVERSAL of an over-strong "space isn't the mechanism, humans have more of it than ever" objection → REFINEMENT that *strengthens* the existing Universe 25 material; READY (maps cleanly onto the paper's own Four Axes, and yields a falsification test). Home: Doc 1 §1.4–1.5 (Universe 25), Doc 3's "Universe 25 Consequence" (03:112–137, the George/rent → density chain), and the Four Axes framework (02:143). Ties to #11 (same failure mode, different substrate channel) and #9 (mesoscale on the spatial axis).**
+
+**The claim.** Space is not a capacity variable and not *the* mechanism — it is
+*one signal channel among several*. The *same physical space*, differently
+divided, gives you the coordination signal or destroys it; Calhoun's own
+variations prove this, and over-fixing on raw space is a category error. Demote
+space from capacity-driver to one-substrate-channel-among-many and the "humans
+have more space than ever" objection simply falls out — it was answering a
+capacity claim the data never made.
+
+**The primary-literature grounding (checked).** Before Universe 25 there were the
+four-pen behavioral-sink studies: 32–56 rats in a single 10×14 room divided into
+four pens connected by ramps *in a line* — pen 1→2→3→4, with **no direct route
+from 1 to 4**. Same total floor space, same population, same unlimited food and
+water across the whole system. But the ramp *topology* forced routing: the
+interior pens (2, 3) were reachable only by passing through, so population pooled
+there — this is the literal origin of the term "behavioral sink" (a sink is where
+the population pools). The end pens (1, 4) stayed comparatively normal; the
+interior pens, forced into higher *effective* density by the connectivity pattern
+alone, produced the pathology — aggression cascades, maternal breakdown,
+Beautiful-Ones withdrawal. **Identical capacity, different topology, different
+social-signal outcome.**
+
+**The mapping onto the paper's OWN Four Axes (02:143–160) — this is the clean
+part.** Capacity was held constant (space, food, population); **Substrate** varied
+(the topology *is* what physical-proximity / contact signals travel through, and
+how they are routed and filtered); and the outcome tracked *Substrate, not
+Capacity*. It is precisely **Substrate Failure, state #3** — "true signals exist
+but don't propagate representatively" — the routing produces selection-bias
+clustering. So on the paper's own axes, **space belongs on the Substrate axis, not
+the Capacity axis.** That is not a soft analogy; it is the paper's framework
+predicting the experiment.
+
+**Why this is an upgrade, not merely a concession:**
+1. Doc 1 already frames Universe 25 as a *signaling/substrate* failure (01:921 "if
+   social signaling fails to reach the individual… the radius contracts"; 01:854
+   "lost the coordination technologies"). But Doc 3's causal chain still leans on
+   "density signal" / "spatial saturation" language (03:120, 03:133) that reads as
+   a *capacity* claim and invites the lazy "but there's more space than ever"
+   dismissal. The four-pen data lets the paper assert substrate *provably* —
+   because capacity was held constant by construction.
+2. It grounds the analogy in the four-pen studies rather than the more-cited (and
+   more Lynch-compressed — #12) Universe 25 headline, which is more defensible
+   primary literature and immune to the density dismissal.
+3. It yields the **human falsification test** the concentric-self material (#11 /
+   §3.1b) has been missing on the spatial axis: find contexts with the *same*
+   population and resource base, differently *routed*, and predict different
+   cohesion / fertility *independent of raw density* — open-plan office vs. cubicle
+   warren; dense mixed-use old-city block vs. suburban cul-de-sac routing; a town
+   with one plaza vs. one with none. State this precisely instead of gesturing at
+   "mouse utopia" — the shorthand invites the dismissal, the substrate mechanism
+   under it is solid.
+
+**Tie to #11 (keep the unification).** Spatial routing and media/narrative
+homogenization are *the same failure mode on different substrate channels*: a
+local high-fidelity signal — physical proximity, or class-internal narrative —
+overwhelmed or mis-routed by structure. Both are Substrate Failure. The mesoscale
+is dissolved on the spatial axis (cul-de-sac atomization, no plaza) exactly as it
+is on the narrative axis (#11) — one disease (#9), several substrate channels. So
+the natalist/spatial mechanisms in Doc 3 (§6.18–6.19) and the ritual-cadence spec
+in #11 are not two topics; they are substrate-repair on two channels.
+
+## 14. Roaming-radius collapse: human proof of #13, a broad-signal counterexample, a legal anti-natal ratchet
+**Status: three moves. (a) READY — the Hart data is a cleaner, real-world instance of #13's substrate claim; home §4.20. (b) OPEN TENSION / caveat-required — a genuine counterexample to broad-signal sovereignty (#1) that must be grappled with in §4.13, not smoothed; also surfaced in #15. (c) READY — a concrete addition to §4.20's anti-natal-penalty list. Numbering correction: the source thread filed the counterexample to "§4.11 sensor-reads-vs-metrics," but §4.11 is *Continuous Adaptation*; the sensor-vs-metric thesis is §4.13 (Resist the Tyranny of Metrics), which is exactly #1 / PR #14's broad-retrospective-signal — so this lands on the central thesis, not a side principle.**
+
+**The architect's framing.** A globalized economy plus luxury beliefs
+(Henderson) raise the *perceived* bar for parenthood to "eternity with all the
+luxury" — mate-suppression and status signals that tell you what you must have
+before you're allowed to be a parent — while the physical precondition quietly
+vanishes: there is no safe public space left for kids to just go out and be kids
+with other kids. The "not enough space to have a child in a city" complaint is
+not (only) square footage; it is the disappearance of the *routed public
+substrate* children's play used to travel through — the spatial-substrate point
+of #13, felt directly.
+
+**(a) The Hart study — a cleaner, more falsifiable case than the mouse pens.**
+Roger Hart mapped children's independent-play zones in a Vermont town in the
+mid-1970s, then remapped the *same* town ~40 years later: same community, same
+demographics, **same crime rate** — and the radius kids were allowed to roam
+unsupervised had collapsed almost completely. That is about as close to a
+controlled experiment as reality offers: **capacity held constant, the signal
+changed anyway, behavior tracked the signal not the capacity** — the exact shape
+of #13's four-pen result, now in humans and immune to "but there's more space
+than ever." Nationally the same pattern: a widely-cited Michigan study found
+unstructured outdoor play for kids 6–17 fell by *half* over 20 years while crime
+*against* children fell over the same period. The gap between perceived and actual
+danger, not actual danger, is doing the work. File as the strongest evidence in
+#13's Home sections; it is stronger and more specific than the current Universe 25
+citation.
+
+**(b) The counterexample to broad-signal sovereignty — do NOT smooth this.** #1
+and §4.13 and PR #14 all say the same load-bearing thing: aggregate lived
+sentiment (the broad retrospective signal) is sovereign over curated named
+metrics, because the vibe tracks reality better than the dashboard. Parental
+stranger-danger fear is a real counterexample: here the aggregate sensor reading
+is *worse* calibrated to ground truth than the crime statistic is — decoupled from
+capacity (crime fell), sustained for decades, and *resistant to correction by
+data*. The mechanism is already named in the paper's own frame: **the sensor read
+was captured by an availability cascade / media negativity bias — Pinker's
+substrate-selection effect (02:160, Substrate Failure state #3).** So the sensor
+was not reading capacity; it was reading a *corrupted substrate*, which is exactly
+the failure state the Four Axes predict. This does not refute #1 — it *bounds* it:
+broad-signal sovereignty needs an explicit clause for **when the vibe itself has
+been captured by an availability cascade**, i.e. when the substrate carrying the
+sentiment is systematically biased in precisely the domains where stakes feel
+highest (children, crime, terrorism, contamination — the high-affect tail media
+selects for). In those domains the metric can be the better-calibrated sensor, and
+"trust the vibe over the metric" inverts. The clean reconciliation: sovereignty of
+the broad signal is still right *by default*, but it is defeasible where the
+substrate is known to be negativity-captured — and #1's own "sovereignty of kind,
+not scale" is the lever, because a substrate-captured fear is not a reading of
+*health*, it is a reading of the *media layer*. §4.13 should carry this caveat
+explicitly; without it a reviewer sinks the whole broad-signal thesis on this one
+case.
+
+**(c) The legal anti-natal ratchet — §3.8 × §4.5 colliding in the worst way.** The
+"nothing safe enough for kids to go out" friction now has *legal teeth*, and it is
+enforceable, not just cultural drift. Most US states set no minimum age for
+unsupervised outdoor play — which functions not as permission but as **maximal
+discretion** for a caseworker or a neighbor with a phone: no floor protects the
+parent, only vague neglect statutes a CPS investigation can open under. Utah led,
+and others followed, in passing explicit "free-range parenting" laws that carve
+independent play *out of* the legal definition of neglect — because parents were
+getting police and CPS visits for letting a kid walk to a park alone. This is §3.8
+(friction as information) and §4.5 (make defection costly) colliding backwards:
+the system has loaded **friction and real legal/social risk onto the cooperative,
+historically-normal, embeddedness-building behavior** (kids roaming — the very
+thing #11's fertility argument says must be *cheap*) while the atomized
+alternative (kid inside on a screen, parent liable for nothing) carries none.
+That is an incentive gradient that punishes exactly the behavior the fertility
+argument needs to subsidize — an anti-natal penalty as structural as any in the
+current §4.20 list. **File as a concrete addition to §4.20's "Remove structural
+anti-natal penalties" bullet (02:2759), which currently names housing regulation,
+marriage-tax penalties, credential-driven delay, and work/living zoning — but not
+this.** Hart's Vermont data plus the free-range legal patchwork is stronger, more
+specific evidence than anything now cited there.
+
+## 15. Open knots (block downstream writing)
+- **Broad-signal sovereignty is defeasible under substrate capture.** #14(b) is a
+  live counterexample to #1 / §4.13 / PR #14: the aggregate vibe can be *worse*
+  calibrated than the metric when an availability cascade / media negativity bias
+  has captured the substrate carrying the sentiment (stranger-danger fear vs.
+  falling crime). Broad-signal sovereignty needs an explicit "unless the substrate
+  is negativity-captured" clause before #1 or §4.13 goes to prose — otherwise the
+  case sinks the thesis. The lever is #1's "sovereignty of kind, not scale" (a
+  captured fear reads the media layer, not health), but the clause has to be
+  *written*, not assumed. Blocks promoting #1 / §4.13.
 - **Tiers by vouch vs. by reach.** Are tiers defined by *vouches* (identity /
   trust / skin-in-the-game) or by *demonstrated cross-cleavage reach*
   (anti-faction)? These pull in different directions; the tiered design can't
