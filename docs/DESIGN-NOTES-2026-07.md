@@ -1603,13 +1603,78 @@ resolves must be stated explicitly and defended in the document** (per the
 thread's closing instruction) rather than left for a critical reader to notice the
 tension against §4.7/§5.3 unassisted.
 
-## 26. Open knots (block downstream writing)
-- **Platform-token vote-weight curve: linear or dampened?** #25's one open
-  parameter — token/tokenized-asset value converts to vote weight either at a
-  constant rate (linear plutocracy, stated as deliberate) or via a convex/log
-  curve (§4.7's own diminishing-returns principle, applied to this conversion).
-  Blocks writing the platform-governance mechanism into §6.12B; must be resolved
-  and stated explicitly, not left implicit.
+## 26. Not all wealth is the disease — extraction vs. earned, and the leading resolution to #25's open curve
+**Status: RULING on the moral distinction (architect's own words) + PROPOSED (not yet architect-ratified) resolution to #25/#26's linear-vs-dampened knot. Home: with #25/#23; leans on §3.11 (five money types — the architect names this explicitly: "this is the five types of money problem"), §6.13 (Anti-Monopoly Mechanisms — Progressive Costs on Concentration, confirmed at 03:2101, including the "monopolies are allowed but pay a higher rate as concentration rises" framing the architect referenced) and §6.2's KYC tiers (confirmed: Tier 4 = "Vouched/Staked… combines social and economic bonds," 03:381).**
+
+**The moral distinction, in the architect's own terms.** "The issue isn't that
+people accumulate wealth, it's that people accumulate wealth through the printing
+of money or proximity to banks… it's banking billionaires, billionaires the
+government paid to make billionaires — not ones who got there through their own
+value." This is §3.11's own five-money-types distinction, self-applied to #25: if
+the platform genuinely has **no printer** — no central mint, no privileged
+banking relationship, wealth enters only by winning open Vickrey auctions or
+contributing real assets — then token concentration here is structurally closer
+to Category 1 (productive money) than to the Cantillon-extraction or
+asset-inflation wealth the rest of the paper diagnoses. This substantially
+defuses #25's tension: linear vote-weight is not automatically the same disease as
+fiat one-dollar-one-vote, *because the source of the wealth is doing the moral
+work, not the raw fact of concentration.* Good — but "no printer" doesn't fully
+close the loop; two gaps remain, both worth stating in the document rather than
+assuming away:
+1. **First-mover/informational-advantage compounding needs no printer at all.**
+   Someone who joins early and consistently wins auctions on better information
+   about which initiatives will succeed accumulates governance weight through
+   compounding advantage untethered from marginal value contributed *today* — this
+   is §2.1A's dynastic-lineage calculus, now running *inside* the platform's
+   economy rather than against it. A printer-less platform can still grow its own
+   founder-population aristocracy purely from time-in-system.
+2. **The mint mechanism (#23) is a narrower, private version of the exact
+   vulnerability being excluded.** Minting happens against Vickrey-cleared prices;
+   if that auction can be gamed (the manipulation risk flagged since #23's first
+   draft), someone receives newly-minted tokens against an inflated valuation —
+   structurally private Cantillon extraction, wearing an auction instead of a
+   central bank. **"There's no printer" is only true if Vickrey integrity holds
+   perfectly** — which makes that mechanism's manipulation-resistance not just
+   "important" (as #23 already said) but literally the thing standing between
+   "this platform's wealth is earned" and "this platform reinvented the printer
+   with extra steps."
+
+**The size/scale penalty modifier — the architect's own instinct, and the paper
+already has the mechanism (§6.13).** "You're allowed to be a monopoly, but you have
+to pay more — a higher rate the more concentration you have… hard to do without
+oracles and anti-Sybil [measures]." §6.13 (confirmed) is exactly this: Georgist
+progressive-cost-on-concentration, generalized past land to wealth/corporate
+size/platform monopoly. The architect correctly identifies the practical obstacle
+for applying it *here*: assessing concentration of real-world wealth/asset value
+needs external price oracles.
+
+**The proposed fix (leading candidate — not yet ratified by the architect,
+flag explicitly).** Apply the discount curve to **voting weight directly**, not to
+underlying wealth/asset value: first N tokens convert to votes at full rate, each
+subsequent tranche at a discount. This sidesteps the oracle problem entirely,
+because **token balance is already on-chain, known, and unforgeable** — no external
+price feed needed at all, unlike §6.13's original wealth-tax framing. That leaves
+only the Sybil problem (a whale splitting one position across fifty wallets to stay
+under the discount threshold) — and the paper already has the tool: **§6.2 Tier 4
+(Vouched/Staked identity)** as a prerequisite for full voting weight above a
+concentration threshold. Below threshold, anonymous participation is fine; above
+it, enough identity verification to credibly assert "one actor, not fifty" — the
+same tradeoff §6.2 already makes explicit for geographic associations (confirmed:
+Tier 3+ required there). **So the coherent full position, pending ratification:**
+linear-into-earned-wealth is acceptable *specifically because there's no printer*,
+**provided** (1) Vickrey-mechanism integrity is engineered as the single highest
+priority in the stack (per the reasoning above — it's the only thing standing
+between earned and extracted), and (2) a concentration curve applies to *voting
+weight itself* (not wealth) via the on-chain, oracle-free tranche discount above,
+with §6.2 Tier 4 closing the Sybil gap it opens.
+
+## 27. Open knots (block downstream writing)
+- **Platform-token vote-weight curve: ratify the tranche-discount proposal.**
+  #26 proposes a concrete resolution (discount curve on voting weight, not
+  wealth — oracle-free; Sybil-resistance via §6.2 Tier 4 above a concentration
+  threshold) but the architect has not yet explicitly ratified it over pure
+  linear. Blocks writing the platform-governance mechanism into §6.12B; state
+  and defend whichever way this resolves, don't leave it implicit.
 - **The rotten-core problem — the hardest unresolved question under the whole
   paper.** The religion postscript's sharpest move is that unfalsifiability is a
   *feature* (a sacred core doesn't update, so it can't be gamed or negotiated when
