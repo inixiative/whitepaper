@@ -1270,7 +1270,122 @@ the Heart*), or a contemporary meaning-crisis voice (Vervaeke, McGilchrist).
 Resolve the actual source before attributing in prose — do not cite from the
 garbled name.
 
-## 23. Open knots (block downstream writing)
+## 23. The platform base token — an asset-backed *index fund*, not a minted currency (with Vickrey price-discovery)
+**Status: DESIGN, evolving — worked live; it *landed* on "index fund, not minted." Distinct from the philosophy notes: this is concrete token architecture. Home: a new subsection beside §6.12A (03:2004) — the kWh token is the "economic lubricant," and §6.12A already says a *separate store of value is required* (03:2058); this base token is that companion. Leans on §5.3 (Radical Markets / Harberger, 03:187) for the Vickrey lineage and §4.7's wealth-power firewall (02:1901–1931). Reuses the §6.12A escrow-buffer pattern. Carries three explicit open decisions (below) — not "idk," pick them knowingly.**
+
+**The lineage, named (same problem, three attempts).** Energy-Standard article →
+"back money with something real." kWh token (§6.12A) → answer #1: energy. This →
+answer #2: back the platform currency with the *actual assets running on the
+platform*. Naming the lineage matters because the failure modes are the same family
+in different clothes.
+
+**Where it landed — an index fund, explicitly NOT minted.** The architect moved
+*off* the earlier "mint base token against each Vickrey valuation" idea (correctly —
+that is the reflexivity trap below) to: **the base token literally IS an index of
+all the individually-tokenized platform assets** — a claim on a real pro-rata slice
+of the basket, not a currency conjured against a valuation. Some constituents
+depreciate (most tokenized assets), some appreciate (trust-fund shares, etc.); net
+it behaves like a diversified platform-economy index, not a hard-capped store of
+value. Tokenization's whole point is *liquidity* — assets are never locked, you can
+generally resell your token (delays are configurable per-asset, but the liquid
+majority is what makes the index tradeable).
+
+**Value is driven by a trade tax — the Uniswap-LP primitive, and it is proven, not
+speculative.** "Whenever an asset is sold or traded, you take a part of it; that tax
+is what drives the value of the index." Structurally this is a Uniswap-style
+liquidity-pool token generalized from crypto pairs to tokenized real-world assets:
+an LP token is a claim on a pooled basket, every trade pays a fee that accrues into
+the pool's value, holders never need anything *minted* for the token to appreciate —
+fee flow does the work. Cite that lineage directly; it is a far stronger
+"proven-at-scale, not speculative" claim than anything currently in §6.12A.
+
+**Asset-backed via platform co-ownership — and the platform never has to assert a
+price.** Later refinement: for real-world assets, **the platform itself becomes a
+part-owner** — at a lifecycle checkpoint the asset is co-bought, the Vickrey winner
+taking one slice and the platform another (maybe <10%; the split is an open knob).
+Elegant because the platform *rides the arms-length Vickrey-cleared price* rather
+than running its own valuation — it never asserts "this is worth X," it co-invests
+at the price a real bidder proved. This converts the token from a synthetic claim on
+trade-tax flow into a genuinely asset-backed instrument (which is what fixes the
+closed-end-fund discount — see redemption below).
+
+**Vickrey, repurposed: from mint-trigger to honest NAV mark.** A second-price
+sealed-bid auction on ~10% of an illiquid asset at lifecycle checkpoints makes the
+clearing price a *truthful* signal (dominant strategy = bid true value; you pay the
+second price regardless). It is the Harberger/Radical-Markets lineage (§5.3) but
+fixes Harberger's perverse incentive — pure Harberger exposes 100% continuously to
+forced sale at your self-assessed price, so honesty is punished; exposing only 10%
+at a checkpoint gives honest price signal without betting the whole position. Under
+the index reframe Vickrey is **not obsolete — it is more necessary**, as the
+periodic *marking* function that keeps the fund's NAV honest (the identical problem
+PE/VC funds face marking illiquid holdings between liquidity events — a documented
+abuse vector, because NAV drives fundraising/fees so marks skew high). The mark must
+be periodic, adversarial, and *not self-reported* — which is exactly what the small
+Vickrey supplies. The "why smart contracts make this newly possible" claim is
+*genuine* here (not marketing): classical Vickrey has a trust hole (the auctioneer
+can lie about the second bid), and an on-chain **commit-reveal** scheme (hashed
+bids, reveal after close, contract computes the second-price outcome
+deterministically and verifiably) closes it cleanly. Write that up as the real
+"why now."
+
+**The load-bearing cautions (record these as guardrails — the stakes rise as the
+design generalizes):**
+- **Reflexivity (Terra/Luna, ~$40B in a week).** Any loop where the token being
+  priced and the token doing the pricing are the same asset death-spirals. The
+  index-not-minted move avoids the mint version; **the co-buy funding source
+  revives it** if the platform buys in with freshly-minted base token (that is QE-
+  on-itself). Fix: **auctions clear in an *external* reference asset** (a stablecoin
+  or the kWh token), and **fund co-buys from realized trading-tax revenue, never
+  from minting** — keep the two mechanisms cleanly separated, neither bootstrapping
+  the other.
+- **Thin-reference-price manipulation (LIBOR → SOFR).** A once-off 10% auction with
+  massive downstream leverage riding on it has LIBOR's exact shape; under the index
+  reframe a single nudged auction distorts the *whole money supply*, not one loan.
+  Fix: mark/value against a **rolling, staggered series of small auctions across
+  many independent assets** (time-weighted, the SOFR fix), never a single point-in-
+  time snapshot.
+- **Minority/marketability discount + linear extrapolation.** A non-controlling
+  illiquid 10% slice clears at a discount; ×10 systematically *misprices* the whole.
+  Fix for collateral use: a **pre-declared haircut / LTV below 100%** on
+  (auction price × 10), the standard lender margin against exactly this.
+- **Closed-end fund vs. ETF (redemption).** With no redemption right into the
+  basket, expect persistent 10–20% discount-to-NAV drift (closed-end funds do this
+  for years). ETF-like discipline requires in-kind create/redeem by large holders,
+  whose arbitrage pins price to NAV. The asset-backing makes redemption *possible*;
+  **decide it knowingly** — declining redemption to protect the underlying assets'
+  liquidity guarantees is legitimate, but then the discount is a feature, not a
+  surprise. (Open decision #1.)
+- **Index-inclusion gaming (S&P 500 pop).** If inclusion in the base index is
+  valuable (instant liquidity, whole-platform volume), creators will inflate their
+  marked value right before entry. Fix: inclusion marking uses the same **staged,
+  multi-checkpoint Vickrey**, never a single self-reported number at entry.
+- **Adverse selection / Akerlof lemons in the co-buy.** If the platform auto-buys a
+  fixed slice at the cleared price, owners of genuinely-appreciating assets keep
+  theirs / minimize what they auction, while owners of declining/overhyped assets
+  sell into the co-buy — the basket quietly tilts toward lemons. The co-buy % is
+  **not a free knob**; run incentive-compatibility analysis before setting it.
+  (Open decision #2: the split, and whether <10%.)
+- **Common ownership + referee (Vanguard/BlackRock/State Street; Azar–Schmalz–Tecu).**
+  Owning a slice of every asset softens competition among them — and here it is
+  worse than for BlackRock, because the platform *also* runs the voting, sunset
+  reviews, and dispute resolution for those same assets (common ownership **plus
+  being the referee** — the exchange-owning-its-listings / search-ranking-its-own-
+  products self-preferencing case). Fix: reuse §4.7's wealth-power firewall on the
+  platform's *own* holdings — **cap cumulative ownership per-asset and per-portfolio,
+  and strip/firewall the governance voting rights attached to the platform's passive
+  stake** (owning a sliver ≠ voting on that asset's sunset or dispute).
+
+**Reuse, don't reinvent (timing/liquidity lag).** Whenever value must be recognized
+before it is realized (e.g. minting or crediting against not-yet-verified initiative
+value), do not solve liquidity-timing from scratch — **reuse §6.12A's escrow-buffer
+pattern wholesale**: pre-credit against fully-escrowed forward collateral, release
+the escrow as value verifies, substituting "verified initiative value" for "verified
+energy production." (Open decision #3: recognize value at proposal-creation against
+projected value — speculative/inflationary if it underdelivers — vs. only at
+maturity/sunset against realized value — safer but a liquidity lag; the escrow buffer
+is what lets you have the earlier timing safely.)
+
+## 24. Open knots (block downstream writing)
 - **The rotten-core problem — the hardest unresolved question under the whole
   paper.** The religion postscript's sharpest move is that unfalsifiability is a
   *feature* (a sacred core doesn't update, so it can't be gamed or negotiated when
