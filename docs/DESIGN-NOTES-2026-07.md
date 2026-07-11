@@ -1733,7 +1733,7 @@ governance split and its reversal → #26 extraction-vs-earned → #27 here) is 
 coherent, load-bearing arc, not a pile of disconnected ideas.
 
 ## 28. Market discipline as a second anti-manipulation layer, and burn-on-cash-out as the answer to #23's redemption question
-**Status: READY. Confirms and extends #23's periodic-recalibration design; resolves #23's open redemption decision with a concrete, different-from-ETF mechanism (burn-on-realization). Home: with #23 (03:2652 vicinity / new §6.12B). Naming collision flagged below — resolve before promoting to prose.**
+**Status: READY. Confirms and extends #23's periodic-recalibration design; resolves #23's open redemption decision with a concrete, different-from-ETF mechanism (burn-on-realization); adds a vesting-delay-on-voting-power proposal closing a real gap in the market-discipline argument. Home: with #23 (03:2652 vicinity / new §6.12B). Naming collision flagged below — resolve before promoting to prose.**
 
 **Market discipline as a second, independent check on valuation integrity (adds
 to, doesn't replace, #23's staggered-auction fix).** "You have to bid on things,
@@ -1750,6 +1750,43 @@ anti-manipulation design: **structural integrity (commit-reveal, staggering)
 prevents cheap one-shot manipulation; market discipline prevents sustained
 mispricing by bad-but-honest judgment, via ordinary attrition of capital.** Neither
 alone is sufficient; together they're a real defense.
+
+**The gap "eventually corrects" doesn't cover: governance power exercised during
+the window before correction.** "Hard to maintain permanently inflated" is true,
+but the timeframe that matters for #25's linear-plutocracy design isn't the long
+run — it's what happens with the voting weight a manipulated or merely optimistic
+mark *already conferred*, before the correction arrives. Win a Vickrey auction at
+an inflated mark and the voting weight is live *immediately*, priced against that
+mark — usable to approve one's own inclusion terms, vote a sunset review, vote
+platform fee/mint parameters, well before "eventually" reveals the mark was wrong.
+When correction comes, the token's *value* shrinks — but the governance decisions
+already made with that weight don't unwind. **You can't claw back a vote.** So
+"market discipline punishes bad judgment financially" and "market discipline
+prevents that judgment from having already exercised power" are two different
+guarantees, and only the first is actually delivered by "prices eventually
+correct." **The named reason "eventually" is weaker than it sounds:** Soros's
+reflexivity thesis — prices don't just passively converge on an independent
+fundamental, they feed back into the fundamentals themselves (an inflated mark is
+easier to borrow against, more attractive to the next bidder who anchors on the
+last price), which is exactly why bubbles self-sustain for years rather than
+correcting quickly. **Japan's own asset bubble is the case sitting inside tonight's
+own conversation (#19):** equities and real estate stayed inflated through the
+1980s well past fundamentals, the eventual correction was severe rather than
+gentle, and the Nikkei took three decades to reclaim its 1989 peak. "Hard to
+maintain permanently" was true; permanently is not the timeframe that matters for
+governance decisions made *inside* the bubble.
+
+**The fix — cheap, and doesn't touch the economic mechanism.** Don't let freshly
+minted or freshly marked-up voting weight become fully exercisable immediately: a
+short **vesting delay on voting power tied to a new high-water mark** — long
+enough for at least one more Vickrey checkpoint to confirm the price holds — forces
+a manipulated or merely optimistic mark to survive a second independent test
+before it converts into governance leverage, not just a first one. The economic
+side is untouched (tokens are received and tradeable immediately); only the
+*voting* consequence of a fresh high-water mark is delayed until proven durable.
+Directly plugs the one gap "the market self-corrects" doesn't cover, and composes
+cleanly with #25/#26's open curve-shape question (the vesting delay applies
+regardless of whether that curve ends up linear or dampened).
 
 **Confirms the periodic-lifecycle-recalibration reading of #23's Vickrey marking.**
 "This is a periodic lifecycle recalibration... trying to audit the funds and the
@@ -1803,6 +1840,12 @@ fund-payout mechanism.
   threshold) but the architect has not yet explicitly ratified it over pure
   linear. Blocks writing the platform-governance mechanism into §6.12B; state
   and defend whichever way this resolves, don't leave it implicit.
+- **Vesting delay on fresh high-water-mark voting power — ratify or drop.** #28
+  proposes delaying *exercisability* of voting weight tied to a new price
+  high-water mark until a second Vickrey checkpoint confirms it, to close the
+  gap between "price eventually corrects" (true) and "governance decisions made
+  meanwhile don't unwind" (also true, and uncovered by the first fact). Cheap,
+  doesn't touch the economic mechanism — but not yet architect-ratified.
 - **The rotten-core problem — the hardest unresolved question under the whole
   paper.** The religion postscript's sharpest move is that unfalsifiability is a
   *feature* (a sacred core doesn't update, so it can't be gamed or negotiated when
