@@ -1833,7 +1833,81 @@ in the same section — do not let both stand as unqualified "dividends" in the
 final document, a reader will conflate the leader-compensation mechanism with the
 fund-payout mechanism.
 
-## 29. Open knots (block downstream writing)
+## 29. Closing the token-governance arc: scale doesn't dissolve capture, honest failure is the actual bar, and BlackRock/Fed-2020 as the precise disease being excluded
+**Status: SESSION CAPSTONE for the #20–#29 token-governance arc. Three settled points, no new open items — this is a landing, not a new design proposal. Home: with #23–#28; leans on §6.9.2 (Dictator's Handbook, confirmed 03:1651), §6.3.2 (engagement minimums/plurality thresholds, confirmed 03:482), and §6.15 (Platform Philosophy: Humility and Experimentation, Gall's Law, confirmed 03:2366/2376) — the architect's landing point is explicitly the paper's own stated philosophy, not a retreat from it.**
+
+**Correction: scale is not a safeguard against capture — the Big Three is the
+disproof, not the reassurance.** The intuition ("you'd need to own so much to have
+major effects at heavy-adoption scale") has a true kernel — the *percentage*
+needed for a fixed threshold does shrink as the denominator grows, raising the bar
+for casual lone-wolf capture. But the empirical case already in these notes argues
+the opposite of the general intuition: the Big Three's S&P 500 voting share *rose*
+toward ~25% (headed toward ~40%) *while* the market they operate in grew
+enormously — concentration-producing forces (capital efficiency at scale,
+compounding structural advantage, the biggest pools of capital growing *with* the
+market rather than independently of it) scale right along with the platform, so a
+bigger platform is also a bigger, more attractive target for bigger absolute
+pools. Worse: **"major effects" never required majority ownership.** Real
+activist investors swing outcomes with single-digit stakes because most holders
+don't vote at all — precisely **§6.9.2's Dictator's Handbook** (a small, organized
+coalition beats a large, diffuse, low-engagement majority), and that gets *easier*
+as the platform scales, since rational apathy in the median holder grows with
+size, not smaller. **So "the platform will get big enough that concentration
+smooths out" is the same category of assumption as #28's "the market eventually
+corrects" — true on average over long horizons, and not something to rest load-
+bearing weight on for the specific window where a coordinated minority is actually
+exercising power.** The real protective machinery is what's already specified:
+**§6.3.2's engagement minimums / plurality thresholds** (requiring genuine broad
+participation for a vote to count, not plurality among whoever showed up) —
+lean on that explicitly rather than assuming scale dissolves the risk.
+
+**The landing point — not a concession, a category shift in what's being claimed.**
+"I don't think there are perfect solutions. I think there is volatility. Markets do
+make mistakes, but if we can make them more honest, that's a step in the right
+direction." Worth stating precisely why this is the correct place to land rather
+than a retreat: the design was never claiming to *eliminate* concentration,
+capture, or bad governance decisions — only to make the *inputs* to those
+outcomes more honest than what exists now (opaque proxy voting by unaccountable
+managers, discretionary central-bank printing with no real-time market check,
+valuation marks nobody can contest). **A system that fails openly — a bad bet made
+in public, priced by a contestable auction, correctable at the next checkpoint —
+is a genuine improvement over a system that fails opaquely, even though neither
+fails at zero rate.** This is not a new position; it **is §6.15's own stated
+philosophy** (no optimal governance system exists; Gall's Law — complex systems
+that work evolve from simple systems that worked; start simple, let communities
+discover what works through experimentation rather than upfront perfection) —
+worth noting explicitly because it is easy to lose track of after a long stretch
+of adversarial stress-testing that the whole #20–#29 arc (propose → find the
+failure mode → patch → repeat: Vickrey integrity, mint/buy/burn split, the vesting
+delay, the concentration curve, engagement-weighted quorums) is *exactly* that
+philosophy in action, not a sign the design is shaky.
+
+**BlackRock/Fed 2020 — the precise, confirmed disease this design excludes (and,
+explicitly, the one it does NOT touch).** Not "benefits from the general
+environment" but literal, contracted proximity to the printer: in March 2020 the
+NY Fed hired BlackRock directly (no open bid) to run its corporate-bond/ETF
+purchase programs, with terms letting BlackRock buy its *own* iShares ETFs
+alongside competitors' using the Fed's money, under confidentiality clauses —
+BlackRock's own bond ETFs rallied on the announcement, before a single bond was
+bought, purely because the firm managing the purchases was positioned to benefit
+from them (the same pattern recurred with JPMorgan holding its own QE-eligible
+assets in 2008). **This is the exact thing "mint against Vickrey-verified real
+value, no fractional-reserve layer, no discretionary authority" excludes by
+construction** — no entity can be simultaneously *contracted to decide* and
+*positioned to benefit*, because an adversarial auction is doing the pricing,
+not a hired insider. **The honest boundary, stated explicitly rather than left
+implicit:** this specifically inoculates against a BlackRock-2020 moment
+(Cantillon/printer-proximity capture) and **does nothing** against first-mover
+compounding, coalition capture (§6.9.2), relative-fitness dynasty-building
+(§2.1A), or informational edge — those are separate concentration mechanisms
+requiring the separate tools already built across this arc (ostracism #27,
+concentration curves #26, vesting delays #28, engagement-weighted quorums
+#6.3.2). **Keeping these as two distinct diagnoses rather than collapsing them
+into one "no printer, problem solved" claim is the single most important thing to
+carry out of the whole session** — the architect's own closing instruction, and
+the right place to end here.
+
+## 30. Open knots (block downstream writing)
 - **Platform-token vote-weight curve: ratify the tranche-discount proposal.**
   #26 proposes a concrete resolution (discount curve on voting weight, not
   wealth — oracle-free; Sybil-resistance via §6.2 Tier 4 above a concentration
