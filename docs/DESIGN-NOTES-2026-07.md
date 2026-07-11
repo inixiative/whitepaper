@@ -879,7 +879,119 @@ stories.
   ideological templating rides identity-fusion mechanisms technical templating
   does not. **Checkable:** build the two propagation timelines and compare slopes.
 
-## 17. Open knots (block downstream writing)
+## 17. §2.1 read as a convergency — and institutions as Levinian agents whose "mind" is a convergency
+**Status: RULING (architect: "2.1 should be read in the style of a convergency"; "look at these larger institutions and entities as things with their own agency… their mind is that of a convergence — that's taking Levin seriously"). READY for the composition-shift reframe; the foreign-coordination part gets an *upgrade* but keeps two flagged evidentiary debts. Home: §2.1 (01:1743) / §2.1A (01:1799); leans on the existing "From Conspiracy to Convergency" postscript (01:3014–3057, "nucleus/mass" at 01:3207) and the §3.1 "Blinding Proof" (institutions as autonomous Darwinian agents). This is applying the paper's *own* postscript frame to §2.1 itself — the thread's exact point: use the convergency vocabulary on §2.1, not only on ESG and the closing examples.**
+
+**The new upgrade (architect's, genuinely beyond the existing postscript): the
+institution is a *Levinian multiscale agent* whose decision-making is a
+convergency.** The existing postscript frames convergency as emergent-from-
+incentives *without* agency; the architect goes one level further — a state's
+intelligence and cultural-influence apparatus is itself a self at its own scale
+(Levin), and its "strategic coherence" emerges the way an organism's coherent
+behavior emerges from cells that don't individually hold the goal. Officers rotate
+through; doctrine, budget, and career incentives institutionalize; coordinated-
+*looking* behavior results **without any single human holding the plan.**
+Bezmenov's own testimony supports *this* reading better than a conspiracy reading:
+he describes a doctrine, a training pipeline, an institutional process sustained
+across personnel changes — not one orchestrator. So the sharpened §2.1 claim is
+**not** "Qatar/China/Russia conspired" but "state apparatuses are convergency-
+agents whose institutional-level competency produces coordinated-looking strategic
+behavior without individual conspiracy — precisely Levin's selves-at-every-scale."
+Stronger, more theoretically grounded, and honestly *less* falsifiable-by-single-
+memo (a strength to state plainly, not hide).
+
+**But the reframe relocates the evidentiary burden; it does not remove it. Split
+the §2.1 revision three ways:**
+1. **Composition-shift → reframe as convergency, DROP "deliberately."** DEI-adjacent
+   admissions/hiring, credential-market dynamics, and institutional risk-aversion
+   independently push the same way; you do NOT need a plan for "who becomes a
+   counter-elite" to shift in an exploitable direction. Replace "incumbent elites
+   have probably deliberately changed the channels" with: *the channels shifted for
+   independent reasons, the shift happened to produce a more exploitable
+   population, and elites who noticed had no incentive to correct it.* Weaker in the
+   good sense — defensible without establishing intent (which is unprovable anyway).
+   This one fixes itself under the architect's framing.
+2. **Foreign-coordination subsection = the *nucleus*, not the mass.** This part
+   describes alleged actual coordination, so it still must clear the ordinary
+   evidentiary bar — which the Levin-agent framing helps with (it licenses dropping
+   the smoking-gun *individual-intent* requirement in favor of documented
+   institutional doctrine + observable behavior over time: Bezmenov, published
+   United Front Work Department material, the congressional-record Qatar figures).
+   What it does **not** license, and what is currently *asserted not shown*: the
+   leap from "documented foreign funding exists" to "this funding targeted and
+   exploited a *psychologically pre-selected* population for channelability." That
+   is an outcome-claim about the convergence and needs its own evidence; the Levin
+   lens relocates which part needs the citation, it doesn't supply it.
+3. **Singer et al. 2006 is orthogonal to the whole conspiracy/convergency axis —
+   and it is a genuine liability.** A single 32-participant fMRI study (fairness-
+   modulated empathy, 01:812) is carrying enormous downstream weight — the
+   feminization/civilizational-suicide frame (01:832–834), Lord Acton's asymmetry,
+   the §1.4 machinery. Same failure mode as the Bitcoin/Benz material: a narrow,
+   contested finding stretched into a totalizing frame, such that a hostile reader
+   who checks the citation and finds one small study uses it to discredit
+   everything around it. Needs a materially stronger evidence base OR much more
+   hedged framing — independent of which lens (conspiracy/convergency) the
+   surrounding argument uses.
+
+## 18. §6.19 natalist levy survives — the bright line is *exit*, not the levy
+**Status: RULING (architect: "the fundamental idea is essential… you need kids, they take a lot of resources, and if you're not going to do that you're getting the benefit of society without paying — you've got to put into the pot"). The externality argument is retained; the thread's initial "drop the levy" pushback was narrowed and then largely conceded. READY for a bounded set of §6.19 edits. Home: §6.19 (03:2674).**
+
+**The core is sound and already in the paper's lineage.** Non-reproduction is a
+real externality; a society that funds its own continuation through the people who
+have children while others free-ride is a legitimate "put into the pot" problem —
+the old-age-security-hypothesis argument. Not in dispute.
+
+**The one distinction that survived the Ceaușescu case: withholding a benefit vs.
+imposing a levy — and, sharper, levy *with* vs. *without* removing exit.** Decree
+770 was **two** policies stacked: a tax on the childless *and* a ban on
+contraception and abortion. The catastrophe — illegal-abortion deaths, a
+generation abandoned into state orphanages — sits **almost entirely on the
+coercion half (removing exit), not the levy.** So the design principle that
+actually survives contact with the case is not "no levy," it is: **the fiscal
+incentive is safe exactly to the extent that it never touches the person's control
+over the underlying decision.** A levy that shifts the cost-benefit calculus while
+leaving reproductive autonomy fully intact is different *in kind* from a regime
+that criminalizes the alternative. That bright line — autonomy as a non-negotiable
+boundary — is the actual thing separating "put into the pot" from Bucharest
+orphanages, and §6.19 should state it explicitly.
+
+**Two more design constraints the case forces:**
+- **Levy on top of an *adequate* benefit, never on top of nothing.** Romania was a
+  pure stick — heavy penalty, no correlated support — which is precisely the
+  combination that produces abandonment (incentivized into a child you then can't
+  sustain). §6.19's benefit side is already designed against this: generous,
+  front-loaded, graduated toward 2–3, tapering after, timed to the fertile window.
+  A modest levy sitting on top of that is a categorically different proposition and
+  the note should say so.
+- **Broaden exemptions well past "diagnosed medical infertility."** The mechanism's
+  own logic is to correct the *competitive-advantage free-rider* case (those who
+  could reproduce and choose the advantage of not), not to punish people who wanted
+  children and didn't get the chance — the involuntarily single, the not-yet-
+  paired-by-30, those mid-treatment, same-sex couples without adoption access.
+  Exempt anyone who can show a documented good-faith attempt to partner or conceive.
+  Otherwise the levy falls on exactly the population the rest of the paper diagnoses
+  as *victims* of ISC-driven mate suppression, housing-density signaling, and
+  credential-driven delay — a lever pulled on the symptom nearest the tax
+  authority's reach, not the load-bearing cause.
+- **Cite Ceaușescu directly as the failure-mode-designed-away-from**, the way §6.19
+  already cites Augustus and Hungary as designed-toward — and note that Augustus's
+  effect on Roman fertility is genuinely *disputed* among historians, so it is weak
+  positive precedent, not strong. Naming the worst-case precedent and the bright
+  line explicitly is what stops a critical reader from drawing the Ceaușescu
+  comparison unfavorably on their own.
+
+## 19. Open knots (block downstream writing)
+- **The rotten-core problem — the hardest unresolved question under the whole
+  paper.** The religion postscript's sharpest move is that unfalsifiability is a
+  *feature* (a sacred core doesn't update, so it can't be gamed or negotiated when
+  you need the signal most — the payoff of the Shabbat thread). But unfalsifiability
+  protects *bad* content exactly as well as good: a community anchored on a harmful
+  or false core is just as correction-resistant as one anchored on a beneficial
+  one. The "corruption-adaptation tradeoff" paragraph gets close but doesn't close
+  the loop: **what distinguishes a religion whose accumulated cruft is worth the
+  protection cost from one whose core was rotten from the start?** Name it
+  explicitly in the postscript rather than leaving it implicit; it gates the whole
+  religion-as-coordination argument.
 - **Broad-signal sovereignty is defeasible under substrate capture.** #14(b) is a
   live counterexample to #1 / §4.13 / PR #14: the aggregate vibe can be *worse*
   calibrated than the metric when an availability cascade / media negativity bias
