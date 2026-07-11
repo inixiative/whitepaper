@@ -1454,6 +1454,36 @@ fund thread. **Keep the two explicitly decoupled** (calling this "just economic
 tokens" is exactly that move); do not try to solve governance with the economic
 instrument.
 
+**Resolved — the two-tier token architecture (architect: "each initiative has its
+own tokens… the platform has its own larger token; those give you voting rights to
+the platform, not to each individual initiative; each initiative sets its own
+structure").** This is the actual answer to the "governance token" gap just above,
+and it closes the loop cleanly:
+- **Per-initiative tokens** — each initiative issues its own (economic and/or
+  governance, per its own configured structure — §4.23-style differentiated
+  architecture, initiative by initiative). Voting on *that* initiative's lifecycle /
+  sunset / dispute resolution is scoped to *that* initiative's own token, set by its
+  own rules. This is where #24's decoupled "governance token" problem actually lives
+  — solved locally, per initiative, not by one platform-wide instrument.
+- **The platform token** (the #23 index/base token) carries **platform-level
+  governance only** — voting on the platform's own rules, parameters, fee structure,
+  the tunable knobs #23 exposes (mint/buy ratio, haircuts, KYC tiers) — **never** a
+  vote on any individual initiative's internal affairs. This is a *third* kind of
+  right, distinct from both halves of #24's split: not "economic interest in the
+  basket" and not "governance of a specific initiative," but **governance of the
+  platform-as-commons**.
+- **The clean separation of powers this produces:** economic interest in the basket
+  (tradeable, no vote anywhere — #24) · governance of one initiative (that
+  initiative's own token, scoped to it, configurable) · governance of the platform
+  itself (the platform token, scoped to the platform, never reaching into any single
+  initiative). Three orthogonal rights, three separate instruments, no instrument
+  doing double duty — which is the same discipline as #24's dual-class precedent,
+  just applied at one more level (initiative / platform) rather than one
+  (economic / voting). Prevents the platform-token holder from ever being able to
+  reach in and outvote an initiative's own community on its own affairs — a
+  federalism/subsidiarity property (ties to §4.8, Enforce Subsidiarity) applied to
+  token design.
+
 **Hard constraint — this instrument is very likely a security (Howey).** A fungible,
 freely-tradeable token representing a pooled economic interest in a basket, sold to a
 broad base, managed by a platform that takes a cut of trades, is the textbook Howey
