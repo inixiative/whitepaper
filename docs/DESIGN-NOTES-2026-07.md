@@ -1996,7 +1996,52 @@ solves "who gets funded" while leaving "who's actually running it" exactly where
 Bourdieu's mechanism already fails today. Flag for future design; not resolved
 here.
 
-## 32. Open knots (block downstream writing)
+## 32. "It's all signals all the way down, but they are not completely aligned to utility" — the epistemic ground beneath the whole document
+**Status: THESIS STATEMENT — a genuine capstone for the entire night's work, not just the token-governance arc. Home: candidate epigraph for §3.1/the Four Axes (02:143), or the closing line of whichever section states the paper's epistemics most directly. Ties together material already in the paper (Four Axes, 02:143–181; the Zahavian/Veblenian decoupling in §3.1c, 02:555–581) with tonight's own #14(b)/#20 — names the general principle those were each instances of.**
+
+**The first half is the Four Axes, restated as recursive.** "All signals all the
+way down" is 02:145's own claim — "we are playing telephone with reality, always
+operating on samples and proxies, never the territory directly" — pushed one
+level further: there is no signal-free bedrock to check a signal against, only
+more signals (a signal about a signal's reliability is still a signal). This is
+why the document's own machinery (broad-retrospective sovereignty #1, Vickrey
+integrity #23, engagement quorums) is calibration work, never a one-time proof —
+there is no direct read of "capacity" to verify against, only better- or
+worse-behaved signal chains.
+
+**The second half is the sharper, less obvious claim, and it's not the same
+statement as #20's.** #20 said signals *can become* decoupled from utility (a
+failure mode: supernormal stimuli, hyper-novelty, artificial abundance). "Not
+*completely* aligned to utility" is a stronger and more general claim: even a
+signal working exactly as designed, uncorrupted and uncaptured, is not fully
+utility-aligned — because a signal that tracked utility *perfectly* would be cheap
+to fake (cheap talk), and only a signal carrying some cost or waste *distinct from
+its message* stays honest. This is §3.1c's Zahavian/Veblenian point, already in
+the paper (02:571: "the cost itself is the signal"; 02:575: "we are rational
+agents... optimizing reproductive positioning, not material utility" — homo
+economicus has the wrong fitness function, not the wrong rationality). So
+non-alignment with pure utility isn't only a pathology to be corrected — some of
+it is the structural price of a signal being trustworthy at all. #14(b)'s
+substrate-capture bound, #20's decoupled-supernormal-stimulus bound, and this are
+three *different* reasons a signal misses utility: corrupted-in-transit (#14b),
+decoupled-at-source under artificial abundance (#20), and **never fully aligned
+even at its healthiest**, because honesty itself has a cost that isn't the
+message (this note).
+
+**Why this belongs at the ground floor, not as one more mechanism note.** It's the
+reason #10's configuration ratchet has no terminus (there is no final aligned
+state to reach, only better-calibrated signal chains at each configuration), and
+the reason #30's platform test is stated as an ongoing property to *maintain*
+("keep that test true as the system scales, gets attacked, and accumulates its
+own winners") rather than a condition to satisfy once. Every mechanism built
+tonight — Vickrey, broad-signal sovereignty, engagement quorums, ostracism — is
+in the business of managing signal/utility gaps that cannot be closed to zero,
+only bounded and re-audited. Worth stating explicitly wherever the paper wants to
+pre-empt the reader's question "but doesn't your own mechanism also rely on
+signals that could be wrong?" — yes, structurally, always; the design goal is
+never perfect alignment, only honest, boundable, correctable misalignment.
+
+## 33. Open knots (block downstream writing)
 - **Operator-competence vetting, separate from open capital access.** #31: an
   open Vickrey auction removes the schmoozing gate on *getting funded* but says
   nothing about whether the winning operator can actually *run* what they've
