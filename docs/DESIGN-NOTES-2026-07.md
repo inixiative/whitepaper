@@ -1933,7 +1933,78 @@ teeth if "winners" stays a differentiated category, including when that's
 inconvenient. Keep this line sharp in prose; it's what stops the paper's own
 anti-elite argument from turning into anti-market cynicism.
 
-## 31. Open knots (block downstream writing)
+## 31. A third barrier the platform is for: schmoozing-gated capital access, not just printer-proximity — the guided open-fund-creation goal
+**Status: READY — names a design goal for the platform's onboarding/fund-creation flow that #23–#30 didn't state explicitly; distinct from (not a restatement of) #26/#29's Cantillon/printer-proximity diagnosis. Home: new material for §6.12B's motivation section, and a corollary to §4.7 ("select the most competent") and 01:1191 (Bourdieu cultural capital). Carries a first-person data point — preserve close to verbatim.**
+
+**The barrier, named precisely.** "Right now you often need to play ball — cozy up
+with the other managerialists to get funding, to have your company play with
+others." This is a *third* concentration mechanism, distinct from both diagnoses
+already separated in #29: not printer-proximity (Cantillon, #26/#29) and not pure
+first-mover/informational compounding (#26's gap #1) — it is **access to capital
+gated by social fluency with existing gatekeepers**, independent of either. The
+paper already documents the mechanism from the *exclusion* side: Bourdieu's
+cultural capital (01:1191) — an "encrypted signaling channel elites can read but
+outsiders can't," where "the child without this software reads as outsider
+regardless of raw capability." The architect's contribution is the **inverse
+corollary, worth stating explicitly because the paper doesn't yet:** the same
+channel doesn't just filter out competent outsiders — it can **admit incompetent
+insiders who've mastered the social signal without the underlying substance.**
+Mastering the schmooze is a skill *orthogonal to* (sometimes actively opposed to)
+the competence needed to run what you've gained access to run — this is #12's
+managerialism (process/relationship rewarded over substance) operating at the
+point of *capital formation* specifically, not just inside an existing
+institution.
+
+**The evidence, first-person (preserve close to the architect's own words):** "I
+was personally burned by that — someone was willing to say anything in order to
+build those social connections, and then was in charge of a business he didn't
+know how to run." Worth keeping as a concrete case rather than compressing to
+abstraction if this is promoted to prose — it is the load-bearing illustration of
+why the failure mode is not hypothetical.
+
+**The design response, and its explicitly non-utopian scope.** The platform's job
+here: let anyone start a fund, guided through the process, without first needing
+to be — or become — "that specialist schmoozer." Two things worth holding
+precisely, because the architect stated the scope carefully rather than
+overclaiming: (1) the goal is to **reduce friction and barriers**, not eliminate
+the market — "you do still need to interact with the market... trying not to
+break that dependency." This is not a claim that capital formation becomes
+need-no-one; it's that the *specific* toll of social-schmoozing-as-gatekeeper gets
+lowered, while real market interaction (competing for capital, having a track
+record judged, actually running something well) stays intact and load-bearing.
+(2) The mechanism that does this work is already built, just not yet named for
+*this* purpose: an **open, public, adversarial Vickrey auction** (#23) is
+structurally the opposite of a warm-intro/networking gate — anyone can bid, the
+clearing price is public, no phone call to an existing insider is required to
+participate. So #23's central property ("open bid, no conjured capital," #30) has
+a second reading beyond excluding Cantillon extraction: it also excludes
+**schmooze-gated access**, because "who you know" carries no special weight in a
+sealed-bid auction the way it does in a VC intro chain or a manager's personal
+network.
+
+**The open design gap this surfaces — worth flagging, not yet solved.** An open
+capital-access auction doesn't by itself guarantee the *winning operator* has
+competence to run what they've won — it removes the schmoozing gate on *getting
+funded*, but says nothing about vetting *operator competence* once funded. This is
+actually the same shape as #23's Akerlof-lemons concern (adverse selection in the
+platform's co-buy) applied to operators rather than assets: a confident,
+persuasive-but-incompetent operator could still win an auction on story alone. The
+platform likely needs a competence-signal that is NOT the schmoozer's own charisma
+— track record, staked reputation, or a §4.23-style differentiated
+operator-vetting layer — as a companion to open capital access, or the platform
+solves "who gets funded" while leaving "who's actually running it" exactly where
+Bourdieu's mechanism already fails today. Flag for future design; not resolved
+here.
+
+## 32. Open knots (block downstream writing)
+- **Operator-competence vetting, separate from open capital access.** #31: an
+  open Vickrey auction removes the schmoozing gate on *getting funded* but says
+  nothing about whether the winning operator can actually *run* what they've
+  won — a confident-but-incompetent operator can still win on story alone (the
+  Akerlof-lemons shape from #23, applied to operators not assets). Needs a
+  competence signal that isn't the operator's own charisma (track record, staked
+  reputation, §4.23-style vetting layer) as a companion mechanism. Not yet
+  designed.
 - **Platform-token vote-weight curve: ratify the tranche-discount proposal.**
   #26 proposes a concrete resolution (discount curve on voting weight, not
   wealth — oracle-free; Sybil-resistance via §6.2 Tier 4 above a concentration
