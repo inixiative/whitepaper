@@ -1279,10 +1279,12 @@ answer #2: back the platform currency with the *actual assets running on the
 platform*. Naming the lineage matters because the failure modes are the same family
 in different clothes.
 
-**Where it landed — an index fund, explicitly NOT minted.** The architect moved
-*off* the earlier "mint base token against each Vickrey valuation" idea (correctly —
-that is the reflexivity trap below) to: **the base token literally IS an index of
-all the individually-tokenized platform assets** — a claim on a real pro-rata slice
+**Where it landed — an index fund, *issued* (not conjured).** The architect moved
+*off* the earlier "mint base token against each Vickrey *valuation*" idea (correctly —
+that self-referential mint is the reflexivity trap below) — but *not* to zero
+minting; the final shape is a **three-way issuance split** (its own block below). The
+core is that **the base token IS an index of all the individually-tokenized platform
+assets** — a claim on a real pro-rata slice
 of the basket, not a currency conjured against a valuation. Some constituents
 depreciate (most tokenized assets), some appreciate (trust-fund shares, etc.); net
 it behaves like a diversified platform-economy index, not a hard-capped store of
@@ -1309,6 +1311,40 @@ at the price a real bidder proved. This converts the token from a synthetic clai
 trade-tax flow into a genuinely asset-backed instrument (which is what fixes the
 closed-end-fund discount — see redemption below).
 
+**Three-way issuance, and the safe kind of minting (the ETF *creation unit*).** When
+an asset enters/grows the basket, new tokens come from **three legs at one price**:
+(1) the Vickrey winner injects genuinely *new external capital* at the cleared
+price; (2) the platform injects its own *accumulated trading-tax revenue* at that
+same price; (3) a **mint** leg where the original owner *delivers the asset itself*
+in exchange for newly-minted tokens representing their now-diluted stake in the
+larger pool. Leg 3 is not "printing against nothing" — it is exactly the ETF
+**creation-unit** mechanism (an authorized participant delivers the underlying
+basket and receives newly-created shares sized so NAV-per-share doesn't move; ~$T of
+ETF assets are created/redeemed this way continuously). The distinction that makes
+it safe: **mint against real value entering the basket *at that moment*, never
+against a promise, a self-reported number, or the token's own price.** So the
+earlier "never mint" was too strong — the correct rule is "mint *only* as a
+creation-unit, balanced on both sides of the ledger."
+
+**This makes Vickrey integrity THE single most load-bearing piece — over-engineer it
+relative to everything else.** The cleared price is no longer just a reporting mark;
+it is now the literal **exchange rate that determines how many tokens get created**
+across all three legs. An inflated price doesn't mis-mark one asset — it *over-issues
+tokens against it and dilutes every holder in the entire basket*, while the platform
+simultaneously overpays for its buy-in slice: the failure compounds across all three
+legs at once. Collateral value, platform ownership stake, and issuance rate all
+*inherit their correctness from that one number*. Hence commit-reveal on-chain +
+staggered checkpoints + anti-collusion detection on the bidder pool are worth more
+engineering than anything else in the stack.
+
+**The mint/buy ratio is a tunable knob against the common-ownership problem.** The
+more of each entry that leg 3 (mint) covers, the *less* of its own capital the
+platform must spend on leg 2 (direct ownership) to keep growing the basket — so "how
+much does the platform literally own of everything" becomes a **configurable ratio
+between the mint slice and the platform-buy slice**, not a fixed structural feature.
+Expose it as a tunable parameter, in keeping with the doc's tunable-mechanisms
+philosophy — it directly relaxes the referee problem below.
+
 **Vickrey, repurposed: from mint-trigger to honest NAV mark.** A second-price
 sealed-bid auction on ~10% of an illiquid asset at lifecycle checkpoints makes the
 clearing price a *truthful* signal (dominant strategy = bid true value; you pay the
@@ -1331,13 +1367,13 @@ deterministically and verifiably) closes it cleanly. Write that up as the real
 **The load-bearing cautions (record these as guardrails — the stakes rise as the
 design generalizes):**
 - **Reflexivity (Terra/Luna, ~$40B in a week).** Any loop where the token being
-  priced and the token doing the pricing are the same asset death-spirals. The
-  index-not-minted move avoids the mint version; **the co-buy funding source
-  revives it** if the platform buys in with freshly-minted base token (that is QE-
-  on-itself). Fix: **auctions clear in an *external* reference asset** (a stablecoin
-  or the kWh token), and **fund co-buys from realized trading-tax revenue, never
-  from minting** — keep the two mechanisms cleanly separated, neither bootstrapping
-  the other.
+  priced and the token doing the pricing are the same asset death-spirals.
+  Distinguish two mints: the **safe** one is leg-3 creation-unit (real asset
+  delivered ↔ new tokens, balanced both sides); the **dangerous** one is the
+  platform conjuring base token to fund its *own* buy-in (QE-on-itself). Fix:
+  **auctions clear in an *external* reference asset** (a stablecoin or the kWh
+  token), and **fund the platform's buy-leg from realized trading-tax revenue,
+  never from minting** — keep the legs separated so none bootstraps another.
 - **Thin-reference-price manipulation (LIBOR → SOFR).** A once-off 10% auction with
   massive downstream leverage riding on it has LIBOR's exact shape; under the index
   reframe a single nudged auction distorts the *whole money supply*, not one loan.
@@ -1385,7 +1421,50 @@ projected value — speculative/inflationary if it underdelivers — vs. only at
 maturity/sunset against realized value — safer but a liquidity lag; the escrow buffer
 is what lets you have the earlier timing safely.)
 
-## 24. Open knots (block downstream writing)
+## 24. Economic tokens vs. voting tokens — the index token is economic-only (which dissolves the referee problem)
+**Status: RULING (architect: "there are definitely distinctions between voting tokens and economic-interest tokens… this would probably just be economic tokens to represent value"). READY for the base-token design; carries one hard real-world constraint (securities classification) and one *decoupled* open problem (the governance token). Home: with #23; §6.2 (Identity/KYC, 03:331 — already flags "full KYC for securities compliance" at 03:356) and §4.23 (Differentiated Cohort Architecture, 02:2811) for the governance side.**
+
+**The split, and why it dissolves #23's referee problem.** Separate the vote from
+the economic interest, and make the index base token **purely economic** — a claim
+on the cash flows of the basket, carrying *no governance rights*. Then the
+common-ownership/referee worry in #23 (the platform owning a stake in every asset it
+also adjudicates) simply disappears: owning a slice of an initiative's *cash flows*
+is categorically different from owning a *vote* on its sunset review, and a
+vote-stripped stake makes the platform a passive financial claimant (bondholder-
+like), not a conflicted referee. This is the cleaner fix than the §4.7-firewall
+patch alone — design the conflict out rather than cap it.
+
+**Not a novel idea — the standard capital-without-control pattern.** Dual-class
+equity is the clean public precedent (Google A/B/C: insider Class B = 10 votes,
+public Class C = 0, precisely so raising public capital doesn't dilute control).
+Crypto converged independently: MakerDAO's MKR is governance-weighted; Curve's
+veCRV requires *locking* to get vote/boost, kept separate from the liquid, freely-
+tradeable economic token. Wherever a project raises broad capital without handing
+over broad control, this is the solution.
+
+**Distribution is already solved for the economic token — by #23's three-way split.**
+"Who gets tokens and why" is answered as long as the tokens carry no vote: the
+Vickrey winner receives economic tokens for external capital, the platform for
+trading-tax revenue, the original owner for contributing the asset. Complete.
+
+**What stays genuinely open: the governance token.** Who votes on an initiative's
+lifecycle, sunset, and dispute resolution is a separate, harder problem — closer to
+§4.23's differentiated-cohort-architecture material than to anything in this index-
+fund thread. **Keep the two explicitly decoupled** (calling this "just economic
+tokens" is exactly that move); do not try to solve governance with the economic
+instrument.
+
+**Hard constraint — this instrument is very likely a security (Howey).** A fungible,
+freely-tradeable token representing a pooled economic interest in a basket, sold to a
+broad base, managed by a platform that takes a cut of trades, is the textbook Howey
+fact pattern (investment of money · common enterprise · expectation of profit from
+the efforts of others). That doesn't make the design wrong — it makes §6.2's
+KYC-tier/jurisdiction questions *non-abstract for this specific token* (a purely
+economic, professionally-managed pooled claim is the case regulators care about
+most). §6.2 already anticipates this (03:356). Answer the classification early, not
+at launch.
+
+## 25. Open knots (block downstream writing)
 - **The rotten-core problem — the hardest unresolved question under the whole
   paper.** The religion postscript's sharpest move is that unfalsifiability is a
   *feature* (a sacred core doesn't update, so it can't be gamed or negotiated when
