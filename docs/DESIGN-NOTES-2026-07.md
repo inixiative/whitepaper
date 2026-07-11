@@ -1732,7 +1732,71 @@ token-governance thread (#20 revealed-preference → #23 base-token → #24/#25
 governance split and its reversal → #26 extraction-vs-earned → #27 here) is now a
 coherent, load-bearing arc, not a pile of disconnected ideas.
 
-## 28. Open knots (block downstream writing)
+## 28. Market discipline as a second anti-manipulation layer, and burn-on-cash-out as the answer to #23's redemption question
+**Status: READY. Confirms and extends #23's periodic-recalibration design; resolves #23's open redemption decision with a concrete, different-from-ETF mechanism (burn-on-realization). Home: with #23 (03:2652 vicinity / new §6.12B). Naming collision flagged below — resolve before promoting to prose.**
+
+**Market discipline as a second, independent check on valuation integrity (adds
+to, doesn't replace, #23's staggered-auction fix).** "You have to bid on things,
+you have to make judgments — if you think this thing is worth value, your
+judgment has value in the market. If you make bad bets, you'll hemorrhage your
+funds." This is a real and distinct argument from the commit-reveal /
+staggered-checkpoint anti-manipulation machinery already in #23: even if a single
+Vickrey auction *could* be gamed, a bidder who consistently misjudges true value
+bleeds capital across repeated rounds and gets selected out over time — the same
+self-correction that disciplines mispricing in any repeated market (arbitrageurs
+correcting a mispriced asset, bad options-market-makers going bust). Worth stating
+in the document as a second, independent layer on top of the mechanical
+anti-manipulation design: **structural integrity (commit-reveal, staggering)
+prevents cheap one-shot manipulation; market discipline prevents sustained
+mispricing by bad-but-honest judgment, via ordinary attrition of capital.** Neither
+alone is sufficient; together they're a real defense.
+
+**Confirms the periodic-lifecycle-recalibration reading of #23's Vickrey marking.**
+"This is a periodic lifecycle recalibration... trying to audit the funds and the
+initiatives on the platform... it's trying to figure out a price, and eventually
+those things are hard to maintain permanently inflated." This is exactly #23's
+"Vickrey repurposed: from mint-trigger to honest NAV mark" — restated and
+confirmed. Worth citing the architect's own framing directly: the mechanism's job
+is not one valuation, it's *recurring* price discovery precisely because inflated
+marks are hard to sustain against repeated, honest re-pricing — the PE/VC
+stale-mark problem #23 already named is what this recalibration exists to prevent.
+
+**Burn-on-cash-out — a concrete, different answer to #23's open redemption
+question.** "A lot of the funds will have dividend tokens... we'll eventually sell
+or cash out, and when they cash out, it turns into value for the people who have
+those tokens — those tokens get burned that represented the assets on the
+platform." This is a real resolution to #23's flagged-open "closed-end fund vs.
+ETF" redemption problem, but it is **not** the ETF creation/redemption mechanism
+(continuous in-kind arbitrage against the *whole* basket) — it is narrower and
+arguably cleaner: **per-asset burn-on-realization.** When one *constituent* asset
+inside the basket reaches its own lifecycle conclusion (sold, matured, cashed
+out), its realized value flows through to the holders of the tokens that
+represented *that specific asset's* share of the basket, and those tokens are
+burned — supply contracts in step with real assets actually exiting, rather than
+via arbitrageur create/redeem against the aggregate NAV. This is structurally
+closer to a bond or trust-certificate redemption at maturity than to ETF
+share-creation arbitrage: no continuous two-way convertibility into the whole
+basket at will, but a real, non-discretionary payout-and-burn event whenever any
+one holding inside the basket completes its own lifecycle. Worth stating
+explicitly as the chosen answer to #23's "decide redemption knowingly" flag,
+distinct from (and probably preferable to, given the platform's underlying
+assets are individually illiquid) full ETF-style redemption.
+
+**Naming collision to resolve before prose — flag, don't silently rename.** The
+document *already* uses "dividend" for something different: §6.5's
+persistence-payment structure ("original proposer collects dividends while
+policy is active... dividends cease on repeal," 03:899) and the leader/policy
+dividend-multiplier mechanism (03:551, 03:666, 03:1555) — a compensation stream
+tied to policy durability, unrelated to fund-share payouts. The architect's
+"dividend tokens" here are a *third*, distinct instrument (asset-basket
+income/payout claims, per #23/#24's economic-token line) that happens to reuse
+the same word. Either rename this instrument before it goes into §6.12B (e.g.
+"payout tokens" or "income-share tokens") or explicitly disambiguate the two uses
+in the same section — do not let both stand as unqualified "dividends" in the
+final document, a reader will conflate the leader-compensation mechanism with the
+fund-payout mechanism.
+
+## 29. Open knots (block downstream writing)
 - **Platform-token vote-weight curve: ratify the tranche-discount proposal.**
   #26 proposes a concrete resolution (discount curve on voting weight, not
   wealth — oracle-free; Sybil-resistance via §6.2 Tier 4 above a concentration
