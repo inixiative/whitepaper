@@ -2041,7 +2041,46 @@ pre-empt the reader's question "but doesn't your own mechanism also rely on
 signals that could be wrong?" — yes, structurally, always; the design goal is
 never perfect alignment, only honest, boundable, correctable misalignment.
 
-## 33. Open knots (block downstream writing)
+## 33. Two citations to incorporate: Michael Spence (signaling economics) and Randy Farmer (reputation-system engineering)
+**Status: CITATION FLAG. Architect supplied two names with no further elaboration ("randy farmer and michael spence") — connections below are my inference from where they fit, not restated architect commentary; flag as such rather than as quotes. Both slot into gaps already open in the doc. Verify exact titles/years before citing in prose.**
+
+**Michael Spence — extends §3.1c's Zahavi/Veblen material and answers #31's open
+question.** Spence's *Job Market Signaling* (1973, shared 2001 Nobel with Akerlof
+and Stiglitz for asymmetric-information economics) is the independent *economic*
+formalization of costly signaling — education as a costly signal that separates
+high- from low-ability workers precisely because it costs the low-ability worker
+more to fake. This is the formal, game-theoretic sibling of Zahavi's biological
+handicap principle already cited at length in §3.1c (02:555–581) — worth citing
+alongside it as the parallel discovery in economics, not a substitute. **Directly
+answers #31's operator-competence gap:** a *separating* signal is one that costs
+more for an incompetent operator to produce than a competent one — which is
+precisely what "schmoozing" is not (cheap for a skilled talker to fake regardless
+of competence) and what a staked/track-record requirement would be (costly
+specifically for someone who can't back it up). Spence gives the paper the formal
+vocabulary for *why* #31's proposed fix (track record, staked reputation) works as
+a competence filter and schmoozing doesn't: separating vs. pooling equilibria.
+Also the direct economic sibling of Akerlof's lemons, already used twice tonight
+(#23's co-buy adverse selection, #31's operator-vetting analogy) — worth noting
+Spence, Akerlof, and Zahavi as one connected citation cluster on signaling under
+asymmetric information, spanning economics and biology.
+
+**Randy Farmer — the applied engineering reference the existing reputation-
+systems material lacks.** F. Randall Farmer (with Bryce Glass), *Building Web
+Reputation Systems* (O'Reilly) — the standard practitioner text on designing
+points/karma/badge systems for real platforms: how reputation scores are
+computed, how they resist gaming, forgiveness/decay mechanics, and the rubric-
+control problem. The document already has the *diagnosis* of this problem in its
+own vocabulary — "whoever controls the rubric controls the population" (03:1013),
+§6.12.1's peer-point allocation (Bonusly-style, 03:1903–1905) — but cites no
+applied source for it. Farmer is that source, and is also the co-author (with
+Chip Morningstar) of "The Lessons of LucasFilm's Habitat," an early and
+influential paper on emergent behavior vs. designer intent in virtual-world
+economies — relevant background for the whole platform's design posture (build
+mechanism, let behavior emerge; §6.15's own Gall's-Law humility). Worth citing at
+§6.12.1/6.12.5 as the applied-engineering grounding those sections currently
+assert without sourcing.
+
+## 34. Open knots (block downstream writing)
 - **Operator-competence vetting, separate from open capital access.** #31: an
   open Vickrey auction removes the schmoozing gate on *getting funded* but says
   nothing about whether the winning operator can actually *run* what they've
