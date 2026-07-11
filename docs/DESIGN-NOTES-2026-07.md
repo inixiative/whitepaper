@@ -1062,6 +1062,26 @@ abundance — the same structure as Universe 25's unlimited food removing the re
 the proximate cue right off the cliff, because the cue is real; only its
 *correlation with the good* has broken.
 
+**The precise names, worth citing.** The biological mechanism is **supernormal
+stimuli** (Tinbergen — birds abandon their own eggs to incubate an oversized garish
+fake that hits the trigger harder than anything evolution calibrated it against;
+Deirdre Barrett extends it to humans). Junk food is a supernormal stimulus for the
+sugar/fat/salt circuit; **parasocial media, social feeds, and low-effort digital
+contact are supernormal stimuli for the *belonging* circuit** — they fire the
+reward real bonding evolved to produce, at a fraction of the cost and without the
+vulnerability, reciprocity, or risk of rejection, and the circuit cannot tell
+genuine connection from a very good counterfeit of the cue it used to produce.
+Work-as-substitute-for-socializing (#19) is the same category. The economic name is
+the forty-year dismantling of homo economicus: **present bias / hyperbolic
+discounting** (Laibson; O'Donoghue & Rabin) — the short-horizon system reliably
+takes the better-now/worse-later option *while the person reports wishing they'd
+chosen otherwise*, which is not one coherent preference but two systems disagreeing.
+"Easy tracked good" held only while the environment could not manufacture cheap
+engineered substitutes for effortful goods; once the reward is divorced from the
+underlying good, revealed preference stops proxying welfare. (This is the
+architect's standing reason to **reject homo economicus** — a through-line, not a
+one-off.)
+
 **This does not break #1 — it disambiguates it, and that is the valuable part.**
 The signal #1 / §4.13 makes sovereign was never "revealed preference" or "the
 momentary vibe." It is the **broad *retrospective* whole-self health signal** — and
@@ -1089,6 +1109,24 @@ the revealed preference now runs unchecked to the social-sugar cliff. Restoring 
 override *is* the mesoscale-reconstruction prescription — not paternalism imposed
 from outside, but the larger self supplying the constraint the local unit cannot
 generate alone.
+
+**The caution that keeps this from becoming "people are weak" (load-bearing —
+don't let it slide).** The argument must NOT drift from "engineered supernormal
+stimuli distort choice" to "people are lazy and need to be pushed." Much of the
+lazy-path-taking is a *rational response to the hard path having been made
+artificially harder* — not weak character, but the collapse of the scaffolding
+that used to make the hard thing cheap. Japan's isolated worker (#19) didn't
+choose overtime over friendship because friendship got less rewarding; friendship
+got more *expensive to initiate* once the extended-family and neighborhood
+infrastructure that generated it passively disappeared. So the corrective is not
+moral exhortation to try harder — it is rebuilding the structure that made the good
+low-friction in the first place. The one-line design rule: **put the friction on
+the sugar, not on the vegetables.** #11's Shabbat is precisely this — not "try
+harder to bond with your family" but "install a mandatory, recurring, structurally
+protected occasion where bonding happens without anyone generating the initiative
+from scratch." The "push" is *structural*, not exhortative; culture lowers the cost
+of the hard good and raises the cost of the engineered substitute, rather than
+lecturing the individual for responding to the gradient in front of them.
 
 **Levin / downward causation, and armor for #8.** This is the concentric-self
 ontology read normatively: a cell does not get to follow its local revealed
