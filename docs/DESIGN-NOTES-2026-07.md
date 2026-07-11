@@ -864,6 +864,24 @@ generate-then-verify method produces hits, not just stories.
   high fertility, *after* controlling for income/religiosity/marital status.
   Checkable across many countries, not just the cases that came up here. (Pairs
   with the longitudinal gap flagged in #11.)
+  - **Birthgap corollary (Stephen J. Shaw) — the driver is childless*ness*, not
+    smaller families.** Family size *among parents* has stayed ~2.2 and flat for
+    decades; what moved is the *share of adults who never have a child*, which
+    roughly doubled. And most of that childlessness is **unplanned** (wanted kids,
+    never paired in the fertile window — postponement became permanence), not
+    chosen/childfree; synchronized onset ~mid-1970s across unrelated countries.
+    **Load-bearing for the paper two ways:** (1) it is the fertility-domain proof
+    of #20's caution — the childless *outcome* is not a revealed preference *for*
+    childlessness; the desire is intact and the *pairing* scaffolding failed
+    (friction on the vegetables), so it upgrades "credential-driven delayed family
+    formation" (§6.19/§2.1) from one factor to *the* factor; (2) it is the
+    empirical backbone for **#18's exemption rule** — if the dominant childless
+    category is the unplanned-childless (the ISC/housing/credential *victims* the
+    paper diagnoses), a "childless after 30" levy falls mostly on them, which is
+    exactly why exemptions must cover any documented good-faith attempt to partner
+    or conceive. **Honest caveat:** demographers contest the "unplanned" share
+    (tempo effect, Bongaarts; "wanted-but-didn't" is hard to measure) — so cite
+    the solid core (childlessness-share is the mover) and hedge the intent split.
 - **§3.11 — five money types.** A jurisdiction that *procedurally separates*
   productive-capital taxation from asset-inflation taxation should get materially
   different investment/housing outcomes than one taxing "the rich" as an
