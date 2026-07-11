@@ -1907,7 +1907,33 @@ into one "no printer, problem solved" claim is the single most important thing t
 carry out of the whole session** — the architect's own closing instruction, and
 the right place to end here.
 
-## 30. Open knots (block downstream writing)
+## 30. The one-sentence test: open bid, no conjured capital — and don't collapse "winners" into one class
+**Status: THESIS STATEMENT — the actual capstone of #23–#29, sharper than #29's. Home: wherever §6.12B opens; candidate epigraph for the whole mechanism. Session genuinely closes here.**
+
+**The test, in the architect's words:** *"Anyone can bid, it's open, it's public,
+but you can't just will money into existence to make that bid — that's the
+problem now."* Everything built across #23–#29 (Vickrey mechanism, mint/buy/burn
+split, vesting delay, concentration curve, ostracism fallback) is scaffolding in
+service of exactly one property: **participation is open to anyone, and the bid
+must be backed by something actually earned or produced, not conjured.** The
+single test that distinguishes this design from 2008/2020: *can the winning
+bidder trace their capital back to value someone else freely paid for, or back to
+a phone call with a regulator.* Everything else is just keeping that test true as
+the system scales, gets attacked, and accumulates its own winners.
+
+**The discipline to hold, stated as a warning against a specific self-inflicted
+wound.** "The winners are cheating" is true of winners who got there via bailout,
+bank proximity, or a hired seat inside a central-bank purchasing program —
+Cantillon extraction, provably (#29's BlackRock/Fed case). It is **not**
+automatically true of every market winner, and collapsing all winners into one
+undifferentiated class is the one move worth resisting — because it is the exact
+move that would let a critic dismiss this platform's own Vickrey winners as
+illegitimate *just for having won.* The open-bid/no-conjured-capital test only has
+teeth if "winners" stays a differentiated category, including when that's
+inconvenient. Keep this line sharp in prose; it's what stops the paper's own
+anti-elite argument from turning into anti-market cynicism.
+
+## 31. Open knots (block downstream writing)
 - **Platform-token vote-weight curve: ratify the tranche-discount proposal.**
   #26 proposes a concrete resolution (discount curve on voting weight, not
   wealth — oracle-free; Sybil-resistance via §6.2 Tier 4 above a concentration
