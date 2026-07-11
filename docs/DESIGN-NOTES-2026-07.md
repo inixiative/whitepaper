@@ -1422,7 +1422,7 @@ maturity/sunset against realized value — safer but a liquidity lag; the escrow
 is what lets you have the earlier timing safely.)
 
 ## 24. Economic tokens vs. voting tokens — the index token is economic-only (which dissolves the referee problem)
-**Status: RULING (architect: "there are definitely distinctions between voting tokens and economic-interest tokens… this would probably just be economic tokens to represent value"). READY for the base-token design; carries one hard real-world constraint (securities classification) and one *decoupled* open problem (the governance token). Home: with #23; §6.2 (Identity/KYC, 03:331 — already flags "full KYC for securities compliance" at 03:356) and §4.23 (Differentiated Cohort Architecture, 02:2811) for the governance side.**
+**Status: PARTIALLY SUPERSEDED by #25. The per-initiative / platform-level governance split below still stands — but the platform-token-is-economic-only premise ("purely economic… no governance rights") was later overridden by the architect: the platform token now carries BOTH the economic/index claim AND platform governance weight, unified in one instrument. See #25 for the ruling and the reopened wealth-power tension. Original ruling preserved below for the historical record — do not promote this section's "economic-only" framing to prose without checking #25 first.**
 
 **The split, and why it dissolves #23's referee problem.** Separate the vote from
 the economic interest, and make the index base token **purely economic** — a claim
@@ -1494,7 +1494,122 @@ economic, professionally-managed pooled claim is the case regulators care about
 most). §6.2 already anticipates this (03:356). Answer the classification early, not
 at launch.
 
-## 25. Open knots (block downstream writing)
+## 25. The platform token reunifies currency + governance — "this is the democratic play, fundamentally"; linear plutocracy is a deliberate choice, curve-shape is the one thing left open
+**Status: RULING with one explicitly OPEN parameter. The architect deliberately overrode #24's "economic-only, no governance" split and #23's "auctions clear in an external reference asset" guardrail — twice, on reflection, not by accident. What remains genuinely undecided (per the transcript — do not assume an answer) is whether token→vote-weight conversion is LINEAR or DAMPENED/convex. Home: supersedes #24's economic/governance separation for the platform token specifically (per-initiative token governance from #24 is untouched); reopens and must be reconciled against §4.7 (wealth-power firewalls, 02:1901–1931), §5.3 (quadratic voting, 03:187), §2.1A (dynastic-lineage/founder-capital advantage, 01:1799), and the Gini-danger-zone material (§2.1). Carries a real-world citation (Bebchuk & Hirst on the Big Three) worth using directly.**
+
+**Step 1 — the platform voting token is also what buys the 10% Vickrey slice.**
+The architect's correction to #23/#24: the instrument used to win a co-ownership
+share in any real-world asset auction **is** the platform's governance token, not a
+neutral external unit. Mechanically this means **capital deployed to buy real
+assets converts directly into governance power over the whole platform** — not a
+side-effect requiring a firewall, but the marketplace's literal entry requirement.
+Tighter than an ordinary liquid governance token (where "rich people can also buy
+UNI/MKR on the open market" is true but incidental) — here you cannot transact in
+the core marketplace *without* holding the governance instrument. This is
+structurally the thing §4.7's firewalls exist to prevent, rebuilt as the base
+mechanism rather than something the firewalls defend against. It also creates a
+perverse feedback loop worth naming: token price and real-asset-auction activity
+move each other both ways, so a *governance crisis that depresses the token price*
+makes it *cheaper in real terms* to win real-asset auctions — a governance
+failure could trigger a buying spree on real collateral at an effective discount,
+by whoever still holds the token. (Where spent tokens go — to seller, burned
+EIP-1559-style, or to treasury — changes the shape of this; burn is the most
+defensible, since it ties scarcer voting weight to genuine platform throughput
+rather than to selling activity or an accumulating treasury pile.)
+
+**Step 2 — it is also the universal unit of account ("the dollar").** The
+architect's further correction: the same token prices *everything* on the
+platform, not just Vickrey slices. This compounds Step 1 rather than being a
+separate issue: ordinary commerce of any kind now creates constant buy/sell
+pressure on the governance instrument, decoupled from anyone's interest in voting,
+and every contested-governance price swing moves the cost of unrelated
+transactions. The MakerDAO DAI/MKR precedent (stable unit-of-account vs. volatile
+governance-and-backstop instrument, kept structurally separate so bundling doesn't
+degrade both jobs at once) was offered as the standard fix and **explicitly
+rejected** — recorded so it isn't silently re-proposed later.
+
+**Step 3 — the ruling and its actual justification: reject the custodian, not the
+concentration.** The architect's stated reason, and it is a real, well-evidenced
+problem, not a rationalization: *"this is the democratic play, fundamentally… this
+is a marketplace and an ETF of all funds — what happens with ETFs is the
+governance goes to the ETF owner, and that person plays politics."* **Citation
+worth using directly:** Bebchuk & Hirst — the Big Three (BlackRock, Vanguard, State
+Street) already cast roughly 25% of votes at S&P 500 companies (projected ~40%
+within two decades) by holding 5%+ stakes across nearly every major public
+company, while spending under $4,500/year in stewardship per $1B held and having
+zero engagement with ~90% of portfolio companies (2019 figure) — millions of
+retail investors hand a proxy decision to a small internal team at three firms,
+unaccountable to the actual capital owners. **The architect's diagnosis of that
+problem is correct and the paper should say so plainly**: the failure is not
+"capital has influence," it is *unaccountable, opaque, delegated* capital
+influence — a custodian playing politics with other people's economic exposure. So
+the design goal (people with real economic exposure vote directly, no delegated
+intermediary) is sound and worth keeping. **What does NOT follow, and what the
+architect's chosen mechanism does not actually avoid:** unifying currency and vote
+doesn't remove concentration, it makes concentration **accountable and
+capital-proportional instead of custodian-mediated** — a different failure mode
+(visible plutocracy) than the Big Three's (opaque proxy capture), not an escape
+from concentration as such. (A real-world alternative that solves the *actual*
+stated objection without this trade — BlackRock/Vanguard "pass-through voting"
+pilots, where the custodian forwards the actual vote to the underlying holder
+instead of voting unilaterally — was raised and, by proceeding to Step 4, was
+implicitly declined in favor of the unified-token design.)
+
+**Step 4 — the final formula, as the architect stated it.** *"Voting power equal
+to the number of tokens you have on the platform and the approximate value of all
+of your assets that you've tokenized."* So vote weight is a function of **(a)
+platform tokens held plus (b) the value of assets you have tokenized on the
+platform** — both economic exposure legs feed one combined voting base, held and
+cast directly, no custodian layer. **Real, non-fringe precedent, correctly cited
+by the thread:** this is exactly traditional joint-stock corporate governance —
+one-share-one-vote, power proportional to capital at risk — the default of
+shareholder capitalism for centuries, not an untested design.
+
+**Name what this is, plainly, per the thread's closing framing (accepted here as
+the honest description, not yet as the architect's final call on the open
+parameter below):** this is **linear plutocracy**, and it sits in direct, real
+tension with machinery the paper spends hundreds of pages building — Turchin's
+wealth pump, the Gini-danger-zone material (§2.1), §4.7's entire wealth-power
+firewall apparatus ("diminishing returns on wealth-to-influence conversion"),
+§5.3's quadratic voting (adopted specifically because linear one-dollar-one-vote
+lets wealthy interests buy outcomes), and §2.1A's dynastic-lineage/founder-capital-
+advantage calculus — now running *on the platform's own rails* rather than being
+the thing the platform exists to guard against. Whoever wins the most Vickrey
+auctions and accumulates the most tokenized assets gets the largest vote on how the
+platform itself is governed: a closed loop rewarding early, large capital with
+*compounding* structural control. This is not hypocrisy, but it is a real tension
+that must be **named explicitly in the document as a deliberate tradeoff**, not
+discovered by a critical reader comparing this section to §4.7/§5.3 and concluding
+the inconsistency was accidental.
+
+**The one thing left genuinely OPEN — do not assume which way this resolves.** Two
+options are on the table, both compatible with keeping a single unified token
+(i.e., neither requires reintroducing a second instrument):
+1. **Linear, stated as a deliberate choice.** Token count (+ tokenized-asset value)
+   converts to vote weight at a constant rate. Honest, simple, matches Step 4's
+   literal wording ("voting power *equal to*…") — but is the plutocracy the
+   document elsewhere diagnoses as the disease, now load-bearing in its own design.
+2. **Convex/logarithmic dampening on the SAME single token** — the architect's
+   own §4.7 principle ("diminishing returns on wealth-to-influence conversion")
+   applied to *this* conversion specifically: the same curve-bending logic as
+   quadratic voting's cost curve, but applied to influence-per-token rather than
+   cost-per-vote. First N tokens convert at full rate; further tokens convert at a
+   shrinking rate. Keeps one instrument, keeps the simplicity, adds a structural
+   brake on Big-Three-style compounding concentration without inventing new
+   machinery — it's already written into the paper's own vocabulary, just not yet
+   applied here.
+The architect had not chosen between these as of this note. **Whichever way this
+resolves must be stated explicitly and defended in the document** (per the
+thread's closing instruction) rather than left for a critical reader to notice the
+tension against §4.7/§5.3 unassisted.
+
+## 26. Open knots (block downstream writing)
+- **Platform-token vote-weight curve: linear or dampened?** #25's one open
+  parameter — token/tokenized-asset value converts to vote weight either at a
+  constant rate (linear plutocracy, stated as deliberate) or via a convex/log
+  curve (§4.7's own diminishing-returns principle, applied to this conversion).
+  Blocks writing the platform-governance mechanism into §6.12B; must be resolved
+  and stated explicitly, not left implicit.
 - **The rotten-core problem — the hardest unresolved question under the whole
   paper.** The religion postscript's sharpest move is that unfalsifiability is a
   *feature* (a sacred core doesn't update, so it can't be gamed or negotiated when
