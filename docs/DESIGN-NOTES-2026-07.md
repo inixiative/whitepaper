@@ -804,7 +804,82 @@ marriage-tax penalties, credential-driven delay, and work/living zoning — but 
 this.** Hart's Vermont data plus the free-range legal patchwork is stronger, more
 specific evidence than anything now cited there.
 
-## 15. Open knots (block downstream writing)
+## 15. Epistemic posture: the contribution is the synthesis; the snap is not the evidence; the method is blind-generate-then-verify
+**Status: METHOD / defensive framing (settled between architect and thread — the architect's position prevailed). Home: §3.1c already contains the observation-problem machinery this leans on; this is guidance for how to *defend* the paper to a hostile reader, and a standing instruction for how I should behave in this workstream. Feeds #16 (the register is this posture's output).**
+
+**The load-bearing original contribution is the *arrangement*, not any single
+insight.** The architect is right and I should stop reflexively undercutting it:
+yes, the individual pieces are known (Levin, Hamilton, Turchin, Burke, chemistry
+polymorphs, Axelrod, Ostrom, Pinker) — but nobody has assembled *this*
+combination, at this scope, under one signaling-substrate vocabulary, with
+**Michael Levin's Ship-of-Theseus / platonic-larger-selves** as the unifying move
+that makes the old facts *predict each other*. That is a real intellectual
+contribution — a new arrangement in which previously-unrelated things become the
+same mechanism at different scales (four-pen topology ↔ Hart's Vermont ↔ the
+Shabbat instinct all collapsed into one substrate mechanism inside a single
+conversation). When I say "people have already done X," I attribute the *piece*;
+I must not let that attribution erode the *synthesis claim*, which is the actual
+novelty. (Behavioral note to self, recorded so it stops recurring.)
+
+**But keep the honest guard the architect already built into his own §3.1c.** The
+"everything snapped into focus" sensation is *not* evidence of correctness — it is
+exactly what a good synthesis produces whether or not it is true, and from inside
+the framework "structurally deep" and "a hammer that got good at finding nails"
+feel identical. §3.1c's peacock-feather *observation problem* names this: you
+cannot evaluate a framework from outside it once it is doing the evaluating. So
+the snap earns *attention*, not *belief*. What earns belief is what the framework
+**forbids** — the observations that would embarrass it.
+
+**The method that resolves the tension (the architect's, and it is legitimate).**
+Division of labor: the architect generates predictions *blind to the corpus* (he
+deliberately does not have the retrieval access), then I verify each against the
+literature, and only the ones that *hold* go into the paper. That is not
+retrofitting — a claim generated without knowing the answer and then confirmed is
+a real prediction, and the paper's density of these is a genuine track record, not
+a rhetorical posture. The defense against the "unfalsifiable seductive framework"
+charge is therefore not more abstract epistemics — it is the **register in #16**:
+section-by-section, what each claim forbids and the nearest natural experiment.
+The discipline is to keep extending that register *harder than feels natural*,
+precisely because the framework is good enough to be seductive.
+
+## 16. Falsification register (running — extend it, section by section)
+**Status: LIVING ARTIFACT. The concrete output of #15's posture and the paper's real answer to a hostile reader. Each entry: the claim → what observation would break it → the nearest existing natural experiment to check it against. Add to this every time a section makes a load-bearing empirical bet.**
+
+**Already verified in-conversation (the track record — blind-generated, then
+confirmed):** China GSS (social trust → family-size intention); Iranian cohort
+(social capital → shorter time-to-pregnancy); Hart's Vermont (constant crime,
+collapsed roam radius — #14); the four-pen topology (identical capacity, different
+routing, different outcome — #13); China's 2026 move against paper gold tracking
+the fractional-claim / five-money-types argument almost as stated. These are the
+existence proof that the generate-then-verify method produces hits, not just
+stories.
+
+**Open predictions with named natural experiments:**
+- **§4.20 / §3.1b — identity-fusion → fertility.** High measured identity fusion
+  (national, religious, familial) should yield fertility *above* what material
+  conditions alone predict. Israel confirms. **Breaks if:** a high-fusion
+  population shows collapsed fertility, or a low-fusion atomized population shows
+  high fertility, *after* controlling for income/religiosity/marital status.
+  Checkable across many countries, not just the cases that came up here. (Pairs
+  with the longitudinal gap flagged in #11.)
+- **§3.11 — five money types.** A jurisdiction that *procedurally separates*
+  productive-capital taxation from asset-inflation taxation should get materially
+  different investment/housing outcomes than one taxing "the rich" as an
+  undifferentiated category. **Nearest natural experiment:** Georgist
+  land-value-tax jurisdictions (the closest existing separation) — chase the
+  actual outcomes rather than asserting the distinction.
+- **§4.7 — fixed elite slots.** Organizations with hard caps on leadership
+  headcount should show slower bureaucratic mission-creep than structurally
+  similar organizations without the cap, holding sector and size constant.
+  **Nearest dataset:** nonprofits / cooperatives with constitutionally fixed board
+  sizes vs. those without — a real comparison, not a thought experiment.
+- **§3.2 — polymorph / templating.** Ideological capture of an institution should
+  show a measurably *faster* propagation curve (~5–10 yr) than value-neutral
+  technical-practice diffusion (Toyota Production System, decades), because
+  ideological templating rides identity-fusion mechanisms technical templating
+  does not. **Checkable:** build the two propagation timelines and compare slopes.
+
+## 17. Open knots (block downstream writing)
 - **Broad-signal sovereignty is defeasible under substrate capture.** #14(b) is a
   live counterexample to #1 / §4.13 / PR #14: the aggregate vibe can be *worse*
   calibrated than the metric when an availability cascade / media negativity bias
