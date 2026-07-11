@@ -1038,7 +1038,70 @@ optimization frame devours the whole social field because nothing is walled off
 from it by rule. Substrate repair (#11/#13) is the same prescription read from the
 failure side.
 
-## 20. Open knots (block downstream writing)
+## 20. Revealed preference ≠ welfare: the social-sugar problem, and how it *sharpens* broad-signal sovereignty
+**Status: STRONG THESIS — resolves a latent tension in #1 / §4.13 rather than creating one; a second, distinct bound on naive sensor-trust alongside #14(b). Home: §4.13 / #1 (sharpens what the sovereign signal actually is); the §Four-Axes "decoupled signal" / hyper-novelty material (02:150) and the Universe-25 artificial-abundance trap (01:1058–1060) are the mechanism already in the paper; prescriptive payoff lands on #9 / #11; arms #8. Ties to #19 (Japan is this thesis observed — work-over-socializing is the revealed preference).**
+
+**Hold the two halves together — this is the whole point.** The easy paths
+(work over socializing, screen over roaming, atomization over the effort of thick
+attachment) are *chosen*: revealed preference, moment to moment, not imposed
+against anyone's will. **And** they are "fundamentally terrible for us." So choice
+does not reveal the good here; a satisfied preference can be actively anti-welfare.
+That is the social equivalent of eating tons of sugar — and the analogy is exact,
+not loose.
+
+**The mechanism is already in the paper's own vocabulary: a *decoupled signal*
+under artificial abundance.** The Four Axes name it (02:150): signals "can be
+accurate, fraudulent, or *decoupled* — once-valid correlates that no longer
+predict… the signal is still received, but the correlation with capacity has
+degraded" (hyper-novelty). Sweetness once tracked scarce calories; the pull toward
+the path of least social resistance once tracked safe, efficient belonging. Both
+are proximate cues that reliably tracked a distal good in the ancestral
+environment and have been *decoupled* from it by an environment of engineered
+abundance — the same structure as Universe 25's unlimited food removing the reset
+(01:1058–1060). Revealed preference under artificial abundance faithfully follows
+the proximate cue right off the cliff, because the cue is real; only its
+*correlation with the good* has broken.
+
+**This does not break #1 — it disambiguates it, and that is the valuable part.**
+The signal #1 / §4.13 makes sovereign was never "revealed preference" or "the
+momentary vibe." It is the **broad *retrospective* whole-self health signal** — and
+a sugar binge *fails that signal*: you retrospectively regret it, the whole-self
+reads worse off, even though the proximate momentary preference read positive at
+the point of choice. So the sugar case sharpens #1 into its correct form: trust the
+broad-retrospective-whole-self read over **both** curated named metrics **and**
+narrow proximate impulses. That also cleanly separates this from #14(b): there the
+signal is *corrupted in transmission* (substrate capture, availability cascade);
+here the signal is *authentic but points at a decoupled object*. Two different
+reasons a naive sensor read misleads — corrupted-in-transit vs.
+decoupled-at-source — and #1 survives both precisely because it privileges the
+broad retrospective signal, which is the one neither failure mode fakes for long.
+
+**The prescriptive turn — this is *why* non-optional structure is load-bearing.**
+"If no one ever pushes you or guides you or tells you that doing hard things is
+important, we take these easy paths." Culture's job is exactly that push — the
+external obligation, guidance, and valorization of the hard thing that overrides
+the sugar-default. This is the mechanism reason #11's ritual must be *non-optional
+by rule* and #9's mesoscale attachments must carry *real exit cost*: they are the
+structure that makes you do the hard thing against your own moment-to-moment
+revealed preference. Frictionless-exit modernity deleted precisely the pushing and
+obligating structures (the coach, the congregation, the demanding kin-group), so
+the revealed preference now runs unchecked to the social-sugar cliff. Restoring the
+override *is* the mesoscale-reconstruction prescription — not paternalism imposed
+from outside, but the larger self supplying the constraint the local unit cannot
+generate alone.
+
+**Levin / downward causation, and armor for #8.** This is the concentric-self
+ontology read normatively: a cell does not get to follow its local revealed
+preference (it differentiates, it undergoes apoptosis) because the larger self
+imposes constraints that override local ease for whole-body health — culture is
+that *downward causation* at the social scale (the theme already at 02:79 /
+02:496). And it hardens the utilitarian attack (#8): a preference-satisfaction
+utilitarian cannot explain why the *satisfied* sugar-preference leaves you worse
+off — the good is not reducible to satisfied preference, exactly as value is not
+reducible to experienced valence. The social-sugar case is the everyday proof that
+welfare and preference-satisfaction come apart.
+
+## 21. Open knots (block downstream writing)
 - **The rotten-core problem — the hardest unresolved question under the whole
   paper.** The religion postscript's sharpest move is that unfalsifiability is a
   *feature* (a sacred core doesn't update, so it can't be gamed or negotiated when
