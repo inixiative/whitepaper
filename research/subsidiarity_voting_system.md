@@ -150,6 +150,88 @@ Carried directly from the source's own "who knows" markers, plus tensions surfac
 
 ---
 
+## Stress Test — Adversarial Analysis
+
+Red-team pass. Each mechanism is attacked on its own terms, then the composite is attacked for emergent failure. The goal is to find the *specific* ways these break, not to list generic Sybil/KYC boilerplate. Verdicts are blunt on purpose.
+
+### A. The Opinion Surface — **fails on agenda-setting and cheap talk**
+
+- **The real power is question-surfacing, and it is unaddressed.** An "infinite open pool" does not democratize the agenda; it makes agenda-setting a flooding contest and hands the actual power to whatever **ranks/surfaces** the questions people see. That ranking function *is* the government. The map is not "what the populace cares about" — it is "what the surfacing algorithm showed them." The most important design decision in the whole sensing layer is the one the note doesn't make.
+- **Unbudgeted importance is worthless.** People answer "in their free time, in whatever quantity" — that is **cheap talk**. §6.3's magnitude signal works *only because points are scarce and must be traded off*. Strip the budget and everyone rates everything they touch as important; the "care" dimension — the load-bearing one — collapses into noise. Either the surface inherits §6.3's budget (and then it is just §6.3, not a new instrument) or it measures nothing.
+- **The map is of the loud, not the populace.** Answering-in-free-time selects for the retired, the enraged, the ideologically mobilized, the online. Systematic sampling bias, correlated with exactly the political extremity the system claims to filter. A voluntary-response instrument cannot map a population.
+- **Manufactured salience.** Because "low participation = low salience" is the filter, any faction that can mobilize participation manufactures the appearance of genuine concern. The topography is sculptable by anyone who can organize a mailing list. And the junk-filter ("false / not important") is itself a brigadable downvote-to-suppress weapon.
+- **Verdict:** The sensing layer is the foundation everything else stands on, and it is the softest. It needs a budgeted, sampled (not self-selected), capture-resistant surfacing model before anything built on top of it means anything.
+
+### B. The Vote-Cost Multiplier — **regressive, and backwards on collective action**
+
+- **It taxes exactly the problems that most need higher-level coordination.** Climate, pandemics, defense, monetary policy — the highest-stakes issues are national/global *by nature* because they are collective-action problems no locality can solve. A multiplier that makes higher levels expensive is an **anti-collective-action tax on collective-action problems**. If anything the gradient is backwards: local coordination is already cheap; the subsidy should flow to the hard, higher-level coordination, not away from it.
+- **It is plutocratic in vote-budget.** "Higher levels cost more" means national reach is rationed by budget: whoever has the most points (or hoards local ones) buys national influence, and the budget-poor are confined to their neighborhood. It manufactures a class system of political *reach* — the opposite of the anti-plutocracy goal — and does it while wearing subsidiarity's clothing.
+- **Jurisdiction-shopping.** If local is cheap, reframe a national push as a thousand coordinated local ones (or vice versa) to dodge the multiplier. The "what level is this issue?" call becomes a gamed chokepoint — and §6.10 already admits that call is unsolved.
+- **Verdict:** Sound *intuition* (bias toward the local, where information is best), wrong *instrument*. A flat per-level cost gamed by classification, or a cost that scales with an issue's actual locality rather than its nominal level, are both closer — but this needs redesign, not tuning.
+
+### C. Feedback vs. Selection — **risks being consultative theater**
+
+- **Feedback without a hard coupling to selection is a pressure valve.** Give the many a broad "is this going right?" register while the earned electors hold the actual selection lever, and you have representative democracy plus a satisfaction survey. Unless the feedback signal *mechanically* binds the selectors (charges/drains their standing on a short leash), it launders legitimacy: people feel heard while power sits elsewhere. The note gestures at "feeds the battery" but specifies no binding — an elector class can ignore feedback as long as its delegate count holds (see E).
+- **Verdict:** The split is only meaningful if feedback has teeth over selection. As described, the teeth are missing.
+
+### D. Delegation-as-Default — **a concentration engine pointed against subsidiarity**
+
+- **Mandatory-ish delegation pushes trust UP; subsidiarity pushes concern DOWN. They fight.** The system's stated telos is decentralization, but its default posture (delegate, especially at higher levels) is a mechanism for **concentrating** trust upward. This is not a side effect; it is what delegation *is*.
+- **Revocability is theater at scale.** "Instantly revocable" is individually true and collectively meaningless: when an elector's power rests on thousands of delegations, no single revocation moves the outcome, so the check never fires (classic collective-action problem). A revocation that changes nothing is not accountability.
+- **Delegation is transferable influence, therefore a market, therefore buyable.** Publish-your-rationale (§6.9) does nothing against private side-payments for delegation. Vote-buying reappears as delegation-buying.
+- **Verdict:** Delegation is load-bearing for scale but structurally centralizing. Without a hard cap on how much delegated power any node can hold, it is an oligarchy pump.
+
+### E. Earned Elector Status — **the single most dangerous mechanism; an oligarchy generator**
+
+- **It measures popularity and calls it judgment.** Nothing in "accumulate N delegates → auto-promote" measures *judgment*; it measures **delegate count**, which is a popularity/mobilization metric. This is precisely the selection pressure that produces demagogues, machine politicians, and influencers. The note claims the ladder elevates "enough people trust your judgment"; the mechanism elevates whoever is best at *accumulating trust*, which is not the same thing and is often its enemy.
+- **Preferential attachment → power law.** Electors get visibility and power, which attracts more delegations, which is more power. Rich-get-richer. The delegate distribution goes heavy-tailed; a handful of super-electors capture most trust. The mechanism whose stated purpose is *distributing* democratic power will, left alone, *concentrate* it.
+- **Threshold + automatic promotion = installable by any organized bloc.** A church, union, party, or influencer that can mobilize N delegations installs its own electors. Sybil-resistance (real distinct humans) is necessary but nowhere near sufficient — real people organize. This rebuilds the party machine with extra steps.
+- **Direct contradiction with §6.9.** §6.9 caps delegation chains at depth ~2 *specifically to prevent this cascade*. A six-level auto-promotion ladder **is** a deep delegation cascade. The two mechanisms cannot both be true; one has to give.
+- **Verdict:** As stated, this manufactures an unaccountable political class. It needs, at minimum: a hard cap on delegated power per node, a decay so standing must be re-earned, a quality gate that is not popularity, and reconciliation with §6.9's depth limit. It may not be salvageable in "automatic promotion" form.
+
+### F. Divided Vote — **multiplies the attack surface; may be a false split**
+
+- **Separately-delegable vote-kinds multiply the delegation markets** — now there is a market per kind — and making the **rejection vote** tradeable is the worst case: concentrated delegated rejection power is a **purge weapon**.
+- **The split may be incoherent.** Rejecting X is often just a process-preference for not-X; the two are not cleanly orthogonal. Independent delegation lets your agency self-cancel (reject-delegate to a nihilist, process-delegate to a builder).
+- **Complexity is itself the capture surface.** Six levels × multiple vote-kinds × per-kind delegation is enormous cognitive load — the exact thing §6.9 exists to reduce. High load means almost everyone accepts defaults, and **whoever owns the defaults wins**. Added expressiveness that no one can use is power relocated to the parameter-setter.
+- **Verdict:** Only justified if a specific, orthogonal decomposition earns its complexity. "Rejection/process" is asserted, not derived; interrogate whether the split is real before paying for it.
+
+### G. Alignment-Based Re-Run Exclusion — **a capturable purge tool that punishes correct-but-unpopular leadership**
+
+- **It self-contradicts §6.7A's own thesis.** §6.7A holds up Lee Kuan Yew — decades governing *against* short-term popular preference — as the model of merit-based tenure. An eligibility bar keyed to "moving with the grain of expressed preference" would have **excluded him**. The mechanism structurally punishes counter-majoritarian courage and selects for pandering. It fights the very section it cross-references.
+- **It inherits every flaw of the sensing layer.** "Consistently off-base" is defined against the opinion surface (A). A is capturable via question-surfacing; therefore whoever controls surfacing controls who is branded "misaligned" and thus **barred from running**. This is the most capturable object in the system: control the map → control eligibility → purge rivals under color of accountability.
+- **No neutral ground truth for "aligned."** "The goals of society" is either the opinion surface (capturable) or a fixed charter (capturable at authorship). Arrow and value pluralism say there is no coherent societal preference vector to be aligned *to*. The metric is contestable by construction, and once it gates power every faction litigates it.
+- **Goodhart, terminally.** The instant an alignment score gates eligibility, it stops measuring alignment and starts measuring "ability to appear aligned near the evaluation window." Window-gaming (align at review, do the necessary-unpopular thing far from it) is trivial.
+- **Verdict:** The most dangerous mechanism in the set. A hard exclusion driven by a capturable, gameable, philosophically-incoherent metric is a weapon, not a guardrail. If retained at all it must be (a) driven by *outcome* measures, not expressed-preference alignment, and (b) fenced with §6.12-grade anti-capture scrutiny.
+
+### System-Level — the emergent failures are worse than the parts
+
+- **The capture ratchet A → G → E → A.** Capture question-surfacing (A) → define who is "misaligned" and bar them (G) → your delegates face a thinned field and promote (E) → your electors influence surfacing (A). Each mechanism is a vector alone; **composed, they close into a self-reinforcing loop.** A captured surface doesn't just distort the map — it selects the rulers and purges the opposition. This is the finding that matters most: the mechanisms are individually risky and jointly a ratchet.
+- **Net power vector points up, not down.** B and §6.10 push concern *down*; D and E push trust and *formal selection power up*. Formal power (selection, exclusion) lives at the top of the ladder, so the up-flow dominates. The system is **subsidiarist in rhetoric, centralizing in mechanism.**
+- **Goodhart on the core instrument.** The opinion surface is the system's one sensor. The system then wires that sensor to real power (electors, exclusion). The moment a measure gates power it ceases to be a measure. The design corrupts its own instrument by using it.
+- **Reflexivity.** Publishing "what the populace cares about" changes what the populace cares about (bandwagon, spiral of silence). The sensor perturbs the system it measures; expect herding and manufactured consensus, not a stable map.
+- **Complexity is the master vulnerability.** Infinite questions × 6 levels × a multiplier × 2 registers × default delegation × multiple vote-kinds × auto-promotion × exclusion is a system no participant can model — which means power flows to whoever *can*: the parameter-setter, the question-surfacer, the author. This violates §6.15's humility principle directly. Complexity is not neutral; it is anti-democratic, because it relocates power to the meta-level.
+
+### Severity Ranking
+
+| # | Mechanism | Failure | Severity |
+|---|-----------|---------|----------|
+| 1 | E — auto-promotion | Oligarchy/party-machine generator; measures popularity as judgment; contradicts §6.9 | **Critical — redesign or drop** |
+| 2 | G — re-run exclusion | Capturable purge tool; punishes correct-but-unpopular leaders; contradicts §6.7A | **Critical — redesign or drop** |
+| 3 | A→G→E loop | Composed capture ratchet | **Critical — emergent** |
+| 4 | A — opinion surface | Real power is surfacing (unaddressed); unbudgeted importance is cheap talk; loud ≠ populace | **High — foundation is soft** |
+| 5 | B — multiplier | Regressive; taxes collective-action problems backwards | **High — wrong instrument** |
+| 6 | D — delegation default | Centralizing; revocability theater; buyable | **Medium-High** |
+| 7 | System complexity | Relocates power to parameter-setter; violates §6.15 | **High — cross-cutting** |
+| 8 | F — divided vote | Multiplies markets; possibly false split; load | **Medium** |
+| 9 | C — feedback/selection | Consultative theater without hard coupling | **Medium** |
+
+### What survives
+
+- **The intuitions survive; most of the mechanisms do not.** Worth keeping: (i) map preference *intensity*, not just direction; (ii) bias participation toward where information is best (local); (iii) make legitimacy continuous, not election-day. All three already live in §6.3/§6.7A/§6.10 in more defensible form.
+- **The two mechanisms that are genuinely novel (E auto-promotion, and the A opinion-surface-as-instrument) are also the two most broken.** That is where the design work has to go, or the novelty isn't worth its risk.
+- **The exclusion guardrail (G) should probably be inverted:** bar on demonstrated *bad outcomes / abuse*, never on *disagreement with expressed preference* — otherwise it is a machine for punishing the leaders §6.7A says you most want to keep.
+
 ## Next Steps (before any of this graduates to §6)
 
 - Decompose each concern further and prototype the **opinion-surface** sensing model in isolation — it is the most novel piece and the rest depends on it.
