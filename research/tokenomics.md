@@ -1615,3 +1615,16 @@ is wanted. Corollary: the band's width around backing IS the toll (ETF creation
 fees / AMM swap fees, same logic). Vocabulary note: "marks" and "NAV" are
 retired page-side in favor of "last auction price" and "backing"; checkpoint
 auctions are "re-auctions" in public copy.
+
+### 19.30 Characterization + portability rationale updated (architect-confirmed)
+
+- The honest one-line description: **an index fund whose venue pays it rent** —
+  assets plus the perpetual tax flow of the marketplace it sits in, compounding
+  into backing rather than sitting beside it. This is the differentiator from
+  "a normal ETF": a tracker tracks, this earns.
+- Portability split retained with corrected rationale: the registrar taxes every
+  ownership change regardless of venue, so off-platform flow does NOT
+  "contribute nothing" (old copy, fixed). Venue-lock buys **enforcement and
+  visibility** — on-venue flow is automatically taxed and marks prices live;
+  off-venue flow is trust-dependent (account-layer dodges) and price-silent
+  between auctions. The tax discount prices verifiability, not contribution.
