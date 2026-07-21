@@ -1499,3 +1499,23 @@ Consequences:
 
 This is the recommended presentation baseline: three rules, no vigilance-dependent
 guarantees, the attack dies of arithmetic.
+
+### 19.22 Mirror governance and the IPO cycle (RULING — architect's words; implications labeled)
+
+Architect rulings, verbatim intent:
+1. **Non-votes are NOs.** Basket purchases (mirror co-buys) execute only on an
+   affirmative majority; abstention denies. Plus the earlier one-line rule:
+   sellers sit out votes on their own deals (gain is private, loss is shared —
+   recusal makes self-dealing net-negative).
+2. **Long public warning window** before every IPO.
+3. **IPOs run per cycle** (analyst's reading, unconfirmed in detail: slate
+   published at cycle start, votes during the window, approved mirrors execute
+   batched at cycle close).
+
+Implications (analyst's, not rulings): default-deny eliminates quorum arithmetic
+and turnout games entirely — moving the basket requires an affirmative majority of
+all votable tokens, raising coalition-capture cost from "majority of the engaged"
+to "majority of everything"; the engagement burden on honest purchases is paid for
+by the warning window and single per-cycle voting moment. A published cycle
+calendar removes the private-schedule surface that motivated the front-running and
+MNPI guards — batch execution stops being a defense and becomes the clock.
