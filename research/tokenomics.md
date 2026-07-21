@@ -1628,3 +1628,30 @@ auctions are "re-auctions" in public copy.
   visibility** — on-venue flow is automatically taxed and marks prices live;
   off-venue flow is trust-dependent (account-layer dodges) and price-silent
   between auctions. The tax discount prices verifiability, not contribution.
+
+### 19.31 The long-horizon store-of-value thesis (framing for §6.12B)
+
+How v1 fills §6.12A's "separate store of value required" gap, against the
+implicit checklist:
+
+1. **Un-debasable by arithmetic, not scarcity**: supply is elastic but every unit
+   is fully paid for at backing — issuance can never tax holders; no privileged
+   proximity to the door (Cantillon removed at the root).
+2. **Productive, unlike gold/BTC**: a claim on real assets plus the venue's
+   perpetual tax rent — the historically durable form of stored value
+   (yielding land, compounding equity) in bearer form.
+3. **Honest rather than stable**: tracks both directions; redemption floors at
+   backing; no peg, hence no reflexive spiral — fails openly, corrects at the
+   next cycle (§6.15).
+4. **Completes the Graeber split**: earn/spend in kWh (elastic, unhoardable),
+   save in the basket token. Bridge: the door's currency whitelist can
+   eventually admit the kWh token — energy income converting to savings on the
+   same rails, removing the fiat intermediation §19.22-era discussion accepted
+   as temporary.
+5. **Asymptote**: a diversified pro-rata claim on the productive on-platform
+   economy, marked only by paid prices, governed only by holders.
+
+Caveat for all prose: store-of-value status is earned, not declared — credibility
+accrues with basket diversification, auction cadence, and the band holding
+through its first real drawdown. The design's compounding advantage is that its
+track record is verifiable.
