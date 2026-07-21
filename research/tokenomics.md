@@ -1603,3 +1603,15 @@ of cash and assets backing the token.
   banned** (or vote-gated): pulling assets out lets redeemers cherry-pick.
 - Burn ✕ glyphs now mark the two real retirement events: RWA tokens retiring at
   the registrar on asset exit, and platform tokens burned at the redemption door.
+
+### 19.29 The round-trip toll (architect insight, confirmed)
+
+Why the basket can't be used as a free liquidity pool: the door's creation
+fee+tax and the redemption exit fee price the round trip. Costless in-and-out
+would let the basket be churned like a money market; with the toll, the doors
+clear only for genuine entries/exits — or for arbitrage when the market price
+leaves the backing band by more than the toll, which is exactly when arbitrage
+is wanted. Corollary: the band's width around backing IS the toll (ETF creation
+fees / AMM swap fees, same logic). Vocabulary note: "marks" and "NAV" are
+retired page-side in favor of "last auction price" and "backing"; checkpoint
+auctions are "re-auctions" in public copy.
