@@ -965,3 +965,72 @@ from both sides of the trade**:
 Entry events remain NAV-neutral as in §19.2; only the description of how the
 treasury acquires its tokens (market purchase funded by currency-side tax, not
 direct receipt) and where appreciation accrues (in-kind basket accretion) changes.
+
+### 19.9 The convention-free invariant, and the no-pre-mine rule (RULING on the invariant; READY on the rule)
+
+Reconciling two equivalent ledgers (treasury-stock accounting recognizes appreciation
+at tax collection and makes entry events NAV-neutral; all-tokens-outstanding
+accounting recognizes the same appreciation at treasury deployment, making entry
+events visibly accretive) produced the statement that survives any convention:
+
+> **Over any period: token appreciation = Δbasket value not matched by mint.**
+
+The deployed treasury value at an IPO is prior collected tax being converted, not
+value created by the event. Prefer treasury-stock accounting in official ledgers so
+appreciation is attributed to its cause (taxes, continuously) rather than to entry
+events — "IPOs pump the token" is a manipulable narrative; "taxes pump the token,
+IPOs convert" is the causal truth.
+
+**No-pre-mine rule (READY):** the appreciation above exists only because treasury
+tokens were funded by collected revenue. A genesis/pre-mined treasury spent on
+mirror legs is new-supply-to-outsiders with no prior value collected — the
+slow-motion printer. The treasury may only ever hold tokens purchased with collected
+revenue. Belongs in §6.12B beside the no-unbacked-mint rule.
+
+### 19.10 Fees, the cash-creation door, and the settlement-asymmetry findings (PROPOSED)
+
+Architect-proposed, endorsed, unratified in detail:
+
+1. **Platform service fee**, small, paid in platform tokens, to treasury. Revenue
+   uncorrelated with IPO cycles; gives the token consumptive utility (helps the
+   *Howey* posture).
+2. **Margin on marketplace buys/sells** — an extension of the trade tax to more
+   order flow. Keep near-zero on the platform token's own order book: exit buybacks
+   and treasury market-buys route through it, and taxing them taxes the system's own
+   discipline mechanisms.
+3. **Cash-creation door**: buy newly created tokens from the platform at NAV; the
+   cash enters the basket as a reserve sleeve (balanced creation, not a printer).
+   Guard: creations only at fresh checkpoint marks or with swing pricing, else
+   stale-NAV timing arbitrage. Side benefits: caps big-IPO float squeezes (bidders
+   create at NAV+ε instead of sweeping thin books) and funds mirror legs without
+   sales.
+
+Adversarial findings on the settlement surface (F1–F4, from the same session):
+
+- **F1 (high): premium/discount settlement asymmetry.** With token at 1.30 vs NAV
+  1.00, mint-at-NAV lets a contributor turn a $15k asset into $19.5k of tokens —
+  repeatable creation-arbitrage that flattens premiums (tolerable, but the premium
+  accrues to contributors). At 0.80 vs NAV 1.00, mint-at-NAV under-rewards
+  contribution and **discounts choke off IPOs exactly when fresh marks are most
+  needed**. Rules that fall out: payment legs (winner, mirror) settle token-count at
+  **market** price; the mint leg prices at **NAV**; in discount regimes shift the
+  leg-split toward paid legs rather than ever minting at a below-NAV price (which is
+  dilutive).
+- **F2 (high): sliver-mark manipulation.** In-kind tax slivers marked at last trade
+  are wash-tradeable; NAV distortion propagates into every subsequent mint. Natural
+  partial defense: wash trades pay the in-kind tax. Guard: mark slivers at Vickrey
+  checkpoint prices with staleness haircuts, never at last trade.
+- **F3 (medium): NAV quality decay** from accumulating illiquid dust slivers. Guard:
+  periodic sweeps of slivers into their own asset's market for cash (feeding the
+  reserve sleeve), haircuts on unswept dust.
+- **F4 (medium): big-IPO float squeeze** — large auctions force winners to sweep a
+  thin token float, spiking the price into the mint pricing. Guard: the
+  cash-creation door (#3).
+
+**Uniform-ratio corollary (READY):** float × NAV = basket is true by definition, but
+the token tracks *the platform* proportionally only if the co-buy/mint ratio is
+uniform (or banded) across assets. The per-asset-knob framing in the body must be
+tightened: a variable ratio silently skews index composition. (SPY does not own the
+S&P; proportional composition, not total ownership, is the index property.)
+Full-value minting was checked and rejected on arithmetic: minting 150k against 30k
+delivered = 10% NAV haircut per event — the printer.
