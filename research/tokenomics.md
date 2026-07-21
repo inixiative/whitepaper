@@ -945,3 +945,23 @@ settled (proceeds buyback-burn). Newly explicit and still open:
    if tax inflow proves too thin to fund mirror legs.
 4. Everything in §17 not named above (vote-weight curve, vesting delay, ostracism
    parameters, operator vetting, naming collision, Howey) remains open.
+
+### 19.8 Correction to §19.2's tax accounting: the trade tax is in-kind (READY)
+
+Trades on the marketplace are **trade-currency ↔ RWA tokens** (e.g. USDC for a
+project's asset tokens) — per §19.3 they do not route through the platform token. So
+the trade tax cannot be assumed to arrive as platform tokens, and §19.2's
+"tax pulls tokens out of float into treasury" framing is wrong as stated. Per §4's
+original Uniswap-LP framing ("you take a part of *it*"), the tax is taken **in kind
+from both sides of the trade**:
+
+- The **asset-side sliver** (RWA tokens) accrues directly **into the basket**: basket
+  value grows with every trade, supply unchanged — this, not float-shrink, is the
+  continuous appreciation engine.
+- The **currency-side sliver** (USDC etc.) goes to the treasury, which **market-buys
+  platform tokens** with it (constant structural bid) — held to fund future mirror
+  legs, or burned per the §17 fee-burn decision.
+
+Entry events remain NAV-neutral as in §19.2; only the description of how the
+treasury acquires its tokens (market purchase funded by currency-side tax, not
+direct receipt) and where appreciation accrues (in-kind basket accretion) changes.
