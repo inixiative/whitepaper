@@ -1671,3 +1671,30 @@ pilots inside them (e.g., a solar inixiative paying in kWh credits) → door
 whitelists kWh → the platform prices in the unit its own assets produce. A
 two-currency design running on a borrowed third, with the borrowed one scheduled
 for replacement by the platform's own output.
+
+### 19.33 The scheduled re-founding (architect seed; analyst construction labeled)
+
+Architect observation: the basket is mostly currencies for a long time, until
+co-buys convert it — and the conversion is a **constitutional amendment
+opportunity**. Construction (analyst's, for ratification):
+
+- **Objective trigger**: assets exceed a set share of backing (e.g., half),
+  sustained N consecutive cycles — computed from the ledger and paid prices;
+  nobody declares it.
+- **One amendment window**, announced cycles ahead, under stricter rules than
+  ordinary governance (supermajority of all votable supply). A single
+  constitutional convention held when real operating data exists — instead of
+  perpetual governance drift or premature lock-in.
+- **The immutable core survives even the convention**: tokens only for cash at
+  backing; no pre-mine; redemption at backing; held-tokens-only voting; operator
+  fee lowerable, never raisable. Everything else — tax rates, cycle length,
+  quorums, the currency whitelist (the natural moment to admit the kWh token) —
+  is on the table exactly once.
+- **Named risk**: the window is a capture target; defenses are the full-supply
+  supermajority, the immutable core, and years of advance notice letting anyone
+  buy a voice the only way the system allows — at backing.
+
+Rationale: cash-era rules and asset-era rules differ; a constitution written
+before either era is wrong somewhere. Naming in advance the one moment of
+rewrite, its threshold, and what survives it is more honest than either
+crypto's fake immutability or fiat's amendment-by-decree.
