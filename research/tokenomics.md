@@ -1499,29 +1499,3 @@ Consequences:
 
 This is the recommended presentation baseline: three rules, no vigilance-dependent
 guarantees, the attack dies of arithmetic.
-
-### 19.22 v1 refinements (architect-directed): voted mirror, in-kind exits, NAV statement
-
-Composing with §19.21 cash-only v1:
-
-- **IPO**: auctions settle in platform tokens (winner sources via door/market);
-  nothing mints at auction.
-- **Voted mirror (RULING direction)**: the basket co-buys only when token holders
-  vote it — the holders are the manager. Two constitutional, non-votable locks
-  prevent ballot-box shilling: (1) no vote may approve a purchase above the
-  comparable band or beyond treasury balance — votes choose among band-compliant
-  buys, never override caps; (2) sell-side parties are mechanically recused via
-  the registrar. Captured-vote worst case = a band-compliant purchase you
-  disagree with (portfolio opinion, not exploit).
-- **Exits**: buyback stays proceeds-sized. In-kind proceeds (asset-for-asset
-  sales) may enter the basket, valued at the received asset's own auction mark
-  with staleness haircut — never at the deal's stated exchange ratio (else exits
-  become a mark-laundering door).
-- **Fiat leak acknowledged**: v1 is denominated in the world's money, disciplined
-  by the platform's rules; the energy layer (§6.12A) remains the long-horizon
-  settlement answer, not a v1 requirement.
-- **NAV statement (the creation price)**: every number in NAV is either cash or a
-  price somebody actually paid — cash exactly; each slice at its last real
-  auction price with an age-growing haircut. Door sells at NAV + spread (spread
-  absorbs staleness); stale basket → door closed until a checkpoint refreshes.
-  Conservative-and-transacted, never modeled.
