@@ -1462,3 +1462,40 @@ constitutional floor/time-locks (bigger honeypot, same locks), and the invariant
 holds — appreciation is still Δbasket unmatched by mint, now arriving lumpy at
 deployments instead of continuously. Status: PROPOSED pending exact ratio
 ratification; the 8:1:1 shape is architect-directed.
+
+### 19.21 The cash-only simplification (PROPOSED as v1 — architect-prompted)
+
+After two adversarial rounds, the architect observed that the design had become a
+mess: the treasury is hard to fund early, and the mint leg is heavily incentivized
+to be gamed. Assessment: correct. The entire §19.12/§19.17 defense stack (robust
+marks, rented-bidder locks, comparable bands, cure periods, bidder minimums)
+defends exactly one rule — that delivering an asset at an auction price creates
+fresh tokens. Remove that rule and the stack collapses.
+
+**Cash-only v1:**
+1. **Tokens are created for cash only** (the door, at NAV + spread). Nothing else
+   mints. No price input exists to inflate.
+2. **The basket only ever buys assets** — with cash it has, at auctions, as a
+   voluntary bidder: never obligated, capped at the comparable band, limited by its
+   balance.
+3. **Exits unchanged**: proceeds → buyback ≤ NAV → burn.
+
+Consequences:
+- The inflated-bid attack reduces to "trick a voluntary buyer that has a price cap
+  and a budget" — worst case a bounded overpayment within the band, never
+  issuance, never dilution. §19.12's machinery becomes optional hygiene, not
+  load-bearing.
+- Held-tokens-only voting emerges naturally: owners who want weight sell slices
+  for cash and buy tokens through the door.
+- Supply = cumulative cash delivered at NAV. Backing trivially complete. Entries
+  trivially NAV-neutral.
+- Sequencing honesty: early basket growth is door-funded (genesis + entrants);
+  the tax trickle accumulates; treasury co-buys and the standing bid are
+  maturity features that switch on when volume funds them. The 8:1:1 split
+  (§19.20) stands, with realistic expectations about early magnitude.
+- Given up: the ETF creation-unit (assets entering without a cash round-trip) and
+  faster basket growth. The mint leg may return later only by earning its way in
+  against this baseline, carrying the full §19.12–19.17 stack.
+
+This is the recommended presentation baseline: three rules, no vigilance-dependent
+guarantees, the attack dies of arithmetic.
