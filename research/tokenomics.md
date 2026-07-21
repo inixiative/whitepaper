@@ -1519,3 +1519,17 @@ to "majority of everything"; the engagement burden on honest purchases is paid f
 by the warning window and single per-cycle voting moment. A published cycle
 calendar removes the private-schedule surface that motivated the front-running and
 MNPI guards — batch execution stops being a defense and becomes the clock.
+
+### 19.23 Door currencies (RULING) and the creation arithmetic confirmed
+
+- **Governance defines the whitelist of currencies that convert into tokens at the
+  door.** Analyst caveat, flagged as such: stables are trivial; volatile currencies
+  reintroduce a rate-source (oracle) problem — default is a stables-first list,
+  and any volatile addition must specify its conversion basis (e.g., the executed
+  swap price on immediate conversion — a transacted price, preserving the
+  no-oracle principle).
+- Creation arithmetic confirmed with the architect's own example: pool $10M / 5M
+  tokens → backing $2/token; $500k in → 250k tokens out → $10.5M / 5.25M, backing
+  unchanged. Creation executes at the NAV (backing) rate + spread, never the
+  market rate — at a market premium, NAV-rate creation is what prevents handing
+  buyers paper gains against the basket.
