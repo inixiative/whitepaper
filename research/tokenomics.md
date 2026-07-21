@@ -1721,3 +1721,18 @@ basket's cash is already protected by the voted, cycle-delayed co-buy). Guards
 Supersedes the held-tokens-only amendment recorded in §19.11/§19.17 discussion;
 the earlier flat rule is retained in the record as the fallback if the guards
 prove too weak in a future adversarial pass.
+
+### 19.35 The tax-rate equilibrium (architect insight)
+
+The tension between low taxes (marketplace stays saleable, flow stays on-venue)
+and high taxes (value accrues to holders) self-corrects toward the right level —
+a Laffer dynamic with the uniquely honest taxing authority: the rate-setters own
+the venue being taxed and personally eat both failure modes. Structural
+convergence aids: (1) the two-leg electorate IS the two-sided market — builders'
+IPO'd-stake weight pulls rates down (they pay), holders' token weight pulls up
+(they receive); the rate is continuously bargained between the platform's two
+consumer classes in proportion to proven stakes. (2) The constitutionally fixed
+operator fee sits outside the vote, keeping the bargain undistorted by a third
+skimmer. Named caveat: short-horizon coalitions voting an extractive spike —
+leaned against by redemption-at-backing (extraction must accrue before it can
+exit; no front-running your own tax hike through the door).
