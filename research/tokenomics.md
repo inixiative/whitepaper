@@ -1557,3 +1557,16 @@ shorthand — **struck entirely**. With cash-only v1, no separate treasury exist
 The three-pot structure (§19.16/§19.18) and its "deployment pool"/"treasury"
 naming are superseded. The distinction that survives is the only one that
 mattered: holders' money vs. the company's money.
+
+### 19.26 Taxes, not fees (RULING)
+
+The fee menagerie (issuance/tokenization/escrow/auction fees) was arbitrary.
+Replaced by one uniform model: **every action on the platform pays a small
+operator tax that is constitutionally fixed — it can never be raised — plus a
+basket tax per action, set by governance from zero upward.** Operator revenue is
+thereby guaranteed, small, and un-gameable by governance capture in either
+direction (can't be raised by the operator, can't be zeroed by a hostile vote);
+the holders control only how fast their own pot fills. Portability pricing
+survives as differential basket-tax rates set by governance. Actions covered:
+door creations, tokenization, escrow custody/release, ownership changes (valued
+at last auction mark), auctions.
