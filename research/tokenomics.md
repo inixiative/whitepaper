@@ -1193,3 +1193,37 @@ Net: bid manufacture is not prevented; it is made unprofitable — a multi-ident
 multi-checkpoint, deposit-funded conspiracy that must defeat KYC-graph analysis and
 survive its own members' defection incentives, to inflate a number that the system
 neither votes on nor mints against.
+
+### 19.13 Tax redesign: currency-side only (PROPOSED, architect-initiated) + deposits-for-tokens confirmed
+
+Architect challenged §19.8's in-kind asset-side sliver ("I don't think it can
+exist"). On examination the objection holds:
+
+- Initiatives configure their own cap-table rules (eligibility, transfer
+  restrictions, minimum units) — the basket cannot be assumed an eligible holder of
+  every instrument; slivers of restricted securities may be unholdable as a matter
+  of each initiative's own law and configuration.
+- Slivers hand the platform micro-positions (and potentially votes) in every
+  initiative — the §7 referee conflict at maximum surface.
+- The slivers were the attack surface for F2 (wash-trade mark manipulation) and F3
+  (dust NAV decay) — both vanish if the basket never holds them.
+
+Replacement: **tax the currency side only, split at collection**: x% directly into
+the basket's cash sleeve (holders' accretion — objective value, no marking, no
+custody problem), remainder to the treasury for operations and token market-buys.
+Appreciation engine unchanged in economics (Δbasket not matched by mint, now arriving
+as cash instead of slivers), strictly better in accounting. What is lost: passive
+index exposure to the traded long tail (basket exposure becomes IPO'd assets + cash
+only). Judged acceptable; in-kind collection can remain a per-initiative *option*
+where instruments genuinely permit it, OPEN.
+
+Note the source-of-funds distinction this sharpens: the sleeve ban (§19.11) forbids
+**door-created** cash from funding platform buy-ins (self-buy loop); **earned tax
+cash** routed to the sleeve is external value and may fund the basket's own
+IPO-leg purchases. The rule is about provenance, not about the sleeve as such.
+
+**Deposits mint tokens: confirmed.** "People deposit $500k" = the §19.10
+cash-creation door: 500k tokens minted at NAV + spread, cash into the sleeve —
+balanced creation, not a printer. Guards apply as ruled: fresh-marks/swing pricing,
+per-checkpoint cap as % of float (a $500k deposit against a small float queues
+across checkpoints), door-token governance weight vests over N checkpoints.
