@@ -1247,3 +1247,25 @@ across checkpoints), door-token governance weight vests over N checkpoints.
   a marking haircut (off-venue trades are invisible to checkpoints). Note most RWA
   instruments require transfer allowlists for securities reasons anyway;
   venue-lock will frequently be the legal default.
+
+### 19.15 The registrar principle (READY)
+
+Portability is a **venue** choice, never a **registrar** change: the RWA token
+contract remains the sole register of ownership wherever the tokens trade (the
+platform playing the transfer-agent role securities law effectively requires).
+Consequences:
+
+- Lifecycle control survives portability. Liquidation = initiative-governed decision
+  (or pre-configured trigger) → contract-level record-date snapshot + transfer
+  freeze → sale proceeds through platform escrow → pro-rata payout to holders of
+  record → tokens retired at the contract. The basket is just another holder of
+  record; its share feeds the buyback-burn as ruled.
+- **Redemption machinery is a mandatory issuance requirement**, not an option:
+  record dates, freeze, payout claims, retirement must be in the token contract
+  from day one.
+- Wrapper/bridge caveat: the register sees the wrapper as one holder; its
+  depositors claim through their wrapper. On restricted instruments, non-whitelisted
+  contracts cannot be holders; on portable ones this is documented, and the
+  record-date freeze prevents late unwrap front-running.
+- So portability costs exactly what §19.14 prices — tax flow and mark visibility —
+  and can never cost lifecycle control.
