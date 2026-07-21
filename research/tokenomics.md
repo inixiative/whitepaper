@@ -1442,3 +1442,23 @@ deployment share, spent only by rules on mirror co-buys and the standing bid), a
 "deployment pool" references read "treasury"; the treasury remains distinct from
 operator revenue exactly as §19.18 specifies — the rename does not re-merge the
 pots.
+
+### 19.20 Tax routing ruling (architect): 8:1:1, treasury-first
+
+The trade tax (levied on each ownership change at the asset's last checkpoint mark)
+splits **≈ 8:1:1 — treasury / basket / operator**, superseding §19.13's
+basket-heavy split. Rationale: the platform must make its own money; the basket's
+value story stays pure ("assets bought at proven prices"); appreciation arrives
+predominantly through IPO deployments (treasury → mirror co-buys → basket) rather
+than a continuous drip. The trade itself remains overwhelmingly buyer↔seller — the
+tax is small.
+
+Implications, all favorable to earlier findings: the treasury is genuinely funded
+(mirror legs execute; the discount-state trap's "no inflow" leg weakens; the
+operator gains volume-linked — not NAV-linked — recurring revenue, curing the
+§19.17 expense-ratio concern's main motivation). Unchanged guards: treasury is
+rule-spent only (mirror queue, standing bid), the split parameter sits behind the
+constitutional floor/time-locks (bigger honeypot, same locks), and the invariant
+holds — appreciation is still Δbasket unmatched by mint, now arriving lumpy at
+deployments instead of continuously. Status: PROPOSED pending exact ratio
+ratification; the 8:1:1 shape is architect-directed.
