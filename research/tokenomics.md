@@ -1533,3 +1533,14 @@ MNPI guards — batch execution stops being a defense and becomes the clock.
   unchanged. Creation executes at the NAV (backing) rate + spread, never the
   market rate — at a market premium, NAV-rate creation is what prevents handing
   buyers paper gains against the basket.
+
+### 19.24 Co-buy timing (RULING): one cycle delayed off the auction
+
+The basket's co-buy executes one cycle after the auction. Analyst implications,
+labeled as such: the vote is cast knowing the actual cleared price (not blind); the
+winner's own tokens paid that price a full cycle before treasury cash moves, so the
+basket only follows real money in; a manipulated auction must survive a cycle of
+public scrutiny plus an informed default-deny vote before touching the treasury.
+Open detail (not guessed): whether the basket pays the auction's cleared price or a
+re-marked price at execution — default reading is the cleared price, pending
+confirmation.
