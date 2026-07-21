@@ -1698,3 +1698,26 @@ Rationale: cash-era rules and asset-era rules differ; a constitution written
 before either era is wrong somewhere. Naming in advance the one moment of
 rewrite, its threshold, and what survives it is more honest than either
 crypto's fake immutability or fiat's amendment-by-decree.
+
+### 19.34 Platform voting weight: held tokens + IPO'd stake (RULING; guards PROPOSED)
+
+Architect ruling (restoring the original two-leg formula, now with the v1 gate):
+**platform voting weight = held platform tokens + the value of your RWA holdings
+in IPO'd inixiatives.** Only auction-proven value counts — pre-IPO, self-assessed
+assets confer zero platform weight. Inixiative-level voting unchanged (RWA tokens
+govern their own inixiative).
+
+This reopens only the voting channel of the manufactured-weight attack (the
+basket's cash is already protected by the voted, cycle-delayed co-buy). Guards
+(analyst proposal, unratified):
+1. **Stranger-anchored**: stake counts at the price provably-unaffiliated bidders
+   paid; a self-auction won by one's own shill confers nothing.
+2. **Vesting + cure**: full weight only after surviving a re-auction with a
+   disjoint bidder cohort.
+3. **Age decay**: weight carries the same staleness haircut as the price, until
+   re-proven.
+4. **Dies at exit**: liquidation extinguishes the weight (power tied to live
+   exposure, matching redemption-burn semantics).
+Supersedes the held-tokens-only amendment recorded in §19.11/§19.17 discussion;
+the earlier flat rule is retained in the record as the fallback if the guards
+prove too weak in a future adversarial pass.
