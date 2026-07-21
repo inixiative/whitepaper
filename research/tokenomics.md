@@ -822,3 +822,126 @@ the default choice explicitly as provisional.
 6. Before promoting any of this into `docs/01_diagnosis.md`, `docs/02_specification.md`,
    or `docs/03_mechanisms.md`, get explicit sign-off from the architect — this document
    is a design/research artifact, not pre-approved whitepaper prose.
+
+---
+
+## 19. Addendum — the ledger session (2026-07-20, architect + Claude)
+
+A follow-on design conversation resolved several of §17's open decisions and
+corrected two framings in the body above. Same status discipline as the rest of this
+document. Where this addendum conflicts with §4–§13, **the addendum wins** — it is
+later and was ratified interactively.
+
+### 19.1 The supply principle (RULING)
+
+**Token supply tracks *contributed* value, not *total* basket value.** Supply must
+never be pinned to NAV — supply == basket value produces a permanently flat
+stablecoin-of-the-basket, not a store of value. Mint only against assets physically
+delivered into the basket; every other flow moves existing tokens; the wedge between
+value entering and tokens created is the appreciation, by design.
+
+### 19.2 Entry-event accounting, made precise (READY)
+
+Worked ledger for a three-way split (winner ⅓ / mirror ⅓ / mint ⅓ of asset X,
+cleared value V):
+
+- **Winner's leg**: pays ⅓·V in existing tokens → recirculate to the asset owner.
+  Supply unchanged; the slice is the winner's private property and never enters the
+  basket.
+- **Mirror leg**: treasury spends trade-tax tokens. Treasury holdings are accounted
+  like **corporate treasury stock — out of circulating float**. The spend releases
+  ⅓·V of tokens back into float while the basket gains ⅓·V of asset.
+- **Mint leg**: owner delivers ⅓ of X into the basket, receives ⅓·V of new tokens at
+  NAV (creation-unit, balanced both sides).
+
+Net: float +⅔·V of tokens (only ⅓ freshly minted), basket +⅔·V of assets — **the
+entry event is exactly NAV-neutral**. Appreciation does not happen at entry; it
+happens continuously as the trade tax pulls tokens from float into treasury while the
+basket is unchanged. The IPO is the moment stored tax-appreciation converts into owned
+assets.
+
+**The leg-ratio knob does not affect per-token value** (every leg prices at the same
+cleared price; the mint is balanced, so entry is neutral at any split). What the ratio
+actually controls: treasury deployment speed (flywheel) and cumulative platform
+ownership share (the §7 common-ownership cap). This narrows §17 open decision #3: the
+incentive-compatibility analysis constrains adverse selection, not valuation.
+
+### 19.3 Denomination (RULING — supersedes §9 Step 2)
+
+**Per-initiative economies are currency-free: an initiative may denominate, mint, and
+transact in any currency it wants. The platform token is required specifically at the
+IPO/Vickrey gate — auctions settle in platform tokens.** This retains §9 Step 1's
+core property (you cannot access the core marketplace without holding the governance
+instrument) while dropping the "universal unit of account" claim of Step 2. The
+MakerDAO-style stable-unit objection recorded in Step 2 is thereby mostly mooted:
+ordinary commerce inside initiatives no longer routes through the volatile governance
+instrument. §6.12B should be drafted with this ruling, not Step 2.
+
+### 19.4 The tracking principle (RULING) and the exit mechanism (READY)
+
+Architect's ruling, verbatim spirit: *"It's an ETF. It is supposed to track value —
+it can't magically be shielded."* The token promises **honest tracking of whatever
+the basket is actually worth — downside included**. No mechanism defends a level;
+losses pass straight through to NAV. (This corrects the Terra-flavored caution in
+§12.1's framing: Terra died defending a *peg* — a promised value. This token promises
+no value, only tracking, so there is nothing to shield.)
+
+Consequences, now settled:
+
+- **Exit = proceeds-based market buyback and burn.** When an asset exits, the
+  basket's share of sale proceeds (in whatever currency the sale realized) goes to
+  escrow → buys platform tokens on the open market at **current market price** → those
+  tokens are burned. Full stop.
+  - Self-funding by construction: the obligation is defined by what the sale raised,
+    so the mechanism can never be insolvent.
+  - Nobody is burned involuntarily: supply is purchased from willing sellers at
+    market. Holders who want the payout in cash sell into the buyback (a
+    self-selected dividend); holders who don't now own a larger share of a smaller
+    basket at unchanged NAV. The "what if the exiting owner holds no tokens" problem
+    dissolves — the burn is never an obligation on a person.
+  - Self-balancing against price drift: buying at a discount to NAV retires more
+    claim than value departed (accretive — the standard closed-end-discount cure);
+    buying at a premium retires less (leans against bubbles). No oracle, no asserted
+    price: entry rides the Vickrey clearing price, exit rides the actual sale and the
+    actual market.
+- **Rejected: original-token-count burn** (retire at exit exactly the tokens minted at
+  entry). It sneaks in a promise — "supply will always equal cumulative contributed
+  value" — that the basket must spend real value to honor even when the asset didn't
+  return that value, i.e. a hard obligation decoupled from realized cash, surfacing
+  pro-cyclically. That is the anti-ETF move. Also rejected as a discretionary
+  good-times top-up policy: the tracker carries no supply policy at all.
+- **Rejected: pro-rata external-currency dividends at exit** — leaks basket value out
+  of the token, contracts nothing, and volunteers the *Howey* fact pattern.
+- **Fixed-reference-price buybacks rejected** in both directions: below market they
+  never execute; above market they are an arbitrage drain on the escrow.
+
+### 19.5 Escrow denomination (PROPOSED)
+
+Escrow is **collateral-agnostic against a whitelist** (BTC, stablecoins, the platform
+token, per §6.12A's buffer precedent) with per-asset haircuts (§7's LTV guardrail).
+Exit proceeds are held as received and converted only at the moment of buyback. Not
+yet explicitly ratified.
+
+### 19.6 The honest asterisk (keep in any prose treatment)
+
+The one place this is *not* an ETF: no continuous create/redeem arbitrage pins market
+price to NAV. Creations happen only at IPO events, redemptions only at exits, so
+price can drift between events (§7's closed-end-discount risk). Exit buybacks
+discipline the drift episodically and lean the right way. If drift matters in
+practice, the fix is **more frequent, smaller Vickrey checkpoints** (more marking and
+more episodic discipline) — never a peg mechanism.
+
+### 19.7 Updated open-decision list
+
+Resolved from §17: #3 is narrowed (ratio = flywheel/ownership knob, not a valuation
+knob; adverse-selection analysis still needed); the §12.2 redemption question is
+settled (proceeds buyback-burn). Newly explicit and still open:
+
+1. Fee-cut burn on IPO auction settlements (EIP-1559-style cut, principal to seller)
+   — PROPOSED, unratified. This is now the *only* deflationary flow besides exits.
+2. Escrow collateral whitelist + haircut schedule (§19.5) — PROPOSED, unratified.
+3. Whether the treasury may ever refuel from exit proceeds. Current READY position:
+   no — exits burn fully; the treasury's only inflow is the trade tax. Revisit only
+   if tax inflow proves too thin to fund mirror legs.
+4. Everything in §17 not named above (vote-weight curve, vesting delay, ostracism
+   parameters, operator vetting, naming collision, Howey) remains open.
