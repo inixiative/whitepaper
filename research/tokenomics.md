@@ -1544,3 +1544,16 @@ public scrutiny plus an informed default-deny vote before touching the treasury.
 Open detail (not guessed): whether the basket pays the auction's cleared price or a
 re-marked price at execution — default reading is the cleared price, pending
 confirmation.
+
+### 19.25 Two pots (RULING — supersedes §19.16/§19.18-19.20 pot structure)
+
+The 8:1:1 tax split (§19.20) was an analyst misreading of the architect's
+shorthand — **struck entirely**. With cash-only v1, no separate treasury exists:
+
+- **The basket**: cash and assets, the token holders' property. The trade tax
+  flows into it; voted co-buys are paid out of it; exit buybacks come from it.
+- **The operator**: the company, paid only through the published fee schedule.
+
+The three-pot structure (§19.16/§19.18) and its "deployment pool"/"treasury"
+naming are superseded. The distinction that survives is the only one that
+mattered: holders' money vs. the company's money.
