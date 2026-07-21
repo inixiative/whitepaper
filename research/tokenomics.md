@@ -1034,3 +1034,128 @@ tightened: a variable ratio silently skews index composition. (SPY does not own 
 S&P; proportional composition, not total ownership, is the index property.)
 Full-value minting was checked and rejected on arithmetic: minting 150k against 30k
 delivered = 10% NAV haircut per event — the printer.
+
+### 19.11 Adversarial panel synthesis (three independent attackers: market/arb, solvency, governance)
+
+Run 2026-07-20 against the full design through §19.10. Verdict up front: **the exit
+tracker survived; the Vickrey mark, the tax base, and the governance surface did
+not.** Both headline invariants were formally attacked: NAV-neutrality of entries
+holds **only at P = NAV exactly** (the mirror leg settles at market while the mint
+settles at NAV, so any premium/discount makes every entry event itself
+accretive/dilutive — a knife-edge, not a property); the appreciation invariant is
+true as a ledger identity but false as a value claim unless the mark is anchored to
+arm's-length money and the tax base actually binds.
+
+**CRITICAL 1 — Circular Vickrey / manufactured marks.** The winner's payment
+recirculates to the asset owner, so a seller-controlled bid ring pays itself: the
+classic "overbidding costs you" Vickrey defense is void, commit-reveal is irrelevant
+(it stops auctioneer fraud, not bidder collusion). Worked attack: garbage worth $1M
+cleared at $5M → ring surrenders $0.67M of asset, receives $3.33M of tokens
+($1.67M drained from the treasury's mirror leg + $1.67M over-mint), plus immediate
+voting base. Fee-burns can't price it away (killing a 5× inflation needs a ~160%
+fee). Guards (compose, all READY):
+  - **Robust-mark rule** (architect-proposed): commit-reveal exposes the full bid
+    distribution; a legitimate market clusters, a shill ring is detached top bids.
+    The winner still wins at second price, but the mark that sizes mint/mirror/NAV
+    uses a collusion-robust statistic — min(cleared price, best provably-unaffiliated
+    bid, distribution-anchored bound). Faking it then requires funding a whole
+    plausible distribution, not two bids.
+  - **Bid deposits** (slashable, scale with bid) + **minimum independent-bidder
+    count** (Tier-4-separated from seller); below the minimum, the asset enters
+    unminted/escrowed until a later checkpoint clears with genuine depth.
+  - **Reserve price** (seller-set) for the suppression side the distribution test
+    cannot see.
+  - **Vote weight counts held tokens only** — the assessed-value leg of §9 Step 4 is
+    manufacturable (governance attacker: $980M of vote weight at ~zero net token
+    cost) and the vesting delay does not stop a persistent ring. Marks feed
+    accounting, never votes.
+
+**CRITICAL 2 — Tax-base evaporation.** The in-kind tax binds only on-venue; RWA
+tokens that are freely transferable migrate to DEX/OTC/wrappers/repo, driving the
+appreciation engine and the treasury bid to ~0 by default (not by attack). Guard:
+**transfer-restricted RWA tokens (contract-level KYC allowlist; wrappers are
+non-whitelisted), tax levied on owner-change** — regulatorily aligned with the Howey
+posture anyway. Residual: cash-settled off-chain derivatives (acceptable; they still
+need the venue's print).
+
+**CRITICAL 3 — Escrow-collateral circularity.** Whitelisting the platform token as
+escrow collateral reopens the Terra loop through the side door (pre-credit against
+the token's own price; token −50% → funded hole; plus a double-count if escrowed
+tokens are marked while the basket they claim is in NAV). Guard: **strike the
+platform token from the §19.5 whitelist** (or 100% haircut).
+
+**HIGH — the P≠NAV surface (knife-edge findings).**
+  - Premium round-trip: create at NAV → sell into an exit buyback executing above
+    NAV → riskless E·(1−NAV/P) bled from holders. §19.4's "leans against bubbles"
+    claim is falsified: at a premium the buyback is a price-insensitive buyer.
+    Guard: **buyback price ceiling — never buy above NAV(1+ε); at a premium, exit
+    proceeds park in the reserve sleeve instead** (still self-funding, keeps the
+    accretive-at-discount half).
+  - Stale-NAV door timing (2003 mutual-fund arb): per-asset freshness ≠ portfolio
+    freshness; door users hold a free option on unmarked drift. Guard: **creation
+    spread (1–2% over NAV) + swing pricing/basket-freshness threshold.**
+  - Door as governance printer: unlimited cash → tokens at NAV with zero market
+    impact bypasses the float frictions that make linear voting tolerable (23% of
+    post-money supply in one checkpoint, vesting delay doesn't bite — it gates
+    marks, not tokens). Guard: **per-checkpoint creation cap (2–5% of float) +
+    door-token voting weight vests over N checkpoints.**
+  - Settlement-print sandwiching: payment legs settling at spot on a thin float make
+    every entry a sandwich target in both directions. Guard: **randomized-window
+    TWAP/median settlement.**
+  - Front-running the two announced mechanical flows (treasury bid, exit buyback):
+    classic MEV against price-insensitive public programs; insiders with vote access
+    worsen it (referee conflict). Guard: **run both as periodic sealed-bid batch
+    auctions (the platform already owns Vickrey infrastructure) + blackout/firewall
+    for anyone with governance or op-timing knowledge.**
+
+**HIGH — governance spine.**
+  - Rented-snapshot voting: ~$41k/day borrows $100M of voting weight at a
+    predictable snapshot; held tokens are exempt from the vesting delay. Guard:
+    **lock/time-weighted voting weight (the veCRV pattern §8 departed from) or
+    randomized secret snapshots.**
+  - Coalition capture of the parameter set: at 10% turnout, 51% of participating
+    weight ≈ $102M of retained principal vs $100M+/yr of redirectable flow; the
+    concentration curve is Sybil-splittable at ~0.1% overhead (regressive against
+    honest small holders). Guards: **supermajority + real quorum (not
+    plurality-of-turnout) + time-locked execution for flow parameters (tax rate,
+    leg split, whitelist, fee routing, sleeve rules); super-linear Tier-4 bonds and
+    slashable vouching for the curve.**
+  - Crisis-window capture (composes with Critical 3): mid-drawdown the token is the
+    cheapest it will ever be and the discount stalls entries; a captured vote then
+    widens the escrow whitelist / unseals the sleeve. Guards above + **ratify the
+    vesting delay**; state explicitly that **treasury-held and escrowed tokens never
+    vote** (nowhere currently stated).
+  - Ostracism weaponization: no-fault removal at low quorum lets a 5% active
+    minority exile the largest honest bloc and, if the exiled weight redistributes,
+    manufacture a working majority. Guards: **slashable invocation bond,
+    supermajority + high quorum specifically for ostracism, exiled weight
+    abstains/escrows (never redistributes).**
+  - IPO-gate enclosure: the captured coalition can vote whitelist/deposit/fee rules
+    that price rivals out of the only entry gate. Guard: **constitutional
+    non-amendable open-access floor on entry rules, outside ordinary governance.**
+
+**MEDIUM — structural rules confirmed cheap to close.**
+  - Mirror leg is **best-efforts, capped at treasury balance, never minted, never
+    sleeve-funded** — treasury capacity is token-denominated while obligations are
+    value-denominated (73% forced shortfall in the worked example); verified that
+    NAV-accounting survives on winner+mint alone, so nothing breaks by making it
+    optional.
+  - **Sleeve segregation**: basket property, never funds mirror legs or treasury
+    token purchases (else laundered self-buy = §7's forbidden loop one hop removed,
+    or double-counted NAV).
+  - Float endgame: burns are unbounded, mints are entry-gated → near-zero-float
+    deadlock (IPO gate needs tokens nobody has; escrows can't complete; quorums
+    unreachable). Guard: **door issuance auto-eligible (spread-protected) when float
+    < threshold × trailing exit volume**; in-flight escrow proceeds are inside NAV.
+  - Buyback execution: TWAP with per-tranche ceiling at NAV (never buy above — above
+    NAV the burn is dilutive by the design's own arithmetic).
+
+**What genuinely survived:** the proceeds-defined exit obligation cannot be made
+insolvent (attacked directly, held — tautologically funded); the no-unbacked-mint /
+no-pre-mine core; the tracking principle itself. Every failure found lives in the
+*unpriced promises around* the tracker: the mark, the tax base, the mirror
+obligation, the door, and the vote. All guards above are parameter/rule-level, not
+mechanism redesigns; the two that change already-made decisions are (1) vote weight
+= held tokens only (amends §9 Step 4) and (2) transfer-restricted RWA tokens
+(constrains §19.3's currency-freedom at the transfer layer, not the denomination
+layer).
