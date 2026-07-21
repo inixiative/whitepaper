@@ -1432,3 +1432,13 @@ marks never vote. Residual worth-it case = overpay real money at real risk to pu
 one mint a band-width rich — bounded, priced, never cheaper than honesty. Same
 standard as the whale answer (§19.11 discussion): manipulation is not impossible,
 it is demonetized and rentable.
+
+### 19.19 Naming ruling (architect): basket / treasury / operator
+
+"Deployment pool" is dead. The three pots are: **the basket** (the ETF of assets —
+holders' property), **the treasury** (the platform's liquidity — the tax's
+deployment share, spent only by rules on mirror co-buys and the standing bid), and
+**the operator** (the company — service fees, pays the team). All §19.16/§19.18
+"deployment pool" references read "treasury"; the treasury remains distinct from
+operator revenue exactly as §19.18 specifies — the rename does not re-merge the
+pots.
