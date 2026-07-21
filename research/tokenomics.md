@@ -1159,3 +1159,37 @@ mechanism redesigns; the two that change already-made decisions are (1) vote wei
 = held tokens only (amends §9 Step 4) and (2) transfer-restricted RWA tokens
 (constrains §19.3's currency-freedom at the transfer layer, not the denomination
 layer).
+
+### 19.12 Layered defense against manufactured bid distributions (READY)
+
+The robust-mark rule forces a ring to fake a whole distribution rather than two
+bids. The follow-up question — how do you prevent bulk bid manufacture — has no
+single answer; the design is that each layer moves the cost somewhere the attacker
+can't recirculate it, and the payoff side is amputated independently:
+
+1. **Manufactured bids can't move the mark without passing identity separation.**
+   The mark anchors to the best *provably-unaffiliated* bid; a thousand pretty shill
+   bids are cosmetic unless they defeat Tier-4 separation. The attack therefore
+   collapses into a Sybil attack on §6.2 — which is priced (super-linear bonds,
+   slashable vouches), graph-analyzable, and the one surface the whitepaper already
+   invests machinery in.
+2. **External, non-circular costs even for a fully circular ring:** protocol-held
+   slashable deposits per bid, fees/taxes on every leg, and burned identities.
+   (Forced "audit fills" of losing bids do NOT work here — a ring buying from
+   itself recirculates the fill payment; deposits and fees are kept external by
+   construction.)
+3. **Time:** a mark only fully cures after surviving K staggered checkpoints with
+   substantially disjoint bidder sets (bidder-asset incidence graph down-weights
+   repeat cohorts). The conspiracy must be re-funded and re-staffed per checkpoint.
+4. **Defection bounties** (§6.12.2 pattern): slashed ring deposits fund the
+   whistleblower. An N-party conspiracy where any member profits more by defecting
+   than by continuing is self-unstable at exactly the N the distribution test
+   forces.
+5. **Amputated payoff:** votes never derive from marks (held tokens only), and
+   mint/mirror size off the unaffiliated anchor — so even a successful fake
+   distribution mints against the best honest bid.
+
+Net: bid manufacture is not prevented; it is made unprofitable — a multi-identity,
+multi-checkpoint, deposit-funded conspiracy that must defeat KYC-graph analysis and
+survive its own members' defection incentives, to inflate a number that the system
+neither votes on nor mints against.
