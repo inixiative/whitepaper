@@ -1583,3 +1583,23 @@ accepted pending objection): **basket.** "Fund" is the regulatory self-label the
 round-two panel flagged as Exhibit A; "treasury" implies the platform's money and
 resurrects the pot confusion §19.25 killed; "basket" states the thing — the pool
 of cash and assets backing the token.
+
+### 19.28 Exit burn retired; redemption door added (architect-caught staleness + architect proposal)
+
+- **Architect correction (confirmed):** the mandatory exit buyback-and-burn was a
+  mint-era rule — supply created against assets had to contract when assets left.
+  Under cash-only v1 supply is created only for cash, so an exit is an
+  asset-for-cash swap at market value: **NAV-neutral, nothing to burn.** Rule
+  removed.
+- **Redemption door (architect proposal, analyst detailing labeled as such):**
+  burn tokens → receive backing × tokens in cash. Mirror of creation,
+  NAV-neutral by construction. Effect: a standing **floor at backing** —
+  with the door capping premiums at backing + spread, the market price lives in
+  a band around backing, enforced by open arbitrage, continuously.
+- **No per-event vote for cash redemption** (a vote would kill the arb;
+  redemption at backing cannot hurt remaining holders, and a small spread is
+  mildly accretive to them). Governed parameters only: spread, and a cash floor
+  so redemptions queue rather than force asset sales. **In-kind redemption
+  banned** (or vote-gated): pulling assets out lets redeemers cherry-pick.
+- Burn ✕ glyphs now mark the two real retirement events: RWA tokens retiring at
+  the registrar on asset exit, and platform tokens burned at the redemption door.
