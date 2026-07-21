@@ -1655,3 +1655,19 @@ Caveat for all prose: store-of-value status is earned, not declared — credibil
 accrues with basket diversification, auction cadence, and the band holding
 through its first real drawdown. The design's compounding advantage is that its
 track record is verifiable.
+
+### 19.32 The third currency (architect observation, closing note)
+
+Money is three jobs; the system has two natives: basket = store of value, kWh =
+future medium of exchange. The **stable unit of account** is currently borrowed
+(USDC) — the third currency exists, it just isn't ours. Ruled discipline: do not
+mint it — a native stablecoin means a peg (a promised value, the one promise the
+design never makes) or MakerDAO-class collateral/liquidation machinery (the
+complexity class v1 amputated). Instead: the platform bootstraps its own third
+currency — energy inixiatives funded through the marketplace ARE the future
+generation capacity that backs the kWh token (§6.12A's 1:1 production rule).
+Sequence: settle in USDC as scaffolding → energy inixiatives accumulate → kWh
+pilots inside them (e.g., a solar inixiative paying in kWh credits) → door
+whitelists kWh → the platform prices in the unit its own assets produce. A
+two-currency design running on a borrowed third, with the borrowed one scheduled
+for replacement by the platform's own output.
