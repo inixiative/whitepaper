@@ -1269,3 +1269,131 @@ Consequences:
   record-date freeze prevents late unwrap front-running.
 - So portability costs exactly what §19.14 prices — tax flow and mark visibility —
   and can never cost lifecycle control.
+
+### 19.16 Basket vs. treasury: the custody distinction (READY — clarifies and amends §4's "platform becomes part-owner")
+
+- **The basket** is the holders' property — what the token *is*. It holds RWA slices
+  (both mirror-bought and mint-contributed) and the cash sleeve. Never platform
+  tokens. Custodied and bankruptcy-remote from the operator.
+- **The treasury/platform** is the operator's working capital. It holds cash (fees,
+  currency-side tax share) and platform tokens bought with revenue (treasury stock:
+  out of supply, non-voting, not assets). **It never holds RWA slices** — when
+  treasury value funds a mirror leg, the slice lands in the basket, not the
+  treasury. The treasury's assets are always money-shaped; the basket's are
+  asset-shaped plus a cash buffer.
+- The model is fund custody vs. manager balance sheet (an ETF's assets vs. its
+  sponsor's corporate account). Three reasons the wall is load-bearing: NAV
+  integrity (operator revenue/spending must not move NAV), bankruptcy remoteness
+  (operator can fail without touching backing), and the self-buy firewall.
+- **Amendment to §4/§7:** under this ledger the platform never owns assets — it owns
+  fee flow. The §7 common-ownership/referee conflict as originally framed largely
+  dissolves; what remains is the operator-conduct surface (§19.17 regulatory
+  findings), not an ownership surface.
+
+### 19.17 Adversarial panel, round two (mechanism / regulatory / systems-composition)
+
+Run 2026-07-20 against §19.12–19.15 + held-tokens-only voting. Verdict: **the exit
+tracker, held-only voting, the registrar core, and the no-pre-mine rule survived
+recomposition; the "unaffiliated bidder" predicate, the currency-side tax base, the
+bootstrap path, and the regulatory posture did not.**
+
+**FATAL-TIER (strategic decision required, not a parameter):**
+- **Investment Company Act of 1940, not Howey, is the kill shot.** The basket is
+  structurally an unregistered interval fund; registration doesn't save it (§17(a)
+  affiliate rules ban the operator's co-buys and standing bid; 22e-4/6c-11
+  unmeetable for illiquid RWA). Cheapest viable posture: **§3(c)(7) + Reg D —
+  qualified-purchaser/accredited-only with contract-level allowlists** (the §19.15
+  registrar + §6.2 KYC infrastructure IS the compliance machinery). Cost: no
+  retail — which contradicts the "democratic play" narrative and the current
+  marketing posture. This must be decided explicitly. The pages' repeated
+  ETF self-description is Exhibit A against the unregistered path.
+- **The expense ratio is NAV-linked comp to the party that runs the marks** — the
+  PE self-marking disease §6 exists to cure, reinstalled in the referee's hand
+  (also triggers the Advisers Act). Sever: independent NAV administration from
+  committed on-chain checkpoint data; fees only on lagged NAV that survived K
+  checkpoints, or cost-plus; affiliation/haircut adjudication outside the operator.
+
+**CRITICAL (mechanism):**
+- **Rented genuine bidders break the robust mark**: real, clean-graph, Tier-4
+  parties paid side-fees with private repurchase guarantees produce an honestly-
+  clustered fake distribution that passes every §19.12 layer (~4.3× overmark for
+  ~$150k). Affiliation is not a decidable predicate — stop trying to detect it;
+  make the guarantee unexecutable: **winner slices escrow-locked, non-transferable
+  and non-encumberable for the K-checkpoint cure period, and mint/mirror sizing
+  additionally capped by a cross-asset comparable band.** A rented bidder must then
+  carry real unhedgeable exposure to the fake price — the rental fee converges to
+  just paying the fake price.
+- **Genesis deadlocks, twice.** (a) The bidder-depth bar + K-disjoint-cohort curing
+  are unsatisfiable when the whole genuine bidder population is one small cohort;
+  (b) the float-refill valve is keyed to trailing exit volume ≡ 0 at genesis, and
+  the door cap (%-of-float) cannot fund even one honest bid on the first real
+  asset. Fixes: **paid-legs-only provisional entry** (below the bar, the winner leg
+  executes as a real sale; mint = mirror = 0 until the mark cures; provisional
+  marks display-only at a haircut — shill-safe because a ring buys nothing that
+  mints, sizes, or votes); valve/cap keyed to **max(trailing exits, deposit-backed
+  committed auction demand)**; cohort-disjointness graded against contemporaneous
+  bidder-population size.
+- **The currency-side tax can be structured to ~zero on-venue** (token-for-token
+  barter, junk-denomination, understatement, netting) — and portability pricing
+  adversely selects the remaining tax base toward garbage while venue-lock leaks at
+  the account layer (sell the SPV/keys). One fix closes all three: **levy the tax
+  at the registrar layer on owner-change, valued at the checkpoint mark of the RWA
+  side (staleness-haircut), independent of stated consideration and venue.**
+  Portability then prices only mark-visibility; the venue-lock discount becomes an
+  ex-post rebate proportional to actually-taxed volume; portability flips charge
+  retroactively.
+
+**HIGH (composition/consistency — each fix is one sentence):**
+- Quorum arithmetic freeze: the adopted guards shrink votable weight while the
+  quorum denominator stands still → quorum denominates over **votable supply**
+  (float − treasury − unvested − exiled-escrowed), snapshotted, with an absolute
+  participation floor.
+- Contraction outruns the capped refill in heavy exits → on valve trigger the door
+  cap re-bases to max(cap% × float, trailing exit volume).
+- Discount-state absorbing trap (tax base gone, door dead, mint/mirror at zero,
+  only burns flowing) → ratify the IPO settlement fee as a burn/treasury **split**
+  (auctions are the flow that persists in downturns), and permit the treasury to
+  **sell** revenue-bought token inventory to entering winners (no-pre-mine
+  constrains acquisition, not disposal).
+- "Exits burn fully" vs. premium-park contradiction → third provenance color:
+  parked exit proceeds are a **deferred-buyback liability** — spendable only as
+  buyback-and-burn ≤ NAV(1+ε), FIFO, earmarked inside the sleeve; §19.7 #3 reads
+  "exits burn fully, possibly deferred by the ceiling."
+- Uniform ratio vs. treasury-capped mirror → solvency wins instant-by-instant;
+  uniformity becomes an eventual invariant: **mirror shortfalls queue as
+  first-claim treasury obligations**, topped up at later checkpoint marks until
+  inside the band.
+- Entry-side escrowed (unminted) assets carry **zero NAV weight** until their mark
+  first cures (else a caught manipulation still inflates the buyback ceiling and
+  door pricing); RWA tokens are never eligible bid-deposit collateral.
+- Self-referential TWAPs → exclude platform-program prints (registrar-known
+  accounts) from every settlement/NAV TWAP; settle on unaffiliated volume with
+  min-depth, falling back to last cured mark + haircut. Record-date freezes switch
+  the asset's NAV contribution atomically from mark-basis to expected-proceeds
+  basis; venue order-cancel is two-phase with the freeze.
+- Distribution poisoning is one-directional (min() only lowers) → two-sided trim
+  (outliers dropped, never penalized against the seller), deposits scale with
+  distance-from-reserve, bound computed over bids ≥ seller reserve.
+- The slashing/bounty court doesn't exist → proof standard = signed coordination
+  messages only; bounties capped at provable counterparties' deposits; appeals to
+  a sortition panel (§6.12.4), never a token vote.
+- Wrappers rebuild the Big Three one layer down (vote depositors' tokens, run
+  freeze-window dark pools) → whitelist condition: pass-through voting or forced
+  abstention; payouts per disclosed depositor snapshot or haircut.
+- Record dates are scheduled MNPI → retroactive record date (last block before the
+  proposal published); title-transferring loans are taxed owner-changes.
+- Checkpoint-denominated guards thin as cadence rises (§19.6 says raise cadence) →
+  dual-denominate all such parameters as max(K checkpoints, T wall-clock days).
+  State plainly in prose: **held-only voting weight is buyable at NAV in unlimited
+  total — the door makes the plutocracy open-market refillable; caps are rate
+  limiters, not total limiters.**
+
+**Marketing corrections (applied to the live pages during this round):** voting
+formula updated to held-tokens-only (was still the amended-away assessed-value
+rule); "invest through the marketplace" → "participate"; "backed by everything on
+the platform" → "backed by real assets at auction-proven prices." **Still open,
+architect's call:** the "money that can't be printed" hero (attackers: overclaim —
+the honest form is "no discretionary printer"), the ETF self-description (regulatory
+Exhibit A), the appreciation identity presented as a "result," downside disclosure,
+fee-table completeness (expense ratio, portable fee), and the retail-vs-QP posture
+that decides the whole marketing register.
