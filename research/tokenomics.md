@@ -1227,3 +1227,23 @@ cash-creation door: 500k tokens minted at NAV + spread, cash into the sleeve —
 balanced creation, not a printer. Guards apply as ruled: fresh-marks/swing pricing,
 per-checkpoint cap as % of float (a $500k deposit against a small float queues
 across checkpoints), door-token governance weight vests over N checkpoints.
+
+### 19.14 Operator funding, genesis sizing, and portability pricing (PROPOSED, architect-initiated)
+
+- **Basket vs operator separation:** door cash backs tokens 1:1 (basket = holders'
+  property). Operator revenue = disclosed issuance fee on door creations (NAV + fee,
+  fee to operator), the service-fee schedule, the treasury's currency-tax share, and
+  optionally an ETF-style expense ratio on the basket (the standard instrument given
+  the tracking ruling). Token is not operator equity; if ops need real capital, the
+  operator company raises separately. All fees are published governed parameters
+  (transparency as mechanism, not marketing).
+- **Genesis sizing:** small is fine — the door refills float on demand, so genesis
+  seeds credibility, not capacity. Any raise target stays off public marketing pages
+  (solicitation posture).
+- **Portability pricing (replaces mandatory transfer restriction as the primary
+  guard for the tax-evaporation critical):** initiatives choose. Venue-locked
+  (tradeable only on-platform): discounted service fees — their tax flow funds the
+  system. Portable: full/higher one-time fees (monetized once, no tax expected) and
+  a marking haircut (off-venue trades are invisible to checkpoints). Note most RWA
+  instruments require transfer allowlists for securities reasons anyway;
+  venue-lock will frequently be the legal default.
