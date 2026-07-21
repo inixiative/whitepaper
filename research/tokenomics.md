@@ -1397,3 +1397,38 @@ the honest form is "no discretionary printer"), the ETF self-description (regula
 Exhibit A), the appreciation identity presented as a "result," downside disclosure,
 fee-table completeness (expense ratio, portable fee), and the retail-vs-QP posture
 that decides the whole marketing register.
+
+### 19.18 The three pots, the managerless principle, and the rented-bidder residual (READY)
+
+**Three pots, not two** (refines §19.16's two-sided split — "treasury" was
+conflating the latter two):
+
+1. **The basket** — holders' property: RWA slices + cash sleeve. The token is this.
+2. **The deployment pool** — the *system's* money: the deployment share of the
+   trade tax, earmarked by rule for mirror co-buys and the standing bid. Spent by
+   rules on schedule, never by people; not available for operations. Its purchases
+   land in the basket (tax converting into backing — the appreciation engine).
+3. **The operator** — the company: issuance/tokenization/escrow/auction fees (and
+   any management fee). Pays the team. Never touches pots 1–2.
+
+**Managerless principle:** the basket has no discretionary manager — auctions and
+the fixed leg-split decide what enters; checkpoints with robust marks price it;
+pool trades execute mechanically (batched, scheduled, TWAP'd); exits are
+initiative-governed. The operator has no discretion over the basket. Residual
+human-judgment surfaces (listing standards, affiliation calls, scheduling) route to
+fixed rules, governance, or sortition — never operator discretion. Note honestly:
+managerlessness helps the Advisers-Act/conduct posture but does NOT itself exempt
+from the 1940 Act (pooled investment is caught managed or not); the QP-vs-retail
+decision stands regardless.
+
+**Rented-bidder residual economics (architect-ratified direction):** the escrow
+lock does not prevent the attack — it re-prices it, and that is the design goal.
+Under the lock, the rented winner carries months of unhedgeable exposure plus
+unsecured counterparty risk on the full overpayment (the repurchase guarantee
+cannot execute while locked, and the fake mark decays under disjoint-cohort
+re-marking meanwhile) → the rental fee converges to the overpayment itself. Payoff
+side independently capped: comparable band on mint sizing, zero NAV until cure,
+marks never vote. Residual worth-it case = overpay real money at real risk to push
+one mint a band-width rich — bounded, priced, never cheaper than honesty. Same
+standard as the whale answer (§19.11 discussion): manipulation is not impossible,
+it is demonetized and rentable.
