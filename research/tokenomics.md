@@ -1570,3 +1570,16 @@ the holders control only how fast their own pot fills. Portability pricing
 survives as differential basket-tax rates set by governance. Actions covered:
 door creations, tokenization, escrow custody/release, ownership changes (valued
 at last auction mark), auctions.
+
+### 19.27 Lexical ruling: fees vs taxes, and the pot stays "the basket"
+
+Architect: **fees go to the operator, taxes go to the basket.** The fixed
+immutable per-action cut is a *fee* (a price, the company's); the governed
+0-upward per-action levy is a *tax* (the community's, voted and received by the
+holders' own pot). Same structure as §19.26, corrected vocabulary.
+
+Pot naming (architect asked basket vs fund vs treasury; analyst recommendation,
+accepted pending objection): **basket.** "Fund" is the regulatory self-label the
+round-two panel flagged as Exhibit A; "treasury" implies the platform's money and
+resurrects the pot confusion §19.25 killed; "basket" states the thing — the pool
+of cash and assets backing the token.
