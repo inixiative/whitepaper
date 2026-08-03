@@ -252,6 +252,44 @@ Social media's structural features — permanent audience, abolition of the priv
 
 ---
 
+## The Strongest Sex-Linked Case
+
+Prior sections of this note repeatedly resolved toward sex-neutral formulations. That pattern reflects, at least in part, an asymmetric *search* — sex-neutral alternatives were generated at higher rate than sex-linked mechanisms were sought. This section corrects that by constructing the sex-linked case at full strength.
+
+### 1. Equality-framing is not a cover story women adopt; it is the native strategy restated
+
+The decisive observation is developmental. Sameness-enforcement — policing the peer who rises, "no one should stand out" — is documented in girls *before ideology exists* (Benenson; the developmental relational-aggression literature). It is a behavioral phenotype, not a rationalization acquired later.
+
+This distinguishes it sharply from the male-coded cover stories used as comparators elsewhere in this note. "Efficient markets," "divine right," and "national security" each required extensive theoretical construction to rationalize an underlying competitive behavior; ideology and behavior were separate entities joined by argument. Modern egalitarian discourse requires no such construction — **it is the pre-ideological behavior expressed in adult vocabulary.** The fit is unusually tight, and tightness of fit is the relevant variable: it means the ideology recruits and rewards precisely those already disposed to the strategy, with no translation loss.
+
+The common objection — "all sacred ideologies provide cover" — does not address this. It treats equality as one arbitrary sacred frame among many, when the claim concerns the *precision of correspondence* between a documented phenotype and an available ideology.
+
+### 2. The fit disables institutional error-correction
+
+Efficient-markets ideology was contestable, was contested, and eventually lost. Egalitarian framing carries near-total social immunity. Combined with the Trivers mechanism (Claim 2), the wielder sincerely believes the frame, so challenge presents as an attack on equality itself rather than as scrutiny of a competitive move.
+
+This is the load-bearing asymmetry: an institution can correct a cover story it is permitted to examine. The specific property of this one is that examination is foreclosed. Legibility failure follows not merely from concealment but from the **undiscussability of the concealing frame**.
+
+### 3. Present enforcement demographics
+
+Founding lineage does not govern current composition. Although activist-scholarship has a predominantly male intellectual pedigree (see "Two Adjacent Claims Assessed"), the contemporary *enforcement* cohort — DEI and Title IX offices, HR, student affairs, campus activism — is heavily female. Additionally, the ideological gender divergence among younger cohorts is among the most pronounced findings in recent survey research: women aged roughly 18–29 moved sharply left from ~2016 onward while men of the same cohort remained flat or moved right, producing a gap without clear precedent.
+
+Where the enforcement register is female-typical (Claim 1) *and* the enforcement cohort is predominantly female, the two reinforce rather than merely coincide.
+
+### 4. Hypernormalization: form vs. content
+
+Yurchak's analysis of late socialism — the performative dimension of ritual hypertrophying while the constative dimension empties, with participation universal and dissent unsayable — describes contemporary egalitarian discourse more precisely than "cover story" does, because it captures detachment from referent.
+
+The *form* (ritual detached from referent) is not sex-linked; late-Soviet hypernormalization operated within an all-male power structure. But this is compatible with the sex-linked claim, which concerns *content*: which ideology becomes hypernormalized, and whether its correspondence to a native strategy renders it uniquely resistant to correction. **Form sex-neutral, content-fit plausibly sex-linked.**
+
+### Status
+
+Points 1 and 2 constitute the strongest available argument that the sex term is load-bearing rather than eliminable, and they are not addressed by the parsimony test below — which establishes that the *base mechanism* runs without the sex term, but not that the *ideology-phenotype fit* does. Point 3 is a demographic fact bearing on present magnitude. Point 4 supplies the correct descriptive frame.
+
+What would falsify: evidence that egalitarian-sameness enforcement is *not* developmentally prior to ideology; or a comparably tight ideology-phenotype fit in a male-coded case (which would show tightness of fit is generic rather than distinguishing).
+
+---
+
 ## The Parsimony Test — Does the Mechanism Require the Sex Term?
 
 A proposed virtue of the hypothesis is parsimony: one mechanism explains institutional degradation *and* why it cannot be discussed (the fairness/equality cover story). The structure — a theory that accounts for its own suppression — is not itself disqualifying; Semmelweis is the canonical case of a correct theory whose rejection was part of the very mechanism it described.
@@ -264,7 +302,9 @@ The hypothesis attributes four features to the female-typical channel: (1) conce
 - **Soviet nomenklatura.** Sincere ideological conviction, Potemkin reporting, systematic concealment, metis destruction (Scott, §1.11). Overwhelmingly male.
 - **Pre-2008 financial sector.** Sincere belief in internal risk models, concealed leverage, institutions unable to price their own balance sheets, efficient-markets cover story marginalizing critics. Heavily male.
 
-**Conclusion: the base mechanism — illegible self-advantaging plus a sincere virtue cover story — reproduces all four features with the sex term set to zero.** Adding the term therefore *reduces* parsimony unless it can be shown to contribute explanatory work the base mechanism does not. The cover story's resistance to challenge likewise tracks *which ideology is currently sacred* (divine right, national security, efficient markets were equally immune in their eras, all male-coded), not the psychology of any sex.
+**Conclusion: the base mechanism — illegible self-advantaging plus a sincere virtue cover story — reproduces all four features with the sex term set to zero.** Adding the term therefore *reduces* parsimony unless it can be shown to contribute explanatory work the base mechanism does not.
+
+**Scope limit on this test.** It establishes that the base mechanism runs without the sex term. It does **not** dispose of the ideology-phenotype fit argument (see "The Strongest Sex-Linked Case," §1–2), which claims something the comparator cases cannot supply: that egalitarian framing corresponds to a *developmentally prior, pre-ideological* female strategy, and that its resulting social immunity forecloses the examination by which the male-coded cover stories were eventually corrected. Divine right, national security, and efficient markets were each contested and each lost. That disanalogy is the sex-linked case's strongest ground, and the parsimony test does not reach it.
 
 This does not refute the hypothesis. It relocates the burden precisely: the sex-differentiated claim must demonstrate a *marginal* contribution over the sex-neutral base mechanism. Claim 4's asymmetry argument (self-blind concealment being harder to interrogate than strategic concealment) is the most promising candidate for such a marginal contribution, and is testable.
 
