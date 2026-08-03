@@ -33,6 +33,14 @@ The thesis is therefore a legitimate object of *measurement*, not a settled find
 
 ---
 
+## Note on Evidentiary Standard: What This Ledger Is and Is Not
+
+The per-claim statuses below track *what is independently verified* versus *what is inferred*. They are not a ruling on what the diagnosis may argue. This whitepaper's method is convergent inference — POSIWID (§1.13), Tainter, Turchin, Scott all reason from mechanism plausibility, pattern consistency, and absence of better explanation, because controlled isolation is unavailable in civilizational analysis. A thesis advanced on triangulation with stated uncertainty is a legitimate product of that method.
+
+The purpose of the status column is narrower: to keep visible which legs of an argument are load-bearing and which are inferred, so that a critic attacking the weakest leg cannot collapse the whole structure. **The practical payoff is that a well-triangulated thesis usually does not need its weakest leg** — see "What the Triangulation Actually Supports" below.
+
+---
+
 ## The Hypothesis (Steelman)
 
 Stated at full strength, as a hypothesis to be tested rather than asserted:
@@ -105,7 +113,11 @@ But the correct status is **unmeasured, not confirmed**. Instrument bias establi
 ### Assessment
 Given Doc 2 (signal fidelity as the foundation of coherence), the deduction is valid: a source of *sincerely concealed* unequal rule-application injects noise that the institution cannot resolve, corrupting Métis (§1.11) and degrading coherence. This holds.
 
-**But the mechanism is sex-neutral.** "Bends rules to own advantage while sincerely believing otherwise" also describes patronage, nepotism, insider dealing, and the old-boys' network — historically male-coded, and the bulk of the *documented* record of concealed rule-bending-from-power. The framework therefore predicts **"illegible self-advantaging → coherence loss,"** regardless of the actor's sex. It does not, on its own, single out feminization.
+**The mechanism is sex-neutral in form.** "Bends rules to own advantage while sincerely believing otherwise" also describes patronage, nepotism, insider dealing, and the old-boys' network — historically male-coded, and the bulk of the *documented* record of concealed rule-bending-from-power.
+
+**But the sex-neutral null is asserted, not measured, and must not be granted a free pass.** No study establishes that male-coded patronage and female-typical covert-egalitarian competition degrade institutional legibility at *comparable magnitude*, and there is a structural reason to doubt it: patronage is concealed from the institution but generally **known to its author** (it is strategic, not self-blind), whereas the Claim 2 mechanism is concealed from the author as well. Self-blind concealment is plausibly *harder* to detect and correct than strategic concealment, because the actor cannot be induced to disclose what they do not know, and sincere denial survives interrogation that strategic denial does not. If that asymmetry holds, the two channels are not equivalent and the sex-neutral null is false.
+
+This is a live empirical question, not a default. Holding the null as a default while demanding evidence for the alternative would apply an asymmetric evidentiary bar — the same error, with the sign reversed, as accepting the alternative without evidence.
 
 The productively sharp version, which does not require Claim 3: *institutions that fail to enforce signal fidelity are exploited by whatever covert strategy is locally available, and those strategies are sexed.* This is falsifiable, POSIWID-consistent, and states itself as a **design requirement** — which is what the whitepaper is actually building. A fidelity-maximizing institution neutralizes whatever the locally-covert strategy is, female- or male-typical alike.
 
@@ -143,6 +155,29 @@ This is precisely why the simulation below is the correct instrument: it is the 
 **The undercut:** the same historical novelty that makes Q1's answer "none" makes Q3's answer "none observable." One cannot simultaneously hold "there has never been a gender-integrated durable institution" and "history shows feminization presages collapse" — if women never held institutional power at scale, history recorded no effect to find. Jointly, the two questions establish exactly one thing, and it is the thesis's strongest *true* claim: **today is unprecedented; this is the first large-scale run of gender-integrated institutions, and it is genuinely untested.** Unprecedented licenses a *test*, not a *verdict*.
 
 On the "moralizers couldn't see it because women obfuscate" rejoinder: as stated it is unfalsifiable (critics blaming women = evidence; critics not blaming women = successful concealment), and an unfalsifiable claim is not admissible as evidence. The redeeming half — "the subtle shift can be measured" — is the correct move and the basis for everything below.
+
+---
+
+## What the Triangulation Actually Supports
+
+Six legs, assessed above, converge:
+
+1. Women compete covertly, intensely, and enforce sameness — **supported** (Claim 1)
+2. Self-deception about one's own fairness is adaptive — **supported** (Claim 2)
+3. Covert self-advantaging degrades signal fidelity, and signal fidelity underwrites coherence — **valid given Doc 2** (Claim 4)
+4. Standard instruments detect only the overt/declared channel — **supported** (Claim 3, Heatherington & Daubman)
+5. The research field already mistook women as less competitive because the competition was concealed — **Benenson's own account**; a documented prior instance of this exact failure
+6. Institutional decline coincides with the first large-scale gender integration in history — **true**, magnitude confounded (Claims 5, 6)
+
+**The convergent conclusion these support:**
+
+> The covert-competitive channel is real, is specifically corrosive to institutional self-legibility, is systematically under-measured by the instruments social science uses, and is currently operating at unprecedented scale inside institutions whose function depends on legibility.
+
+This is arguable now, in the diagnosis, with stated uncertainty. It is the form the thesis should take.
+
+**What it does not require:** a global rate claim ("women confabulate more in total"). None of legs 1–6 entail it; all six are equally consistent with "the covert channel is female-typical and under-measured" without any rate comparison. The rate claim is the one leg carrying direct counter-pressure (Claim 3's residual private-incentive findings) and the one an adversarial reader will attack first. **Excluding it strengthens the argument rather than weakening it** — the institutional conclusion follows from register and instrument bias alone.
+
+**What remains genuinely open** is magnitude: whether this channel is a decisive contributor to contemporary institutional decline or a marginal one. That is a measurement question, and the protocols below are how to answer it.
 
 ---
 
@@ -190,7 +225,7 @@ This is squarely in the Foundry / agent-session multi-agent wheelhouse and is a 
 - What is the correct independent operationalization of "covert-egalitarian norm adoption" at the unit level, separable from headcount?
 - Do the measured effect sizes for indirect aggression / competition-avoidance survive aggregation to institution scale, or wash out?
 - Can any natural experiment (e.g., rapid demographic transitions in specific professions with good record-keeping) approximate the held-constant-hostility condition the simulation provides?
-- Does the male-coded covert channel (patronage/nepotism) degrade legibility at comparable magnitude — i.e., is the effect about *covertness* or about *sex*? The sex-neutral null (it's covertness) must be the comparison baseline.
+- Does the male-coded covert channel (patronage/nepotism) degrade legibility at comparable magnitude — i.e., is the effect about *covertness* or about *sex*? Note this cuts both ways and the null is not privileged: **strategic** concealment (known to its author) may be materially easier to detect and correct than **self-blind** concealment (unknown to its author), since sincere denial survives interrogation that strategic denial does not. Testable directly in the simulation by varying self-concealment independently of covertness.
 - Are the late-Rome moralizing sources measuring a real shift or performing a decline-era ritual? Distinguishing requires a legibility proxy independent of the moralizers' own testimony.
 
 ---
