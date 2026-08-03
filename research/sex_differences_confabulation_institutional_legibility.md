@@ -20,10 +20,16 @@ The hypothesis decomposes into six claims of very different evidentiary status. 
 | 2 | Self-deception about one's own fairness is adaptive (sincere belief signals fairness without tells) | **SUPPORTED** (as a *universal* mechanism) |
 | 3 | Women confabulate / self-deceive at a *higher rate* than men (magnitude) | **NOT ESTABLISHED** (and several cleanly-measured cousins skew male) |
 | 4 | The covert style is *specifically corrosive to institutional legibility* | **DEFENSIBLE** (conditional; the mechanism is sex-neutral) |
-| 5 | "Feminization" *causes* institutional collapse | **NOT ESTABLISHED** (severe confounding) |
+| 5 | Female institutional integration is a *contributing* cause of contemporary decline | **PLAUSIBLE; MAGNITUDE UNIDENTIFIED** (confounding blocks measurement, does not refute) |
 | 6 | Women historically *got* power but never *stably held* it | **INTERESTING / SEVERELY CONFOUNDED** |
 
-**Bottom line.** The *mechanism* — covert, sincerely-concealed, self-advantaging rule-application degrades the signal fidelity that Doc 2 makes foundational to institutional coherence — is real and sex-neutral. The empirical weight of the full thesis rests entirely on Claim 3 (a rate difference) and Claim 5 (a causal attribution), neither of which the current evidence carries. Mass gender-integrated institutions are historically novel (<150 years), so the historical record can neither convict nor acquit the thesis; today is the first large-scale run. This makes the thesis a legitimate object of *measurement*, not a settled finding. A falsifiable observational protocol and an agent-based simulation design are proposed below.
+**Bottom line.** The *mechanism* — covert, sincerely-concealed, self-advantaging rule-application degrades the signal fidelity that Doc 2 makes foundational to institutional coherence — is real, and is sex-neutral in form. The thesis's contested weight sits on Claim 3 (a *global rate* difference, against which there is direct counterevidence in adjacent measured domains) and Claim 5 (magnitude of contribution, which confounding renders unidentifiable rather than false). Mass gender-integrated institutions are historically novel (<150 years), so the historical record can neither convict nor acquit; today is the first large-scale run.
+
+Two distinct epistemic situations are deliberately kept separate throughout this note, because conflating them produces error in both directions:
+- **Counterevidence** (Claim 3) — measured findings pointing the other way. These genuinely lower a comparative claim.
+- **Unidentifiability** (Claims 5, 6) — entangled causes preventing measurement. This lowers *confidence in magnitude* but is not evidence against contribution, and must not be used as though it were.
+
+The thesis is therefore a legitimate object of *measurement*, not a settled finding and not a dismissed one. A falsifiable observational protocol and an agent-based simulation design are proposed below.
 
 ---
 
@@ -91,19 +97,27 @@ The productively sharp version, which does not require Claim 3: *institutions th
 
 ---
 
-## CLAIM 5 — Feminization causes institutional collapse. Status: NOT ESTABLISHED
+## CLAIM 5 — Female integration as a contributing cause of decline. Status: PLAUSIBLE; MAGNITUDE UNIDENTIFIED
 
 ### Assessment
-Female mass-institutional participation is a genuine novelty of the last ~century and legitimately belongs in any "what is different now?" model. But it co-occurred with sub-replacement fertility, fiat/debt monetization, the secular testosterone decline, algorithmic media, elite overproduction, endocrine disruptors, and the removal of existential external threat — most of which the whitepaper's own diagnosis already blames, and all of which land in the same window. Attributing the decline to feminization specifically requires separating it from these co-movers; that work has not been done. POSIWID licenses "judge by outputs"; it does **not** license selecting one correlated input and crowning it the cause. Doing so is the exact failure mode (grab the salient novelty, skip the controls) the diagnosis warns against.
+Female mass-institutional participation is a genuine novelty of the last ~century and belongs in any "what is different now?" model. It co-occurred with sub-replacement fertility, fiat/debt monetization, the secular testosterone decline, algorithmic media, elite overproduction, endocrine disruptors, and the removal of existential external threat — most of which the whitepaper's own diagnosis already blames.
+
+**What that co-occurrence does and does not license.** It blocks *estimation of the coefficient*: with eight novelties in one window and one observation of the window, no method recovers how much of the decline this factor carries. It does **not** argue the contribution is zero, and it is not grounds for excluding the factor from the model. Civilizational decline is overdetermined by default; a list of co-movers is what an overdetermined process looks like, not a refutation of any member of the list.
+
+**The claim must be stated as contribution, not exclusivity.** "Feminization is *the* cause" would be refuted by the co-movers. "Female integration is *one* contributing channel, operating through the legibility mechanism of Claim 4" is not — and that is the defensible form. The failure mode to avoid is the reverse of the one originally flagged here: rejecting a contribution claim by first inflating it into an exclusivity claim.
+
+**Standard of evidence appropriate to the domain.** This whitepaper's method (POSIWID, §1.13) exists precisely because controlled isolation is unavailable in civilizational analysis; the diagnosis credits elite overproduction, metis destruction, and signal degradation on convergent inference — mechanism plausibility, pattern consistency, theoretical coherence, absence of better explanation — not on isolated variables. Applying an isolation standard to this claim while accepting convergent inference elsewhere in the same document is an inconsistent bar. Judged by the document's own standard, the claim has: a specified mechanism (Claims 1, 2, 4), correct timing, and genuine novelty. That is a real position on the ledger. What remains genuinely open is magnitude — whether the contribution is decisive or marginal — which is what the tests below are for.
 
 ---
 
 ## CLAIM 6 — Women got power but never *stably held* it. Status: INTERESTING / SEVERELY CONFOUNDED
 
 ### Assessment
-This is a sharper claim than "women never held power," and it is the right kind of claim because it points at a *pattern* (instability) rather than an absence. But it carries a dominant confound: female power-holders operated under **active delegitimation** — legal exclusion, hostile norms, coalitions forming specifically to unseat them. The instability of female power is therefore overdetermined by environmental hostility and cannot, on the historical record alone, be attributed to female traits versus environmental attack. The two explanations are not separated by any natural experiment history offers, because the hostility was near-universal.
+This is a sharper claim than "women never held power," and it is the right kind of claim because it points at a *pattern* (instability) rather than an absence. The pattern is real: female power-holders across history were disproportionately regents, consorts, interim figures, and short-tenure rulers, rarely founders of durable lines.
 
-This is precisely why the simulation approach (below) is the correct instrument: it is the only setting in which environmental hostility can be held constant and the trait contribution isolated.
+It carries a dominant confound: female power-holders operated under **active delegitimation** — legal exclusion, hostile norms, coalitions forming specifically to unseat them. Trait-instability and environment-hostility predict the same observable, and no natural experiment separates them because the hostility was near-universal. Note the direction of this correctly: it means the historical pattern **cannot adjudicate** between the two explanations — not that the trait explanation is disfavored. Both remain live; the record is silent, not exculpatory.
+
+This is precisely why the simulation below is the correct instrument: it is the only setting in which environmental hostility can be held constant and the trait contribution isolated.
 
 ---
 
