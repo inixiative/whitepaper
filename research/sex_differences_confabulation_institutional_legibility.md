@@ -18,16 +18,16 @@ The hypothesis decomposes into six claims of very different evidentiary status. 
 |---|-------|--------|
 | 1 | Sex differences in *competitive style* exist: female-typical competition runs more covert/indirect and egalitarian-enforcing; male-typical runs more overt/hierarchical | **SUPPORTED** |
 | 2 | Self-deception about one's own fairness is adaptive (sincere belief signals fairness without tells) | **SUPPORTED** (as a *universal* mechanism) |
-| 3 | Women confabulate / self-deceive at a *higher rate* than men (magnitude) | **NOT ESTABLISHED** (and several cleanly-measured cousins skew male) |
+| 3 | Women confabulate / self-deceive at a *higher rate* than men (magnitude) | **UNMEASURED** (standard instruments are biased toward the overt/male-typical channel) |
 | 4 | The covert style is *specifically corrosive to institutional legibility* | **DEFENSIBLE** (conditional; the mechanism is sex-neutral) |
 | 5 | Female institutional integration is a *contributing* cause of contemporary decline | **PLAUSIBLE; MAGNITUDE UNIDENTIFIED** (confounding blocks measurement, does not refute) |
 | 6 | Women historically *got* power but never *stably held* it | **INTERESTING / SEVERELY CONFOUNDED** |
 
-**Bottom line.** The *mechanism* — covert, sincerely-concealed, self-advantaging rule-application degrades the signal fidelity that Doc 2 makes foundational to institutional coherence — is real, and is sex-neutral in form. The thesis's contested weight sits on Claim 3 (a *global rate* difference, against which there is direct counterevidence in adjacent measured domains) and Claim 5 (magnitude of contribution, which confounding renders unidentifiable rather than false). Mass gender-integrated institutions are historically novel (<150 years), so the historical record can neither convict nor acquit; today is the first large-scale run.
+**Bottom line.** The *mechanism* — covert, sincerely-concealed, self-advantaging rule-application degrades the signal fidelity that Doc 2 makes foundational to institutional coherence — is real, and is sex-neutral in form. The thesis's contested weight sits on Claim 3 (a *global rate* difference, which standard instruments are structurally unable to measure because they detect only the overt channel) and Claim 5 (magnitude of contribution, which confounding renders unidentifiable rather than false). Mass gender-integrated institutions are historically novel (<150 years), so the historical record can neither convict nor acquit; today is the first large-scale run.
 
 Two distinct epistemic situations are deliberately kept separate throughout this note, because conflating them produces error in both directions:
-- **Counterevidence** (Claim 3) — measured findings pointing the other way. These genuinely lower a comparative claim.
-- **Unidentifiability** (Claims 5, 6) — entangled causes preventing measurement. This lowers *confidence in magnitude* but is not evidence against contribution, and must not be used as though it were.
+- **Unidentifiability from entangled causes** (Claims 5, 6) — confounding prevents estimating a magnitude. This lowers *confidence in magnitude*; it is not evidence against contribution and must not be used as though it were.
+- **Unidentifiability from instrument bias** (Claim 3) — the standard measures detect only the overt/declared channel, which is the male-typical one, so an apparent male skew is substantially artifact. This removes the counterevidence; it does **not** convert to support. Symmetry is mandatory here: "the instruments cannot see it" is equally compatible with a smaller true effect as with a larger one.
 
 The thesis is therefore a legitimate object of *measurement*, not a settled finding and not a dismissed one. A falsifiable observational protocol and an agent-based simulation design are proposed below.
 
@@ -70,19 +70,33 @@ Sound and directly relevant. **Critical property: the mechanism is symmetric.** 
 
 ---
 
-## CLAIM 3 — Women confabulate at a higher *rate*. Status: NOT ESTABLISHED
+## CLAIM 3 — Women confabulate at a higher *rate*. Status: UNMEASURED
 
-This is the claim that carries the entire thesis, and it is the one without direct support. The cleanly-measured cousins of confabulation predominantly skew **male**:
+This claim carries much of the thesis's contested weight. Apparent counterevidence exists, but on inspection most of it is produced by instruments that can only detect the overt channel — which is the male-typical one (Claim 1). The apparent male skew is therefore substantially an artifact of measurement, not a finding about rates.
 
-- **Honesty under private incentive.** Wibral et al. (2012) and Nave et al. (2018): testosterone administration *reduces* lying in men (meta-analytic d ≈ −0.27) — i.e., men lie for gain absent that push. Dreber & Johannesson (2008): men lie more for monetary gain. (See also `testosterone_honesty.md`.)
-- **Overconfidence.** Barber & Odean (2001), "Boys Will Be Boys"; broad overconfidence literature — men overestimate their own ability/performance more.
-- **"Persuasive bullshitting."** Littrell, Risko & Fugelsang (2021): men score higher on producing confident claims without regard to truth — close to the operational core of confabulation.
-- **Clinical confabulation.** The neuroscience syndromes the McGilchrist account descends from (Korsakoff, frontal/ACoA) are not female-skewed; the alcohol-related population skews male.
+### The apparent counterevidence
+- **Overconfidence / self-assessment.** Barber & Odean (2001) and the broad overconfidence literature: men overestimate own ability/performance more ("male hubris, female humility").
+- **Dunning-Kruger specifically.** Adamecz et al. (British birth cohort; 18 objective cognitive tests at ages 5/10/16 vs. subjective self-ratings): **"the self-assessment bias is gender specific, the DKE is not."** The miscalibration *slope* — low performers overestimating more than high performers — is present in both sexes with the same structure; only the *intercept* differs (men up, women down). Not fully consistent across domains: a first-semester medical-student study found the reverse direction (females overestimating, males underestimating).
+- **"Persuasive bullshitting."** Littrell, Risko & Fugelsang (2021): men score higher — but this is a **self-report** scale.
+- **Honesty under private incentive.** Wibral et al. (2012), Nave et al. (2018), Dreber & Johannesson (2008): men lie more for monetary gain. (See `testosterone_honesty.md`.)
+- **Clinical confabulation.** Korsakoff/frontal/ACoA syndromes are not female-skewed; the alcohol-related population skews male.
+
+### Why most of this does not measure what it appears to
+**The measures are of *stated* self-assessment, and the female gap is largely a public-presentation effect.**
+
+- **Heatherington & Daubman (1993), *Sex Roles*, "Two investigations of 'female modesty' in achievement situations."** Study 1 (N=388): students predicted first-semester GPA under public vs. private conditions. Women's predictions were lower than men's **in the public conditions but not in the private conditions** — with **no gender difference in actual GPA**. Study 2 (N=230): the gap appeared **only** when estimates were given publicly to a *"vulnerable"* other (someone who had supposedly earned a low GPA).
+- **Interpretation.** Female "underconfidence" is substantially **audience-calibrated self-presentation**, not a stable belief difference — and the audience-calibration is precisely Benenson's sameness-enforcement norm ("do not visibly stand out in front of a lower-status peer") observed under laboratory conditions. It vanishes in private.
+
+This invalidates stated-self-assessment measures (overconfidence, DK intercept, self-report bullshitting) as evidence about *operative* self-belief by sex: they capture the overt/declared channel, which is the one a covert strategy is defined by not using. The private-incentive lying studies are less vulnerable (anonymous, incentivized) but are situated in the monetary-resource domain, itself male-typical terrain.
+
+**The field's own track record.** Benenson notes that researchers long mistook women as less competitive *because the competition was well concealed*. This is a documented prior instance of exactly this failure mode, by exactly this mechanism. A literature with a demonstrated history of missing the covert female channel provides weak evidence when it reports no female skew in that channel.
 
 ### Assessment
-"Both sexes confabulate, in different registers" (compatible with Claims 1–2) is well supported. "Women do it *more*, globally" is not — and where magnitude *is* measured, the male ledger is heavy. The defensible statement is **domain-relative**, not global: female-skewed in covert social competition (Claim 1); male-skewed in private-incentive dishonesty and overconfidence. A global rate ranking is not available from current evidence.
+"Both sexes confabulate, in different registers" (compatible with Claims 1–2) remains well supported. The stronger reading — that the apparent male skew is measurement artifact — is now itself evidence-backed rather than speculative.
 
-**Measurement-bias caveat (cuts toward the hypothesis):** female-typical covert/indirect strategies were historically under-studied relative to male physical aggression. Part of the thin evidence base reflects what was measured, not what exists. This is itself a reason to run the measurement rather than to conclude in either direction.
+But the correct status is **unmeasured, not confirmed**. Instrument bias establishes that the question is open and badly measured; it is symmetrically compatible with a smaller true female effect as with a larger one. Treating "the instruments cannot see it" as support for the hypothesis would repeat, with the sign reversed, the error of treating unidentifiability as refutation.
+
+**This yields a concrete experimental handle.** Heatherington & Daubman supply a validated paradigm for separating *presented* from *operative* self-assessment: public vs. private elicitation, with audience status varied. Re-running confabulation and fairness-judgment measures under private/incentivized-accuracy conditions — and under varied-audience conditions — is a direct test of whether the male skew survives removal of the presentation channel. This is the highest-value next measurement in this note.
 
 ---
 
@@ -171,6 +185,8 @@ This is squarely in the Foundry / agent-session multi-agent wheelhouse and is a 
 
 ## Open Questions
 
+- Does the male skew in overconfidence/DK survive private, incentivized-accuracy elicitation? (Heatherington & Daubman implies it may not — this is directly testable and largely undone.)
+- What is a *behavioral*, non-self-report measure of fairness-confabulation — i.e. one that detects unequal rule-application without asking the actor to report on it?
 - What is the correct independent operationalization of "covert-egalitarian norm adoption" at the unit level, separable from headcount?
 - Do the measured effect sizes for indirect aggression / competition-avoidance survive aggregation to institution scale, or wash out?
 - Can any natural experiment (e.g., rapid demographic transitions in specific professions with good record-keeping) approximate the held-constant-hostility condition the simulation provides?
@@ -191,5 +207,7 @@ This is squarely in the Foundry / agent-session multi-agent wheelhouse and is a 
 - Dreber, A., & Johannesson, M. (2008). Gender differences in deception. *Economics Letters*, 99(1), 197–199.
 - Barber, B., & Odean, T. (2001). Boys will be boys: gender, overconfidence, and common stock investment. *Quarterly Journal of Economics*, 116(1), 261–292.
 - Littrell, S., Risko, E. F., & Fugelsang, J. A. (2021). The bullshitting frequency scale. *British Journal of Social Psychology*.
+- Heatherington, L., Daubman, K. A., et al. (1993). Two investigations of "female modesty" in achievement situations. *Sex Roles*, 29(11–12), 739–754.
+- Adamecz, A., et al. (2025). Revisiting the Dunning-Kruger effect: composite measures and heterogeneity by gender. *Journal of Behavioral and Experimental Economics* / IZA DP No. 17687.
 - Tainter, J. (1988). *The Collapse of Complex Societies.* Cambridge University Press.
 - Turchin, P. (2016). *Ages of Discord.* Beresta Books.
