@@ -362,6 +362,44 @@ Similarly, "boundary-blurring for personal advantage" as stated describes patron
 
 ---
 
+## Design Implications — Sensors Before Gates (Doc 3 Material)
+
+The diagnosis in this note is a **coverage gap**: institutions were instrumented to detect male-typical failure modes, and the covert/relational channel trips no existing sensor. Gatekeeping is the instrument of last resort when a behavior cannot be detected. The primary response is therefore to build the missing sensor, not to restrict entry.
+
+Note also that sensors are **self-evidencing** in a way gates are not: if the sex-differentiated hypothesis is true, rule-application audit data will demonstrate it. Detection generates the evidence that Claims 3 and 5 currently lack.
+
+### Detection — instrumenting the covert channel
+
+- **Rule-application audit by relationship proximity.** Log rule applied, applier, subject, outcome, and relationship distance. Systematic leniency toward allies appears as measurable variance *without requiring the actor to perceive or report it*. This is the direct instrument for self-blind unequal application, and it specifically avoids self-report, which Claim 3 establishes is the invalid channel.
+- **Decision reconstruction.** Judgments carry written, attributable rationale. Decisions whose reasoning cannot be reconstructed from records are the operational definition of illegibility, and become countable.
+- **Time-to-detect** for rule violations, tracked as a standing institutional metric (also prediction 1 under Observational Predictions).
+
+### Structural — attacking channel geometry
+
+- **Private deliberation preceding public position-taking.** Restores the boundary the medium abolished; targets the mechanism identified by Heatherington & Daubman directly.
+- **Anonymous initial judgment, revealed after commitment.** Breaks coalitional signaling before positions lock.
+- **Rotation of judgment roles.** Prevents accumulation of reputation capital, the currency relational strategy operates on.
+- **Assigned adversarial review.** Makes dissent a role rather than a reputational risk borne by a volunteer.
+- **Exit rights.** No-exit conditions are what make relational strategy dominant; restoring exit alters the payoff structure.
+
+### Selection — direct trait measurement
+
+Where a gate is genuinely required, select on the trait of interest rather than on proxies:
+
+- Rule-application consistency under conflicting incentive (structured scenarios in which the rule favors versus disfavors an ally)
+- On-record position-taking with binding commitment
+- Documented instances of position change against self-interest
+
+**On proxy selection.** Screens chosen *because* they produce a demographic disparity are pretextual discrimination regardless of facial neutrality, and are excluded here. The exclusion costs nothing analytically: if the trait distribution differs as hypothesized, direct trait measurement produces the corresponding disparity automatically and with less measurement loss. Proxy selection adds value only where the direct measure would *fail* to produce the effect — which is the case in which the hypothesis is false and the disparity, rather than institutional quality, is the objective.
+
+### A note on framing
+
+The umwelt reframe (above) and attributions of malice are mutually exclusive. Malice requires intent; umwelt asserts that the structure is not perceived. "Blindly malicious" collapses the stronger frame into the weaker one and forfeits the competence-objection defense that umwelt supplies.
+
+The defensible and sharper adjacent claim requires no malice at all: **sincere actors generate an unchallengeable frame, and cynical actors shelter behind it.** Frame immunity (§2 of the sex-linked case) is what converts individual self-blindness into institutional capture, and it operates without anyone intending harm.
+
+---
+
 ## Open Questions
 
 - Does the male skew in overconfidence/DK survive private, incentivized-accuracy elicitation? (Heatherington & Daubman implies it may not — this is directly testable and largely undone.)
