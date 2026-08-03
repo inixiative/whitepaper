@@ -22,6 +22,7 @@ The hypothesis decomposes into six claims of very different evidentiary status. 
 | 4 | The covert style is *specifically corrosive to institutional legibility* | **DEFENSIBLE** (conditional; the mechanism is sex-neutral) |
 | 5 | Female institutional integration is a *contributing* cause of contemporary decline | **PLAUSIBLE; MAGNITUDE UNIDENTIFIED** (confounding blocks measurement, does not refute) |
 | 6 | Women historically *got* power but never *stably held* it | **INTERESTING / SEVERELY CONFOUNDED** |
+| 7 | In-group favoritism in rule application (relationship-contingent leniency), distinct from material-gain corruption | **SUPPORTED** (lab + field convergence; replication wanted) |
 
 **Bottom line.** The *mechanism* — covert, sincerely-concealed, self-advantaging rule-application degrades the signal fidelity that Doc 2 makes foundational to institutional coherence — is real, and is sex-neutral in form. The thesis's contested weight sits on Claim 3 (a *global rate* difference, which standard instruments are structurally unable to measure because they detect only the overt channel) and Claim 5 (magnitude of contribution, which confounding renders unidentifiable rather than false). Mass gender-integrated institutions are historically novel (<150 years), so the historical record can neither convict nor acquit; today is the first large-scale run.
 
@@ -287,6 +288,47 @@ The *form* (ritual detached from referent) is not sex-linked; late-Soviet hypern
 Points 1 and 2 constitute the strongest available argument that the sex term is load-bearing rather than eliminable, and they are not addressed by the parsimony test below — which establishes that the *base mechanism* runs without the sex term, but not that the *ideology-phenotype fit* does. Point 3 is a demographic fact bearing on present magnitude. Point 4 supplies the correct descriptive frame.
 
 What would falsify: evidence that egalitarian-sameness enforcement is *not* developmentally prior to ideology; or a comparably tight ideology-phenotype fit in a male-coded case (which would show tightness of fit is generic rather than distinguishing).
+
+---
+
+## CLAIM 7 — In-Group Favoritism in Rule Application. Status: SUPPORTED (convergent, replication wanted)
+
+This is the best-evidenced sex-linked claim in this note, and it depends on a distinction that must be made first.
+
+### The separability distinction
+
+Rule-application failure divides into two modes that are routinely conflated:
+
+- **Mode A — rule-bending for own material gain.** Male-skewed (Dreber & Johannesson; die-roll paradigms). **Leaves a trace**: a transaction, a beneficiary, an audit trail. Institutions already possess instruments for it (financial audit, conflict-of-interest disclosure, procurement review).
+- **Mode B — rule-bending toward the in-group / from sympathy for the violator.** **Leaves no trace**: no transaction exists, each decision is individually defensible, and the actor sincerely experiences the leniency as compassion or context-sensitivity.
+
+Mode A is tractable *because it is detectable*. Mode B degrades institutional legibility precisely because nothing currently deployed registers it. An institution suffering only Mode A remains self-legible; one suffering Mode B does not. The male skew on Mode A therefore does not offset the claim — it concerns the failure mode institutions can already see.
+
+### Convergent evidence
+
+**Laboratory (third-party punishment).** Men anchor punishment to the in-group and exhibit out-group derogation; women anchor to the out-group and exhibit **in-group favoritism**. Favoritism in punishment allocation is unequal rule-application by relationship, measured directly.
+
+**Field (judicial sentencing).** The literature is mixed overall, with a recurring lenience pattern for female judges and one result matching the lab directly: female judges sentence **female defendants** more leniently than male judges do. Same in-group favoritism, real institution, real stakes.
+
+Two independent methodologies, same direction. This is convergence in the proper sense rather than a single-paradigm finding.
+
+**Hormonal substrate.** Dreher et al. (see `testosterone_honesty.md`): testosterone increased *both* punishment of unfair offers and reward of generous offers — norm enforcement as such, not aggression. This supplies the mechanism underlying the male-typical enforcement pattern.
+
+### Refinement: favoritism, not general leniency
+
+"Sympathy for rule breakers" and "in-group favoritism" are distinct claims. The evidence supports the latter more cleanly, and the latter is **more institutionally corrosive**:
+
+Uniform leniency is *legible*. A consistently lenient adjudicator is predictable, modelable, and correctable. Relationship-contingent leniency is illegible by construction: the identical rule produces different outcomes as a function of an input the institution does not record. This is the signal-fidelity failure of Doc 2 in its exact form.
+
+The claim should therefore be stated as **relationship-contingent variance in rule application**, not as general sympathy.
+
+### Caveats
+
+The judicial literature is genuinely mixed; effects are domain-dependent (women are *more* punitive regarding sexual offenses and crimes against children); the in-group favoritism result warrants replication before heavy reliance; effect sizes are not established.
+
+### Why this matters for the design
+
+Mode B is exactly what **rule-application audit by relationship proximity** (see Design Implications) detects: relationship-contingent variance, measured without requiring self-report — the channel Claim 3 establishes is invalid. Diagnosis and instrument correspond.
 
 ---
 
