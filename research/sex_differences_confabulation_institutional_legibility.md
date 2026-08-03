@@ -181,10 +181,31 @@ This is arguable now, in the diagnosis, with stated uncertainty. It is the form 
 
 ---
 
+## The Parsimony Test — Does the Mechanism Require the Sex Term?
+
+A proposed virtue of the hypothesis is parsimony: one mechanism explains institutional degradation *and* why it cannot be discussed (the fairness/equality cover story). The structure — a theory that accounts for its own suppression — is not itself disqualifying; Semmelweis is the canonical case of a correct theory whose rejection was part of the very mechanism it described.
+
+But parsimony is decided by a specific test: **is the sex term load-bearing, or does the base mechanism explain the cases without it?**
+
+The hypothesis attributes four features to the female-typical channel: (1) concealed self-advantaging, (2) sincere self-blindness, (3) a virtue/fairness cover story, (4) legibility collapse. Cases exhibiting all four with negligible female participation:
+
+- **Catholic Church abuse concealment.** Sincere institutional self-justification ("protecting the Church"), concealed rule-application, total legibility failure, moral-authority cover story rendering challenge illegitimate. All-male hierarchy.
+- **Soviet nomenklatura.** Sincere ideological conviction, Potemkin reporting, systematic concealment, metis destruction (Scott, §1.11). Overwhelmingly male.
+- **Pre-2008 financial sector.** Sincere belief in internal risk models, concealed leverage, institutions unable to price their own balance sheets, efficient-markets cover story marginalizing critics. Heavily male.
+
+**Conclusion: the base mechanism — illegible self-advantaging plus a sincere virtue cover story — reproduces all four features with the sex term set to zero.** Adding the term therefore *reduces* parsimony unless it can be shown to contribute explanatory work the base mechanism does not. The cover story's resistance to challenge likewise tracks *which ideology is currently sacred* (divine right, national security, efficient markets were equally immune in their eras, all male-coded), not the psychology of any sex.
+
+This does not refute the hypothesis. It relocates the burden precisely: the sex-differentiated claim must demonstrate a *marginal* contribution over the sex-neutral base mechanism. Claim 4's asymmetry argument (self-blind concealment being harder to interrogate than strategic concealment) is the most promising candidate for such a marginal contribution, and is testable.
+
+**On the "suppressed warnings" framing.** Documented pre-integration warnings concerned fertility, family structure, physical standards, and household economics. The two-income trap (Warren & Tyagi) is substantially vindicated; fertility correlations are robust but causally contested (reverse causation plausible); Clarke's *Sex in Education* (1873) was mechanistically false. No documented body of advance warnings predicted institutional competence or legibility degradation via covert competition. **This hypothesis is therefore novel rather than suppressed-and-vindicated** — a legitimate position, but one that cannot draw evidentiary support from a prior track record of correct-but-silenced prediction.
+
+---
+
 ## Making It Falsifiable — Observational Predictions
 
 If the female-typical-style-degrades-legibility hypothesis is true, it makes measurable, directional predictions. Each must be able to come back negative.
 
+0. **Composition tracking (first-line test, existing data).** Legibility degradation — procedural bloat, accountability diffusion, time-to-detect misconduct — should *track institutional sex composition*, controlling for sector, size, age, and regulatory load. If heavily male institutions (military procurement, police, finance, construction) exhibit degradation comparable to feminized ones, the sex term is doing no work and the sex-neutral base mechanism is confirmed. This is the cheapest available discriminator and does not require the simulation.
 1. **Detectability of rule-violation.** Institutions/units with greater adoption of the covert-egalitarian norm set show *longer time-to-detect* self-dealing and rule-violation, controlling for size and sector.
 2. **Recorded open dissent.** Such units show lower rates of on-record disagreement and higher rates of off-record/reputational conflict resolution.
 3. **Accountability legibility.** Such units show more diffuse, harder-to-attribute decision authority (weaker principal-agent traceability).
