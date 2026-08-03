@@ -100,6 +100,16 @@ This invalidates stated-self-assessment measures (overconfidence, DK intercept, 
 
 **The field's own track record.** Benenson notes that researchers long mistook women as less competitive *because the competition was well concealed*. This is a documented prior instance of exactly this failure mode, by exactly this mechanism. A literature with a demonstrated history of missing the covert female channel provides weak evidence when it reports no female skew in that channel.
 
+### Reformulation: duty cycle rather than rate
+
+The rate framing is the wrong one, and abandoning it resolves most of the dispute. The defensible claim derives from the absence of a terminus (see Claim 7 / the payoff asymmetry): a contest that resolves has an off state, and a mode without a settlement ritual does not. Relational competition therefore runs continuously rather than episodically. Since covert competition requires concealment to operate at all, the mode carries a **standing** requirement for self-concealment where overt competition carries an **intermittent** one.
+
+This yields "more" as a duty-cycle claim rather than a per-occasion rate claim — which is both derivable from premises already accepted here (Claims 1, 2, 7) and consistent with the male skew observed in discrete-decision paradigms. Both can be true simultaneously: higher male distortion per discrete act, higher female time-integrated exposure, no contradiction.
+
+It also supplies a **second independent reason** the literature cannot see the phenomenon, joining the public/private artifact above. Paradigms such as the private die-roll measure a discrete decision. An instrument designed for discrete acts cannot detect a continuous baseline state — this is a shape mismatch, not insufficient power.
+
+**Caveat, which costs the argument nothing.** Continuous-low and episodic-high may integrate to equal totals; whether aggregate quantity genuinely differs is unmeasured. But the institutional consequence turns on *distribution*, not integral: an episodic distortion presents as an event and can be investigated; a continuous one becomes the baseline and produces no incident to audit. At equal magnitude the continuous form is worse for legibility. This is why the §6.8A mechanisms operate on aggregate variance rather than case review.
+
 ### Assessment
 "Both sexes confabulate, in different registers" (compatible with Claims 1–2) remains well supported. The stronger reading — that the apparent male skew is measurement artifact — is now itself evidence-backed rather than speculative.
 
