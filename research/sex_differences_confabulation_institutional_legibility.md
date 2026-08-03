@@ -458,6 +458,26 @@ The defensible and sharper adjacent claim requires no malice at all: **sincere a
 
 ---
 
+## Two Unresolved Problems
+
+### The disparate-impact ratchet
+
+Composition change is partly a legal artifact rather than a preference or supply phenomenon. Disparate-impact doctrine (*Griggs v. Duke Power*, 1971; ratio-based proportionality tests) makes a facially neutral criterion actionable on outcome statistics alone — no intent, no identified victim — with the burden then shifting to the institution to prove business necessity. That defense is costly and uncertain, so institutions drop criteria rather than defend them.
+
+Critically, a criterion cannot be dropped selectively by sex without constituting explicit discrimination, so it is removed for **all** applicants. The predicted signature is general quality decline rather than group-specific decline, which is what `research/education.md` documents (top-decile share of teachers: 24% in 1971 → 11% in 2000).
+
+**Consequence for the design proposals in this note.** §6.8A recommends selection on directly measured traits, with any resulting disparity treated as a byproduct. That recommendation is *legally unavailable* to federally funded institutions where the trait produces a disparity: the regime makes the ratio, not the trait, the object of enforcement. Note the structural identity with pretextual proxy selection, running in the opposite direction — both sever selection criteria from what the criteria exist to measure. Any selection-based proposal in this note must be read against this constraint.
+
+### Enforcement capture
+
+Rule-application consistency requires an enforcer. Enforcers are drawn from the same population, selected by the same process, and subject to the same channel dynamics as those they oversee. Where the covert channel is dominant, the office charged with detecting unequal rule-application is staffed by people running the relational mode — and unlike financial audit, no external referent exists against which the enforcer's own judgment can be checked.
+
+This is *quis custodiet* in the form specific to self-blind failure: the enforcer cannot detect in others what is undetectable in themselves, and sincere confidence in one's own even-handedness is the phenotype under examination. Detection mechanisms assuming a disinterested enforcer relocate the problem rather than solving it.
+
+**Status: unsolved.** No mechanism in §6.8A currently states how its enforcement escapes capture by the dynamic it exists to catch. Any proposed mechanism must answer this explicitly.
+
+---
+
 ## Open Questions
 
 - Does the male skew in overconfidence/DK survive private, incentivized-accuracy elicitation? (Heatherington & Daubman implies it may not — this is directly testable and largely undone.)
