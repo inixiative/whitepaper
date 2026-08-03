@@ -215,6 +215,23 @@ A ~30-year lag between the composition shift and the cultural inflection is a we
 
 **Consequence for the causal claim.** On this reading the technology is proximate and the female-typical channel is what it amplified. The driver is **channel dominance, not headcount** — which predicts that male-majority institutions on the same platforms exhibit the same dynamics. They largely do. This is a testable discriminator and it favors the register argument (Claim 4) over the composition argument (Claim 5).
 
+### The Non-Monotonicity Constraint: Substrate vs. Trigger
+
+A medium-only account is incomplete, because the phenomenon predates the medium. The observed curve:
+
+- **1990–1995:** first wave — campus speech codes, canon wars, the original "political correctness" controversy. Two decades before social media.
+- **1995–2010:** substantial recession. Speech codes struck down in court; the position loses cultural force.
+- **2013–2020:** second wave, far exceeding the first in institutional penetration.
+
+Female institutional participation over this period increased **monotonically**. A monotonic cause cannot alone produce a non-monotonic effect. This constrains both candidate explanations:
+
+- **Pure-medium fails** — it cannot account for wave one, which precedes the technology by twenty years.
+- **Pure-composition fails** — it cannot account for the 1995–2010 recession, during which female participation continued rising.
+
+**Synthesis — substrate plus trigger.** The composition shift functions as a *substrate* raising baseline susceptibility to relational-mode enforcement; discrete *triggers* produce the spikes (plausibly external-threat removal and cohort arrival for wave one; social media saturation for wave two). This accounts for all three segments of the curve, which neither single-factor account does.
+
+This is the strongest available position for the composition claim: not driver, not negligible, but a **permissive condition** whose magnitude is measurable in principle — the substrate hypothesis predicts that spike amplitude should scale with composition at trigger onset, which is testable across institutions that feminized at different rates.
+
 ### The Medium Reconstructs the Environment
 
 The sharpest available formulation: **the medium does not merely amplify the female-typical channel, it reconstructs the environment that channel evolved for, and imposes it on all participants regardless of sex.**
@@ -290,6 +307,18 @@ The user's instinct is correct: a mock institution is the right instrument, beca
 - The result can come back **negative** (measured effect sizes too small to matter at scale), which is what makes the exercise real science rather than confirmation.
 
 This is squarely in the Foundry / agent-session multi-agent wheelhouse and is a concrete, runnable next step.
+
+---
+
+## Two Adjacent Claims Assessed
+
+**"Educators have turned female, and this drove the quality collapse."** The demographic fact is verified in `research/education.md`: 89% female in elementary education, and §2.11 documents the quality decline. But that file also establishes the mechanism, and it is a **selection effect, not a sex effect**: teaching drew high-ability women in the 1950s–60s *because other professions were closed to them*, and lost them when those professions opened (share of female teachers from the top 10% of test scorers: **24% in 1971 → 11% in 2000**). Teaching was already majority-female before the decline. What changed is *which* women entered, driven by the alternative-opportunity structure. The quality collapse is real and the feminization is real; the causal link between them is not what the surface correlation suggests.
+
+**"Activist identity among academics is female-coded."** The activist-scholar stance has a predominantly male intellectual lineage: Marx ("the point is to change it," 1845), the Frankfurt School, Freire, Chomsky, Said, Marcuse, Sartre. "Scholarship as activism" is among the more male-coded intellectual movements of the modern era, and its institutional arrival in the academy long predates the composition shift.
+
+What changed is the **enforcement register**, not the activist content. Wave-one activism operated through open ideological combat — polemic, manifesto, public debate, factional conflict. Contemporary enforcement operates through harm-framing, reputational sanction, and coalitional exclusion. This is precisely the covert/relational channel of Claim 1, and it is the defensible form of the observation.
+
+Similarly, "boundary-blurring for personal advantage" as stated describes patronage, nepotism, and academic empire-building — historically male-coded. The Benenson-specific and defensible narrower claim is **the presentation of competition as care**.
 
 ---
 
