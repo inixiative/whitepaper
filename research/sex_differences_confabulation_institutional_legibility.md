@@ -173,11 +173,15 @@ Six legs, assessed above, converge:
 
 > The covert-competitive channel is real, is specifically corrosive to institutional self-legibility, is systematically under-measured by the instruments social science uses, and is currently operating at unprecedented scale inside institutions whose function depends on legibility.
 
-With the umwelt reframe and the timing analysis, this sharpens further:
+With the umwelt reframe, the timing analysis, and the medium formulation, this reaches its strongest form:
 
-> Institutions were instrumented to detect male-typical failure modes. A technological amplifier (2012–) made the female-typical relational channel institutionally dominant, and that channel trips none of the existing sensors. The resulting coverage gap — not any deficiency of perception on anyone's part — is what degrades institutional self-legibility.
+> Institutions were instrumented to detect male-typical failure modes — overt power seizure, visible corruption, open factional conflict. Beginning ~2012 a medium reconstructed the dense, inescapable, reputation-governed environment that female-typical relational strategy is calibrated for, and imposed it on all participants regardless of sex. The relational channel became institutionally dominant and trips none of the existing sensors. The resulting coverage gap — not any deficiency of perception on anyone's part — is what degrades institutional self-legibility.
 
-This is arguable now, in the diagnosis, with stated uncertainty. It is the form the thesis should take. Note that it requires neither a rate claim nor a ranking of umwelts, and it generates a design requirement (re-instrument for the covert channel) rather than a demographic prescription.
+This is arguable now, in the diagnosis, with stated uncertainty. It is the form the thesis should take.
+
+**What it does not require:** a rate claim (Claim 3), a ranking of umwelts, a competence claim, or a demographic prescription. **What it survives that weaker forms do not:** the parsimony test (the sex term is not load-bearing — channel geometry is), the timing test (months, not generations), the composition-tracking test (male-majority institutions showing the same dynamics is entailed rather than anomalous), and the pre-internet check (institutions with the same geometry showed the same repertoire before the technology existed).
+
+**What it generates:** a design requirement — re-instrument for the covert channel, and attack the channel geometry itself (private/public boundary, exit, reputation not as sole currency, anonymity in judgment).
 
 **What it does not require:** a global rate claim ("women confabulate more in total"). None of legs 1–6 entail it; all six are equally consistent with "the covert channel is female-typical and under-measured" without any rate comparison. The rate claim is the one leg carrying direct counter-pressure (Claim 3's residual private-incentive findings) and the one an adversarial reader will attack first. **Excluding it strengthens the argument rather than weakening it** — the institutional conclusion follows from register and instrument bias alone.
 
@@ -210,6 +214,24 @@ A ~30-year lag between the composition shift and the cultural inflection is a we
 **But the two are not competitors — the technology explanation supplies the mechanism the hypothesis needs.** Haidt & Lukianoff's account is that social media differentially amplified *relational* aggression (reputation destruction, social exclusion, coalitional attack) while doing comparatively little for physical aggression — which is why the harms fell disproportionately on girls. Relational aggression is the female-typical channel (Claim 1, Crick & Grotpeter). It follows that public cancellation is **relational aggression operating at institutional scale with a technological amplifier**, and this explains the *shape* of the shift — harm-framing, reputational sanction, coalitional exclusion — not merely its timing.
 
 **Consequence for the causal claim.** On this reading the technology is proximate and the female-typical channel is what it amplified. The driver is **channel dominance, not headcount** — which predicts that male-majority institutions on the same platforms exhibit the same dynamics. They largely do. This is a testable discriminator and it favors the register argument (Claim 4) over the composition argument (Claim 5).
+
+### The Medium Reconstructs the Environment
+
+The sharpest available formulation: **the medium does not merely amplify the female-typical channel, it reconstructs the environment that channel evolved for, and imposes it on all participants regardless of sex.**
+
+Social media's structural features — permanent audience, abolition of the private/public boundary, reputation as sole currency, exclusion as sole sanction, no exit, continuously visible coalitional alignment, zero-sum updated status — are structurally identical to the dense, inescapable, reputation-governed small group that female-typical competitive strategy is calibrated for (Claim 1, Benenson). In that environment the winning repertoire is relational: reputation management, coalition maintenance, exclusion, harm-framing. Participants adopt it irrespective of sex; those already fluent in it hold an initial advantage.
+
+**Supporting mechanism from Claim 3's evidence.** Heatherington & Daubman found female modest self-presentation appears under *public* conditions and disappears under *private* ones. Social media abolishes private conditions. The medium therefore predicts that the entire population is pushed into permanent self-presentation mode — the observed outcome. This converts an instrument-bias finding into a positive mechanism for population-wide adoption.
+
+**Four things this formulation resolves:**
+1. **The male-majority objection becomes a prediction.** That male-dominated institutions on the same platforms show identical dynamics is entailed, not anomalous.
+2. **The timing problem dissolves.** Demographic replacement operates over generations (the fatal ~30-year lag); channel adoption operates over months. Only a medium can account for 2012→2015.
+3. **Pre-internet confirmation exists.** Institutions that already possessed the medium's geometry — dense, inescapable, reputation-as-currency, no exit — exhibited the identical repertoire long before social media. Academic departments are canonical (cf. Sayre's law); small closed religious communities likewise. The historical variable is channel geometry, not sex composition.
+4. **The design conclusion becomes concrete** (see below).
+
+**Status of the composition claim under this formulation.** Sex composition drops from *driver* to *second-order accelerant*: native fluency in the repertoire plausibly speeds its adoption, but it is neither necessary nor sufficient. This is a materially different thesis from "female institutional participation degrades institutions," and it is the stronger one — it survives the parsimony test, the timing test, and the composition-tracking test that the original does not.
+
+**Design implication (Doc 3 material).** If channel geometry is the driver, counter-design targets the geometry directly and is sex-neutral in application: restore a private/public boundary (private deliberation preceding public position-taking), provide exit, break reputation-as-sole-currency, permit anonymity in judgment roles. Each is a mechanism, each is testable, and each attacks the identified failure without any demographic prescription.
 
 ---
 
