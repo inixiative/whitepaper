@@ -173,11 +173,43 @@ Six legs, assessed above, converge:
 
 > The covert-competitive channel is real, is specifically corrosive to institutional self-legibility, is systematically under-measured by the instruments social science uses, and is currently operating at unprecedented scale inside institutions whose function depends on legibility.
 
-This is arguable now, in the diagnosis, with stated uncertainty. It is the form the thesis should take.
+With the umwelt reframe and the timing analysis, this sharpens further:
+
+> Institutions were instrumented to detect male-typical failure modes. A technological amplifier (2012–) made the female-typical relational channel institutionally dominant, and that channel trips none of the existing sensors. The resulting coverage gap — not any deficiency of perception on anyone's part — is what degrades institutional self-legibility.
+
+This is arguable now, in the diagnosis, with stated uncertainty. It is the form the thesis should take. Note that it requires neither a rate claim nor a ranking of umwelts, and it generates a design requirement (re-instrument for the covert channel) rather than a demographic prescription.
 
 **What it does not require:** a global rate claim ("women confabulate more in total"). None of legs 1–6 entail it; all six are equally consistent with "the covert channel is female-typical and under-measured" without any rate comparison. The rate claim is the one leg carrying direct counter-pressure (Claim 3's residual private-incentive findings) and the one an adversarial reader will attack first. **Excluding it strengthens the argument rather than weakening it** — the institutional conclusion follows from register and instrument bias alone.
 
 **What remains genuinely open** is magnitude: whether this channel is a decisive contributor to contemporary institutional decline or a marginal one. That is a measurement question, and the protocols below are how to answer it.
+
+---
+
+## Reframe: Umwelt Rather Than Confabulation
+
+"Confabulation" is the wrong primitive for this hypothesis and should be replaced by **umwelt** (Doc 2, §105–113). Confabulation implies a narrative concealing something from a self that could in principle perceive it. Umwelt states that the structure is not present in the perceptual world at all — von Uexküll's tick is not deceiving itself about light. Doc 2's own formulation disposes of the competence objection: *"This isn't stupidity or malice — it's the structural fact that perception is bounded while reality is not."* Bounded sensors are not a capacity deficit, and the hypothesis is not a claim about fitness for institutional roles.
+
+**Constraint from the same source.** Doc 2 §109: *"Different agents have incommensurable umwelts."* Incommensurability is symmetric. The framework yields *different* perceptual bounds, not *ranked* ones; if the female-typical umwelt omits some structure, the male-typical omits another, and Doc 2 supplies no ordering. The hypothesis cannot borrow umwelt's authority while discarding its symmetry.
+
+**What this yields instead, which is stronger:** institutions were instrumented for the umwelt of their builders. Sensors, escalation paths, and audit mechanisms were designed to detect male-typical failure modes — overt power seizure, visible corruption, open factional conflict. Changing composition without re-instrumenting produces a **coverage gap**: new failure modes trip no sensor, not through concealment but because nothing was built to register them. This is a Doc 2-native claim, requires no umwelt to be deficient, and generates a design requirement (re-instrumentation) rather than a demographic one.
+
+**Distributional, not categorical.** The hypothesis is explicitly about population averages with substantial overlap. This has a direct consequence for what follows from it: if the relevant perceptual capacity is distributed rather than absent, **selection within a population recovers it**. The implied institutional remedy is therefore a selection criterion, never an exclusion criterion — and selection criteria are testable, auditable, and consistent with the whitepaper's design orientation.
+
+---
+
+## Timing: The Great Awokening and the Composition Shift
+
+The hypothesis draws support from the coincidence of institutional feminization with a cultural shift toward harm-concern, reputational sanction, and speech restriction. The correlation is real; the dating requires care.
+
+- **Female majority of US college students:** ~1980. Female majority in law and medical school cohorts: ~2016 and ~2019 respectively.
+- **Cultural inflection ("Great Awokening"):** ~2013–2015, per media term-frequency analysis (Goldberg) and cohort analysis (Haidt & Lukianoff).
+- **Smartphone/social-media saturation:** 2012–2013.
+
+A ~30-year lag between the composition shift and the cultural inflection is a weak causal signature. The technology explanation fits the dates exactly.
+
+**But the two are not competitors — the technology explanation supplies the mechanism the hypothesis needs.** Haidt & Lukianoff's account is that social media differentially amplified *relational* aggression (reputation destruction, social exclusion, coalitional attack) while doing comparatively little for physical aggression — which is why the harms fell disproportionately on girls. Relational aggression is the female-typical channel (Claim 1, Crick & Grotpeter). It follows that public cancellation is **relational aggression operating at institutional scale with a technological amplifier**, and this explains the *shape* of the shift — harm-framing, reputational sanction, coalitional exclusion — not merely its timing.
+
+**Consequence for the causal claim.** On this reading the technology is proximate and the female-typical channel is what it amplified. The driver is **channel dominance, not headcount** — which predicts that male-majority institutions on the same platforms exhibit the same dynamics. They largely do. This is a testable discriminator and it favors the register argument (Claim 4) over the composition argument (Claim 5).
 
 ---
 
