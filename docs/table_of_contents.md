@@ -119,7 +119,8 @@ Any shorter treatment would either oversimplify the problem or fail to establish
 - 2.10 Case Studies: The Vulnerability to Exhaustion and Capture
 - 2.11 The Eternal Return of Rent-Seeking
 - 2.12 The Accountability Vacuum (Nobody to Jail)
-- 2.12A The Illegible Channel: Relationship-Contingent Rule Application (Coverage gap, channel geometry, frame immunity)
+- 2.12A Shifting Equilibria: The Two Stable States
+- 2.12B The Illegible Channel: Relationship-Contingent Rule Application (Coverage gap, channel geometry, frame immunity)
 - 2.13 Third-Worldification: The Stable Degraded Equilibrium
 - 2.14 The Metacrisis: The Complexity Gap and the 25% Path
 - 2.15 The Forgetting Loop and Memory-Preserving Architecture
@@ -193,7 +194,7 @@ Any shorter treatment would either oversimplify the problem or fail to establish
 - 6.7 Memory and Truth Mechanisms: Implementing Tracking Without Censorship
 - 6.7A Leadership Accountability Mechanisms (Implementing Section 4.4)
 - 6.8 Continuous Alignment Mechanism
-- 6.8A Rule-Application Audit and Channel Geometry (Sensors for §2.12A; counter-design against covert-channel dominance)
+- 6.8A Rule-Application Audit and Channel Geometry (Sensors for §2.12B; counter-design against covert-channel dominance)
 - 6.9 Delegation & Agentic Participation
 - 6.10 Jurisdiction & Overlap Resolution
 - 6.11 Initiative Creation

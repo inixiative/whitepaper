@@ -1556,7 +1556,7 @@ They coexist. A leader might maintain their battery through modest continuous su
 
 ### 6.8A Rule-Application Audit and Channel Geometry
 
-**Specification connection:** This section implements sensors for the failure mode diagnosed in §2.12A—relationship-contingent rule application—and counter-design against the channel geometry that makes covert competitive strategy dominant. It serves §4.4 Sensemaking Infrastructure and §4.2 Memory and Truth: an institution that cannot perceive its own rule-application cannot correct it.
+**Specification connection:** This section implements sensors for the failure mode diagnosed in §2.12B—relationship-contingent rule application—and counter-design against the channel geometry that makes covert competitive strategy dominant. It serves §4.4 Sensemaking Infrastructure and §4.2 Memory and Truth: an institution that cannot perceive its own rule-application cannot correct it.
 
 **Sensors before gates.** The diagnosed failure is a *coverage gap*: existing instruments assume defection is strategic and transactional, so a defection that is sincerely invisible to its author and moves no resource trips nothing. Gatekeeping is what an institution reaches for when it cannot detect a behavior. Build the detector and the behavior becomes legible, correctable, and—critically—*measurable*, which converts a contested empirical question into an answerable one. Sensors are self-evidencing where gates are not.
 
