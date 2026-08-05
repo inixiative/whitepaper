@@ -478,6 +478,29 @@ This is *quis custodiet* in the form specific to self-blind failure: the enforce
 
 ---
 
+## Testable Hypothesis: What Predicts Negotiated Versus Ruptured Crisis Resolution
+
+Turchin's crisis-outcome data places internal (negotiated) resolution at roughly a quarter of cases. The candidate discriminating variable is **experiential proximity of the power-holding cohort to catastrophic failure**, not position within a generational cycle.
+
+| Case | Outcome | Elite experience at crisis |
+|---|---|---|
+| England 1688 | Negotiated | Civil war and regicide within living memory |
+| Meiji Japan 1868 | Negotiated | Had just observed China dismembered (Opium Wars) |
+| United States 1933 | Negotiated | Great War, 1917, contemporary European fascism |
+| Bourbon France 1789 | Ruptured | Last rupture the Fronde, ~140 years prior |
+| Romanov Russia 1917 | Ruptured | 1905 — **suppressed successfully** |
+| Qing China 1911 | Ruptured | Taiping — **survived without structural reform** |
+
+**The third category is the non-obvious result.** Romanov and Qing both had recent severe upheaval and both survived it without reform, teaching that suppression works. Crisis experience thus produced *false confidence* rather than caution, leaving them worse positioned than the Bourbons' simple ignorance.
+
+**Prediction:** an elite that has recently suppressed a rising is *more* likely to rupture than one that has faced none. This is counterintuitive, discriminating, and testable against cases outside this set.
+
+**Mechanism link:** identical to vehicle-perception — believing an existential stake requires having seen the downside — and subject to the same generational decay (Forgetting Loop, §2.15). The operative variable is proximity to *losing*, not to conflict.
+
+**Methodological status:** six cases with the explanatory variable selected after outcomes were known. Post-hoc fitting; a hypothesis for testing against a wider sample, not a finding. Generational-cycle frameworks (notably Strauss–Howe) are separately contested as unfalsifiable and poorly-travelling outside Anglo-American cases; this variable does not require that scheme.
+
+---
+
 ## Open Questions
 
 - Does the male skew in overconfidence/DK survive private, incentivized-accuracy elicitation? (Heatherington & Daubman implies it may not — this is directly testable and largely undone.)
