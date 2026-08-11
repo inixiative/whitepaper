@@ -1554,6 +1554,54 @@ They coexist. A leader might maintain their battery through modest continuous su
 
 **Connection to policy dividends:** Gates handle electoral incentives; dividends handle financial incentives. Together they create alignment across both dimensions — a leader can't satisfy one without the other.
 
+### 6.8A Rule-Application Audit and Channel Geometry
+
+**Specification connection:** This section implements sensors for the failure mode diagnosed in §2.12B—relationship-contingent rule application—and counter-design against the channel geometry that makes covert competitive strategy dominant. It serves §4.4 Sensemaking Infrastructure and §4.2 Memory and Truth: an institution that cannot perceive its own rule-application cannot correct it.
+
+**Sensors before gates.** The diagnosed failure is a *coverage gap*: existing instruments assume defection is strategic and transactional, so a defection that is sincerely invisible to its author and moves no resource trips nothing. Gatekeeping is what an institution reaches for when it cannot detect a behavior. Build the detector and the behavior becomes legible, correctable, and—critically—*measurable*, which converts a contested empirical question into an answerable one. Sensors are self-evidencing where gates are not.
+
+#### 6.8A.1 Rule-Application Audit by Relationship Proximity
+
+**The problem:** Unequal rule-application is undetectable by every instrument institutions currently deploy. Financial audit finds no transaction. Self-report finds nothing, because the actor does not perceive the variance. Each individual decision is defensible on its own terms.
+
+**The mechanism:** Log every rule application as a structured record—rule invoked, applier, subject, outcome, and *relationship distance* between applier and subject (shared team, prior collaboration, coalition membership, social graph proximity). Systematic leniency or severity toward the near appears as measurable variance across the corpus.
+
+**Why it works where other instruments fail:** It never asks anyone to report on themselves. This matters specifically because self-report is the invalid channel here—experimental work on self-presentation shows stated self-assessment tracks the presence of an audience rather than underlying belief, and self-blind variance is by definition unavailable to introspection. The audit reads the pattern the actor cannot see.
+
+**Design requirements:**
+- Relationship distance computed from records that predate the decision, never self-declared
+- Variance evaluated against a base rate for the rule, not against an absolute standard
+- Findings surfaced as institutional metrics, not individual accusations—the mechanism detects drift, not guilt
+- Published aggregate variance, so the institution's legibility is itself legible
+
+#### 6.8A.2 Decision Reconstruction
+
+Every judgment carries written, attributable rationale sufficient for a third party to reconstruct the reasoning. Decisions whose reasoning cannot be reconstructed from the record are the operational definition of institutional illegibility—and become countable, which is the first step to bounding them.
+
+#### 6.8A.3 Time-to-Detect as a Standing Metric
+
+Track the interval between rule violation and institutional detection, by violation type. A rising interval in any category identifies a sensor going blind before the consequences accumulate.
+
+#### 6.8A.4 Channel Geometry Counter-Design
+
+The relational competitive channel becomes dominant under a specific environmental geometry: permanent audience, no private/public boundary, reputation as sole currency, exclusion as sole sanction, no exit. Each is separately addressable.
+
+- **Private deliberation preceding public position-taking.** Restores the boundary whose abolition drives permanent self-presentation. Participants form and record positions before observing others'.
+- **Anonymous initial judgment, revealed after commitment.** Breaks coalitional signaling before positions lock.
+- **Rotation of judgment roles.** Prevents accumulation of reputation capital, the currency the relational strategy runs on.
+- **Assigned adversarial review.** Makes dissent a role rather than a reputational risk borne by a volunteer—the single cheapest intervention, since it costs only an assignment.
+- **Exit rights.** No-exit conditions are what make relational strategy dominant; restoring exit alters the payoff structure directly.
+
+#### 6.8A.5 Selection by Direct Trait Measurement
+
+Where a gate is genuinely required, select on the trait of interest:
+
+- Rule-application consistency under conflicting incentive (structured scenarios where the rule favors versus disfavors an ally)
+- On-record position-taking with binding commitment
+- Documented instances of position change against self-interest
+
+**On proxy selection.** Screens chosen *because* they produce a demographic disparity are pretextual regardless of facial neutrality, and are excluded. The exclusion costs nothing: if a trait distribution genuinely differs, direct measurement of the trait produces the corresponding disparity automatically and with less measurement loss. Proxy selection adds value only in the case where the direct measure would *fail* to produce the effect—which is precisely the case in which the hypothesis motivating it is false. The honest instrument is also the more effective one.
+
 ### 6.9 Delegation & Agentic Participation
 
 **The cognitive load problem:** If citizens must vote on every proposal, they'll either:
