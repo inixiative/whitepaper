@@ -996,7 +996,7 @@ Every governance system has failure modes. Acknowledging them is not weakness—
 - Quadratic mechanisms make coordination expensive
 - Reputation caps and decay prevent permanent advantage
 - Randomized steward selection dilutes coordinated control
-- Multiple communities with exit rights (Hirschman: if you don't like it, leave)
+- Multiple communities with priced exit (see Doc 3, "Exit: What It Costs and Who Pays"). Hirschman's actual finding cuts against the naive version: exit and voice trade off, and the members most capable of effective voice leave first, so costless exit degrades an institution rather than disciplining it
 - Complexity budget limits (Tainter): system stays simple enough for ordinary people to understand
 
 **Residual risk:** High. This is the primary failure mode of all governance systems. Eternal vigilance required.
@@ -1190,7 +1190,7 @@ The best we can do is:
 1. Design structural resistance into the system
 2. Enable rapid iteration when problems emerge
 3. Maintain intellectual humility about what we can't predict
-4. Preserve exit rights (Hirschman: if you can't improve it, leave it)
+4. Preserve exit rights, priced against accumulated claim rather than free — Hirschman's point is that cheap exit is *why* an institution stops being improvable, not the remedy for it
 
 ## 10. Conclusion
 
