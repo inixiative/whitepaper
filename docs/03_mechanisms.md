@@ -247,6 +247,14 @@ Progression: Pure cloud → Popup cities → Coworking/coliving → Real estate 
 
 **Relationship to Inixiative:** Balaji provides the vision (voluntary association, governance pluralism, cloud-first coordination, exit rights). Inixiative provides the mechanism layer—elite thinning, lifecycle management, voting mechanisms, anti-capture design, reputation systems, subsidiarity—that makes network states durable rather than experiments that replicate existing pathologies with blockchain aesthetics.
 
+**And the pathology needs naming, because it is the specific one this framework diagnoses elsewhere.** Document 2 §3.1b identifies elite exit as the mechanism that releases the governor on internal competition: an actor with credible exit remains in the within-group contest for rank while leaving the between-group term, at which point the society beneath it stops being its group and becomes its resource base. A governance form whose founding premise is costless exit does not merely tolerate that condition. **It institutionalizes it, and then recruits for it.**
+
+The recruitment point is the sharp one. A network state selects its founding population by willingness and ability to leave an existing polity—which is a filter for precisely those who *have* somewhere else to go. Its members are, by construction, drawn from the mobile. Built without correction, a network state is the non-located elite constituting itself deliberately rather than emerging by accident, with better tooling and an explicit ideology.
+
+The vision is nonetheless answering something real, and dismissing it would be a mistake of the same kind. Voice in a polity of three hundred million is functionally zero for almost everyone in it; states genuinely are unaccountable to their members at that scale; and exit is the only leverage most people have ever actually possessed. The response is not to reject exit-based governance but to supply what it is missing.
+
+Which is the two requirements developed below: exit priced against accumulated claim rather than free, so that departure settles what was taken from the collective rather than merely relocating it; and sustained investment in the voice channel, so that reform stays cheaper than departure for the members capable of both. Absent those, the mechanism layer above does not make a network state durable. It makes a well-instrumented vehicle for the failure mode Document 1 spends its length documenting.
+
 #### Exit: What It Costs and Who Pays
 
 Exit is the most contested variable in this document, and the honest position is that both directions fail.
