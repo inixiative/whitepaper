@@ -2752,9 +2752,9 @@ Traditional voting systems suffer from catastrophic information loss. A vote cap
 
 ### 4.15 Protect Individual Sovereignty Through Rights Subsidiarity
 
-Just as Subsidiarity establishes that problems should be solved at the lowest capable level, **powers and rights should default to individuals unless there is clear, ongoing justification for collective control.** The principle of subsidiarity applies not only to governance scale (local vs. regional vs. national) but to the fundamental allocation of authority between individuals and collectives.
+Just as Subsidiarity establishes that problems should be solved at the lowest capable level, **authority should sit at the smallest scale that can actually hold it — and the operative word is *hold*. §3.1b argues that the individual-versus-collective ratio is the wrong variable, because an individual facing a state alone holds nothing regardless of what the ratio says. What protects a person is that other organised bodies exist with the means and the standing interest to make the larger entity answer. Rights subsidiarity is therefore not a default toward the individual; it is a requirement that authority stay distributed across enough independent holders that no one of them becomes absolute.** The principle of subsidiarity applies not only to governance scale (local vs. regional vs. national) but to the fundamental allocation of authority between individuals and collectives.
 
-**The default assumption must be individual sovereignty:** In the absence of explicit, justified delegation, individuals retain authority over their own lives, property, associations, and choices. Collective authority—whether through law, custom, or institutional power—requires continuous justification, not presumption.
+**Delegation is explicit, bounded, and revocable:** In the absence of explicit, justified delegation, individuals retain authority over their own lives, property, associations, and choices — not because the individual is the only real unit, which §3.1b rejects, but because undelegated authority accumulates silently and delegation that was never stated cannot be withdrawn. Collective authority—whether through law, custom, or institutional power—requires continuous justification, not presumption.
 
 **Why this matters:** History shows that collective power, once granted, rarely returns voluntarily to individuals. Governments expand authority during emergencies (war, pandemic, economic crisis) and retain it permanently. Regulatory agencies accumulate powers that were meant to be temporary. The ratchet works in one direction: toward centralization and collective control, away from individual autonomy. Without structural mechanisms enforcing rights subsidiarity, the Olsonian dynamic applies to rights themselves—powers migrate upward and never come back down.
 
@@ -2782,7 +2782,7 @@ This worked reasonably well when:
 - **Technological enforcement:** Surveillance capitalism and state monitoring make non-compliance nearly impossible
 - **Exit costs:** Physical relocation is expensive and difficult; no remaining frontier
 
-The constitutional framework still matters, but it's insufficient without additional structural mechanisms.
+The constitutional framework still matters, but it is insufficient, and §3.1b supplies the reason the list above only gestures at. **A right does not enforce itself.** It is a promise that somebody will bear a cost on the holder's behalf when it is violated — investigate, litigate, refuse, resist — which requires that some body have both the capacity to bear that cost and a standing interest in bearing it. Historically that body was never the individual: it was a church with its own courts, a chartered town with its own militia, a guild controlling entry to a trade, a union able to stop work. Enumerating a right transfers it onto paper; it does not create the party that will fight for it. So a constitutional order that dissolved its intermediate bodies while strengthening its enumerations has been moving the protection from something with means to something without them, and the erosions listed above are what that looks like from inside. Additional structural mechanisms are needed because the enforcing parties have to be rebuilt, not because the documents were badly drafted.
 
 **Rights subsidiarity as active protection:**
 
@@ -2845,6 +2845,35 @@ There's genuine tension between collective security (which may require coordinat
 **The shift in equilibrium:** When rights subsidiarity is enforced structurally (not just declared rhetorically), the default equilibrium shifts from "collective power expands until constrained" to "individual sovereignty unless explicitly justified." Collective authority becomes something continuously earned through demonstrated necessity and ongoing consent, not something presumed and permanent. This inverts the Olsonian ratchet: instead of powers migrating inexorably toward central control, they must be periodically rejustified or they revert to individuals.
 
 **Implementation challenges:** Document 3 will detail mechanisms for enforcement, conflict resolution when rights claims conflict, and how communities handle genuinely collective challenges (public health, defense, infrastructure) while respecting individual sovereignty. The goal is not anarchism (some collective functions are necessary) but **accountable, constrained, reversible collective authority** that defaults to individual freedom rather than presuming collective control.
+
+### 4.15A Maintain Plural Power Centres
+
+§3.1b derives three constraints on the distribution of authority and states that the governance metric follows from them. This section is where they become a requirement, because a principle nothing operationalises is decoration.
+
+**The metric is not the individual-to-collective ratio. It is the count of independent centres holding both capacity and standing interest, and whether any is positioned to become absolute.** A society with one overwhelming centre and a population of atomised individuals scores badly on this metric even if every individual right is formally enumerated, because there is nobody to enforce the enumeration. A society with many rival bodies scores well even if it looks less individualist on paper, because a person in that society has somewhere to stand.
+
+**Constraint 1 — Plural, not merely multiple.** A centre counts as independent only if it has independent means: its own resources, its own membership, its own standing to act. Bodies that depend on a single patron for funding, licensing, or permission to exist are branches of that patron and count as one.
+
+*Requirements:*
+- Communities and associations must be able to hold assets, admit and remove members, and act in their own name without per-instance permission from the platform or from any single authority
+- No mechanism may make an association's continued existence contingent on the approval of a body it might need to oppose
+- Funding concentration is a measurable risk: track what share of an association's resources comes from any single source, and treat high concentration as a loss of independence rather than a matter of taste
+
+**Constraint 2 — Contestable.** Plurality that cannot be entered hardens into caste. This is the real abuse the anti-discrimination cases in §3.1b were aimed at, and the reason a blanket rule against exclusion overcorrects rather than simply errs: exclusion is also what gives an association a boundary, and a group that cannot draw one is not a group.
+
+*Requirements:*
+- Formation of new associations must stay cheap and unblockable by incumbents
+- Existing bodies may set membership terms, but may not raise the cost of *forming a rival* — the distinction that separates a boundary from a cartel
+- Where an association controls access to a livelihood rather than to a social good, entry terms face a higher bar, because exclusion there enforces caste rather than constituting a collective
+
+**Constraint 3 — Capped at the boundary.** Rival centres that cannot suspend their contest against an external threat produce paralysis rather than liberty. This is Fukuyama's vetocracy, and it is the governor from §3.1b applied one level up: internal competition permitted, capped short of damaging the whole's capacity to prevail.
+
+*Requirements:*
+- Mechanisms must exist by which a contested decision resolves within a bounded time rather than deadlocking indefinitely
+- Veto power must be scarce, time-limited, and costly to exercise — a body that can block without bearing a cost will block
+- The cap must be structural rather than appeals to restraint, since restraint is exactly what fails under competitive pressure
+
+**Why this belongs in the requirements and not the diagnosis:** every mechanism in Document 3 that creates, funds, licenses, or dissolves a collective body changes this metric, usually without anyone noticing. A platform that makes association easy but keeps every association dependent on itself has produced multiplicity without plurality, which is the monopoly case wearing a federated interface. The three constraints are the test each mechanism has to pass.
 
 ### 4.16 Conscious Tuning of Societal Balance
 
