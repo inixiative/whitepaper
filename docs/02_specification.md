@@ -756,7 +756,55 @@ The tractable end of this is observable and does not require settling anything a
 
 That much is documentable, and it matters practically. Whether it means the larger entity *experiences* anything is a much stronger claim, and this document does not need it.
 
-**One bound, because the abuse is obvious.** Nothing here licenses trading individuals off against the group's interest. The cell argument runs both directions: a body of damaged cells is a damaged body, and an entity that harms its members to assert its own standing is destroying the substrate it is made of. If the larger entity is real, then its members' condition is not separate from its own — which is a stronger argument for treating people well than the individualist one, not a weaker one, because it removes the option of the group prospering while its people do not.
+#### The Part That Cannot Be Solved, Only Managed
+
+Start with the obvious abuse, because the argument above is one step away from it.
+
+If the larger entity is real, does that license sacrificing people to it? Every regime that ever did so said something close to what this section has been saying, and the objection has to be answered rather than waved past.
+
+It does not license it, and the cell argument is the reason. Run it in the direction people usually skip: a body made of starved, damaged, suppressed cells is a weak body. It has no strength to draw on. Cellular health is not a concession the organism grants its parts — it is the organism's own requirement, and an entity that injures its members to demonstrate authority over them is consuming the thing it is made of. If the group is real, its members' condition is *part of* its condition rather than a competing interest, which makes this a stronger reason to treat people well than the individualist one, not a weaker one.
+
+But now be honest about what the same argument does *not* give you.
+
+It does not give you "the group may never cost a member anything." Bodies impose costs on cells constantly. Cells are told to die, and do, and this is not pathology — it is how a body maintains itself. The document already draws this distinction elsewhere: the difference between apoptosis and murder is not whether a cost was imposed but whether the imposition serves the whole or merely a part of it.
+
+So the line does not sit at cost. It sits at **systematic degradation of the substrate** — the difference between an organism that spends its cells and one that is eating them.
+
+Which brings out the thing this section has been circling, and it is uncomfortable in both directions.
+
+**A society has to be able to take some action to maintain its own structural integrity.** Not unlimited action — that is the tyranny everyone can already see. But not zero action either, because a society that can take no action to maintain the conditions of its own continuation does not continue. There is no version of this where the permissible set is empty and a civilization still exists in fifty years.
+
+The concrete case is the one nobody wants to state plainly.
+
+**You cannot give away your entire middle class on principle.** Latin America has run this experiment repeatedly and the results are in. Roughly seven and a half million people have left Venezuela since 2014 — one of the largest displacements in the world, and heavily weighted toward doctors, engineers, technicians, and the people who ran things. Ecuador emptied out after 1999. Argentina has done it in waves. In every case the departures were not a random slice of the population. They were the specific people the society had spent the most on and depended on most, and losing them did not reduce national capacity proportionally — it removed the layer that made the rest function.
+
+And here is the half that must not be dropped, because dropping it is how this argument turns into an exit ban: **they were not wrong to leave.** The conditions for a decent life were not being provided. Nobody owed it to a collapsing state to stay and be poor in it. Anyone who reads the emigration as betrayal has already arrived at the reasoning every trapping regime uses.
+
+So both failure modes were running at once, which is the actual situation rather than a paradox. The society had no legitimate means of holding the people it most needed, *and* it was not giving them a reason to stay. Fix only the first and you get a prison. Fix only the second and you have described a solution the state was, by then, incapable of executing. Neither half explains the outcome alone.
+
+**The same structure shows up in the family, with larger stakes.**
+
+Authority and function were steadily transferred from the household to the state and the market — education, care of the old, care of the young, economic security, and much of the authority parents once held over children. Each transfer was defensible on its own terms, and several were plainly good: children are not property, women are not dependents, and nobody should be trapped in a household. The individual-rights case for each step was real.
+
+But the family was the unit of reproduction, and nobody priced that when moving the functions out of it. Children had been old-age security; pensions replaced them. The household had been a production unit; the labour market replaced it. What was left of the family was the affective part — the part that is optional, expensive, and competes with everything else a person might do.
+
+Fertility is now below replacement in every developed country and in most developing ones. South Korea is under 0.8. Italy and Japan are near 1.2. The United States is around 1.6. The causes are many and this document does not claim a single one. But the shape is the same as everything else in this section: **a function was being performed by an intermediate body, the body was dissolved or hollowed for reasons that were individually good, and the function stopped without appearing on anyone's ledger — because the ledger only had individuals on it.**
+
+**Why no principled answer works.**
+
+Each ideological position resolves the tension by picking one failure mode and refusing to see the other.
+
+The individualist answer says the society may take no action to hold anyone, and the only permissible response to departure is to become somewhere people want to be. That is correct as far as it goes, and it is silent on what a society does when it has already degraded past the point of being able to execute the fix. It prescribes health to the sick.
+
+The collectivist answer says the society may act to preserve itself, and treats departure as defection. That is also correct as far as it goes, and it has no stopping condition. Every state that adopted it arrived at the same place, and the reasoning was never the tell — the reasoning was always this reasoning.
+
+Both are right about their own failure mode and blind to the other one, which is why the argument has run for two centuries without moving.
+
+**So treat it as unsolved, and treat it as permanently unsolved.** This is not a puzzle with an answer that has not been found yet. It is a tension between two live failure modes with no stable point, which means it requires continuous management rather than a correct setting — the same structure as the governor described earlier in this section, running one level up. A governor is not a solution. It is a thing that has to keep working.
+
+What that changes in practice is the question being asked. Not *is this particular action permissible in principle*, which is how the argument is usually conducted and which reliably produces a series of individually justified reforms with an uncounted cumulative cost. Instead: **what is the total set of actions still available to this society, and is what remains sufficient for it to maintain and reproduce itself?**
+
+That question has been asked about almost nothing over the last two centuries. Each dissolution was argued on its own merits, won on its own merits, and the running total was never taken.
 
 ### 3.1c The Peacock Feather Problem: Costly Signaling as a Better Model Than Market Economics
 
