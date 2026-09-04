@@ -383,6 +383,10 @@ The prosperity-vulnerability paradox: successful governance creates comfortable 
 
 **The mechanism:** Mandatory military or civic service maintains defensive capability and sacrifice-willingness despite prosperity.
 
+**Before the cases, the problem with the cases.** What follows is Switzerland, Israel and Singapore — three states with conscription and good outcomes. That is selection on the dependent variable, and it should be named rather than hoped past. The sample contains no state that conscripted and lost, and no state that abolished conscription and collapsed, which is most of NATO since 1990: Belgium, the Netherlands, France, Spain, Italy, Germany and Poland all ended peacetime conscription without any of them ceasing to exist. Each of the three cases also carries confounders the outcome column ignores. Switzerland has defensible terrain and spent both world wars being more useful to every belligerent as a functioning financial clearing house than as a conquest. Israel and Singapore are small states under sustained, visible external threat, which is itself a powerful source of cohesion whether or not anyone is conscripted.
+
+So the strong causal claim — conscription produces national survival — is not supported by this evidence and is not made here. **The narrower claim the cases do support is about composition rather than capability: service is one of the few remaining mechanisms that puts the children of the owning class in the same institution, under the same conditions, as everyone else.** That is the §3.1b governor stated in institutional form — the cap on internal competition holds while the competitors share the group's fate, and shared fate has to be manufactured once it stops arising naturally. Read the cases below for that, and note that Lee Kuan Yew's sons serving alongside working-class conscripts is a more relevant data point than Switzerland's non-invasion.
+
 **Empirical evidence:**
 
 **Switzerland (1815-present, 210 years):**
