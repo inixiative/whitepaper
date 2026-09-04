@@ -33,6 +33,20 @@ steps are where the content is.
 Length is not the enemy. Development takes space; compression that removes the reasoning has
 removed the content.
 
+**Scope: this governs argumentative prose only.** It applies where the document is trying to
+convince a reader of something contested. It does not apply to reference material, empirical
+case listings, data tables, mechanism specifications, parameter definitions, or implementation
+detail — those are correctly terse, and developing them is padding. Before applying the
+convention to a section, decide which kind it is. A section recording that Switzerland has
+maintained conscription since 1815 with the following outcomes is not an argument and does not
+need a road.
+
+The essay in `notes/` is a third case. Its register is deliberately different — long narrative
+paragraphs, no bold, rhetorical turns at paragraph ends. The convention still applies to it, but
+compression that is doing rhetorical work is not the defect this is aimed at. The test there is
+whether a reader who does not already agree can follow and check the reasoning, not whether the
+prose is dense.
+
 ## Where things live
 
 - `docs/` — the whitepaper proper, tracked.
