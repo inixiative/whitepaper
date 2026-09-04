@@ -638,41 +638,125 @@ Christopher Lasch's *The Revolt of the Elites* (1995) describes a professional a
 
 **This is also the strongest available form of the claim that the damage is intrinsic to modernity rather than incidental.** Modernity's founding moves—the individual as the only real unit, intermediate bodies dissolved, membership reconceived as a transaction, everything opened to the market—do not merely *permit* elite exit. They manufacture it, and they distribute it in near-exact proportion to capital. The class whose captivity the governor depended on is precisely the class modernity released first. Nothing in that requires anyone to have intended it. It follows from the premises.
 
-#### What Limited Absolute Power Was Never the Individual
+#### Why You Cannot Simply Opt Out, and What Has Ever Protected You Inside
 
-The preceding sections argue that dissolving intermediate bodies removed the governor on elite competition. There is a second and more serious consequence, and it lands on the strongest objection this framework faces: that individual rights must supersede everything, and that any argument recovering the collective is therefore an argument for tyranny.
+Start with the strongest version of the objection this whole section faces.
 
-The objection is right about the value and wrong about the mechanism that produced it. **Protection against absolute power is the central achievement being defended. It was never delivered by the individual.** It was delivered by rival collectives.
+Any argument for recovering the collective sounds like an argument for subordinating people to it. The twentieth century is the reason that objection has force, and anyone making the argument owes an answer rather than a dismissal. The answer runs in two parts: first why opting out is not on the menu, and then — given that — what has actually protected people from the entity they are inside.
 
-Magna Carta (1215) was not a person asserting a right against a king. It was twenty-five barons with private armies and sufficient leverage to compel a signature. The papacy against the crown through the Investiture Controversy and after; the chartered city with its own courts and militia; the guild; the estates; the Dutch provinces; the common-law bar as a self-governing body. Every historical limit on sovereign power took the same form: one organized body with independent standing and independent means forcing terms on another. Montesquieu named both the parts and the failure mode—the *corps intermédiaires*, whose destruction is precisely what converts a monarchy into a despotism.
+**Part one: where would you go?**
 
-**Individual rights are the downstream generalization of settlements between collectives.** The terms won by barons, churches, and chartered towns were later universalized to everyone, which is a real moral advance and not a debunking. But it makes rights an *output* of the apparatus rather than its foundation. And rights are not self-enforcing: a right is a claim that some party will bear a cost to defend, which requires that some party have both the capacity and the standing interest to bear it.
+Set aside whether a person *should* be able to opt out of the larger entity and ask whether they *can*. Suppose you decide that no group has any claim on you and you want out. Not out of one country and into another — out.
 
-Which produces the trap. **Dissolve the intermediate bodies in the name of individual rights, and the apparatus that generated the rights goes with them**, leaving the individual facing the state with nothing in between. This is Tocqueville's soft despotism: an immense tutelary power over persons who are equal, alike, and alone. Its precondition is not malice at the center but the absence of anything organized between the center and the person.
+Where do you go?
 
-**France ran the experiment.** The Le Chapelier law (1791) abolished guilds and workers' associations with the explicit stated purpose of leaving the citizen in direct, unmediated relation to the nation. What followed was not an expansion of liberty but the Terror and then Napoleon. Tocqueville's *The Old Regime and the Revolution* supplies the causal account: the centralizing monarchy had already hollowed the intermediate bodies, the Revolution completed the demolition, and absolutism is what fills the vacuum. The same statute is the origin of both arguments—the transfer of the right to combine documented in §3.1b, and the removal of the check on state power documented here. One instrument, two operations, which is the recurring structure of this section.
+Every habitable piece of land on the planet is claimed. Not "mostly." All of it. There is no unclaimed valley, no empty island, no stretch of desert that isn't inside somebody's border and on somebody's map. Antarctica is governed by treaty. The last genuinely unadministered places were gone by the middle of the last century.
 
-##### The atrocity objection, inverted
+Two exceptions, and they are the ones that prove the rule. You can go to sea, outside anyone's territorial water. And if you get to space with your own ship, you can do whatever you like. Both of those are real answers — and both are answers only because nobody has yet found it worth the cost of claiming them. The moment the deep seabed became worth mining, states began carving it up. The moment orbit became worth holding, the treaties started. What is unclaimed is what is not yet worth claiming.
 
-The strongest form of the anti-collectivist case is that collectivism supplied the excuse for the atrocities of the twentieth century. The historical record inverts it.
+So "I'll just be a sovereign individual" is not a political position. It is a statement about available real estate, and the real estate ran out. The frontier is a specific historical condition that closed, and most of the intuitions people carry about independence were formed while it was open.
 
-Hannah Arendt's finding in *The Origins of Totalitarianism* (1951) is that totalitarian movements require **atomized masses**—they recruit among people who have already lost their class, their associations, and their standing. Atomization is a precondition, not a consequence. The regimes confirm this by their opening acts. *Gleichschaltung* destroyed the German trade unions, the churches' institutional autonomy, the youth organizations, and the veterans' leagues. Stalin destroyed the peasant commune, the church, and the independent unions. In both cases the first move was the demolition of plural collectives, undertaken because those bodies were the only structures capable of organized resistance.
+**Why is all of it claimed?** Because that is what real things do. Everything alive holds territory — a wolf pack, an ant colony, a cell with a membrane deciding what crosses it. If the larger human entities are real in the sense §3.1 argues, then they hold territory for the same reason everything else does, and their doing so needs no more explanation than a cell having a wall.
 
-**The axis has therefore been drawn wrong for two centuries. The relevant variable is not individualism versus collectivism but plural collectives versus a monopoly collective.** And the two poles of the conventional framing collapse into each other: an atomized population and a single permitted collective are the same condition described from opposite sides, which is why the twentieth century produced both simultaneously and why the contemporary version arrived without a dictator. Where plural bodies are dissolved, the vacuum is filled by whatever retains the capacity to coordinate—which, per §3.1b, is the state and the corporation.
+Which changes the question. It was never individual *or* collective. You are inside one, permanently, with no exit to nowhere. The only live question is what terms you get in there — which is what this entire document is about.
 
-##### The design principle
+**The cell is the right analogy, and it cuts both ways.**
 
-**Power is checked only by power.** This is the operative conclusion, and it is not a hedge or a call for balance in the rhetorical sense. It is a claim about enforcement: a right holds exactly insofar as some body has the capacity and the interest to enforce it, and no declaration substitutes for that.
+One of your cells has real agency. It senses its surroundings, responds, makes something like decisions, and can act against the interests of the body. If it does that far enough, we call it cancer, and the body attempts to kill it.
 
-The founders of the American constitutional order agreed with this framing rather than its opposite. *Federalist* 10 explicitly refuses to abolish faction, on the grounds that removing the causes of faction is a remedy worse than the disease; the design keeps factions plural rather than eliminating them. *Federalist* 51's ambition-counteracting-ambition is a machine for maintaining rival power centers, not for dissolving them into individuals.
+That is not the body being tyrannical. It is the price of the arrangement, and every cell in you is living under it. There is some going along required to get along; a cell that recognizes no constraint from the whole is not free, it is a tumour, and it dies with the body it killed.
 
-The governance metric that follows is therefore not the individual-to-collective ratio but **the number of independent centers possessing both capacity and standing interest, and whether any is positioned to become absolute.** This reframes the design question posed in §3.1b: the requirement is not to strengthen the collective in general, which would license the monopoly case, but to maintain plurality under three constraints.
+But run it the other direction, because this half gets dropped. **A body made of suppressed, starved, unhealthy cells is a sick body.** It has no strength. Cellular health is not a concession the organism makes to its parts — it is the organism's own requirement, and a body that damages its cells to assert control over them is destroying itself in the act. The going-along has to be worth something to the cell, or there is nothing left to command.
 
-- **Plural, not merely multiple.** Independent centers must have independent means—own resources, own membership, own standing—or they are subsidiaries and count as one.
-- **Contestable.** Entry and formation must remain open, or plurality freezes into caste. This is the failure mode the anti-discrimination line of cases in §3.1b correctly targeted, and the reason a blanket rule against exclusion overcorrects rather than errs.
-- **Capped at the boundary.** Plural centers that cannot suspend their contest against external threat produce vetocracy rather than liberty—the failure mode Fukuyama identifies, and the same governor described earlier in this section, applied one level up.
+So the position here is not that the individual should yield. It is that treating the individual as the only real thing — which is well-meant, and is usually held by people trying to protect individuals — is blind to the situation people are actually in. It cannot see the entity you are inside, so it cannot ask the only useful question, which is how that entity should treat you.
 
-None of this weakens the case for individual rights. It identifies what those rights were always resting on, and it explains why two centuries of strengthening them by dissolving everything else has produced individuals who are formally freer and practically more exposed than at any point in the period.
+**Part two: so what has ever protected the cell?**
+
+Grant all of the above. You are inside a larger entity, permanently, and it has power over you. What has ever stopped it from having *all* the power over you?
+
+The expected answer is: individual rights. A person has rights, the state is limited by them, and that is the wall.
+
+Historically this is not what happened.
+
+Consider what Magna Carta actually was. Not a philosopher's argument that persons possess rights. It was twenty-five barons with private armies, a king who had lost a war in France and needed money, and enough concentrated force in one room that John signed rather than fight them. The document is a list of terms extracted under threat by an organized bloc. It is leverage written down.
+
+That is the pattern everywhere you look. The medieval church could resist kings because it had its own courts, its own revenue, its own personnel, and a parallel authority the king could not appoint. Chartered towns bought their liberties with cash and defended them with their own militia and their own courts. Guilds set the terms of their trades because they controlled who could practise them. The Dutch provinces held out against Spain as provinces. In each case a limit on absolute power came from the same source: one organized body with independent means forcing terms on another.
+
+Notice what is missing from that list. In none of these cases is the thing doing the limiting an individual asserting a right.
+
+**Rights are the terms those fights produced.** What the barons won was written down, and centuries later the terms were generalized — extended from barons to everyone, which is a real moral achievement and not a debunking of anything. But it makes rights the *output* of the machinery rather than its foundation.
+
+And that distinction is not academic, because **rights do not enforce themselves.** A right is a promise that somebody will bear a cost on your behalf when it is violated — will investigate, prosecute, litigate, refuse, resist. Somebody has to have both the capacity to do that and a standing interest in doing it. If nothing sits between you and the state, who is that?
+
+Montesquieu saw both halves of this and named them: the *corps intermédiaires*, the bodies standing between the sovereign and the subject, whose destruction is precisely what turns a monarchy into a despotism. Tocqueville described the endpoint — a soft despotism, an immense and orderly power over people who are equal, alike, and alone. His condition for it is not a cruel ruler. It is the absence of anything organized in between.
+
+**France ran this experiment, and the result is on the record.**
+
+The Le Chapelier law of 1791 abolished the guilds and banned workers from combining. The stated reason was liberty: no corporate body should stand between the citizen and the nation, and each Frenchman should face the republic directly as an individual. That was the argument, and the people making it meant it.
+
+What followed was not an expansion of liberty. It was the Terror, and then an emperor.
+
+Tocqueville's account in *The Old Regime and the Revolution* supplies the mechanism, and it is not that the revolutionaries were hypocrites. The centralizing monarchy had already spent a century hollowing out the intermediate bodies. The Revolution finished them. And when nothing organized remains between the centre and the individual, the centre expands into the space — not because anyone planned it, but because nothing is there to stop it.
+
+The same statute also transferred the right to combine, which §3.1b traces separately. One law, two consequences, both flowing from the same stated principle. That pairing keeps recurring in this section, and it is the reason single-axis reforms keep producing outcomes their authors did not intend.
+
+**Now the hardest objection, at full strength.**
+
+Collectivism supplied the justification for the worst atrocities of the twentieth century. Tens of millions of people died under regimes that spoke constantly about the group, the nation, the people, the class. Anyone arguing that we need more collective life has to account for that, and "those weren't real collectives" is not an account — it is a dodge.
+
+Here is the account. Look at what those regimes did *first*.
+
+*Gleichschaltung* in Germany dissolved the trade unions and replaced them with a single state front. It broke the churches' institutional independence, absorbed the youth organizations, and shut down the veterans' associations — the shooting clubs, the singing societies, the professional bodies. Stalin destroyed the peasant commune, subjugated the church, and eliminated independent unions. In both cases the demolition of existing collectives was among the very first acts, carried out urgently, before most of the killing started.
+
+Why the urgency? Because those bodies were the only structures capable of organized resistance. An individual dissenter is a police matter. A union, a church, or a veterans' league is a rival.
+
+Hannah Arendt's finding in *The Origins of Totalitarianism* is the same thing from the recruitment side: totalitarian movements draw their mass from people who have *already* lost their class, their associations, their standing — the atomized, not the embedded. Atomization is the precondition, not the result.
+
+**So the axis has been drawn wrong.** The question was never how much collective a society should have. It is how *many*.
+
+And once you see it that way, the two poles of the conventional argument collapse into each other. A population with no independent associations, and a population with exactly one permitted collective, are the same condition seen from two sides. That is why the twentieth century produced both at once and why nobody had to choose between them.
+
+It also explains why the current version needed no dictator. Dissolve the plural bodies for good reasons, one at a time, and the vacuum still fills — with whoever retains the capacity to coordinate. Which, as §3.1b documents, means the state and the corporation.
+
+**What follows for design.**
+
+The operative principle is that **power is checked only by power.** This is not a call for balance in the rhetorical sense. It is a claim about enforcement: a right holds exactly as far as some body has the capacity and the interest to enforce it, and no declaration substitutes for that.
+
+The American founders worked from this premise rather than its opposite, which is worth noting because they are usually recruited for the other side. *Federalist* 10 explicitly refuses to abolish faction — removing the causes of faction, Madison writes, is a remedy worse than the disease. The design keeps factions plural. *Federalist* 51's ambition-counteracting-ambition is machinery for maintaining rival power centres, not for dissolving them into citizens.
+
+So the governance metric is not the ratio of individual to collective. It is **how many independent centres exist that have both the capacity and the standing interest to hold the others to terms, and whether any one of them is positioned to become absolute.**
+
+That gives three constraints, and all three are needed — the first alone licenses exactly the monopoly case this section is arguing against.
+
+- **Plural, not merely multiple.** An independent centre needs independent means: its own resources, its own membership, its own standing. Bodies that depend on the state for funding, licensing, or existence are branches of it and count as one.
+- **Contestable.** Formation and entry stay open, or plurality hardens into caste — which is the real abuse the anti-discrimination cases in §3.1b were aimed at, and the reason a blanket rule against exclusion overcorrects rather than simply errs.
+- **Capped at the boundary.** Rival centres that cannot suspend their contest against an external threat produce paralysis rather than liberty. This is Fukuyama's vetocracy, and it is the same governor described earlier in this section, applied one level up.
+
+None of this weakens the case for individual rights. It identifies what they were resting on the whole time, and it explains why two centuries of strengthening them by dissolving everything else has produced people who are formally freer and practically more exposed than at any point in the period.
+
+#### Discussion: What We Can See at Our Own Scale
+
+*More speculative than the rest of this section, and flagged as such. The first part is load-bearing; the last part is offered as a question.*
+
+There is a reason the argument above feels wrong to people even after they follow it, and it is worth naming because it is a perceptual problem rather than a logical one.
+
+We see our own scale as the real one.
+
+Look downward, at the parts we are made of, and they read as *inconsequential*. A cell is a mechanism. It does not matter in itself; it matters as a component. Look upward, at the things we are part of, and they read as *abstract*. A nation is a concept, a company is a legal fiction, a culture is a way of speaking about many people at once. Neither of those readings comes from evidence. They come from where we happen to be standing.
+
+And both are strange when you check them. A neuron pulls back from heat. It senses damage and responds to it, has states it moves toward and states it moves away from. We do not call that experience, and probably we are right not to — but notice that our reason is mostly that we cannot see it from in here. A single cell inside a body is not obviously less real than the body, and it is not obviously without any interior at all. It is just too small and too silent for us to observe.
+
+The upward direction has the same problem in reverse. §3.1 argues that a self is a pattern at a scale rather than a particular lump of matter, and if that is right, then the entities above us are not less real than we are — they are just too large and too slow to be perceived directly. We infer them from their effects, which is exactly how we treat things we consider abstract, and exactly how a cell would have to treat us.
+
+This bears on how we assign moral standing, which is the part to hold loosely.
+
+We use the capacity to suffer as the criterion. A thing that can be hurt deserves consideration; a thing that cannot does not. It is a good criterion, it has done enormous moral work, and nothing here proposes replacing it. But it may not be the whole of it, and one reason to suspect so is that our ability to detect suffering falls off sharply in both directions from our own scale — which is a fact about our instruments, not about what is out there.
+
+The tractable end of this is observable and does not require settling anything about consciousness. **Societies get traumatized.** A defeat, an occupation, a famine, a partition — these leave marks that outlast every person who lived through them, transmitted through what gets taught, what is sayable, what the institutions are shaped to fear. And the marks get worked out on the members: a traumatized society reproduces its injury against its own constituents, often for generations, in ways no individual in it chose or benefits from.
+
+That much is documentable, and it matters practically. Whether it means the larger entity *experiences* anything is a much stronger claim, and this document does not need it.
+
+**One bound, because the abuse is obvious.** Nothing here licenses trading individuals off against the group's interest. The cell argument runs both directions: a body of damaged cells is a damaged body, and an entity that harms its members to assert its own standing is destroying the substrate it is made of. If the larger entity is real, then its members' condition is not separate from its own — which is a stronger argument for treating people well than the individualist one, not a weaker one, because it removes the option of the group prospering while its people do not.
 
 ### 3.1c The Peacock Feather Problem: Costly Signaling as a Better Model Than Market Economics
 
