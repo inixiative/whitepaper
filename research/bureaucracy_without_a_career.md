@@ -168,3 +168,22 @@ Working notes, not prose. Captured from conversation so they are here when this 
   finite budgets, reactive controls. The transcript that prompted this is History102's Belle
   Epoque episode, which supplied the Mosca/Pareto framing that bureaucracy took power while
   claiming moral progress, so its growth was never costed.
+- **Ministerial versus discretionary.** Administrative law already draws the line: a
+  ministerial act has no judgment in it (fee paid, form complete, stamp it) and mandamus lies
+  against it; a discretionary act has judgment. Nearly all bureaucratic volume is ministerial
+  and nearly none of the difficulty is. Automate the ministerial layer wholesale. The stamp is
+  the frankpledge: the verification signal, not the rule, is what lets strangers cooperate.
+- **Kleros gives you juries, not Solomon.** Schelling-point courts pay jurors for matching the
+  majority, so they converge on the focal answer. Good for questions with a shared focal point
+  (did the freelancer deliver). Solomon's judgment was valuable because it was not the focal
+  answer; it elicited a signal nobody had looked for. A Schelling court cannot do that by
+  construction. So the ladder has more rungs: automated verification, model first pass, second
+  pass on a different principal, sortition jury for focal cases, a human with authority for the
+  residue.
+- **Who climbs the ladder.** If the subject can always escalate, everyone does and the top rung
+  drowns. If the state decides, the channel is closed. Known answer: escalation costs something,
+  refunded on a win. Kleros does it with stake; the paper does it with finite audit budgets.
+- **What Solomon is accountable to.** Sortition does not produce him, election produces a
+  politician, appointment produces a bureaucrat. The old answer holds: tenure plus written
+  reasons. Public reasons become the record the next case is checked against, which is how the
+  discernment layer feeds the memory layer. The one step a model should never be allowed to skip.
