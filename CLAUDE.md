@@ -53,3 +53,5 @@ prose is dense.
 - `notes/` — drafts and working material, gitignored.
 - `notes/_build/` — the essay HTML generator and its recovered style block. Never regenerate the
   CSS by hand; it is the published artifact's own.
+- `tools/` — research helper scripts, tracked. Each has a README with install, usage, and the
+  failure modes already hit. Raw output goes to `notes/`, never straight into `docs/`.
