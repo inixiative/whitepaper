@@ -138,3 +138,33 @@ for the people who live under it to change it that does not run through the peop
 it. The first of those, the machine is about to hand us for free. The second we will have to
 build on purpose, and the window for doing it is the year before the ratchet works out what
 happened.
+
+---
+
+## Threads for the longer version
+
+Working notes, not prose. Captured from conversation so they are here when this gets developed.
+
+- **Reframe around the appeals channel.** The three functions above (memory, routing, rule
+  application) are what a bureaucracy does. What it provides, from the citizen's side, is an
+  appeals channel: somewhere a decision about you can be contested by reference to a public
+  rule and a public record. Ledger is the record, process is the rule for changing the record,
+  appeal is what makes either matter. A ledger with no appeal is surveillance; a process with no
+  appeal is ritual. The longer version should probably open here rather than with the permit
+  office.
+- **Form versus service.** We need the service bureaucracy provides. The form can be radically
+  different. Public ledgers and process are the invariants; the human organization was one
+  implementation.
+- **AI drops the cost of the appeal, not just the decision.** Today the appeal is the expensive
+  side (lawyer, a year, knowledge of the system). If a model can draft the appeal, find the rule,
+  and read the record, contesting a decision costs about what making one costs. This is the
+  strongest pro-AI point and the draft does not have it yet.
+- **The appeal must run on a different principal than the decision.** Same model hearing the
+  appeal as made the decision is a second opinion from the first opinion. Different operator,
+  different configuration, different incentives. Separation of powers restated for software.
+  This is the requirement to organize the longer piece around.
+- **Ties to the paper.** Doc 2 §4 dialectic 7 (bureaucracy vs chaos), §4.4 thin elites; Doc 3
+  §6.12.3 to §6.12.5 (accumulation limits, sortition, transparency), distributed audit with
+  finite budgets, reactive controls. The transcript that prompted this is History102's Belle
+  Epoque episode, which supplied the Mosca/Pareto framing that bureaucracy took power while
+  claiming moral progress, so its growth was never costed.
