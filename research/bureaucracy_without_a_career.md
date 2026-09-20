@@ -187,3 +187,25 @@ Working notes, not prose. Captured from conversation so they are here when this 
   politician, appointment produces a bureaucrat. The old answer holds: tenure plus written
   reasons. Public reasons become the record the next case is checked against, which is how the
   discernment layer feeds the memory layer. The one step a model should never be allowed to skip.
+- **The machinery a non-religious core needs.** Judaism read as a spec, not a religion: a shared
+  calendar (common time); rites of passage (transitions witnessed); a canon everyone has read;
+  a universal study obligation, not expert-only; internal courts (beit din); the obligation to
+  transmit written into the law itself; a protected core outside the optimization loop; and a
+  decentralized interpretive body with no pope, which is why it survived two millennia without a
+  state. Every item is an institution, none is a belief. A constitution has no children; Lincoln's
+  Lyceum "political religion" (1838) was the attempt to give it some, and it was the propagative
+  layer that got optimized away.
+- **Can code be sacred?** No, only slow. The ledger, process, and verification are buildable now.
+  What technology does not obviously supply is the unarguable core. One candidate: a true, visible
+  record of what you put into a thing that outlasts you, and what it put into you. The transcendence
+  receptor fed by a fact rather than a belief. Open question whether a record can carry the weight a
+  commandment carried.
+- **Diagnoses of the lost common language.** Bellah, *Habits of the Heart* (1985): individualism as
+  first language, tradition as a silent second. MacIntyre, *After Virtue* (1981): fragments of a
+  moral vocabulary with the theory gone. Both are the 80s noticing the flattening of value
+  dimensions while it happened.
+- **AI and Edelson's Law.** Doc 1 already says AI is captured by it. Mechanism: a model produces the
+  most plausible bridge between distant points, and plausibility is what it is optimized for;
+  insight versus confabulation is settled only by contact with something outside the text. So the
+  working division is human selection, model search. Same as the different-principals requirement
+  above, applied to the author and the tool.
