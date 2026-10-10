@@ -909,6 +909,8 @@ Community can challenge classification during deliberation period. If majority d
 
 Some policies are correct and unpopular in that order. Light rail that narrows a freeway, densification, base closures, pension reform — the cost lands first and visibly, the benefit arrives later and diffusely, so the policy polls terribly right up until it polls well. A governance system that punishes leaders for month-2 sentiment kills exactly these. But "trust us, it hurts before it works" is also the historical cover for liability shields, bailouts, and emergency-powers ratchets, which are not J-curves — they are permanent transfers wearing a J-curve's clothes. The system needs to tell them apart *ex ante*, not litigate them after.
 
+Public transport supplies the clearest record. Stockholm's congestion charge had the support of about 36% of residents when its six-month trial began in January 2006. By the end of the trial, with traffic visibly down, support was 54%, and a referendum that autumn kept the charge. A year later support was 66%, and by 2013 it was over 70%. Copenhagen closed its main shopping street, Strøget, to cars in 1962 over the objections of shopkeepers, the police and the city engineer, who argued that Danes did not have the temperament for that kind of public life. Within a few years the street had more shoppers and more street life, and pedestrian streets spread through the city. New York's 14th Street busway, launched in 2019, was delayed by a lawsuit from neighborhood block associations; within a year the city made it permanent. New York's congestion pricing is following the same path in real time: one pollster found city support rising from 32% to 42% in its first two months, while others still showed majority opposition. Each of these would have died if it had been judged on its first few months of sentiment.
+
 Alongside the inixiative/infrastructure classification, a proposal may carry a **declared pain window** — and its legitimacy is tested against four conditions, all of which must hold:
 
 1. **Bounded window.** A stated end date, declared at proposal time. Unbounded insulation is disqualifying — a pain window with no resolution date is just a permanent exemption.
@@ -917,6 +919,10 @@ Alongside the inixiative/infrastructure classification, a proposal may carry a *
 4. **Same-population incidence.** The pain and the benefit must land on the same population, time-shifted — not on different groups. Light rail's disruption and its payoff both accrue to the corridor's residents. A liability shield concentrates the benefit on producers and the exposure on the public: different populations, which is disqualifying.
 
 Infrastructure with a genuine cost-then-benefit profile passes all four. Liability shields, bailouts, and emergency-powers ratchets each fail at least two — typically the recourse test and the same-population test. As with the type classification, the community can challenge a declared pain window; if the challenge succeeds, it escalates to meta-governance, and the burden is on the proposer to justify the insulation.
+
+Some J-curves only bend when several policies run together: a congestion charge needs the added bus service that gives drivers somewhere to go. A Type B package (§6.3.7) can therefore declare one joint pain window and one joint vindication test, so the package is judged as the system it is rather than piece by piece.
+
+Two problems stay open. First, the pain window only protects a J-curve its proposer predicted. A policy whose early opposition surprises everyone can be repealed before it has had time to work, and letting anyone claim a J-curve after launch would let every failing policy claim one. Second, people adapt. Once a benefit becomes normal it stops registering in sentiment, so the felt signal under-credits what is quietly load-bearing. The review vote helps here, since people still vote to keep what they no longer notice. Transmission (§6.17) is the deeper answer: teaching people what holds their life up is part of what a culture is for.
 
 **The Schelling point shift:**
 **Before:** All proposals treated equally → either everything needs supermajority (stagnation) or everything passes easily (instability)
@@ -950,7 +956,7 @@ Design sketch. Leaders (formal stewards or elected proposers) receive:
 - **Persistence cadence:** quarterly payments to reduce short-term volatility; payment continues while the policy stands and stops when it is repealed or fails a reconfirmation review.
 - **Sunset review:** every policy faces periodic review windows (e.g., 1 year, 3 years, 7 years). During review, citizens allocate points; failure to meet threshold triggers remediation or sunset.
 - **Revocation threshold:** only strong multi-tier disapproval (e.g., large negative point plurality in both local and regional tiers) can trigger emergency revocation outside normal windows.
-- **Clawback limits:** avoid punitive retroactive clawbacks; instead make future payoffs cease and attach reputational penalties to prevent chilling effect on experimentation.
+- **Clawback limits:** for a policy that simply failed, avoid punitive retroactive clawbacks; instead make future payoffs cease and attach reputational penalties to prevent chilling effect on experimentation. Corruption is different. Deferred pay is a bond, forfeited in full on a corruption finding (see Standard of Reasoning, three tiers of fault).
 
 #### 6.5.7 Interaction with Lifecycle & Standardization Tradeoffs
 
@@ -1272,6 +1278,14 @@ These domains remain in the realm of informal social evaluation, where they belo
 ### 6.7 Memory and Truth Mechanisms: Implementing Tracking Without Censorship
 
 **Specification connection:** This section implements the requirements for Memory and Truth. The challenge is navigating the dialectic between free speech and accountability, signal and noise, consensus and innovation—without creating a Ministry of Truth or chilling exploration.
+
+**The strongest objection.** Speech may not work like a market. In a market, competition improves both sides. Manipulation spreads more like contamination: clean signal does not clean dirty signal, but dirty signal spoils what it touches. Repetition alone raises belief, even in people who already know the true answer. If that is right, more speech does not fix bad speech, and the obvious conclusion is to limit it. Serious liberal philosophers now argue exactly this.
+
+There is a second problem, and it explains why individuals rarely correct themselves. For any one person, a belief about the climate, a vaccine or a distant war has almost no practical consequence. Their vote is one in millions and their opinion changes nothing. But the belief has large social consequences: holding the wrong one can cost friends, standing, a job. So holding whatever one's group holds is individually rational even when it is collectively disastrous. This is Dan Kahan's finding, and Steven Pinker builds on it. The real consequences of a belief land on the society. The social consequences land on the person. The incentives point the wrong way.
+
+We accept both diagnoses and reject the obvious remedy. Limits on speech need someone to set them, and that someone becomes the most valuable thing in the society to capture. A government handed this tool grows into it. That is what the old protections exist to prevent, and the second-order effects of speech remedies run larger than their advocates admit.
+
+But refusing to censor is not the same as refusing to curate. Free societies gave up curating, and the channels went to whoever would pay to fill them. The mechanisms in this section are curation without a censor. Staked speech (6.7.1) reverses Kahan's incentive: a belief offered as a claim carries a consequence for the person making it, and the consequence is visible and lasting. Controversy detection (6.7.2) makes coordinated campaigns visible. Claim tracking (6.7.3) keeps the record. The positive half — putting good signal out deliberately, ahead of the bad — belongs to the Cultural Charter (6.17).
 
 #### 6.7.1 Dual-Tier Communication: Free Speech vs. Staked Speech
 
@@ -2484,12 +2498,40 @@ The principle is consistent: concentrated control becomes increasingly expensive
 1. **Default to action:** Within decision budget and domain constraints, act without pre-approval.
 2. **Record everything:** All decisions logged—not for permission, but for pattern detection.
 3. **Anomaly surfacing:** Algorithms flag unusual patterns for human review after the fact.
-4. **Correction, not punishment:** First-time errors in good faith → correction and learning. Repeated patterns or bad faith → escalating consequences.
+4. **Correction, not punishment, for honest error:** Sound, recorded reasoning that turned out wrong → correction and learning. Negligence, waste and bad faith → consequences, graded by the three tiers below.
 5. **Stop-loss triggers:** Automatic review when cumulative impact crosses thresholds.
 
 **The culture shift:** From "get permission" to "act and be accountable." From "don't get blamed" to "learn and improve." This requires trust—which is why it must be paired with genuine consequences for bad actors and genuine support for good-faith errors.
 
 **What this enables:** High-agency people stay. Initiative survives. Organizations move faster. Learning happens. The subset of genuinely dangerous decisions still gets pre-approval—but the default flips from "prove you should" to "just do it."
+
+#### Standard of Reasoning: Replacing Standard of Care
+
+Standard of care sounds fair, and part of it is. A doctor who follows accepted practice should not be ruined because a patient died anyway. Outcomes in complex systems have many causes, and punishing bad luck teaches people to avoid hard cases.
+
+So institutions protect conformity instead. Follow the protocol and you are covered. A drug with regulatory approval, a paper that passed peer review, a decision that went through committee: each carries an approval the person acting can point to.
+
+Now ask what that approval covers. A doctor keeps prescribing an approved drug while watching it harm patients. The approval says it is safe, the doctor's own eyes say otherwise, and the protocol protects the prescription. A paper passes review, fails to replicate, and keeps its stamp. Its reviewers were anonymous, unpaid and unaccountable, and they lose nothing. In each case the harm is real and nobody owns it. The shield cannot tell the careful from the careless. It protects everyone who conforms (Document 1's standard-of-care equilibrium) and exposes the one person who departed from protocol for a good reason. Over time it selects for conformity over judgment, and it lets everyone stop looking. Specialization already pushes people to hand their sensemaking to someone else (Document 1, offloaded sensemaking). The shield makes handing it off the safe choice.
+
+This is borrowed power again (Document 1, Polybius point 6). When you do not own a decision, the protocol is your only protection, and the protection becomes the thing people optimize.
+
+Protocols also freeze judgment into thresholds. Research came to treat "statistically significant" as the test of whether an effect is real, and significance hardened into a ritual of its own (the argument of *The Cult of Statistical Significance*). But significance measures how sure we are that an effect exists, not how large it is. A treatment with a weaker significance score and six times the effect can be the better choice. What a patient or a policy actually gets is the expected effect: size weighted by likelihood. A protocol that only asks whether the result cleared the threshold has thrown away the question that matters.
+
+The repair keeps the true part and drops the shield. Do not punish bad luck. Judge the *decision*, not the outcome, and judge it by its reasoning, not its conformance. Given what was knowable at the time, was it thought through, and is the why written down (§6.8A.2)? Approval and protocol become evidence. In the ordinary case they are a strong prior. Once you have seen them fail in front of you, they are no defense. The person acting keeps the duty to keep looking.
+
+Three tiers of fault replace the split between good faith and bad:
+
+- **Honest error.** The reasoning was sound and recorded, and the outcome was bad. Correct and learn, with no penalty. This tier is what lets people take hard cases.
+- **Negligence.** The reasoning was missing or careless: the decision nobody thought about, the money spent because the budget was there, the harm seen and ignored because the protocol allowed it. Real consequences follow.
+- **Corruption or recklessness.** Deferred pay is forfeited in full (§6.5), the person is removed, and the case is referred onward.
+
+Intent is not one of the tests. Nobody experiences themselves as acting badly. People confabulate good motives for whatever they did (Document 1), so stated intention is the easiest thing to offer and the hardest to check, and it often masks the very thing being judged. The tiers ask about care and reasoning, which leave a record.
+
+Attribution follows the same split. At the top, leaders hold owned power, so they own the whole outcome. They are paid on the broad did-this-work signal (§6.5), and no apportioning is needed. Below the top, a decision belongs to whoever signed it. One person signs; committees advise (Document 2, the empowerment–compensation–consequence triad). The standard of reasoning judges a signed decision without pretending the signer caused everything that followed.
+
+The same attribution problem, run through the courts, explains why a society can become very safe and very fragile at once. Liability can only punish a harm someone can prove. A child who breaks an arm on a tall slide is a clear case: a visible injury, a defendant, a date. A generation of children who never learned to judge a risk, because every tall slide was taken out, is not a case at all. That harm is spread across millions of people and decades, and no one can be named. So liability does exactly what it is built to do. It drives down the harms that can be proved, and it cannot see the ones that cannot. The immediate injuries disappear. The second-order harms grow, because nothing pushes back on them: lost resilience, defensive medicine that orders tests to avoid a lawsuit rather than to help a patient, and decisions nobody will make because somebody could sue. This is the standard-of-care shield seen from outside. Protocol protects the individual from the provable harm, and everyone else absorbs the unprovable one. The standard of reasoning asks the missing question: did the decision weigh its second-order effects, or only avoid a suit? How much ordinary, survivable risk a society keeps on purpose is the prosperity–hardness dial (Document 2 §3.7), and it is set by default whenever nobody sets it deliberately.
+
+Review gets the same treatment. Reviews are signed, and a reviewer's endorsement is a staked claim (§6.7.1), tracked against replication over time (§6.7.3). A reviewer who passes work that fails builds a record, just as its author does. Review goes back to being colleagues putting their names to a judgment.
 
 ### 6.14 Why These Mechanisms Are Now Possible
 
@@ -2830,11 +2872,27 @@ Friction should scale with centrality. Changing what's at the core requires more
 
 For boundaries, friction prevents erosion through incremental low-stakes changes that accumulate into fundamental transformation. For orientation, friction ensures that directional shifts are deliberate—that the community consciously chooses to reorient rather than drifting unconsciously under competitive pressure.
 
+**Transmission**
+
+A charter that is only written down fades. The text is the anchor, but culture moves through other channels: repetition, imitation, and what people see honored or ignored. These channels are old and strong. People come to believe what they hear repeatedly, even when they know better. In Solomon Asch's line experiments, about a third of answers went along with a group that was plainly wrong. In network experiments, a committed minority of around a quarter can flip a group's norm. Axelrod's tournaments show the cooperative version: a small cluster of cooperators who mostly deal with each other can spread through a population of defectors.
+
+These channels are neutral. They carry propaganda and they carry the habits that let a people cooperate, by the same means. They are also always running. A society cannot switch them off. It can only choose whether to use them.
+
+Free societies mostly chose not to, and the reason was a good one. Isaiah Berlin distinguished two kinds of liberty. Negative liberty is freedom from interference. Positive liberty is freedom to become something, and when rulers decide what people should become, it ends in "we will force you to be free." Having watched that in the twentieth century, liberals settled on negative liberty alone. It guards against tyranny, but it supplies no direction. A society that transmits nothing of its own does not end up with a neutral culture. It ends up with whatever culture its most committed and best-funded minority transmits.
+
+What gets lost is mostly tacit, which makes this worse. Institutions work best when they are first built, by people who understand why each practice exists. Samo Burja's observation is that the understanding transfers poorly while the practice transfers well. A few generations on, the practice continues and its reason is gone. That is Document 1's cargo cult. Two societies with the same tools on the same land can support very different populations, because how a people cooperates, raises children and settles disputes is a technology too. Physical technology spreads easily because it is legible. Social technology is partly invisible even to the people running it, and it decays when no one is deliberately passing it on.
+
+The charter takes a third path between the two liberties. The society chooses the direction itself, through the same member input that keeps the charter current. That direction is carried only by positive means: teaching, honors, prominence, what gets memorialized. It is never carried by bans. Transmission is funded like any other public good, through the allocation mechanisms of §6.3, and it answers to the same signal. So the people steering the culture stay coupled to the people living in it. Abandoning transmission is not neutrality. It hands the channels to someone else.
+
+Transmission also needs time, and a society that spends every hour producing has none left for it. This is a coordination problem. Any one family that stops to pass things on falls behind the ones that keep working. The Sabbath solved it by having everyone stop at once (Document 1). A society that loses its common time loses what made it productive in the first place, and then it stops reproducing itself, culturally and literally.
+
+How much a society does together, and how much each person does alone, is a dial, not a principle. A large space of personal choice depends on a society that works. Setting that dial, deciding together what is held in common, is coordination work that free societies stopped doing. The charter is where it gets done.
+
 **Implementation**
 
 A Cultural Charter mechanism includes explicit position for each provision along the center-periphery spectrum, with amendment thresholds that scale accordingly. Changes at any position record who proposed them, what reasoning supported them, and what vote occurred—permanently preserved and publicly accessible. Rate limiting prevents capture via rapid-fire amendments. Cooling periods between proposal and vote ensure deliberation rather than reactive decision-making. Relocating a provision toward or away from the center—changing its centrality rating—should itself require significant friction, since reclassification is a backdoor to changing what's protected.
 
-The boundary section establishes what members must and must not do, with clear consequences for violation. The orientation section establishes what the community aspires to—explicit, referenceable, citable in decisions. Orientation isn't enforced through punishment for insufficient embodiment; you cannot punish someone for failing to fully live up to an aspiration. But actively working against stated orientation—sabotaging the direction rather than merely falling short—is a different matter, addressable through existing boundary mechanisms or community response.
+The boundary section establishes what members must and must not do, with clear consequences for violation. The orientation section establishes what the community aspires to—explicit, referenceable, citable in decisions. Orientation isn't enforced through punishment for insufficient embodiment; you cannot punish someone for failing to fully live up to an aspiration. But actively working against stated orientation—sabotaging the direction rather than merely falling short—is a different matter, addressable through existing boundary mechanisms or community response. Orientation is transmitted, not only recorded. The charter names what the community honors and teaches, and its transmission budget is allocated like any other public good. That budget can honor, teach and memorialize. It has no power to penalize.
 
 How does orientation function in practice? When disputes arise that boundaries don't resolve—where multiple options are permissible but the community must choose—orientation provides the tiebreaker. "Which option moves us toward what we said we're trying to do?" This can be invoked formally in governance processes or informally in discussion. The key is that the reference point exists and is citable. Without explicit orientation, such disputes resolve through power or exhaustion. With it, there's a shared standard to argue from.
 
