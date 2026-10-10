@@ -2501,23 +2501,29 @@ The principle is consistent: concentrated control becomes increasingly expensive
 
 #### Standard of Reasoning: Replacing Standard of Care
 
-Standard of care sounds fair, and part of it is. A doctor who follows accepted practice should not be ruined because a patient died anyway. Outcomes in complex systems have many causes, and punishing people for bad luck teaches them to avoid hard cases.
+Standard of care sounds fair, and part of it is. A doctor who follows accepted practice should not be ruined because a patient died anyway. Outcomes in complex systems have many causes, and punishing bad luck teaches people to avoid hard cases.
 
-So institutions protect conformity instead. Follow the protocol and you are covered. Science does the same thing through peer review: a paper that passed review carries an approval its authors can point to.
+So institutions protect conformity instead. Follow the protocol and you are covered. A drug with regulatory approval, a paper that passed peer review, a decision that went through committee: each carries an approval the person acting can point to.
 
-Now ask what the protection actually covers. A protocol followed when it plainly did not fit the case. A review that no one signed, no one was paid for, and no one can be held to. In both cases the harm is real and nobody owns it. The shield does not tell the careful from the careless. It protects everyone who conforms (Document 1's standard-of-care equilibrium), and it exposes the one person who departed from protocol for a good reason. Over time it selects for conformity and against judgment. Peer review shows the whole cycle. Reviewers are anonymous and unaccountable. "Peer-reviewed" becomes a stamp the authors borrow. When the result fails to replicate, the reviewers lose nothing and the stamp stays. This is borrowed power again (Document 1, Polybius point 6). When you do not own a decision, the protocol is your only protection, and the protection is what people learn to optimize.
+Now ask what that approval covers. A doctor keeps prescribing an approved drug while watching it harm patients. The approval says it is safe, the doctor's own eyes say otherwise, and the protocol protects the prescription. A paper passes review, fails to replicate, and keeps its stamp. Its reviewers were anonymous, unpaid and unaccountable, and they lose nothing. In each case the harm is real and nobody owns it. The shield cannot tell the careful from the careless. It protects everyone who conforms (Document 1's standard-of-care equilibrium) and exposes the one person who departed from protocol for a good reason. Over time it selects for conformity over judgment, and it lets everyone stop looking. Specialization already pushes people to hand their sensemaking to someone else (Document 1, offloaded sensemaking). The shield makes handing it off the safe choice.
 
-The repair keeps the true part and drops the shield. Do not punish bad luck. But judge the *decision*, not the outcome, and judge it by its reasoning, not by its conformance. Given what was knowable at the time, was it thought through, and is the why written down (§6.8A.2)? Protocol becomes evidence about the reasoning. Following it is a good reason in the ordinary case and no reason at all when the case plainly did not fit.
+This is borrowed power again (Document 1, Polybius point 6). When you do not own a decision, the protocol is your only protection, and the protection becomes the thing people optimize.
 
-Three tiers of fault replace the two-way split between good faith and bad:
+Protocols also freeze judgment into thresholds. Research came to treat "statistically significant" as the test of whether an effect is real, and significance hardened into a ritual of its own (the argument of *The Cult of Statistical Significance*). But significance measures how sure we are that an effect exists, not how large it is. A treatment with a weaker significance score and six times the effect can be the better choice. What a patient or a policy actually gets is the expected effect: size weighted by likelihood. A protocol that only asks whether the result cleared the threshold has thrown away the question that matters.
+
+The repair keeps the true part and drops the shield. Do not punish bad luck. Judge the *decision*, not the outcome, and judge it by its reasoning, not its conformance. Given what was knowable at the time, was it thought through, and is the why written down (§6.8A.2)? Approval and protocol become evidence. In the ordinary case they are a strong prior. Once you have seen them fail in front of you, they are no defense. The person acting keeps the duty to keep looking.
+
+Three tiers of fault replace the split between good faith and bad:
 
 - **Honest error.** The reasoning was sound and recorded, and the outcome was bad. Correct and learn, with no penalty. This tier is what lets people take hard cases.
-- **Negligence.** The reasoning was missing or careless: the decision nobody thought about, the money spent because the budget was there. Real consequences follow. Good intentions are not a defense. The test is care, not motive.
+- **Negligence.** The reasoning was missing or careless: the decision nobody thought about, the money spent because the budget was there, the harm seen and ignored because the protocol allowed it. Real consequences follow.
 - **Corruption or recklessness.** Deferred pay is forfeited in full (§6.5), the person is removed, and the case is referred onward.
 
-Attribution follows the same split. At the top, leaders hold owned power, so they own the whole outcome. They are paid on the broad did-this-work signal (§6.5), and no apportioning is needed. Below the top, a decision belongs to whoever signed it. One person signs; committees advise (Document 2, the empowerment–compensation–consequence triad). The standard of reasoning is how a signed decision gets judged without pretending the signer caused everything that followed.
+Intent is not one of the tests. Nobody experiences themselves as acting badly. People confabulate good motives for whatever they did (Document 1), so stated intention is the easiest thing to offer and the hardest to check, and it often masks the very thing being judged. The tiers ask about care and reasoning, which leave a record.
 
-Review gets the same treatment. Reviews are signed, and a reviewer's endorsement is a staked claim (§6.7.1), tracked against replication over time (§6.7.3). A reviewer who passes work that fails builds a record, just as its author does. Review goes back to being what it was meant to be: colleagues putting their names to a judgment.
+Attribution follows the same split. At the top, leaders hold owned power, so they own the whole outcome. They are paid on the broad did-this-work signal (§6.5), and no apportioning is needed. Below the top, a decision belongs to whoever signed it. One person signs; committees advise (Document 2, the empowerment–compensation–consequence triad). The standard of reasoning judges a signed decision without pretending the signer caused everything that followed.
+
+Review gets the same treatment. Reviews are signed, and a reviewer's endorsement is a staked claim (§6.7.1), tracked against replication over time (§6.7.3). A reviewer who passes work that fails builds a record, just as its author does. Review goes back to being colleagues putting their names to a judgment.
 
 ### 6.14 Why These Mechanisms Are Now Possible
 
