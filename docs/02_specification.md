@@ -1971,6 +1971,10 @@ The current system uses committees precisely to avoid this: diffuse the decision
 
 Decision authority should scale with personal accountability. Someone who faces real consequences for failure should have corresponding autonomy to act. Someone insulated from consequences should have minimal autonomous authority. The current system inverts this: those with the most power (executives, committees, agencies) face the least personal consequence, while those with the least power bear disproportionate liability for following orders.
 
+**Size Pay Against the Bribe, Not the Market**
+
+This is the principal–agent problem at its sharpest. Buying a politician is one of the best investments available. A study of the 2004 corporate tax holiday found that firms got back about $220 for every dollar they spent lobbying for it (Alexander, Mazza and Scholz, 2009). Against returns like that, a modest salary and a weak ethics rule are not a deterrent. Honesty has to win in expected value. Pay has to be high enough that a bribe is not worth the risk, and part of it has to be deferred, so the official has something large to lose. Deferred pay is a bond: it stops if a policy fails, and it is forfeited in full if the official is corrupt (Document 3 §6.5). The same logic applies to bureaucrats with real discretion. Pay well, defer some, and make waste and corruption cost far more than they could ever return.
+
 **The Spending-Saving-Outcome Disconnect**
 
 Current systems incentivize spending and punish saving, while correlating neither with outcomes:

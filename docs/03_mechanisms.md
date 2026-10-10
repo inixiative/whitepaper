@@ -950,7 +950,7 @@ Design sketch. Leaders (formal stewards or elected proposers) receive:
 - **Persistence cadence:** quarterly payments to reduce short-term volatility; payment continues while the policy stands and stops when it is repealed or fails a reconfirmation review.
 - **Sunset review:** every policy faces periodic review windows (e.g., 1 year, 3 years, 7 years). During review, citizens allocate points; failure to meet threshold triggers remediation or sunset.
 - **Revocation threshold:** only strong multi-tier disapproval (e.g., large negative point plurality in both local and regional tiers) can trigger emergency revocation outside normal windows.
-- **Clawback limits:** avoid punitive retroactive clawbacks; instead make future payoffs cease and attach reputational penalties to prevent chilling effect on experimentation.
+- **Clawback limits:** for a policy that simply failed, avoid punitive retroactive clawbacks; instead make future payoffs cease and attach reputational penalties to prevent chilling effect on experimentation. Corruption is different. Deferred pay is a bond, forfeited in full on a corruption finding (see Standard of Reasoning, three tiers of fault).
 
 #### 6.5.7 Interaction with Lifecycle & Standardization Tradeoffs
 
@@ -2492,12 +2492,32 @@ The principle is consistent: concentrated control becomes increasingly expensive
 1. **Default to action:** Within decision budget and domain constraints, act without pre-approval.
 2. **Record everything:** All decisions logged—not for permission, but for pattern detection.
 3. **Anomaly surfacing:** Algorithms flag unusual patterns for human review after the fact.
-4. **Correction, not punishment:** First-time errors in good faith → correction and learning. Repeated patterns or bad faith → escalating consequences.
+4. **Correction, not punishment, for honest error:** Sound, recorded reasoning that turned out wrong → correction and learning. Negligence, waste and bad faith → consequences, graded by the three tiers below.
 5. **Stop-loss triggers:** Automatic review when cumulative impact crosses thresholds.
 
 **The culture shift:** From "get permission" to "act and be accountable." From "don't get blamed" to "learn and improve." This requires trust—which is why it must be paired with genuine consequences for bad actors and genuine support for good-faith errors.
 
 **What this enables:** High-agency people stay. Initiative survives. Organizations move faster. Learning happens. The subset of genuinely dangerous decisions still gets pre-approval—but the default flips from "prove you should" to "just do it."
+
+#### Standard of Reasoning: Replacing Standard of Care
+
+Standard of care sounds fair, and part of it is. A doctor who follows accepted practice should not be ruined because a patient died anyway. Outcomes in complex systems have many causes, and punishing people for bad luck teaches them to avoid hard cases.
+
+So institutions protect conformity instead. Follow the protocol and you are covered. Science does the same thing through peer review: a paper that passed review carries an approval its authors can point to.
+
+Now ask what the protection actually covers. A protocol followed when it plainly did not fit the case. A review that no one signed, no one was paid for, and no one can be held to. In both cases the harm is real and nobody owns it. The shield does not tell the careful from the careless. It protects everyone who conforms (Document 1's standard-of-care equilibrium), and it exposes the one person who departed from protocol for a good reason. Over time it selects for conformity and against judgment. Peer review shows the whole cycle. Reviewers are anonymous and unaccountable. "Peer-reviewed" becomes a stamp the authors borrow. When the result fails to replicate, the reviewers lose nothing and the stamp stays. This is borrowed power again (Document 1, Polybius point 6). When you do not own a decision, the protocol is your only protection, and the protection is what people learn to optimize.
+
+The repair keeps the true part and drops the shield. Do not punish bad luck. But judge the *decision*, not the outcome, and judge it by its reasoning, not by its conformance. Given what was knowable at the time, was it thought through, and is the why written down (§6.8A.2)? Protocol becomes evidence about the reasoning. Following it is a good reason in the ordinary case and no reason at all when the case plainly did not fit.
+
+Three tiers of fault replace the two-way split between good faith and bad:
+
+- **Honest error.** The reasoning was sound and recorded, and the outcome was bad. Correct and learn, with no penalty. This tier is what lets people take hard cases.
+- **Negligence.** The reasoning was missing or careless: the decision nobody thought about, the money spent because the budget was there. Real consequences follow. Good intentions are not a defense. The test is care, not motive.
+- **Corruption or recklessness.** Deferred pay is forfeited in full (§6.5), the person is removed, and the case is referred onward.
+
+Attribution follows the same split. At the top, leaders hold owned power, so they own the whole outcome. They are paid on the broad did-this-work signal (§6.5), and no apportioning is needed. Below the top, a decision belongs to whoever signed it. One person signs; committees advise (Document 2, the empowerment–compensation–consequence triad). The standard of reasoning is how a signed decision gets judged without pretending the signer caused everything that followed.
+
+Review gets the same treatment. Reviews are signed, and a reviewer's endorsement is a staked claim (§6.7.1), tracked against replication over time (§6.7.3). A reviewer who passes work that fails builds a record, just as its author does. Review goes back to being what it was meant to be: colleagues putting their names to a judgment.
 
 ### 6.14 Why These Mechanisms Are Now Possible
 
